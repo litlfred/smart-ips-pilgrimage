@@ -31,12 +31,13 @@ Description: "Clinical document used to represent the International Patient Summ
 // Invariant: hajj-consents
 // Description: "Check that there are at least two HajjConsent resources, one of which is is for KSA and the other not KSA (but represents the origin country of the pilgrim)"
 // Severity: #warning
+// The Hajj consent code is carried in Consent.policyRule (not in provision.purpose, which holds the purpose of use, TREAT).
 // Expression: "
-// entry.select(resource as Consent).provision.purpose.exists(
-//    code.memberOf('http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.CONSENT') and code.value = 'CONSENT-KSA'
+// entry.select(resource as Consent).policyRule.coding.exists(
+//    system = 'http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT' and code = 'CONSENT-KSA'
 //  )
 // and
-// entry.select(resource as Consent).provision.purpose.exists(
-//    code.memberOf('http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.CONSENT') and code.value != 'CONSENT-KSA'
+// entry.select(resource as Consent).policyRule.coding.exists(
+//    system = 'http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT' and code != 'CONSENT-KSA'
 //  )
 // "
