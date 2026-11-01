@@ -52,3 +52,18 @@ auto-save-list
 tramp
 .\#*
 .swp
+
+# Harness (smart-ips-pilgrimage#6)
+# BEGIN index mounts (generated from index.config.json — do not edit)
+/smart-base/
+/fhir-harness/
+/folio-assistant-core/
+/cat-harness/
+/cat-harness-tools/
+/bootstrap/
+/bootstrap-tools/
+# END index mounts
+node_modules/
+/docs/
+/ns/context/v1.jsonld
+fhir-ast/
