@@ -14,7 +14,7 @@ This implementation guide includes a machine-readable representation of WHO guid
 
 The guide is part of the <a href="https://www.who.int/teams/digital-health-and-innovation/smart-guidelines">WHO SMART Guidelines approach</a> to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology.
 
-Supporting guidance, recommendations, resources, and standards are included in the <a href="references.html">References</a> and <a href="dependencies.html">Dependencies</a>.
+Supporting guidance, recommendations, resources, and standards are included in the <a href="en/folio-assistant-core/bibliography/">Bibliography</a> and <a href="dependencies.html">Dependencies</a>.
 
 Eligible Participants may request to join through the <a href ="Letter_of_Application_IPS_Pilgrimage_1.0.docx">The Letter of Application</a>
 <br/>
