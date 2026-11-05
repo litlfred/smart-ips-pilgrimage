@@ -20,6 +20,8 @@ Eligible Participants may request to join through the <a href ="Letter_of_Applic
 <br/>
 
 <img src="workflow.png" alt="Overview of key clinical process flows" style="width:60%"/>
+
+Follow one pilgrim through these steps in [The Pilgrim's Journey](pilgrim-journey.html).
 <br clear="all"/>
 
 ### About this implementation guide

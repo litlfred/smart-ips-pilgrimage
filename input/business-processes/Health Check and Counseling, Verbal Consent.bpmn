@@ -172,7 +172,7 @@
       <bpmn:outgoing>Flow_1xml6e9</bpmn:outgoing>
       <bpmn:outgoing>Flow_0hbodqn</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_1ha3tyo" name="inform patient ineligibel for Hajj">
+    <bpmn:task id="Activity_1ha3tyo" name="inform patient ineligible for Hajj">
       <bpmn:incoming>Flow_0hbodqn</bpmn:incoming>
       <bpmn:outgoing>Flow_19iz91t</bpmn:outgoing>
     </bpmn:task>
@@ -188,7 +188,7 @@
       <bpmn:outgoing>Flow_1q86xz6</bpmn:outgoing>
       <bpmn:outgoing>Flow_0tnonvt</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_0m8ec66" name="Counsel patient on consent and digital health walllet">
+    <bpmn:task id="Activity_0m8ec66" name="Counsel patient on consent and digital health wallet">
       <bpmn:incoming>Flow_1xml6e9</bpmn:incoming>
       <bpmn:outgoing>Flow_0aj6blr</bpmn:outgoing>
     </bpmn:task>
