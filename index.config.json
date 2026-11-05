@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "295a8c4e84941ccd80098b5a559f1af0ab0c3a7a",
+          "ref": "38c6c59920c2cd52edd4fea15385db2cfd167752",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,8 +158,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-05",
-              "ref": "295a8c4e84941ccd80098b5a559f1af0ab0c3a7a",
-              "evidence": "Owner card 2026-11-05 'A. My own re-pin PR' (smart-ips-pilgrimage publish), same pins as litlfred/smart-trust-demo"
+              "ref": "38c6c59920c2cd52edd4fea15385db2cfd167752",
+              "evidence": "Owner request 2026-11-05: pilgrimage journeys-viewer staging preview (cat-harness#1058, cat-harness-tools#1516)"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "7c467a15b41ee7cf801eb84c1f6db4cd22f05ba1",
+          "ref": "4a21e1ee814aeca8f20189dcbd7e4b367d11953a",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-05",
-              "ref": "7c467a15b41ee7cf801eb84c1f6db4cd22f05ba1",
-              "evidence": "Owner card 2026-11-05 'A. My own re-pin PR' (smart-ips-pilgrimage publish), same pins as litlfred/smart-trust-demo"
+              "ref": "4a21e1ee814aeca8f20189dcbd7e4b367d11953a",
+              "evidence": "Owner request 2026-11-05: pilgrimage journeys-viewer staging preview (cat-harness#1058, cat-harness-tools#1516)"
             }
           }
         }

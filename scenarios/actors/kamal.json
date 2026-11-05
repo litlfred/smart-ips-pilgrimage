@@ -1,0 +1,27 @@
+{
+  "id": "kamal",
+  "title": "Kamal (pilgrim, Kuala Terengganu, Malaysia)",
+  "kind": "person",
+  "description": "Persona: a 61-year-old from Kuala Terengganu performing Hajj for the first time. He has type 2 diabetes and high blood pressure, takes insulin and two tablets a day, is allergic to penicillin, and carries one phone. Fictional.",
+  "roles": [
+    "pilgrim"
+  ],
+  "capabilities": [],
+  "meta": {
+    "persona": {
+      "name": "Kamal",
+      "role": "Pilgrim · first Hajj",
+      "country": "Malaysia",
+      "goal": "Perform Hajj safely, and be treated properly if he is taken ill far from home.",
+      "needs": [
+        "Health workers abroad who know about his insulin and his penicillin allergy",
+        "To decide who sees his summary, and for how long",
+        "Something that works from the one phone he carries"
+      ],
+      "frustrations": [
+        "Explaining his medicines in a language the clinic does not speak",
+        "Paper records that get lost or left behind"
+      ]
+    }
+  }
+}
