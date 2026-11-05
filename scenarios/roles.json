@@ -1,5 +1,5 @@
 {
-  "_comment": "Roles that the people and systems of the pilgrim's journey (scenarios/user-scenarios/) play, named after this guide's personas and system actors (input/pagecontent/personas.md, system-actors.md). Schema: cat-harness-tools/schemas/process/role-graph.ts. Every person is fictional.",
+  "_comment": "Roles that the people and systems of the pilgrim's journey (user-scenarios/) play, named after this guide's personas and system actors (input/pagecontent/personas.md, system-actors.md). Schema: cat-harness-tools/schemas/process/role-graph.ts. Every person is fictional.",
   "name": "smart-ips-pilgrimage",
   "roles": [
     {
