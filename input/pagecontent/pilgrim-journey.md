@@ -31,6 +31,8 @@ the trust network both countries take part in.
 
 ### P0 · Before the season — keys and codes are shared (step A)
 
+<img src="pilgrim/p0.webp" alt="A Malaysian government building and a Saudi ministry building far apart; a golden key travels from Malaysia to a blue globe of linked dots between them, and code books to the Saudi side." style="width:100%;max-width:640px"/>
+
 Malaysia's HIE publishes the public keys it signs health documents with to the
 WHO GDHCN trust network, and shares the national code systems its IPS uses with
 the WHO Terminology Service ([user scenarios](scenarios.html), first two sections).
@@ -42,6 +44,8 @@ Malaysian record months later.
 - **Policy question:** which Malaysian institution signs health documents on behalf of the health sector, and who in KSA decides to accept that signature?
 
 ### P1 · The health check and the choice to share (step 1)
+
+<img src="pilgrim/p1.webp" alt="In a Kuala Terengganu clinic, Dr Aisyah explains a consent card with a shield and a calendar to Kamal, in a batik shirt, who holds his phone with a padlock and a tick; Salmah sits beside him." style="width:100%;max-width:640px"/>
 
 Three months before Hajj, Kamal has the mandatory pre-Hajj health examination
 with Dr Aisyah. He is fit to travel. She explains what the Hajj Health Record
@@ -57,6 +61,8 @@ to it is protected.
 
 ### P2 · His summary is assembled and signed (step 2)
 
+<img src="pilgrim/p2.webp" alt="Icons for his conditions, medicines and allergy are gathered into one summary, stamped with a green shield by a golden key and turned into a QR code on the phone Kamal holds beside his packed suitcase." style="width:100%;max-width:640px"/>
+
 Malaysia's HIE assembles Kamal's International Patient Summary from his care
 history: his conditions, his medicines, his allergy. It issues a Verifiable
 Health Link to it, signs it with a key registered with GDHCN, and puts the QR
@@ -69,6 +75,8 @@ code in his wallet.
 
 ### P3 · Taken ill in Mina (step 3)
 
+<img src="pilgrim/p3.webp" alt="In the white tents of Mina under a hot sun, Kamal in ihram holds his forehead, dizzy; Salmah supports his arm and Nurse Reem welcomes them at the health facility." style="width:100%;max-width:640px"/>
+
 On the second day in Mina, in the heat, Kamal feels dizzy and weak. Salmah
 brings him to the Hajj health facility. At registration he opens his wallet
 and shows Nurse Reem the QR code.
@@ -77,6 +85,8 @@ and shows Nurse Reem the QR code.
 - **Policy question:** what should happen when a pilgrim arrives with no phone, a flat battery, or no QR code?
 
 ### P4 · Scanned and checked (step 4, step B)
+
+<img src="pilgrim/p4.webp" alt="Nurse Reem scans the QR code on Kamal's phone; the facility screen shows a passcode and a green shield, while a key comes back from the trust-network globe." style="width:100%;max-width:640px"/>
 
 Nurse Reem scans the code in the facility's EMR and enters the passcode. The
 EMR checks the signature with Malaysia's public key, fetched from GDHCN: the
@@ -87,6 +97,8 @@ record really comes from Malaysia's HIE and has not been changed.
 - **Policy question:** what protection should the passcode give — and is a passcode shared by every pilgrim of a country a passcode at all?
 
 ### P5 · His record is read and he is treated (step 5)
+
+<img src="pilgrim/p5.webp" alt="Kamal lies recovering on a bed with a drip, Salmah beside him; Dr Faisal shows a tablet with an insulin pen, a crossed-out penicillin capsule and a heart, read from the record kept in Malaysia." style="width:100%;max-width:640px"/>
 
 The EMR follows the link to Malaysia's HIE and retrieves Kamal's summary. Dr
 Faisal sees the insulin and the penicillin allergy before he treats him for
@@ -99,6 +111,8 @@ summary with the record of the visit.
 
 ### P6 · When he cannot show the code (Phase 2: break the glass)
 
+<img src="pilgrim/p6.webp" alt="At dusk on the plain of Arafat, Kamal lies unconscious on a stretcher; Dr Hafiz of the Malaysian medical team hands Dr Faisal a phone with his registration number, under a broken-glass emergency sign and an open padlock." style="width:100%;max-width:640px"/>
+
 On the day of Arafat Kamal collapses and is brought in unconscious. Salmah is
 not with him. Dr Hafiz of the Malaysian medical team gives his Hajj
 registration number, and the facility reaches his summary through it.
@@ -108,6 +122,8 @@ registration number, and the facility reaches his summary through it.
 - **Policy question:** who may open an unconscious pilgrim's record, on what legal basis, and how is it accounted for afterwards?
 
 ### P7 · Back home (after the story the guide tells)
+
+<img src="pilgrim/p7.webp" alt="Back in Kuala Terengganu, Kamal in a white kopiah and Salmah sit with Dr Aisyah, who looks at her computer with a question mark: the record of his care in Saudi Arabia has not come home." style="width:100%;max-width:640px"/>
 
 Kamal comes home. His GP in Kuala Terengganu does not know he was treated in
 Mina.
