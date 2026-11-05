@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "c89c20575e904f6726fea44cfb1fd99e52a355db",
+          "ref": "f1c6eb0c6992191c94ef5cf99b5f0cf8f4008d1a",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,46 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "c89c20575e904f6726fea44cfb1fd99e52a355db",
-              "evidence": "Owner card 2026-11-01 09:02Z 'A. Switch to harness checks' (Q-VC-8, smart-ips-pilgrimage#6), same pins as litlfred/smart-trust-phw"
+              "on": "2026-11-05",
+              "ref": "f1c6eb0c6992191c94ef5cf99b5f0cf8f4008d1a",
+              "evidence": "Owner card 2026-11-05 'A. My own re-pin PR' (smart-ips-pilgrimage publish), same pins as litlfred/smart-trust-demo"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "who-iris",
+      "source": {
+        "remote": {
+          "repository": "litlfred/who-iris",
+          "ref": "51db230a9f0cb6dbdb0c2dfb00b9590dffd50979",
+          "overrides": {
+            "who-iris": {
+              "whole": true
+            },
+            "folio-assistant-core": {
+              "skip": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-05",
+              "ref": "51db230a9f0cb6dbdb0c2dfb00b9590dffd50979",
+              "evidence": "Owner card 2026-11-05 'A. My own re-pin PR' (smart-ips-pilgrimage publish), same pins as litlfred/smart-trust-demo"
             }
           }
         }
@@ -55,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "d45d99170823f2bbf6cd310ab062935403175e7b",
+          "ref": "ca32a2e32fde62c39b3b9691d629104768fcd552",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "d45d99170823f2bbf6cd310ab062935403175e7b",
-              "evidence": "Owner card 2026-11-01 09:02Z 'A. Switch to harness checks' (Q-VC-8, smart-ips-pilgrimage#6), same pins as litlfred/smart-trust-phw"
+              "on": "2026-11-05",
+              "ref": "ca32a2e32fde62c39b3b9691d629104768fcd552",
+              "evidence": "Owner card 2026-11-05 'A. My own re-pin PR' (smart-ips-pilgrimage publish), same pins as litlfred/smart-trust-demo"
             }
           }
         }
@@ -77,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "f53b0d096dc9bb5d3471bf97a78a79a1e6cbae24",
+          "ref": "f0b3ccb9de114133aeed2f039dfd7d179adcda89",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -92,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "f53b0d096dc9bb5d3471bf97a78a79a1e6cbae24",
-              "evidence": "Owner card 2026-11-01 09:02Z 'A. Switch to harness checks' (Q-VC-8, smart-ips-pilgrimage#6), same pins as litlfred/smart-trust-phw"
+              "on": "2026-11-05",
+              "ref": "f0b3ccb9de114133aeed2f039dfd7d179adcda89",
+              "evidence": "Owner card 2026-11-05 'A. My own re-pin PR' (smart-ips-pilgrimage publish), same pins as litlfred/smart-trust-demo"
             }
           }
         }
@@ -105,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "ecc231a49258ae62f75f54e0d5c3258a2df8bb7c",
+          "ref": "295a8c4e84941ccd80098b5a559f1af0ab0c3a7a",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -120,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "ecc231a49258ae62f75f54e0d5c3258a2df8bb7c",
-              "evidence": "Owner card 2026-11-01 09:02Z 'A. Switch to harness checks' (Q-VC-8, smart-ips-pilgrimage#6), same pins as litlfred/smart-trust-phw"
+              "on": "2026-11-05",
+              "ref": "295a8c4e84941ccd80098b5a559f1af0ab0c3a7a",
+              "evidence": "Owner card 2026-11-05 'A. My own re-pin PR' (smart-ips-pilgrimage publish), same pins as litlfred/smart-trust-demo"
             }
           }
         }
@@ -133,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "9326f5d78c02761a15e3e465333f01f89251ac2b",
+          "ref": "7c467a15b41ee7cf801eb84c1f6db4cd22f05ba1",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -145,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "9326f5d78c02761a15e3e465333f01f89251ac2b",
-              "evidence": "Owner card 2026-11-01 09:02Z 'A. Switch to harness checks' (Q-VC-8, smart-ips-pilgrimage#6), same pins as litlfred/smart-trust-phw"
+              "on": "2026-11-05",
+              "ref": "7c467a15b41ee7cf801eb84c1f6db4cd22f05ba1",
+              "evidence": "Owner card 2026-11-05 'A. My own re-pin PR' (smart-ips-pilgrimage publish), same pins as litlfred/smart-trust-demo"
             }
           }
         }
@@ -158,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "3ce2b5d641779ca78432971abb919e6e3afdc60a",
+          "ref": "26f39002ea4d22c3e1bb6c2449acd3ccdcb7b2c2",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -167,9 +204,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "3ce2b5d641779ca78432971abb919e6e3afdc60a",
-              "evidence": "Owner card 2026-11-01 09:02Z 'A. Switch to harness checks' (Q-VC-8, smart-ips-pilgrimage#6), same pins as litlfred/smart-trust-phw"
+              "on": "2026-11-05",
+              "ref": "26f39002ea4d22c3e1bb6c2449acd3ccdcb7b2c2",
+              "evidence": "Owner card 2026-11-05 'A. My own re-pin PR' (smart-ips-pilgrimage publish), same pins as litlfred/smart-trust-demo"
             }
           }
         }
@@ -180,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "fdceeca33492a0bc434edc1f80c95895180ee587",
+          "ref": "f22b2490ff8b6930c55d1b6fe9605fc5f9f9a743",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -192,9 +229,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-01",
-              "ref": "fdceeca33492a0bc434edc1f80c95895180ee587",
-              "evidence": "Owner card 2026-11-01 09:02Z 'A. Switch to harness checks' (Q-VC-8, smart-ips-pilgrimage#6), same pins as litlfred/smart-trust-phw"
+              "on": "2026-11-05",
+              "ref": "f22b2490ff8b6930c55d1b6fe9605fc5f9f9a743",
+              "evidence": "Owner card 2026-11-05 'A. My own re-pin PR' (smart-ips-pilgrimage publish), same pins as litlfred/smart-trust-demo"
             }
           }
         }
