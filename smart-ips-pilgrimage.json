@@ -91,6 +91,14 @@
       ]
     },
     {
+      "id": "business-processes",
+      "path": "input/business-processes/",
+      "graphTypologies": [
+        "business-processes"
+      ],
+      "description": "The guide's business processes (BPMN 2.0), the IG source the IG Publisher renders; the processes viewer draws them for this instance, and the journeys' steps name their tasks (realisedBy). The .svg beside three of them are drawings by bootstrap-tools' render-bpmn, for the journeys viewer to highlight a step's tasks."
+    },
+    {
       "id": "scenarios",
       "path": "scenarios/",
       "graphTypologies": [
