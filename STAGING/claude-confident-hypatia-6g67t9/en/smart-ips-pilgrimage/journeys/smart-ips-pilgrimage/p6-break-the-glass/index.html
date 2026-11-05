@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta name="rendered-by" content="journeys-viewer">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>P6 · When he cannot show the code (break the glass) — journeys</title>
+<link rel="canonical" href="./">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 16 16&#39;%3E%3Crect width=&#39;16&#39; height=&#39;16&#39; rx=&#39;3&#39; fill=&#39;%23276749&#39;/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<link rel="stylesheet" href="../../assets/journeys.css">
+<script src="../../assets/journeys.js" defer></script>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="../../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../../assets/page-layout.js" defer data-fa-page-layout></script><link rel="stylesheet" href="../../../../../assets/ig-artifact.css"><link rel="stylesheet" href="../../../../../assets/css/navbar.css"><script src="../../../../../assets/navbar/rail-1bpxvs31vau.js" defer></script><script src="../../../../../assets/js/navbar.js" defer></script><script src="../../../../../assets/navbar/row-2acuhncsmbg.js" defer></script><link rel="stylesheet" href="../../../../../assets/css/navbar-row.css"><script src="../../../../../assets/js/navbar-row.js" defer></script><meta name="fa-platform-base" content="https://litlfred.github.io/folio-assistant" data-fa-platform-ui><link rel="stylesheet" href="../../../../../assets/css/docs-ui.css" data-fa-platform-ui><script src="../../../../../assets/js/docs-ui.js" defer data-fa-platform-ui></script><meta name="fa-pinned-data" content="../../../../.."></head>
+<body class="jv jv-journey"><div data-fa-staging-banner lang="en" dir="ltr" style="background:#4F6F52;color:#fff;padding:8px 16px;font-size:14px;text-align:center;position:fixed;top:0;left:0;right:0;box-sizing:border-box;z-index:2147483001;font-family:system-ui">🔀 <b>FEATURE BRANCH</b> <span data-fa-staging-detail>— loading build details…</span></div><style>:root{--fa-staging-offset:0px}body{margin:0}.side-bar,.fa-nav{top:var(--fa-staging-offset,0px)!important}html{padding-top:var(--fa-staging-offset,0px)}</style><script>(function(){
+function el(t,a,x){var e=document.createElement(t);if(a)for(var k in a)e.setAttribute(k,a[k]);if(x!=null)e.textContent=x;return e;}
+function link(href,text,extra){var a=el('a',{href:href,style:'color:#fff;text-decoration:underline'},text);if(extra)a.setAttribute('style',a.getAttribute('style')+';'+extra);return a;}
+function chip(text){return el('span',{style:"font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:rgba(0,0,0,.22);color:#fff;padding:1px 6px;border-radius:3px"},text);}
+function sep(){return document.createTextNode(' \u00b7 ');}
+function root(){var m=location.pathname.match(/^(.*\/STAGING\/[^/]+\/)/);return m?m[1]:null;}
+function measure(){var b=document.querySelector('[data-fa-staging-banner]');if(!b)return;document.documentElement.style.setProperty('--fa-staging-offset',b.getBoundingClientRect().height+'px');}
+function fill(d,f,r){
+  while(d.firstChild)d.removeChild(d.firstChild);
+  d.appendChild(document.createTextNode('\u2014 '));
+  var b=link(f.branchUrl,'');b.appendChild(chip(f.branch));d.appendChild(b);
+  var rv=el('span',{'data-fa-staging-review':''});d.appendChild(rv);
+  d.appendChild(sep());d.appendChild(document.createTextNode('commit '));d.appendChild(chip(f.sha));
+  d.appendChild(sep());d.appendChild(document.createTextNode('built '+f.built));
+  d.appendChild(sep());d.appendChild(link(f.prUrl,f.pr&&f.pr!=='n/a'?'PR #'+f.pr:'no open PR found'));
+  if(f.issue){d.appendChild(sep());d.appendChild(link(f.issueUrl,'issue #'+f.issue));}
+  d.appendChild(sep());
+  var rel=location.pathname.slice(r.length);
+  if(rel===''||rel.charAt(rel.length-1)==='/')rel+='index.html';
+  if(!f.mainPagesKnown){
+    d.appendChild(link(f.mainSite+'/','compare with '+(f.beforeRef||'main')+' \u2197'));
+  }else if(f.newPages.indexOf(rel)>=0){
+    d.appendChild(link(f.mainSite+'/',(f.beforeRef||'main')+' \u2197'));
+    d.appendChild(document.createTextNode(' '));
+    d.appendChild(el('span',{style:'opacity:.85'},'(new page)'));
+  }else{
+    d.appendChild(link(f.mainSite+'/'+rel,'compare with '+(f.beforeRef||'main')+' \u2197'));
+  }
+  d.appendChild(sep());d.appendChild(link(f.runUrl,'build log'));
+  if(f.checksUrl){d.appendChild(sep());d.appendChild(link(f.checksUrl,'CI results'));}
+  stamp(f);
+  measure();
+  fresh(d,f);
+  review(rv,r,rel);
+}
+// The preview's review page (owner, 2026-11-01, Q-REV-1): reviewers could not
+// find it from a staging page. A folio writes it at <root>/<locale>/review/,
+// an IG at <root>/review/. Asked with HEAD, which the staging worker passes
+// through, so a 404 here is not answered with the live site's page. No review
+// page, no link.
+function review(s,r,rel){
+  if(typeof fetch!=='function')return;
+  var c=[],m=rel.match(/^([a-z]{2,3}(?:-[A-Za-z0-9]+)?)\//);
+  if(m)c.push(r+m[1]+'/review/');
+  c.push(r+'review/');
+  (function next(i){
+    if(i>=c.length)return;
+    fetch(c[i]+'index.html',{method:'HEAD',cache:'no-store'}).then(function(x){
+      if(!x.ok)return next(i+1);
+      s.appendChild(sep());
+      s.appendChild(link(c[i],'\ud83d\udd0d Review changes','font-weight:bold'));
+      measure();
+    }).catch(function(){next(i+1);});
+  })(0);
+}
+// Live staleness (owner, 2026-10-31, option C): ask GitHub for the branch's
+// head now and say so when it has moved past the commit this preview was
+// built from. Unauthenticated, one request per page view; on any failure
+// (rate limit, offline, a deleted branch) it says nothing rather than guess.
+function fresh(d,f){
+  var m=String(f.branchUrl||'').match(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\//);
+  if(!m||!f.branch||!f.sha||typeof fetch!=='function')return;
+  fetch('https://api.github.com/repos/'+m[1]+'/'+m[2]+'/commits/'+encodeURIComponent(f.branch),
+    {headers:{Accept:'application/vnd.github.sha'},cache:'no-store'})
+    .then(function(x){if(!x.ok)throw 0;return x.text();})
+    .then(function(head){
+      head=String(head).trim();
+      if(!/^[0-9a-f]{7,40}$/.test(head)||head.indexOf(f.sha)===0)return;
+      d.appendChild(sep());
+      var w=el('strong',{'data-fa-staging-stale':'',style:'background:#b00020;padding:0 .4em;border-radius:3px'},'\u26a0 stale: the branch is now at ');
+      w.appendChild(chip(head.slice(0,7)));
+      w.appendChild(document.createTextNode(', newer than this preview'));
+      d.appendChild(w);measure();
+    }).catch(function(){});
+}
+function stamp(f){
+  var p=document.querySelector('.fa-build-stamp');if(!p)return;
+  while(p.firstChild)p.removeChild(p.firstChild);
+  p.appendChild(document.createTextNode('deployed '));
+  var a=link(f.runUrl,'');a.appendChild(el('code',null,f.sha));p.appendChild(a);
+  p.appendChild(document.createTextNode(' · '+f.built));
+}
+function go(){
+  measure();
+  var d=document.querySelector('[data-fa-staging-detail]');if(!d)return;
+  var r=root();
+  if(!r){d.textContent='\u2014 build details unavailable (not served from a preview path)';return;}
+  fetch(r+'staging.json',{cache:'no-store'}).then(function(x){if(!x.ok)throw 0;return x.json();})
+    .then(function(f){fill(d,f,r);})
+    .catch(function(){d.textContent='\u2014 build details unavailable';measure();});
+}
+// First visit to a preview: the shared stylesheets 404 until the worker is
+// in control, so the page would paint unstyled (a page-wide search icon) for
+// the moment before the reload. Hide it until then, only when a stylesheet
+// in the head actually failed, and show it again if no reload comes.
+function unstyled(){var l=document.querySelectorAll('link[rel="stylesheet"]');for(var i=0;i<l.length;i++){if(l[i].disabled)continue;try{if(!l[i].sheet||!l[i].sheet.cssRules.length)return true;}catch(e){}}return false;}
+function share(){
+  var r=root();if(!r||!('serviceWorker' in navigator))return;
+  var k='fa-share:'+r,s=document.documentElement.style;
+  var hide=!navigator.serviceWorker.controller&&!sessionStorage.getItem(k)&&unstyled();
+  function show(){if(hide){hide=false;s.removeProperty('visibility');}}
+  if(hide){s.setProperty('visibility','hidden');setTimeout(show,4000);}
+  navigator.serviceWorker.register(r+'staging-sw.js',{scope:r}).then(function(){
+    if(navigator.serviceWorker.controller||sessionStorage.getItem(k))return show();
+    return navigator.serviceWorker.ready.then(function(){sessionStorage.setItem(k,'1');location.reload();});
+  }).catch(show);
+}
+measure();share();
+if(document.readyState!=='loading')go();else document.addEventListener('DOMContentLoaded',go);
+window.addEventListener('resize',measure);window.addEventListener('load',measure);
+})();</script><script type="application/json" id="fa-navbar-row" data-fa-root="../../../../.." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../../..">{"data":"rail-1bpxvs31vau","here":"/en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/","documentIndex":{"label":"On this page","icon":"§","items":[{"href":"#jv-map-h","label":"Journey map"},{"href":"#jv-steps-h","label":"Step by step"}],"collapsible":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../">SMART Verifiable IPS for Pilgrimage</a></nav>
+<header class="ig-search-top fa-page-bar"><a class="ig-search-home" href="../../../../../index.html">SMART Verifiable IPS for Pilgrimage</a><form class="ig-search" role="search" data-ig-search-index="../../../../../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span></header>
+<nav class="jv-crumbs" aria-label="Breadcrumb"><a href="../../">Journeys</a><span class="jv-sep" aria-hidden="true">›</span><a href="../../smart-ips-pilgrimage/">smart-ips-pilgrimage</a><span class="jv-sep" aria-hidden="true">›</span><a href="../../smart-ips-pilgrimage/the-pilgrims-hajj/">The pilgrim&#39;s Hajj</a><span class="jv-sep" aria-hidden="true">›</span><span aria-current="page">P6</span></nav>
+<main class="jv-main">
+<header class="jv-hero">
+<p class="jv-kicker">Journey · P6 · SMART Verifiable IPS for Pilgrimage</p>
+<h1>P6 · When he cannot show the code (break the glass)</h1>
+<div class="jv-lede"><p>On the day of Arafat Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Malaysian medical team gives his Hajj registration number, and the facility reaches his summary through it. Described in this guide's user scenarios as a Phase 2 scenario.</p></div>
+<dl class="jv-facts"><div><dt>When</dt><dd>The day of Arafat</dd></div><div><dt>Where</dt><dd>A health tent at Arafat</dd></div><div><dt>Country</dt><dd>Kingdom of Saudi Arabia</dd></div><div><dt>Steps</dt><dd>1</dd></div></dl>
+<ul class="jv-people"><li><span class="jv-av jv-av-m" style="--c:#2563eb" title="Kamal · Pilgrim · first Hajj" aria-hidden="true">K</span><span><b>Kamal</b><span class="jv-muted">Pilgrim · first Hajj · Malaysia</span><span class="jv-goal">Perform Hajj safely, and be treated properly if he is taken ill far from home.</span></span></li><li><span class="jv-av jv-av-m" style="--c:#db2777" title="Dr Hafiz · Hajj medical team doctor" aria-hidden="true">DH</span><span><b>Dr Hafiz</b><span class="jv-muted">Hajj medical team doctor · Malaysia</span><span class="jv-goal">Look after his country&#39;s pilgrims, and vouch for them when they cannot speak.</span></span></li><li><span class="jv-av jv-av-m" style="--c:#059669" title="Dr Faisal · Emergency physician" aria-hidden="true">DF</span><span><b>Dr Faisal</b><span class="jv-muted">Emergency physician · Kingdom of Saudi Arabia</span><span class="jv-goal">Treat safely, knowing the pilgrim&#39;s medicines and allergies.</span></span></li><li><span class="jv-av jv-av-m" style="--c:#d97706" title="The Mina facility&#39;s EMR" aria-hidden="true">TM</span><span><b>The Mina facility&#39;s EMR</b></span></li><li><span class="jv-av jv-av-m" style="--c:#7c3aed" title="Malaysia&#39;s health information exchange" aria-hidden="true">MH</span><span><b>Malaysia&#39;s health information exchange</b></span></li></ul>
+<nav class="jv-seq" aria-label="The story"><a href="../../smart-ips-pilgrimage/p5-record-read-and-treated/" rel="prev">← follows <b>P5 · His record is read and he is treated</b></a><a href="../../smart-ips-pilgrimage/the-pilgrims-hajj/" rel="up">↑ part of <b>The pilgrim&#39;s Hajj</b></a><a href="../../smart-ips-pilgrimage/p7-back-home/" rel="next">followed by <b>P7 · Back home</b> →</a></nav>
+</header>
+
+<section class="jv-map" aria-labelledby="jv-map-h">
+<h2 id="jv-map-h">Journey map</h2>
+<p class="jv-muted jv-hint">A column per step and a lane per person. The curve shows how each person feels; a step's column links to its detail below.</p>
+<div class="jv-map-scroll" tabindex="0"><div class="jv-grid" role="table" style="grid-template-columns:150px repeat(1, 232px)">
+<div class="jv-row jv-row-head" role="row"><div class="jv-rl" role="rowheader">Step</div><div class="jv-cell" role="cell" data-step="P6"><a href="#step-P6" class="jv-colhead"><span class="jv-code">P6</span><b>When he cannot show the code</b><span class="jv-muted">The day of Arafat · A health tent at Arafat</span><span class="jv-touch">Hajj registration number; emergency access</span></a></div></div>
+<div class="jv-row jv-lane" style="--c:#2563eb" role="row"><div class="jv-rl" role="rowheader"><span class="jv-av jv-av-m" style="--c:#2563eb" title="Kamal · Pilgrim · first Hajj" aria-hidden="true">K</span><span><b>Kamal</b><span class="jv-muted">Pilgrim · first Hajj</span></span></div><div class="jv-cell" role="cell" data-step="P6"><div class="jv-exp" style="--c:#2563eb"><span class="jv-face" role="img" aria-label="distressed" title="distressed (-2)">😣</span><p>Collapses on the day of Arafat and is brought in unconscious.</p></div></div></div>
+<div class="jv-row jv-lane" style="--c:#db2777" role="row"><div class="jv-rl" role="rowheader"><span class="jv-av jv-av-m" style="--c:#db2777" title="Dr Hafiz · Hajj medical team doctor" aria-hidden="true">DH</span><span><b>Dr Hafiz</b><span class="jv-muted">Hajj medical team doctor</span></span></div><div class="jv-cell" role="cell" data-step="P6"><div class="jv-exp jv-lead" style="--c:#db2777"><span class="jv-face" role="img" aria-label="worried" title="worried (-1)">😟</span><p>Identifies Kamal and gives his Hajj registration number to the facility.</p><q>He is one of ours. Here is his number.</q></div></div></div>
+<div class="jv-row jv-lane" style="--c:#059669" role="row"><div class="jv-rl" role="rowheader"><span class="jv-av jv-av-m" style="--c:#059669" title="Dr Faisal · Emergency physician" aria-hidden="true">DF</span><span><b>Dr Faisal</b><span class="jv-muted">Emergency physician</span></span></div><div class="jv-cell" role="cell" data-step="P6"><div class="jv-exp" style="--c:#059669"><span class="jv-face" role="img" aria-label="neutral" title="neutral (0)">😐</span><p>Reaches Kamal&#39;s summary through the registration number and treats him.</p><q>Without this I would be treating blind.</q></div></div></div>
+<div class="jv-row jv-lane" style="--c:#d97706" role="row"><div class="jv-rl" role="rowheader"><span class="jv-av jv-av-m" style="--c:#d97706" title="The Mina facility&#39;s EMR" aria-hidden="true">TM</span><span><b>The Mina facility&#39;s EMR</b></span></div><div class="jv-cell" role="cell" data-step="P6"><div class="jv-exp" style="--c:#d97706"><p>Looks up the summary by the Hajj registration number.</p></div></div></div>
+<div class="jv-row jv-lane" style="--c:#7c3aed" role="row"><div class="jv-rl" role="rowheader"><span class="jv-av jv-av-m" style="--c:#7c3aed" title="Malaysia&#39;s health information exchange" aria-hidden="true">MH</span><span><b>Malaysia&#39;s health information exchange</b></span></div><div class="jv-cell" role="cell" data-step="P6"><div class="jv-exp" style="--c:#7c3aed"><p>Releases the summary for emergency access, if Kamal opted in.</p></div></div></div>
+<div class="jv-row jv-row-curve" role="row"><div class="jv-rl" role="rowheader">How they feel</div><div class="jv-curvecell" style="grid-column: span 1"><svg viewBox="0 0 232 132" width="232" height="132" role="img" aria-label="Feeling curve, one line per person"><line x1="0" x2="232" y1="118.0" y2="118.0" class="jv-grid"/><line x1="0" x2="232" y1="92.0" y2="92.0" class="jv-grid"/><line x1="0" x2="232" y1="66.0" y2="66.0" class="jv-zero"/><line x1="0" x2="232" y1="40.0" y2="40.0" class="jv-grid"/><line x1="0" x2="232" y1="14.0" y2="14.0" class="jv-grid"/><text x="6" y="18.0">😄 +2</text><text x="6" y="70.0">😐 0</text><text x="6" y="122.0">😣 −2</text><g class="jv-curve" style="--c:#2563eb"><title>Kamal</title><circle cx="98" cy="118.0" r="5"/></g><g class="jv-curve" style="--c:#db2777"><title>Dr Hafiz</title><circle cx="107" cy="92.0" r="5"/></g><g class="jv-curve" style="--c:#059669"><title>Dr Faisal</title><circle cx="116" cy="66.0" r="5"/></g></svg></div></div>
+<div class="jv-row jv-row-pain" role="row"><div class="jv-rl" role="rowheader">Pain point</div><div class="jv-cell" role="cell" data-step="P6"><p>An unconscious pilgrim cannot show a QR code or say a passcode, and his wife is not there.</p></div></div>
+<div class="jv-row jv-row-enabler" role="row"><div class="jv-rl" role="rowheader">What makes it work</div><div class="jv-cell" role="cell" data-step="P6"><p>The pilgrim can opt in to break-the-glass access on his wallet; his country&#39;s medical team can identify him.</p></div></div>
+<div class="jv-row jv-row-record" role="row"><div class="jv-rl" role="rowheader">The record</div><div class="jv-cell" role="cell" data-step="P6"><span class="jv-absent">—</span></div></div>
+<div class="jv-row jv-row-handoff" role="row"><div class="jv-rl" role="rowheader">Hand-off</div><div class="jv-cell" role="cell" data-step="P6"><p>The summary is reached without the pilgrim&#39;s phone</p><span class="jv-muted">Hajj registration number</span><span class="jv-badge jv-on">online</span></div></div>
+</div></div>
+</section>
+<section class="jv-steps" data-jv-stepper aria-labelledby="jv-steps-h"><div class="jv-steps-bar"><h2 id="jv-steps-h">Step by step</h2><span class="jv-actions"><button type="button" class="jv-btn" data-jv-print>Print (A3)</button></span></div>
+<article class="jv-step" id="step-P6" data-step="P6" tabindex="-1">
+<header class="jv-step-head">
+<span class="jv-code jv-code-l">P6</span>
+<div><h3>When he cannot show the code</h3><p class="jv-headline">Kamal is brought in unconscious with no one to show his code; Dr Hafiz gives his Hajj registration number and the facility reaches his summary through it.</p>
+<p class="jv-muted">The day of Arafat · A health tent at Arafat · Hajj registration number; emergency access · told through <span class="jv-av jv-av-s" style="--c:#db2777" title="Dr Hafiz · Hajj medical team doctor" aria-hidden="true">DH</span> Dr Hafiz</p></div>
+</header>
+<figure class="jv-illus"><p class="jv-illus-title"><span class="jv-code">P6</span> When he cannot show the code</p><img src="img/step-P6.webp" alt="At dusk on the plain of Arafat, Kamal lies unconscious on a stretcher; Dr Hafiz of the Malaysian medical team hands Dr Faisal a phone with his registration number, under a broken-glass emergency sign and an open padlock." loading="lazy"><figcaption>At dusk on the plain of Arafat, Kamal lies unconscious on a stretcher; Dr Hafiz of the Malaysian medical team hands Dr Faisal a phone with his registration number, under a broken-glass emergency sign and an open padlock.</figcaption></figure>
+<div class="jv-step-body">
+<div class="jv-col"><div class="jv-prose"><p>On the day of Arafat Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Malaysian medical team gives his Hajj registration number, and the facility reaches his summary through it. Described in this guide's user scenarios as a Phase 2 scenario.</p></div>
+
+
+<h4>Not yet specified</h4><ul class="jv-gaps"><li>No business process, transaction or consent profile for emergency access.</li></ul>
+<p class="jv-policy"><b>Policy point.</b> Who may open an unconscious pilgrim&#39;s record, on what legal basis, and how is it accounted for afterwards?</p></div>
+<div class="jv-col jv-hood"><h4 class="jv-hood-h">Under the hood</h4>
+
+<h4>What travels</h4><dl class="jv-dl"><dt>Carrier</dt><dd>Hajj registration number</dd><dt>Payload</dt><dd>Emergency access to the IPS</dd></dl>
+
+
+
+<h4>References</h4><ul><li><a href="https://worldhealthorganization.github.io/smart-ips-pilgrimage/scenarios.html">User scenarios: Phase 2, break the glass</a> <span class="jv-muted">described in</span></li><li><a href="https://worldhealthorganization.github.io/smart-ips-pilgrimage/system-actors.html#ochw">Origin Country Wallet: opt in or out of break-the-glass access</a> <span class="jv-muted">specified by</span></li></ul></div>
+</div>
+
+<aside class="jv-ws" aria-label="Workshop: The pilgrim&#39;s Hajj: the policy questions">
+<p class="jv-kicker">Workshop · <a href="../../smart-ips-pilgrimage/workshops/pilgrim-policy-questions/">The pilgrim&#39;s Hajj: the policy questions</a></p>
+<blockquote class="jv-ask"><span>Ask the room</span>Who may open an unconscious pilgrim&#39;s record, on what legal basis, and how is it accounted for afterwards?</blockquote>
+
+<h4>Questions, by module</h4><ol class="jv-qs"><li><a class="jv-mod" href="../../smart-ips-pilgrimage/workshops/pilgrim-policy-questions/m1/" title="What the journey asks of policy">M1</a><div><p>Who may open an unconscious pilgrim&#39;s record, on what legal basis, and how is it accounted for afterwards?</p></div></li></ol>
+
+
+
+</aside>
+<nav class="jv-pn"><span></span><span></span></nav>
+</article></section>
+
+
+<p class="jv-src">Source: <a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/HEAD/scenarios/user-scenarios/p6-break-the-glass.json"><code>scenarios/user-scenarios/p6-break-the-glass.json</code></a> (<code>user-scenario/0.2.0</code>)</p>
+</main>
+<footer class="jv-foot">Drawn by the journeys viewer from the <code>user-scenario</code> and <code>workshop</code> nodes the checkout's instances declare. Every person is fictional.</footer>
+<script src="../../../../../assets/ig-search.js" defer></script>
+</body>
+</html>

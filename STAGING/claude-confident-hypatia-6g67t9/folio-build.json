@@ -1,0 +1,18 @@
+{
+  "$schema": "folio-site-build/v1",
+  "instance": "smart-ips-pilgrimage",
+  "platform": {
+    "commit": "4a21e1ee814aeca8f20189dcbd7e4b367d11953a"
+  },
+  "source": {
+    "repo": "litlfred/smart-ips-pilgrimage",
+    "ref": "claude/confident-hypatia-6g67t9",
+    "commit": "a8e1a2355736f2ca9a31dd01f2d4326cc38fc371"
+  },
+  "builtAt": "2026-11-05T15:29:30.708Z",
+  "ast": {
+    "commit": "8263d3b1b068c92716ea2299bd05d86d0221c774",
+    "verdict": "stale-inputs",
+    "kind": "full"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-jsonld/v1",
+  "@id": "ValueSet-IPS.HAJJ.ACTOR.jsonld",
+  "@type": "fhir:ValueSet",
+  "dcterms:identifier": "ValueSet/IPS.HAJJ.ACTOR",
+  "schema:name": "IPS_HAJJ_ACTOR",
+  "dcterms:title": "IPS.HAJJ.ACTOR ValueSet of actor",
+  "dcterms:description": "ValueSet of codes for actor for Hajj",
+  "schema:version": "2.1.0",
+  "dcterms:type": "Terminology: Value Sets",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.ACTOR"
+  },
+  "schema:creativeWorkStatus": "materialized",
+  "schema:encoding": [
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "../ast-data/resources/ValueSet/IPS.HAJJ.ACTOR--980ac916.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "local"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
+    "prov:used": "8263d3b1b068c92716ea2299bd05d86d0221c774"
+  },
+  "dcterms:isPartOf": {
+    "@type": "fhir:ImplementationGuide",
+    "dcterms:identifier": "smart.who.int.ips-pilgrimage",
+    "schema:version": "2.1.0",
+    "schema:sameAs": {
+      "@id": "http://smart.who.int/ips-pilgrimage"
+    }
+  }
+}
