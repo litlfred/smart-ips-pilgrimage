@@ -167,7 +167,7 @@
       <bpmn:outgoing>Flow_1fxg1pw</bpmn:outgoing>
       <bpmn:outgoing>Flow_1b64o6u</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_0gm5pkg" name="inform patient ineligibel for Hajj">
+    <bpmn:task id="Activity_0gm5pkg" name="inform patient ineligible for Hajj">
       <bpmn:incoming>Flow_1b64o6u</bpmn:incoming>
       <bpmn:outgoing>Flow_0bl66dk</bpmn:outgoing>
     </bpmn:task>
@@ -239,7 +239,7 @@
       <bpmn:incoming>Flow_1gmm66h</bpmn:incoming>
       <bpmn:outgoing>Flow_0ww9me6</bpmn:outgoing>
     </bpmn:sendTask>
-    <bpmn:task id="Activity_1snfpmi" name="Counsel patient on consent and digital health walllet">
+    <bpmn:task id="Activity_1snfpmi" name="Counsel patient on consent and digital health wallet">
       <bpmn:incoming>Flow_1fxg1pw</bpmn:incoming>
       <bpmn:outgoing>Flow_03472g5</bpmn:outgoing>
     </bpmn:task>
@@ -323,7 +323,7 @@
       <bpmn:incoming>Flow_05vjpyw</bpmn:incoming>
       <bpmn:outgoing>Flow_0le30id</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:userTask id="consent-wallet-questionnaire" name="fiill consent form for sharing IPS during Hajj on wallet">
+    <bpmn:userTask id="consent-wallet-questionnaire" name="fill consent form for sharing IPS during Hajj on wallet">
       <bpmn:extensionElements>
         <zeebe:formDefinition formKey="consent-wallet-questionnaire" />
         <zeebe:properties>

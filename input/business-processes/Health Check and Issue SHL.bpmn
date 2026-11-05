@@ -176,7 +176,7 @@
       <bpmn:outgoing>Flow_1fxg1pw</bpmn:outgoing>
       <bpmn:outgoing>Flow_1b64o6u</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_0gm5pkg" name="inform patient ineligibel for Hajj">
+    <bpmn:task id="Activity_0gm5pkg" name="inform patient ineligible for Hajj">
       <bpmn:incoming>Flow_1b64o6u</bpmn:incoming>
       <bpmn:outgoing>Flow_0bl66dk</bpmn:outgoing>
     </bpmn:task>
@@ -248,7 +248,7 @@
       <bpmn:incoming>Flow_1gmm66h</bpmn:incoming>
       <bpmn:outgoing>Flow_0ww9me6</bpmn:outgoing>
     </bpmn:sendTask>
-    <bpmn:task id="Activity_1snfpmi" name="Counsel patient on consent and digital health walllet">
+    <bpmn:task id="Activity_1snfpmi" name="Counsel patient on consent and digital health wallet">
       <bpmn:incoming>Flow_1fxg1pw</bpmn:incoming>
       <bpmn:outgoing>Flow_03472g5</bpmn:outgoing>
     </bpmn:task>
@@ -332,7 +332,7 @@
       <bpmn:incoming>Flow_05vjpyw</bpmn:incoming>
       <bpmn:outgoing>Flow_0le30id</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:userTask id="consent-wallet-questionnaire" name="fiill consent form for sharing IPS during Hajj on wallet">
+    <bpmn:userTask id="consent-wallet-questionnaire" name="fill consent form for sharing IPS during Hajj on wallet">
       <bpmn:extensionElements>
         <zeebe:formDefinition formKey="consent-wallet-questionnaire" />
         <zeebe:properties>
@@ -577,7 +577,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
       <bpmn:outgoing>Flow_1xml6e9</bpmn:outgoing>
       <bpmn:outgoing>Flow_0hbodqn</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_1ha3tyo" name="inform patient ineligibel for Hajj">
+    <bpmn:task id="Activity_1ha3tyo" name="inform patient ineligible for Hajj">
       <bpmn:incoming>Flow_0hbodqn</bpmn:incoming>
       <bpmn:outgoing>Flow_19iz91t</bpmn:outgoing>
     </bpmn:task>
@@ -593,7 +593,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
       <bpmn:outgoing>Flow_1q86xz6</bpmn:outgoing>
       <bpmn:outgoing>Flow_0tnonvt</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_0m8ec66" name="Counsel patient on consent and digital health walllet">
+    <bpmn:task id="Activity_0m8ec66" name="Counsel patient on consent and digital health wallet">
       <bpmn:incoming>Flow_1xml6e9</bpmn:incoming>
       <bpmn:outgoing>Flow_0aj6blr</bpmn:outgoing>
     </bpmn:task>
@@ -824,7 +824,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
       <bpmn:outgoing>Flow_04v5pie</bpmn:outgoing>
       <bpmn:outgoing>Flow_09o531n</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_1gkedet" name="inform patient ineligibel for Hajj">
+    <bpmn:task id="Activity_1gkedet" name="inform patient ineligible for Hajj">
       <bpmn:incoming>Flow_09o531n</bpmn:incoming>
       <bpmn:outgoing>Flow_00p5wv7</bpmn:outgoing>
     </bpmn:task>
@@ -868,7 +868,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
       <bpmn:outgoing>Flow_1kpqa8r</bpmn:outgoing>
       <bpmn:outgoing>Flow_0x2k6nq</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_0a2dk4l" name="Counsel patient on consent and digital health walllet">
+    <bpmn:task id="Activity_0a2dk4l" name="Counsel patient on consent and digital health wallet">
       <bpmn:extensionElements />
       <bpmn:incoming>Flow_04v5pie</bpmn:incoming>
       <bpmn:outgoing>Flow_0tcq8eo</bpmn:outgoing>
@@ -1028,7 +1028,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
       <bpmn:outgoing>Flow_0p3uod0</bpmn:outgoing>
       <bpmn:outgoing>Flow_0cwsf95</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_0tvtijk" name="inform patient ineligibel for Hajj">
+    <bpmn:task id="Activity_0tvtijk" name="inform patient ineligible for Hajj">
       <bpmn:incoming>Flow_0cwsf95</bpmn:incoming>
       <bpmn:outgoing>Flow_0ckiv0q</bpmn:outgoing>
     </bpmn:task>
@@ -1071,7 +1071,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
       <bpmn:incoming>Flow_0p4ephb</bpmn:incoming>
       <bpmn:outgoing>Flow_1441in4</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:task id="Activity_0qlye8q" name="Counsel patient on consent and digital health walllet">
+    <bpmn:task id="Activity_0qlye8q" name="Counsel patient on consent and digital health wallet">
       <bpmn:incoming>Flow_0p3uod0</bpmn:incoming>
       <bpmn:outgoing>Flow_1awqmwk</bpmn:outgoing>
     </bpmn:task>
@@ -1080,7 +1080,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
       <bpmn:outgoing>Flow_12ytlvd</bpmn:outgoing>
       <bpmn:outgoing>Flow_0p4ephb</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:userTask id="Activity_19tvs6z" name="fiill consent form for sharing IPS during Hajj on wallet">
+    <bpmn:userTask id="Activity_19tvs6z" name="fill consent form for sharing IPS during Hajj on wallet">
       <bpmn:extensionElements>
         <zeebe:properties>
           <zeebe:property name="ig-code" value="consent-wallet-questionnaire" />
