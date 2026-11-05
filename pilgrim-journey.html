@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Pilgrim's Journey — SMART Verifiable IPS for Pilgrimage</title>
+<link rel="canonical" href="./pilgrim-journey.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="SMART Verifiable IPS for Pilgrimage">
+<link rel="stylesheet" href="./assets/page-layout.css" data-fa-page-layout>
+<script src="./assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="./assets/ig-artifact.css">
+<link rel="stylesheet" href="./assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="./assets/navbar/row-2acuhncsmbg.js" defer></script><script src="./assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="./assets/css/navbar.css"><script src="./assets/navbar/rail-25hc74ko75k.js" defer></script><script src="./assets/js/navbar.js" defer></script><link rel="stylesheet" href="./assets/css/navbar-row.css"><script src="./assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content="."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root="." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root=".">{"data":"rail-25hc74ko75k","here":"/pilgrim-journey.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="./">SMART Verifiable IPS for Pilgrimage</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="./index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="./index.html">Summary</a></li><li><a href="./changes.html">Changes</a></li><li><a href="./dependencies.html">Dependencies</a></li><li><a href="./en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="./adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="./concepts.html">Concepts</a></li><li><a href="./personas.html">Generic Personas</a></li><li><a href="./scenarios.html">User Scenarios</a></li><li><a href="./pilgrim-journey.html">The Pilgrim's Journey</a></li><li><a href="./business-processes.html">Business Processes</a></li><li><a href="./dictionary.html">Data Dictionary</a></li><li><a href="./decision-logic.html">Decision-support Logic</a></li><li><a href="./indicators.html">Indicator and Performance Metrics</a></li><li><a href="./functional-requirements.html">Functional Requirements</a></li><li><a href="./non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="./system-actors.html">System Actors</a></li><li><a href="./sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="./transactions.html">Transactions</a></li><li><a href="./indicators-measures.html">Indicators and Measures</a></li><li><a href="./codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="./security-privacy.html">Security and Privacy Considerations</a></li><li><a href="./testing.html">Testing</a></li><li><a href="./test-data.html">Test Data</a></li><li><a href="./reference-implementations.html">Reference Implementations</a></li><li><a href="./trust_domain.html">Trust Domains</a></li><li><a href="./downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="./artifacts.html">Artifact Index</a></li><li><a href="./maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="./assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="./assets/ig-search.js" defer></script></div>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<p>The <a href="scenarios.html">user scenarios</a> of this guide told as one pilgrim’s story,
+step by step along the <a href="business-processes.html">overview of key process flows</a>
+(the numbered steps 1–5 and A–B of the figure below). Each moment names who
+takes part, what happens, and what in this guide specifies it, and asks the
+policy question it raises. Where the guide does not yet specify a moment, the
+moment says so.</p>
+
+<div class="stu-note">
+  <p><strong>Every person in this story is fictional.</strong> The setting follows this guide’s
+<a href="reference-implementations-malaysia.html">Malaysian reference implementation</a>:
+a pilgrim from Malaysia performing Hajj in the Kingdom of Saudi Arabia (KSA).</p>
+</div>
+
+<p><img src="workflow.png" alt="Overview of key process flows: steps 1 to 5 between the home country, the pilgrim and KSA, and steps A and B through WHO GDHCN" style="width:70%" /></p>
+
+<h3 id="the-people">The people</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Person</th>
+      <th>Who they are</th>
+      <th>Generic persona</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Kamal</strong></td>
+      <td>61, from Kuala Terengganu, Malaysia, performing Hajj for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone.</td>
+      <td><a href="personas.html">Pilgrim</a></td>
+    </tr>
+    <tr>
+      <td><strong>Salmah</strong></td>
+      <td>Kamal’s wife, travelling with him. Speaks for him when he cannot.</td>
+      <td>Accompanying family member (not yet a persona here)</td>
+    </tr>
+    <tr>
+      <td><strong>Dr Aisyah</strong></td>
+      <td>General practitioner in Kuala Terengganu, empanelled by the national pilgrimage authority for pre-Hajj health examinations.</td>
+      <td><a href="personas.html">Counsellor</a></td>
+    </tr>
+    <tr>
+      <td><strong>Dr Hafiz</strong></td>
+      <td>Doctor of the Malaysian Hajj medical team, travelling with the pilgrims.</td>
+      <td><a href="personas.html">Accompanying Clinician from Origin Country</a></td>
+    </tr>
+    <tr>
+      <td><strong>Nurse Reem</strong></td>
+      <td>Registration nurse at a Hajj health facility in Mina.</td>
+      <td><a href="personas.html">Host Country Health Worker</a></td>
+    </tr>
+    <tr>
+      <td><strong>Dr Faisal</strong></td>
+      <td>Emergency physician at the same facility.</td>
+      <td><a href="personas.html">Host Country Health Worker</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>And the systems: Kamal’s <strong>national health wallet</strong> (<a href="system-actors.html#ochw">Origin Country Wallet</a>),
+Malaysia’s <strong>health information exchange</strong> (<a href="system-actors.html#ochie">Origin Country HIE</a>),
+the facility’s <strong>EMR</strong> (<a href="system-actors.html#hcemr">Host Country EMR</a>), and <strong>WHO GDHCN</strong>,
+the trust network both countries take part in.</p>
+
+<h3 id="p0--before-the-season--keys-and-codes-are-shared-step-a">P0 · Before the season — keys and codes are shared (step A)</h3>
+
+<p>Malaysia’s HIE publishes the public keys it signs health documents with to the
+WHO GDHCN trust network, and shares the national code systems its IPS uses with
+the WHO Terminology Service (<a href="scenarios.html">user scenarios</a>, first two sections).
+Nothing about Kamal yet: this is what lets a Saudi clinic trust and read a
+Malaysian record months later.</p>
+
+<ul>
+  <li><strong>Specified by:</strong> the <a href="https://smart.who.int/trust">SMART Trust</a> framework, by reference.</li>
+  <li><strong>Not yet specified here:</strong> no business process or transaction for publishing keys or terminologies.</li>
+  <li><strong>Policy question:</strong> which Malaysian institution signs health documents on behalf of the health sector, and who in KSA decides to accept that signature?</li>
+</ul>
+
+<h3 id="p1--the-health-check-and-the-choice-to-share-step-1">P1 · The health check and the choice to share (step 1)</h3>
+
+<p>Three months before Hajj, Kamal has the mandatory pre-Hajj health examination
+with Dr Aisyah. He is fit to travel. She explains what the Hajj Health Record
+is, who can see it, and for how long. Kamal agrees on his wallet to share his
+patient summary with Saudi health workers during Hajj, and sets how the link
+to it is protected.</p>
+
+<ul>
+  <li><strong>Specified by:</strong> business processes <em>Health Check and Counseling, Explicit Consent on Wallet</em> and <em>Verbal Consent</em> (<a href="business-processes.html">Business Processes</a>);
+transaction <a href="transactions.html#record-consent-request">record consent from wallet</a>;
+profile HajjConsent and its examples <em>CONSENT-MYS</em> and <em>CONSENT-KSA</em> (<a href="artifacts.html">Artifacts</a>).</li>
+  <li><strong>Not yet specified here:</strong> the two forms the pilgrim fills in, <em>consent-wallet-questionnaire</em> and <em>shl-configure-privacy-settings</em>, are named in the processes but not defined.</li>
+  <li><strong>Policy question:</strong> is consent given once for the whole Hajj season, per facility, or per encounter — and can Kamal withdraw it while abroad?</li>
+</ul>
+
+<h3 id="p2--his-summary-is-assembled-and-signed-step-2">P2 · His summary is assembled and signed (step 2)</h3>
+
+<p>Malaysia’s HIE assembles Kamal’s International Patient Summary from his care
+history: his conditions, his medicines, his allergy. It issues a Verifiable
+Health Link to it, signs it with a key registered with GDHCN, and puts the QR
+code in his wallet.</p>
+
+<ul>
+  <li><strong>Specified by:</strong> transaction <a href="transactions.html#issue-vhl-request">issue VHL</a>;
+profile HajjIPS and the example <em>My IPS</em>; the folder example <em>My Hajj Pilgrimage Minimal Folder</em> (<a href="artifacts.html">Artifacts</a>).</li>
+  <li><strong>Not yet specified here:</strong> no business process for assembling the IPS from the care history.</li>
+  <li><strong>Policy question:</strong> what must the summary contain for a pilgrim — and who decides what is left out?</li>
+</ul>
+
+<h3 id="p3--taken-ill-in-mina-step-3">P3 · Taken ill in Mina (step 3)</h3>
+
+<p>On the second day in Mina, in the heat, Kamal feels dizzy and weak. Salmah
+brings him to the Hajj health facility. At registration he opens his wallet
+and shows Nurse Reem the QR code.</p>
+
+<ul>
+  <li><strong>Specified by:</strong> business process <em>Clinical Encounter for Unplanned Care</em> (<a href="business-processes.html">Business Processes</a>).</li>
+  <li><strong>Policy question:</strong> what should happen when a pilgrim arrives with no phone, a flat battery, or no QR code?</li>
+</ul>
+
+<h3 id="p4--scanned-and-checked-step-4-step-b">P4 · Scanned and checked (step 4, step B)</h3>
+
+<p>Nurse Reem scans the code in the facility’s EMR and enters the passcode. The
+EMR checks the signature with Malaysia’s public key, fetched from GDHCN: the
+record really comes from Malaysia’s HIE and has not been changed.</p>
+
+<ul>
+  <li><strong>Specified by:</strong> the same process (tasks <em>scan QR code</em>, <em>add passcode</em>, <em>verify QR code signature</em>); the receiving steps of the <a href="reference-implementations-malaysia.html">Malaysian reference implementation</a>.</li>
+  <li><strong>Not yet consistent here:</strong> the <a href="concepts.html">concepts</a> say the default passcode is the pilgrim’s birth date; the Malaysian implementation sets one standard passcode for all its pilgrims for the season.</li>
+  <li><strong>Policy question:</strong> what protection should the passcode give — and is a passcode shared by every pilgrim of a country a passcode at all?</li>
+</ul>
+
+<h3 id="p5--his-record-is-read-and-he-is-treated-step-5">P5 · His record is read and he is treated (step 5)</h3>
+
+<p>The EMR follows the link to Malaysia’s HIE and retrieves Kamal’s summary. Dr
+Faisal sees the insulin and the penicillin allergy before he treats him for
+heat exhaustion and low blood sugar. The EMR keeps a rendered copy of the
+summary with the record of the visit.</p>
+
+<ul>
+  <li><strong>Specified by:</strong> transactions <a href="transactions.html#retrieve-VHL-manifest-request">retrieve VHL folder</a> and <a href="transactions.html#retrieve-IPS-request">retrieve IPS</a>; the <a href="system-actors.html#hcemr">Host Country EMR</a>’s duty to keep a rendered copy; test case <em>View IPS content</em> (<a href="testing.html">Testing</a>).</li>
+  <li><strong>Not yet specified here:</strong> the summary is in the language it was written in; nothing says how a Saudi clinician reads a summary written in Malay.</li>
+  <li><strong>Policy question:</strong> does Malaysia learn that Kamal’s record was opened in KSA, and by whom?</li>
+</ul>
+
+<h3 id="p6--when-he-cannot-show-the-code-phase-2-break-the-glass">P6 · When he cannot show the code (Phase 2: break the glass)</h3>
+
+<p>On the day of Arafat Kamal collapses and is brought in unconscious. Salmah is
+not with him. Dr Hafiz of the Malaysian medical team gives his Hajj
+registration number, and the facility reaches his summary through it.</p>
+
+<ul>
+  <li><strong>Specified by:</strong> described in <a href="scenarios.html">user scenarios</a> as a Phase 2 scenario; the <a href="system-actors.html#ochw">Origin Country Wallet</a> lets the pilgrim opt in or out of break-the-glass access.</li>
+  <li><strong>Not yet specified here:</strong> no business process, transaction or consent profile for emergency access.</li>
+  <li><strong>Policy question:</strong> who may open an unconscious pilgrim’s record, on what legal basis, and how is it accounted for afterwards?</li>
+</ul>
+
+<h3 id="p7--back-home-after-the-story-the-guide-tells">P7 · Back home (after the story the guide tells)</h3>
+
+<p>Kamal comes home. His GP in Kuala Terengganu does not know he was treated in
+Mina.</p>
+
+<ul>
+  <li><strong>Not yet specified here:</strong> nothing returns the record of care in KSA, or a log of who opened his summary, to Malaysia.</li>
+  <li><strong>Policy question:</strong> should the host country send a summary of care back to the home country — and with whose consent?</li>
+</ul>
+
+<h3 id="what-the-story-shows-the-guide-still-needs">What the story shows the guide still needs</h3>
+
+<ol>
+  <li>Business processes for P0 (keys and terminologies), P2 (assembling the IPS) and P6 (break the glass).</li>
+  <li>The two pilgrim forms named in P1, and a page for the pilgrim and counsellor actors: their actor files exist but no page includes them.</li>
+  <li>One passcode policy (P4), stated once.</li>
+  <li>An account of access back to the home country (P5, P7), and of language (P5).</li>
+  <li>Example patients that are pilgrims: today’s examples are a resident of the Netherlands.</li>
+  <li>The data dictionary, decision logic, indicators and functional requirements, which are still placeholders.</li>
+</ol>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/pilgrim-journey.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/pilgrim-journey.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/pilgrim-journey.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/pilgrim-journey.md", "lines": [{"t":"The people","l":16},{"t":"P0 · Before the season — keys and codes are shared (step A)","l":32},{"t":"P1 · The health check and the choice to share (step 1)","l":44},{"t":"P2 · His summary is assembled and signed (step 2)","l":58},{"t":"P3 · Taken ill in Mina (step 3)","l":70},{"t":"P4 · Scanned and checked (step 4, step B)","l":79},{"t":"P5 · His record is read and he is treated (step 5)","l":89},{"t":"P6 · When he cannot show the code (Phase 2: break the glass)","l":100},{"t":"P7 · Back home (after the story the guide tells)","l":110},{"t":"What the story shows the guide still needs","l":118}]}</script>
+
+<script src="./assets/ig-source-links.js"></script>
+
+<link rel="stylesheet" href="assets/ig-pages.css" />
+
+<footer id="ig-footer">
+<p class="ig-footer-nav"><a href="scenarios.html">&lt;prev</a> | <a href="#">top</a> | <a href="business-processes.html">next&gt;</a></p>
+<p class="ig-footer-band">IG © 2023+ <a href="http://who.int" rel="external">WHO</a>. Package <code>smart.who.int.ips-pilgrimage#2.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. </p>
+<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="https://spdx.org/licenses/CC-BY-SA-3.0-IGO.html" rel="external">License</a></p>
+</footer>
+
+
+</main>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>reference-implementations-malaysia — SMART Verifiable IPS for Pilgrimage</title>
+<link rel="canonical" href="./reference-implementations-malaysia.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="SMART Verifiable IPS for Pilgrimage">
+<link rel="stylesheet" href="./assets/page-layout.css" data-fa-page-layout>
+<script src="./assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="./assets/ig-artifact.css">
+<link rel="stylesheet" href="./assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="./assets/navbar/row-2acuhncsmbg.js" defer></script><script src="./assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="./assets/css/navbar.css"><script src="./assets/navbar/rail-25hc74ko75k.js" defer></script><script src="./assets/js/navbar.js" defer></script><link rel="stylesheet" href="./assets/css/navbar-row.css"><script src="./assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content="."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root="." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root=".">{"data":"rail-25hc74ko75k","here":"/reference-implementations-malaysia.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="./">SMART Verifiable IPS for Pilgrimage</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="./index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="./index.html">Summary</a></li><li><a href="./changes.html">Changes</a></li><li><a href="./dependencies.html">Dependencies</a></li><li><a href="./en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="./adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="./concepts.html">Concepts</a></li><li><a href="./personas.html">Generic Personas</a></li><li><a href="./scenarios.html">User Scenarios</a></li><li><a href="./pilgrim-journey.html">The Pilgrim's Journey</a></li><li><a href="./business-processes.html">Business Processes</a></li><li><a href="./dictionary.html">Data Dictionary</a></li><li><a href="./decision-logic.html">Decision-support Logic</a></li><li><a href="./indicators.html">Indicator and Performance Metrics</a></li><li><a href="./functional-requirements.html">Functional Requirements</a></li><li><a href="./non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="./system-actors.html">System Actors</a></li><li><a href="./sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="./transactions.html">Transactions</a></li><li><a href="./indicators-measures.html">Indicators and Measures</a></li><li><a href="./codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="./security-privacy.html">Security and Privacy Considerations</a></li><li><a href="./testing.html">Testing</a></li><li><a href="./test-data.html">Test Data</a></li><li><a href="./reference-implementations.html">Reference Implementations</a></li><li><a href="./trust_domain.html">Trust Domains</a></li><li><a href="./downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="./artifacts.html">Artifact Index</a></li><li><a href="./maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="./assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="./assets/ig-search.js" defer></script></div>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<h3 id="reference-implementation-by-malaysia-on-mysejahtera-app">Reference implementation by Malaysia on MySejahtera App</h3>
+
+<p>Issuing Country: Malaysia<br />
+Issuing Application: MySejahtera</p>
+
+<p>Receiving Country: Kingdom of Saudi Arabia<br />
+Receiving Application: Care Ware (EMR)</p>
+
+<h4 id="objective">Objective</h4>
+
+<p>The primary objective of this implementation is to enable Malaysian pilgrims traveling to Saudi Arabia for this year’s Hajj to carry their health records on the MySejahtera app as a Smart Health Certificate QR on the Global Digital Health Certification Network (GDHCN). In the event of an unexpected medical episode, healthcare professionals in Saudi Arabia can scan the QR code, access the medical history, and treat the patients appropriately.</p>
+
+<h4 id="project-overview">Project Overview</h4>
+
+<p>This project in Malaysia is a collaborative effort by the Ministry of Health (MOH), Malaysia, and Tabung Haji (TH). The aim is to ensure that Malaysian Hajj pilgrims have seamless access to their health records during their pilgrimage, providing peace of mind and better healthcare support during their stay in Saudi Arabia.</p>
+
+<h4 id="health-records">Health Records:</h4>
+
+<p>The health records in this implementation are based on the Hajj Pilgrims Health Examination program conducted for Malaysian Hajj pilgrims. These examinations are conducted by the MOH health facilities and empanelled private general practitioners (GPs) by Tabung Haji across Malaysia.</p>
+
+<p>The Hajj Health Examination is a comprehensive medical check-up conducted for Malaysian Hajj pilgrims. This examination is a mandatory requirement to ensure that pilgrims are fit for the journey and to identify any underlying health conditions that need to be managed during the Hajj. The examination includes general health assessments, vaccinations, and screenings for infectious diseases. The data from these examinations are recorded in a FHIR compliant electronic medical record (EMR) system called MyVAS and made accessible to pilgrims instantaneously through the MySejahtera app.</p>
+
+<h4 id="considerations-for-this-rollout">Considerations for this Rollout</h4>
+
+<p>Standard Passcode and No Time Validity:</p>
+<ul>
+  <li>To facilitate faster check-in at health facilities during the Hajj, the KSA team requested a standard passcode for all Malaysian IPS for Hajj.</li>
+  <li>No time validity will be added to the Smart Health Certificate QR for this year’s Hajj</li>
+</ul>
+
+<h4 id="user-journey-and-implementation-steps">User Journey and implementation steps:</h4>
+
+<p><u>For Issuance (Malaysia using MySejahtera):</u></p>
+<ol>
+  <li>
+    <p>Obtain Consent:</p>
+
+    <p>a. Users provide consent to generate the Health Certificate QR code.</p>
+
+    <p>b. Consent details are stored, including acceptance to share health records as IPS on GDHCN to KSA officials</p>
+  </li>
+  <li>
+    <p>Set Passcode:</p>
+
+    <p>a. A standard passcode is set for all Malaysian IPS for this year’s Hajj</p>
+
+    <p>b. No user input required</p>
+  </li>
+  <li>
+    <p>Generate Smart Health Link (VHL):</p>
+
+    <p>a. VHL is created as a manifest URL based on user preferences and supports JSON and PDF content types.</p>
+  </li>
+  <li>
+    <p>Embed VHL into HCert:</p>
+
+    <p>a. VHL is embedded into a Health Certificate (HCert) following WHO’s smart trust specification.</p>
+  </li>
+  <li>
+    <p>Prepare COSE Message:</p>
+
+    <p>a. HCert is inserted into the COSE message, signed with GDHCN key, and the Key ID (KID) is added to the header.</p>
+  </li>
+  <li>
+    <p>Generate CWT:</p>
+
+    <p>a. COSE message is wrapped into a CBOR Web Token (CWT).</p>
+  </li>
+  <li>
+    <p>Serialize CWT and Generate QR Code:</p>
+
+    <p>a. CWT is base64 encoded and converted into a QR code</p>
+  </li>
+</ol>
+
+<p><u>For Receiving (Saudi Arabia using Care Ware):</u></p>
+
+<ol>
+  <li>
+    <p>Scan and Decode QR Code:</p>
+
+    <p>a. QR code is scanned and the base64 encoded CWT is obtained.</p>
+  </li>
+  <li>
+    <p>Extract COSE Message and Verify Signature:</p>
+
+    <p>a. COSE message is extracted from the CWT.
+b. COSE signature is verified using Malaysia’s public key from the GDHCN public registry. Malaysia’s country code is “MY”</p>
+  </li>
+  <li>
+    <p>Decode HCert and Extract VHL:</p>
+
+    <p>a. HCert is decoded from base64.
+b. VHL JSON is extracted from the HCert payload.</p>
+  </li>
+  <li>
+    <p>Retrieve and Decode VHL Manifest:</p>
+
+    <p>a. POST request is sent to the VHL manifest URL to retrieve the base64 encoded VHL manifest JSON.
+b. VHL manifest JSON is decoded from base64.</p>
+  </li>
+  <li>
+    <p>Retrieve IPS:</p>
+
+    <p>a. GET request is made for the IPS in the preferred file type (PDF).
+b. IPS JSON file is decrypted using the encryption key from the HCert response.</p>
+  </li>
+  <li>
+    <p>Download and Save IPS:</p>
+
+    <p>a. IPS PDF file is downloaded and saved for further use by healthcare workers.</p>
+  </li>
+</ol>
+
+<h3 id="background-information">Background Information</h3>
+
+<h4 id="about-mysejahtera">About MySejahtera</h4>
+
+<p>MySejahtera is the national public health app of Malaysia, developed and managed by the Ministry of Health (MOH), Malaysia. It was initially developed to manage the COVID-19 outbreak, allowing users to perform health self-assessments, monitor their health status, and receive updates and information related to COVID-19.</p>
+
+<p>Now, MySejahtera serves as the digital front door for accessing public healthcare services. MySejahtera has digitalized several national health programs like National Immunization Program (NIP) for children, the National Health Screening Initiative(NHSI), Self-Assessment tools for mental health, covering areas such as anxiety, depression, and suicidal thoughts.</p>
+
+<h4 id="about-the-ministry-of-health-moh-malaysia">About the Ministry of Health (MOH) Malaysia</h4>
+
+<p>The Ministry of Health Malaysia (MOH) is the government ministry responsible for the health system in Malaysia. MOH is dedicated to improving the health of the population through comprehensive health services, promotion of health awareness, and ensuring access to quality healthcare. The ministry plays a crucial role in implementing health policies, conducting health examinations, and collaborating on international health initiatives.</p>
+
+<h4 id="about-tabung-haji">About Tabung Haji</h4>
+
+<p>Tabung Haji is the Malaysian Hajj Pilgrims Fund Board, a government-linked financial institution that manages the savings of Muslims in Malaysia intending to perform the Hajj pilgrimage. It provides comprehensive services to pilgrims, including savings schemes, training, logistics, and healthcare services during the Hajj. Tabung Haji works closely with MOH to ensure the well-being of pilgrims, particularly in health-related matters.</p>
+
+<h4 id="summary">Summary</h4>
+
+<p>This implementation guide provides detailed steps and considerations for rolling out the Smart Health Certificate QR system for Malaysian Hajj pilgrims. By leveraging the MySejahtera app, the Ministry of Health Malaysia, and Tabung Haji, this initiative aims to enhance the healthcare experience for pilgrims in Saudi Arabia. The use of standardized health records and QR codes ensures that healthcare providers can quickly access essential medical information, facilitating timely and effective medical care during the Hajj.</p>
+
+<p>This expanded guide should provide a thorough understanding of the project, its stakeholders, and the technical steps involved, making it easier for all parties to implement and utilize the system effectively.</p>
+
+<h4 id="snapshots-from-mysejahtera---user-flow">Snapshots from MySejahtera: :  User flow</h4>
+
+<p><strong><em>Card on the home page, FAQ/Awareness on the pilgrimage</em></strong></p>
+
+<p><img src="MySejahtera_userflow.png" alt="MySejahtera User Flow" /></p>
+
+<p>&lt;\br&gt;
+<strong><em>Consent, Generating QR and previewing the IPS</em></strong></p>
+
+<p><img src="MySejahtera_qr.png" alt="Consent, generating QR and previewing IPS" /></p>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/reference-implementations-malaysia.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/reference-implementations-malaysia.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/reference-implementations-malaysia.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/reference-implementations-malaysia.md", "lines": [{"t":"Reference implementation by Malaysia on MySejahtera App","l":1},{"t":"Objective","l":9},{"t":"Project Overview","l":13},{"t":"Health Records:","l":17},{"t":"Considerations for this Rollout","l":24},{"t":"User Journey and implementation steps:","l":30},{"t":"Background Information","l":96},{"t":"About MySejahtera","l":98},{"t":"About the Ministry of Health (MOH) Malaysia","l":104},{"t":"About Tabung Haji","l":108},{"t":"Summary","l":113},{"t":"Snapshots from MySejahtera: :  User flow","l":119}]}</script>
+
+<script src="./assets/ig-source-links.js"></script>
+
+<link rel="stylesheet" href="assets/ig-pages.css" />
+
+<footer id="ig-footer">
+<p class="ig-footer-nav"><a href="reference-implementations.html">&lt;prev</a> | <a href="#">top</a> | <a href="trust_domain.html">next&gt;</a></p>
+<p class="ig-footer-band">IG © 2023+ <a href="http://who.int" rel="external">WHO</a>. Package <code>smart.who.int.ips-pilgrimage#2.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. </p>
+<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="https://spdx.org/licenses/CC-BY-SA-3.0-IGO.html" rel="external">License</a></p>
+</footer>
+
+
+</main>
+</body>
+</html>
