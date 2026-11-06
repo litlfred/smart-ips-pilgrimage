@@ -209,11 +209,11 @@ msgstr "Question de politique : que doit contenir le résumé pour un pèlerin �
 
 #: input/pagecontent/pilgrim-journey.md:97
 msgid "Policy question: what protection should the passcode give — and is a passcode shared by every pilgrim of a country a passcode at all?"
-msgstr "Question de politique : quelle protection le code d'accès doit-il offrir — et un code d'accès partagé par tous les pèlerins d'un pays est-il seulement un code d'accès ?"
+msgstr "Question de politique : quelle protection le code d'accès devrait-il offrir — et un code d'accès partagé par tous les pèlerins d'un pays est-il seulement un code d'accès ?"
 
 #: input/pagecontent/pilgrim-journey.md:85
 msgid "Policy question: what should happen when a pilgrim arrives with no phone, a flat battery, or no QR code?"
-msgstr "Question de politique : que doit-il se passer lorsqu'un pèlerin arrive sans téléphone, avec une batterie déchargée ou sans code QR ?"
+msgstr "Question de politique : que devrait-il se passer lorsqu'un pèlerin arrive sans téléphone, avec une batterie déchargée ou sans code QR ?"
 
 #: input/pagecontent/pilgrim-journey.md:44
 msgid "Policy question: which Malaysian institution signs health documents on behalf of the health sector, and who in KSA decides to accept that signature?"
