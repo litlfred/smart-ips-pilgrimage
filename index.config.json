@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "299de78ec2aa5ede11acb7db6327a83301ae49ed",
+          "ref": "961679a369975afb6320647dde23d8e335bd84b5",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -101,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "299de78ec2aa5ede11acb7db6327a83301ae49ed",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-06",
+              "ref": "961679a369975afb6320647dde23d8e335bd84b5",
+              "evidence": "Owner, 2026-11-06: 'repin as needed. merge when green and ready' (relayed by session_01VQDpPd2LVFXt1ZV3eAxyvE; confirmed by the owner in session_01VQDpPerdPBYNvFx1ptSX61), for smart-ips-pilgrimage #15/#16 gate fixes"
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "2d248b5a496d4770bd55f4cc192120588e817e1e",
+          "ref": "e82653753b9d1d69c4609ff5e780058f41299809",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,8 +158,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-06",
-              "ref": "2d248b5a496d4770bd55f4cc192120588e817e1e",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "ref": "e82653753b9d1d69c4609ff5e780058f41299809",
+              "evidence": "Owner, 2026-11-06: 'repin as needed. merge when green and ready' (relayed by session_01VQDpPd2LVFXt1ZV3eAxyvE; confirmed by the owner in session_01VQDpPerdPBYNvFx1ptSX61), for smart-ips-pilgrimage #15/#16 gate fixes"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "8205c6a49b3a0f04172f750da10e7cba2fa81b77",
+          "ref": "a93742937496c6c1e87d9ca6e7768282c248cd03",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-06",
-              "ref": "8205c6a49b3a0f04172f750da10e7cba2fa81b77",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "ref": "a93742937496c6c1e87d9ca6e7768282c248cd03",
+              "evidence": "Owner, 2026-11-06: 'repin as needed. merge when green and ready' (relayed by session_01VQDpPd2LVFXt1ZV3eAxyvE; confirmed by the owner in session_01VQDpPerdPBYNvFx1ptSX61), for smart-ips-pilgrimage #15/#16 gate fixes"
             }
           }
         }
