@@ -17,4 +17,4 @@ msgstr ""
 
 #: input/pagecontent/transaction-issue-verifiable-shl-request-trigger-events.md:1
 msgid "The issue VHL request transaction is initiated when a privacy configuration form has been recorded by a digital health wallet that includes disclosure and time limit settings."
-msgstr "Транзакция запроса на выпуск VHL инициируется после того, как цифровой кошелёк здоровья зарегистрировал форму настроек конфиденциальности, включающую параметры раскрытия данных и ограничения по времени."
+msgstr "Транзакция запроса на выпуск VHL инициируется после того, как цифровой кошелёк медицинских данных зарегистрировал форму настроек конфиденциальности, включающую параметры раскрытия данных и ограничения по времени."

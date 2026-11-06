@@ -17,4 +17,4 @@ msgstr ""
 
 #: input/pagecontent/transaction-record-consent-request-trigger-events.md:1
 msgid "A new consent directive has been recorded by a Digital Health Wallet."
-msgstr "Цифровой кошелёк здоровья зарегистрировал новое распоряжение о согласии."
+msgstr "Цифровой кошелёк медицинских данных зарегистрировал новое распоряжение о согласии."
