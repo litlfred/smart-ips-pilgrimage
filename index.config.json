@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "4a21e1ee814aeca8f20189dcbd7e4b367d11953a",
+          "ref": "e5dfce8183d652bc8f3beff76d836572e253fcd1",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "4a21e1ee814aeca8f20189dcbd7e4b367d11953a",
-              "evidence": "Owner request 2026-11-05: pilgrimage journeys-viewer staging preview (cat-harness#1058, cat-harness-tools#1516)"
+              "on": "2026-11-06",
+              "ref": "e5dfce8183d652bc8f3beff76d836572e253fcd1",
+              "evidence": "Owner direction 2026-11-06 (device screens, option A, this session https://claude.ai/code/session_01VQDpPg6DUZuufuAVwk6MqZ): the device-screen kind and renderer of cat-harness-tools#1576, so the pilgrim's journeys can have device screens"
             }
           }
         }
