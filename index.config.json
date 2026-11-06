@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "38c6c59920c2cd52edd4fea15385db2cfd167752",
+          "ref": "13937e1e5f2d6c0c969176bc8a7cdaef0de164b2",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "38c6c59920c2cd52edd4fea15385db2cfd167752",
-              "evidence": "Owner request 2026-11-05: pilgrimage journeys-viewer staging preview (cat-harness#1058, cat-harness-tools#1516)"
+              "on": "2026-11-06",
+              "ref": "13937e1e5f2d6c0c969176bc8a7cdaef0de164b2",
+              "evidence": "Owner direction 2026-11-06 (device screens, option A, this session https://claude.ai/code/session_01VQDpPg6DUZuufuAVwk6MqZ): cat-harness at cat-harness#1058's head, which no longer carries the journey kinds' validators that cat-harness-tools#1576 now holds (one family, one validator)"
             }
           }
         }
