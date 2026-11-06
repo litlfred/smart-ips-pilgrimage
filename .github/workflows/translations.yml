@@ -1,0 +1,36 @@
+name: Translations
+
+# The .pot templates in translations/ are what the five UN-language
+# translators work from. A template that no longer matches its English source
+# (input/pagecontent/*.md, input/business-processes/*.bpmn) FAILS: run
+# `bun input/scripts/translation-pot.ts`. A translation left behind by an
+# English change only WARNS, per catalogue: refresh with
+# `bun input/scripts/po-status.ts --merge`, then translate the new strings.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  templates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2
+      - name: Lay down the pinned layers (index.lock.json)
+        run: |
+          python3 -c "import json;[print(m['harness'],m['repository'],m['ref']) for m in json.load(open('index.lock.json'))['mounts'] if m['harness']!='smart-base']" > "$RUNNER_TEMP/mounts.txt"
+          while read -r h r ref; do git clone -q --filter=blob:none --no-checkout "https://github.com/$r" "$h" && git -C "$h" checkout -q "$ref" && rm -rf "$h/.git"; done < "$RUNNER_TEMP/mounts.txt"
+          bun install --frozen-lockfile
+          bun cat-harness-tools/scripts/run-script.ts mount:lock
+      - name: The templates are current with their English sources
+        run: bun input/scripts/translation-pot.ts --check
+      - name: No translation is marked official
+        run: bun cat-harness-tools/scripts/run-script.ts check:translation-officiality
+      - name: How far each translation is behind its template (warns, never fails)
+        run: bun input/scripts/po-status.ts --github
