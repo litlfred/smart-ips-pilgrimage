@@ -1,6 +1,6 @@
 {
   "$schema": "translation-node/v1",
-  "$comment": "Simplified Chinese translation of input/pagecontent/trust_domain_policy.md. UNOFFICIAL: agent translation, not signed off by a person. Coverage: 10/10 strings.",
+  "$comment": "Simplified Chinese translation of input/pagecontent/trust_domain_policy.md. UNOFFICIAL: agent translation, not signed off by a person. Coverage: 15/15 strings.",
   "label": "trans:zh/pagecontent/trust_domain_policy",
   "locale": "zh",
   "sourceFile": "input/pagecontent/trust_domain_policy.md",
@@ -17,8 +17,8 @@
     "generator": "agent translation (zh team session)"
   },
   "coverage": {
-    "translated": 10,
-    "total": 10,
+    "translated": 15,
+    "total": 15,
     "pct": 100.0
   },
   "description": "Unofficial Simplified Chinese translation. Semantic verification is per block, in the translation-qa sidecars, where a verdict names the agent or person who reached it."

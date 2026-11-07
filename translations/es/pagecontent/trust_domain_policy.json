@@ -1,10 +1,10 @@
 {
   "$schema": "translation-node/v1",
-  "$comment": "Spanish translation of input/pagecontent/trust_domain_policy.md. Agent translation, unofficial: no human has adjudicated it. Coverage 10/10.",
+  "$comment": "Spanish translation of input/pagecontent/trust_domain_policy.md. Agent translation, unofficial: no human has adjudicated it. Coverage 15/15.",
   "label": "trans:es/pagecontent/trust_domain_policy",
   "locale": "es",
   "sourceFile": "input/pagecontent/trust_domain_policy.md",
-  "sourceHash": "2fd73a123cd6",
+  "sourceHash": "62e37dd4806b",
   "potFile": "translations/es/pagecontent/trust_domain_policy.pot",
   "poFile": "translations/es/pagecontent/trust_domain_policy.po",
   "poIncludes": [
@@ -18,8 +18,8 @@
     "generator": "agent translation (smart-ips-pilgrimage es session)"
   },
   "coverage": {
-    "translated": 10,
-    "total": 10,
+    "translated": 15,
+    "total": 15,
     "pct": 100
   }
 }
