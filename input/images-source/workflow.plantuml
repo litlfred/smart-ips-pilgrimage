@@ -59,15 +59,15 @@ rectangle "KSA" as ksa #F3F7FC;line:4472C4;text:2F5597 {
   node "Host Country EMR\n<size:10>smart-ra: Point-of-Service System</size>" as hcemr [[system-actors.html#hcemr{Host Country EMR (IPS.HAJJ.ACTOR#hcemr); smart-ra: http://smart.who.int/ra/ActorDefinition/PointOfServiceSystem}]]
 }
 
-cloud "WHO GDHCN\n<size:10>Trust Domain IPS-PILGRIMAGE</size>" as gdhcn #F4F9F1;line:548235;text:548235 [[http://smart.who.int/trust/Binary-TrustDomain-IPS-PILGRIMAGE.html{WHO GDHCN: the IPS-PILGRIMAGE Trust Domain}]]
+cloud "WHO GDHCN\n<size:10>Trust Domain IPS-PILGRIMAGE</size>" as gdhcn [[http://smart.who.int/trust/Binary-TrustDomain-IPS-PILGRIMAGE.html{WHO GDHCN: the IPS-PILGRIMAGE Trust Domain}]] #F4F9F1;line:548235;text:548235
 
-pilgrim --> ochw [[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/{P1: Health check and consent}]] : <b>1</b> Pilgrim configures access to IPS\nvia QR code on national health wallet\n<size:10>consent-wallet</size>
-ochw --> ochie [[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/{P2: Summary signed}]] : <b>2</b> IPS generated from patient\ncare history in Home Country\n<size:10>doc-sign</size>
-pilgrim --> hw [[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/{P3: Taken ill in Mina}]] : <b>3</b> Pilgrim seeks care and shows\nIPS QR code to health worker
-hw --> hcemr [[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/{P4: Scanned and checked}]] : <b>4</b> Health worker scans IPS\nQR code in their EMR\n<size:10>shl-get-manifest</size>
-ochie --> hcemr [[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/{P5: Record read and treated}]] : <b>5</b> EMR retrieves IPS\nfrom Home Country HIE\n<size:10>doc-get</size>
-ochie -[#548235]-> gdhcn [[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/{P0: Keys and codes shared}]] : <color:#548235><b>A</b> IPS verification keys\n<color:#548235>published to GDHCN\n<size:10><color:#548235>keys-put</color></size>
-gdhcn -[#548235]-> hcemr [[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/{P4: Scanned and checked}]] : <color:#548235><b>B</b> Verification keys retrieved by EMR\n<color:#548235>to ensure provenance of IPS\n<size:10><color:#548235>keys-get</color></size>
+pilgrim --> ochw : <b>[[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/{P1: Health check and consent} 1]]</b> Pilgrim configures access to IPS\nvia QR code on national health wallet\n<size:10>consent-wallet</size>
+ochw --> ochie : <b>[[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/{P2: Summary signed} 2]]</b> IPS generated from patient\ncare history in Home Country\n<size:10>doc-sign</size>
+pilgrim --> hw : <b>[[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/{P3: Taken ill in Mina} 3]]</b> Pilgrim seeks care and shows\nIPS QR code to health worker
+hw --> hcemr : <b>[[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/{P4: Scanned and checked} 4]]</b> Health worker scans IPS\nQR code in their EMR\n<size:10>shl-get-manifest</size>
+ochie --> hcemr : <b>[[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/{P5: Record read and treated} 5]]</b> EMR retrieves IPS\nfrom Home Country HIE\n<size:10>doc-get</size>
+ochie -[#548235]-> gdhcn : <color:#548235><b>[[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/{P0: Keys and codes shared} A]]</b> IPS verification keys\n<color:#548235>published to GDHCN\n<size:10><color:#548235>keys-put</color></size>
+gdhcn -[#548235]-> hcemr : <color:#548235><b>[[en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/{P4: Scanned and checked} B]]</b> Verification keys retrieved by EMR\n<color:#548235>to ensure provenance of IPS\n<size:10><color:#548235>keys-get</color></size>
 
 legend right
   <b>Links</b>: each box opens its actor or persona in this guide;
