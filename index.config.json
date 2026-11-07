@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "395c6e2e849819c1fc17302cf775a6f1a7a07736",
+          "ref": "2e8e850f736c171f5ade19c3a3c085c4f93b50e3",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -130,7 +130,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "395c6e2e849819c1fc17302cf775a6f1a7a07736",
+              "ref": "2e8e850f736c171f5ade19c3a3c085c4f93b50e3",
               "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "5b20bc19b2ea4cb2a3c543a2068b09592c428c72",
+          "ref": "fa5fb43f973a89581ca3f32145cd11c9137baa26",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,7 +183,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "5b20bc19b2ea4cb2a3c543a2068b09592c428c72",
+              "ref": "fa5fb43f973a89581ca3f32145cd11c9137baa26",
               "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
