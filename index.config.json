@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "1e111a661b6fe2ada620b4e7480f085cedde36a0",
+          "ref": "e66d72273cc288bb45ecbb802670cd81721ae3fe",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -43,8 +43,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-06",
-              "ref": "1e111a661b6fe2ada620b4e7480f085cedde36a0",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "ref": "e66d72273cc288bb45ecbb802670cd81721ae3fe",
+              "evidence": "Owner, 2026-11-06: 'repin as needed. merge when green and ready' (relayed by session_01VQDpPd2LVFXt1ZV3eAxyvE; confirmed by the owner in session_01VQDpPerdPBYNvFx1ptSX61, 2026-11-07: 'repin + merge open 12 hrs'), for smart-ips-pilgrimage #15/#16 gate fixes"
             }
           }
         }
