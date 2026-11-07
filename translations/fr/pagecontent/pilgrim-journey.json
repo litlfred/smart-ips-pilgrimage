@@ -1,0 +1,22 @@
+{
+  "$schema": "translation-node/v1",
+  "$comment": "French translation of input/pagecontent/pilgrim-journey.md. Agent translation, unofficial: no human has adjudicated it. Coverage 69/69.",
+  "label": "trans:fr/pagecontent/pilgrim-journey",
+  "locale": "fr",
+  "sourceFile": "input/pagecontent/pilgrim-journey.md",
+  "sourceHash": "1d791f107b99",
+  "potFile": "translations/fr/pagecontent/pilgrim-journey.pot",
+  "poFile": "translations/fr/pagecontent/pilgrim-journey.po",
+  "status": {
+    "locale": "fr",
+    "official": false,
+    "generatedBy": "agent",
+    "generatedAt": "2026-11-06T11:00:00Z",
+    "generator": "agent translation (smart-ips-pilgrimage fr session)"
+  },
+  "coverage": {
+    "translated": 69,
+    "total": 69,
+    "pct": 100
+  }
+}
