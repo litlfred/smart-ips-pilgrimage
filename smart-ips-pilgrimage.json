@@ -89,6 +89,14 @@
       "graphTypologies": [
         "references"
       ]
+    },
+    {
+      "id": "smart-ips-pilgrimage-translations",
+      "path": "translations/",
+      "graphTypologies": [
+        "translation-sources"
+      ],
+      "description": "The gettext side of this IG's text, one directory per target locale (ar, es, fr, ru, zh; the source is en): .pot templates extracted by input/scripts/translation-pot.ts (the harness's own extractors) from the narrative pages in input/pagecontent/ and the BPMN in input/business-processes/, and the .po catalogues translated from them, each with a translation-node/v1 manifest. Agent translations are unofficial (official: false, generatedBy agent) until a person signs them off. FHIR resources are not here: they use CodeSystem supplements in input/fsh/translations/<locale>.fsh."
     }
   ],
   "avatar": {
