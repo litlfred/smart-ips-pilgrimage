@@ -1,6 +1,6 @@
 {
   "$schema": "translation-node/v1",
-  "$comment": "Simplified Chinese translation of input/pagecontent/pilgrim-journey.md. UNOFFICIAL: agent translation, not signed off by a person. Coverage: 69/69 strings.",
+  "$comment": "Simplified Chinese translation of input/pagecontent/pilgrim-journey.md. UNOFFICIAL: agent translation, not signed off by a person. Coverage: 70/70 strings.",
   "label": "trans:zh/pagecontent/pilgrim-journey",
   "locale": "zh",
   "sourceFile": "input/pagecontent/pilgrim-journey.md",
@@ -17,8 +17,8 @@
     "generator": "agent translation (zh team session)"
   },
   "coverage": {
-    "translated": 69,
-    "total": 69,
+    "translated": 70,
+    "total": 70,
     "pct": 100.0
   },
   "description": "Unofficial Simplified Chinese translation. Semantic verification is per block, in the translation-qa sidecars, where a verdict names the agent or person who reached it."

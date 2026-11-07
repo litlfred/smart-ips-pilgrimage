@@ -291,3 +291,7 @@ msgstr "这个故事揭示本指南仍需补充的内容"
 #: input/pagecontent/pilgrim-journey.md:18
 msgid "Who they are"
 msgstr "他们是谁"
+
+#: input/pagecontent/pilgrim-journey.md:16
+msgid "Each numbered step in the figure opens its moment in the <a0>journeys viewer</a0>, which walks through the whole story screen by screen."
+msgstr "图中每个带编号的步骤都会在<a0>旅程查看器</a0>中打开对应的时刻，查看器逐屏展示整个故事。"
