@@ -66,7 +66,7 @@
         <bpmn:flowNodeRef>Activity_0wou2yo</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_123d2ts</bpmn:flowNodeRef>
         <bpmn:childLaneSet id="LaneSet_0tvrxug">
-          <bpmn:lane id="Lane_0zklik6" name="Host Country EMR">
+          <bpmn:lane id="Lane_0zklik6" partitionElementRef="host-emr" name="Host Country EMR">
             <bpmn:documentation>The pilgrim's origin country's digital health wallet</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
@@ -179,7 +179,7 @@
       <bpmn:incoming>Flow_10ebgbj</bpmn:incoming>
       <bpmn:outgoing>Flow_1l8b8gs</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:task id="Activity_0nu4v95" name="verify QR code signature">
+    <bpmn:task id="Activity_0nu4v95" name="verify QR code signature"><bpmn:extensionElements><bootstrap.processes:skill ref="hcert-verify" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_0ycvb5t</bpmn:incoming>
       <bpmn:outgoing>Flow_1inzjaw</bpmn:outgoing>
     </bpmn:task>
@@ -203,12 +203,12 @@
       <bpmn:incoming>Flow_1fnblb1</bpmn:incoming>
     </bpmn:task>
     <bpmn:sequenceFlow id="Flow_1fnblb1" sourceRef="Activity_0qcvetn" targetRef="Activity_0untwjs" />
-    <bpmn:receiveTask id="Activity_0qcvetn" name="Retrieve serialized CWT">
+    <bpmn:receiveTask id="Activity_0qcvetn" name="Retrieve serialized CWT"><bpmn:extensionElements><bootstrap.processes:skill ref="hcert-verify" /></bpmn:extensionElements>
       <bpmn:outgoing>Flow_0ycvb5t</bpmn:outgoing>
       <bpmn:outgoing>Flow_1fnblb1</bpmn:outgoing>
     </bpmn:receiveTask>
     <bpmn:sequenceFlow id="Flow_1e24hfi" sourceRef="Activity_1i8bqw0" targetRef="Activity_1hznkm2" />
-    <bpmn:sendTask id="Activity_1i8bqw0" name="retrieve health document (IPS) request">
+    <bpmn:sendTask id="Activity_1i8bqw0" name="retrieve health document (IPS) request"><bpmn:extensionElements><bootstrap.processes:skill ref="vhl-receive" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_1inzjaw</bpmn:incoming>
       <bpmn:outgoing>Flow_1e24hfi</bpmn:outgoing>
     </bpmn:sendTask>

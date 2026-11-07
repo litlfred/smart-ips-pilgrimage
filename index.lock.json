@@ -44,7 +44,7 @@
     {
       "harness": "smart-trust-tools",
       "repository": "litlfred/smart-trust-tools",
-      "ref": "aa09c6b02b788eb8825cfba8b7d2a3d6e55fc0be"
+      "ref": "030ff094ba47042bb4877997c58fff92a28ec0d6"
     }
   ],
   "instances": [
@@ -254,29 +254,29 @@
     {
       "instance": "smart-trust-tools",
       "repository": "litlfred/smart-trust-tools",
-      "sha": "aa09c6b02b788eb8825cfba8b7d2a3d6e55fc0be",
+      "sha": "030ff094ba47042bb4877997c58fff92a28ec0d6",
       "upstreamRoot": "",
       "path": "smart-trust-tools",
       "via": "smart-trust-tools",
       "pinnedBy": "declared",
       "declaration": {
         "file": "smart-trust-tools.json",
-        "sha256": "d2293cea27c939a03af5dd63a71253456a9fa8f236616b2905d6561167d581b1"
+        "sha256": "5bd9338bcfd84138ee47463e15f12b1f95213305d46d72ba94d4680e317516ba"
       },
       "directories": [
         {
           "id": "*",
           "path": "smart-trust-tools",
           "upstreamPath": ".",
-          "treeDigest": "32f906d24bd75caa402138a4b1bd64499733a694f143bc129267168f515b3efb",
-          "files": 1218
+          "treeDigest": "4e79bb423a07cbbed79d9f20ce09a518f3307c3bd406ae62f02e00090a97ad58",
+          "files": 1243
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-07",
-        "ref": "aa09c6b02b788eb8825cfba8b7d2a3d6e55fc0be",
+        "ref": "030ff094ba47042bb4877997c58fff92a28ec0d6",
         "approver": "declared"
       }
     },

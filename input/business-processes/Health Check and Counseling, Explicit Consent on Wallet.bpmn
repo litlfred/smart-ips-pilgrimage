@@ -185,7 +185,7 @@
       <bpmn:outgoing>shl-issue-2</bpmn:outgoing>
     </bpmn:receiveTask>
     <bpmn:sendTask id="generate-shl" name="generate Verifiable SHL">
-      <bpmn:extensionElements>
+      <bpmn:extensionElements><bootstrap.processes:skill ref="vhl-share" />
         <zeebe:taskDefinition type="send-shl" />
         <zeebe:properties>
           <zeebe:property name="ig-code" value="send-shl" />
@@ -294,7 +294,7 @@
       <bpmn:incoming>Flow_1bl0jav</bpmn:incoming>
       <bpmn:outgoing>Flow_1gmm66h</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:task id="Activity_1hhzmu2" name="generate SHL &#38; configure access to IPS via SHL">
+    <bpmn:task id="Activity_1hhzmu2" name="generate SHL &#38; configure access to IPS via SHL"><bpmn:extensionElements><bootstrap.processes:skill ref="vhl-share" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_0017hoi</bpmn:incoming>
       <bpmn:outgoing>Flow_1cdclfl</bpmn:outgoing>
     </bpmn:task>

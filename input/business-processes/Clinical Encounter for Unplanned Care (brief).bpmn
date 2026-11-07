@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:bootstrap.processes="https://litlfred.github.io/bootstrap/v0/processes/ns/" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Web Modeler" exporterVersion="ac436f7" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.5.0" camunda:diagramRelationId="bd9a9cd4-1c73-4d9c-9de0-ad1c209baa3d">
+  <bpmn:resource id="host-emr" name="Host country EMR" />
   <bpmn:resource id="host-health-worker" name="Host country health worker" />
   <bpmn:resource id="pilgrim" name="Pilgrim" />
   <bpmn:collaboration id="pcf-send-request-response" name="Health Check and Issue SHL">
@@ -59,7 +60,7 @@
         <bpmn:flowNodeRef>Activity_123d2ts</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Activity_1gga1fr</bpmn:flowNodeRef>
         <bpmn:childLaneSet id="LaneSet_0tvrxug">
-          <bpmn:lane id="Lane_0zklik6" name="Host Country EMR">
+          <bpmn:lane id="Lane_0zklik6" partitionElementRef="host-emr" name="Host Country EMR">
             <bpmn:documentation>The pilgrim's origin country's digital health wallet</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
@@ -159,7 +160,7 @@
       <bpmn:outgoing>Flow_1q2l8ls</bpmn:outgoing>
     </bpmn:startEvent>
     <bpmn:sequenceFlow id="Flow_1inzjaw" sourceRef="Activity_0nu4v95" targetRef="Activity_1t170os" />
-    <bpmn:task id="Activity_1i8bqw0" name="retrieve health document (IPS) from Origin Country HIE">
+    <bpmn:task id="Activity_1i8bqw0" name="retrieve health document (IPS) from Origin Country HIE"><bpmn:extensionElements><bootstrap.processes:skill ref="vhl-receive" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_1ver62d</bpmn:incoming>
       <bpmn:outgoing>Flow_1khf45r</bpmn:outgoing>
     </bpmn:task>
@@ -167,7 +168,7 @@
       <bpmn:incoming>Flow_1inzjaw</bpmn:incoming>
       <bpmn:outgoing>Flow_1ver62d</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:task id="Activity_0nu4v95" name="verify QR code signature">
+    <bpmn:task id="Activity_0nu4v95" name="verify QR code signature"><bpmn:extensionElements><bootstrap.processes:skill ref="hcert-verify" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_1nchemk</bpmn:incoming>
       <bpmn:outgoing>Flow_1inzjaw</bpmn:outgoing>
     </bpmn:task>

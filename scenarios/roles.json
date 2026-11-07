@@ -88,7 +88,9 @@
       "actorKinds": [
         "system"
       ],
-      "skills": [],
+      "skills": [
+        "vhl-share"
+      ],
       "otherNames": [
         "Origin Country HIE (IG system actor OCHIE)"
       ]
@@ -100,7 +102,10 @@
       "actorKinds": [
         "system"
       ],
-      "skills": [],
+      "skills": [
+        "hcert-verify",
+        "vhl-receive"
+      ],
       "otherNames": [
         "Host Country EMR (IG system actor HCEMR)"
       ]
