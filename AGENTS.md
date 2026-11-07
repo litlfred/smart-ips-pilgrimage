@@ -59,5 +59,8 @@ main.
 | FHIR terms | one CodeSystem supplement per locale, `input/fsh/translations/<locale>.fsh`; never edit a resource's own text |
 
 `.github/workflows/translations.yml` runs the template check, the officiality
-check and `po-status --github`. Merge window: none on record, so a refresh run
-opens PRs and merges nothing unless the owner sets one.
+check and `po-status --github`. Merge policy: **merge-when-green** (owner, 2026-11-07). A
+refresh run merges its own refresh PR only when every check is green and the
+untainted round trip on the changed strings records no fail; anything red,
+uncertain or failing is left open and reported to the owner. Merging is not
+sign-off: the translations stay unofficial.
