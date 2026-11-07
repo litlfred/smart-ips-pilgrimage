@@ -290,3 +290,7 @@ msgstr "Ce que le récit montre qu'il manque encore au guide"
 #: input/pagecontent/pilgrim-journey.md:18
 msgid "Who they are"
 msgstr "Qui ils sont"
+
+#: input/pagecontent/pilgrim-journey.md:16
+msgid "Each numbered step in the figure opens its moment in the <a0>journeys viewer</a0>, which walks through the whole story screen by screen."
+msgstr "Chaque étape numérotée de la figure ouvre son moment dans le <a0>visualiseur de parcours</a0>, qui présente toute l'histoire écran par écran."
