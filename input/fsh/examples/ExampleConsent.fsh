@@ -38,7 +38,8 @@ Usage: #example
 * id = "c7781f44-6df8-4a8b-9e06-0b34263a47c6"
 * status = #active
 * scope = $consentscope#patient-privacy
-* category = $LOINC#59284-0 "Patient Consent"
+* category[0] = $LOINC#59284-0 "Patient Consent"
+* category[+] = http://terminology.hl7.org/CodeSystem/v3-ActCode#OPTIN "opt-in"
 * patient = Reference(Martha)
 * dateTime = "2025-04-01T09:00:00+08:00"
 * performer = Reference(Martha)
@@ -64,7 +65,8 @@ Usage: #example
 * id = "6ba64cfe-b224-4d40-87bf-4d8122e65e62"
 * status = #active
 * scope = $consentscope#patient-privacy
-* category = $LOINC#59284-0 "Patient Consent"
+* category[0] = $LOINC#59284-0 "Patient Consent"
+* category[+] = http://terminology.hl7.org/CodeSystem/v3-ActCode#OPTIN "opt-in"
 * patient = Reference(Martha)
 * dateTime = "2025-04-01T09:05:00+08:00"
 * performer = Reference(Martha)
