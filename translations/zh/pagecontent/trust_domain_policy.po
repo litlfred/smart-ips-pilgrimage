@@ -21,7 +21,7 @@ msgstr "检查每项指名的策略是否在该 ValueSet 中；"
 
 #: input/pagecontent/trust_domain_policy.md:14
 msgid "Consent directives travel with the document. The pilgrim's IPS (<a0>HajjIPS</a0>) carries the Hajj consents it is shared under, as consent entries, and lists them in its Advance Directives section. The Personal Health Wallet guide's process M (\"Add Consent Directives to a Shared or Issued Document\") describes the steps. The copy in the IPS is evidence for the receiver. The origin HIE enforces the copy in its own Consent Registry, because a signed IPS cannot show a later withdrawal."
-msgstr "同意指令随文档一同流转。朝觐者的 IPS（<a0>HajjIPS</a0>）以同意条目的形式携带其据以共享的 Hajj 同意，并在其预先指示（Advance Directives）部分列出这些同意。Personal Health Wallet 指南的流程 M（“Add Consent Directives to a Shared or Issued Document”，向共享或签发的文档添加同意指令）描述了相关步骤。IPS 中的副本是供接收方使用的证据。来源国 HIE 在其自身的同意登记库（Consent Registry）中执行该副本，因为已签名的 IPS 无法显示之后的撤回。"
+msgstr "同意指令随文档一同流转。朝觐者的 IPS（<a0>HajjIPS</a0>）以同意条目的形式携带其据以共享的 Hajj 同意，并在其预先指示（Advance Directives）部分列出这些同意。Personal Health Wallet 指南的流程 M（“Add Consent Directives to a Shared or Issued Document”，向共享或签发的文档添加同意指令）描述了相关步骤。IPS 中的副本是供接收方使用的证据。来源国 HIE 执行的是其自身同意登记库（Consent Registry）中保存的副本，因为已签名的 IPS 无法反映之后的撤回。"
 
 #: input/pagecontent/trust_domain_policy.md:44
 msgid "decides as the <a0>GDHCN Trust Network: Personal Health Wallet</a0> process I describes."
