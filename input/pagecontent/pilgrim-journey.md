@@ -11,7 +11,9 @@ moment says so.
 a pilgrim from Malaysia performing Hajj in the Kingdom of Saudi Arabia (KSA).
 </div>
 
-<img src="workflow.png" alt="Overview of key process flows: steps 1 to 5 between the home country, the pilgrim and KSA, and steps A and B through WHO GDHCN" style="width:70%"/>
+<div style="width:70%" markdown="0">{% include workflow.svg %}</div>
+
+Each numbered step in the figure opens its moment in the [journeys viewer](en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/the-pilgrims-hajj/), which walks through the whole story screen by screen.
 
 ### The people
 
