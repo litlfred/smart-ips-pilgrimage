@@ -1,0 +1,138 @@
+# Arabic translation of pagecontent/index
+#
+# UNOFFICIAL — drafted by an agent from the template beside it (owner
+# 2026-11-06: "launch 6 UN translators (w/ validations)"). No human has
+# adjudicated it; official means human sign-off (#206). Acronyms, codes,
+# placeholders, numbers and URLs are kept as written; persona names are
+# fictional and kept as written. Modern Standard Arabic, right-to-left.
+#
+# Untainted round trip, 2026-11-07: two back-translators that saw only the
+# Arabic (no English, no repository) rendered every Arabic msgstr into
+# English; the translator adjudicated against the msgids. One term-of-art
+# drift found and fixed ("counselor" read back as "guide": now المستشار
+# throughout). No claim, quantifier, negation or named entity was found moved.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: smart-trust\n"
+"POT-Creation-Date: 2026-11-06T09:51:52.177Z\n"
+"PO-Revision-Date: 2026-11-06\n"
+"Last-Translator: smart-ips-pilgrimage agent (drafted, unofficial)\n"
+"Language: ar\n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+#: input/pagecontent/index.md:60
+msgid "## Globals"
+msgstr "## المتغيرات العامة"
+
+#: input/pagecontent/index.md:27
+msgid "### About this implementation guide"
+msgstr "### نبذة عن دليل التنفيذ هذا"
+
+#: input/pagecontent/index.md:54
+msgid "### Cross-version analysis"
+msgstr "### تحليل التوافق بين الإصدارات"
+
+#: input/pagecontent/index.md:57
+msgid "### Dependencies"
+msgstr "### التبعيات"
+
+#: input/pagecontent/index.md:47
+msgid "### Disclaimer The specification herewith documented is a demo working specification and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency and the official publication supersedes this draft. No liability can be inferred from the use or misuse of this specification or its consequences."
+msgstr "### إخلاء المسؤولية المواصفة الموثَّقة هنا مواصفة عمل تجريبية، ولا يجوز استخدامها لأي أغراض تنفيذية. وتُقدَّم هذه المسودة دون أي ضمان لاكتمالها أو اتساقها، ويحل النشر الرسمي محل هذه المسودة. ولا يمكن استنتاج أي مسؤولية من استخدام هذه المواصفة أو إساءة استخدامها أو من عواقب ذلك."
+
+#: input/pagecontent/index.md:51
+msgid "### IP statements"
+msgstr "### بيانات الملكية الفكرية"
+
+#: input/pagecontent/index.md:9
+msgid "### Summary"
+msgstr "### الملخص"
+
+#: input/pagecontent/index.md:39
+msgid "<a0>CPG ActivityDefinitions</a0>"
+msgstr "<a0>CPG ActivityDefinitions</a0>"
+
+#: input/pagecontent/index.md:38
+msgid "<a0>IPS Immunization</a0>"
+msgstr "<a0>IPS Immunization</a0>"
+
+#: input/pagecontent/index.md:37
+msgid "<a0>IPS Patient</a0>"
+msgstr "<a0>IPS Patient</a0>"
+
+#: input/pagecontent/index.md:36
+msgid "<a0>MHD Folder</a0>"
+msgstr "<a0>MHD Folder</a0>"
+
+#: input/pagecontent/index.md:42
+msgid "A complete offline copy of this implementation guide can be found on the <a0>Downloads</a0> page."
+msgstr "يمكن العثور على نسخة كاملة غير متصلة من دليل التنفيذ هذا في صفحة <a0>التنزيلات</a0>."
+
+#: input/pagecontent/index.md:31
+msgid "Business Requirements - contains the requirements for this implementation guide including the definition of key concepts, use cases, and a data dictionary."
+msgstr "متطلبات العمل - تتضمن متطلبات دليل التنفيذ هذا، بما في ذلك تعريف المفاهيم الرئيسية وحالات الاستخدام وقاموس البيانات."
+
+#: input/pagecontent/index.md:32
+msgid "Data Models and Exchange - contains the data models and data exchange protocols with actors and transactions defined."
+msgstr "نماذج البيانات وتبادلها - تتضمن نماذج البيانات وبروتوكولات تبادل البيانات مع تعريف الجهات الفاعلة والمعاملات."
+
+#: input/pagecontent/index.md:33
+msgid "Deployment Guidance  - contains relevant technical specifications and guidance, testing resources, reference implementation materials, and supporting guidance for adaptation to local contexts."
+msgstr "إرشادات النشر - تتضمن المواصفات والإرشادات التقنية ذات الصلة، وموارد الاختبار، ومواد التنفيذ المرجعي، والإرشادات الداعمة للتكييف مع السياقات المحلية."
+
+#: input/pagecontent/index.md:19
+msgid "Eligible Participants may request to join through the The Letter of Application"
+msgstr "يجوز للمشاركين المؤهَّلين طلب الانضمام عبر خطاب الطلب"
+
+#: input/pagecontent/index.md:24
+msgid "Follow one pilgrim through these steps in <a0>The Pilgrim's Journey</a0>."
+msgstr "تابِع حاجًا واحدًا عبر هذه الخطوات في <a0>رحلة الحاج</a0>."
+
+#: input/pagecontent/index.md:41
+msgid "For a complete listing of the artifacts defined in this implementation guide, refer to the <a0>Artifact Index</a0>."
+msgstr "للاطلاع على قائمة كاملة بالمكوّنات المعرَّفة في دليل التنفيذ هذا، يُرجى الرجوع إلى <a0>فهرس المكوّنات</a0>."
+
+#: input/pagecontent/index.md:30
+msgid "Home - contains references to the guidance, guidelines, policies and recommendations underpinning this implementation guide."
+msgstr "الصفحة الرئيسية - تتضمن مراجع إلى الإرشادات والمبادئ التوجيهية والسياسات والتوصيات التي يستند إليها دليل التنفيذ هذا."
+
+#: input/pagecontent/index.md:17
+msgid "Supporting guidance, recommendations, resources, and standards are included in the Bibliography and Dependencies."
+msgstr "تُدرَج الإرشادات والتوصيات والموارد والمعايير الداعمة في قائمة المراجع والتبعيات."
+
+#: input/pagecontent/index.md:15
+msgid "The guide is part of the WHO SMART Guidelines approach to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology."
+msgstr "يُعدّ هذا الدليل جزءًا من نهج إرشادات SMART لمنظمة الصحة العالمية (WHO) لدعم البلدان في دمج توصيات منظمة الصحة العالمية العالمية بشأن الصحة والبيانات في الأنظمة الرقمية بدقة واتساق. ويعرّف سلسلة من موارد FHIR وملفات التعريف (Profiles) والامتدادات والمصطلحات."
+
+#: input/pagecontent/index.md:35
+msgid "This guide assumes use of the following resources:"
+msgstr "يفترض هذا الدليل استخدام الموارد التالية:"
+
+#: input/pagecontent/index.md:43
+msgid "This guide utilizes the <a0>International Patient Summary(IPS)</a0> as a base for defining immunizations and expects that most data captured will be presented in conformance with the resources defined as part of that implementation guide."
+msgstr "يستخدم هذا الدليل <a0>ملخص المريض الدولي (IPS)</a0> أساسًا لتعريف التمنيعات، ويتوقع أن تُعرَض معظم البيانات المُجمَّعة بما يتوافق مع الموارد المعرَّفة ضمن دليل التنفيذ ذلك."
+
+#: input/pagecontent/index.md:4
+msgid "This implementation guide and set of artifacts are still undergoing development."
+msgstr "لا يزال دليل التنفيذ هذا ومجموعة مكوّناته قيد التطوير."
+
+#: input/pagecontent/index.md:12
+msgid "This implementation guide includes a machine-readable representation of WHO guidelines for verifiable IPS during pilgrimage. It explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of IPS during pilgrimage usage scenario.  This Implementation Guide leverages the WHO Global Digital Health Certification Network (GDHCN)."
+msgstr "يتضمن دليل التنفيذ هذا تمثيلًا قابلًا للقراءة آليًا لإرشادات منظمة الصحة العالمية (WHO) بشأن ملخص IPS القابل للتحقق أثناء الحج. ويرمّز صراحةً منطقًا قابلًا للتشغيل البيني حاسوبيًا، بما في ذلك نماذج البيانات والمصطلحات وتعبيرات المنطق، بلغة قابلة للحوسبة لدعم تنفيذ سيناريو استخدام IPS أثناء الحج. ويستفيد دليل التنفيذ هذا من GDHCN ‏(الشبكة العالمية لإصدار الشهادات الصحية الرقمية) التابعة لمنظمة الصحة العالمية."
+
+#: input/pagecontent/index.md:29
+msgid "This implementation guide is broken into the following levels of <a0>knowledge representation</a0>:"
+msgstr "ينقسم دليل التنفيذ هذا إلى المستويات التالية من <a0>تمثيل المعرفة</a0>:"
+
+#: input/pagecontent/index.md:1
+msgid "This Implementation Guide is intended to support the utilization of variable International Patient Summary (IPS)  documents during pilgrimage leveraging  <a0>WHO Global Digital Health Certification Network (GDHCN)</a0> global public health infrastructure."
+msgstr "يهدف دليل التنفيذ هذا إلى دعم استخدام وثائق ملخص المريض الدولي (IPS) المتغيرة أثناء الحج، بالاستفادة من البنية التحتية العالمية للصحة العامة <a0>GDHCN ‏(الشبكة العالمية لإصدار الشهادات الصحية الرقمية) التابعة لمنظمة الصحة العالمية (WHO)</a0>."
+
+#: input/pagecontent/index.md:44
+msgid "This Implementation Guide makes use of <a0>Clinical Quality Language</a0> for the decision support artifacts including the PlanDefinitions and Measures. They are used to express how a calculation should occur and can be used with a CQL engine in order to process the decision or indicator directly from the applicable FHIR resources. Links to this specification, the FHIR Clinical Practice Guidelines Specification, and other helpful resources can be found in the Support dropdown."
+msgstr "يستخدم دليل التنفيذ هذا <a0>لغة الجودة السريرية (Clinical Quality Language)</a0> لمكوّنات دعم القرار، بما في ذلك PlanDefinitions وMeasures. وتُستخدم للتعبير عن كيفية إجراء الحساب، ويمكن استخدامها مع محرك CQL لمعالجة القرار أو المؤشر مباشرةً من موارد FHIR المعنية. ويمكن العثور على روابط إلى هذه المواصفة، ومواصفة الإرشادات السريرية للممارسة في FHIR، وموارد مفيدة أخرى في القائمة المنسدلة «الدعم»."
