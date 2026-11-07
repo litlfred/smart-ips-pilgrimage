@@ -13,6 +13,7 @@ Part of [SMART Verifiable IPS for Pilgrimage](../README.md) 2.1.0, declared as `
 
 | file | what it is | used by |
 |---|---|---|
+| [`glossary-sense.json`](glossary-sense.json) | data |  |
 | [`ar/`](ar/) | _nothing declares what this holds_ | |
 | [`es/`](es/) | _nothing declares what this holds_ | |
 | [`fr/`](fr/) | _nothing declares what this holds_ | |
