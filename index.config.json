@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "e5416e571db7c05cc9d531071aa85ae2977f6e27",
+          "ref": "520cd52597935984b58cb0fe4e00b2e3375c518b",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -43,8 +43,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "e5416e571db7c05cc9d531071aa85ae2977f6e27",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); the coordinator assigned smart-ips-pilgrimage's re-pin to this session."
+              "ref": "520cd52597935984b58cb0fe4e00b2e3375c518b",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\"; smart-base at #313 head 520cd525 as a staging basis (role/health-worker, role/point-of-care-system), to re-pin to main with consent after #313 merges."
             }
           }
         }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "0890e506b8ac6cbc78b57ebf96e545f06bb5256d",
+          "ref": "a3f7af18fd3447c9cf6fedee22cef330f612712e",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -80,8 +80,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "0890e506b8ac6cbc78b57ebf96e545f06bb5256d",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); re-pin refreshed at 08:45Z for cat-harness-tools e3f62f5b (#1620)."
+              "ref": "a3f7af18fd3447c9cf6fedee22cef330f612712e",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); refreshed 11:00Z for cat-harness-tools cc67cd17 (#1622)."
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "5e6f2972eefc01de60d0a455bb676ebeb7aeaf7a",
+          "ref": "60aa67361364ce7439279372405ba5cbc0b3b00d",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -102,8 +102,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "5e6f2972eefc01de60d0a455bb676ebeb7aeaf7a",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); the coordinator assigned smart-ips-pilgrimage's re-pin to this session."
+              "ref": "60aa67361364ce7439279372405ba5cbc0b3b00d",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); refreshed 11:00Z for cat-harness-tools cc67cd17 (#1622)."
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "49496b4f3e0f4e8e1ec01c19a20d2f2ca6516230",
+          "ref": "e7bc1de959a37ca25f7d35bd89cde426d74269dc",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -130,8 +130,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "49496b4f3e0f4e8e1ec01c19a20d2f2ca6516230",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); the coordinator assigned smart-ips-pilgrimage's re-pin to this session."
+              "ref": "e7bc1de959a37ca25f7d35bd89cde426d74269dc",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); refreshed 11:00Z for cat-harness-tools cc67cd17 (#1622)."
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "ea548f0006ad0e5c40656f0fbb499ca7a19dc43e",
+          "ref": "af123f4c581d9cccfe94c954e00dac9fa8c88e83",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,8 +158,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "ea548f0006ad0e5c40656f0fbb499ca7a19dc43e",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); re-pin refreshed at 08:45Z for cat-harness-tools e3f62f5b (#1620)."
+              "ref": "af123f4c581d9cccfe94c954e00dac9fa8c88e83",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); refreshed 11:00Z for cat-harness-tools cc67cd17 (#1622)."
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "e3f62f5bbb5c1ccea684c2909963ec0ec46fd314",
+          "ref": "cc67cd1700e59840490f0dc12a6a6febd6993fda",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "e3f62f5bbb5c1ccea684c2909963ec0ec46fd314",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); re-pin refreshed at 08:45Z for cat-harness-tools e3f62f5b (#1620)."
+              "ref": "cc67cd1700e59840490f0dc12a6a6febd6993fda",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); refreshed 11:00Z for cat-harness-tools cc67cd17 (#1622)."
             }
           }
         }
