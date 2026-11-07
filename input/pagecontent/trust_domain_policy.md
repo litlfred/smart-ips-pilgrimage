@@ -4,6 +4,15 @@ This Trust Domain enables data exchange mediated by the pilgrim, on the basis of
 
 The [IPS.HAJJ.CONSENT ValueSet](ValueSet-IPS.HAJJ.CONSENT.html) is this Trust Domain's terms of use: the policies a participant may say it acts under. It is recorded on the [IPS-PILGRIMAGE Trust Domain](http://smart.who.int/trust/Binary-TrustDomain-IPS-PILGRIMAGE.html) in the GDHCN Trust IG. The GDHCN Administrative and Operational Framework 1.2 has no annex for this Trust Domain yet, so that record is drafted from this IG.
 
+#### Explicit and implied consent
+
+This guide follows the consent model of the [GDHCN Trust Network: Personal Health Wallet](http://smart.who.int/trust-phw/consent.html) guide, which is built on IHE Privacy Consent on FHIR (PCF) 1.1.0:
+
+* **Explicit consent.** The pilgrim agrees by their own act: on their wallet, or to the counsellor, who records it. Each [Hajj consent](StructureDefinition-HajjConsent.html) is an explicit consent. It names its `IPS.HAJJ.CONSENT` code and the code system version in `Consent.policyRule`, and its `source[x]` is the evidence: the consent text the pilgrim was shown, with their recorded act. The Personal Health Wallet guide's process L ("Record Explicit Consent") describes the steps. Both the verbal consent and the consent on the wallet in this guide's business processes are explicit consents.
+* **Implied consent.** The pilgrim does nothing, and the Trust Domain's default policy applies. This Trust Domain is opt-in: its default is the IHE PCF implicit policy `Policy-deny`. With no Hajj consent, the IPS is not shared.
+
+**Consent directives travel with the document.** The pilgrim's IPS ([HajjIPS](StructureDefinition-HajjIPS.html)) carries the Hajj consents it is shared under, as consent entries, and lists them in its Advance Directives section. The Personal Health Wallet guide's process M ("Add Consent Directives to a Shared or Issued Document") describes the steps. The copy in the IPS is evidence for the receiver. The origin HIE enforces the copy in its own Consent Registry, because a signed IPS cannot show a later withdrawal.
+
 #### Naming the consent a VHL Receiver acts under
 
 Under the Verifiable Credential Option of IHE ITI VHL (ITI-YY5), a VHL Receiver retrieves the manifest with a credential it issues itself. It can name the consent policy it acts under in that credential's W3C VC 2.0 `termsOfUse`, with one [Trust Domain policy](http://smart.who.int/trust/StructureDefinition-TrustDomainPolicy.html) entry per policy:
