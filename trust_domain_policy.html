@@ -28,6 +28,17 @@
 
 <p>The <a href="artifact/ValueSet-IPS.HAJJ.CONSENT.html">IPS.HAJJ.CONSENT ValueSet</a> is this Trust Domain’s terms of use: the policies a participant may say it acts under. It is recorded on the <a href="http://smart.who.int/trust/Binary-TrustDomain-IPS-PILGRIMAGE.html">IPS-PILGRIMAGE Trust Domain</a> in the GDHCN Trust IG. The GDHCN Administrative and Operational Framework 1.2 has no annex for this Trust Domain yet, so that record is drafted from this IG.</p>
 
+<h4 id="explicit-and-implied-consent">Explicit and implied consent</h4>
+
+<p>This guide follows the consent model of the <a href="http://smart.who.int/trust-phw/consent.html">GDHCN Trust Network: Personal Health Wallet</a> guide, which is built on IHE Privacy Consent on FHIR (PCF) 1.1.0:</p>
+
+<ul>
+  <li><strong>Explicit consent.</strong> The pilgrim agrees by their own act: on their wallet, or to the counsellor, who records it. Each <a href="artifact/StructureDefinition-HajjConsent.html">Hajj consent</a> is an explicit consent, an opt-in: its <code class="language-plaintext highlighter-rouge">Consent.category</code> includes the HL7 v3 ActConsentDirective code <code class="language-plaintext highlighter-rouge">OPTIN</code>. It names its <code class="language-plaintext highlighter-rouge">IPS.HAJJ.CONSENT</code> code and the code system version in <code class="language-plaintext highlighter-rouge">Consent.policyRule</code>, and its <code class="language-plaintext highlighter-rouge">source[x]</code> is the evidence: the consent text the pilgrim was shown, with their recorded act. The Personal Health Wallet guide’s process L (“Record Explicit Consent”) describes the steps. Both the verbal consent and the consent on the wallet in this guide’s business processes are explicit consents.</li>
+  <li><strong>Implied consent.</strong> The pilgrim does nothing, and the Trust Domain’s default policy applies (HL7 ActConsentDirective <code class="language-plaintext highlighter-rouge">IMPLIED</code>). This Trust Domain is opt-in: its default is the IHE PCF implicit policy <code class="language-plaintext highlighter-rouge">Policy-deny</code>. With no Hajj consent, the IPS is not shared.</li>
+</ul>
+
+<p><strong>Consent directives travel with the document.</strong> The pilgrim’s IPS (<a href="artifact/StructureDefinition-HajjIPS.html">HajjIPS</a>) carries the Hajj consents it is shared under, as consent entries, and lists them in its Advance Directives section. The Personal Health Wallet guide’s process M (“Add Consent Directives to a Shared or Issued Document”) describes the steps. The copy in the IPS is evidence for the receiver. The origin HIE enforces the copy in its own Consent Registry, because a signed IPS cannot show a later withdrawal.</p>
+
 <h4 id="naming-the-consent-a-vhl-receiver-acts-under">Naming the consent a VHL Receiver acts under</h4>
 
 <p>Under the Verifiable Credential Option of IHE ITI VHL (ITI-YY5), a VHL Receiver retrieves the manifest with a credential it issues itself. It can name the consent policy it acts under in that credential’s W3C VC 2.0 <code class="language-plaintext highlighter-rouge">termsOfUse</code>, with one <a href="http://smart.who.int/trust/StructureDefinition-TrustDomainPolicy.html">Trust Domain policy</a> entry per policy:</p>
@@ -62,19 +73,18 @@
 <p>Naming a policy only narrows the consents that apply, and it never overrides a prohibition. A credential with no <code class="language-plaintext highlighter-rouge">termsOfUse</code> is decided on all the pilgrim’s applicable consents.</p>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/trust_domain_policy.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/trust_domain_policy.md">Edit this page on GitHub</a></p>
-<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/trust_domain_policy.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/trust_domain_policy.md", "lines": [{"t":"Terms of use","l":3},{"t":"Naming the consent a VHL Receiver acts under","l":7}]}</script>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/trust_domain_policy.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/trust_domain_policy.md", "lines": [{"t":"Terms of use","l":3},{"t":"Explicit and implied consent","l":7},{"t":"Naming the consent a VHL Receiver acts under","l":16}]}</script>
 
 <script src="./assets/ig-source-links.js"></script>
 
-<link rel="stylesheet" href="assets/ig-pages.css" />
-
-<footer id="ig-footer">
-<p class="ig-footer-nav"><a href="#">top</a></p>
-<p class="ig-footer-band">IG © 2023+ <a href="http://who.int" rel="external">WHO</a>. Package <code>smart.who.int.ips-pilgrimage#2.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. </p>
-<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="https://spdx.org/licenses/CC-BY-SA-3.0-IGO.html" rel="external">License</a></p>
-</footer>
-
 
 </main>
+<link rel="stylesheet" href="assets/ig-pages.css">
+<footer id="ig-footer">
+<p class="ig-footer-nav"><a href="#">top</a></p>
+<p class="ig-footer-band">IG © 2023+ <a href="http://who.int" rel="external">WHO</a>. Package <code>smart.who.int.ips-pilgrimage#2.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-07</p>
+<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="qa.html">QA Report</a> | <a href="https://spdx.org/licenses/CC-BY-SA-3.0-IGO.html" rel="external">License</a></p>
+</footer>
+
 </body>
 </html>

@@ -253,11 +253,11 @@
           "heading": false
         },
         {
-          "term": "defense",
+          "term": "test-time",
           "heading": false
         },
         {
-          "term": "test-time",
+          "term": "defense",
           "heading": false
         },
         {
@@ -648,11 +648,11 @@
           "heading": false
         },
         {
-          "term": "prompt injection",
+          "term": "attack succeeds",
           "heading": false
         },
         {
-          "term": "attack succeeds",
+          "term": "prompt injection",
           "heading": false
         },
         {
@@ -832,7 +832,7 @@
           "heading": false
         },
         {
-          "term": "token emb",
+          "term": "alpacafarm",
           "heading": false
         }
       ],
@@ -924,11 +924,11 @@
           "heading": false
         },
         {
-          "term": "percy liang",
+          "term": "international conference",
           "heading": false
         },
         {
-          "term": "international conference",
+          "term": "percy liang",
           "heading": false
         },
         {
@@ -936,11 +936,11 @@
           "heading": false
         },
         {
-          "term": "prompt hacking",
+          "term": "sizhe chen",
           "heading": false
         },
         {
-          "term": "sizhe chen",
+          "term": "prompt hacking",
           "heading": false
         },
         {
@@ -1002,12 +1002,12 @@
       "heading": true
     },
     {
-      "term": "prompt optimization",
+      "term": "system-level defense",
       "heading": false
     },
     {
-      "term": "system-level defense",
-      "heading": false
+      "term": "defense baselines",
+      "heading": true
     }
   ],
   "pageLabels": [

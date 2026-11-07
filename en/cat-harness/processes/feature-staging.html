@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -913,27 +913,27 @@
 
 <p>TWO GATEWAYS, and both are three-state rather than yes/no. <code class="language-plaintext highlighter-rouge">Removal confirmed?</code> reads a merge as confirmation in its own right (bean <code class="language-plaintext highlighter-rouge">1feu</code>) while still requiring a label for a close without a merge. <code class="language-plaintext highlighter-rouge">Still in use?</code> refuses on a live signal AND on could-not-tell, because a preflight that has gone blind must not read as permission.</p>
 
-<p>EVERY PATH THAT CHANGES <code class="language-plaintext highlighter-rouge">STAGING/</code> WRITES TO THE RENDER LOG, and the two removal paths write the record in the SAME COMMIT as the removal. A separate log push can fail alone and leave a preview that vanished with nothing saying why, which is the state bean <code class="language-plaintext highlighter-rouge">plj1</code> left the publish branch in for months.</p>
+<p>EVERY PATH THAT CHANGES <code class="language-plaintext highlighter-rouge">branches/</code> WRITES TO THE RENDER LOG, and the two removal paths write the record in the SAME COMMIT as the removal. A separate log push can fail alone and leave a preview that vanished with nothing saying why, which is the state bean <code class="language-plaintext highlighter-rouge">plj1</code> left the publish branch in for months.</p>
 
 <p>The single human step is the dispatch confirmation. Everything else is mechanical, which is what makes <code class="language-plaintext highlighter-rouge">build-pipeline</code> the right lane rather than a convenient one.</p>
-<style>.pt-diagram{position:relative;width:100%}.pt-diagram>img{display:block;width:100%;height:auto}.pt-mark{position:absolute;transform:translate(-50%,-50%);width:1.35em;height:1.35em;padding:0;border-radius:50%;border:1px solid #1f6feb;background:#fff;color:#1f6feb;font:bold 0.8em/1 sans-serif;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 2px rgba(0,0,0,.25)}.pt-layer{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:2}.pt-layer>*{pointer-events:auto}.pt-go{position:absolute;display:block;border-radius:3px;cursor:pointer}.pt-go:hover,.pt-go:focus-visible{outline:2px solid #1f6feb;outline-offset:1px;background:rgba(31,111,235,.07)}.pt-mark{z-index:1}.pt-mark:hover,.pt-mark[aria-expanded=true]{background:#1f6feb;color:#fff}.pt-mark:focus-visible{outline:2px solid #1f6feb;outline-offset:2px}.pt-panel{position:absolute;z-index:5;margin:0.9em 0 0 -0.6em;max-width:min(26em,90vw);min-width:14em;padding:0.6em 0.7em;background:#fff;color:#1b1f24;border:1px solid #8c959f;border-radius:6px;box-shadow:0 4px 14px rgba(0,0,0,.18);font-size:0.85em;line-height:1.35}.pt-close{position:absolute;top:0.2em;right:0.35em;border:0;background:none;font-size:1.2em;cursor:pointer;color:inherit}.pt-obj{border:1px solid #57606a;border-radius:3px;margin:0.15em 0}.pt-head{border-bottom:1px solid #57606a;padding:0.15em 0.45em;background:#f6f8fa;text-decoration:underline}.pt-head .pt-st{text-decoration:none;display:inline-block;margin-right:0.35em}.pt-attr{padding:0.1em 0.45em}.pt-st,.pt-via{color:#57606a;font-size:0.9em}.pt-edge{color:#57606a;font-size:0.85em;padding-left:1em}.pt-role .pt-head{background:#fff8c5}.pt-skill .pt-head{background:#ddf4ff}.pt-task .pt-head{background:#f6f8fa}.pt-none{color:#57606a;font-style:italic;margin-top:0.3em}</style>
+<style>.pt-diagram{position:relative;width:100%}.pt-diagram>img{display:block;width:100%;height:auto}.pt-mark{position:absolute;transform:translate(-50%,-50%);width:1.35em;height:1.35em;padding:0;border-radius:50%;border:1px solid #1f6feb;background:#fff;color:#1f6feb;font:bold 0.8em/1 sans-serif;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 2px rgba(0,0,0,.25)}.pt-layer{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:2}.pt-layer>*{pointer-events:auto}.pt-go{position:absolute;display:block;border-radius:3px;cursor:pointer}.pt-go:hover,.pt-go:focus-visible{outline:2px solid #1f6feb;outline-offset:1px;background:rgba(31,111,235,.07)}.pt-mark{z-index:1}.pt-mark:hover,.pt-mark[aria-expanded=true]{background:#1f6feb;color:#fff}.pt-mark:focus-visible{outline:2px solid #1f6feb;outline-offset:2px}.pt-panel{position:absolute;z-index:5;text-align:left;margin:0.9em 0 0 -0.6em;max-width:min(26em,90vw);min-width:14em;padding:0.6em 0.7em;background:#fff;color:#1b1f24;border:1px solid #8c959f;border-radius:6px;box-shadow:0 4px 14px rgba(0,0,0,.18);font-size:0.85em;line-height:1.35}.pt-close{position:absolute;top:0.2em;right:0.35em;border:0;background:none;font-size:1.2em;cursor:pointer;color:inherit}.pt-obj{border:1px solid #57606a;border-radius:3px;margin:0.15em 0}.pt-head{border-bottom:1px solid #57606a;padding:0.15em 0.45em;background:#f6f8fa;text-decoration:underline}.pt-head .pt-st{text-decoration:none;display:inline-block;margin-right:0.35em}.pt-attr{padding:0.1em 0.45em}.pt-st,.pt-via{color:#57606a;font-size:0.9em}.pt-edge{color:#57606a;font-size:0.85em;padding-left:1em}.pt-role .pt-head{background:#fff8c5}.pt-skill .pt-head{background:#ddf4ff}.pt-task .pt-head{background:#f6f8fa}.pt-none{color:#57606a;font-style:italic;margin-top:0.3em}.pt-diagram [data-pt-hl]>[class$="djs-visual"]>:first-child{stroke:#d97706!important;stroke-width:4px!important;fill:#fff3d6!important}.pt-diagram [data-pt-hl]>[class$="djs-visual"]>path:first-child{fill:none!important}.pt-has-hl [class*="djs-shape"]:not([data-pt-hl])>[class$="djs-visual"]>:first-child{opacity:.75}</style>
 
 <div class="pt-diagram" data-panel="feature-staging.tasks.json">
 <img src="../../../assets/img/workflows/feature-staging.svg" alt="BPMN diagram: Staging a feature branch preview, and taking it down" />
 <div class="pt-layer">
-<button type="button" class="pt-mark" data-task="Task_Build" style="left:27.78%;top:4.52%" aria-expanded="false" aria-label="About step: Build the docs site" title="About: Build the docs site">i</button>
-<a class="pt-go" href="render-kg-to-cdn.html" style="left:37.82%;top:16.8%;width:2.05%;height:3.1%" aria-label="Open subprocess: Push to the CDN under STAGING/" title="Open subprocess: Push to the CDN under STAGING/"></a>
-<button type="button" class="pt-mark" data-task="Task_Deploy" style="left:44.02%;top:4.52%" aria-expanded="false" aria-label="About step: Push to the CDN under STAGING/" title="About: Push to the CDN under STAGING/">i</button>
-<button type="button" class="pt-mark" data-task="Task_LogRendered" style="left:60.26%;top:4.52%" aria-expanded="false" aria-label="About step: Append `rendered` to the render log" title="About: Append `rendered` to the render log">i</button>
-<button type="button" class="pt-mark" data-task="Task_Comment" style="left:76.5%;top:4.52%" aria-expanded="false" aria-label="About step: Comment the preview URL on the PR" title="About: Comment the preview URL on the PR">i</button>
-<button type="button" class="pt-mark" data-task="Task_Slug" style="left:27.78%;top:27.78%" aria-expanded="false" aria-label="About step: Derive the slug from the head ref" title="About: Derive the slug from the head ref">i</button>
-<button type="button" class="pt-mark" data-task="Task_Remove" style="left:61.97%;top:20.03%" aria-expanded="false" aria-label="About step: Remove the preview and log it" title="About: Remove the preview and log it">i</button>
-<button type="button" class="pt-mark" data-task="Task_LogRetained" style="left:61.97%;top:36.82%" aria-expanded="false" aria-label="About step: Append `retained`, with why it stays" title="About: Append `retained`, with why it stays">i</button>
-<button type="button" class="pt-mark" data-task="Task_Notice" style="left:78.21%;top:36.82%" aria-expanded="false" aria-label="About step: Post the retention notice on the PR" title="About: Post the retention notice on the PR">i</button>
-<button type="button" class="pt-mark" data-task="Task_Validate" style="left:29.49%;top:53.62%" aria-expanded="false" aria-label="About step: Check the slug and its confirmation" title="About: Check the slug and its confirmation">i</button>
-<button type="button" class="pt-mark" data-task="Task_Preflight" style="left:46.58%;top:53.62%" aria-expanded="false" aria-label="About step: Re-evaluate liveness AT REMOVAL TIME" title="About: Re-evaluate liveness AT REMOVAL TIME">i</button>
-<button type="button" class="pt-mark" data-task="Task_RemoveDisp" style="left:78.21%;top:45.87%" aria-expanded="false" aria-label="About step: Remove it AND append `removed` — one commit" title="About: Remove it AND append `removed` — one commit">i</button>
-<button type="button" class="pt-mark" data-task="H_Confirm" style="left:29.49%;top:82.3%" aria-expanded="false" aria-label="About step: Repeat the slug, exactly, to confirm" title="About: Repeat the slug, exactly, to confirm">i</button>
+<button type="button" class="pt-mark" data-task="Task_Build" style="left:31.01%;top:2.78%" aria-expanded="false" aria-label="About step: Build the docs site" title="About: Build the docs site">i</button>
+<a class="pt-go" href="render-kg-to-cdn.html" style="left:38.84%;top:13.33%;width:2.42%;height:2.67%" aria-label="Open subprocess: Push to the CDN under branches/" title="Open subprocess: Push to the CDN under branches/"></a>
+<button type="button" class="pt-mark" data-task="Task_Deploy" style="left:46.16%;top:2.78%" aria-expanded="false" aria-label="About step: Push to the CDN under branches/" title="About: Push to the CDN under branches/">i</button>
+<button type="button" class="pt-mark" data-task="Task_LogRendered" style="left:61.31%;top:2.78%" aria-expanded="false" aria-label="About step: Append `rendered` to the render log" title="About: Append `rendered` to the render log">i</button>
+<button type="button" class="pt-mark" data-task="Task_Comment" style="left:76.46%;top:2.78%" aria-expanded="false" aria-label="About step: Comment the preview URL on the PR" title="About: Comment the preview URL on the PR">i</button>
+<button type="button" class="pt-mark" data-task="Task_Slug" style="left:31.01%;top:21.67%" aria-expanded="false" aria-label="About step: Derive the slug from the head ref" title="About: Derive the slug from the head ref">i</button>
+<button type="button" class="pt-mark" data-task="Task_Remove" style="left:65.35%;top:21.67%" aria-expanded="false" aria-label="About step: Remove the preview and log it" title="About: Remove the preview and log it">i</button>
+<button type="button" class="pt-mark" data-task="Task_LogRetained" style="left:65.35%;top:38.33%" aria-expanded="false" aria-label="About step: Append `retained`, with why it stays" title="About: Append `retained`, with why it stays">i</button>
+<button type="button" class="pt-mark" data-task="Task_Notice" style="left:80.51%;top:38.33%" aria-expanded="false" aria-label="About step: Post the retention notice on the PR" title="About: Post the retention notice on the PR">i</button>
+<button type="button" class="pt-mark" data-task="Task_Validate" style="left:31.01%;top:57.22%" aria-expanded="false" aria-label="About step: Check the slug and its confirmation" title="About: Check the slug and its confirmation">i</button>
+<button type="button" class="pt-mark" data-task="Task_Preflight" style="left:46.16%;top:57.22%" aria-expanded="false" aria-label="About step: Re-evaluate liveness AT REMOVAL TIME" title="About: Re-evaluate liveness AT REMOVAL TIME">i</button>
+<button type="button" class="pt-mark" data-task="Task_RemoveDisp" style="left:80.51%;top:57.22%" aria-expanded="false" aria-label="About step: Remove it AND append `removed` — one commit" title="About: Remove it AND append `removed` — one commit">i</button>
+<button type="button" class="pt-mark" data-task="H_Confirm" style="left:19.7%;top:85.56%" aria-expanded="false" aria-label="About step: Repeat the slug, exactly, to confirm" title="About: Repeat the slug, exactly, to confirm">i</button>
 </div>
 <div class="pt-panel" role="dialog" aria-label="Task details" hidden=""></div>
 </div>
@@ -941,6 +941,21 @@
   Array.prototype.forEach.call(document.querySelectorAll(".pt-diagram:not([data-pt-ready])"), init);
   function init(root) {
   root.setAttribute("data-pt-ready", "");
+  // Every href in the sidecar is relative to the sidecar (it sits beside the
+  // process page), so a page elsewhere on the site that shows the same
+  // drawing resolves them to the same targets.
+  // A drawing with no sidecar (a page that only highlights steps, where no
+  // processes viewer is published) gets the highlight and nothing else.
+  var sidecar = root.getAttribute("data-panel");
+  var base = new URL(sidecar || "", location.href);
+  function abs(h) { try { return new URL(h, base).href; } catch (e) { return h; } }
+  // A page with no server-drawn markers gets them from the sidecar.
+  var drawn = !!root.querySelector(".pt-layer");
+  if (!drawn) {
+    var ly = document.createElement("div"); ly.className = "pt-layer"; root.appendChild(ly);
+    var pn = document.createElement("div"); pn.className = "pt-panel"; pn.setAttribute("role", "dialog");
+    pn.setAttribute("aria-label", "Task details"); pn.hidden = true; root.appendChild(pn);
+  }
   var panel = root.querySelector(".pt-panel"), data = null, pending = null, open = null;
   function load() {
     if (data) return Promise.resolve(data);
@@ -953,7 +968,7 @@
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function link(l, cls) {
     var e = el(l.href ? "a" : "code", cls, l.name);
-    if (l.href) e.href = l.href; else e.title = "no page for this one";
+    if (l.href) e.href = abs(l.href); else e.title = "no page for this one";
     return e;
   }
   function obj(stereo, name, kind) {
@@ -992,7 +1007,8 @@
       Object.keys(t.shared.inputs || {}).forEach(function (k) { gt.appendChild(el("div", "pt-attr", k + " = " + t.shared.inputs[k])); });
       panel.appendChild(gt);
     }
-    t.skills.forEach(function (s) {
+    var sk_on = !(data && data.skills === false);
+    (sk_on ? t.skills : []).forEach(function (s) {
       panel.appendChild(edge("requires"));
       var sk = obj("Skill", link(s), "skill");
       (s.methodologies || []).forEach(function (m) {
@@ -1001,19 +1017,22 @@
       });
       panel.appendChild(sk);
     });
-    if (!t.skills.length && !t.calls) panel.appendChild(el("div", "pt-none", "This task names no skill."));
+    if (sk_on && !t.skills.length && !t.calls) panel.appendChild(el("div", "pt-none", "This task names no skill."));
     if (t.role) {
       panel.appendChild(edge("lane names"));
       var role = obj("Role", link(t.role), "role");
       if (t.role.title) role.appendChild(el("div", "pt-attr", "title = " + t.role.title));
-      var list = el("div", "pt-attr"); list.appendChild(el("span", "pt-st", "hasSkill: "));
-      if (!t.role.skills.length) list.appendChild(el("i", null, "none listed"));
-      t.role.skills.forEach(function (s, i) {
-        if (i) list.appendChild(document.createTextNode(", "));
-        list.appendChild(link(s));
-        if (s.via) list.appendChild(el("span", "pt-via", " (via " + s.via + ")"));
-      });
-      role.appendChild(list); panel.appendChild(role);
+      if (sk_on) {
+        var list = el("div", "pt-attr"); list.appendChild(el("span", "pt-st", "hasSkill: "));
+        if (!t.role.skills.length) list.appendChild(el("i", null, "none listed"));
+        t.role.skills.forEach(function (s, i) {
+          if (i) list.appendChild(document.createTextNode(", "));
+          list.appendChild(link(s));
+          if (s.via) list.appendChild(el("span", "pt-via", " (via " + s.via + ")"));
+        });
+        role.appendChild(list);
+      }
+      panel.appendChild(role);
     } else if (t.binding) {
       panel.appendChild(el("div", "pt-none", "Lane role: " + t.binding + "."));
     }
@@ -1035,14 +1054,27 @@
     }
     return null;
   }
+  // A page may name steps to pick out (a journey's step shows the tasks it
+  // realises): `data-pt-highlight="Task_A Task_B"`. Marked once the drawing
+  // is inline, which is when its shapes exist to mark.
+  var hl = (root.getAttribute("data-pt-highlight") || "").split(/\s+/).filter(Boolean);
+  if (hl.length) root.classList.add("pt-has-hl");
+  function mark(a) {
+    if (!hl.length || a.tagName.toLowerCase() !== "svg" || a.hasAttribute("data-pt-marked")) return;
+    a.setAttribute("data-pt-marked", "");
+    Array.prototype.forEach.call(a.querySelectorAll("[data-element-id]"), function (g) {
+      if (hl.indexOf(g.getAttribute("data-element-id")) >= 0) g.setAttribute("data-pt-hl", "");
+    });
+  }
   function place() {
     queued = false;
     var a = art();
+    if (a) mark(a);
     if (!layer || !a) return;
     var r = root.getBoundingClientRect(), b = a.getBoundingClientRect();
     var x = b.left - r.left, y = b.top - r.top, w = b.width, h = b.height, vw = 0, vh = 0;
     if (a.tagName.toLowerCase() === "img") { vw = a.naturalWidth; vh = a.naturalHeight; }
-    else { var vb = (a.getAttribute("viewBox") || "").trim().split(/[s,]+/).map(Number); vw = vb[2]; vh = vb[3]; }
+    else { var vb = (a.getAttribute("viewBox") || "").trim().split(/[\s,]+/).map(Number); vw = vb[2]; vh = vb[3]; }
     // An SVG keeps its aspect inside a box of another shape (xMidYMid meet).
     if (vw > 0 && vh > 0 && w > 0 && h > 0) {
       var k = vw / vh;
@@ -1068,6 +1100,20 @@
   root.addEventListener("load", schedule, true);
   window.addEventListener("resize", schedule);
   schedule();
+  if (!drawn && sidecar) load().then(function (j) {
+    (j.markers || []).forEach(function (m) {
+      var t = j.tasks[m.id], to = t && t.calls ? (t.calls.diagram || t.calls.href) : null;
+      if (to && m.box) {
+        var g = el("a", "pt-go"); g.href = abs(to);
+        g.style.left = m.box.left + "%"; g.style.top = m.box.top + "%"; g.style.width = m.box.width + "%"; g.style.height = m.box.height + "%";
+        g.setAttribute("aria-label", "Open subprocess: " + m.name); g.title = "Open subprocess: " + m.name; layer.appendChild(g);
+      }
+      var b = el("button", "pt-mark", "i"); b.type = "button"; b.setAttribute("data-task", m.id);
+      b.style.left = m.left + "%"; b.style.top = m.top + "%"; b.setAttribute("aria-expanded", "false");
+      b.setAttribute("aria-label", "About step: " + m.name); b.title = "About: " + m.name; layer.appendChild(b);
+    });
+    schedule();
+  }).catch(function (e) { console.warn("task panel: could not load " + base.href + " (" + e.message + ")"); });
   function at(b) {
     var r = root.getBoundingClientRect(), m = b.getBoundingClientRect();
     panel.style.left = (m.left + m.width / 2 - r.left) + "px"; panel.style.top = (m.top + m.height / 2 - r.top) + "px";
@@ -1127,7 +1173,7 @@
     <tr>
       <td>CI/CD Pipeline</td>
       <td><code class="language-plaintext highlighter-rouge">build-pipeline</code></td>
-      <td>Runs all three entry points — stage, cleanup, cleanup-dispatch — as one actor because none of the work in any of them needs judgement; the one step that does, confirming a dispatch deletion, was carved out into Lane_Human rather than left here. Every path that changes <code class="language-plaintext highlighter-rouge">STAGING/</code> writes its render-log entry in the SAME commit as the change, because a log push that can fail on its own is exactly how a preview vanishes with nothing on the branch saying why.<br />A FOURTH trigger starts none of them, and that is deliberate rather than an omission from this diagram. <code class="language-plaintext highlighter-rouge">merge_group</code> is declared on the workflow so it REPORTS in the merge queue — a required check that never reports on a <code class="language-plaintext highlighter-rouge">merge_group</code> event leaves every queued pull request pending forever — and all three jobs skip on it. A preview exists for the reviewers of a pull request; a queue entry has none and lives for minutes. Without the skip, <code class="language-plaintext highlighter-rouge">stage</code>’s existing guards all pass on a queue run (<code class="language-plaintext highlighter-rouge">github.event.action</code> is empty and the event is not a dispatch), so it would publish <code class="language-plaintext highlighter-rouge">STAGING/&lt;slug&gt;/</code> named after the ephemeral <code class="language-plaintext highlighter-rouge">gh-readonly-queue/...</code> ref, and nothing would ever remove it — <code class="language-plaintext highlighter-rouge">Start_Closed</code> below fires on <code class="language-plaintext highlighter-rouge">pull_request_target: closed</code>, and a queue branch is never a pull request that closes. That is the <code class="language-plaintext highlighter-rouge">plj1</code> shape arriving once per MERGE rather than once per pull request.</td>
+      <td>Runs all three entry points — stage, cleanup, cleanup-dispatch — as one actor because none of the work in any of them needs judgement; the one step that does, confirming a dispatch deletion, was carved out into Lane_Human rather than left here. Every path that changes <code class="language-plaintext highlighter-rouge">branches/</code> writes its render-log entry in the SAME commit as the change, because a log push that can fail on its own is exactly how a preview vanishes with nothing on the branch saying why.<br />A FOURTH trigger starts none of them, and that is deliberate rather than an omission from this diagram. <code class="language-plaintext highlighter-rouge">merge_group</code> is declared on the workflow so it REPORTS in the merge queue — a required check that never reports on a <code class="language-plaintext highlighter-rouge">merge_group</code> event leaves every queued pull request pending forever — and all three jobs skip on it. A preview exists for the reviewers of a pull request; a queue entry has none and lives for minutes. Without the skip, <code class="language-plaintext highlighter-rouge">stage</code>’s existing guards all pass on a queue run (<code class="language-plaintext highlighter-rouge">github.event.action</code> is empty and the event is not a dispatch), so it would publish <code class="language-plaintext highlighter-rouge">branches/&lt;slug&gt;/</code> named after the ephemeral <code class="language-plaintext highlighter-rouge">gh-readonly-queue/...</code> ref, and nothing would ever remove it — <code class="language-plaintext highlighter-rouge">Start_Closed</code> below fires on <code class="language-plaintext highlighter-rouge">pull_request_target: closed</code>, and a queue branch is never a pull request that closes. That is the <code class="language-plaintext highlighter-rouge">plj1</code> shape arriving once per MERGE rather than once per pull request.</td>
     </tr>
     <tr>
       <td>Human actor</td>
@@ -1164,22 +1210,22 @@
       <td>Build the preview from the PR’s head: regenerate the generated docs, trim what this preview does not need, render the BPMN diagrams, then Jekyll, TypeDoc and the knowledge-graph export, with the staging banner and SEO identity claims stripped. It is a PREVIEW build (CAT_BUILD_TYPE=preview, owner 2026-11-01): only what the change reaches, and every whole-corpus index (builtAtPublish entries marked index: true, and the search index) is main’s copy, put back rather than rebuilt. A branch frozen for public comment is dispatched with build_type: full instead. Skill feature-staging, section Build types. A PREVIEW REBUILDS ONLY ITS DEPENDENCY CONE (owner cards Q-CONE-1 C and Q-CONE-2 B, 2026-11-01): main’s writer records say what each derive:publish writer and each step of the QA working copy READ. A writer or QA step whose recorded reads all match is not run, and main’s outputs for it are put back. Every other one runs. QA is not left out of a preview, only narrowed to what the change can reach. Inside a preview’s QA build, <code class="language-plaintext highlighter-rouge">skill:register</code> also leaves to derive:publish the two pages that derive:publish builds anyway and that no later QA step reads (<code class="language-plaintext highlighter-rouge">skills:docs</code> and <code class="language-plaintext highlighter-rouge">lsi:viz</code>), so they are built once.</td>
     </tr>
     <tr>
-      <td><strong>Push to the CDN under STAGING/</strong><br /><code class="language-plaintext highlighter-rouge">Task_Deploy</code></td>
+      <td><strong>Push to the CDN under branches/</strong><br /><code class="language-plaintext highlighter-rouge">Task_Deploy</code></td>
       <td>CI/CD Pipeline</td>
       <td>calls <a href="render-kg-to-cdn.html">Render a Knowledge Graph to a CDN</a><br /><code class="language-plaintext highlighter-rouge">render-kg-to-cdn</code></td>
-      <td>A PREVIEW IS THE GENERAL STEP WITH A DIFFERENT ROOT (owner, 2026-09-30: “independent of staging vs publication … just rendering”). <a href="render-kg-to-cdn.html">Process_RenderKgToCdn</a>, entered with the tree Task_Build rendered, <code class="language-plaintext highlighter-rouge">STAGING/&lt;slug&gt;/</code> under the site root as the publication root URL, and GitHub Pages as the target, so its <code class="language-plaintext highlighter-rouge">gh-pages</code> Tool pushes. For this target the push is <code class="language-plaintext highlighter-rouge">keep_files: true</code> with a <code class="language-plaintext highlighter-rouge">destination_dir</code>, so it adds one directory beside whatever else is on the branch; it is also RETRIED once: five other workflows push to <code class="language-plaintext highlighter-rouge">gh-pages</code> without joining this one’s concurrency group, and a queue does not help because GitHub CANCELS a pending job when a newer one arrives for the same group rather than queueing it. Measured 2026-09-19: three staging runs from three different branches inside 17 seconds, two cancelled. The call returns the push’s status and message; the render log and the PR comment that follow are this process’s own. THE PREVIEW CAP rides in the same commit (owner ruling 2026-10-02, issue #1868: “cap the maximum number of previews (&lt;= 10) and rotate old ones off”, amended 2026-10-04 to a SIZE budget: “Cap by size, not count”, “3gb”): <code class="language-plaintext highlighter-rouge">staging-rotate.ts</code> keeps this preview plus the most recently updated others while their total fits MAX_PREVIEW_BYTES = 3 GB and removes the rest, oldest first, each with a <code class="language-plaintext highlighter-rouge">removed</code> render-log entry and its record retired into STAGING/_retired/. Every push attempt re-reads <code class="language-plaintext highlighter-rouge">gh-pages</code> and re-decides rather than rebasing, so a lost race never pushes a stale removal. A rotated-off preview is regenerated by the next push to its PR branch.</td>
+      <td>A PREVIEW IS THE GENERAL STEP WITH A DIFFERENT ROOT (owner, 2026-09-30: “independent of staging vs publication … just rendering”). <a href="render-kg-to-cdn.html">Process_RenderKgToCdn</a>, entered with the tree Task_Build rendered, <code class="language-plaintext highlighter-rouge">branches/&lt;slug&gt;/</code> under the site root as the publication root URL, and GitHub Pages as the target, so its <code class="language-plaintext highlighter-rouge">gh-pages</code> Tool pushes. For this target the push is <code class="language-plaintext highlighter-rouge">keep_files: true</code> with a <code class="language-plaintext highlighter-rouge">destination_dir</code>, so it adds one directory beside whatever else is on the branch; it is also RETRIED once: five other workflows push to <code class="language-plaintext highlighter-rouge">gh-pages</code> without joining this one’s concurrency group, and a queue does not help because GitHub CANCELS a pending job when a newer one arrives for the same group rather than queueing it. Measured 2026-09-19: three staging runs from three different branches inside 17 seconds, two cancelled. The call returns the push’s status and message; the render log and the PR comment that follow are this process’s own. THE PREVIEW CAP rides in the same commit (owner ruling 2026-10-02, issue #1868: “cap the maximum number of previews (&lt;= 10) and rotate old ones off”, amended 2026-10-04 to a SIZE budget: “Cap by size, not count”, “3gb”): <code class="language-plaintext highlighter-rouge">staging-rotate.ts</code> keeps this preview plus the most recently updated others while their total fits MAX_PREVIEW_BYTES = 3 GB and removes the rest, oldest first, each with a <code class="language-plaintext highlighter-rouge">removed</code> render-log entry and its record retired into branches/_retired/. Every push attempt re-reads <code class="language-plaintext highlighter-rouge">gh-pages</code> and re-decides rather than rebasing, so a lost race never pushes a stale removal. A rotated-off preview is regenerated by the next push to its PR branch.</td>
     </tr>
     <tr>
       <td><strong>Append <code class="language-plaintext highlighter-rouge">rendered</code> to the render log</strong><br /><code class="language-plaintext highlighter-rouge">Task_LogRendered</code></td>
       <td>CI/CD Pipeline</td>
       <td><code class="language-plaintext highlighter-rouge">render-logging</code></td>
-      <td>Its OWN commit, not part of the deploy. The publish action writes only into <code class="language-plaintext highlighter-rouge">destination_dir</code>, so an entry riding in <code class="language-plaintext highlighter-rouge">_site</code> would land at <code class="language-plaintext highlighter-rouge">STAGING/&lt;slug&gt;/_render-log/</code> — inside the directory a cleanup removes, which is the one place a record of the removal must not be. <code class="language-plaintext highlighter-rouge">continue-on-error</code>: a preview that deployed and whose entry did not is a gap in the record, not a failed deploy.</td>
+      <td>Its OWN commit, not part of the deploy. The publish action writes only into <code class="language-plaintext highlighter-rouge">destination_dir</code>, so an entry riding in <code class="language-plaintext highlighter-rouge">_site</code> would land at <code class="language-plaintext highlighter-rouge">branches/&lt;slug&gt;/_render-log/</code> — inside the directory a cleanup removes, which is the one place a record of the removal must not be. <code class="language-plaintext highlighter-rouge">continue-on-error</code>: a preview that deployed and whose entry did not is a gap in the record, not a failed deploy.</td>
     </tr>
     <tr>
       <td><strong>Comment the preview URL on the PR</strong><br /><code class="language-plaintext highlighter-rouge">Task_Comment</code></td>
       <td>CI/CD Pipeline</td>
       <td><code class="language-plaintext highlighter-rouge">staging-review</code></td>
-      <td>Post, or update in place, one comment on the PR giving the preview URL (STAGING/&lt;slug&gt;/) and the commit it was built from. Pull-request events only.</td>
+      <td>Post, or update in place, one comment on the PR giving the preview URL (branches/&lt;slug&gt;/) and the commit it was built from. Pull-request events only.</td>
     </tr>
     <tr>
       <td><strong>Derive the slug from the head ref</strong><br /><code class="language-plaintext highlighter-rouge">Task_Slug</code></td>
@@ -1197,7 +1243,7 @@
       <td><strong>Append <code class="language-plaintext highlighter-rouge">retained</code>, with why it stays</strong><br /><code class="language-plaintext highlighter-rouge">Task_LogRetained</code></td>
       <td>CI/CD Pipeline</td>
       <td>shared step <code class="language-plaintext highlighter-rouge">GT_LogRetained</code><br /><code class="language-plaintext highlighter-rouge">render-logging</code></td>
-      <td>Records that a removal was considered and refused, or that a preview still stands because a signal fired. A reason is REQUIRED — the tool refuses without one.</td>
+      <td>Records that a removal was considered and refused, or that a preview still stands because a signal fired; without the entry that leaves no trace, and nobody can tell why a preview is still up. A reason is REQUIRED — the tool refuses without one.</td>
     </tr>
     <tr>
       <td><strong>Post the retention notice on the PR</strong><br /><code class="language-plaintext highlighter-rouge">Task_Notice</code></td>
@@ -1221,7 +1267,7 @@
       <td><strong>Remove it AND append <code class="language-plaintext highlighter-rouge">removed</code> — one commit</strong><br /><code class="language-plaintext highlighter-rouge">Task_RemoveDisp</code></td>
       <td>CI/CD Pipeline</td>
       <td><code class="language-plaintext highlighter-rouge">deletion-requires-confirmation</code></td>
-      <td>Say what is going — size and file count — then remove STAGING/&lt;slug&gt;/ and append <code class="language-plaintext highlighter-rouge">removed</code> to the render log in the SAME commit, so a preview cannot vanish without a record of who dispatched it and why. The slug is a dispatch input, so the tool re-checks it by value rather than trusting the guard.</td>
+      <td>Say what is going — size and file count — then remove branches/&lt;slug&gt;/ and append <code class="language-plaintext highlighter-rouge">removed</code> to the render log in the SAME commit, so a preview cannot vanish without a record of who dispatched it and why. The slug is a dispatch input, so the tool re-checks it by value rather than trusting the guard.</td>
     </tr>
     <tr>
       <td><strong>Repeat the slug, exactly, to confirm</strong><br /><code class="language-plaintext highlighter-rouge">H_Confirm</code></td>

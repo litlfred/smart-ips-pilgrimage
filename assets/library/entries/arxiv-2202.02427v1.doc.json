@@ -459,11 +459,11 @@
           "heading": false
         },
         {
-          "term": "nodes",
+          "term": "edges",
           "heading": false
         },
         {
-          "term": "edges",
+          "term": "nodes",
           "heading": false
         },
         {
@@ -498,11 +498,11 @@
           "heading": false
         },
         {
-          "term": "prediction target",
+          "term": "edges",
           "heading": false
         },
         {
-          "term": "edges",
+          "term": "prediction target",
           "heading": false
         },
         {
@@ -616,11 +616,11 @@
           "heading": false
         },
         {
-          "term": "streaming",
+          "term": "training",
           "heading": false
         },
         {
-          "term": "training",
+          "term": "streaming",
           "heading": false
         }
       ],
@@ -747,11 +747,11 @@
           "heading": false
         },
         {
-          "term": "cold-start items",
+          "term": "user-user edges",
           "heading": false
         },
         {
-          "term": "user-user edges",
+          "term": "cold-start items",
           "heading": false
         }
       ],
@@ -802,7 +802,7 @@
           "heading": false
         },
         {
-          "term": "cold-start items",
+          "term": "model retraining",
           "heading": false
         }
       ],
@@ -888,11 +888,11 @@
           "heading": false
         },
         {
-          "term": "compositional function",
+          "term": "learn explicit",
           "heading": false
         },
         {
-          "term": "learn explicit",
+          "term": "compositional function",
           "heading": false
         },
         {
@@ -1066,7 +1066,7 @@
           "heading": false
         },
         {
-          "term": "streaming",
+          "term": "users",
           "heading": false
         }
       ],

@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -984,6 +984,7 @@
 <li><a href="../site-chrome/">site-chrome</a> <span class="p">cat-harness/site-chrome</span> <span class="n" data-da-count="index/docs/site-chrome" data-da-count-state="pending">…</span></li>
 <li><a href="../smart-base-findings/">smart-base-findings</a> <span class="p">smart-base/findings</span> <span class="n" data-da-count="index/docs/smart-base-findings" data-da-count-state="pending">…</span></li>
 <li><a href="../smart-base-site-docs/">smart-base-site-docs</a> <span class="p">smart-base/site-docs</span> <span class="n" data-da-count="index/docs/smart-base-site-docs" data-da-count-state="pending">…</span></li>
+<li><a href="../smart-ips-pilgrimage-findings/">smart-ips-pilgrimage-findings</a> <span class="p">findings</span> <span class="n" data-da-count="index/docs/smart-ips-pilgrimage-findings" data-da-count-state="pending">…</span></li>
 <li><a href="../who-iris-docs/">who-iris-docs</a> <span class="p">who-iris/docs</span> <span class="n" data-da-count="index/docs/who-iris-docs" data-da-count-state="pending">…</span></li>
 <li><strong>who-iris-site</strong> <span class="p">who-iris/site</span> <span class="n" data-da-count="index/docs/who-iris-site" data-da-count-state="pending">…</span></li>
 </ul>

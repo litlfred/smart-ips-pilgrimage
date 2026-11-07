@@ -142,11 +142,11 @@
           "heading": false
         },
         {
-          "term": "criterion",
+          "term": "criteria",
           "heading": false
         },
         {
-          "term": "criteria",
+          "term": "criterion",
           "heading": false
         },
         {
@@ -843,11 +843,11 @@
           "heading": false
         },
         {
-          "term": "mew",
+          "term": "acm",
           "heading": false
         },
         {
-          "term": "acm",
+          "term": "mew",
           "heading": false
         },
         {
@@ -878,11 +878,11 @@
           "heading": false
         },
         {
-          "term": "clusters",
+          "term": "technical feasibility",
           "heading": false
         },
         {
-          "term": "technical feasibility",
+          "term": "clusters",
           "heading": false
         },
         {
@@ -894,11 +894,11 @@
           "heading": false
         },
         {
-          "term": "criteria",
+          "term": "influences",
           "heading": false
         },
         {
-          "term": "influences",
+          "term": "criteria",
           "heading": false
         },
         {
@@ -941,11 +941,11 @@
           "heading": false
         },
         {
-          "term": "arrows",
+          "term": "technical feasibility",
           "heading": false
         },
         {
-          "term": "technical feasibility",
+          "term": "arrows",
           "heading": false
         },
         {
@@ -976,11 +976,11 @@
           "heading": false
         },
         {
-          "term": "𝜆max",
+          "term": "influences both",
           "heading": false
         },
         {
-          "term": "influences both",
+          "term": "𝜆max",
           "heading": false
         },
         {
@@ -1023,11 +1023,11 @@
           "heading": false
         },
         {
-          "term": "alternatives cluster",
+          "term": "corresponding priorities",
           "heading": false
         },
         {
-          "term": "corresponding priorities",
+          "term": "alternatives cluster",
           "heading": false
         },
         {
@@ -1066,11 +1066,11 @@
           "heading": false
         },
         {
-          "term": "feedback loop",
+          "term": "𝑤𝐶",
           "heading": false
         },
         {
-          "term": "𝑤𝐶",
+          "term": "feedback loop",
           "heading": false
         }
       ],
@@ -1136,11 +1136,11 @@
       },
       "keywords": [
         {
-          "term": "weighted supermatrix",
+          "term": "limit supermatrix",
           "heading": false
         },
         {
-          "term": "limit supermatrix",
+          "term": "weighted supermatrix",
           "heading": false
         },
         {
@@ -1312,15 +1312,15 @@
           "heading": false
         },
         {
+          "term": "criteria values",
+          "heading": false
+        },
+        {
           "term": "both maximization",
           "heading": false
         },
         {
           "term": "performance score",
-          "heading": false
-        },
-        {
-          "term": "criteria values",
           "heading": false
         },
         {
@@ -1641,11 +1641,11 @@
       },
       "keywords": [
         {
-          "term": "multi-criteria decision",
+          "term": "analytic hierarchy",
           "heading": false
         },
         {
-          "term": "analytic hierarchy",
+          "term": "multi-criteria decision",
           "heading": false
         },
         {

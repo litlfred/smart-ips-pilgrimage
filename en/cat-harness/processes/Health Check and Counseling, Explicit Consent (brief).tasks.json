@@ -1,0 +1,248 @@
+{
+ "$schema": "process-task-panel/v1",
+ "process": "Process_xlzqkfa",
+ "markers": [
+  {
+   "id": "Activity_00h86kk",
+   "name": "registration",
+   "left": 18.71,
+   "top": 20.67,
+   "box": {
+    "left": 14.46,
+    "top": 26.78,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_0yvvi0a",
+   "name": "arrive to clinic",
+   "left": 18.71,
+   "top": 43.89,
+   "box": {
+    "left": 14.46,
+    "top": 50,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_0tvtijk",
+   "name": "inform patient ineligible for Hajj",
+   "left": 29.86,
+   "top": 20.67,
+   "box": {
+    "left": 25.61,
+    "top": 26.78,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_0ueuuxn",
+   "name": "leave clinic",
+   "left": 18.71,
+   "top": 62.78,
+   "box": {
+    "left": 14.46,
+    "top": 68.89,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_1clpk3a",
+   "name": "Review SHL",
+   "left": 43.2,
+   "top": 53.89,
+   "box": {
+    "left": 38.95,
+    "top": 60,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_1xtr5gr",
+   "name": "configure SHL privacy settings on wallet",
+   "left": 60.88,
+   "top": 53.89,
+   "box": {
+    "left": 56.63,
+    "top": 60,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_11hg5h3",
+   "name": "display SHL configuration form",
+   "left": 67.01,
+   "top": 82.78,
+   "box": {
+    "left": 62.76,
+    "top": 88.89,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_060xa4q",
+   "name": "display SHL",
+   "left": 43.2,
+   "top": 82.78,
+   "box": {
+    "left": 38.95,
+    "top": 88.89,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_18myjb8",
+   "name": "login to wallet app",
+   "left": 94.9,
+   "top": 53.89,
+   "box": {
+    "left": 90.65,
+    "top": 60,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_0qlye8q",
+   "name": "Counsel patient on consent and digital health wallet",
+   "left": 94.9,
+   "top": 5,
+   "box": {
+    "left": 90.65,
+    "top": 11.11,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_19tvs6z",
+   "name": "fill consent form for sharing IPS during Hajj on wallet",
+   "left": 80.61,
+   "top": 56.11,
+   "box": {
+    "left": 76.36,
+    "top": 62.22,
+    "width": 1.63,
+    "height": 2.67
+   }
+  },
+  {
+   "id": "Activity_0kju8im",
+   "name": "display consent form",
+   "left": 87.41,
+   "top": 82.78,
+   "box": {
+    "left": 83.16,
+    "top": 88.89,
+    "width": 1.63,
+    "height": 2.67
+   }
+  }
+ ],
+ "tasks": {
+  "Activity_00h86kk": {
+   "id": "Activity_00h86kk",
+   "name": "registration",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_0yvvi0a": {
+   "id": "Activity_0yvvi0a",
+   "name": "arrive to clinic",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_0tvtijk": {
+   "id": "Activity_0tvtijk",
+   "name": "inform patient ineligible for Hajj",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_0ueuuxn": {
+   "id": "Activity_0ueuuxn",
+   "name": "leave clinic",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_1clpk3a": {
+   "id": "Activity_1clpk3a",
+   "name": "Review SHL",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_1xtr5gr": {
+   "id": "Activity_1xtr5gr",
+   "name": "configure SHL privacy settings on wallet",
+   "type": "bpmn:UserTask",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_11hg5h3": {
+   "id": "Activity_11hg5h3",
+   "name": "display SHL configuration form",
+   "type": "bpmn:Task",
+   "lane": "System Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_060xa4q": {
+   "id": "Activity_060xa4q",
+   "name": "display SHL",
+   "type": "bpmn:Task",
+   "lane": "System Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_18myjb8": {
+   "id": "Activity_18myjb8",
+   "name": "login to wallet app",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_0qlye8q": {
+   "id": "Activity_0qlye8q",
+   "name": "Counsel patient on consent and digital health wallet",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_19tvs6z": {
+   "id": "Activity_19tvs6z",
+   "name": "fill consent form for sharing IPS during Hajj on wallet",
+   "type": "bpmn:UserTask",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_0kju8im": {
+   "id": "Activity_0kju8im",
+   "name": "display consent form",
+   "type": "bpmn:Task",
+   "lane": "System Actor",
+   "skills": [],
+   "binding": "unbound"
+  }
+ }
+}

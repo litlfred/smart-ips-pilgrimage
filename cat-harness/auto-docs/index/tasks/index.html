@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -1656,8 +1656,8 @@
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/refresh-materialized.bpmn#Reconcile the two by hand"><code>Reconcile the two by hand</code></a><br><span class="p">cat-harness/processes/library/refresh-materialized.bpmn#Reconcile the two by hand</span></td>
   <td>task in refresh-materialized</td>
 </tr>
-<tr id="a-cat-harness-processes-library-refresh-materialized-bpmn-Record-the-conflict-decide-nothing-and-do-NOT-re-pin">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/refresh-materialized.bpmn#Record the conflict, decide nothing, and do NOT re-pin"><code>Record the conflict, decide nothing, and do NOT re-pin</code></a><br><span class="p">cat-harness/processes/library/refresh-materialized.bpmn#Record the conflict, decide nothing, and do NOT re-pin</span></td>
+<tr id="a-cat-harness-processes-library-refresh-materialized-bpmn-Record-the-conflict-10-no-decision-no-re-pin">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/refresh-materialized.bpmn#Record the conflict:&amp;#10;no decision, no re-pin"><code>Record the conflict:&amp;#10;no decision, no re-pin</code></a><br><span class="p">cat-harness/processes/library/refresh-materialized.bpmn#Record the conflict:&amp;#10;no decision, no re-pin</span></td>
   <td>serviceTask in refresh-materialized</td>
 </tr>
 <tr id="a-cat-harness-processes-library-refresh-materialized-bpmn-What-changed-LOCALLY-since">
@@ -1740,9 +1740,17 @@
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/subscribe-kg.bpmn#Write the entry and cache the declaration"><code>Write the entry and cache the declaration</code></a><br><span class="p">cat-harness/processes/library/subscribe-kg.bpmn#Write the entry and cache the declaration</span></td>
   <td>serviceTask in subscribe-kg</td>
 </tr>
-<tr id="a-cat-harness-processes-library-translation-workflow-bpmn-Adjudicate-flagged-passage-10-human-reviewer-">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn#Adjudicate flagged passage&amp;#10;(human reviewer)"><code>Adjudicate flagged passage&amp;#10;(human reviewer)</code></a><br><span class="p">cat-harness/processes/library/translation-workflow.bpmn#Adjudicate flagged passage&amp;#10;(human reviewer)</span></td>
+<tr id="a-cat-harness-processes-library-translation-workflow-bpmn-Adjudicate-the-10-flagged-passage-10-human-">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn#Adjudicate the&amp;#10;flagged passage&amp;#10;(human)"><code>Adjudicate the&amp;#10;flagged passage&amp;#10;(human)</code></a><br><span class="p">cat-harness/processes/library/translation-workflow.bpmn#Adjudicate the&amp;#10;flagged passage&amp;#10;(human)</span></td>
   <td>callActivity in translation-workflow</td>
+</tr>
+<tr id="a-cat-harness-processes-library-translation-workflow-bpmn-Build-and-review-the-10-locale-term-base">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn#Build and review the&amp;#10;locale term base"><code>Build and review the&amp;#10;locale term base</code></a><br><span class="p">cat-harness/processes/library/translation-workflow.bpmn#Build and review the&amp;#10;locale term base</span></td>
+  <td>serviceTask in translation-workflow</td>
+</tr>
+<tr id="a-cat-harness-processes-library-translation-workflow-bpmn-Check-glossary-terms-10-translation-glossary-check-">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn#Check glossary terms&amp;#10;(translation:glossary:check)"><code>Check glossary terms&amp;#10;(translation:glossary:check)</code></a><br><span class="p">cat-harness/processes/library/translation-workflow.bpmn#Check glossary terms&amp;#10;(translation:glossary:check)</span></td>
+  <td>serviceTask in translation-workflow</td>
 </tr>
 <tr id="a-cat-harness-processes-library-translation-workflow-bpmn-Check-staleness-10-source-hash-">
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn#Check staleness&amp;#10;(source hash)"><code>Check staleness&amp;#10;(source hash)</code></a><br><span class="p">cat-harness/processes/library/translation-workflow.bpmn#Check staleness&amp;#10;(source hash)</span></td>
@@ -1752,8 +1760,8 @@
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn#Edit the flagged passage&amp;#10;and re-inject"><code>Edit the flagged passage&amp;#10;and re-inject</code></a><br><span class="p">cat-harness/processes/library/translation-workflow.bpmn#Edit the flagged passage&amp;#10;and re-inject</span></td>
   <td>userTask in translation-workflow</td>
 </tr>
-<tr id="a-cat-harness-processes-library-translation-workflow-bpmn-Extract-translatable-strings-10-POT-generation-">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn#Extract translatable strings&amp;#10;(POT generation)"><code>Extract translatable strings&amp;#10;(POT generation)</code></a><br><span class="p">cat-harness/processes/library/translation-workflow.bpmn#Extract translatable strings&amp;#10;(POT generation)</span></td>
+<tr id="a-cat-harness-processes-library-translation-workflow-bpmn-Extract-translatable-strings-10-POT-">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn#Extract translatable strings&amp;#10;(POT)"><code>Extract translatable strings&amp;#10;(POT)</code></a><br><span class="p">cat-harness/processes/library/translation-workflow.bpmn#Extract translatable strings&amp;#10;(POT)</span></td>
   <td>callActivity in translation-workflow</td>
 </tr>
 <tr id="a-cat-harness-processes-library-translation-workflow-bpmn-Inject-translations-10-PO-Markdown-">
@@ -2396,6 +2404,42 @@
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/bean-open.bpmn#Leave it alone&amp;#10;(coordinate instead)"><code>Leave it alone&amp;#10;(coordinate instead)</code></a><br><span class="p">cat-harness/sdlc/processes/bean-open.bpmn#Leave it alone&amp;#10;(coordinate instead)</span></td>
   <td>task in bean-open</td>
 </tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-bun-pip-10-dependencies">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#bun / pip&amp;#10;dependencies"><code>bun / pip&amp;#10;dependencies</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#bun / pip&amp;#10;dependencies</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-FHIR-IG-ASTs-10-Process_IgAstCache">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#FHIR IG ASTs:&amp;#10;Process_IgAstCache"><code>FHIR IG ASTs:&amp;#10;Process_IgAstCache</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#FHIR IG ASTs:&amp;#10;Process_IgAstCache</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Gate-results-10-restore-save">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Gate results:&amp;#10;restore / save"><code>Gate results:&amp;#10;restore / save</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Gate results:&amp;#10;restore / save</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Generated-sets-10-QA-copy-pages">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Generated sets:&amp;#10;QA copy, pages"><code>Generated sets:&amp;#10;QA copy, pages</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Generated sets:&amp;#10;QA copy, pages</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Jekyll-cache-10-restore-save">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Jekyll cache:&amp;#10;restore / save"><code>Jekyll cache:&amp;#10;restore / save</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Jekyll cache:&amp;#10;restore / save</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Layers-ref-10-restore-save">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Layers ref:&amp;#10;restore / save"><code>Layers ref:&amp;#10;restore / save</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Layers ref:&amp;#10;restore / save</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Lean-oleans-10-restore-save">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Lean .oleans:&amp;#10;restore / save"><code>Lean .oleans:&amp;#10;restore / save</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Lean .oleans:&amp;#10;restore / save</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Prepared-image-10-node_modules">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Prepared image +&amp;#10;node_modules"><code>Prepared image +&amp;#10;node_modules</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Prepared image +&amp;#10;node_modules</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Render-seed-10-writer-records">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Render seed:&amp;#10;writer records"><code>Render seed:&amp;#10;writer records</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Render seed:&amp;#10;writer records</span></td>
+  <td>task in cache</td>
+</tr>
 <tr id="a-cat-harness-sdlc-processes-ci-health-watch-bpmn-Report-the-verdict-on-the-tracking-issue">
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/ci-health-watch.bpmn#Report the verdict on the tracking issue"><code>Report the verdict on the tracking issue</code></a><br><span class="p">cat-harness/sdlc/processes/ci-health-watch.bpmn#Report the verdict on the tracking issue</span></td>
   <td>callActivity in ci-health-watch</td>
@@ -2577,7 +2621,7 @@
   <td>serviceTask in feature-staging</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/feature-staging.bpmn#Push to the CDN under STAGING/"><code>Push to the CDN under STAGING/</code></a><br><span class="p">cat-harness/sdlc/processes/feature-staging.bpmn#Push to the CDN under STAGING/</span></td>
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/feature-staging.bpmn#Push to the CDN under branches/"><code>Push to the CDN under branches/</code></a><br><span class="p">cat-harness/sdlc/processes/feature-staging.bpmn#Push to the CDN under branches/</span></td>
   <td>callActivity in feature-staging</td>
 </tr>
 <tr id="a-cat-harness-sdlc-processes-feature-staging-bpmn-Re-evaluate-liveness-10-AT-REMOVAL-TIME">
@@ -2844,8 +2888,8 @@
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/options-analysis.bpmn#Frame the decision and check the trigger"><code>Frame the decision and check the trigger</code></a><br><span class="p">cat-harness/sdlc/processes/options-analysis.bpmn#Frame the decision and check the trigger</span></td>
   <td>task in options-analysis</td>
 </tr>
-<tr id="a-cat-harness-sdlc-processes-options-analysis-bpmn-Record-the-recommendation-AND-the-rejected-options">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/options-analysis.bpmn#Record the recommendation AND the rejected options"><code>Record the recommendation AND the rejected options</code></a><br><span class="p">cat-harness/sdlc/processes/options-analysis.bpmn#Record the recommendation AND the rejected options</span></td>
+<tr id="a-cat-harness-sdlc-processes-options-analysis-bpmn-Record-the-chosen-option-AND-the-rejected-ones">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/options-analysis.bpmn#Record the chosen option AND the rejected ones"><code>Record the chosen option AND the rejected ones</code></a><br><span class="p">cat-harness/sdlc/processes/options-analysis.bpmn#Record the chosen option AND the rejected ones</span></td>
   <td>task in options-analysis</td>
 </tr>
 <tr id="a-cat-harness-sdlc-processes-options-analysis-bpmn-Select-the-methodology-by-context">
@@ -3028,16 +3072,16 @@
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/saturation-meta-merge.bpmn#Run main's checks"><code>Run main's checks</code></a><br><span class="p">cat-harness/sdlc/processes/saturation-meta-merge.bpmn#Run main's checks</span></td>
   <td>serviceTask in saturation-meta-merge</td>
 </tr>
-<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Judge-domain-correctness-10-of-worked-case-or-10-indicator-cohort">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Judge domain correctness&amp;#10;of worked case or&amp;#10;indicator cohort"><code>Judge domain correctness&amp;#10;of worked case or&amp;#10;indicator cohort</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Judge domain correctness&amp;#10;of worked case or&amp;#10;indicator cohort</span></td>
+<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Judge-whether-the-case-or-cohort-is-right">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Judge whether the case or cohort is right"><code>Judge whether the case or cohort is right</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Judge whether the case or cohort is right</span></td>
   <td>userTask in sme-test-data-review</td>
 </tr>
-<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Prepare-cohort-10-inputs-indicatorRef-10-expected-amp-computed-value">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Prepare cohort:&amp;#10;inputs, indicatorRef,&amp;#10;expected &amp;amp; computed value"><code>Prepare cohort:&amp;#10;inputs, indicatorRef,&amp;#10;expected &amp;amp; computed value</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Prepare cohort:&amp;#10;inputs, indicatorRef,&amp;#10;expected &amp;amp; computed value</span></td>
+<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Prepare-the-cohort-inputs-expected-and-computed">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Prepare the cohort: inputs, expected and computed"><code>Prepare the cohort: inputs, expected and computed</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Prepare the cohort: inputs, expected and computed</span></td>
   <td>task in sme-test-data-review</td>
 </tr>
-<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Prepare-worked-case-10-input-decisionLogicRef-10-and-systemOutput">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Prepare worked case:&amp;#10;input, decisionLogicRef&amp;#10;and systemOutput"><code>Prepare worked case:&amp;#10;input, decisionLogicRef&amp;#10;and systemOutput</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Prepare worked case:&amp;#10;input, decisionLogicRef&amp;#10;and systemOutput</span></td>
+<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Prepare-the-worked-case-input-logic-output">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Prepare the worked case: input, logic, output"><code>Prepare the worked case: input, logic, output</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Prepare the worked case: input, logic, output</span></td>
   <td>task in sme-test-data-review</td>
 </tr>
 <tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Record-the-SME-s-verdict-and-rationale">
@@ -3528,6 +3572,10 @@
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/authoring-a-document.bpmn#Plan the document"><code>Plan the document</code></a><br><span class="p">folio-assistant-core/processes/content/authoring-a-document.bpmn#Plan the document</span></td>
   <td>userTask in authoring-a-document</td>
 </tr>
+<tr id="a-folio-assistant-core-processes-content-authoring-a-document-bpmn-Publish-extracted-statements">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/authoring-a-document.bpmn#Publish extracted statements"><code>Publish extracted statements</code></a><br><span class="p">folio-assistant-core/processes/content/authoring-a-document.bpmn#Publish extracted statements</span></td>
+  <td>callActivity in authoring-a-document</td>
+</tr>
 <tr id="a-folio-assistant-core-processes-content-authoring-a-document-bpmn-Render-MD-HTML-and-PDF">
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/authoring-a-document.bpmn#Render MD, HTML and PDF"><code>Render MD, HTML and PDF</code></a><br><span class="p">folio-assistant-core/processes/content/authoring-a-document.bpmn#Render MD, HTML and PDF</span></td>
   <td>serviceTask in authoring-a-document</td>
@@ -3629,7 +3677,7 @@
   <td>task in content-change-review-publish</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/content-change-review-publish.bpmn#Remove STAGING/&amp;lt;slug&amp;gt;/"><code>Remove STAGING/&amp;lt;slug&amp;gt;/</code></a><br><span class="p">folio-assistant-core/processes/content/content-change-review-publish.bpmn#Remove STAGING/&amp;lt;slug&amp;gt;/</span></td>
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/content-change-review-publish.bpmn#Remove branches/&amp;lt;slug&amp;gt;/"><code>Remove branches/&amp;lt;slug&amp;gt;/</code></a><br><span class="p">folio-assistant-core/processes/content/content-change-review-publish.bpmn#Remove branches/&amp;lt;slug&amp;gt;/</span></td>
   <td>task in content-change-review-publish</td>
 </tr>
 <tr id="a-folio-assistant-core-processes-content-content-change-review-stage-bpmn-Build-staging-site">
@@ -3641,7 +3689,7 @@
   <td>task in content-change-review-stage</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/content-change-review-stage.bpmn#Deploy to STAGING/&amp;lt;slug&amp;gt;/"><code>Deploy to STAGING/&amp;lt;slug&amp;gt;/</code></a><br><span class="p">folio-assistant-core/processes/content/content-change-review-stage.bpmn#Deploy to STAGING/&amp;lt;slug&amp;gt;/</span></td>
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/content-change-review-stage.bpmn#Deploy to branches/&amp;lt;slug&amp;gt;/"><code>Deploy to branches/&amp;lt;slug&amp;gt;/</code></a><br><span class="p">folio-assistant-core/processes/content/content-change-review-stage.bpmn#Deploy to branches/&amp;lt;slug&amp;gt;/</span></td>
   <td>task in content-change-review-stage</td>
 </tr>
 <tr id="a-folio-assistant-core-processes-content-content-change-review-stage-bpmn-Open-the-branch-watch-bean">
@@ -3732,6 +3780,10 @@
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/content-lifecycle.bpmn#Triage published feedback"><code>Triage published feedback</code></a><br><span class="p">folio-assistant-core/processes/content/content-lifecycle.bpmn#Triage published feedback</span></td>
   <td>userTask in content-lifecycle</td>
 </tr>
+<tr id="a-folio-assistant-core-processes-content-contributor-feedback-bpmn-Close-the-change-set-the-issue-then-the-sheet-row">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/contributor-feedback.bpmn#Close the change set: the issue, then the sheet row"><code>Close the change set: the issue, then the sheet row</code></a><br><span class="p">folio-assistant-core/processes/content/contributor-feedback.bpmn#Close the change set: the issue, then the sheet row</span></td>
+  <td>serviceTask in contributor-feedback</td>
+</tr>
 <tr id="a-folio-assistant-core-processes-content-contributor-feedback-bpmn-Edit-the-document-in-the-row-s-pull-request">
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/contributor-feedback.bpmn#Edit the document in the row's pull request"><code>Edit the document in the row's pull request</code></a><br><span class="p">folio-assistant-core/processes/content/contributor-feedback.bpmn#Edit the document in the row's pull request</span></td>
   <td>serviceTask in contributor-feedback</td>
@@ -3744,8 +3796,8 @@
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/contributor-feedback.bpmn#Propose a direction"><code>Propose a direction</code></a><br><span class="p">folio-assistant-core/processes/content/contributor-feedback.bpmn#Propose a direction</span></td>
   <td>serviceTask in contributor-feedback</td>
 </tr>
-<tr id="a-folio-assistant-core-processes-content-contributor-feedback-bpmn-QA-review-the-dispositions">
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/contributor-feedback.bpmn#QA-review the dispositions"><code>QA-review the dispositions</code></a><br><span class="p">folio-assistant-core/processes/content/contributor-feedback.bpmn#QA-review the dispositions</span></td>
+<tr id="a-folio-assistant-core-processes-content-contributor-feedback-bpmn-QA-gate-review-dispositions-against-the-people-and-the-pull-request">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/contributor-feedback.bpmn#QA gate: review dispositions against the people and the pull request"><code>QA gate: review dispositions against the people and the pull request</code></a><br><span class="p">folio-assistant-core/processes/content/contributor-feedback.bpmn#QA gate: review dispositions against the people and the pull request</span></td>
   <td>serviceTask in contributor-feedback</td>
 </tr>
 <tr id="a-folio-assistant-core-processes-content-contributor-feedback-bpmn-Review-the-preview-and-answer">
@@ -4152,6 +4204,18 @@
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/public-comment.bpmn#Triage: confirm the anchor, type and priority"><code>Triage: confirm the anchor, type and priority</code></a><br><span class="p">folio-assistant-core/processes/content/public-comment.bpmn#Triage: confirm the anchor, type and priority</span></td>
   <td>task in public-comment</td>
 </tr>
+<tr id="a-folio-assistant-core-processes-content-record-agent-step-bpmn-Read-back-Agentic-status-and-Staging-review">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/record-agent-step.bpmn#Read back Agentic status and Staging review"><code>Read back Agentic status and Staging review</code></a><br><span class="p">folio-assistant-core/processes/content/record-agent-step.bpmn#Read back Agentic status and Staging review</span></td>
+  <td>serviceTask in record-agent-step</td>
+</tr>
+<tr id="a-folio-assistant-core-processes-content-record-agent-step-bpmn-Write-Feedback-agent-from-that-row">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/record-agent-step.bpmn#Write Feedback (agent) from that row"><code>Write Feedback (agent) from that row</code></a><br><span class="p">folio-assistant-core/processes/content/record-agent-step.bpmn#Write Feedback (agent) from that row</span></td>
+  <td>serviceTask in record-agent-step</td>
+</tr>
+<tr id="a-folio-assistant-core-processes-content-record-agent-step-bpmn-Write-the-change-set-s-Agent-row">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/record-agent-step.bpmn#Write the change set's Agent row"><code>Write the change set's Agent row</code></a><br><span class="p">folio-assistant-core/processes/content/record-agent-step.bpmn#Write the change set's Agent row</span></td>
+  <td>serviceTask in record-agent-step</td>
+</tr>
 <tr id="a-folio-assistant-core-processes-content-review-log-watch-bpmn-Accept-the-new-state">
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/review-log-watch.bpmn#Accept the new state"><code>Accept the new state</code></a><br><span class="p">folio-assistant-core/processes/content/review-log-watch.bpmn#Accept the new state</span></td>
   <td>serviceTask in review-log-watch</td>
@@ -4164,9 +4228,17 @@
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/review-log-watch.bpmn#Append rows for new issues; hide closed ones"><code>Append rows for new issues; hide closed ones</code></a><br><span class="p">folio-assistant-core/processes/content/review-log-watch.bpmn#Append rows for new issues; hide closed ones</span></td>
   <td>serviceTask in review-log-watch</td>
 </tr>
+<tr id="a-folio-assistant-core-processes-content-review-log-watch-bpmn-Hand-new-feedback-to-the-row-s-agent-take-over-stalled-rows">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/review-log-watch.bpmn#Hand new feedback to the row's agent; take over stalled rows"><code>Hand new feedback to the row's agent; take over stalled rows</code></a><br><span class="p">folio-assistant-core/processes/content/review-log-watch.bpmn#Hand new feedback to the row's agent; take over stalled rows</span></td>
+  <td>task in review-log-watch</td>
+</tr>
 <tr id="a-folio-assistant-core-processes-content-review-log-watch-bpmn-Read-the-Contributor-Feedback-tab">
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/review-log-watch.bpmn#Read the Contributor Feedback tab"><code>Read the Contributor Feedback tab</code></a><br><span class="p">folio-assistant-core/processes/content/review-log-watch.bpmn#Read the Contributor Feedback tab</span></td>
   <td>serviceTask in review-log-watch</td>
+</tr>
+<tr id="a-folio-assistant-core-processes-content-review-log-watch-bpmn-Record-agent-step-on-each-row-it-wrote">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/review-log-watch.bpmn#Record agent step on each row it wrote"><code>Record agent step on each row it wrote</code></a><br><span class="p">folio-assistant-core/processes/content/review-log-watch.bpmn#Record agent step on each row it wrote</span></td>
+  <td>callActivity in review-log-watch</td>
 </tr>
 <tr id="a-folio-assistant-core-processes-content-review-log-watch-bpmn-Run-the-review-log-watch-check">
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/review-log-watch.bpmn#Run the review-log-watch check"><code>Run the review-log-watch check</code></a><br><span class="p">folio-assistant-core/processes/content/review-log-watch.bpmn#Run the review-log-watch check</span></td>
@@ -4320,6 +4392,10 @@
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/l1-document-ingestion.bpmn#Open the bean"><code>Open the bean</code></a><br><span class="p">folio-assistant-core/processes/library/l1-document-ingestion.bpmn#Open the bean</span></td>
   <td>callActivity in l1-document-ingestion</td>
 </tr>
+<tr id="a-folio-assistant-core-processes-library-l1-document-ingestion-bpmn-Publish-the-extracted-statements-with-source-links">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/l1-document-ingestion.bpmn#Publish the extracted statements with source links"><code>Publish the extracted statements with source links</code></a><br><span class="p">folio-assistant-core/processes/library/l1-document-ingestion.bpmn#Publish the extracted statements with source links</span></td>
+  <td>callActivity in l1-document-ingestion</td>
+</tr>
 <tr id="a-folio-assistant-core-processes-library-l1-document-ingestion-bpmn-Queue-prose-blocks-for-summary">
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/l1-document-ingestion.bpmn#Queue prose blocks for summary"><code>Queue prose blocks for summary</code></a><br><span class="p">folio-assistant-core/processes/library/l1-document-ingestion.bpmn#Queue prose blocks for summary</span></td>
   <td>serviceTask in l1-document-ingestion</td>
@@ -4327,6 +4403,22 @@
 <tr id="a-folio-assistant-core-processes-library-l1-document-ingestion-bpmn-Record-the-gap-as-a-bean">
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/l1-document-ingestion.bpmn#Record the gap as a bean"><code>Record the gap as a bean</code></a><br><span class="p">folio-assistant-core/processes/library/l1-document-ingestion.bpmn#Record the gap as a bean</span></td>
   <td>serviceTask in l1-document-ingestion</td>
+</tr>
+<tr id="a-folio-assistant-core-processes-library-publish-extracted-statements-bpmn-Check-pages-are-current-links-resolve">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/publish-extracted-statements.bpmn#Check pages are current, links resolve"><code>Check pages are current, links resolve</code></a><br><span class="p">folio-assistant-core/processes/library/publish-extracted-statements.bpmn#Check pages are current, links resolve</span></td>
+  <td>serviceTask in publish-extracted-statements</td>
+</tr>
+<tr id="a-folio-assistant-core-processes-library-publish-extracted-statements-bpmn-Collect-each-statement-with-its-source-section">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/publish-extracted-statements.bpmn#Collect each statement with its source section"><code>Collect each statement with its source section</code></a><br><span class="p">folio-assistant-core/processes/library/publish-extracted-statements.bpmn#Collect each statement with its source section</span></td>
+  <td>serviceTask in publish-extracted-statements</td>
+</tr>
+<tr id="a-folio-assistant-core-processes-library-publish-extracted-statements-bpmn-Publish-them-in-the-shared-viewer">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/publish-extracted-statements.bpmn#Publish them in the shared viewer"><code>Publish them in the shared viewer</code></a><br><span class="p">folio-assistant-core/processes/library/publish-extracted-statements.bpmn#Publish them in the shared viewer</span></td>
+  <td>serviceTask in publish-extracted-statements</td>
+</tr>
+<tr id="a-folio-assistant-core-processes-library-publish-extracted-statements-bpmn-Render-them-in-the-artifact-s-own-pages">
+  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/publish-extracted-statements.bpmn#Render them in the artifact's own pages"><code>Render them in the artifact's own pages</code></a><br><span class="p">folio-assistant-core/processes/library/publish-extracted-statements.bpmn#Render them in the artifact's own pages</span></td>
+  <td>serviceTask in publish-extracted-statements</td>
 </tr>
 <tr id="a-folio-assistant-core-processes-ui-board-open-close-bpmn-Close-the-window-back-to-its-avatar">
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/ui/board-open-close.bpmn#Close the window back to its avatar"><code>Close the window back to its avatar</code></a><br><span class="p">folio-assistant-core/processes/ui/board-open-close.bpmn#Close the window back to its avatar</span></td>

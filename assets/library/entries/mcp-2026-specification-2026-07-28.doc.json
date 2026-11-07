@@ -190,11 +190,11 @@
           "heading": true
         },
         {
-          "term": "security",
+          "term": "safety",
           "heading": true
         },
         {
-          "term": "safety",
+          "term": "security",
           "heading": true
         }
       ],
@@ -624,11 +624,11 @@
           "heading": false
         },
         {
-          "term": "path components",
+          "term": "uri suffix",
           "heading": false
         },
         {
-          "term": "uri suffix",
+          "term": "path components",
           "heading": false
         },
         {
@@ -1015,12 +1015,12 @@
       "summary": null,
       "keywords": [
         {
-          "term": "implementations",
-          "heading": false
-        },
-        {
           "term": "protocol",
           "heading": true
+        },
+        {
+          "term": "implementations",
+          "heading": false
         },
         {
           "term": "transport",
@@ -1143,11 +1143,11 @@
       "summary": null,
       "keywords": [
         {
-          "term": "authorization server",
+          "term": "server discovery",
           "heading": true
         },
         {
-          "term": "server discovery",
+          "term": "authorization server",
           "heading": true
         },
         {
@@ -2071,11 +2071,11 @@
       "summary": null,
       "keywords": [
         {
-          "term": "base protocol",
+          "term": "message patterns",
           "heading": false
         },
         {
-          "term": "message patterns",
+          "term": "base protocol",
           "heading": false
         },
         {
@@ -2177,7 +2177,7 @@
           "heading": false
         },
         {
-          "term": "field",
+          "term": "correspond",
           "heading": false
         }
       ],
@@ -2241,7 +2241,7 @@
           "heading": false
         },
         {
-          "term": "codes",
+          "term": "integers",
           "heading": false
         }
       ],
@@ -2328,11 +2328,11 @@
           "heading": true
         },
         {
-          "term": "server",
+          "term": "notify",
           "heading": false
         },
         {
-          "term": "notify",
+          "term": "server",
           "heading": false
         }
       ],
@@ -2619,7 +2619,7 @@
           "heading": false
         },
         {
-          "term": "validator",
+          "term": "cap",
           "heading": false
         }
       ],
@@ -2662,11 +2662,11 @@
           "heading": false
         },
         {
-          "term": "request per-request",
+          "term": "trace context",
           "heading": false
         },
         {
-          "term": "trace context",
+          "term": "request per-request",
           "heading": false
         },
         {
@@ -2702,11 +2702,11 @@
       "summary": null,
       "keywords": [
         {
-          "term": "icon uris",
+          "term": "rendering icons",
           "heading": false
         },
         {
-          "term": "rendering icons",
+          "term": "icon uris",
           "heading": false
         },
         {
@@ -2730,7 +2730,7 @@
           "heading": false
         },
         {
-          "term": "images",
+          "term": "visual",
           "heading": false
         }
       ],
@@ -2825,11 +2825,11 @@
           "heading": true
         },
         {
-          "term": "implementations",
+          "term": "cancellation",
           "heading": false
         },
         {
-          "term": "cancellation",
+          "term": "implementations",
           "heading": false
         },
         {
@@ -2861,8 +2861,8 @@
           "heading": false
         },
         {
-          "term": "requirements",
-          "heading": true
+          "term": "believed",
+          "heading": false
         }
       ],
       "extract": "1. Cancellation notifications MUST only reference requests that: Were previously issued by the client Are believed to still be in-progress 1. Server-sent cancellation notifications MUST reference a subscriptions/listen request, to terminate that subscription stream 1. Servers receiving cancellation notifications SHOULD: Stop processing the cancelled request Free associated resources Not send a response for the",
@@ -3276,11 +3276,11 @@
           "heading": false
         },
         {
-          "term": "client request",
+          "term": "state presented",
           "heading": false
         },
         {
-          "term": "state presented",
+          "term": "client request",
           "heading": false
         },
         {
@@ -3420,7 +3420,7 @@
           "heading": false
         },
         {
-          "term": "tracking",
+          "term": "messages",
           "heading": false
         }
       ],
@@ -4281,12 +4281,12 @@
           "heading": false
         },
         {
-          "term": "specification basic",
-          "heading": false
-        },
-        {
           "term": "messages",
           "heading": true
+        },
+        {
+          "term": "specification basic",
+          "heading": false
         },
         {
           "term": "mrtr",
@@ -4581,7 +4581,7 @@
           "heading": false
         },
         {
-          "term": "characters",
+          "term": "decode",
           "heading": false
         }
       ],
@@ -4613,7 +4613,7 @@
           "heading": false
         },
         {
-          "term": "request",
+          "term": "extract",
           "heading": false
         }
       ],
@@ -4997,12 +4997,12 @@
           "heading": true
         },
         {
-          "term": "server",
-          "heading": false
-        },
-        {
           "term": "backward",
           "heading": true
+        },
+        {
+          "term": "server",
+          "heading": false
         }
       ],
       "extract": "A server that wishes to support both legacy clients (which expect an initialize handshake) and modern clients (which use per-request metadata) MAY implement both behaviors. A client that needs to interoperate with both kinds of servers detects the server's era with transport-specific mechanics, specified in the binding pages: stdio: probe with server/discover and fall back on any error that is not a recognized",
@@ -5200,7 +5200,7 @@
           "heading": false
         },
         {
-          "term": "metadata documents",
+          "term": "sep",
           "heading": false
         },
         {
@@ -5305,11 +5305,11 @@
           "heading": false
         },
         {
-          "term": "servers",
+          "term": "users",
           "heading": false
         },
         {
-          "term": "users",
+          "term": "servers",
           "heading": false
         }
       ],
@@ -5373,15 +5373,15 @@
       "summary": null,
       "keywords": [
         {
-          "term": "declaring",
-          "heading": false
-        },
-        {
           "term": "capabilities",
           "heading": true
         },
         {
           "term": "elicitation",
+          "heading": false
+        },
+        {
+          "term": "mode",
           "heading": false
         }
       ],
@@ -5496,7 +5496,7 @@
           "heading": false
         },
         {
-          "term": "titles",
+          "term": "user experience",
           "heading": false
         }
       ],
@@ -6061,15 +6061,15 @@
           "heading": false
         },
         {
+          "term": "session cookie",
+          "heading": false
+        },
+        {
           "term": "phishing",
           "heading": true
         },
         {
           "term": "benign server",
-          "heading": false
-        },
-        {
-          "term": "session cookie",
           "heading": false
         },
         {
@@ -6390,7 +6390,7 @@
           "heading": false
         },
         {
-          "term": "implementations",
+          "term": "feature",
           "heading": false
         }
       ],
@@ -6937,11 +6937,11 @@
           "heading": true
         },
         {
-          "term": "select",
+          "term": "map",
           "heading": false
         },
         {
-          "term": "map",
+          "term": "doesn't",
           "heading": false
         }
       ],
@@ -7115,12 +7115,12 @@
           "heading": true
         },
         {
-          "term": "deprecation",
-          "heading": false
-        },
-        {
           "term": "features",
           "heading": true
+        },
+        {
+          "term": "deprecation",
+          "heading": false
         }
       ],
       "extract": "title: Deprecated Features <div id=\"enable-section-numbers\" /> This page is the registry of specification features that are currently in the Deprecated state under the feature lifecycle and deprecation policy (SEP-2596). A Deprecated feature remains part of the specification but is scheduled for removal: new implementations SHOULD NOT adopt it, and existing implementations SHOULD migrate before the feature's",
@@ -7377,11 +7377,11 @@
       "summary": null,
       "keywords": [
         {
-          "term": "means quot",
+          "term": "iso formatted",
           "heading": false
         },
         {
-          "term": "iso formatted",
+          "term": "means quot",
           "heading": false
         },
         {
@@ -7608,7 +7608,7 @@
           "heading": false
         },
         {
-          "term": "mcp",
+          "term": "dots",
           "heading": false
         },
         {
@@ -7616,7 +7616,7 @@
           "heading": false
         },
         {
-          "term": "letter",
+          "term": "mcp",
           "heading": false
         }
       ],
@@ -8145,7 +8145,7 @@
           "heading": false
         },
         {
-          "term": "server",
+          "term": "code",
           "heading": false
         }
       ],
@@ -8652,7 +8652,7 @@
           "heading": false
         },
         {
-          "term": "nbsp",
+          "term": "jsonrpc",
           "heading": false
         }
       ],
@@ -9168,7 +9168,7 @@
           "heading": false
         },
         {
-          "term": "maximum",
+          "term": "numberschema",
           "heading": false
         }
       ],
@@ -9295,11 +9295,11 @@
           "heading": false
         },
         {
-          "term": "string optional",
+          "term": "anyof",
           "heading": false
         },
         {
-          "term": "anyof",
+          "term": "string optional",
           "heading": false
         }
       ],
@@ -9347,7 +9347,7 @@
           "heading": false
         },
         {
-          "term": "nbsp",
+          "term": "color",
           "heading": false
         }
       ],
@@ -9435,7 +9435,7 @@
           "heading": false
         },
         {
-          "term": "nbsp",
+          "term": "color",
           "heading": false
         }
       ],
@@ -10170,11 +10170,11 @@
           "heading": false
         },
         {
-          "term": "x7b",
+          "term": "france",
           "heading": false
         },
         {
-          "term": "france",
+          "term": "x7b",
           "heading": false
         },
         {
@@ -10452,7 +10452,7 @@
           "heading": false
         },
         {
-          "term": "nbsp",
+          "term": "jsonrpc",
           "heading": false
         }
       ],
@@ -10683,7 +10683,7 @@
           "heading": false
         },
         {
-          "term": "nbsp",
+          "term": "jsonrpc",
           "heading": false
         }
       ],
@@ -10882,7 +10882,7 @@
           "heading": false
         },
         {
-          "term": "nbsp",
+          "term": "jsonrpc",
           "heading": false
         }
       ],
@@ -11535,19 +11535,19 @@
       "summary": null,
       "keywords": [
         {
-          "term": "modelhint x5b",
-          "heading": false
-        },
-        {
           "term": "means speed",
           "heading": false
         },
         {
-          "term": "name quot",
+          "term": "modelhint x5b",
           "heading": false
         },
         {
           "term": "means intelligence",
+          "heading": false
+        },
+        {
+          "term": "name quot",
           "heading": false
         },
         {
@@ -11559,11 +11559,11 @@
           "heading": false
         },
         {
-          "term": "intelligencepriority",
+          "term": "selecting model",
           "heading": false
         },
         {
-          "term": "speedpriority",
+          "term": "intelligencepriority",
           "heading": false
         }
       ],
@@ -11759,11 +11759,11 @@
           "heading": false
         },
         {
-          "term": "deprecated",
+          "term": "weather",
           "heading": false
         },
         {
-          "term": "weather",
+          "term": "deprecated",
           "heading": false
         },
         {
@@ -11822,11 +11822,11 @@
           "heading": false
         },
         {
-          "term": "nbsp",
+          "term": "jsonrpc",
           "heading": false
         },
         {
-          "term": "jsonrpc",
+          "term": "nbsp",
           "heading": false
         }
       ],
@@ -11850,11 +11850,11 @@
           "heading": false
         },
         {
-          "term": "x7b",
+          "term": "jsonrpcresultresponse",
           "heading": false
         },
         {
-          "term": "jsonrpcresultresponse",
+          "term": "x7b",
           "heading": false
         },
         {
@@ -11862,11 +11862,11 @@
           "heading": false
         },
         {
-          "term": "jsonrpc",
+          "term": "discover",
           "heading": false
         },
         {
-          "term": "discover",
+          "term": "jsonrpc",
           "heading": false
         }
       ],
@@ -11950,11 +11950,11 @@
           "heading": false
         },
         {
-          "term": "elicitation form",
+          "term": "client supports",
           "heading": false
         },
         {
-          "term": "client supports",
+          "term": "elicitation form",
           "heading": false
         },
         {
@@ -12034,11 +12034,11 @@
           "heading": false
         },
         {
-          "term": "notifications x7b",
+          "term": "jsonobject present",
           "heading": false
         },
         {
-          "term": "jsonobject present",
+          "term": "notifications x7b",
           "heading": false
         },
         {
@@ -12058,7 +12058,7 @@
           "heading": false
         },
         {
-          "term": "true copy",
+          "term": "tasks quot",
           "heading": false
         }
       ],
@@ -12117,11 +12117,11 @@
           "heading": false
         },
         {
-          "term": "nbsp",
+          "term": "jsonrpc",
           "heading": false
         },
         {
-          "term": "jsonrpc",
+          "term": "nbsp",
           "heading": false
         }
       ],
@@ -12539,7 +12539,7 @@
           "heading": false
         },
         {
-          "term": "nbsp",
+          "term": "jsonrpc",
           "heading": false
         }
       ],
@@ -12579,11 +12579,11 @@
           "heading": false
         },
         {
-          "term": "x7b",
+          "term": "jsonrpcresultresponse",
           "heading": false
         },
         {
-          "term": "jsonrpcresultresponse",
+          "term": "x7b",
           "heading": false
         },
         {
@@ -12711,10 +12711,6 @@
           "heading": false
         },
         {
-          "term": "true",
-          "heading": false
-        },
-        {
           "term": "false",
           "heading": false
         },
@@ -12724,6 +12720,10 @@
         },
         {
           "term": "tool",
+          "heading": false
+        },
+        {
+          "term": "true",
           "heading": false
         },
         {
@@ -12954,7 +12954,7 @@
           "heading": false
         },
         {
-          "term": "vary",
+          "term": "connection",
           "heading": false
         }
       ],
@@ -13390,7 +13390,7 @@
           "heading": false
         },
         {
-          "term": "vary",
+          "term": "connection",
           "heading": false
         }
       ],
@@ -13888,7 +13888,7 @@
           "heading": false
         },
         {
-          "term": "loop",
+          "term": "tools",
           "heading": false
         }
       ],
@@ -14283,11 +14283,11 @@
           "heading": true
         },
         {
-          "term": "regular",
+          "term": "suitable",
           "heading": false
         },
         {
-          "term": "suitable",
+          "term": "regular",
           "heading": false
         }
       ],
@@ -14991,7 +14991,7 @@
           "heading": false
         },
         {
-          "term": "ranked",
+          "term": "matches",
           "heading": false
         }
       ],
@@ -15225,11 +15225,11 @@
           "heading": false
         },
         {
-          "term": "syslog",
-          "heading": false
+          "term": "log",
+          "heading": true
         },
         {
-          "term": "unusable",
+          "term": "syslog",
           "heading": false
         }
       ],
@@ -15358,7 +15358,7 @@
           "heading": true
         },
         {
-          "term": "logger",
+          "term": "persist",
           "heading": false
         }
       ],
@@ -15382,11 +15382,11 @@
           "heading": false
         },
         {
-          "term": "secrets",
+          "term": "log",
           "heading": false
         },
         {
-          "term": "log",
+          "term": "aid",
           "heading": false
         }
       ],
@@ -15410,11 +15410,11 @@
           "heading": true
         },
         {
-          "term": "connecting",
+          "term": "integrations",
           "heading": false
         },
         {
-          "term": "integrations",
+          "term": "chunks",
           "heading": false
         }
       ],

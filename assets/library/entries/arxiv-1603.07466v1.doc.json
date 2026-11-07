@@ -41,6 +41,10 @@
           "heading": true
         },
         {
+          "term": "input dmn",
+          "heading": false
+        },
+        {
           "term": "overlapping rules",
           "heading": false
         },
@@ -49,19 +53,15 @@
           "heading": false
         },
         {
-          "term": "input dmn",
+          "term": "dmn editor",
+          "heading": false
+        },
+        {
+          "term": "dmn standard",
           "heading": false
         },
         {
           "term": "priority hit",
-          "heading": false
-        },
-        {
-          "term": "missing rules",
-          "heading": false
-        },
-        {
-          "term": "hit indicator",
           "heading": false
         }
       ],
@@ -87,6 +87,10 @@
       "heading": true
     },
     {
+      "term": "input dmn",
+      "heading": false
+    },
+    {
       "term": "overlapping rules",
       "heading": true
     },
@@ -95,7 +99,11 @@
       "heading": true
     },
     {
-      "term": "input dmn",
+      "term": "dmn editor",
+      "heading": false
+    },
+    {
+      "term": "dmn standard",
       "heading": false
     },
     {
@@ -103,24 +111,16 @@
       "heading": false
     },
     {
-      "term": "missing rules",
-      "heading": true
-    },
-    {
       "term": "hit indicator",
       "heading": false
     },
     {
-      "term": "dmn editor",
-      "heading": false
+      "term": "missing rules",
+      "heading": true
     },
     {
       "term": "detecting overlapping",
       "heading": false
-    },
-    {
-      "term": "output conﬁguration",
-      "heading": true
     },
     {
       "term": "categorical columns",

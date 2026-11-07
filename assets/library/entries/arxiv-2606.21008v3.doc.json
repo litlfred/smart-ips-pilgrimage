@@ -529,11 +529,11 @@
           "heading": false
         },
         {
-          "term": "generators",
+          "term": "ratings",
           "heading": false
         },
         {
-          "term": "rises",
+          "term": "generators",
           "heading": false
         }
       ],
@@ -629,12 +629,12 @@
           "heading": false
         },
         {
-          "term": "disabled",
-          "heading": false
-        },
-        {
           "term": "participants",
           "heading": true
+        },
+        {
+          "term": "disabled",
+          "heading": false
         },
         {
           "term": "anchor",
@@ -1042,7 +1042,7 @@
           "heading": false
         },
         {
-          "term": "run",
+          "term": "factual",
           "heading": false
         }
       ],
@@ -1144,7 +1144,7 @@
           "heading": false
         },
         {
-          "term": "claude sonnet",
+          "term": "hypothesis",
           "heading": false
         }
       ],
@@ -1175,15 +1175,15 @@
           "heading": false
         },
         {
+          "term": "governing",
+          "heading": false
+        },
+        {
           "term": "non-council",
           "heading": false
         },
         {
           "term": "dispersion",
-          "heading": false
-        },
-        {
-          "term": "quar",
           "heading": false
         }
       ],
@@ -1359,7 +1359,7 @@
           "heading": false
         },
         {
-          "term": "instantiations",
+          "term": "left singular",
           "heading": false
         }
       ],
@@ -1406,11 +1406,11 @@
           "heading": true
         },
         {
-          "term": "anchor",
+          "term": "collapsed",
           "heading": false
         },
         {
-          "term": "gemini",
+          "term": "anchor",
           "heading": false
         }
       ],
@@ -1527,12 +1527,12 @@
           "heading": true
         },
         {
-          "term": "guards",
-          "heading": true
-        },
-        {
           "term": "ballast blocks",
           "heading": false
+        },
+        {
+          "term": "guards",
+          "heading": true
         },
         {
           "term": "seats anchored",
@@ -1668,11 +1668,11 @@
           "heading": false
         },
         {
-          "term": "bootstrap",
+          "term": "un-anchored",
           "heading": false
         },
         {
-          "term": "un-anchored",
+          "term": "bootstrap",
           "heading": false
         }
       ],
@@ -1723,7 +1723,7 @@
           "heading": false
         },
         {
-          "term": "reversal cost",
+          "term": "investment theory",
           "heading": false
         }
       ],
@@ -1809,11 +1809,11 @@
           "heading": false
         },
         {
-          "term": "integers inclusive",
+          "term": "six criteria",
           "heading": false
         },
         {
-          "term": "six criteria",
+          "term": "integers inclusive",
           "heading": false
         },
         {
@@ -2070,11 +2070,11 @@
           "heading": true
         },
         {
-          "term": "full roster",
+          "term": "factual axis",
           "heading": false
         },
         {
-          "term": "factual axis",
+          "term": "full roster",
           "heading": false
         },
         {
@@ -2164,11 +2164,11 @@
           "heading": false
         },
         {
-          "term": "raw records",
+          "term": "first-pass log",
           "heading": false
         },
         {
-          "term": "first-pass log",
+          "term": "raw records",
           "heading": false
         },
         {
@@ -2317,11 +2317,11 @@
           "heading": false
         },
         {
-          "term": "anchored",
+          "term": "spread",
           "heading": false
         },
         {
-          "term": "spread",
+          "term": "anchored",
           "heading": false
         }
       ],
@@ -2363,16 +2363,16 @@
       "heading": false
     },
     {
+      "term": "anchor own",
+      "heading": false
+    },
+    {
       "term": "reference anchor",
       "heading": false
     },
     {
       "term": "factual judges",
       "heading": true
-    },
-    {
-      "term": "anchor own",
-      "heading": false
     },
     {
       "term": "fixed anchor",

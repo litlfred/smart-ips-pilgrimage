@@ -1,23 +1,76 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_CRDM_Needs",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Needs",
+ "markers": [
+  {
+   "id": "A_Stakeholders",
+   "name": "Phase 1: Identify stakeholders",
+   "left": 32.86,
+   "top": 33.67,
+   "box": {
+    "left": 27.95,
+    "top": 49.66,
+    "width": 1.63,
+    "height": 4.04
+   }
+  },
+  {
+   "id": "A_Synthesise",
+   "name": "Phase 1: Synthesise needs from sources",
+   "left": 46.41,
+   "top": 33.67,
+   "box": {
+    "left": 41.5,
+    "top": 49.66,
+    "width": 1.63,
+    "height": 4.04
+   }
+  },
+  {
+   "id": "BA_ReviewNeeds",
+   "name": "Review synthesised needs statement",
+   "left": 59.96,
+   "top": 5.05,
+   "box": {
+    "left": 55.05,
+    "top": 21.04,
+    "width": 1.63,
+    "height": 4.04
+   }
+  },
+  {
+   "id": "S_ConfirmNeeds",
+   "name": "Confirm needs statement",
+   "left": 73.51,
+   "top": 62.29,
+   "box": {
+    "left": 68.6,
+    "top": 78.28,
+    "width": 1.63,
+    "height": 4.04
+   }
+  }
+ ],
  "tasks": {
   "A_Stakeholders": {
    "id": "A_Stakeholders",
    "name": "Phase 1: Identify stakeholders",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Needs/node/A_Stakeholders",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Needs/lane/Lane_Agent",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     }
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -189,17 +242,21 @@
    "id": "A_Synthesise",
    "name": "Phase 1: Synthesise needs from sources",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Needs/node/A_Synthesise",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Needs/lane/Lane_Agent",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     }
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -371,17 +428,21 @@
    "id": "BA_ReviewNeeds",
    "name": "Review synthesised needs statement",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Needs/node/BA_ReviewNeeds",
    "lane": "BA / Feature Requestor",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Needs/lane/Lane_BA",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     }
    ],
    "role": {
     "name": "business-analyst",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/business-analyst",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-business-analyst",
     "title": "Business analyst",
     "skills": [
      {
@@ -436,13 +497,11 @@
    "id": "S_ConfirmNeeds",
    "name": "Confirm needs statement",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Needs/node/S_ConfirmNeeds",
    "lane": "Stakeholders",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Needs/lane/Lane_Stakeholders",
    "skills": [],
    "role": {
     "name": "stakeholder",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/stakeholder",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-stakeholder",
     "title": "Stakeholder",
     "skills": []
    }

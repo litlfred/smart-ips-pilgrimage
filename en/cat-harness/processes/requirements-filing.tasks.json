@@ -1,23 +1,124 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_RequirementsFiling",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling",
+ "markers": [
+  {
+   "id": "A_ClassifyFiling",
+   "name": "Classify filing mode, concern group, and req:<slug> ID",
+   "left": 13.46,
+   "top": 51.11,
+   "box": {
+    "left": 10.22,
+    "top": 72.22,
+    "width": 1.07,
+    "height": 5.33
+   }
+  },
+  {
+   "id": "A_PromoteOrUpdate",
+   "name": "git mv proposal to docs/requirements/<slug>.md and record proposedIn",
+   "left": 28.67,
+   "top": 44.44,
+   "box": {
+    "left": 24.08,
+    "top": 56.67,
+    "width": 1.07,
+    "height": 5.33
+   }
+  },
+  {
+   "id": "A_BindFrontMatter",
+   "name": "Bind Requirement front matter, statements, and 3-axis lineage",
+   "left": 37.16,
+   "top": 51.11,
+   "box": {
+    "left": 33.92,
+    "top": 72.22,
+    "width": 1.07,
+    "height": 5.33
+   }
+  },
+  {
+   "id": "A_UpdateLifecycle",
+   "name": "Mark the record superseded or retired",
+   "left": 47,
+   "top": 51.11,
+   "box": {
+    "left": 43.76,
+    "top": 72.22,
+    "width": 1.07,
+    "height": 5.33
+   }
+  },
+  {
+   "id": "A_UpdateIndex",
+   "name": "Organise entry in docs/requirements/index.md by concern group & status",
+   "left": 56.84,
+   "top": 51.11,
+   "box": {
+    "left": 53.6,
+    "top": 72.22,
+    "width": 1.07,
+    "height": 5.33
+   }
+  },
+  {
+   "id": "A_RunCheck",
+   "name": "Run the requirements check",
+   "left": 66.68,
+   "top": 51.11,
+   "box": {
+    "left": 63.44,
+    "top": 72.22,
+    "width": 1.07,
+    "height": 5.33
+   }
+  },
+  {
+   "id": "BA_ReviewFiling",
+   "name": "Review the filed requirement, sign off",
+   "left": 75.4,
+   "top": 6.67,
+   "box": {
+    "left": 72.16,
+    "top": 27.78,
+    "width": 1.07,
+    "height": 5.33
+   }
+  },
+  {
+   "id": "A_RecordFilingSignoff",
+   "name": "Record the sign-off and set the stage",
+   "left": 84.57,
+   "top": 51.11,
+   "box": {
+    "left": 81.33,
+    "top": 72.22,
+    "width": 1.07,
+    "height": 5.33
+   }
+  }
+ ],
  "tasks": {
   "A_ClassifyFiling": {
    "id": "A_ClassifyFiling",
    "name": "Classify filing mode, concern group, and req:<slug> ID",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/node/A_ClassifyFiling",
    "lane": "Authoring Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/lane/Lane_Agent",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     }
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -189,17 +290,21 @@
    "id": "A_PromoteOrUpdate",
    "name": "git mv proposal to docs/requirements/<slug>.md and record proposedIn",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/node/A_PromoteOrUpdate",
    "lane": "Authoring Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/lane/Lane_Agent",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     }
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -371,9 +476,7 @@
    "id": "A_BindFrontMatter",
    "name": "Bind Requirement front matter, statements, and 3-axis lineage",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/node/A_BindFrontMatter",
    "lane": "Authoring Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/lane/Lane_Agent",
    "skills": [
     {
      "name": "specification-management"
@@ -381,7 +484,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -553,9 +656,7 @@
    "id": "A_UpdateLifecycle",
    "name": "Mark the record superseded or retired",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/node/A_UpdateLifecycle",
    "lane": "Authoring Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/lane/Lane_Agent",
    "skills": [
     {
      "name": "specification-management"
@@ -563,7 +664,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -735,17 +836,21 @@
    "id": "A_UpdateIndex",
    "name": "Organise entry in docs/requirements/index.md by concern group & status",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/node/A_UpdateIndex",
    "lane": "Authoring Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/lane/Lane_Agent",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     }
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -917,9 +1022,7 @@
    "id": "A_RunCheck",
    "name": "Run the requirements check",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/node/A_RunCheck",
    "lane": "Authoring Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/lane/Lane_Agent",
    "skills": [
     {
      "name": "specification-management"
@@ -927,7 +1030,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1099,9 +1202,7 @@
    "id": "BA_ReviewFiling",
    "name": "Review the filed requirement, sign off",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/node/BA_ReviewFiling",
    "lane": "BA / Feature Requestor",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/lane/Lane_BA",
    "skills": [
     {
      "name": "adjudication"
@@ -1109,12 +1210,12 @@
    ],
    "calls": {
     "name": "Adjudication",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Adjudication",
+    "href": "adjudication.html",
     "diagram": "adjudication.html"
    },
    "role": {
     "name": "business-analyst",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/business-analyst",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-business-analyst",
     "title": "Business analyst",
     "skills": [
      {
@@ -1169,9 +1270,7 @@
    "id": "A_RecordFilingSignoff",
    "name": "Record the sign-off and set the stage",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/node/A_RecordFilingSignoff",
    "lane": "Authoring Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RequirementsFiling/lane/Lane_Agent",
    "skills": [
     {
      "name": "adjudication"
@@ -1179,7 +1278,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {

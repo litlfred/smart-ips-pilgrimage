@@ -14,7 +14,7 @@
   "title" : "SMART Verifiable IPS for Pilgrimage",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-05T11:58:09+00:00",
+  "date" : "2026-11-07T17:32:02+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
@@ -556,6 +556,42 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BrowserCs-es"
+      },
+      "name" : "BrowserCs (es designations, unofficial)",
+      "description" : "Unofficial Spanish designations for BrowserCs: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BrowserCs-ru"
+      },
+      "name" : "BrowserCs (ru designations, unofficial)",
+      "description" : "Unofficial Russian designations for BrowserCs: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BrowserCs-zh"
+      },
+      "name" : "BrowserCs — Chinese (zh) supplement",
+      "description" : "Unofficial Simplified Chinese (zh) display designations for the BrowserCs code system, drafted by an agent and not signed off by a human.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -683,6 +719,42 @@
       },
       "name" : "Distribution Model",
       "description" : "Distribution Model",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/DistributionModelCs-es"
+      },
+      "name" : "DistributionModelCs (es designations, unofficial)",
+      "description" : "Unofficial Spanish designations for DistributionModelCs: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/DistributionModelCs-ru"
+      },
+      "name" : "DistributionModelCs (ru designations, unofficial)",
+      "description" : "Unofficial Russian designations for DistributionModelCs: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/DistributionModelCs-zh"
+      },
+      "name" : "DistributionModelCs — Chinese (zh) supplement",
+      "description" : "Unofficial Simplified Chinese (zh) display designations for the DistributionModelCs code system, drafted by an agent and not signed off by a human.",
       "exampleBoolean" : false
     },
     {
@@ -847,6 +919,30 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/IPS-HAJJ-ACTOR-es"
+      },
+      "name" : "IPS.HAJJ.ACTOR (es designations, unofficial)",
+      "description" : "Unofficial Spanish designations for IPS.HAJJ.ACTOR: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS-HAJJ-ACTOR-ru"
+      },
+      "name" : "IPS.HAJJ.ACTOR (ru designations, unofficial)",
+      "description" : "Unofficial Russian designations for IPS.HAJJ.ACTOR: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/IPS.HAJJ.ACTOR"
       },
       "name" : "IPS.HAJJ.ACTOR CodeSystem",
@@ -868,6 +964,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS.HAJJ.ACTOR-zh"
+      },
+      "name" : "IPS.HAJJ.ACTOR — Chinese (zh) supplement",
+      "description" : "Unofficial Simplified Chinese (zh) display designations for the IPS.HAJJ.ACTOR code system, drafted by an agent and not signed off by a human.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -875,6 +983,30 @@
       },
       "name" : "IPS.HAJJ.ACTOR.SYSTEM ValueSet of actor",
       "description" : "ValueSet of codes for system actors for Hajj",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS-HAJJ-CONSENT-es"
+      },
+      "name" : "IPS.HAJJ.CONSENT (es designations, unofficial)",
+      "description" : "Unofficial Spanish designations for IPS.HAJJ.CONSENT: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS-HAJJ-CONSENT-ru"
+      },
+      "name" : "IPS.HAJJ.CONSENT (ru designations, unofficial)",
+      "description" : "Unofficial Russian designations for IPS.HAJJ.CONSENT: an agent translation that no person has signed off.",
       "exampleBoolean" : false
     },
     {
@@ -907,6 +1039,42 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/IPS.HAJJ.CONSENT-zh"
+      },
+      "name" : "IPS.HAJJ.CONSENT — Chinese (zh) supplement",
+      "description" : "Unofficial Simplified Chinese (zh) display designations for the IPS.HAJJ.CONSENT code system, drafted by an agent and not signed off by a human.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS-HAJJ-TRANSACTION-es"
+      },
+      "name" : "IPS.HAJJ.TRANSACTION (es designations, unofficial)",
+      "description" : "Unofficial Spanish designations for IPS.HAJJ.TRANSACTION: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS-HAJJ-TRANSACTION-ru"
+      },
+      "name" : "IPS.HAJJ.TRANSACTION (ru designations, unofficial)",
+      "description" : "Unofficial Russian designations for IPS.HAJJ.TRANSACTION: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/IPS.HAJJ.TRANSACTION"
       },
       "name" : "IPS.HAJJ.TRANSACTION CodeSystem",
@@ -923,6 +1091,18 @@
       },
       "name" : "IPS.HAJJ.TRANSACTION ValueSet of transaction",
       "description" : "ValueSet of codes for transaction for Hajj",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS.HAJJ.TRANSACTION-zh"
+      },
+      "name" : "IPS.HAJJ.TRANSACTION — Chinese (zh) supplement",
+      "description" : "Unofficial Simplified Chinese (zh) display designations for the IPS.HAJJ.TRANSACTION code system, drafted by an agent and not signed off by a human.",
       "exampleBoolean" : false
     },
     {
@@ -952,6 +1132,54 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LanguageCs-es"
+      },
+      "name" : "LanguageCs (es designations, unofficial)",
+      "description" : "Unofficial Spanish designations for LanguageCs: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LanguageCs-ru"
+      },
+      "name" : "LanguageCs (ru designations, unofficial)",
+      "description" : "Unofficial Russian designations for LanguageCs: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LanguageCs-zh"
+      },
+      "name" : "LanguageCs — Chinese (zh) supplement",
+      "description" : "Unofficial Simplified Chinese (zh) display designations for the LanguageCs code system, drafted by an agent and not signed off by a human.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LanguageCs-fr"
+      },
+      "name" : "Langue",
+      "description" : "French (fr) supplement to LanguageCs. Unofficial agent translation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -976,6 +1204,42 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LicensingModelCs-es"
+      },
+      "name" : "LicensingModelCs (es designations, unofficial)",
+      "description" : "Unofficial Spanish designations for LicensingModelCs: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LicensingModelCs-ru"
+      },
+      "name" : "LicensingModelCs (ru designations, unofficial)",
+      "description" : "Unofficial Russian designations for LicensingModelCs: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LicensingModelCs-zh"
+      },
+      "name" : "LicensingModelCs — Chinese (zh) supplement",
+      "description" : "Unofficial Simplified Chinese (zh) display designations for the LicensingModelCs code system, drafted by an agent and not signed off by a human.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Patient"
       }],
       "reference" : {
@@ -984,6 +1248,30 @@
       "name" : "Martha",
       "description" : "Example Patient",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/DistributionModelCs-fr"
+      },
+      "name" : "Modèle de distribution",
+      "description" : "French (fr) supplement to DistributionModelCs. Unofficial agent translation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LicensingModelCs-fr"
+      },
+      "name" : "Modèle de licence",
+      "description" : "French (fr) supplement to LicensingModelCs. Unofficial agent translation.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1012,6 +1300,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BrowserCs-fr"
+      },
+      "name" : "Navigateur",
+      "description" : "French (fr) supplement to BrowserCs. Unofficial agent translation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1036,6 +1336,42 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/OperatingSystemCs-es"
+      },
+      "name" : "OperatingSystemCs (es designations, unofficial)",
+      "description" : "Unofficial Spanish designations for OperatingSystemCs: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/OperatingSystemCs-ru"
+      },
+      "name" : "OperatingSystemCs (ru designations, unofficial)",
+      "description" : "Unofficial Russian designations for OperatingSystemCs: an agent translation that no person has signed off.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/OperatingSystemCs-zh"
+      },
+      "name" : "OperatingSystemCs — Chinese (zh) supplement",
+      "description" : "Unofficial Simplified Chinese (zh) display designations for the OperatingSystemCs code system, drafted by an agent and not signed off by a human.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
       }],
       "reference" : {
@@ -1048,6 +1384,54 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS.HAJJ.ACTOR-fr"
+      },
+      "name" : "Système de codes IPS.HAJJ.ACTOR",
+      "description" : "French (fr) supplement to IPS.HAJJ.ACTOR. Unofficial agent translation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS.HAJJ.CONSENT-fr"
+      },
+      "name" : "Système de codes IPS.HAJJ.CONSENT",
+      "description" : "French (fr) supplement to IPS.HAJJ.CONSENT. Unofficial agent translation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS.HAJJ.TRANSACTION-fr"
+      },
+      "name" : "Système de codes IPS.HAJJ.TRANSACTION",
+      "description" : "French (fr) supplement to IPS.HAJJ.TRANSACTION. Unofficial agent translation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/OperatingSystemCs-fr"
+      },
+      "name" : "Système d’exploitation",
+      "description" : "French (fr) supplement to OperatingSystemCs. Unofficial agent translation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CapabilityStatement"
       }],
       "reference" : {
@@ -1055,6 +1439,102 @@
       },
       "name" : "VHL Document Responder (server)",
       "description" : "VHL Document Responder (server) - Search DocumentReferences in a List.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LanguageCs-ar"
+      },
+      "name" : "اللغة",
+      "description" : "ملحق باللغة العربية (ar) لنظام الرموز LanguageCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BrowserCs-ar"
+      },
+      "name" : "المتصفح",
+      "description" : "ملحق باللغة العربية (ar) لنظام الرموز BrowserCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/OperatingSystemCs-ar"
+      },
+      "name" : "نظام التشغيل",
+      "description" : "ملحق باللغة العربية (ar) لنظام الرموز OperatingSystemCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS.HAJJ.ACTOR-ar"
+      },
+      "name" : "نظام الرموز IPS.HAJJ.ACTOR",
+      "description" : "ملحق باللغة العربية (ar) لنظام الرموز IPS.HAJJ.ACTOR: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS.HAJJ.CONSENT-ar"
+      },
+      "name" : "نظام الرموز IPS.HAJJ.CONSENT",
+      "description" : "ملحق باللغة العربية (ar) لنظام الرموز IPS.HAJJ.CONSENT: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/IPS.HAJJ.TRANSACTION-ar"
+      },
+      "name" : "نظام الرموز IPS.HAJJ.TRANSACTION",
+      "description" : "ملحق باللغة العربية (ar) لنظام الرموز IPS.HAJJ.TRANSACTION: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/LicensingModelCs-ar"
+      },
+      "name" : "نموذج الترخيص",
+      "description" : "ملحق باللغة العربية (ar) لنظام الرموز LicensingModelCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/DistributionModelCs-ar"
+      },
+      "name" : "نموذج التوزيع",
+      "description" : "ملحق باللغة العربية (ar) لنظام الرموز DistributionModelCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
       "exampleBoolean" : false
     }],
     "page" : {

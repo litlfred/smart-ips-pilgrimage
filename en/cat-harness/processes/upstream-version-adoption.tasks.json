@@ -1,15 +1,158 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_UpstreamAdoption",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption",
+ "markers": [
+  {
+   "id": "A_Scope",
+   "name": "Scope the delta pinned → candidate",
+   "left": 24.92,
+   "top": 3.9,
+   "box": {
+    "left": 22.56,
+    "top": 16.23,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "A_Impact",
+   "name": "Impact analysis what of ours binds it",
+   "left": 32.08,
+   "top": 3.9,
+   "box": {
+    "left": 29.72,
+    "top": 16.23,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "Task_Mvp",
+   "name": "MVP: build the candidate on a staging branch",
+   "left": 39.25,
+   "top": 36.36,
+   "box": {
+    "left": 36.89,
+    "top": 48.7,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "Task_Gates",
+   "name": "Run the row's gates tests · e2e · site-links",
+   "left": 46.42,
+   "top": 36.36,
+   "box": {
+    "left": 44.06,
+    "top": 48.7,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "A_Evidence",
+   "name": "Post the MVP evidence staging URL + gate results",
+   "left": 53.58,
+   "top": 3.9,
+   "box": {
+    "left": 51.22,
+    "top": 16.23,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "R_Review",
+   "name": "Review the MVP against what we bind to",
+   "left": 60.75,
+   "top": 58.44,
+   "box": {
+    "left": 58.39,
+    "top": 70.78,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "Call_OptionsAnalysis",
+   "name": "Options analysis adopt · hold · decline",
+   "left": 73.78,
+   "top": 3.9,
+   "box": {
+    "left": 71.42,
+    "top": 16.23,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "PM_Decide",
+   "name": "Adopt, hold or decline",
+   "left": 73.78,
+   "top": 80.52,
+   "box": {
+    "left": 71.42,
+    "top": 92.86,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "A_ApplyPin",
+   "name": "Move the pin and open the PR",
+   "left": 87.79,
+   "top": 6.49,
+   "box": {
+    "left": 84.45,
+    "top": 13.64,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "A_RecordOutcome",
+   "name": "Record the hold or the decline",
+   "left": 87.79,
+   "top": 19.48,
+   "box": {
+    "left": 84.45,
+    "top": 26.62,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "Call_BeanOpen",
+   "name": "Open the bean",
+   "left": 15.47,
+   "top": 3.9,
+   "box": {
+    "left": 13.11,
+    "top": 16.23,
+    "width": 0.78,
+    "height": 3.12
+   }
+  },
+  {
+   "id": "Call_BeanClose",
+   "name": "Close the bean",
+   "left": 94.63,
+   "top": 3.9,
+   "box": {
+    "left": 92.26,
+    "top": 16.23,
+    "width": 0.78,
+    "height": 3.12
+   }
+  }
+ ],
  "tasks": {
   "A_Scope": {
    "id": "A_Scope",
    "name": "Scope the delta pinned → candidate",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/A_Scope",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "upstream-version-adoption"
@@ -17,7 +160,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -189,9 +332,7 @@
    "id": "A_Impact",
    "name": "Impact analysis what of ours binds it",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/A_Impact",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "upstream-version-adoption"
@@ -199,7 +340,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -371,9 +512,7 @@
    "id": "Task_Mvp",
    "name": "MVP: build the candidate on a staging branch",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/Task_Mvp",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Build",
    "skills": [
     {
      "name": "feature-staging"
@@ -381,7 +520,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -448,9 +587,7 @@
    "id": "Task_Gates",
    "name": "Run the row's gates tests · e2e · site-links",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/Task_Gates",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Build",
    "skills": [
     {
      "name": "content-test"
@@ -458,7 +595,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -525,9 +662,7 @@
    "id": "A_Evidence",
    "name": "Post the MVP evidence staging URL + gate results",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/A_Evidence",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "delivery-summary"
@@ -535,7 +670,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -707,9 +842,7 @@
    "id": "R_Review",
    "name": "Review the MVP against what we bind to",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/R_Review",
    "lane": "Reviewer / SME",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Review",
    "skills": [
     {
      "name": "staging-review"
@@ -717,7 +850,7 @@
    ],
    "role": {
     "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -757,18 +890,16 @@
    "id": "Call_OptionsAnalysis",
    "name": "Options analysis adopt · hold · decline",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/Call_OptionsAnalysis",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [],
    "calls": {
     "name": "Options analysis",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_OptionsAnalysis",
+    "href": "options-analysis.html",
     "diagram": "options-analysis.html"
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -940,9 +1071,7 @@
    "id": "PM_Decide",
    "name": "Adopt, hold or decline",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/PM_Decide",
    "lane": "Publication manager",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Publication",
    "skills": [
     {
      "name": "decision-audit"
@@ -950,12 +1079,12 @@
    ],
    "calls": {
     "name": "Ask the person",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "href": "ask-the-person.html",
     "diagram": "ask-the-person.html"
    },
    "role": {
     "name": "publication-manager",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/publication-manager",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-publication-manager",
     "title": "Publication manager",
     "skills": [
      {
@@ -992,9 +1121,7 @@
    "id": "A_ApplyPin",
    "name": "Move the pin and open the PR",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/A_ApplyPin",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "prepare-merge"
@@ -1002,7 +1129,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1174,9 +1301,7 @@
    "id": "A_RecordOutcome",
    "name": "Record the hold or the decline",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/A_RecordOutcome",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "upstream-version-adoption"
@@ -1184,7 +1309,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1356,9 +1481,7 @@
    "id": "Call_BeanOpen",
    "name": "Open the bean",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/Call_BeanOpen",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "bean-coordination"
@@ -1366,12 +1489,12 @@
    ],
    "calls": {
     "name": "Open the bean",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanOpen",
+    "href": "bean-open.html",
     "diagram": "bean-open.html"
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1543,9 +1666,7 @@
    "id": "Call_BeanClose",
    "name": "Close the bean",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/node/Call_BeanClose",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_UpstreamAdoption/lane/Lane_Agent",
    "skills": [
     {
      "name": "todo-manager"
@@ -1553,12 +1674,12 @@
    ],
    "calls": {
     "name": "Close the bean",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "href": "bean-close.html",
     "diagram": "bean-close.html"
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {

@@ -1106,12 +1106,12 @@
           "heading": false
         },
         {
-          "term": "response",
-          "heading": true
-        },
-        {
           "term": "judge",
           "heading": false
+        },
+        {
+          "term": "response",
+          "heading": true
         }
       ],
       "extract": "Utilising the fact all questions are directly grounded in specific parts of the original source text we use an LLM as a Judge setup (Zheng et al., 2023; Gu et al., 2025) for the free form answer evaluation. We prompt a judge LLM (GPT-4o-Mini) with the question, ground truth answer, the LLM response, and six retrieved related chunks. The judge is asked to assess the response and provide a binary classification for",
@@ -1149,16 +1149,16 @@
           "heading": true
         },
         {
+          "term": "overall",
+          "heading": true
+        },
+        {
           "term": "o3-mini",
           "heading": false
         },
         {
           "term": "generate benchmark",
           "heading": false
-        },
-        {
-          "term": "overall",
-          "heading": true
         },
         {
           "term": "refusals",
@@ -1976,7 +1976,7 @@
           "heading": false
         },
         {
-          "term": "official",
+          "term": "involved",
           "heading": false
         }
       ],
@@ -2053,11 +2053,11 @@
       "heading": true
     },
     {
-      "term": "public health",
+      "term": "mcqa answer",
       "heading": true
     },
     {
-      "term": "mcqa answer",
+      "term": "public health",
       "heading": true
     },
     {

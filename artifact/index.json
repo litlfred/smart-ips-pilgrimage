@@ -14,7 +14,7 @@
     "@id": "http://smart.who.int/ips-pilgrimage"
   },
   "dcterms:title": "SMART Verifiable IPS for Pilgrimage",
-  "schema:numberOfItems": 58,
+  "schema:numberOfItems": 98,
   "schema:hasPart": [
     {
       "@id": "AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.jsonld",
@@ -496,6 +496,61 @@
       }
     },
     {
+      "@id": "CodeSystem-BrowserCs-ar.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/BrowserCs-ar",
+      "dcterms:title": "المتصفح",
+      "dcterms:description": "ملحق باللغة العربية (ar) لنظام الرموز BrowserCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/BrowserCs-ar"
+      }
+    },
+    {
+      "@id": "CodeSystem-BrowserCs-es.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/BrowserCs-es",
+      "dcterms:title": "BrowserCs (es designations, unofficial)",
+      "dcterms:description": "Unofficial Spanish designations for BrowserCs: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/BrowserCs-es"
+      }
+    },
+    {
+      "@id": "CodeSystem-BrowserCs-fr.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/BrowserCs-fr",
+      "dcterms:title": "Navigateur",
+      "dcterms:description": "French (fr) supplement to BrowserCs. Unofficial agent translation.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/BrowserCs-fr"
+      }
+    },
+    {
+      "@id": "CodeSystem-BrowserCs-ru.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/BrowserCs-ru",
+      "dcterms:title": "BrowserCs (ru designations, unofficial)",
+      "dcterms:description": "Unofficial Russian designations for BrowserCs: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/BrowserCs-ru"
+      }
+    },
+    {
+      "@id": "CodeSystem-BrowserCs-zh.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/BrowserCs-zh",
+      "dcterms:title": "BrowserCs — Chinese (zh) supplement",
+      "dcterms:description": "Unofficial Simplified Chinese (zh) display designations for the BrowserCs code system, drafted by an agent and not signed off by a human.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/BrowserCs-zh"
+      }
+    },
+    {
       "@id": "CodeSystem-DistributionModelCs.jsonld",
       "@type": "fhir:CodeSystem",
       "dcterms:identifier": "CodeSystem/DistributionModelCs",
@@ -504,6 +559,127 @@
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs"
+      }
+    },
+    {
+      "@id": "CodeSystem-DistributionModelCs-ar.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/DistributionModelCs-ar",
+      "dcterms:title": "نموذج التوزيع",
+      "dcterms:description": "ملحق باللغة العربية (ar) لنظام الرموز DistributionModelCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs-ar"
+      }
+    },
+    {
+      "@id": "CodeSystem-DistributionModelCs-es.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/DistributionModelCs-es",
+      "dcterms:title": "DistributionModelCs (es designations, unofficial)",
+      "dcterms:description": "Unofficial Spanish designations for DistributionModelCs: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs-es"
+      }
+    },
+    {
+      "@id": "CodeSystem-DistributionModelCs-fr.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/DistributionModelCs-fr",
+      "dcterms:title": "Modèle de distribution",
+      "dcterms:description": "French (fr) supplement to DistributionModelCs. Unofficial agent translation.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs-fr"
+      }
+    },
+    {
+      "@id": "CodeSystem-DistributionModelCs-ru.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/DistributionModelCs-ru",
+      "dcterms:title": "DistributionModelCs (ru designations, unofficial)",
+      "dcterms:description": "Unofficial Russian designations for DistributionModelCs: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs-ru"
+      }
+    },
+    {
+      "@id": "CodeSystem-DistributionModelCs-zh.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/DistributionModelCs-zh",
+      "dcterms:title": "DistributionModelCs — Chinese (zh) supplement",
+      "dcterms:description": "Unofficial Simplified Chinese (zh) display designations for the DistributionModelCs code system, drafted by an agent and not signed off by a human.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs-zh"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS-HAJJ-ACTOR-es.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS-HAJJ-ACTOR-es",
+      "dcterms:title": "IPS.HAJJ.ACTOR (es designations, unofficial)",
+      "dcterms:description": "Unofficial Spanish designations for IPS.HAJJ.ACTOR: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-ACTOR-es"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS-HAJJ-ACTOR-ru.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS-HAJJ-ACTOR-ru",
+      "dcterms:title": "IPS.HAJJ.ACTOR (ru designations, unofficial)",
+      "dcterms:description": "Unofficial Russian designations for IPS.HAJJ.ACTOR: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-ACTOR-ru"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS-HAJJ-CONSENT-es.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS-HAJJ-CONSENT-es",
+      "dcterms:title": "IPS.HAJJ.CONSENT (es designations, unofficial)",
+      "dcterms:description": "Unofficial Spanish designations for IPS.HAJJ.CONSENT: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-CONSENT-es"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS-HAJJ-CONSENT-ru.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS-HAJJ-CONSENT-ru",
+      "dcterms:title": "IPS.HAJJ.CONSENT (ru designations, unofficial)",
+      "dcterms:description": "Unofficial Russian designations for IPS.HAJJ.CONSENT: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-CONSENT-ru"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS-HAJJ-TRANSACTION-es.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS-HAJJ-TRANSACTION-es",
+      "dcterms:title": "IPS.HAJJ.TRANSACTION (es designations, unofficial)",
+      "dcterms:description": "Unofficial Spanish designations for IPS.HAJJ.TRANSACTION: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-TRANSACTION-es"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS-HAJJ-TRANSACTION-ru.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS-HAJJ-TRANSACTION-ru",
+      "dcterms:title": "IPS.HAJJ.TRANSACTION (ru designations, unofficial)",
+      "dcterms:description": "Unofficial Russian designations for IPS.HAJJ.TRANSACTION: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-TRANSACTION-ru"
       }
     },
     {
@@ -518,6 +694,39 @@
       }
     },
     {
+      "@id": "CodeSystem-IPS.HAJJ.ACTOR-ar.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS.HAJJ.ACTOR-ar",
+      "dcterms:title": "نظام الرموز IPS.HAJJ.ACTOR",
+      "dcterms:description": "ملحق باللغة العربية (ar) لنظام الرموز IPS.HAJJ.ACTOR: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.ACTOR-ar"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS.HAJJ.ACTOR-fr.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS.HAJJ.ACTOR-fr",
+      "dcterms:title": "Système de codes IPS.HAJJ.ACTOR",
+      "dcterms:description": "French (fr) supplement to IPS.HAJJ.ACTOR. Unofficial agent translation.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.ACTOR-fr"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS.HAJJ.ACTOR-zh.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS.HAJJ.ACTOR-zh",
+      "dcterms:title": "IPS.HAJJ.ACTOR — Chinese (zh) supplement",
+      "dcterms:description": "Unofficial Simplified Chinese (zh) display designations for the IPS.HAJJ.ACTOR code system, drafted by an agent and not signed off by a human.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.ACTOR-zh"
+      }
+    },
+    {
       "@id": "CodeSystem-IPS.HAJJ.CONSENT.jsonld",
       "@type": "fhir:CodeSystem",
       "dcterms:identifier": "CodeSystem/IPS.HAJJ.CONSENT",
@@ -526,6 +735,39 @@
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS.HAJJ.CONSENT-ar.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS.HAJJ.CONSENT-ar",
+      "dcterms:title": "نظام الرموز IPS.HAJJ.CONSENT",
+      "dcterms:description": "ملحق باللغة العربية (ar) لنظام الرموز IPS.HAJJ.CONSENT: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT-ar"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS.HAJJ.CONSENT-fr.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS.HAJJ.CONSENT-fr",
+      "dcterms:title": "Système de codes IPS.HAJJ.CONSENT",
+      "dcterms:description": "French (fr) supplement to IPS.HAJJ.CONSENT. Unofficial agent translation.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT-fr"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS.HAJJ.CONSENT-zh.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS.HAJJ.CONSENT-zh",
+      "dcterms:title": "IPS.HAJJ.CONSENT — Chinese (zh) supplement",
+      "dcterms:description": "Unofficial Simplified Chinese (zh) display designations for the IPS.HAJJ.CONSENT code system, drafted by an agent and not signed off by a human.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT-zh"
       }
     },
     {
@@ -540,6 +782,39 @@
       }
     },
     {
+      "@id": "CodeSystem-IPS.HAJJ.TRANSACTION-ar.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS.HAJJ.TRANSACTION-ar",
+      "dcterms:title": "نظام الرموز IPS.HAJJ.TRANSACTION",
+      "dcterms:description": "ملحق باللغة العربية (ar) لنظام الرموز IPS.HAJJ.TRANSACTION: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.TRANSACTION-ar"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS.HAJJ.TRANSACTION-fr.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS.HAJJ.TRANSACTION-fr",
+      "dcterms:title": "Système de codes IPS.HAJJ.TRANSACTION",
+      "dcterms:description": "French (fr) supplement to IPS.HAJJ.TRANSACTION. Unofficial agent translation.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.TRANSACTION-fr"
+      }
+    },
+    {
+      "@id": "CodeSystem-IPS.HAJJ.TRANSACTION-zh.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/IPS.HAJJ.TRANSACTION-zh",
+      "dcterms:title": "IPS.HAJJ.TRANSACTION — Chinese (zh) supplement",
+      "dcterms:description": "Unofficial Simplified Chinese (zh) display designations for the IPS.HAJJ.TRANSACTION code system, drafted by an agent and not signed off by a human.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.TRANSACTION-zh"
+      }
+    },
+    {
       "@id": "CodeSystem-LanguageCs.jsonld",
       "@type": "fhir:CodeSystem",
       "dcterms:identifier": "CodeSystem/LanguageCs",
@@ -548,6 +823,61 @@
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs"
+      }
+    },
+    {
+      "@id": "CodeSystem-LanguageCs-ar.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/LanguageCs-ar",
+      "dcterms:title": "اللغة",
+      "dcterms:description": "ملحق باللغة العربية (ar) لنظام الرموز LanguageCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs-ar"
+      }
+    },
+    {
+      "@id": "CodeSystem-LanguageCs-es.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/LanguageCs-es",
+      "dcterms:title": "LanguageCs (es designations, unofficial)",
+      "dcterms:description": "Unofficial Spanish designations for LanguageCs: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs-es"
+      }
+    },
+    {
+      "@id": "CodeSystem-LanguageCs-fr.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/LanguageCs-fr",
+      "dcterms:title": "Langue",
+      "dcterms:description": "French (fr) supplement to LanguageCs. Unofficial agent translation.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs-fr"
+      }
+    },
+    {
+      "@id": "CodeSystem-LanguageCs-ru.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/LanguageCs-ru",
+      "dcterms:title": "LanguageCs (ru designations, unofficial)",
+      "dcterms:description": "Unofficial Russian designations for LanguageCs: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs-ru"
+      }
+    },
+    {
+      "@id": "CodeSystem-LanguageCs-zh.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/LanguageCs-zh",
+      "dcterms:title": "LanguageCs — Chinese (zh) supplement",
+      "dcterms:description": "Unofficial Simplified Chinese (zh) display designations for the LanguageCs code system, drafted by an agent and not signed off by a human.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs-zh"
       }
     },
     {
@@ -562,6 +892,61 @@
       }
     },
     {
+      "@id": "CodeSystem-LicensingModelCs-ar.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/LicensingModelCs-ar",
+      "dcterms:title": "نموذج الترخيص",
+      "dcterms:description": "ملحق باللغة العربية (ar) لنظام الرموز LicensingModelCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LicensingModelCs-ar"
+      }
+    },
+    {
+      "@id": "CodeSystem-LicensingModelCs-es.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/LicensingModelCs-es",
+      "dcterms:title": "LicensingModelCs (es designations, unofficial)",
+      "dcterms:description": "Unofficial Spanish designations for LicensingModelCs: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LicensingModelCs-es"
+      }
+    },
+    {
+      "@id": "CodeSystem-LicensingModelCs-fr.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/LicensingModelCs-fr",
+      "dcterms:title": "Modèle de licence",
+      "dcterms:description": "French (fr) supplement to LicensingModelCs. Unofficial agent translation.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LicensingModelCs-fr"
+      }
+    },
+    {
+      "@id": "CodeSystem-LicensingModelCs-ru.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/LicensingModelCs-ru",
+      "dcterms:title": "LicensingModelCs (ru designations, unofficial)",
+      "dcterms:description": "Unofficial Russian designations for LicensingModelCs: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LicensingModelCs-ru"
+      }
+    },
+    {
+      "@id": "CodeSystem-LicensingModelCs-zh.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/LicensingModelCs-zh",
+      "dcterms:title": "LicensingModelCs — Chinese (zh) supplement",
+      "dcterms:description": "Unofficial Simplified Chinese (zh) display designations for the LicensingModelCs code system, drafted by an agent and not signed off by a human.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/LicensingModelCs-zh"
+      }
+    },
+    {
       "@id": "CodeSystem-OperatingSystemCs.jsonld",
       "@type": "fhir:CodeSystem",
       "dcterms:identifier": "CodeSystem/OperatingSystemCs",
@@ -570,6 +955,61 @@
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs"
+      }
+    },
+    {
+      "@id": "CodeSystem-OperatingSystemCs-ar.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/OperatingSystemCs-ar",
+      "dcterms:title": "نظام التشغيل",
+      "dcterms:description": "ملحق باللغة العربية (ar) لنظام الرموز OperatingSystemCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs-ar"
+      }
+    },
+    {
+      "@id": "CodeSystem-OperatingSystemCs-es.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/OperatingSystemCs-es",
+      "dcterms:title": "OperatingSystemCs (es designations, unofficial)",
+      "dcterms:description": "Unofficial Spanish designations for OperatingSystemCs: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs-es"
+      }
+    },
+    {
+      "@id": "CodeSystem-OperatingSystemCs-fr.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/OperatingSystemCs-fr",
+      "dcterms:title": "Système d’exploitation",
+      "dcterms:description": "French (fr) supplement to OperatingSystemCs. Unofficial agent translation.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs-fr"
+      }
+    },
+    {
+      "@id": "CodeSystem-OperatingSystemCs-ru.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/OperatingSystemCs-ru",
+      "dcterms:title": "OperatingSystemCs (ru designations, unofficial)",
+      "dcterms:description": "Unofficial Russian designations for OperatingSystemCs: an agent translation that no person has signed off.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs-ru"
+      }
+    },
+    {
+      "@id": "CodeSystem-OperatingSystemCs-zh.jsonld",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/OperatingSystemCs-zh",
+      "dcterms:title": "OperatingSystemCs — Chinese (zh) supplement",
+      "dcterms:description": "Unofficial Simplified Chinese (zh) display designations for the OperatingSystemCs code system, drafted by an agent and not signed off by a human.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs-zh"
       }
     },
     {

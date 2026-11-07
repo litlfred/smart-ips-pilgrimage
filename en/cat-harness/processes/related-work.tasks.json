@@ -1,15 +1,74 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_RelatedWork",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork",
+ "markers": [
+  {
+   "id": "A_SearchBeans",
+   "name": "Search beans for relevance",
+   "left": 27.3,
+   "top": 8.57,
+   "box": {
+    "left": 22.53,
+    "top": 35.71,
+    "width": 1.58,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_SearchIssues",
+   "name": "Search issues and open PRs",
+   "left": 39.8,
+   "top": 8.57,
+   "box": {
+    "left": 35.03,
+    "top": 35.71,
+    "width": 1.58,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_Categorize",
+   "name": "Categorize and summarize",
+   "left": 52.3,
+   "top": 8.57,
+   "box": {
+    "left": 47.53,
+    "top": 35.71,
+    "width": 1.58,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "U_Coordinate",
+   "name": "Coordinate? How?",
+   "left": 64.8,
+   "top": 57.14,
+   "box": {
+    "left": 60.03,
+    "top": 84.29,
+    "width": 1.58,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_Record",
+   "name": "Record and act on the answer",
+   "left": 77.3,
+   "top": 8.57,
+   "box": {
+    "left": 72.53,
+    "top": 35.71,
+    "width": 1.58,
+    "height": 6.86
+   }
+  }
+ ],
  "tasks": {
   "A_SearchBeans": {
    "id": "A_SearchBeans",
    "name": "Search beans for relevance",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork/node/A_SearchBeans",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork/lane/Lane_Agent",
    "skills": [
     {
      "name": "related-work-coordination"
@@ -17,7 +76,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -189,9 +248,7 @@
    "id": "A_SearchIssues",
    "name": "Search issues and open PRs",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork/node/A_SearchIssues",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork/lane/Lane_Agent",
    "skills": [
     {
      "name": "related-work-coordination"
@@ -199,7 +256,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -371,9 +428,7 @@
    "id": "A_Categorize",
    "name": "Categorize and summarize",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork/node/A_Categorize",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork/lane/Lane_Agent",
    "skills": [
     {
      "name": "related-work-coordination"
@@ -381,7 +436,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -553,9 +608,7 @@
    "id": "U_Coordinate",
    "name": "Coordinate? How?",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork/node/U_Coordinate",
    "lane": "User",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork/lane/Lane_User",
    "skills": [
     {
      "name": "interaction-modality"
@@ -563,12 +616,12 @@
    ],
    "calls": {
     "name": "Ask the person",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "href": "ask-the-person.html",
     "diagram": "ask-the-person.html"
    },
    "role": {
     "name": "user",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/user",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-user",
     "title": "User",
     "skills": [
      {
@@ -611,9 +664,7 @@
    "id": "A_Record",
    "name": "Record and act on the answer",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork/node/A_Record",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork/lane/Lane_Agent",
    "skills": [
     {
      "name": "related-work-coordination"
@@ -621,7 +672,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {

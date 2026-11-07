@@ -146,15 +146,15 @@
           "heading": false
         },
         {
-          "term": "true quantitative",
-          "heading": false
-        },
-        {
           "term": "metabolic tumor",
           "heading": false
         },
         {
           "term": "segmentation methods",
+          "heading": false
+        },
+        {
+          "term": "true quantitative",
           "heading": false
         },
         {
@@ -197,10 +197,6 @@
           "heading": false
         },
         {
-          "term": "true values",
-          "heading": false
-        },
-        {
           "term": "pth patient",
           "heading": false
         },
@@ -218,6 +214,10 @@
         },
         {
           "term": "estimated parameters",
+          "heading": false
+        },
+        {
+          "term": "true values",
           "heading": false
         }
       ],
@@ -244,11 +244,11 @@
           "heading": false
         },
         {
-          "term": "true values",
+          "term": "beta distribution",
           "heading": false
         },
         {
-          "term": "beta distribution",
+          "term": "true values",
           "heading": false
         },
         {
@@ -346,11 +346,11 @@
           "heading": false
         },
         {
-          "term": "gold standards",
+          "term": "imaging methods",
           "heading": false
         },
         {
-          "term": "imaging methods",
+          "term": "gold standards",
           "heading": false
         },
         {
@@ -396,7 +396,7 @@
       "heading": true
     },
     {
-      "term": "true quantitative",
+      "term": "imaging methods",
       "heading": false
     },
     {
@@ -404,7 +404,11 @@
       "heading": true
     },
     {
-      "term": "imaging methods",
+      "term": "quantitative imaging",
+      "heading": false
+    },
+    {
+      "term": "true quantitative",
       "heading": false
     },
     {
@@ -420,15 +424,11 @@
       "heading": false
     },
     {
-      "term": "gold standards",
-      "heading": false
-    },
-    {
       "term": "quantitative values",
       "heading": false
     },
     {
-      "term": "ranking performance",
+      "term": "gold standards",
       "heading": false
     }
   ],

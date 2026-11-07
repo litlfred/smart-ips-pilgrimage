@@ -1,15 +1,86 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_MountDependency",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency",
+ "markers": [
+  {
+   "id": "Task_DeclareMount",
+   "name": "Declare the mount: harness, repository, pin",
+   "left": 20.56,
+   "top": 9.57,
+   "box": {
+    "left": 14.76,
+    "top": 29.79,
+    "width": 1.92,
+    "height": 5.11
+   }
+  },
+  {
+   "id": "Task_ResolveClosure",
+   "name": "Resolve the closure at the pin",
+   "left": 20.56,
+   "top": 54.26,
+   "box": {
+    "left": 14.76,
+    "top": 74.47,
+    "width": 1.92,
+    "height": 5.11
+   }
+  },
+  {
+   "id": "Task_MountInstances",
+   "name": "Mount each instance at its declared path",
+   "left": 33.36,
+   "top": 54.26,
+   "box": {
+    "left": 27.56,
+    "top": 74.47,
+    "width": 1.92,
+    "height": 5.11
+   }
+  },
+  {
+   "id": "Task_WriteLock",
+   "name": "Write the lock",
+   "left": 46.16,
+   "top": 54.26,
+   "box": {
+    "left": 40.36,
+    "top": 74.47,
+    "width": 1.92,
+    "height": 5.11
+   }
+  },
+  {
+   "id": "Task_RenderAgentSurface",
+   "name": "Re-render the agent surface",
+   "left": 58.96,
+   "top": 54.26,
+   "box": {
+    "left": 53.16,
+    "top": 74.47,
+    "width": 1.92,
+    "height": 5.11
+   }
+  },
+  {
+   "id": "Task_CheckAgainstLock",
+   "name": "Check disk against lock against declaration",
+   "left": 71.76,
+   "top": 54.26,
+   "box": {
+    "left": 65.96,
+    "top": 74.47,
+    "width": 1.92,
+    "height": 5.11
+   }
+  }
+ ],
  "tasks": {
   "Task_DeclareMount": {
    "id": "Task_DeclareMount",
    "name": "Declare the mount: harness, repository, pin",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/node/Task_DeclareMount",
    "lane": "Downstream author",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/lane/Lane_Author",
    "skills": [
     {
      "name": "remote-mount"
@@ -20,7 +91,7 @@
    ],
    "role": {
     "name": "author",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/author",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-author",
     "title": "Author",
     "skills": [
      {
@@ -63,9 +134,7 @@
    "id": "Task_ResolveClosure",
    "name": "Resolve the closure at the pin",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/node/Task_ResolveClosure",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "remote-mount"
@@ -73,7 +142,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -140,9 +209,7 @@
    "id": "Task_MountInstances",
    "name": "Mount each instance at its declared path",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/node/Task_MountInstances",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "remote-mount"
@@ -150,7 +217,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -217,9 +284,7 @@
    "id": "Task_WriteLock",
    "name": "Write the lock",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/node/Task_WriteLock",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "remote-mount"
@@ -227,7 +292,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -294,9 +359,7 @@
    "id": "Task_RenderAgentSurface",
    "name": "Re-render the agent surface",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/node/Task_RenderAgentSurface",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "remote-mount"
@@ -307,7 +370,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -374,9 +437,7 @@
    "id": "Task_CheckAgainstLock",
    "name": "Check disk against lock against declaration",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/node/Task_CheckAgainstLock",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MountDependency/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "remote-mount"
@@ -387,7 +448,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {

@@ -34,6 +34,26 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools/check-translation-supplements",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Compile and check an IG's translation CodeSystem supplements"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Compile the IG's CodeSystems with every `input/fsh/translations/<locale>.fsh` CodeSystem supplement in a throw-away FSHOnly SUSHI project, require 0 SUSHI errors, and check that each supplement's base CodeSystem is the IG's own, its codes are a subset of the base's, its language is the file's locale, and every CodeSystem id is unique. SUSHI is the version `ig-toolchain.env` pins, installed from `scripts/sushi/package-lock.json` with install scripts off; the FHIR core package is pinned by sha512; SUSHI runs with no network."
+        }
+      ],
+      "skos:notation": "check-translation-supplements",
+      "dcterms:source": "fhir-harness/tools/check-translation-supplements/check-translation-supplements.ts#check-translation-supplements",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools/check-wireframe-questionnaire",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -446,7 +466,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "The three checkout scripts the platform's site build runs for a repository that holds an IG and only mounts layers (`index.config.json`): `ig-site:ast` restores the AST from the IG's cache branch (`ig-cache.sh restore`) and judges it, refusing a stale, cannot-tell or absent one (a stale one is accepted for a preview with `SITE_ACCEPT_STALE_AST=1`); `ig-site:compose` derives the artefact index from the AST (binding any IG API sidecars a layer above left in `$SITE_WORK/ig-api/`), writes the thin artefact pages, stages the IG's `input/` and `sushi-config.yaml` (menu read at build time, palette from the webpage theme of the top layer the repository mounts, edit links from its origin) and composes it at the ROOT of the host site source; `ig-site:publisher-pages` serves the AST's resources (`ast-data/` and `<Type>-<id>.json`), the artefact index and the sidecars, refuses a page wearing the IG Publisher's chrome, repairs repeated element ids and stamps `folio-build.json`. Never runs the Publisher and never reads its output. Compose lists the pages it puts in the site in `FOLIO_SITE_UPSTREAM_PAGES`, so the site build reports the IG's own dead links rather than refusing the publish over them."
+          "@value": "The three checkout scripts the platform's site build runs for a repository that holds an IG and only mounts layers (`index.config.json`): `ig-site:ast` restores the AST from the IG's cache branch (`ig-cache.sh restore`) and judges it, refusing a stale, cannot-tell or absent one (a stale one is accepted for a preview by default, refused with `SITE_ACCEPT_STALE_AST=0`, and never accepted for the root); `ig-site:compose` derives the artefact index from the AST (binding any IG API sidecars a layer above left in `$SITE_WORK/ig-api/`), writes the thin artefact pages, stages the IG's `input/` and `sushi-config.yaml` (menu read at build time, palette from the webpage theme of the top layer the repository mounts, edit links from its origin) and composes it at the ROOT of the host site source; `ig-site:publisher-pages` serves the AST's resources (`ast-data/` and `<Type>-<id>.json`), the artefact index and the sidecars, refuses a page wearing the IG Publisher's chrome, repairs repeated element ids and stamps `folio-build.json`. Never runs the Publisher and never reads its output. Compose lists the pages it puts in the site in `FOLIO_SITE_UPSTREAM_PAGES`, so the site build reports the IG's own dead links rather than refusing the publish over them."
         }
       ],
       "skos:notation": "ig-repo-site",

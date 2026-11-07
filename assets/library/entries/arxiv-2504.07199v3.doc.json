@@ -270,11 +270,11 @@
           "heading": false
         },
         {
-          "term": "subject classification",
+          "term": "digital library",
           "heading": false
         },
         {
-          "term": "digital library",
+          "term": "subject classification",
           "heading": false
         },
         {
@@ -497,6 +497,10 @@
           "heading": false
         },
         {
+          "term": "participants",
+          "heading": false
+        },
+        {
           "term": "engineering",
           "heading": false
         },
@@ -507,10 +511,6 @@
         {
           "term": "all-subjects",
           "heading": false
-        },
-        {
-          "term": "collections",
-          "heading": true
         }
       ],
       "extract": "4.1 Dataset Collections all-subjects.5 This dataset comprises the full TIBKAT open-source collection, with predefined splits: 81,937 records for training and 13,666 for development. A detailed dataset overview is avail- 5https://github.com/jd-coderepos/ llms4subjects/tree/main/shared-task-datasets/ TIBKAT/all-subjects able in the shared task repository. Participants also received the accompanying GND subject taxon-",
@@ -712,11 +712,11 @@
           "heading": false
         },
         {
-          "term": "both collections",
+          "term": "average recall",
           "heading": false
         },
         {
-          "term": "average recall",
+          "term": "both collections",
           "heading": false
         },
         {
@@ -759,11 +759,11 @@
           "heading": false
         },
         {
-          "term": "top teams",
+          "term": "qualitative eval",
           "heading": false
         },
         {
-          "term": "qualitative eval",
+          "term": "top teams",
           "heading": false
         },
         {
@@ -877,11 +877,11 @@
           "heading": false
         },
         {
-          "term": "osma suominen",
+          "term": "vienna",
           "heading": false
         },
         {
-          "term": "vienna",
+          "term": "osma suominen",
           "heading": false
         }
       ],
@@ -947,11 +947,11 @@
           "heading": true
         },
         {
-          "term": "indonesian",
+          "term": "swedish",
           "heading": false
         },
         {
-          "term": "nian",
+          "term": "indonesian",
           "heading": false
         }
       ],
@@ -1049,11 +1049,11 @@
           "heading": false
         },
         {
-          "term": "llms4subjects",
+          "term": "assign",
           "heading": false
         },
         {
-          "term": "assign",
+          "term": "llms4subjects",
           "heading": false
         }
       ],
@@ -1085,11 +1085,11 @@
       "heading": false
     },
     {
-      "term": "subject specialists",
+      "term": "llms4subjects shared",
       "heading": false
     },
     {
-      "term": "llms4subjects shared",
+      "term": "subject specialists",
       "heading": false
     },
     {
@@ -1097,11 +1097,11 @@
       "heading": false
     },
     {
-      "term": "subject embeddings",
+      "term": "tibkat records",
       "heading": false
     },
     {
-      "term": "tibkat records",
+      "term": "subject embeddings",
       "heading": false
     },
     {

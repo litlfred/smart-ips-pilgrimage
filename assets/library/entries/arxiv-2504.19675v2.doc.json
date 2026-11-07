@@ -1197,10 +1197,6 @@
           "heading": false
         },
         {
-          "term": "den",
-          "heading": false
-        },
-        {
           "term": "gnd",
           "heading": true
         },
@@ -1214,6 +1210,10 @@
         },
         {
           "term": "der",
+          "heading": false
+        },
+        {
+          "term": "lower reaches",
           "heading": false
         }
       ],

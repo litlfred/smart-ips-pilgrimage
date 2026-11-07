@@ -1,15 +1,98 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_QaPublish",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish",
+ "markers": [
+  {
+   "id": "Task_DeriveKey",
+   "name": "Derive the key",
+   "left": 23.23,
+   "top": 14.41,
+   "box": {
+    "left": 17.88,
+    "top": 30.51,
+    "width": 1.77,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Task_BuildEntry",
+   "name": "Build the entry",
+   "left": 48.38,
+   "top": 14.41,
+   "box": {
+    "left": 43.03,
+    "top": 30.51,
+    "width": 1.77,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Task_SpliceAndPush",
+   "name": "Splice onto the tip and push (never -f)",
+   "left": 64.6,
+   "top": 14.41,
+   "box": {
+    "left": 59.26,
+    "top": 30.51,
+    "width": 1.77,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Task_Backoff",
+   "name": "Back off",
+   "left": 64.6,
+   "top": 40.68,
+   "box": {
+    "left": 59.26,
+    "top": 56.78,
+    "width": 1.77,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Task_ReadPrStates",
+   "name": "Read every PR's state",
+   "left": 23.67,
+   "top": 63.56,
+   "box": {
+    "left": 18.33,
+    "top": 79.66,
+    "width": 1.77,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Task_PlanPrune",
+   "name": "Plan the prune",
+   "left": 38.79,
+   "top": 63.56,
+   "box": {
+    "left": 33.44,
+    "top": 79.66,
+    "width": 1.77,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Task_ApplyPrune",
+   "name": "Commit a tip without the pruned entries",
+   "left": 64.6,
+   "top": 63.56,
+   "box": {
+    "left": 59.26,
+    "top": 79.66,
+    "width": 1.77,
+    "height": 4.07
+   }
+  }
+ ],
  "tasks": {
   "Task_DeriveKey": {
    "id": "Task_DeriveKey",
    "name": "Derive the key",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/node/Task_DeriveKey",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/lane/Lane_Ci",
    "skills": [
     {
      "name": "qa-reports"
@@ -17,7 +100,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -84,9 +167,7 @@
    "id": "Task_BuildEntry",
    "name": "Build the entry",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/node/Task_BuildEntry",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/lane/Lane_Ci",
    "skills": [
     {
      "name": "qa-reports"
@@ -94,7 +175,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -161,9 +242,7 @@
    "id": "Task_SpliceAndPush",
    "name": "Splice onto the tip and push (never -f)",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/node/Task_SpliceAndPush",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/lane/Lane_Ci",
    "skills": [
     {
      "name": "qa-reports"
@@ -171,7 +250,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -238,9 +317,7 @@
    "id": "Task_Backoff",
    "name": "Back off",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/node/Task_Backoff",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/lane/Lane_Ci",
    "skills": [
     {
      "name": "qa-reports"
@@ -248,7 +325,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -315,9 +392,7 @@
    "id": "Task_ReadPrStates",
    "name": "Read every PR's state",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/node/Task_ReadPrStates",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/lane/Lane_Ci",
    "skills": [
     {
      "name": "qa-reports"
@@ -325,7 +400,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -392,9 +467,7 @@
    "id": "Task_PlanPrune",
    "name": "Plan the prune",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/node/Task_PlanPrune",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/lane/Lane_Ci",
    "skills": [
     {
      "name": "qa-reports"
@@ -402,7 +475,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -469,9 +542,7 @@
    "id": "Task_ApplyPrune",
    "name": "Commit a tip without the pruned entries",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/node/Task_ApplyPrune",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_QaPublish/lane/Lane_Ci",
    "skills": [
     {
      "name": "qa-reports"
@@ -479,7 +550,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {

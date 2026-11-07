@@ -1,24 +1,71 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_CRDM_Issue",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Issue",
+ "markers": [
+  {
+   "id": "Call_RelatedWork",
+   "name": "Related work: find, sort, ask",
+   "left": 32.59,
+   "top": 16.18,
+   "box": {
+    "left": 24.06,
+    "top": 44.12,
+    "width": 2.82,
+    "height": 7.06
+   }
+  },
+  {
+   "id": "A_ScanIssues",
+   "name": "Scan open issues for match",
+   "left": 51.41,
+   "top": 16.18,
+   "box": {
+    "left": 42.88,
+    "top": 44.12,
+    "width": 2.82,
+    "height": 7.06
+   }
+  },
+  {
+   "id": "A_AskCreate",
+   "name": "Ask BA to create or link issue",
+   "left": 83.18,
+   "top": 16.18,
+   "box": {
+    "left": 74.65,
+    "top": 44.12,
+    "width": 2.82,
+    "height": 7.06
+   }
+  },
+  {
+   "id": "A_LinkIssue",
+   "name": "Link to existing issue",
+   "left": 83.18,
+   "top": 57.35,
+   "box": {
+    "left": 74.65,
+    "top": 85.29,
+    "width": 2.82,
+    "height": 7.06
+   }
+  }
+ ],
  "tasks": {
   "Call_RelatedWork": {
    "id": "Call_RelatedWork",
    "name": "Related work: find, sort, ask",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Issue/node/Call_RelatedWork",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Issue/lane/Lane_Agent",
    "skills": [],
    "calls": {
     "name": "Related work: find, sort, summarize, ask to coordinate",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RelatedWork",
+    "href": "related-work.html",
     "diagram": "related-work.html"
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -190,17 +237,21 @@
    "id": "A_ScanIssues",
    "name": "Scan open issues for match",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Issue/node/A_ScanIssues",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Issue/lane/Lane_Agent",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     }
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -372,17 +423,21 @@
    "id": "A_AskCreate",
    "name": "Ask BA to create or link issue",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Issue/node/A_AskCreate",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Issue/lane/Lane_Agent",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     }
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -554,17 +609,21 @@
    "id": "A_LinkIssue",
    "name": "Link to existing issue",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Issue/node/A_LinkIssue",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Issue/lane/Lane_Agent",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     }
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {

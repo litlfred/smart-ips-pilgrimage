@@ -1,15 +1,98 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_SliceSqlitePublish",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish",
+ "markers": [
+  {
+   "id": "A_Define",
+   "name": "Write the slice definition",
+   "left": 37.38,
+   "top": 38.24,
+   "box": {
+    "left": 32.23,
+    "top": 56.86,
+    "width": 1.7,
+    "height": 4.71
+   }
+  },
+  {
+   "id": "A_Measure",
+   "name": "Build it locally and measure the file",
+   "left": 48.01,
+   "top": 38.24,
+   "box": {
+    "left": 42.87,
+    "top": 56.86,
+    "width": 1.7,
+    "height": 4.71
+   }
+  },
+  {
+   "id": "A_Report",
+   "name": "Report the measurement; ship nothing",
+   "left": 56.17,
+   "top": 67.65,
+   "box": {
+    "left": 51.03,
+    "top": 86.27,
+    "width": 1.7,
+    "height": 4.71
+   }
+  },
+  {
+   "id": "A_Wire",
+   "name": "Wire it: gate, deploy line, search, tests",
+   "left": 69.29,
+   "top": 38.24,
+   "box": {
+    "left": 64.15,
+    "top": 56.86,
+    "width": 1.7,
+    "height": 4.71
+   }
+  },
+  {
+   "id": "A_Check",
+   "name": "Gate every slice: slice:sqlite:check",
+   "left": 69.29,
+   "top": 4.9,
+   "box": {
+    "left": 64.15,
+    "top": 23.53,
+    "width": 1.7,
+    "height": 4.71
+   }
+  },
+  {
+   "id": "A_Deploy",
+   "name": "Build each slice into _site at deploy",
+   "left": 90.57,
+   "top": 4.9,
+   "box": {
+    "left": 85.43,
+    "top": 23.53,
+    "width": 1.7,
+    "height": 4.71
+   }
+  },
+  {
+   "id": "A_Verify",
+   "name": "Search the published slice in a browser",
+   "left": 90.57,
+   "top": 38.24,
+   "box": {
+    "left": 85.43,
+    "top": 56.86,
+    "width": 1.7,
+    "height": 4.71
+   }
+  }
+ ],
  "tasks": {
   "A_Define": {
    "id": "A_Define",
    "name": "Write the slice definition",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/node/A_Define",
    "lane": "Platform authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/lane/Lane_Author",
    "skills": [
     {
      "name": "kg-export"
@@ -17,7 +100,7 @@
    ],
    "role": {
     "name": "platform-authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/platform-authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-platform-authoring-agent",
     "title": "Platform authoring agent",
     "skills": [
      {
@@ -279,9 +362,7 @@
    "id": "A_Measure",
    "name": "Build it locally and measure the file",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/node/A_Measure",
    "lane": "Platform authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/lane/Lane_Author",
    "skills": [
     {
      "name": "kg-export"
@@ -289,7 +370,7 @@
    ],
    "role": {
     "name": "platform-authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/platform-authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-platform-authoring-agent",
     "title": "Platform authoring agent",
     "skills": [
      {
@@ -551,9 +632,7 @@
    "id": "A_Report",
    "name": "Report the measurement; ship nothing",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/node/A_Report",
    "lane": "Platform authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/lane/Lane_Author",
    "skills": [
     {
      "name": "kg-export"
@@ -561,7 +640,7 @@
    ],
    "role": {
     "name": "platform-authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/platform-authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-platform-authoring-agent",
     "title": "Platform authoring agent",
     "skills": [
      {
@@ -823,9 +902,7 @@
    "id": "A_Wire",
    "name": "Wire it: gate, deploy line, search, tests",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/node/A_Wire",
    "lane": "Platform authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/lane/Lane_Author",
    "skills": [
     {
      "name": "kg-export"
@@ -833,7 +910,7 @@
    ],
    "role": {
     "name": "platform-authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/platform-authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-platform-authoring-agent",
     "title": "Platform authoring agent",
     "skills": [
      {
@@ -1095,9 +1172,7 @@
    "id": "A_Check",
    "name": "Gate every slice: slice:sqlite:check",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/node/A_Check",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/lane/Lane_Ci",
    "skills": [
     {
      "name": "kg-export"
@@ -1105,7 +1180,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -1172,9 +1247,7 @@
    "id": "A_Deploy",
    "name": "Build each slice into _site at deploy",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/node/A_Deploy",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/lane/Lane_Ci",
    "skills": [
     {
      "name": "kg-export"
@@ -1182,7 +1255,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -1249,9 +1322,7 @@
    "id": "A_Verify",
    "name": "Search the published slice in a browser",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/node/A_Verify",
    "lane": "Platform authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SliceSqlitePublish/lane/Lane_Author",
    "skills": [
     {
      "name": "rendered-verification"
@@ -1259,7 +1330,7 @@
    ],
    "role": {
     "name": "platform-authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/platform-authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-platform-authoring-agent",
     "title": "Platform authoring agent",
     "skills": [
      {

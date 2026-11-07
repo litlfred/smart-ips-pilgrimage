@@ -104,6 +104,11 @@
           "@value": "discussion"
         }
       ],
+      "skos:definition": [
+        {
+          "@value": "Settle which harness, and which repositories, when no file says: the output is a document conforming to `discussion.output.schema.json`."
+        }
+      ],
       "skos:notation": "discussion",
       "dcterms:source": "bootstrap/skills/discussion.md",
       "skos:note": "candidate"

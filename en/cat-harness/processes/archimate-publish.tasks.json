@@ -1,15 +1,62 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_ArchimatePublish",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ArchimatePublish",
+ "markers": [
+  {
+   "id": "A_Check",
+   "name": "Check the model parses and resolves",
+   "left": 28.5,
+   "top": 50.53,
+   "box": {
+    "left": 21.73,
+    "top": 75.94,
+    "width": 2.24,
+    "height": 6.42
+   }
+  },
+  {
+   "id": "A_Metamodel",
+   "name": "Derive the metamodel in use",
+   "left": 47.2,
+   "top": 50.53,
+   "box": {
+    "left": 40.42,
+    "top": 75.94,
+    "width": 2.24,
+    "height": 6.42
+   }
+  },
+  {
+   "id": "A_FixModel",
+   "name": "Fix the relationship in Archi",
+   "left": 62.62,
+   "top": 4.55,
+   "box": {
+    "left": 55.84,
+    "top": 29.95,
+    "width": 2.24,
+    "height": 6.42
+   }
+  },
+  {
+   "id": "A_Pages",
+   "name": "Write pages, drawings and the metamodel page",
+   "left": 78.97,
+   "top": 50.53,
+   "box": {
+    "left": 72.2,
+    "top": 75.94,
+    "width": 2.24,
+    "height": 6.42
+   }
+  }
+ ],
  "tasks": {
   "A_Check": {
    "id": "A_Check",
    "name": "Check the model parses and resolves",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ArchimatePublish/node/A_Check",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ArchimatePublish/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "archimate-models"
@@ -17,7 +64,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -84,9 +131,7 @@
    "id": "A_Metamodel",
    "name": "Derive the metamodel in use",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ArchimatePublish/node/A_Metamodel",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ArchimatePublish/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "archimate-models"
@@ -94,7 +139,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -161,9 +206,7 @@
    "id": "A_FixModel",
    "name": "Fix the relationship in Archi",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ArchimatePublish/node/A_FixModel",
    "lane": "Model author",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ArchimatePublish/lane/Lane_Author",
    "skills": [
     {
      "name": "archimate-models"
@@ -171,7 +214,7 @@
    ],
    "role": {
     "name": "author",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/author",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-author",
     "title": "Author",
     "skills": [
      {
@@ -214,9 +257,7 @@
    "id": "A_Pages",
    "name": "Write pages, drawings and the metamodel page",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ArchimatePublish/node/A_Pages",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ArchimatePublish/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "archimate-models"
@@ -224,7 +265,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {

@@ -93,11 +93,11 @@
           "heading": false
         },
         {
-          "term": "rules",
+          "term": "visual",
           "heading": false
         },
         {
-          "term": "visual",
+          "term": "rules",
           "heading": false
         }
       ],
@@ -181,7 +181,7 @@
           "heading": false
         },
         {
-          "term": "commands",
+          "term": "background",
           "heading": false
         }
       ],

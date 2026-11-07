@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -912,14 +912,14 @@
 
 <p>Candidate terms extracted from every Tool node: <code class="language-plaintext highlighter-rouge">title</code> as the label, <code class="language-plaintext highlighter-rouge">description</code> as the definition, the Tool id as the code. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: cat-harness-tools 1 (<a href="../../../../assets/glossary/cat-harness-tools--kg-tools.skos.jsonld">SKOS</a>) · fhir-harness 34 (<a href="../../../../assets/glossary/fhir-harness--kg-tools.skos.jsonld">SKOS</a>) · folio-assistant-core 25 (<a href="../../../../assets/glossary/folio-assistant-core--kg-tools.skos.jsonld">SKOS</a>) · smart-base 14 (<a href="../../../../assets/glossary/smart-base--kg-tools.skos.jsonld">SKOS</a>) · who-iris 1 (<a href="../../../../assets/glossary/who-iris--kg-tools.skos.jsonld">SKOS</a>).</p>
+<p>From: cat-harness-tools 1 (<a href="../../../../assets/glossary/cat-harness-tools--kg-tools.skos.jsonld">SKOS</a>) · fhir-harness 35 (<a href="../../../../assets/glossary/fhir-harness--kg-tools.skos.jsonld">SKOS</a>) · folio-assistant-core 26 (<a href="../../../../assets/glossary/folio-assistant-core--kg-tools.skos.jsonld">SKOS</a>) · smart-base 14 (<a href="../../../../assets/glossary/smart-base--kg-tools.skos.jsonld">SKOS</a>) · who-iris 1 (<a href="../../../../assets/glossary/who-iris--kg-tools.skos.jsonld">SKOS</a>).</p>
 
-<p><strong>Size:</strong> this page holds 75 terms and is 75 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 77 terms and is 78 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
 <thead><tr><th>target</th><th>mapped</th><th>unmapped</th><th>undetermined</th><th>why undetermined</th></tr></thead>
-<tbody><tr><td><code>fhir</code></td><td>0</td><td>74</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>74</td><td>0</td><td>—</td></tr></tbody>
+<tbody><tr><td><code>fhir</code></td><td>0</td><td>77</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>77</td><td>0</td><td>—</td></tr></tbody>
 </table></div>
 <p class="fa-gloss-mapping-note"><strong>Undetermined is never “no match”.</strong> 
 A vocabulary that could not be reached has said nothing, and the column above keeps that 
@@ -929,7 +929,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">75</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">77</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-A">A</a> <a href="#letter-B">B</a> <a href="#letter-C">C</a> <a href="#letter-D">D</a> <a href="#letter-E">E</a> <a href="#letter-F">F</a> <a href="#letter-G">G</a> <a href="#letter-I">I</a> <a href="#letter-L">L</a> <a href="#letter-M">M</a> <a href="#letter-P">P</a> <a href="#letter-R">R</a> <a href="#letter-S">S</a> <a href="#letter-V">V</a> <a href="#letter-W">W</a></nav>
 <h2 id="letter-A">
@@ -1004,7 +1004,7 @@ Build an IG and write its AST <span class="fa-gloss-status">candidate, extracted
 Build an IG repository's own site from its cached AST, with no instance declaration <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>The three checkout scripts the platform's site build runs for a repository that holds an IG and only mounts layers (<code>index.config.json</code>): <code>ig-site:ast</code> restores the AST from the IG's cache branch (<code>ig-cache.sh restore</code>) and judges it, refusing a stale, cannot-tell or absent one (a stale one is accepted for a preview with <code>SITE_ACCEPT_STALE_AST=1</code>); <code>ig-site:compose</code> derives the artefact index from the AST (binding any IG API sidecars a layer above left in <code>$SITE_WORK/ig-api/</code>), writes the thin artefact pages, stages the IG's <code>input/</code> and <code>sushi-config.yaml</code> (menu read at build time, palette from the webpage theme of the top layer the repository mounts, edit links from its origin) and composes it at the ROOT of the host site source; <code>ig-site:publisher-pages</code> serves the AST's resources (<code>ast-data/</code> and <code>&lt;Type&gt;-&lt;id&gt;.json</code>), the artefact index and the sidecars, refuses a page wearing the IG Publisher's chrome, repairs repeated element ids and stamps <code>folio-build.json</code>. Never runs the Publisher and never reads its output. Compose lists the pages it puts in the site in <code>FOLIO_SITE_UPSTREAM_PAGES</code>, so the site build reports the IG's own dead links rather than refusing the publish over them.</p>
+<p>The three checkout scripts the platform's site build runs for a repository that holds an IG and only mounts layers (<code>index.config.json</code>): <code>ig-site:ast</code> restores the AST from the IG's cache branch (<code>ig-cache.sh restore</code>) and judges it, refusing a stale, cannot-tell or absent one (a stale one is accepted for a preview by default, refused with <code>SITE_ACCEPT_STALE_AST=0</code>, and never accepted for the root); <code>ig-site:compose</code> derives the artefact index from the AST (binding any IG API sidecars a layer above left in <code>$SITE_WORK/ig-api/</code>), writes the thin artefact pages, stages the IG's <code>input/</code> and <code>sushi-config.yaml</code> (menu read at build time, palette from the webpage theme of the top layer the repository mounts, edit links from its origin) and composes it at the ROOT of the host site source; <code>ig-site:publisher-pages</code> serves the AST's resources (<code>ast-data/</code> and <code>&lt;Type&gt;-&lt;id&gt;.json</code>), the artefact index and the sidecars, refuses a page wearing the IG Publisher's chrome, repairs repeated element ids and stamps <code>folio-build.json</code>. Never runs the Publisher and never reads its output. Compose lists the pages it puts in the site in <code>FOLIO_SITE_UPSTREAM_PAGES</code>, so the site build reports the IG's own dead links rather than refusing the publish over them.</p>
 <p class="fa-gloss-meta">Tools of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/tools/ig-repo-site/ig-repo-site.ts"><code>fhir-harness/tools/ig-repo-site/ig-repo-site.ts#ig-repo-site</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-tools--ig-index-build" data-fa-state="extracted" data-fa-gloss="">
@@ -1049,7 +1049,7 @@ Check a Questionnaire field for field against the wireframe it was derived from 
 Check a review log and its repository's issues for changes <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>The mechanical check a review-log watcher runs on every poll. Given a drafting sheet's Contributor Feedback values and the folio repository, it reads the repository's open and closed issues (leaving out pull requests, issues labelled <code>no-sheet</code> and, with <code>--author</code>, issues someone else opened) and compares a digest of them and of the cells people set (Title, Selected Sections, Contributor Feedback, Disposition, Ready for agent, Ready for merge, Dispositions confirmed) with the last check's. Unchanged: it prints <code>&#123;&quot;status&quot;:&quot;unchanged&quot;}</code> and exits 0. Changed: it exits 10 and lists what changed (issue opened, updated or closed; a cell's old and new text), the Contributor Feedback rows to append, one per issue that no row's Issue cell links yet (Title the issue's title, the first Contributor Feedback column <code>@login (#N): first paragraph</code>, Issue the issue's URL; a closed issue's row marked <code>closed</code>), and <code>closedRows</code>, the rows linking a closed issue, which the watcher hides with their text struck through. It writes no sheet and no issue: the watcher appends the rows and does the agent pass. With <code>--accept</code> it stores the new state for the next poll to compare against.</p>
+<p>The mechanical check a review-log watcher runs on every poll. Given a drafting sheet's Contributor Feedback values and the folio repository, it reads the repository's open and closed issues (leaving out pull requests, issues labelled <code>no-sheet</code> and, with <code>--author</code>, issues someone else opened) and compares a digest of them and of the cells people set (Title, Selected Sections, Contributor Feedback, Disposition, Ready for agent, Ready for merge, Dispositions confirmed; on a public-comment log also Committee Feedback, TWG (CS), TWG (human) and Change Set (human)) with the last check's. Unchanged: it prints <code>&#123;&quot;status&quot;:&quot;unchanged&quot;}</code> and exits 0. Changed: it exits 10 and lists what changed (issue opened, updated or closed; a cell's old and new text), the Contributor Feedback rows to append, one per issue that no row's Issue cell links yet (Title the issue's title, the first Contributor Feedback column <code>@login (#N): first paragraph</code>, Issue the issue's URL; a closed issue's row marked <code>closed</code>), and <code>closedRows</code>, the rows linking a closed issue, which the watcher hides with their text struck through. A read with no Issue column (a public-comment log's Review Change Sets) tracks only issues labelled <code>change-set</code> unless <code>--label</code> says otherwise, and appends no rows: each open issue is reported as an <code>issue-unlinked</code> change instead. It writes no sheet and no issue: the watcher appends the rows and does the agent pass. With <code>--accept</code> it stores the new state for the next poll to compare against.</p>
 <p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/review-log-watch/review-log-watch.ts"><code>folio-assistant-core/tools/review-log-watch/review-log-watch.ts#review-log-watch</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-tools--sdc-checks" data-fa-state="extracted" data-fa-gloss="">
@@ -1058,6 +1058,13 @@ Check an IG's built Questionnaires with CSIRO's SDC libraries <span class="fa-gl
 <dd>
 <p>Build-time Structured Data Capture checks, one result per Questionnaire (<code>sdcChecks[]</code> of <code>fhir-questionnaire-wireframe</code>): <code>assemble</code> (<code>@aehrc/sdc-assemble</code> 2.0.3: an assemble-root's sub-forms resolve in this IG, and <code>--out</code> writes the assembled Questionnaire), <code>template-extract</code> (<code>@aehrc/sdc-template-extract</code> 1.0.16: extraction from the IG's fixture response yields the expected resources), <code>populate</code> (<code>@aehrc/sdc-populate</code> 4.7.2: FHIRPath pre-population from a fixture context gives the expected answers) and <code>behaviour</code> (<code>@aehrc/questionnaire-test-toolkit</code> 0.1.0: the IG's own behavioural test, warn-only). Checks only, no UI.</p>
 <p class="fa-gloss-meta">Tools of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/tools/sdc-checks/sdc-checks.ts"><code>fhir-harness/tools/sdc-checks/sdc-checks.ts#sdc-checks</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-tools--check-translation-supplements" data-fa-state="extracted" data-fa-gloss="">
+Compile and check an IG's translation CodeSystem supplements <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Compile the IG's CodeSystems with every <code>input/fsh/translations/&lt;locale&gt;.fsh</code> CodeSystem supplement in a throw-away FSHOnly SUSHI project, require 0 SUSHI errors, and check that each supplement's base CodeSystem is the IG's own, its codes are a subset of the base's, its language is the file's locale, and every CodeSystem id is unique. SUSHI is the version <code>ig-toolchain.env</code> pins, installed from <code>scripts/sushi/package-lock.json</code> with install scripts off; the FHIR core package is pinned by sha512; SUSHI runs with no network.</p>
+<p class="fa-gloss-meta">Tools of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/tools/check-translation-supplements/check-translation-supplements.ts"><code>fhir-harness/tools/check-translation-supplements/check-translation-supplements.ts#check-translation-supplements</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-tools--tabular-csv" data-fa-state="extracted" data-fa-gloss="">
 CSV tabular metadata <span class="fa-gloss-status">candidate, extracted</span>
@@ -1390,6 +1397,13 @@ Populate site.data.fhir for a just-the-docs IG render <span class="fa-gloss-stat
 <dd>
 <p>Write the IG Publisher's Jekyll variables (<code>site.data.fhir.ig.*</code>, <code>packageId</code>, <code>canonical</code>) for ONE implementation guide, from <code>sushi-config.yaml</code> or a published IG's <code>fhir-artifact-index</code>, so pages written for the Publisher render on just-the-docs unchanged. fhir-harness declares <code>site.data</code> as a pass-through Liquid prefix; this is what Jekyll then reads.</p>
 <p class="fa-gloss-meta">Tools of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/tools/ig-site-data/ig-site-data.ts"><code>fhir-harness/tools/ig-site-data/ig-site-data.ts#ig-site-data</code></a></p>
+</dd>
+<dt id="folio-assistant-core--kg-tools--publish-extracted-statements" data-fa-state="extracted" data-fa-gloss="">
+Publish extracted statements with source links <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Render each declared page (a <code>folio-statement-page/v1</code> spec naming <code>folio-extracted-statements/v1</code> lists) as Markdown: every statement extracted from a library source, verbatim, with its kind and status, linked to its library entry and to the section it came from, labelled in the source's own unit (&quot;Catch up schedule, slide 7&quot;). A statement whose source does not resolve fails the run and nothing is written. <code>--check</code> fails when a committed page is stale.</p>
+<p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/publish-extracted-statements/publish-extracted-statements.ts"><code>folio-assistant-core/tools/publish-extracted-statements/publish-extracted-statements.ts#publish-extracted-statements</code></a></p>
 </dd>
 </dl>
 <h2 id="letter-R">

@@ -1,15 +1,98 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_CRDM_Signoff",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff",
+ "markers": [
+  {
+   "id": "A_CreateBeans",
+   "name": "Phase 5: Create beans",
+   "left": 21.1,
+   "top": 48.96,
+   "box": {
+    "left": 15.77,
+    "top": 68.75,
+    "width": 1.76,
+    "height": 5
+   }
+  },
+  {
+   "id": "BA_Signoff",
+   "name": "Sign off on requirements",
+   "left": 32.87,
+   "top": 6.25,
+   "box": {
+    "left": 27.54,
+    "top": 26.04,
+    "width": 1.76,
+    "height": 5
+   }
+  },
+  {
+   "id": "A_RecordSignoff",
+   "name": "Record the sign-off attestation",
+   "left": 32.87,
+   "top": 48.96,
+   "box": {
+    "left": 27.54,
+    "top": 68.75,
+    "width": 1.76,
+    "height": 5
+   }
+  },
+  {
+   "id": "A_AnnounceBranch",
+   "name": "Announce the branch on the issue",
+   "left": 90.96,
+   "top": 48.96,
+   "box": {
+    "left": 85.63,
+    "top": 68.75,
+    "width": 1.76,
+    "height": 5
+   }
+  },
+  {
+   "id": "A_OfferKg",
+   "name": "Offer KG destinations for the agreed set",
+   "left": 55.66,
+   "top": 48.96,
+   "box": {
+    "left": 50.33,
+    "top": 68.75,
+    "width": 1.76,
+    "height": 5
+   }
+  },
+  {
+   "id": "BA_ChooseKg",
+   "name": "Choose a destination, or none",
+   "left": 67.43,
+   "top": 6.25,
+   "box": {
+    "left": 62.1,
+    "top": 26.04,
+    "width": 1.76,
+    "height": 5
+   }
+  },
+  {
+   "id": "A_RecordKg",
+   "name": "Run placement, file a bean",
+   "left": 79.19,
+   "top": 48.96,
+   "box": {
+    "left": 73.86,
+    "top": 68.75,
+    "width": 1.76,
+    "height": 5
+   }
+  }
+ ],
  "tasks": {
   "A_CreateBeans": {
    "id": "A_CreateBeans",
    "name": "Phase 5: Create beans",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/node/A_CreateBeans",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/lane/Lane_Agent",
    "skills": [
     {
      "name": "todo-manager"
@@ -17,7 +100,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -189,9 +272,7 @@
    "id": "BA_Signoff",
    "name": "Sign off on requirements",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/node/BA_Signoff",
    "lane": "BA / Feature Requestor",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/lane/Lane_BA",
    "skills": [
     {
      "name": "adjudication"
@@ -199,12 +280,12 @@
    ],
    "calls": {
     "name": "Adjudication",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_Adjudication",
+    "href": "adjudication.html",
     "diagram": "adjudication.html"
    },
    "role": {
     "name": "business-analyst",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/business-analyst",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-business-analyst",
     "title": "Business analyst",
     "skills": [
      {
@@ -259,9 +340,7 @@
    "id": "A_RecordSignoff",
    "name": "Record the sign-off attestation",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/node/A_RecordSignoff",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/lane/Lane_Agent",
    "skills": [
     {
      "name": "adjudication"
@@ -273,7 +352,7 @@
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -445,12 +524,16 @@
    "id": "A_AnnounceBranch",
    "name": "Announce the branch on the issue",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/node/A_AnnounceBranch",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/lane/Lane_Agent",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     },
     {
      "name": "coordinate",
@@ -464,7 +547,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -636,9 +719,7 @@
    "id": "A_OfferKg",
    "name": "Offer KG destinations for the agreed set",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/node/A_OfferKg",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/lane/Lane_Agent",
    "skills": [
     {
      "name": "kg-contribution-offer"
@@ -646,7 +727,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -818,9 +899,7 @@
    "id": "BA_ChooseKg",
    "name": "Choose a destination, or none",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/node/BA_ChooseKg",
    "lane": "BA / Feature Requestor",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/lane/Lane_BA",
    "skills": [
     {
      "name": "kg-contribution-offer"
@@ -828,12 +907,12 @@
    ],
    "calls": {
     "name": "Ask the person",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "href": "ask-the-person.html",
     "diagram": "ask-the-person.html"
    },
    "role": {
     "name": "business-analyst",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/business-analyst",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-business-analyst",
     "title": "Business analyst",
     "skills": [
      {
@@ -888,9 +967,7 @@
    "id": "A_RecordKg",
    "name": "Run placement, file a bean",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/node/A_RecordKg",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Signoff/lane/Lane_Agent",
    "skills": [
     {
      "name": "placement"
@@ -898,7 +975,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {

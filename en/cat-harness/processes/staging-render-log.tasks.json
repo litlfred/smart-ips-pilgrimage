@@ -1,15 +1,86 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_RenderLog",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog",
+ "markers": [
+  {
+   "id": "A_LogRendered",
+   "name": "Append `rendered`",
+   "left": 36.9,
+   "top": 5.74,
+   "box": {
+    "left": 30.49,
+    "top": 21.31,
+    "width": 2.12,
+    "height": 3.93
+   }
+  },
+  {
+   "id": "A_Preflight",
+   "name": "Preflight: is the preview live?",
+   "left": 36.9,
+   "top": 28.69,
+   "box": {
+    "left": 30.49,
+    "top": 44.26,
+    "width": 2.12,
+    "height": 3.93
+   }
+  },
+  {
+   "id": "A_LogRetained",
+   "name": "Append `retained` with the reason",
+   "left": 66.11,
+   "top": 28.69,
+   "box": {
+    "left": 59.69,
+    "top": 44.26,
+    "width": 2.12,
+    "height": 3.93
+   }
+  },
+  {
+   "id": "A_LogRemoved",
+   "name": "Append `removed` with the reason",
+   "left": 66.11,
+   "top": 51.64,
+   "box": {
+    "left": 59.69,
+    "top": 67.21,
+    "width": 2.12,
+    "height": 3.93
+   }
+  },
+  {
+   "id": "A_Remove",
+   "name": "Remove the artefact",
+   "left": 80.27,
+   "top": 51.64,
+   "box": {
+    "left": 73.85,
+    "top": 67.21,
+    "width": 2.12,
+    "height": 3.93
+   }
+  },
+  {
+   "id": "A_LogRestored",
+   "name": "Append `restored`",
+   "left": 36.9,
+   "top": 74.59,
+   "box": {
+    "left": 30.49,
+    "top": 90.16,
+    "width": 2.12,
+    "height": 3.93
+   }
+  }
+ ],
  "tasks": {
   "A_LogRendered": {
    "id": "A_LogRendered",
    "name": "Append `rendered`",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/node/A_LogRendered",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "render-logging"
@@ -17,7 +88,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -84,9 +155,7 @@
    "id": "A_Preflight",
    "name": "Preflight: is the preview live?",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/node/A_Preflight",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "render-logging"
@@ -94,7 +163,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -161,9 +230,7 @@
    "id": "A_LogRetained",
    "name": "Append `retained` with the reason",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/node/A_LogRetained",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "render-logging"
@@ -175,7 +242,7 @@
    },
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -242,9 +309,7 @@
    "id": "A_LogRemoved",
    "name": "Append `removed` with the reason",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/node/A_LogRemoved",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "render-logging"
@@ -252,7 +317,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -319,9 +384,7 @@
    "id": "A_Remove",
    "name": "Remove the artefact",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/node/A_Remove",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "render-logging"
@@ -329,7 +392,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -396,9 +459,7 @@
    "id": "A_LogRestored",
    "name": "Append `restored`",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/node/A_LogRestored",
    "lane": "CI/CD Pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RenderLog/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "render-logging"
@@ -406,7 +467,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {

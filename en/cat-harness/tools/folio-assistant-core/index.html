@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -952,9 +952,9 @@ is <code class="language-plaintext highlighter-rouge">satisfies</code>, and it r
 to do that</em>, never <em>this skill is a tool</em>.</p>
 
 <div class="tg-grid">
-<a class="tg-stat" href="#every-tool"><b>25</b><span>Tool nodes</span></a>
-<a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>20</b><span>skills satisfied</span></a>
-<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>25</b><span>invoked as a shell command</span></a>
+<a class="tg-stat" href="#every-tool"><b>26</b><span>Tool nodes</span></a>
+<a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>21</b><span>skills satisfied</span></a>
+<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>26</b><span>invoked as a shell command</span></a>
 <a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>0</b><span>reachable over MCP</span></a>
 </div>
 
@@ -979,7 +979,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><span class="tg-tag tg-shell">shell</span></td>
-      <td>25</td>
+      <td>26</td>
     </tr>
   </tbody>
 </table></div>
@@ -994,7 +994,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">none</code></td>
-      <td>24</td>
+      <td>25</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">service</code></td>
@@ -1011,7 +1011,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
 </h2>
     
 
-<p>Yes — all <strong>20</strong> skills named across <strong>25</strong> tools resolve to a
+<p>Yes — all <strong>21</strong> skills named across <strong>26</strong> tools resolve to a
 skill document in this checkout. A <code class="language-plaintext highlighter-rouge">satisfies</code> pointing at nothing would be a
 tool advertising a capability the graph cannot locate.</p>
 <h2 id="every-tool">
@@ -1064,7 +1064,7 @@ tool advertising a capability the graph cannot locate.</p>
       <td>Write one <code class="language-plaintext highlighter-rouge">folio-dublin-core/v1</code> record and one <code class="language-plaintext highlighter-rouge">folio-catalogue-node/v1</code> item per library entry that the source ledger joins to a CSL-JSON reference, into the folio’s declared <code class="language-plaintext highlighter-rouge">catalogue</code> directory, so <code class="language-plaintext highlighter-rouge">gen-library-jsonld</code> reads the title from the catalogue’s <code class="language-plaintext highlighter-rouge">dc.title</code> instead of falling to the PDF or the slug. The join is exact: a ledger row naming the entry’s <code class="language-plaintext highlighter-rouge">structure.json</code> source file, one reference id, and the same sha256 where both record one. Unjoined entries are reported and left alone. Never touches a node it did not write.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">filing-dublin-core</code></td>
-      <td>4 in / 1 out</td>
+      <td>5 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
@@ -1188,6 +1188,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
+      <td><a id="publish-extracted-statements"></a><a href="#publish-extracted-statements"><code class="language-plaintext highlighter-rouge">publish-extracted-statements</code></a><br />Publish extracted statements with source links</td>
+      <td>Render each declared page (a <code class="language-plaintext highlighter-rouge">folio-statement-page/v1</code> spec naming <code class="language-plaintext highlighter-rouge">folio-extracted-statements/v1</code> lists) as Markdown: every statement extracted from a library source, verbatim, with its kind and status, linked to its library entry and to the section it came from, labelled in the source’s own unit (“Catch up schedule, slide 7”). A statement whose source does not resolve fails the run and nothing is written. <code class="language-plaintext highlighter-rouge">--check</code> fails when a committed page is stale.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">publish-extracted-statements</code></td>
+      <td>3 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
       <td><a id="references-render"></a><a href="#references-render"><code class="language-plaintext highlighter-rouge">references-render</code></a><br />Reference list from reference nodes</td>
       <td>Rewrite each reference-list block of a document (a block whose <code class="language-plaintext highlighter-rouge">meta.referenceList</code> is set) from the folio-reference/v1 nodes its <code class="language-plaintext highlighter-rouge">cites</code> names, in that order: the node’s <code class="language-plaintext highlighter-rouge">printed</code> text verbatim when it has one, otherwise WHO style (or the short <code class="language-plaintext highlighter-rouge">Authors. Title. Year.</code> form), as a numbered or bulleted list. The block’s <code class="language-plaintext highlighter-rouge">.md</code> is generated whole. <code class="language-plaintext highlighter-rouge">--check</code> writes nothing and fails when a list is stale.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
@@ -1197,10 +1205,10 @@ tool advertising a capability the graph cannot locate.</p>
     </tr>
     <tr>
       <td><a id="review-log-watch"></a><a href="#review-log-watch"><code class="language-plaintext highlighter-rouge">review-log-watch</code></a><br />Check a review log and its repository’s issues for changes</td>
-      <td>The mechanical check a review-log watcher runs on every poll. Given a drafting sheet’s Contributor Feedback values and the folio repository, it reads the repository’s open and closed issues (leaving out pull requests, issues labelled <code class="language-plaintext highlighter-rouge">no-sheet</code> and, with <code class="language-plaintext highlighter-rouge">--author</code>, issues someone else opened) and compares a digest of them and of the cells people set (Title, Selected Sections, Contributor Feedback, Disposition, Ready for agent, Ready for merge, Dispositions confirmed) with the last check’s. Unchanged: it prints <code class="language-plaintext highlighter-rouge">{"status":"unchanged"}</code> and exits 0. Changed: it exits 10 and lists what changed (issue opened, updated or closed; a cell’s old and new text), the Contributor Feedback rows to append, one per issue that no row’s Issue cell links yet (Title the issue’s title, the first Contributor Feedback column <code class="language-plaintext highlighter-rouge">@login (#N): first paragraph</code>, Issue the issue’s URL; a closed issue’s row marked <code class="language-plaintext highlighter-rouge">closed</code>), and <code class="language-plaintext highlighter-rouge">closedRows</code>, the rows linking a closed issue, which the watcher hides with their text struck through. It writes no sheet and no issue: the watcher appends the rows and does the agent pass. With <code class="language-plaintext highlighter-rouge">--accept</code> it stores the new state for the next poll to compare against.</td>
+      <td>The mechanical check a review-log watcher runs on every poll. Given a drafting sheet’s Contributor Feedback values and the folio repository, it reads the repository’s open and closed issues (leaving out pull requests, issues labelled <code class="language-plaintext highlighter-rouge">no-sheet</code> and, with <code class="language-plaintext highlighter-rouge">--author</code>, issues someone else opened) and compares a digest of them and of the cells people set (Title, Selected Sections, Contributor Feedback, Disposition, Ready for agent, Ready for merge, Dispositions confirmed; on a public-comment log also Committee Feedback, TWG (CS), TWG (human) and Change Set (human)) with the last check’s. Unchanged: it prints <code class="language-plaintext highlighter-rouge">{"status":"unchanged"}</code> and exits 0. Changed: it exits 10 and lists what changed (issue opened, updated or closed; a cell’s old and new text), the Contributor Feedback rows to append, one per issue that no row’s Issue cell links yet (Title the issue’s title, the first Contributor Feedback column <code class="language-plaintext highlighter-rouge">@login (#N): first paragraph</code>, Issue the issue’s URL; a closed issue’s row marked <code class="language-plaintext highlighter-rouge">closed</code>), and <code class="language-plaintext highlighter-rouge">closedRows</code>, the rows linking a closed issue, which the watcher hides with their text struck through. A read with no Issue column (a public-comment log’s Review Change Sets) tracks only issues labelled <code class="language-plaintext highlighter-rouge">change-set</code> unless <code class="language-plaintext highlighter-rouge">--label</code> says otherwise, and appends no rows: each open issue is reported as an <code class="language-plaintext highlighter-rouge">issue-unlinked</code> change instead. It writes no sheet and no issue: the watcher appends the rows and does the agent pass. With <code class="language-plaintext highlighter-rouge">--accept</code> it stores the new state for the next poll to compare against.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">review-log-watch</code></td>
-      <td>7 in / 1 out</td>
+      <td>8 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>

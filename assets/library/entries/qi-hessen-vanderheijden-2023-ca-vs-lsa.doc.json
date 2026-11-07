@@ -361,11 +361,11 @@
           "heading": false
         },
         {
-          "term": "utrecht",
+          "term": "hessen",
           "heading": false
         },
         {
-          "term": "hessen",
+          "term": "heijden",
           "heading": false
         }
       ],
@@ -490,15 +490,19 @@
       },
       "keywords": [
         {
-          "term": "jaguar porsche",
-          "heading": false
-        },
-        {
           "term": "cheetah jaguar",
           "heading": false
         },
         {
+          "term": "jaguar porsche",
+          "heading": false
+        },
+        {
           "term": "porsche ferrari",
+          "heading": false
+        },
+        {
+          "term": "tiger cheetah",
           "heading": false
         },
         {
@@ -515,10 +519,6 @@
         },
         {
           "term": "cat documents",
-          "heading": false
-        },
-        {
-          "term": "k-dimensional subspace",
           "heading": false
         }
       ],
@@ -658,6 +658,10 @@
       },
       "keywords": [
         {
+          "term": "cheetah jaguar",
+          "heading": false
+        },
+        {
           "term": "jaguar porsche",
           "heading": false
         },
@@ -666,15 +670,11 @@
           "heading": false
         },
         {
+          "term": "tiger cheetah",
+          "heading": false
+        },
+        {
           "term": "lion tiger",
-          "heading": false
-        },
-        {
-          "term": "cheetah jaguar",
-          "heading": false
-        },
-        {
-          "term": "raw document-term",
           "heading": false
         }
       ],
@@ -829,10 +829,6 @@
       },
       "keywords": [
         {
-          "term": "lsa",
-          "heading": true
-        },
-        {
           "term": "lsa nrowl",
           "heading": false
         },
@@ -859,6 +855,10 @@
         {
           "term": "both lsa",
           "heading": false
+        },
+        {
+          "term": "dimensions",
+          "heading": true
         }
       ],
       "extract": "with the standard weighting exponent ˛ = 1 and for CA We ﬁrst investigate the performance of LSA and CA in terms of MAP, in their standard use, i.e., without varying the weighting exponent α, i.e., α = 1. Term matching without the preliminary use of LSA and CA, i.e., directly on the document-term matrix, is denoted by RAW. We expect that, in line with Qi et al. (2023), the performance of LSA and CA will be better",
@@ -1166,11 +1166,11 @@
           "heading": false
         },
         {
-          "term": "wilhelmus dataset",
+          "term": "der heijden",
           "heading": false
         },
         {
-          "term": "bbcsport dataset",
+          "term": "wilhelmus dataset",
           "heading": false
         }
       ],

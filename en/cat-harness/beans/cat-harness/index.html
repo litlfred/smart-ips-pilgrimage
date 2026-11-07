@@ -26,9 +26,9 @@
 
 
   <!-- Begin Jekyll SEO tag v2.9.0 -->
-<title>cat-harness — Beans | SMART Verifiable IPS for Pilgrimage</title>
+<title>cat-harness — Plans and work | SMART Verifiable IPS for Pilgrimage</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="cat-harness — Beans" />
+<meta property="og:title" content="cat-harness — Plans and work" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An Implementation Guide which describes how to utilize GDHCN and IPS for verifiable health documents during pilgrimage" />
 <meta name="twitter:description" property="og:description" content="An Implementation Guide which describes how to utilize GDHCN and IPS for verifiable health documents during pilgrimage" />
@@ -37,9 +37,9 @@
 <meta property="og:site_name" content="SMART Verifiable IPS for Pilgrimage" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="cat-harness — Beans" />
+<meta name="twitter:title" content="cat-harness — Plans and work" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"An Implementation Guide which describes how to utilize GDHCN and IPS for verifiable health documents during pilgrimage","headline":"cat-harness — Beans","url":"https://litlfred.github.io/smart-ips-pilgrimage/en/cat-harness/beans/cat-harness/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"An Implementation Guide which describes how to utilize GDHCN and IPS for verifiable health documents during pilgrimage","headline":"cat-harness — Plans and work","url":"https://litlfred.github.io/smart-ips-pilgrimage/en/cat-harness/beans/cat-harness/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -921,7 +921,7 @@
 <h1 id="beans-cat-harness">
   
   
-    <a href="#beans-cat-harness" class="anchor-heading" aria-labelledby="beans-cat-harness"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Beans: cat-harness
+    <a href="#beans-cat-harness" class="anchor-heading" aria-labelledby="beans-cat-harness"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Plans and work: cat-harness
   
   
 </h1>
@@ -933,7 +933,7 @@
   
   
 </h2>
-    <p class="sv-sub">cannot resolve the bean store: &quot;beans&quot; is on cat/cat-harness/beans and is not mounted in /home/user/smart-ips-pilgrimage, so there is no directory to read. Mount it (`bun run cat state:mount`). Reading beans instead would report an EMPTY graph, and &quot;nothing here&quot; is not &quot;could not reach it&quot; — is cut over to `cat/cat-harness/beans` and nothing is mounted here, so every reader of this path sees an EMPTY graph rather than an unreachable one. Mount it (`bun run cat state:mount`); &quot;no content&quot; and &quot;could not reach the content&quot; are different answers.. This is <strong>unknown</strong>, not zero.</p>
+    <p class="sv-sub">cannot resolve the bean store: &quot;beans&quot; is on cat/cat-harness/beans and is not mounted in /home/user/sip-land, so there is no directory to read. Mount it (`bun run cat state:mount`). Reading beans instead would report an EMPTY graph, and &quot;nothing here&quot; is not &quot;could not reach it&quot; — is cut over to `cat/cat-harness/beans` and nothing is mounted here, so every reader of this path sees an EMPTY graph rather than an unreachable one. Mount it (`bun run cat state:mount`); &quot;no content&quot; and &quot;could not reach the content&quot; are different answers.. This is <strong>unknown</strong>, not zero.</p>
 <h2 class="sv-h2">
   
   

@@ -266,19 +266,19 @@
           "heading": false
         },
         {
-          "term": "static form",
-          "heading": false
-        },
-        {
           "term": "usual sense",
           "heading": false
         },
         {
-          "term": "model selects",
+          "term": "static form",
           "heading": false
         },
         {
           "term": "class style",
+          "heading": false
+        },
+        {
+          "term": "model selects",
           "heading": false
         }
       ],
@@ -398,7 +398,7 @@
           "heading": false
         },
         {
-          "term": "disable",
+          "term": "voice",
           "heading": false
         }
       ],
@@ -526,15 +526,15 @@
           "heading": false
         },
         {
-          "term": "shell command",
-          "heading": false
-        },
-        {
           "term": "session start",
           "heading": false
         },
         {
-          "term": "runtime controls",
+          "term": "shell command",
+          "heading": false
+        },
+        {
+          "term": "during session",
           "heading": false
         },
         {
@@ -542,7 +542,7 @@
           "heading": false
         },
         {
-          "term": "during session",
+          "term": "runtime controls",
           "heading": false
         }
       ],
@@ -570,6 +570,10 @@
           "heading": false
         },
         {
+          "term": "instance",
+          "heading": false
+        },
+        {
           "term": "file",
           "heading": false
         },
@@ -579,10 +583,6 @@
         },
         {
           "term": "body",
-          "heading": false
-        },
-        {
-          "term": "instance",
           "heading": false
         },
         {
@@ -618,12 +618,12 @@
           "heading": false
         },
         {
-          "term": "output",
-          "heading": false
-        },
-        {
           "term": "patterns",
           "heading": true
+        },
+        {
+          "term": "output",
+          "heading": false
         },
         {
           "term": "run",
@@ -698,11 +698,11 @@
           "heading": false
         },
         {
-          "term": "anthropic",
+          "term": "belongs",
           "heading": false
         },
         {
-          "term": "belongs",
+          "term": "anthropic",
           "heading": false
         },
         {

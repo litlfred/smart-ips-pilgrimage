@@ -1,15 +1,110 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_SessionStateMachine",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine",
+ "markers": [
+  {
+   "id": "A_IdentifyActor",
+   "name": "Establish who is acting",
+   "left": 19.78,
+   "top": 27.61,
+   "box": {
+    "left": 14.41,
+    "top": 41.79,
+    "width": 1.78,
+    "height": 3.58
+   }
+  },
+  {
+   "id": "A_AskWhoIsActing",
+   "name": "Ask who is acting",
+   "left": 29.04,
+   "top": 78.36,
+   "box": {
+    "left": 23.67,
+    "top": 92.54,
+    "width": 1.78,
+    "height": 3.58
+   }
+  },
+  {
+   "id": "A_OpenSession",
+   "name": "Open the session record",
+   "left": 40.52,
+   "top": 27.61,
+   "box": {
+    "left": 35.15,
+    "top": 41.79,
+    "width": 1.78,
+    "height": 3.58
+   }
+  },
+  {
+   "id": "Call_SecurePermissions",
+   "name": "Secure the agent's permissions",
+   "left": 51.63,
+   "top": 27.61,
+   "box": {
+    "left": 46.26,
+    "top": 41.79,
+    "width": 1.78,
+    "height": 3.58
+   }
+  },
+  {
+   "id": "A_ReadTurn",
+   "name": "Take in the turn",
+   "left": 62.74,
+   "top": 27.61,
+   "box": {
+    "left": 57.37,
+    "top": 41.79,
+    "width": 1.78,
+    "height": 3.58
+   }
+  },
+  {
+   "id": "A_Touch",
+   "name": "Refresh `updatedAt` only",
+   "left": 73.48,
+   "top": 2.24,
+   "box": {
+    "left": 68.11,
+    "top": 16.42,
+    "width": 1.78,
+    "height": 3.58
+   }
+  },
+  {
+   "id": "A_UpdateSession",
+   "name": "Write what changed",
+   "left": 73.48,
+   "top": 50,
+   "box": {
+    "left": 68.11,
+    "top": 64.18,
+    "width": 1.78,
+    "height": 3.58
+   }
+  },
+  {
+   "id": "A_CloseSession",
+   "name": "Close the session",
+   "left": 88.67,
+   "top": 27.61,
+   "box": {
+    "left": 83.3,
+    "top": 41.79,
+    "width": 1.78,
+    "height": 3.58
+   }
+  }
+ ],
  "tasks": {
   "A_IdentifyActor": {
    "id": "A_IdentifyActor",
    "name": "Establish who is acting",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/node/A_IdentifyActor",
    "lane": "Agent (playing the machine)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/lane/Lane_Machine",
    "skills": [
     {
      "name": "session-context"
@@ -17,7 +112,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -189,9 +284,7 @@
    "id": "A_AskWhoIsActing",
    "name": "Ask who is acting",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/node/A_AskWhoIsActing",
    "lane": "Human actor",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/lane/Lane_Human",
    "skills": [
     {
      "name": "interaction-modality"
@@ -199,12 +292,12 @@
    ],
    "calls": {
     "name": "Ask the person",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "href": "ask-the-person.html",
     "diagram": "ask-the-person.html"
    },
    "role": {
     "name": "user",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/user",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-user",
     "title": "User",
     "skills": [
      {
@@ -247,9 +340,7 @@
    "id": "A_OpenSession",
    "name": "Open the session record",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/node/A_OpenSession",
    "lane": "Agent (playing the machine)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/lane/Lane_Machine",
    "skills": [
     {
      "name": "session-context"
@@ -257,7 +348,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -429,9 +520,7 @@
    "id": "Call_SecurePermissions",
    "name": "Secure the agent's permissions",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/node/Call_SecurePermissions",
    "lane": "Agent (playing the machine)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/lane/Lane_Machine",
    "skills": [
     {
      "name": "agent-permissions"
@@ -439,12 +528,12 @@
    ],
    "calls": {
     "name": "Secure agent permissions",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SecureAgentPermissions",
+    "href": "secure-agent-permissions.html",
     "diagram": "secure-agent-permissions.html"
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -616,13 +705,11 @@
    "id": "A_ReadTurn",
    "name": "Take in the turn",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/node/A_ReadTurn",
    "lane": "Agent (playing the machine)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/lane/Lane_Machine",
    "skills": [],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -794,9 +881,7 @@
    "id": "A_Touch",
    "name": "Refresh `updatedAt` only",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/node/A_Touch",
    "lane": "Agent (playing the machine)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/lane/Lane_Machine",
    "skills": [
     {
      "name": "session-context"
@@ -804,7 +889,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -976,9 +1061,7 @@
    "id": "A_UpdateSession",
    "name": "Write what changed",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/node/A_UpdateSession",
    "lane": "Agent (playing the machine)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/lane/Lane_Machine",
    "skills": [
     {
      "name": "session-context"
@@ -986,7 +1069,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1158,9 +1241,7 @@
    "id": "A_CloseSession",
    "name": "Close the session",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/node/A_CloseSession",
    "lane": "Agent (playing the machine)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SessionStateMachine/lane/Lane_Machine",
    "skills": [
     {
      "name": "session-context"
@@ -1168,7 +1249,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {

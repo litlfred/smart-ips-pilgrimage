@@ -233,11 +233,11 @@
           "heading": false
         },
         {
-          "term": "würzburg",
+          "term": "pryss",
           "heading": false
         },
         {
-          "term": "pryss",
+          "term": "ulm",
           "heading": false
         }
       ],
@@ -269,19 +269,19 @@
           "heading": false
         },
         {
-          "term": "process models",
-          "heading": false
-        },
-        {
           "term": "process modeling",
           "heading": false
         },
         {
-          "term": "process information",
+          "term": "process models",
           "heading": false
         },
         {
           "term": "created process",
+          "heading": false
+        },
+        {
+          "term": "process information",
           "heading": false
         },
         {
@@ -397,11 +397,11 @@
           "heading": false
         },
         {
-          "term": "quality dimensions",
+          "term": "vertical clusters",
           "heading": false
         },
         {
-          "term": "vertical clusters",
+          "term": "quality dimensions",
           "heading": false
         },
         {
@@ -409,7 +409,7 @@
           "heading": false
         },
         {
-          "term": "cognitive reality",
+          "term": "modeling process",
           "heading": false
         }
       ],
@@ -481,15 +481,15 @@
           "heading": true
         },
         {
-          "term": "quality criterion",
-          "heading": false
-        },
-        {
           "term": "process modeling",
           "heading": false
         },
         {
           "term": "process modelers",
+          "heading": false
+        },
+        {
+          "term": "quality criterion",
           "heading": false
         },
         {
@@ -501,11 +501,11 @@
           "heading": false
         },
         {
-          "term": "model comprehension",
+          "term": "process model",
           "heading": false
         },
         {
-          "term": "criterion covers",
+          "term": "model comprehension",
           "heading": false
         }
       ],
@@ -537,19 +537,19 @@
           "heading": true
         },
         {
-          "term": "speciﬁc questionnaire",
-          "heading": false
-        },
-        {
           "term": "process modeler",
           "heading": false
         },
         {
-          "term": "process readers",
+          "term": "speciﬁc questionnaire",
           "heading": false
         },
         {
           "term": "process modeling",
+          "heading": false
+        },
+        {
+          "term": "process readers",
           "heading": false
         },
         {
@@ -621,11 +621,11 @@
       "summary": null,
       "keywords": [
         {
-          "term": "model comprehension",
+          "term": "process model",
           "heading": true
         },
         {
-          "term": "process model",
+          "term": "model comprehension",
           "heading": true
         },
         {
@@ -641,11 +641,11 @@
           "heading": false
         },
         {
-          "term": "comprehension score",
+          "term": "process reader",
           "heading": false
         },
         {
-          "term": "process reader",
+          "term": "comprehension score",
           "heading": false
         },
         {
@@ -673,15 +673,11 @@
           "heading": false
         },
         {
-          "term": "process models",
-          "heading": false
-        },
-        {
           "term": "model comprehension",
           "heading": false
         },
         {
-          "term": "quality criteria",
+          "term": "process models",
           "heading": false
         },
         {
@@ -689,11 +685,15 @@
           "heading": false
         },
         {
-          "term": "workbook",
+          "term": "quality criteria",
           "heading": false
         },
         {
           "term": "pmcf",
+          "heading": false
+        },
+        {
+          "term": "workbook",
           "heading": false
         },
         {
@@ -777,11 +777,11 @@
           "heading": true
         },
         {
-          "term": "quality criteria",
+          "term": "process knowledge",
           "heading": false
         },
         {
-          "term": "process knowledge",
+          "term": "quality criteria",
           "heading": false
         },
         {
@@ -864,7 +864,7 @@
           "heading": false
         },
         {
-          "term": "business process",
+          "term": "manfred reichert",
           "heading": false
         },
         {
@@ -872,7 +872,7 @@
           "heading": false
         },
         {
-          "term": "manfred reichert",
+          "term": "business process",
           "heading": false
         },
         {
@@ -880,15 +880,15 @@
           "heading": false
         },
         {
-          "term": "michael zimoch",
-          "heading": false
-        },
-        {
           "term": "jan claes",
           "heading": false
         },
         {
-          "term": "winfried schlee",
+          "term": "systems modeling",
+          "heading": false
+        },
+        {
+          "term": "conceptual modeling",
           "heading": false
         }
       ],
@@ -914,16 +914,16 @@
       "heading": false
     },
     {
-      "term": "process readers",
-      "heading": false
-    },
-    {
       "term": "process modelers",
       "heading": false
     },
     {
-      "term": "process models",
+      "term": "process readers",
       "heading": false
+    },
+    {
+      "term": "process model",
+      "heading": true
     },
     {
       "term": "model comprehension",
@@ -938,12 +938,12 @@
       "heading": false
     },
     {
-      "term": "comprehension framework",
-      "heading": true
-    },
-    {
       "term": "regarding process",
       "heading": false
+    },
+    {
+      "term": "comprehension framework",
+      "heading": true
     },
     {
       "term": "comprehensible process",

@@ -391,11 +391,11 @@
       },
       "keywords": [
         {
-          "term": "scorer",
+          "term": "panel",
           "heading": false
         },
         {
-          "term": "panel",
+          "term": "scorer",
           "heading": false
         },
         {
@@ -411,11 +411,11 @@
           "heading": false
         },
         {
-          "term": "cross-lingual",
+          "term": "metric",
           "heading": false
         },
         {
-          "term": "metric",
+          "term": "cross-lingual",
           "heading": false
         },
         {
@@ -458,7 +458,7 @@
           "heading": false
         },
         {
-          "term": "subject",
+          "term": "stud",
           "heading": false
         },
         {
@@ -466,7 +466,7 @@
           "heading": false
         },
         {
-          "term": "stud",
+          "term": "subject",
           "heading": false
         },
         {
@@ -1260,11 +1260,11 @@
           "heading": false
         },
         {
-          "term": "consensus",
+          "term": "panel",
           "heading": false
         },
         {
-          "term": "panel",
+          "term": "consensus",
           "heading": false
         },
         {
@@ -1330,10 +1330,6 @@
       },
       "keywords": [
         {
-          "term": "liter ature",
-          "heading": false
-        },
-        {
           "term": "consis tency",
           "heading": false
         },
@@ -1354,11 +1350,15 @@
           "heading": false
         },
         {
+          "term": "information science",
+          "heading": false
+        },
+        {
           "term": "index ing",
           "heading": false
         },
         {
-          "term": "information science",
+          "term": "library",
           "heading": false
         }
       ],

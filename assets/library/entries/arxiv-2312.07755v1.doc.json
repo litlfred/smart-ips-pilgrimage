@@ -294,11 +294,11 @@
           "heading": false
         },
         {
-          "term": "wiregen",
+          "term": "design process",
           "heading": false
         },
         {
-          "term": "design process",
+          "term": "wiregen",
           "heading": false
         },
         {
@@ -421,7 +421,7 @@
           "heading": false
         },
         {
-          "term": "well-suited",
+          "term": "visual",
           "heading": false
         }
       ],
@@ -558,11 +558,11 @@
           "heading": false
         },
         {
-          "term": "html syntax",
+          "term": "style sheet",
           "heading": false
         },
         {
-          "term": "style sheet",
+          "term": "html syntax",
           "heading": false
         },
         {
@@ -621,11 +621,11 @@
           "heading": false
         },
         {
-          "term": "hyperparameter configuration",
+          "term": "data selection",
           "heading": false
         },
         {
-          "term": "data selection",
+          "term": "hyperparameter configuration",
           "heading": false
         }
       ],
@@ -664,12 +664,12 @@
           "heading": false
         },
         {
-          "term": "wireframe",
-          "heading": true
-        },
-        {
           "term": "html syntax",
           "heading": false
+        },
+        {
+          "term": "wireframe",
+          "heading": true
         },
         {
           "term": "text alignment",
@@ -842,7 +842,7 @@
           "heading": false
         },
         {
-          "term": "llms",
+          "term": "ratings",
           "heading": false
         }
       ],
@@ -939,16 +939,16 @@
       },
       "keywords": [
         {
+          "term": "usefulness",
+          "heading": false
+        },
+        {
           "term": "assisting",
           "heading": false
         },
         {
           "term": "study",
           "heading": true
-        },
-        {
-          "term": "designers",
-          "heading": false
         }
       ],
       "extract": "In language, there are many ways to say the same thing in different words. We conduct a user study to gain insights into the usefulness of our model in assisting designers with UI wireframe generation with real-world descriptions. 5.1",
@@ -1005,11 +1005,11 @@
       },
       "keywords": [
         {
-          "term": "wireframe generations",
+          "term": "wireframe designs",
           "heading": false
         },
         {
-          "term": "wireframe designs",
+          "term": "wireframe generations",
           "heading": false
         },
         {
@@ -1017,11 +1017,15 @@
           "heading": false
         },
         {
+          "term": "asked participants",
+          "heading": false
+        },
+        {
           "term": "participants appreciated",
           "heading": false
         },
         {
-          "term": "asked participants",
+          "term": "layout generation",
           "heading": false
         },
         {
@@ -1030,10 +1034,6 @@
         },
         {
           "term": "wireframe sharing",
-          "heading": false
-        },
-        {
-          "term": "layout generation",
           "heading": false
         }
       ],
@@ -1072,11 +1072,11 @@
           "heading": false
         },
         {
-          "term": "google authentication",
+          "term": "work focuses",
           "heading": false
         },
         {
-          "term": "work focuses",
+          "term": "google authentication",
           "heading": false
         },
         {
@@ -1170,11 +1170,11 @@
           "heading": false
         },
         {
-          "term": "companion proceedings",
+          "term": "cvf conference",
           "heading": false
         },
         {
-          "term": "cvf conference",
+          "term": "companion proceedings",
           "heading": false
         }
       ],
@@ -1214,11 +1214,11 @@
       "heading": false
     },
     {
-      "term": "generative llms",
+      "term": "design intent",
       "heading": false
     },
     {
-      "term": "design intent",
+      "term": "generative llms",
       "heading": false
     },
     {
@@ -1230,7 +1230,7 @@
       "heading": false
     },
     {
-      "term": "fine-tuning llms",
+      "term": "visual design",
       "heading": false
     }
   ],

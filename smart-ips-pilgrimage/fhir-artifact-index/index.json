@@ -8,12 +8,12 @@
   "source": {
     "kind": "output",
     "of": "output-ast",
-    "revision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-    "readAt": "2026-11-05"
+    "revision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+    "readAt": "2026-11-07"
   },
   "provenance": {},
   "sidecarApi": "present",
-  "count": 58,
+  "count": 98,
   "artifacts": [
     {
       "key": "AllergyIntolerance/72884cad-ebe6-4f43-a51a-2f978275f131",
@@ -76,10 +76,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -137,10 +137,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -195,10 +195,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -257,10 +257,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -319,10 +319,320 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/BrowserCs-ar",
+      "resourceType": "CodeSystem",
+      "id": "BrowserCs-ar",
+      "name": "BrowserCsAr",
+      "title": "المتصفح",
+      "description": "ملحق باللغة العربية (ar) لنظام الرموز BrowserCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/BrowserCs-ar",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.html",
+          "local": "fsh-generated/resources/CodeSystem-BrowserCs-ar.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs-ar--81420d4d.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/BrowserCs-es",
+      "resourceType": "CodeSystem",
+      "id": "BrowserCs-es",
+      "name": "BrowserCsEs",
+      "title": "BrowserCs (es designations, unofficial)",
+      "description": "Unofficial Spanish designations for BrowserCs: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/BrowserCs-es",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.html",
+          "local": "fsh-generated/resources/CodeSystem-BrowserCs-es.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs-es--1ade785e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/BrowserCs-fr",
+      "resourceType": "CodeSystem",
+      "id": "BrowserCs-fr",
+      "name": "BrowserCsFr",
+      "title": "Navigateur",
+      "description": "French (fr) supplement to BrowserCs. Unofficial agent translation.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/BrowserCs-fr",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.html",
+          "local": "fsh-generated/resources/CodeSystem-BrowserCs-fr.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs-fr--d32ee508.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/BrowserCs-ru",
+      "resourceType": "CodeSystem",
+      "id": "BrowserCs-ru",
+      "name": "BrowserCsRu",
+      "title": "BrowserCs (ru designations, unofficial)",
+      "description": "Unofficial Russian designations for BrowserCs: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/BrowserCs-ru",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.html",
+          "local": "fsh-generated/resources/CodeSystem-BrowserCs-ru.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs-ru--39a0d861.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/BrowserCs-zh",
+      "resourceType": "CodeSystem",
+      "id": "BrowserCs-zh",
+      "name": "BrowserCsZh",
+      "title": "BrowserCs — Chinese (zh) supplement",
+      "description": "Unofficial Simplified Chinese (zh) display designations for the BrowserCs code system, drafted by an agent and not signed off by a human.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/BrowserCs-zh",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.html",
+          "local": "fsh-generated/resources/CodeSystem-BrowserCs-zh.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs-zh--32e404db.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -381,10 +691,692 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/DistributionModelCs-ar",
+      "resourceType": "CodeSystem",
+      "id": "DistributionModelCs-ar",
+      "name": "DistributionModelCsAr",
+      "title": "نموذج التوزيع",
+      "description": "ملحق باللغة العربية (ar) لنظام الرموز DistributionModelCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs-ar",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.html",
+          "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-ar.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-ar--b732fd44.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/DistributionModelCs-es",
+      "resourceType": "CodeSystem",
+      "id": "DistributionModelCs-es",
+      "name": "DistributionModelCsEs",
+      "title": "DistributionModelCs (es designations, unofficial)",
+      "description": "Unofficial Spanish designations for DistributionModelCs: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs-es",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.html",
+          "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-es.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-es--5dfbebab.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/DistributionModelCs-fr",
+      "resourceType": "CodeSystem",
+      "id": "DistributionModelCs-fr",
+      "name": "DistributionModelCsFr",
+      "title": "Modèle de distribution",
+      "description": "French (fr) supplement to DistributionModelCs. Unofficial agent translation.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs-fr",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.html",
+          "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-fr.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-fr--f9db17e2.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/DistributionModelCs-ru",
+      "resourceType": "CodeSystem",
+      "id": "DistributionModelCs-ru",
+      "name": "DistributionModelCsRu",
+      "title": "DistributionModelCs (ru designations, unofficial)",
+      "description": "Unofficial Russian designations for DistributionModelCs: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs-ru",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.html",
+          "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-ru.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-ru--ca64b2d7.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/DistributionModelCs-zh",
+      "resourceType": "CodeSystem",
+      "id": "DistributionModelCs-zh",
+      "name": "DistributionModelCsZh",
+      "title": "DistributionModelCs — Chinese (zh) supplement",
+      "description": "Unofficial Simplified Chinese (zh) display designations for the DistributionModelCs code system, drafted by an agent and not signed off by a human.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/DistributionModelCs-zh",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.html",
+          "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-zh.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-zh--ff0918d0.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS-HAJJ-ACTOR-es",
+      "resourceType": "CodeSystem",
+      "id": "IPS-HAJJ-ACTOR-es",
+      "name": "IPSHAJJACTOREs",
+      "title": "IPS.HAJJ.ACTOR (es designations, unofficial)",
+      "description": "Unofficial Spanish designations for IPS.HAJJ.ACTOR: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-ACTOR-es",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-ACTOR-es.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-ACTOR-es--96a17c18.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS-HAJJ-ACTOR-ru",
+      "resourceType": "CodeSystem",
+      "id": "IPS-HAJJ-ACTOR-ru",
+      "name": "IPSHAJJACTORRu",
+      "title": "IPS.HAJJ.ACTOR (ru designations, unofficial)",
+      "description": "Unofficial Russian designations for IPS.HAJJ.ACTOR: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-ACTOR-ru",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-ACTOR-ru.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-ACTOR-ru--94070864.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS-HAJJ-CONSENT-es",
+      "resourceType": "CodeSystem",
+      "id": "IPS-HAJJ-CONSENT-es",
+      "name": "IPSHAJJCONSENTEs",
+      "title": "IPS.HAJJ.CONSENT (es designations, unofficial)",
+      "description": "Unofficial Spanish designations for IPS.HAJJ.CONSENT: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-CONSENT-es",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-CONSENT-es.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-CONSENT-es--84180777.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS-HAJJ-CONSENT-ru",
+      "resourceType": "CodeSystem",
+      "id": "IPS-HAJJ-CONSENT-ru",
+      "name": "IPSHAJJCONSENTRu",
+      "title": "IPS.HAJJ.CONSENT (ru designations, unofficial)",
+      "description": "Unofficial Russian designations for IPS.HAJJ.CONSENT: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-CONSENT-ru",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-CONSENT-ru.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-CONSENT-ru--bc80eb42.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS-HAJJ-TRANSACTION-es",
+      "resourceType": "CodeSystem",
+      "id": "IPS-HAJJ-TRANSACTION-es",
+      "name": "IPSHAJJTRANSACTIONEs",
+      "title": "IPS.HAJJ.TRANSACTION (es designations, unofficial)",
+      "description": "Unofficial Spanish designations for IPS.HAJJ.TRANSACTION: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-TRANSACTION-es",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-TRANSACTION-es.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-TRANSACTION-es--7a857a72.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS-HAJJ-TRANSACTION-ru",
+      "resourceType": "CodeSystem",
+      "id": "IPS-HAJJ-TRANSACTION-ru",
+      "name": "IPSHAJJTRANSACTIONRu",
+      "title": "IPS.HAJJ.TRANSACTION (ru designations, unofficial)",
+      "description": "Unofficial Russian designations for IPS.HAJJ.TRANSACTION: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS-HAJJ-TRANSACTION-ru",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-TRANSACTION-ru.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-TRANSACTION-ru--31f863b0.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -443,10 +1435,196 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS.HAJJ.ACTOR-ar",
+      "resourceType": "CodeSystem",
+      "id": "IPS.HAJJ.ACTOR-ar",
+      "name": "IPSHAJJACTORAr",
+      "title": "نظام الرموز IPS.HAJJ.ACTOR",
+      "description": "ملحق باللغة العربية (ar) لنظام الرموز IPS.HAJJ.ACTOR: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.ACTOR-ar",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR-ar.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-ar--362026c2.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS.HAJJ.ACTOR-fr",
+      "resourceType": "CodeSystem",
+      "id": "IPS.HAJJ.ACTOR-fr",
+      "name": "IPSHAJJACTORFr",
+      "title": "Système de codes IPS.HAJJ.ACTOR",
+      "description": "French (fr) supplement to IPS.HAJJ.ACTOR. Unofficial agent translation.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.ACTOR-fr",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR-fr.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-fr--92ccc1da.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS.HAJJ.ACTOR-zh",
+      "resourceType": "CodeSystem",
+      "id": "IPS.HAJJ.ACTOR-zh",
+      "name": "IPSHAJJACTORZh",
+      "title": "IPS.HAJJ.ACTOR — Chinese (zh) supplement",
+      "description": "Unofficial Simplified Chinese (zh) display designations for the IPS.HAJJ.ACTOR code system, drafted by an agent and not signed off by a human.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.ACTOR-zh",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR-zh.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-zh--19b5ae66.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -505,10 +1683,196 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS.HAJJ.CONSENT-ar",
+      "resourceType": "CodeSystem",
+      "id": "IPS.HAJJ.CONSENT-ar",
+      "name": "IPSHAJJCONSENTAr",
+      "title": "نظام الرموز IPS.HAJJ.CONSENT",
+      "description": "ملحق باللغة العربية (ar) لنظام الرموز IPS.HAJJ.CONSENT: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT-ar",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT-ar.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-ar--e3c29c50.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS.HAJJ.CONSENT-fr",
+      "resourceType": "CodeSystem",
+      "id": "IPS.HAJJ.CONSENT-fr",
+      "name": "IPSHAJJCONSENTFr",
+      "title": "Système de codes IPS.HAJJ.CONSENT",
+      "description": "French (fr) supplement to IPS.HAJJ.CONSENT. Unofficial agent translation.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT-fr",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT-fr.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-fr--6c161ff4.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS.HAJJ.CONSENT-zh",
+      "resourceType": "CodeSystem",
+      "id": "IPS.HAJJ.CONSENT-zh",
+      "name": "IPSHAJJCONSENTZh",
+      "title": "IPS.HAJJ.CONSENT — Chinese (zh) supplement",
+      "description": "Unofficial Simplified Chinese (zh) display designations for the IPS.HAJJ.CONSENT code system, drafted by an agent and not signed off by a human.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT-zh",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT-zh.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-zh--89f1a368.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -567,10 +1931,196 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS.HAJJ.TRANSACTION-ar",
+      "resourceType": "CodeSystem",
+      "id": "IPS.HAJJ.TRANSACTION-ar",
+      "name": "IPSHAJJTRANSACTIONAr",
+      "title": "نظام الرموز IPS.HAJJ.TRANSACTION",
+      "description": "ملحق باللغة العربية (ar) لنظام الرموز IPS.HAJJ.TRANSACTION: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.TRANSACTION-ar",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION-ar.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-ar--c54510e8.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS.HAJJ.TRANSACTION-fr",
+      "resourceType": "CodeSystem",
+      "id": "IPS.HAJJ.TRANSACTION-fr",
+      "name": "IPSHAJJTRANSACTIONFr",
+      "title": "Système de codes IPS.HAJJ.TRANSACTION",
+      "description": "French (fr) supplement to IPS.HAJJ.TRANSACTION. Unofficial agent translation.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.TRANSACTION-fr",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION-fr.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-fr--8b6a0dbb.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/IPS.HAJJ.TRANSACTION-zh",
+      "resourceType": "CodeSystem",
+      "id": "IPS.HAJJ.TRANSACTION-zh",
+      "name": "IPSHAJJTRANSACTIONZh",
+      "title": "IPS.HAJJ.TRANSACTION — Chinese (zh) supplement",
+      "description": "Unofficial Simplified Chinese (zh) display designations for the IPS.HAJJ.TRANSACTION code system, drafted by an agent and not signed off by a human.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.TRANSACTION-zh",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html",
+          "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION-zh.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-zh--a662cbc4.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -629,10 +2179,320 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/LanguageCs-ar",
+      "resourceType": "CodeSystem",
+      "id": "LanguageCs-ar",
+      "name": "LanguageCsAr",
+      "title": "اللغة",
+      "description": "ملحق باللغة العربية (ar) لنظام الرموز LanguageCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs-ar",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.html",
+          "local": "fsh-generated/resources/CodeSystem-LanguageCs-ar.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs-ar--85cfaaeb.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/LanguageCs-es",
+      "resourceType": "CodeSystem",
+      "id": "LanguageCs-es",
+      "name": "LanguageCsEs",
+      "title": "LanguageCs (es designations, unofficial)",
+      "description": "Unofficial Spanish designations for LanguageCs: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs-es",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.html",
+          "local": "fsh-generated/resources/CodeSystem-LanguageCs-es.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs-es--fb61d92e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/LanguageCs-fr",
+      "resourceType": "CodeSystem",
+      "id": "LanguageCs-fr",
+      "name": "LanguageCsFr",
+      "title": "Langue",
+      "description": "French (fr) supplement to LanguageCs. Unofficial agent translation.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs-fr",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.html",
+          "local": "fsh-generated/resources/CodeSystem-LanguageCs-fr.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs-fr--95c32d8d.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/LanguageCs-ru",
+      "resourceType": "CodeSystem",
+      "id": "LanguageCs-ru",
+      "name": "LanguageCsRu",
+      "title": "LanguageCs (ru designations, unofficial)",
+      "description": "Unofficial Russian designations for LanguageCs: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs-ru",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.html",
+          "local": "fsh-generated/resources/CodeSystem-LanguageCs-ru.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs-ru--335a06a4.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/LanguageCs-zh",
+      "resourceType": "CodeSystem",
+      "id": "LanguageCs-zh",
+      "name": "LanguageCsZh",
+      "title": "LanguageCs — Chinese (zh) supplement",
+      "description": "Unofficial Simplified Chinese (zh) display designations for the LanguageCs code system, drafted by an agent and not signed off by a human.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/LanguageCs-zh",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.html",
+          "local": "fsh-generated/resources/CodeSystem-LanguageCs-zh.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs-zh--7e1aca7e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -691,10 +2551,320 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/LicensingModelCs-ar",
+      "resourceType": "CodeSystem",
+      "id": "LicensingModelCs-ar",
+      "name": "LicensingModelCsAr",
+      "title": "نموذج الترخيص",
+      "description": "ملحق باللغة العربية (ar) لنظام الرموز LicensingModelCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/LicensingModelCs-ar",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.html",
+          "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-ar.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-ar--e2242885.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/LicensingModelCs-es",
+      "resourceType": "CodeSystem",
+      "id": "LicensingModelCs-es",
+      "name": "LicensingModelCsEs",
+      "title": "LicensingModelCs (es designations, unofficial)",
+      "description": "Unofficial Spanish designations for LicensingModelCs: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/LicensingModelCs-es",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.html",
+          "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-es.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-es--0b2a0387.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/LicensingModelCs-fr",
+      "resourceType": "CodeSystem",
+      "id": "LicensingModelCs-fr",
+      "name": "LicensingModelCsFr",
+      "title": "Modèle de licence",
+      "description": "French (fr) supplement to LicensingModelCs. Unofficial agent translation.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/LicensingModelCs-fr",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.html",
+          "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-fr.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-fr--9adc3821.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/LicensingModelCs-ru",
+      "resourceType": "CodeSystem",
+      "id": "LicensingModelCs-ru",
+      "name": "LicensingModelCsRu",
+      "title": "LicensingModelCs (ru designations, unofficial)",
+      "description": "Unofficial Russian designations for LicensingModelCs: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/LicensingModelCs-ru",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.html",
+          "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-ru.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-ru--5bcbd415.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/LicensingModelCs-zh",
+      "resourceType": "CodeSystem",
+      "id": "LicensingModelCs-zh",
+      "name": "LicensingModelCsZh",
+      "title": "LicensingModelCs — Chinese (zh) supplement",
+      "description": "Unofficial Simplified Chinese (zh) display designations for the LicensingModelCs code system, drafted by an agent and not signed off by a human.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/LicensingModelCs-zh",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.html",
+          "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-zh.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-zh--f4ea15c3.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -753,10 +2923,320 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/OperatingSystemCs-ar",
+      "resourceType": "CodeSystem",
+      "id": "OperatingSystemCs-ar",
+      "name": "OperatingSystemCsAr",
+      "title": "نظام التشغيل",
+      "description": "ملحق باللغة العربية (ar) لنظام الرموز OperatingSystemCs: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs-ar",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.html",
+          "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-ar.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-ar--7b6cea42.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/OperatingSystemCs-es",
+      "resourceType": "CodeSystem",
+      "id": "OperatingSystemCs-es",
+      "name": "OperatingSystemCsEs",
+      "title": "OperatingSystemCs (es designations, unofficial)",
+      "description": "Unofficial Spanish designations for OperatingSystemCs: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs-es",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.html",
+          "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-es.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-es--031f6c41.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/OperatingSystemCs-fr",
+      "resourceType": "CodeSystem",
+      "id": "OperatingSystemCs-fr",
+      "name": "OperatingSystemCsFr",
+      "title": "Système d’exploitation",
+      "description": "French (fr) supplement to OperatingSystemCs. Unofficial agent translation.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs-fr",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.html",
+          "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-fr.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-fr--18e24c85.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/OperatingSystemCs-ru",
+      "resourceType": "CodeSystem",
+      "id": "OperatingSystemCs-ru",
+      "name": "OperatingSystemCsRu",
+      "title": "OperatingSystemCs (ru designations, unofficial)",
+      "description": "Unofficial Russian designations for OperatingSystemCs: an agent translation that no person has signed off.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs-ru",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.html",
+          "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-ru.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-ru--d53b77df.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
+      }
+    },
+    {
+      "key": "CodeSystem/OperatingSystemCs-zh",
+      "resourceType": "CodeSystem",
+      "id": "OperatingSystemCs-zh",
+      "name": "OperatingSystemCsZh",
+      "title": "OperatingSystemCs — Chinese (zh) supplement",
+      "description": "Unofficial Simplified Chinese (zh) display designations for the OperatingSystemCs code system, drafted by an agent and not signed off by a human.",
+      "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/OperatingSystemCs-zh",
+      "version": "2.1.0",
+      "category": "Terminology: Code Systems",
+      "published": {
+        "json": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.json"
+        },
+        "xml": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.xml"
+        },
+        "ttl": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.ttl"
+        },
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.html"
+        }
+      },
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.html",
+          "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-zh.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-zh--824ff269.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
+        },
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -814,10 +3294,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -886,10 +3366,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -958,10 +3438,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1019,10 +3499,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1080,10 +3560,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1141,10 +3621,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1202,10 +3682,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1263,10 +3743,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1324,10 +3804,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1383,10 +3863,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1442,10 +3922,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1502,10 +3982,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1571,10 +4051,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1644,10 +4124,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1716,10 +4196,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1774,10 +4254,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1832,10 +4312,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1893,10 +4373,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -1960,10 +4440,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2027,10 +4507,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2094,10 +4574,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2161,10 +4641,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2228,10 +4708,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2295,10 +4775,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2354,10 +4834,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2413,10 +4893,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2475,10 +4955,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2537,10 +5017,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2595,10 +5075,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2653,10 +5133,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2718,10 +5198,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2780,10 +5260,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2842,10 +5322,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2904,10 +5384,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -2966,10 +5446,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -3028,10 +5508,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -3090,10 +5570,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       }
     },
     {
@@ -3152,10 +5632,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       },
       "sidecars": {
         "displays": {
@@ -3236,10 +5716,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       },
       "sidecars": {
         "displays": {
@@ -3320,10 +5800,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       },
       "sidecars": {
         "displays": {
@@ -3404,10 +5884,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       },
       "sidecars": {
         "displays": {
@@ -3488,10 +5968,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       },
       "sidecars": {
         "displays": {
@@ -3572,10 +6052,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       },
       "sidecars": {
         "displays": {
@@ -3656,10 +6136,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       },
       "sidecars": {
         "displays": {
@@ -3740,10 +6220,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       },
       "sidecars": {
         "displays": {
@@ -3824,10 +6304,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "8263d3b1b068c92716ea2299bd05d86d0221c774",
-          "inputDigest": "71d39f36ffd01b8efe1746b81ae6be2eb253884b6b027720bbbc35b173f16291"
+          "sourceRevision": "4553d9b8b1746b9891a6960cd16e8549ac0aa81a",
+          "inputDigest": "17a6d42b96d73828ef3503896b3603b7ee3ee1d75ff8a19e6c93b1d21e7aa69c"
         },
-        "materializedAt": "2026-11-05T11:59:58.455949615Z"
+        "materializedAt": "2026-11-07T17:33:57.698506416Z"
       },
       "sidecars": {
         "displays": {
@@ -3856,7 +6336,7 @@
   "package": {
     "url": "https://litlfred.github.io/smart-ips-pilgrimage/package.tgz",
     "localPath": "fhir-artifact-index/package.tgz",
-    "bytes": 225095
+    "bytes": 238740
   },
   "fhirVersion": [
     "4.0.1"

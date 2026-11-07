@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -913,16 +913,16 @@
 
 <p>Candidate terms extracted from every BPMN task and call activity: <code class="language-plaintext highlighter-rouge">name</code> as the label, its own <code class="language-plaintext highlighter-rouge">&lt;documentation&gt;</code> as the definition, the element id as the code. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap 38 (<a href="../../../../../assets/glossary/bootstrap--kg-bpmn-activities.skos.jsonld">SKOS</a>) · bootstrap-tools 7 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-bpmn-activities.skos.jsonld">SKOS</a>) · cat-harness 576 (<a href="../../../../../assets/glossary/cat-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · fhir-harness 49 (<a href="../../../../../assets/glossary/fhir-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · folio-assistant-core 238 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-bpmn-activities.skos.jsonld">SKOS</a>) · smart-base 153 (<a href="../../../../../assets/glossary/smart-base--kg-bpmn-activities.skos.jsonld">SKOS</a>) · who-iris 34 (<a href="../../../../../assets/glossary/who-iris--kg-bpmn-activities.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap 38 (<a href="../../../../../assets/glossary/bootstrap--kg-bpmn-activities.skos.jsonld">SKOS</a>) · bootstrap-tools 7 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-bpmn-activities.skos.jsonld">SKOS</a>) · cat-harness 587 (<a href="../../../../../assets/glossary/cat-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · fhir-harness 49 (<a href="../../../../../assets/glossary/fhir-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · folio-assistant-core 250 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-bpmn-activities.skos.jsonld">SKOS</a>) · smart-base 153 (<a href="../../../../../assets/glossary/smart-base--kg-bpmn-activities.skos.jsonld">SKOS</a>) · who-iris 34 (<a href="../../../../../assets/glossary/who-iris--kg-bpmn-activities.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 3 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/bpmn-activities/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 364 terms and is 288 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 370 terms and is 294 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
 <thead><tr><th>target</th><th>mapped</th><th>unmapped</th><th>undetermined</th><th>why undetermined</th></tr></thead>
-<tbody><tr><td><code>fhir</code></td><td>0</td><td>1114</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>1114</td><td>0</td><td>—</td></tr></tbody>
+<tbody><tr><td><code>fhir</code></td><td>0</td><td>1118</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>1118</td><td>0</td><td>—</td></tr></tbody>
 </table></div>
 <p class="fa-gloss-mapping-note"><strong>Undetermined is never “no match”.</strong> 
 A vocabulary that could not be reached has said nothing, and the column above keeps that 
@@ -932,7 +932,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">364</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">370</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-0-9">0–9</a> <a href="#letter-A">A</a> <a href="#letter-B">B</a> <a href="#letter-C">C</a> <a href="#letter-D">D</a></nav>
 <h2 id="letter-0-9">
@@ -1339,13 +1339,6 @@ Adjudicate against the checker <span class="fa-gloss-status">candidate, extracte
 <p>The reviewer and a checker read the same claim differently — a disagreement about ONE kg-qa criterion (prose-claims-resolve). Descend into Process_CriterionAdjudication, which runs the shared adjudication and then one of its three outcomes: the checker's finding stands, the criterion is scoped, or a dispensation is granted with its reason. The checker's entry is kept beneath the verdict rather than overwritten (requirement R4 of issue #1042).</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/narrative-code-review.bpmn"><code>cat-harness/sdlc/processes/narrative-code-review.bpmn#Call_Adjudication</code></a></p>
 </dd>
-<dt id="cat-harness--kg-bpmn-activities--process_translation.task_adjudicate" data-fa-state="extracted" data-fa-gloss="">
-Adjudicate flagged passage (human reviewer) <span class="fa-gloss-status">candidate, extracted</span>
-</dt>
-<dd>
-<p>A human SME or editor reviews the flagged passage. They may: - Accept the translation as-is (false positive) - Edit the translation and re-run QA - Reject and request re-translation The round trip establishes that two readings differ. Which one is right is a human call.</p>
-<p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn"><code>cat-harness/processes/library/translation-workflow.bpmn#Task_Adjudicate</code></a></p>
-</dd>
 <dt id="smart-base--kg-bpmn-activities--process_sgendtoend.task_adjdepsl2" data-fa-state="extracted" data-fa-gloss="">
 Adjudicate L2 dependencies <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -1401,6 +1394,13 @@ Adjudicate the flagged passage <span class="fa-gloss-status">candidate, extracte
 <dd>
 <p>A machine can detect that two readings differ. Which one is right is a human call.</p>
 <p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/ingest-l1-completeness-gate.bpmn"><code>folio-assistant-core/processes/library/ingest-l1-completeness-gate.bpmn#Task_FlagDrift</code></a></p>
+</dd>
+<dt id="cat-harness--kg-bpmn-activities--process_translation.task_adjudicate" data-fa-state="extracted" data-fa-gloss="">
+Adjudicate the flagged passage (human) <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A human SME or editor reviews the flagged passage. They may: - Accept the translation as-is (false positive) - Edit the translation and re-run QA - Reject and request re-translation The round trip establishes that two readings differ. Which one is right is a human call.</p>
+<p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn"><code>cat-harness/processes/library/translation-workflow.bpmn#Task_Adjudicate</code></a></p>
 </dd>
 <dt id="smart-base--kg-bpmn-activities--process_sgendtoend.task_adjkg" data-fa-state="extracted" data-fa-gloss="">
 Adjudicate the L1 KG <span class="fa-gloss-status">candidate, extracted</span>
@@ -1539,7 +1539,7 @@ Append <code>rendered</code> <span class="fa-gloss-status">candidate, extracted<
 Append <code>rendered</code> to the render log <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Its OWN commit, not part of the deploy. The publish action writes only into <code>destination_dir</code>, so an entry riding in <code>_site</code> would land at <code>STAGING/&lt;slug&gt;/_render-log/</code> — inside the directory a cleanup removes, which is the one place a record of the removal must not be. <code>continue-on-error</code>: a preview that deployed and whose entry did not is a gap in the record, not a failed deploy.</p>
+<p>Its OWN commit, not part of the deploy. The publish action writes only into <code>destination_dir</code>, so an entry riding in <code>_site</code> would land at <code>branches/&lt;slug&gt;/_render-log/</code> — inside the directory a cleanup removes, which is the one place a record of the removal must not be. <code>continue-on-error</code>: a preview that deployed and whose entry did not is a gap in the record, not a failed deploy.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/feature-staging.bpmn"><code>cat-harness/sdlc/processes/feature-staging.bpmn#Task_LogRendered</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_renderlog.a_logrestored" data-fa-state="extracted" data-fa-gloss="">
@@ -1553,14 +1553,14 @@ Append <code>restored</code> <span class="fa-gloss-status">candidate, extracted<
 Append <code>retained</code> with the reason <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Records that a removal was considered and refused, or that a preview still stands because a signal fired. A reason is REQUIRED — the tool refuses without one.</p>
+<p>Records that a removal was considered and refused, or that a preview still stands because a signal fired; without the entry that leaves no trace, and nobody can tell why a preview is still up. A reason is REQUIRED — the tool refuses without one.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/global-tasks.bpmn"><code>cat-harness/processes/global-tasks.bpmn#GT_LogRetained</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_renderlog.a_logretained" data-fa-state="extracted" data-fa-gloss="">
 Append <code>retained</code> with the reason <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Records that a removal was considered and refused, or that a preview still stands because a signal fired. A reason is REQUIRED — the tool refuses without one.</p>
+<p>Records that a removal was considered and refused, or that a preview still stands because a signal fired; without the entry that leaves no trace, and nobody can tell why a preview is still up. A reason is REQUIRED — the tool refuses without one.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/ui/staging-render-log.bpmn"><code>cat-harness/processes/ui/staging-render-log.bpmn#A_LogRetained</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_featurestaging.task_logretained" data-fa-state="extracted" data-fa-gloss="">
@@ -1700,7 +1700,7 @@ Ask for review with deep links <span class="fa-gloss-status">candidate, extracte
 Ask for review with staging deep links <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Ask the person in the reviewing role, following staging-review's deep-link rule: one deep link per changed page and anchor on STAGING/&lt;slug&gt;/, each beside the same page on main (or &quot;new page&quot;), the pages taken from the change (rendered-impact); say so if there is no preview yet. Lead with what changed in prose, then the links, the before/after and the checker's findings; put the question in interaction-modality's form. Post it where the work is discussed (this conversation, the originating GitHub issue, the pull request), with the same links in each. A comment tagged on the PR becomes a review-comment todo (review-comments).</p>
+<p>Ask the person in the reviewing role, following staging-review's deep-link rule: one deep link per changed page and anchor on branches/&lt;slug&gt;/, each beside the same page on main (or &quot;new page&quot;), the pages taken from the change (rendered-impact); say so if there is no preview yet. Lead with what changed in prose, then the links, the before/after and the checker's findings; put the question in interaction-modality's form. Post it where the work is discussed (this conversation, the originating GitHub issue, the pull request), with the same links in each. A comment tagged on the PR becomes a review-comment todo (review-comments).</p>
 <p class="fa-gloss-meta">BPMN activities of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/l2-component-edit-review.bpmn"><code>smart-base/processes/content/l2-component-edit-review.bpmn#Task_RequestReview</code></a></p>
 </dd>
 <dt id="bootstrap--kg-bpmn-activities--process_humanagentdiscussion.a_putquestion" data-fa-state="extracted" data-fa-gloss="">
@@ -2098,6 +2098,13 @@ Build and QA gates <span class="fa-gloss-status">candidate, extracted</span>
 <p>Lean build and proof status, LaTeX compile, FHIR/SUSHI validation, QA axes.</p>
 <p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/editing-hci-validation.bpmn"><code>folio-assistant-core/processes/content/editing-hci-validation.bpmn#Task_BuildGates</code></a></p>
 </dd>
+<dt id="cat-harness--kg-bpmn-activities--process_translation.task_termbase" data-fa-state="extracted" data-fa-gloss="">
+Build and review the locale term base <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Before translating: build the locale term base from the layered glossaries, review it, and translate with it. Precedence, within one subject area (the scheme's <code>subject</code>): the more authoritative (lower) layer fixes a term's translation; an instance layer only adds. A match in another subject area is a sense check, not a violation. Each layer's glossary is the directory it declares with the <code>glossary</code> graph typology. A fixed translation is an authored term with a non-empty, non-fuzzy msgstr in its scheme's catalogue.</p>
+<p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn"><code>cat-harness/processes/library/translation-workflow.bpmn#Task_TermBase</code></a></p>
+</dd>
 <dt id="fhir-harness--kg-bpmn-activities--process_igdocssitecompose.task_indexes" data-fa-state="extracted" data-fa-gloss="">
 Build each IG's artefact index [ig-index-build] <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -2130,7 +2137,7 @@ Build it locally and measure the file <span class="fa-gloss-status">candidate, e
 Build staging site <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>feature-staging.yml triggers: 1. Regenerate docs (schema, skills, content-backed pages) 2. Render BPMN diagrams 3. Stamp build with commit SHA + timestamp + branch 4. Build Jekyll site with STAGING/ baseurl 5. Inject yellow staging banner into every HTML page A draft pull request is staged too, from its first push. A build takes about 22 minutes, and GitHub Pages about 3 to 4 more.</p>
+<p>feature-staging.yml triggers: 1. Regenerate docs (schema, skills, content-backed pages) 2. Render BPMN diagrams 3. Stamp build with commit SHA + timestamp + branch 4. Build Jekyll site with branches/ baseurl 5. Inject yellow staging banner into every HTML page A draft pull request is staged too, from its first push. A build takes about 22 minutes, and GitHub Pages about 3 to 4 more.</p>
 <p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/content-change-review-stage.bpmn"><code>folio-assistant-core/processes/content/content-change-review-stage.bpmn#Task_BuildStaging</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_featurestaging.task_build" data-fa-state="extracted" data-fa-gloss="">
@@ -2193,7 +2200,7 @@ Build the L1 library from Component 1 <span class="fa-gloss-status">candidate, e
 Build the public comment release <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Freeze the draft as &quot;Draft for Public Comment Release vX&quot;: a PDF with fixed line numbers and a site copy under a permanent PC/&lt;version&gt;/ path (not STAGING, never deleted on merge). Every channel cites this release's pages, lines and block ids. Line numbers run continuously through the document. Freeze from a FULL build: dispatch the preview workflow for the branch with build_type: full first, because a preview borrows main's search index and slices; pc:release freeze refuses a preview build. Run <code>bun run cat pc:pdf</code> for the line-numbered PDF and its line map, then <code>bun run cat pc:release freeze</code> for the write-once copy under PC/&lt;version&gt;/. Skill: document-publishing.</p>
+<p>Freeze the draft as &quot;Draft for Public Comment Release vX&quot;: a PDF with fixed line numbers and a site copy under a permanent PC/&lt;version&gt;/ path (not branches/, never deleted on merge). Every channel cites this release's pages, lines and block ids. Line numbers run continuously through the document. Freeze from a FULL build: dispatch the preview workflow for the branch with build_type: full first, because a preview borrows main's search index and slices; pc:release freeze refuses a preview build. Run <code>bun run cat pc:pdf</code> for the line-numbered PDF and its line map, then <code>bun run cat pc:release freeze</code> for the write-once copy under PC/&lt;version&gt;/. Skill: document-publishing.</p>
 <p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/public-comment-release.bpmn"><code>folio-assistant-core/processes/content/public-comment-release.bpmn#Task_BuildPcRelease</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_beandrain.drain_buildqueue" data-fa-state="extracted" data-fa-gloss="">
@@ -2209,6 +2216,13 @@ Build the test run <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>Assemble the run record the signature will cover: the data hash and the process hash, each all-or-nothing. An UNKNOWN_HASH never reproduces another unknown, so a run that could not be hashed is signable only as what it is — unverifiable. Builds a <code>folio-test-run/v1</code>.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/qa-report-signing.bpmn"><code>cat-harness/sdlc/processes/qa-report-signing.bpmn#Task_BuildRun</code></a></p>
+</dd>
+<dt id="cat-harness--kg-bpmn-activities--process_cache.task_deps" data-fa-state="extracted" data-fa-gloss="">
+bun / pip dependencies <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Component 2b. RESTORE: the package managers' download caches, keyed by the lockfile digest (<code>bun.lock</code>; the pip requirements file) and the tool version — never by a hand-listed version string. A restored download is re-verified by the package manager against the lockfile's integrity hashes: class (a). SAVE: main; a PR into its own ref scope. Owner role: the integrator (CI speed 14). <code>cache</code> node: <code>bun-deps</code>, <code>pip-deps</code>. It reports one line in <code>cached-step</code>'s format — <code>cached-step &lt;step&gt;: hit|warm|miss (&lt;trust&gt;) — &lt;why&gt;. Key &lt;key&gt;.</code> — to the job summary, which the daily hit-rate report counts.</p>
+<p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn"><code>cat-harness/sdlc/processes/cache.bpmn#Task_Deps</code></a></p>
 </dd>
 <dt id="smart-base--kg-bpmn-activities--process_dthauthoring.call_bpmn" data-fa-state="extracted" data-fa-gloss="">
 Business processes · BPMN [bpmn-authoring] <span class="fa-gloss-status">candidate, extracted</span>
@@ -2276,6 +2290,13 @@ Check field for field <span class="fa-gloss-status">candidate, extracted</span>
 <p>fhir-harness/scripts/check-wireframe-questionnaire.ts &lt;wireframe.html&gt; &lt;Questionnaire.json&gt;, per layout. Exit 0 faithful, 1 a finding, 2 cannot tell, which is never a pass. The findings become the output's fidelity[] and are shown to the reviewers.</p>
 <p class="fa-gloss-meta">BPMN activities of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/processes/content/questionnaire-wireframe-review.bpmn"><code>fhir-harness/processes/content/questionnaire-wireframe-review.bpmn#Task_Fidelity</code></a></p>
 </dd>
+<dt id="cat-harness--kg-bpmn-activities--process_translation.task_glossarycheck" data-fa-state="extracted" data-fa-gloss="">
+Check glossary terms (translation:glossary:check) <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>After translating: run <code>translation:glossary:check --instance &lt;dir&gt; --locale &lt;locale&gt;</code>, fix the violations, and include its glossary section in the KG QA report. A term translated against the term base is a terminology miss, so it takes the drift branch to the adjudicator.</p>
+<p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/translation-workflow.bpmn"><code>cat-harness/processes/library/translation-workflow.bpmn#Task_GlossaryCheck</code></a></p>
+</dd>
 <dt id="cat-harness--kg-bpmn-activities--process_namedqueryexecution.a_checksubgraphs" data-fa-state="extracted" data-fa-gloss="">
 Check Graph Availability Guard (requiredSubgraphs) <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -2296,6 +2317,13 @@ Check L3 readiness <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>The order rule as a check with its own contract (skill l3-readiness). Every source has its L1 extraction, every L2 asset names an L1 node, every L3 artefact about to be written names its L2 asset, and the review of each extraction and L2 asset has been requested. Returns ready and the findings, each with the stage that fixes it.</p>
 <p class="fa-gloss-meta">BPMN activities of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/smart-guideline-end-to-end.bpmn"><code>smart-base/processes/content/smart-guideline-end-to-end.bpmn#Task_L3Ready</code></a></p>
+</dd>
+<dt id="folio-assistant-core--kg-bpmn-activities--process_publishextractedstatements.task_checkcurrent" data-fa-state="extracted" data-fa-gloss="">
+Check pages are current, links resolve <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The generator's check mode regenerates in memory and fails on any difference from the committed pages, and on any source link that does not resolve. It runs in CI, so a change to an extraction or a library entry that was not republished fails the build rather than leaving a page that says something the extraction no longer does.</p>
+<p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/publish-extracted-statements.bpmn"><code>folio-assistant-core/processes/library/publish-extracted-statements.bpmn#Task_CheckCurrent</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_translation.task_stalenesscheck" data-fa-state="extracted" data-fa-gloss="">
 Check staleness (source hash) <span class="fa-gloss-status">candidate, extracted</span>
@@ -2462,7 +2490,7 @@ Classify filing mode, concern group, and req:&lt;slug&gt; ID <span class="fa-glo
 Classify what changed <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Prose, code nodes, or both. This is the only decision the generic lane makes on its own: everything after it is made inside a subprocess by the role that lane binds. Binds <code>content-review</code>, the same skill as Task_Consolidate in this lane. A paper process that wants semantic scoping adds it by calling this process.</p>
+<p>Prose, code nodes, or both. This is the only decision the generic lane makes on its own: everything after it is made inside a subprocess by the role that lane binds. Binds <code>content-review</code>, the same skill as Task_Consolidate in this lane, because a paper skill belongs to the science layer, which this harness diagram cannot reach. A paper process that wants semantic scoping adds it by calling this process.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/content/review-task.bpmn"><code>cat-harness/processes/content/review-task.bpmn#Task_ClassifyChange</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-bpmn-activities--process_publication.task_smesignoff" data-fa-state="extracted" data-fa-gloss="">
@@ -2626,6 +2654,13 @@ Close the bean <span class="fa-gloss-status">candidate, extracted</span>
 <p>Process_BeanClose: end the bean in a state that says why: complete and archive it, scrap it with its reasons and archive it, or record the blocker and hand it back. Placed straight before the end so the engine's resolve sees nothing left but the archive step.</p>
 <p class="fa-gloss-meta">BPMN activities of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/l2-dak-authoring.bpmn"><code>smart-base/processes/content/l2-dak-authoring.bpmn#Call_BeanClose_2</code></a></p>
 </dd>
+<dt id="folio-assistant-core--kg-bpmn-activities--process_contributorfeedback.task_closechangeset" data-fa-state="extracted" data-fa-gloss="">
+Close the change set: the issue, then the sheet row <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Closing is one step with two tools, GitHub and the review sheet. The agent closes the change set's issue on GitHub, with the merge or the reason it closed unmerged, then records Agentic status Closed (or Change merged) on the Agent tab through Record agent step (record-agent-step.bpmn). The sheet script then hides the row and strikes the whole row through (&quot;make sure complete changeset rows are hidden so not cluttered and that text of that whole row is crossed out&quot;). The agent never hides or strikes a row by hand, and never deletes one: reopening the issue and writing a new status shows it again. Hiding and striking are formatting only, which the review-log watcher ignores. A change set closed without a merge, at a person's request, takes this step too.</p>
+<p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/contributor-feedback.bpmn"><code>folio-assistant-core/processes/content/contributor-feedback.bpmn#Task_CloseChangeSet</code></a></p>
+</dd>
 <dt id="cat-harness--kg-bpmn-activities--process_docssite.task_closealert" data-fa-state="extracted" data-fa-gloss="">
 Close the publication manager's alert, if open <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -2696,6 +2731,13 @@ Collate findings into a report <span class="fa-gloss-status">candidate, extracte
 <p>Mechanical results and review findings are merged into one report against the proposed change.</p>
 <p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/editing-hci-validation.bpmn"><code>folio-assistant-core/processes/content/editing-hci-validation.bpmn#Task_CollateFindings</code></a></p>
 </dd>
+<dt id="folio-assistant-core--kg-bpmn-activities--process_publishextractedstatements.task_collect" data-fa-state="extracted" data-fa-gloss="">
+Collect each statement with its source section <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>For every statement extracted from the library entries the artifact draws on, read three things off files: the statement verbatim, the library entry it came from, and the section of that entry, as a library reference (instance, library id, section id). The section's label is read from the entry's structure: its title and its locator in the source's own unit (a slide, a page, a cell range, a line range). For example &quot;Catch up schedule, slide 7&quot;. A statement whose section cannot be resolved is NOT published without a link: it is reported, because a statement nobody can trace is the failure this process exists to prevent.</p>
+<p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/library/publish-extracted-statements.bpmn"><code>folio-assistant-core/processes/library/publish-extracted-statements.bpmn#Task_Collect</code></a></p>
+</dd>
 <dt id="cat-harness--kg-bpmn-activities--process_stalledagenttriage.a_collect" data-fa-state="extracted" data-fa-gloss="">
 Collect or reconstruct a handover report per agent <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -2735,7 +2777,7 @@ Comment staging URL on PR <span class="fa-gloss-status">candidate, extracted</sp
 Comment the preview URL on the PR <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Post, or update in place, one comment on the PR giving the preview URL (STAGING/&lt;slug&gt;/) and the commit it was built from. Pull-request events only.</p>
+<p>Post, or update in place, one comment on the PR giving the preview URL (branches/&lt;slug&gt;/) and the commit it was built from. Pull-request events only.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/feature-staging.bpmn"><code>cat-harness/sdlc/processes/feature-staging.bpmn#Task_Comment</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_qapublish.task_applyprune" data-fa-state="extracted" data-fa-gloss="">
@@ -2791,14 +2833,14 @@ Commit, push, open the PR <span class="fa-gloss-status">candidate, extracted</sp
 Commit, push, update PR <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Agent commits all changes to the feature branch and pushes. The feature-staging.yml workflow automatically deploys to STAGING/&lt;branch-slug&gt;/ and comments the URL on the PR. For a rendered change the agent also produces the before/after preview (skill before-after-preview) and links it in the PR body.</p>
+<p>Agent commits all changes to the feature branch and pushes. The feature-staging.yml workflow automatically deploys to branches/&lt;branch-slug&gt;/ and comments the URL on the PR. For a rendered change the agent also produces the before/after preview (skill before-after-preview) and links it in the PR body.</p>
 <p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/content-change-review-make.bpmn"><code>folio-assistant-core/processes/content/content-change-review-make.bpmn#Task_CommitPush</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-bpmn-activities--process_contentchangereviewcommittee.task_comparebeforeafter" data-fa-state="extracted" data-fa-gloss="">
 Compare main vs staging <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>The review starts from the Change Set's RENDERED list (skill rendered-impact): every rendered file the change alters, predicted from each renderer's dependency cone and checked against the build. The reviewer opens every content page on it, not only the pages the author mentions; index files are listed but not reviewed. An input the renderer could not place is shown as not known, never as no change. Review committee opens both URLs side by side: - Main site: &lt;pages-url&gt;/ (current published state) - Staging: &lt;pages-url&gt;/STAGING/&lt;branch-slug&gt;/ The staging banner shows the commit SHA so they can verify what they are reviewing matches the PR. A changed figure, diagram or table is also pictured before and after on the review page, with the share of changed pixels in words (skill visual-diff, Tool folio-block-screenshots). Anything the staging job cannot picture (page chrome, scroll behaviour, a PDF page, an IG page) is in the agent's before/after preview (skill before-after-preview).</p>
+<p>The review starts from the Change Set's RENDERED list (skill rendered-impact): every rendered file the change alters, predicted from each renderer's dependency cone and checked against the build. The reviewer opens every content page on it, not only the pages the author mentions; index files are listed but not reviewed. An input the renderer could not place is shown as not known, never as no change. Review committee opens both URLs side by side: - Main site: &lt;pages-url&gt;/ (current published state) - Staging: &lt;pages-url&gt;/branches/&lt;branch-slug&gt;/ The staging banner shows the commit SHA so they can verify what they are reviewing matches the PR. A changed figure, diagram or table is also pictured before and after on the review page, with the share of changed pixels in words (skill visual-diff, Tool folio-block-screenshots). Anything the staging job cannot picture (page chrome, scroll behaviour, a PDF page, an IG page) is in the agent's before/after preview (skill before-after-preview).</p>
 <p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/content-change-review-committee.bpmn"><code>folio-assistant-core/processes/content/content-change-review-committee.bpmn#Task_CompareBeforeAfter</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-bpmn-activities--process_guidelineupdates.task_impact" data-fa-state="extracted" data-fa-gloss="">
@@ -3172,7 +3214,7 @@ Define functional/non-functional requirements (Component 9) <span class="fa-glos
 Deploy the MVP to staging <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>An MVP is shared AS A STAGING DEPLOY, not as a description of one. <code>feature-staging.yml</code> publishes the branch under <code>STAGING/&lt;branch-slug&gt;/</code> on gh-pages and comments the URL on the PR, so the stakeholder who tests it is looking at the built artefact rather than at a screenshot — the same argument the merge discipline makes about rendered work.</p>
+<p>An MVP is shared AS A branches/ DEPLOY, not as a description of one. <code>feature-staging.yml</code> publishes the branch under <code>branches/&lt;branch-slug&gt;/</code> on gh-pages and comments the URL on the PR, so the stakeholder who tests it is looking at the built artefact rather than at a screenshot — the same argument the merge discipline makes about rendered work: holding a rendered change back for assessment makes assessment harder, not safer.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/process/crdm-deliver.bpmn"><code>cat-harness/processes/process/crdm-deliver.bpmn#A_DeployStaging</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-bpmn-activities--process_igincremental.task_deploypreview" data-fa-state="extracted" data-fa-gloss="">
@@ -3197,10 +3239,10 @@ Deploy the site <span class="fa-gloss-status">candidate, extracted</span>
 <p class="fa-gloss-meta">BPMN activities of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/processes/content/ig-incremental-build.bpmn"><code>fhir-harness/processes/content/ig-incremental-build.bpmn#Task_Deploy</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-bpmn-activities--process_contentchangereviewstage.task_deploystaging" data-fa-state="extracted" data-fa-gloss="">
-Deploy to STAGING/&lt;slug&gt;/ <span class="fa-gloss-status">candidate, extracted</span>
+Deploy to branches/&lt;slug&gt;/ <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>The stage job copies the built site into gh-pages under STAGING/&lt;branch-slug&gt;/, then <code>staging-share.ts apply</code> keeps only the files that differ from the live site. The preview's staging-sw.js serves every other file from the live site and puts the staging banner back on it. Other previews and the main site are left as they are.</p>
+<p>The stage job copies the built site into gh-pages under branches/&lt;branch-slug&gt;/, then <code>staging-share.ts apply</code> keeps only the files that differ from the live site. The preview's staging-sw.js serves every other file from the live site and puts the staging banner back on it. Other previews and the main site are left as they are.</p>
 <p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/content-change-review-stage.bpmn"><code>folio-assistant-core/processes/content/content-change-review-stage.bpmn#Task_DeployStaging</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-bpmn-activities--process_l1documentingestion.callactivity_derive" data-fa-state="extracted" data-fa-gloss="">

@@ -267,11 +267,11 @@
           "heading": true
         },
         {
-          "term": "decision theory",
+          "term": "theoretical analyses",
           "heading": false
         },
         {
-          "term": "theoretical analyses",
+          "term": "decision theory",
           "heading": false
         },
         {
@@ -291,7 +291,7 @@
           "heading": false
         },
         {
-          "term": "bayesian",
+          "term": "theories",
           "heading": false
         }
       ],
@@ -428,15 +428,15 @@
           "heading": false
         },
         {
+          "term": "random event",
+          "heading": false
+        },
+        {
           "term": "let 𝑋be",
           "heading": false
         },
         {
           "term": "random student",
-          "heading": false
-        },
-        {
-          "term": "random event",
           "heading": false
         },
         {
@@ -702,7 +702,7 @@
           "heading": false
         },
         {
-          "term": "differentiable",
+          "term": "rasmussen",
           "heading": false
         }
       ],

@@ -702,11 +702,11 @@
           "heading": false
         },
         {
-          "term": "email address",
+          "term": "notes file",
           "heading": false
         },
         {
-          "term": "notes file",
+          "term": "email address",
           "heading": false
         },
         {
@@ -998,11 +998,11 @@
           "heading": false
         },
         {
-          "term": "inner source",
+          "term": "individual data",
           "heading": false
         },
         {
-          "term": "individual data",
+          "term": "inner source",
           "heading": false
         },
         {
@@ -1078,15 +1078,15 @@
       "summary": null,
       "keywords": [
         {
+          "term": "touch",
+          "heading": false
+        },
+        {
           "term": "utility",
           "heading": false
         },
         {
           "term": "agentic",
-          "heading": false
-        },
-        {
-          "term": "touch",
           "heading": false
         }
       ],
@@ -1274,7 +1274,7 @@
           "heading": false
         },
         {
-          "term": "discuss",
+          "term": "turn",
           "heading": false
         }
       ],
@@ -1370,7 +1370,7 @@
           "heading": false
         },
         {
-          "term": "policy triggering",
+          "term": "deny tool",
           "heading": false
         }
       ],
@@ -1410,11 +1410,11 @@
           "heading": false
         },
         {
-          "term": "instruction hierarchy",
+          "term": "tool filter",
           "heading": false
         },
         {
-          "term": "tool filter",
+          "term": "instruction hierarchy",
           "heading": false
         },
         {
@@ -1550,19 +1550,19 @@
           "heading": false
         },
         {
-          "term": "constraints private",
-          "heading": false
-        },
-        {
           "term": "camel strict",
           "heading": false
         },
         {
-          "term": "side-channel attacks",
+          "term": "adversary observable",
           "heading": false
         },
         {
-          "term": "adversary observable",
+          "term": "constraints private",
+          "heading": false
+        },
+        {
+          "term": "side-channel attacks",
           "heading": false
         }
       ],
@@ -1737,11 +1737,11 @@
           "heading": false
         },
         {
-          "term": "prompt injection",
+          "term": "camel",
           "heading": false
         },
         {
-          "term": "camel",
+          "term": "prompt injection",
           "heading": false
         },
         {
@@ -1781,11 +1781,11 @@
           "heading": false
         },
         {
-          "term": "camel",
+          "term": "contextual integrity",
           "heading": false
         },
         {
-          "term": "contextual integrity",
+          "term": "camel",
           "heading": false
         },
         {
@@ -1837,15 +1837,15 @@
           "heading": false
         },
         {
-          "term": "prompt injection",
-          "heading": false
-        },
-        {
           "term": "security symposium",
           "heading": false
         },
         {
-          "term": "david wagner",
+          "term": "prompt injection",
+          "heading": false
+        },
+        {
+          "term": "peter neumann",
           "heading": false
         }
       ],
@@ -1915,12 +1915,12 @@
           "heading": false
         },
         {
-          "term": "security",
-          "heading": true
-        },
-        {
           "term": "machine learning",
           "heading": false
+        },
+        {
+          "term": "security",
+          "heading": true
         },
         {
           "term": "possess",
@@ -1963,11 +1963,11 @@
           "heading": false
         },
         {
-          "term": "confidentiality",
+          "term": "myers",
           "heading": false
         },
         {
-          "term": "myers",
+          "term": "confidentiality",
           "heading": false
         }
       ],
@@ -2051,11 +2051,11 @@
           "heading": false
         },
         {
-          "term": "defend against",
+          "term": "keep track",
           "heading": false
         },
         {
-          "term": "keep track",
+          "term": "defend against",
           "heading": false
         }
       ],
@@ -2186,19 +2186,19 @@
       "summary": null,
       "keywords": [
         {
-          "term": "transaction policy",
-          "heading": false
-        },
-        {
           "term": "calendar event",
           "heading": false
         },
         {
-          "term": "email policy",
+          "term": "transaction policy",
           "heading": false
         },
         {
           "term": "event participants",
+          "heading": false
+        },
+        {
+          "term": "email policy",
           "heading": false
         },
         {
@@ -2238,11 +2238,11 @@
           "heading": false
         },
         {
-          "term": "prompt sandwiching",
+          "term": "tool filter",
           "heading": false
         },
         {
-          "term": "tool filter",
+          "term": "prompt sandwiching",
           "heading": false
         },
         {
@@ -2250,11 +2250,11 @@
           "heading": false
         },
         {
-          "term": "table token",
+          "term": "std",
           "heading": false
         },
         {
-          "term": "std",
+          "term": "table token",
           "heading": false
         },
         {
@@ -2324,11 +2324,11 @@
           "heading": false
         },
         {
-          "term": "param query",
+          "term": "param participants",
           "heading": false
         },
         {
-          "term": "param participants",
+          "term": "param query",
           "heading": false
         },
         {
@@ -2483,11 +2483,11 @@
           "heading": false
         },
         {
-          "term": "raynolds gmail",
+          "term": "com start",
           "heading": false
         },
         {
-          "term": "com start",
+          "term": "raynolds gmail",
           "heading": false
         }
       ],
@@ -2579,11 +2579,11 @@
           "heading": false
         },
         {
-          "term": "raynolds gmail",
+          "term": "com start",
           "heading": false
         },
         {
-          "term": "com start",
+          "term": "raynolds gmail",
           "heading": false
         }
       ],
@@ -2655,19 +2655,7 @@
           "heading": false
         },
         {
-          "term": "vacation plans",
-          "heading": false
-        },
-        {
-          "term": "johnson vacation",
-          "heading": false
-        },
-        {
           "term": "beach activities",
-          "heading": false
-        },
-        {
-          "term": "waikiki beach",
           "heading": false
         },
         {
@@ -2675,11 +2663,23 @@
           "heading": false
         },
         {
-          "term": "center june",
+          "term": "beach days",
           "heading": false
         },
         {
           "term": "spa june",
+          "heading": false
+        },
+        {
+          "term": "center june",
+          "heading": false
+        },
+        {
+          "term": "harbor june",
+          "heading": false
+        },
+        {
+          "term": "gear casual",
           "heading": false
         }
       ],
@@ -2703,11 +2703,11 @@
           "heading": false
         },
         {
-          "term": "suspicious transactions",
+          "term": "suspicious activity",
           "heading": false
         },
         {
-          "term": "suspicious activity",
+          "term": "suspicious transactions",
           "heading": false
         },
         {
@@ -2893,11 +2893,11 @@
       "heading": true
     },
     {
-      "term": "defeating prompt",
+      "term": "camel security",
       "heading": true
     },
     {
-      "term": "camel security",
+      "term": "defeating prompt",
       "heading": true
     },
     {
@@ -2905,12 +2905,12 @@
       "heading": true
     },
     {
-      "term": "send email",
-      "heading": true
-    },
-    {
       "term": "tool query",
       "heading": false
+    },
+    {
+      "term": "send email",
+      "heading": true
     },
     {
       "term": "user query",

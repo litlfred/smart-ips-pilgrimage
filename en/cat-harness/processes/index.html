@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -903,7 +903,7 @@
 
 <p>Generated by <code class="language-plaintext highlighter-rouge">cat-harness-tools/scripts/gen-processes-viz.ts</code>. <strong>Every number here is counted from the directory</strong>, never carried in prose — <code class="language-plaintext highlighter-rouge">bpmn-processes</code>’ own rule, and the bean that asked for this page had two different counts in its title and its body.</p>
 
-<p><strong>134</strong> diagram(s), <strong>134</strong> parsed, <strong>0</strong> that would not load.</p>
+<p><strong>144</strong> diagram(s), <strong>144</strong> parsed, <strong>0</strong> that would not load.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -915,11 +915,11 @@
   <tbody>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">cat-harness/sdlc/processes/</code></td>
-      <td>37</td>
+      <td>38</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/</code></td>
-      <td>18</td>
+      <td>19</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">cat-harness/processes/process/</code></td>
@@ -934,15 +934,19 @@
       <td>10</td>
     </tr>
     <tr>
+      <td><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/</code></td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">input/business-processes/</code></td>
+      <td>7</td>
+    </tr>
+    <tr>
       <td><code class="language-plaintext highlighter-rouge">smart-base/processes/content/</code></td>
       <td>7</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">cat-harness/processes/ui/</code></td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/</code></td>
       <td>6</td>
     </tr>
     <tr>
@@ -1012,7 +1016,7 @@
     </tr>
     <tr>
       <td><a href="cat-harness/">cat-harness</a></td>
-      <td>82</td>
+      <td>83</td>
     </tr>
     <tr>
       <td><a href="fhir-harness/">fhir-harness</a></td>
@@ -1020,11 +1024,15 @@
     </tr>
     <tr>
       <td><a href="folio-assistant-core/">folio-assistant-core</a></td>
-      <td>28</td>
+      <td>30</td>
     </tr>
     <tr>
       <td><a href="smart-base/">smart-base</a></td>
       <td>8</td>
+    </tr>
+    <tr>
+      <td><a href="smart-ips-pilgrimage/">smart-ips-pilgrimage</a></td>
+      <td>7</td>
     </tr>
     <tr>
       <td><a href="who-iris/">who-iris</a></td>
@@ -1231,7 +1239,7 @@
     </tr>
     <tr>
       <td><a href="translation-workflow.html">Translation Workflow</a></td>
-      <td>10</td>
+      <td>12</td>
       <td>—</td>
       <td>none recorded</td>
     </tr>
@@ -1398,6 +1406,12 @@
       <td>none recorded</td>
     </tr>
     <tr>
+      <td><a href="cache.html">The cache process: restore and save every cache a run can use</a></td>
+      <td>9</td>
+      <td>—</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
       <td><a href="ci-health-watch.html">Is CI actually working on the default branch?</a></td>
       <td>2</td>
       <td>—</td>
@@ -1515,7 +1529,7 @@
       <td><a href="qa-report-signing.html">QA report signing</a></td>
       <td>6</td>
       <td>—</td>
-      <td><a href="../../../en/cat-harness/beans/cat-harness-tools/workflows/crdm-detect-evaluation-r-3554a15543fc-54762ece6646/"><code class="language-plaintext highlighter-rouge">crdm-detect-evaluation-r-3554a15543fc-54762ece6646</code></a></td>
+      <td>none running; 1 finished: <a href="../../../en/cat-harness/beans/cat-harness-tools/workflows/crdm-detect-evaluation-r-3554a15543fc-54762ece6646/"><code class="language-plaintext highlighter-rouge">crdm-detect-evaluation-r-3554a15543fc-54762ece6646</code></a></td>
     </tr>
     <tr>
       <td><a href="related-work.html">Related work: find, sort, summarize, ask to coordinate</a></td>
@@ -1563,7 +1577,7 @@
       <td><a href="test-plan-execution.html">Test-plan execution</a></td>
       <td>13</td>
       <td>—</td>
-      <td><a href="../../../en/cat-harness/beans/cat-harness-tools/workflows/crdm-detect-evaluation-r-3554a15543fc-54762ece6646/"><code class="language-plaintext highlighter-rouge">crdm-detect-evaluation-r-3554a15543fc-54762ece6646</code></a></td>
+      <td>none running; 1 finished: <a href="../../../en/cat-harness/beans/cat-harness-tools/workflows/crdm-detect-evaluation-r-3554a15543fc-54762ece6646/"><code class="language-plaintext highlighter-rouge">crdm-detect-evaluation-r-3554a15543fc-54762ece6646</code></a></td>
     </tr>
     <tr>
       <td><a href="tracked-watch.html">Report a verdict on one tracking issue</a></td>
@@ -1627,7 +1641,7 @@
     </tr>
     <tr>
       <td><a href="authoring-a-document.html">Authoring a document</a></td>
-      <td>10</td>
+      <td>11</td>
       <td>—</td>
       <td>none recorded</td>
     </tr>
@@ -1669,7 +1683,7 @@
     </tr>
     <tr>
       <td><a href="contributor-feedback.html">Contributor feedback on a working draft</a></td>
-      <td>8</td>
+      <td>9</td>
       <td>—</td>
       <td>none recorded</td>
     </tr>
@@ -1728,8 +1742,14 @@
       <td>none recorded</td>
     </tr>
     <tr>
+      <td><a href="record-agent-step.html">Record agent step</a></td>
+      <td>3</td>
+      <td>—</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
       <td><a href="review-log-watch.html">Review-log watch</a></td>
-      <td>5</td>
+      <td>7</td>
       <td>—</td>
       <td>none recorded</td>
     </tr>
@@ -1765,7 +1785,13 @@
     </tr>
     <tr>
       <td><a href="l1-document-ingestion.html">L1 document ingestion — a document to the L1 source knowledge graph</a></td>
-      <td>14</td>
+      <td>15</td>
+      <td>—</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="publish-extracted-statements.html">Publish extracted statements with source links</a></td>
+      <td>4</td>
       <td>—</td>
       <td>none recorded</td>
     </tr>
@@ -1785,6 +1811,48 @@
       <td><a href="board-relocate.html">Board: relocate content to the trashcan</a></td>
       <td>5</td>
       <td>—</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="Clinical Encounter for Unplanned Care (brief).html">Health Check and SHL Issuance, Wallet Consent</a></td>
+      <td>13</td>
+      <td>13</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="Clinical Encounter for Unplanned Care.html">Health Check and SHL Issuance, Wallet Consent</a></td>
+      <td>17</td>
+      <td>17</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="Health Check and Counseling, Explicit Consent (brief).html">Health Check and SHL Issuance, Wallet Consent</a></td>
+      <td>12</td>
+      <td>12</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="Health Check and Counseling, Explicit Consent on Wallet.html">Health Check and SHL Issuance, Wallet Consent</a></td>
+      <td>21</td>
+      <td>21</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="Health Check and Counseling, Verbal Consent (brief).html">Health Check and SHL Issuance, Wallet Consent</a></td>
+      <td>11</td>
+      <td>11</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="Health Check and Counseling, Verbal Consent.html">Health Check and SHL Issuance, Wallet Consent</a></td>
+      <td>14</td>
+      <td>14</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="Health Check and Issue SHL.html">Health Check and VHL Issuance, Wallet Consent</a></td>
+      <td>21</td>
+      <td>21</td>
       <td>none recorded</td>
     </tr>
     <tr>
@@ -1874,7 +1942,7 @@
 
 <p>The reverse of <code class="language-plaintext highlighter-rouge">&lt;bootstrap.processes:skill ref&gt;</code>, which is the join nothing else exposes: a skill says what to do, and until now nothing said which processes ask for it.</p>
 
-<p><strong>190</strong> distinct skill(s) are named by an activity.</p>
+<p><strong>194</strong> distinct skill(s) are named by an activity.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -1953,6 +2021,10 @@
       <td><a href="crdm-requirements-definition.html"><code class="language-plaintext highlighter-rouge">crdm-requirements-definition.bpmn</code></a>, <a href="dth-authoring.html"><code class="language-plaintext highlighter-rouge">dth-authoring.bpmn</code></a>, <a href="l2-dak-authoring.html"><code class="language-plaintext highlighter-rouge">l2-dak-authoring.bpmn</code></a></td>
     </tr>
     <tr>
+      <td><code class="language-plaintext highlighter-rouge">cache-first-ci</code></td>
+      <td><a href="cache.html"><code class="language-plaintext highlighter-rouge">cache.bpmn</code></a></td>
+    </tr>
+    <tr>
       <td><code class="language-plaintext highlighter-rouge">ci-health</code></td>
       <td><a href="mount-dependency.html"><code class="language-plaintext highlighter-rouge">mount-dependency.bpmn</code></a>, <a href="ci-health-watch.html"><code class="language-plaintext highlighter-rouge">ci-health-watch.bpmn</code></a>, <a href="code-change-review.html"><code class="language-plaintext highlighter-rouge">code-change-review.bpmn</code></a>, <a href="merge-base.html"><code class="language-plaintext highlighter-rouge">merge-base.bpmn</code></a>, <a href="merge-train.html"><code class="language-plaintext highlighter-rouge">merge-train.bpmn</code></a>, <a href="pr-checks-present.html"><code class="language-plaintext highlighter-rouge">pr-checks-present.bpmn</code></a>, <a href="tracked-watch.html"><code class="language-plaintext highlighter-rouge">tracked-watch.bpmn</code></a></td>
     </tr>
@@ -1966,7 +2038,7 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">compiled-artefact-cache</code></td>
-      <td><a href="ig-ast-cache.html"><code class="language-plaintext highlighter-rouge">ig-ast-cache.bpmn</code></a></td>
+      <td><a href="cache.html"><code class="language-plaintext highlighter-rouge">cache.bpmn</code></a>, <a href="ig-ast-cache.html"><code class="language-plaintext highlighter-rouge">ig-ast-cache.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">confirm-harness</code></td>
@@ -2213,6 +2285,10 @@
       <td><a href="ig-ast-cache.html"><code class="language-plaintext highlighter-rouge">ig-ast-cache.bpmn</code></a>, <a href="ig-docs-site-compose.html"><code class="language-plaintext highlighter-rouge">ig-docs-site-compose.bpmn</code></a></td>
     </tr>
     <tr>
+      <td><code class="language-plaintext highlighter-rouge">incremental-render</code></td>
+      <td><a href="cache.html"><code class="language-plaintext highlighter-rouge">cache.bpmn</code></a></td>
+    </tr>
+    <tr>
       <td><code class="language-plaintext highlighter-rouge">index-config</code></td>
       <td><a href="mount-dependency.html"><code class="language-plaintext highlighter-rouge">mount-dependency.bpmn</code></a>, <a href="subscribe-kg.html"><code class="language-plaintext highlighter-rouge">subscribe-kg.bpmn</code></a></td>
     </tr>
@@ -2425,6 +2501,10 @@
       <td><a href="complete-initialization.html"><code class="language-plaintext highlighter-rouge">complete-initialization.bpmn</code></a></td>
     </tr>
     <tr>
+      <td><code class="language-plaintext highlighter-rouge">publish-extracted-statements</code></td>
+      <td><a href="authoring-a-document.html"><code class="language-plaintext highlighter-rouge">authoring-a-document.bpmn</code></a>, <a href="l1-document-ingestion.html"><code class="language-plaintext highlighter-rouge">l1-document-ingestion.bpmn</code></a>, <a href="publish-extracted-statements.html"><code class="language-plaintext highlighter-rouge">publish-extracted-statements.bpmn</code></a></td>
+    </tr>
+    <tr>
       <td><code class="language-plaintext highlighter-rouge">publish-site</code></td>
       <td><a href="complete-initialization.html"><code class="language-plaintext highlighter-rouge">complete-initialization.bpmn</code></a></td>
     </tr>
@@ -2506,11 +2586,15 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">review-log-watch</code></td>
-      <td><a href="review-log-watch.html"><code class="language-plaintext highlighter-rouge">review-log-watch.bpmn</code></a></td>
+      <td><a href="record-agent-step.html"><code class="language-plaintext highlighter-rouge">record-agent-step.bpmn</code></a>, <a href="review-log-watch.html"><code class="language-plaintext highlighter-rouge">review-log-watch.bpmn</code></a></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">review-sheet-agent-columns</code></td>
+      <td><a href="contributor-feedback.html"><code class="language-plaintext highlighter-rouge">contributor-feedback.bpmn</code></a>, <a href="record-agent-step.html"><code class="language-plaintext highlighter-rouge">record-agent-step.bpmn</code></a>, <a href="review-log-watch.html"><code class="language-plaintext highlighter-rouge">review-log-watch.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">review-sheet-script</code></td>
-      <td><a href="contributor-feedback.html"><code class="language-plaintext highlighter-rouge">contributor-feedback.bpmn</code></a>, <a href="folio-review-publish.html"><code class="language-plaintext highlighter-rouge">folio-review-publish.bpmn</code></a>, <a href="public-comment-release.html"><code class="language-plaintext highlighter-rouge">public-comment-release.bpmn</code></a>, <a href="review-log-watch.html"><code class="language-plaintext highlighter-rouge">review-log-watch.bpmn</code></a></td>
+      <td><a href="contributor-feedback.html"><code class="language-plaintext highlighter-rouge">contributor-feedback.bpmn</code></a>, <a href="folio-review-publish.html"><code class="language-plaintext highlighter-rouge">folio-review-publish.bpmn</code></a>, <a href="public-comment-release.html"><code class="language-plaintext highlighter-rouge">public-comment-release.bpmn</code></a>, <a href="record-agent-step.html"><code class="language-plaintext highlighter-rouge">record-agent-step.bpmn</code></a>, <a href="review-log-watch.html"><code class="language-plaintext highlighter-rouge">review-log-watch.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">role-model</code></td>
@@ -2657,7 +2741,7 @@
 
 <p>A lane NAMES the Role its tasks are performed in; it is not itself a Role. The NAME is free text — <code class="language-plaintext highlighter-rouge">process-model.ts</code> notes that sixty lanes spell two dozen positions — so the lane’s <code class="language-plaintext highlighter-rouge">partitionElementRef</code> (or the legacy <code class="language-plaintext highlighter-rouge">&lt;bootstrap.processes:role ref&gt;</code>) is the join that does not depend on spelling, and it is reported separately below rather than merged into the name.</p>
 
-<p><strong>169</strong> distinct lane name(s).</p>
+<p><strong>172</strong> distinct lane name(s).</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -2669,7 +2753,7 @@
   <tbody>
     <tr>
       <td>Build pipeline</td>
-      <td>18</td>
+      <td>19</td>
     </tr>
     <tr>
       <td>Agent</td>
@@ -2681,18 +2765,26 @@
     </tr>
     <tr>
       <td>Authoring agent</td>
-      <td>12</td>
+      <td>13</td>
     </tr>
     <tr>
       <td>Ingestion Engine (agent, runs unattended)</td>
-      <td>10</td>
+      <td>11</td>
     </tr>
     <tr>
       <td>BA / Feature Requestor</td>
       <td>8</td>
     </tr>
     <tr>
+      <td>Human Actor</td>
+      <td>7</td>
+    </tr>
+    <tr>
       <td>Publication manager</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>System Actor</td>
       <td>7</td>
     </tr>
     <tr>
@@ -3029,6 +3121,10 @@
     </tr>
     <tr>
       <td>Feedback providers</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>FHIR IG AST cache (the FHIR IG layer)</td>
       <td>1</td>
     </tr>
     <tr>
@@ -3391,7 +3487,7 @@
 </h2>
     
 
-<p>Three states, not two. <code class="language-plaintext highlighter-rouge">loadProcessModel</code> reads an undeclared policy as <code class="language-plaintext highlighter-rouge">strict</code>, which is right for the engine — <em>“a process that forgot to say is governed, not exempt”</em> — and hides a fact a reader wants. <strong>Somebody chose strict</strong> and <strong>nobody said, so the engine assumed strict</strong> are different, and the second is <strong>21</strong> of 134 here.</p>
+<p>Three states, not two. <code class="language-plaintext highlighter-rouge">loadProcessModel</code> reads an undeclared policy as <code class="language-plaintext highlighter-rouge">strict</code>, which is right for the engine — <em>“a process that forgot to say is governed, not exempt”</em> — and hides a fact a reader wants. <strong>Somebody chose strict</strong> and <strong>nobody said, so the engine assumed strict</strong> are different, and the second is <strong>29</strong> of 144 here.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -3405,11 +3501,11 @@
     <tr>
       <td><code class="language-plaintext highlighter-rouge">strict</code></td>
       <td>70</td>
-      <td>21</td>
+      <td>29</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">advisory</code></td>
-      <td>43</td>
+      <td>45</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -3423,60 +3519,17 @@
 </h2>
     
 
-<p><strong>50 diagram(s) have no rendered SVG.</strong> <code class="language-plaintext highlighter-rouge">bun run cat render:bpmn</code>.</p>
+<p><strong>5 diagram(s) draw elements the engine does not run.</strong> Each has its page, with the elements listed; <code class="language-plaintext highlighter-rouge">workflow_start</code> refuses to run them.</p>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">bootstrap-tools/processes/render-kg-to-github-pages.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">bootstrap/processes/complete-initialization.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">bootstrap/processes/discussion.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">bootstrap/processes/human-agent-discussion.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">bootstrap/processes/initialize-harness.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">bootstrap/processes/log-message.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">fhir-harness/processes/content/ig-ast-cache.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">fhir-harness/processes/content/ig-ast-delta-review.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">fhir-harness/processes/content/ig-incremental-build.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">fhir-harness/processes/content/l3-fhir-pipeline.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">fhir-harness/processes/content/questionnaire-wireframe-review.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">fhir-harness/processes/tools/ig-docs-site-compose.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/conduct/getting-started.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/authoring-a-document.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-change-review-committee.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-change-review-make.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-change-review-publish.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-change-review-stage.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-change-review.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-lifecycle.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/contributor-feedback.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/draft-to-publication.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/dsa-document-lifecycle.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/editing-hci-validation.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/evidence-retrieval.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/public-comment-change.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/public-comment-release.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/public-comment.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/review-log-watch.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/deep-document-research.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/ingest-build-l1-kg.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/ingest-derive-content.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/ingest-extract-structure.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/ingest-l1-completeness-gate.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/l1-document-ingestion.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/ui/board-open-close.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/ui/board-place-note.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/ui/board-relocate.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">smart-base/methodologies/processes/diig-investment-path.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">smart-base/processes/content/classify-and-code-content.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">smart-base/processes/content/dak-l3-ig.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">smart-base/processes/content/dth-authoring.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">smart-base/processes/content/l2-component-edit-review.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">smart-base/processes/content/l2-dak-authoring.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">smart-base/processes/content/SGAuthoring.DAKLifecycle.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">smart-base/processes/content/smart-guideline-end-to-end.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">who-iris/processes/iris-cdn-initial-load.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">who-iris/processes/iris-cdn-nightly.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">who-iris/processes/iris-cdn-reconcile.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">who-iris/processes/iris-cdn-sign-publish.bpmn</code></li>
+  <li><code class="language-plaintext highlighter-rouge">input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn</code> — <code class="language-plaintext highlighter-rouge">bpmn:BusinessRuleTask</code>, <code class="language-plaintext highlighter-rouge">bpmn:SubProcess</code></li>
+  <li><code class="language-plaintext highlighter-rouge">input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn</code> — <code class="language-plaintext highlighter-rouge">bpmn:BusinessRuleTask</code></li>
+  <li><code class="language-plaintext highlighter-rouge">input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn</code> — <code class="language-plaintext highlighter-rouge">bpmn:BusinessRuleTask</code></li>
+  <li><code class="language-plaintext highlighter-rouge">input/business-processes/Health Check and Counseling, Verbal Consent.bpmn</code> — <code class="language-plaintext highlighter-rouge">bpmn:BusinessRuleTask</code></li>
+  <li><code class="language-plaintext highlighter-rouge">input/business-processes/Health Check and Issue SHL.bpmn</code> — <code class="language-plaintext highlighter-rouge">bpmn:BusinessRuleTask</code></li>
 </ul>
+
+<p>Every one of the <strong>144</strong> diagrams has a rendered SVG.</p>
 <h3 id="activities-carrying-no-bootstrapprocessesskill-ref--a-census-not-a-gap-list">
   
   
@@ -3486,9 +3539,9 @@
 </h3>
     
 
-<p><strong>58</strong> across <strong>31</strong> diagram(s). This section reported them as defects in its first version, and that was wrong: beans <code class="language-plaintext highlighter-rouge">luke</code> and <code class="language-plaintext highlighter-rouge">uuhu</code> worked this corpus from 90 down to this remainder and settled what is left. <code class="language-plaintext highlighter-rouge">luke</code>: <em>“coverage is deliberately NOT gated — a human sign-off step has no skill”</em>. <code class="language-plaintext highlighter-rouge">uuhu</code> added the call-activity exemption and recorded that its own remainder <em>“are not gaps”</em>.</p>
+<p><strong>168</strong> across <strong>39</strong> diagram(s). This section reported them as defects in its first version, and that was wrong: beans <code class="language-plaintext highlighter-rouge">luke</code> and <code class="language-plaintext highlighter-rouge">uuhu</code> worked this corpus from 90 down to this remainder and settled what is left. <code class="language-plaintext highlighter-rouge">luke</code>: <em>“coverage is deliberately NOT gated — a human sign-off step has no skill”</em>. <code class="language-plaintext highlighter-rouge">uuhu</code> added the call-activity exemption and recorded that its own remainder <em>“are not gaps”</em>.</p>
 
-<p><strong>23</strong> are call activities, which delegate to a subprocess — the skill is named there, and naming it twice would be one fact in two places. The other <strong>35</strong> are listed by lane, because the lane is what says whether a person, a pipeline or an agent performs the step, and only the last of those has a skill to run.</p>
+<p><strong>23</strong> are call activities, which delegate to a subprocess — the skill is named there, and naming it twice would be one fact in two places. The other <strong>145</strong> are listed by lane, because the lane is what says whether a person, a pipeline or an agent performs the step, and only the last of those has a skill to run.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -3498,6 +3551,14 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Human Actor</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>System Actor</td>
+      <td>52</td>
+    </tr>
     <tr>
       <td>CI/CD Pipeline</td>
       <td>8</td>
@@ -3551,6 +3612,10 @@
       <td>1</td>
     </tr>
     <tr>
+      <td>FHIR IG AST cache (the FHIR IG layer)</td>
+      <td>1</td>
+    </tr>
+    <tr>
       <td>Folio-Assistant Agent</td>
       <td>1</td>
     </tr>
@@ -3565,7 +3630,7 @@
   </tbody>
 </table></div>
 
-<p><strong>No verdict is offered on which of these is a gap</strong>, and that is the honest state rather than a hedge: distinguishing a person’s judgement step from an agent step somebody forgot needs the lane’s actor KIND, which a free-text lane name does not give — <code class="language-plaintext highlighter-rouge">process-model.ts</code> notes sixty lanes spell two dozen positions. The lane’s <code class="language-plaintext highlighter-rouge">partitionElementRef</code> is the join that would answer it, and it is present on <strong>35</strong> of these <strong>35</strong> steps — which is the measurement, not an impression. An earlier draft of this sentence said <em>few of these</em> and was counting whether the lane had a NAME, a different question with a different answer.</p>
+<p><strong>No verdict is offered on which of these is a gap</strong>, and that is the honest state rather than a hedge: distinguishing a person’s judgement step from an agent step somebody forgot needs the lane’s actor KIND, which a free-text lane name does not give — <code class="language-plaintext highlighter-rouge">process-model.ts</code> notes sixty lanes spell two dozen positions. The lane’s <code class="language-plaintext highlighter-rouge">partitionElementRef</code> is the join that would answer it, and it is present on <strong>36</strong> of these <strong>145</strong> steps — which is the measurement, not an impression. An earlier draft of this sentence said <em>few of these</em> and was counting whether the lane had a NAME, a different question with a different answer.</p>
 
           
 

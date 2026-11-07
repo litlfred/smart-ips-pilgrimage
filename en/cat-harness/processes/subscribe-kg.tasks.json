@@ -1,15 +1,146 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_SubscribeKg",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg",
+ "markers": [
+  {
+   "id": "Task_Pin",
+   "name": "Name the substrate, pin a full commit SHA",
+   "left": 10.28,
+   "top": 7.55,
+   "box": {
+    "left": 7.47,
+    "top": 17.86,
+    "width": 0.63,
+    "height": 3.3
+   }
+  },
+  {
+   "id": "Task_Validate",
+   "name": "Fetch and validate the pinned declaration",
+   "left": 16.82,
+   "top": 35.03,
+   "box": {
+    "left": 14.01,
+    "top": 45.33,
+    "width": 0.63,
+    "height": 3.3
+   }
+  },
+  {
+   "id": "Task_Refuse",
+   "name": "Record why it is not a substrate; write no entry",
+   "left": 21.53,
+   "top": 62.5,
+   "box": {
+    "left": 18.72,
+    "top": 72.8,
+    "width": 0.63,
+    "height": 3.3
+   }
+  },
+  {
+   "id": "Task_Record",
+   "name": "Write the entry and cache the declaration",
+   "left": 33.57,
+   "top": 62.5,
+   "box": {
+    "left": 30.76,
+    "top": 72.8,
+    "width": 0.63,
+    "height": 3.3
+   }
+  },
+  {
+   "id": "Call_Refresh",
+   "name": "Refresh the held part",
+   "left": 46.91,
+   "top": 35.03,
+   "box": {
+    "left": 44.1,
+    "top": 45.33,
+    "width": 0.63,
+    "height": 3.3
+   }
+  },
+  {
+   "id": "Task_RePin",
+   "name": "Move the entry's ref and re-cache the declaration",
+   "left": 46.91,
+   "top": 62.5,
+   "box": {
+    "left": 44.1,
+    "top": 72.8,
+    "width": 0.63,
+    "height": 3.3
+   }
+  },
+  {
+   "id": "Task_Review",
+   "name": "Review what the substrate offers",
+   "left": 55.29,
+   "top": 7.55,
+   "box": {
+    "left": 52.47,
+    "top": 17.86,
+    "width": 0.63,
+    "height": 3.3
+   }
+  },
+  {
+   "id": "Task_Choose",
+   "name": "Choose subgraphs, the asset policy, harnesses",
+   "left": 61.83,
+   "top": 7.55,
+   "box": {
+    "left": 59.01,
+    "top": 17.86,
+    "width": 0.63,
+    "height": 3.3
+   }
+  },
+  {
+   "id": "Call_Materialize",
+   "name": "Materialise the part",
+   "left": 79.09,
+   "top": 35.03,
+   "box": {
+    "left": 76.28,
+    "top": 45.33,
+    "width": 0.63,
+    "height": 3.3
+   }
+  },
+  {
+   "id": "Task_Instantiate",
+   "name": "Instantiate the harness: write its config",
+   "left": 92.7,
+   "top": 35.03,
+   "box": {
+    "left": 89.89,
+    "top": 45.33,
+    "width": 0.63,
+    "height": 3.3
+   }
+  },
+  {
+   "id": "Task_Summarise",
+   "name": "Record how each part of the walk ended",
+   "left": 92.7,
+   "top": 62.5,
+   "box": {
+    "left": 89.89,
+    "top": 72.8,
+    "width": 0.63,
+    "height": 3.3
+   }
+  }
+ ],
  "tasks": {
   "Task_Pin": {
    "id": "Task_Pin",
    "name": "Name the substrate, pin a full commit SHA",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Task_Pin",
    "lane": "Subscriber (the folio's owner)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_0",
    "skills": [
     {
      "name": "kg-subscription"
@@ -17,7 +148,7 @@
    ],
    "role": {
     "name": "user",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/user",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-user",
     "title": "User",
     "skills": [
      {
@@ -60,9 +191,7 @@
    "id": "Task_Validate",
    "name": "Fetch and validate the pinned declaration",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Task_Validate",
    "lane": "Ingestion Engine (agent, runs unattended)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_1",
    "skills": [
     {
      "name": "kg-subscription"
@@ -70,7 +199,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -104,9 +233,7 @@
    "id": "Task_Refuse",
    "name": "Record why it is not a substrate; write no entry",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Task_Refuse",
    "lane": "Ingestion Engine (agent, runs unattended)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_1",
    "skills": [
     {
      "name": "kg-subscription"
@@ -114,7 +241,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -148,9 +275,7 @@
    "id": "Task_Record",
    "name": "Write the entry and cache the declaration",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Task_Record",
    "lane": "Ingestion Engine (agent, runs unattended)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_1",
    "skills": [
     {
      "name": "kg-subscription"
@@ -158,7 +283,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -192,9 +317,7 @@
    "id": "Call_Refresh",
    "name": "Refresh the held part",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Call_Refresh",
    "lane": "Ingestion Engine (agent, runs unattended)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_1",
    "skills": [
     {
      "name": "materialize-remote"
@@ -202,12 +325,12 @@
    ],
    "calls": {
     "name": "Refresh materialized remote content",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_RefreshMaterialized",
+    "href": "refresh-materialized.html",
     "diagram": "refresh-materialized.html"
    },
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -241,9 +364,7 @@
    "id": "Task_RePin",
    "name": "Move the entry's ref and re-cache the declaration",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Task_RePin",
    "lane": "Ingestion Engine (agent, runs unattended)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_1",
    "skills": [
     {
      "name": "kg-subscription"
@@ -251,7 +372,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -285,9 +406,7 @@
    "id": "Task_Review",
    "name": "Review what the substrate offers",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Task_Review",
    "lane": "Subscriber (the folio's owner)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_0",
    "skills": [
     {
      "name": "kg-subscription"
@@ -295,7 +414,7 @@
    ],
    "role": {
     "name": "user",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/user",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-user",
     "title": "User",
     "skills": [
      {
@@ -338,9 +457,7 @@
    "id": "Task_Choose",
    "name": "Choose subgraphs, the asset policy, harnesses",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Task_Choose",
    "lane": "Subscriber (the folio's owner)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_0",
    "skills": [
     {
      "name": "kg-subscription"
@@ -348,7 +465,7 @@
    ],
    "role": {
     "name": "user",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/user",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-user",
     "title": "User",
     "skills": [
      {
@@ -391,9 +508,7 @@
    "id": "Call_Materialize",
    "name": "Materialise the part",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Call_Materialize",
    "lane": "Ingestion Engine (agent, runs unattended)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_1",
    "skills": [
     {
      "name": "materialize-remote"
@@ -401,12 +516,12 @@
    ],
    "calls": {
     "name": "Materialize remote content: the shared subprocess",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MaterializeRemote",
+    "href": "materialize-remote.html",
     "diagram": "materialize-remote.html"
    },
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -440,9 +555,7 @@
    "id": "Task_Instantiate",
    "name": "Instantiate the harness: write its config",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Task_Instantiate",
    "lane": "Ingestion Engine (agent, runs unattended)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_1",
    "skills": [
     {
      "name": "kg-subscription"
@@ -453,7 +566,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -487,9 +600,7 @@
    "id": "Task_Summarise",
    "name": "Record how each part of the walk ended",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/node/Task_Summarise",
    "lane": "Ingestion Engine (agent, runs unattended)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubscribeKg/lane/Lane_1",
    "skills": [
     {
      "name": "kg-subscription"
@@ -497,7 +608,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {

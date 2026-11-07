@@ -953,11 +953,11 @@
       },
       "keywords": [
         {
-          "term": "constraint class",
+          "term": "odrl profile",
           "heading": false
         },
         {
-          "term": "odrl profile",
+          "term": "constraint class",
           "heading": false
         },
         {
@@ -1032,7 +1032,7 @@
           "heading": false
         },
         {
-          "term": "agreed action",
+          "term": "relation property",
           "heading": false
         }
       ],
@@ -1500,11 +1500,11 @@
           "heading": false
         },
         {
-          "term": "rule",
+          "term": "undertake",
           "heading": false
         },
         {
-          "term": "undertake",
+          "term": "rule",
           "heading": false
         }
       ],
@@ -1956,10 +1956,6 @@
           "heading": false
         },
         {
-          "term": "constraint",
-          "heading": false
-        },
-        {
           "term": "rightoperand",
           "heading": false
         },
@@ -1969,6 +1965,10 @@
         },
         {
           "term": "leftoperand",
+          "heading": false
+        },
+        {
+          "term": "constraint",
           "heading": false
         }
       ],
@@ -2011,12 +2011,12 @@
           "heading": false
         },
         {
-          "term": "uid",
-          "heading": false
-        },
-        {
           "term": "collection",
           "heading": true
+        },
+        {
+          "term": "uid",
+          "heading": false
         },
         {
           "term": "rightoperand",
@@ -2109,11 +2109,11 @@
           "heading": false
         },
         {
-          "term": "duty",
+          "term": "relation",
           "heading": false
         },
         {
-          "term": "relation",
+          "term": "duty",
           "heading": false
         }
       ],
@@ -2246,11 +2246,11 @@
           "heading": false
         },
         {
-          "term": "party obligated",
+          "term": "refinements satisfied",
           "heading": false
         },
         {
-          "term": "refinements satisfied",
+          "term": "party obligated",
           "heading": false
         },
         {
@@ -2311,11 +2311,11 @@
           "heading": false
         },
         {
-          "term": "fulfilled",
+          "term": "below agreement",
           "heading": false
         },
         {
-          "term": "below agreement",
+          "term": "fulfilled",
           "heading": false
         }
       ],
@@ -2823,11 +2823,11 @@
           "heading": false
         },
         {
-          "term": "additional constraint",
+          "term": "create subclass",
           "heading": false
         },
         {
-          "term": "create subclass",
+          "term": "additional constraint",
           "heading": false
         },
         {
@@ -3024,11 +3024,11 @@
           "heading": false
         },
         {
-          "term": "odrl profiles",
+          "term": "added",
           "heading": false
         },
         {
-          "term": "added",
+          "term": "odrl profiles",
           "heading": false
         },
         {
@@ -3197,11 +3197,11 @@
       "heading": true
     },
     {
-      "term": "party asset",
+      "term": "odrl validation",
       "heading": false
     },
     {
-      "term": "odrl validation",
+      "term": "party asset",
       "heading": false
     }
   ],

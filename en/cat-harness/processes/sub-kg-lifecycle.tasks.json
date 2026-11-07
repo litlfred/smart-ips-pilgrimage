@@ -1,15 +1,206 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_SubKgLifecycle",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle",
+ "markers": [
+  {
+   "id": "Task_Brief",
+   "name": "Brief the work",
+   "left": 8.14,
+   "top": 52.53,
+   "box": {
+    "left": 6.12,
+    "top": 59.84,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_Declare",
+   "name": "1 · Declare it in place, with its seam",
+   "left": 12.74,
+   "top": 52.53,
+   "box": {
+    "left": 10.73,
+    "top": 59.84,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_Grow",
+   "name": "2 · Grow it in place",
+   "left": 17.35,
+   "top": 52.53,
+   "box": {
+    "left": 15.34,
+    "top": 59.84,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_DecideLeave",
+   "name": "Should it leave now?",
+   "left": 21.96,
+   "top": 76.46,
+   "box": {
+    "left": 19.95,
+    "top": 83.78,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_PushDown",
+   "name": "3 · Push generic down first",
+   "left": 26.57,
+   "top": 5.98,
+   "box": {
+    "left": 24.56,
+    "top": 13.3,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_Seam",
+   "name": "4 · Route every climb through platform.ts",
+   "left": 31.87,
+   "top": 5.98,
+   "box": {
+    "left": 29.86,
+    "top": 13.3,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_Rehearse",
+   "name": "5 · Rehearse self-contained",
+   "left": 38.79,
+   "top": 28.59,
+   "box": {
+    "left": 36.77,
+    "top": 35.9,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_Report",
+   "name": "6 · Report what would move, and how it undoes",
+   "left": 45.7,
+   "top": 52.53,
+   "box": {
+    "left": 43.69,
+    "top": 59.84,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_ConfirmCreate",
+   "name": "7 · Owner confirms: create the repository",
+   "left": 51.46,
+   "top": 76.46,
+   "box": {
+    "left": 49.1,
+    "top": 83.78,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_CreateRepo",
+   "name": "8 · Create the repository",
+   "left": 60.45,
+   "top": 76.46,
+   "box": {
+    "left": 58.44,
+    "top": 83.78,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_Drain",
+   "name": "Drain: land, close or re-target the open PRs",
+   "left": 63.1,
+   "top": 52.53,
+   "box": {
+    "left": 60.74,
+    "top": 59.84,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_Seed",
+   "name": "9 · Copy the staged contents in, with history",
+   "left": 69.67,
+   "top": 52.53,
+   "box": {
+    "left": 67.65,
+    "top": 59.84,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_Repoint",
+   "name": "10 · Re-point: livesAt, seam, mount or subscription",
+   "left": 74.74,
+   "top": 5.98,
+   "box": {
+    "left": 72.72,
+    "top": 13.3,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_FreshClone",
+   "name": "11 · Verify on a fresh clone",
+   "left": 79.35,
+   "top": 28.59,
+   "box": {
+    "left": 77.33,
+    "top": 35.9,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_ConfirmCutover",
+   "name": "12 · Owner confirms: freeze the in-repo copy",
+   "left": 86.73,
+   "top": 76.46,
+   "box": {
+    "left": 84.36,
+    "top": 83.78,
+    "width": 0.55,
+    "height": 3.19
+   }
+  },
+  {
+   "id": "Task_Cutover",
+   "name": "13 · Cutover: freeze the copy in the kept trashcan",
+   "left": 96.75,
+   "top": 73.87,
+   "box": {
+    "left": 94.39,
+    "top": 86.37,
+    "width": 0.55,
+    "height": 3.19
+   }
+  }
+ ],
  "tasks": {
   "Task_Brief": {
    "id": "Task_Brief",
    "name": "Brief the work",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_Brief",
    "lane": "Authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Agent",
    "skills": [
     {
      "name": "opening-brief"
@@ -21,7 +212,7 @@
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -193,9 +384,7 @@
    "id": "Task_Declare",
    "name": "1 · Declare it in place, with its seam",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_Declare",
    "lane": "Authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Agent",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -203,7 +392,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -375,9 +564,7 @@
    "id": "Task_Grow",
    "name": "2 · Grow it in place",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_Grow",
    "lane": "Authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Agent",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -385,7 +572,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -557,9 +744,7 @@
    "id": "Task_DecideLeave",
    "name": "Should it leave now?",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_DecideLeave",
    "lane": "Administrator (owner)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Admin",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -567,12 +752,12 @@
    ],
    "calls": {
     "name": "Ask the person",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "href": "ask-the-person.html",
     "diagram": "ask-the-person.html"
    },
    "role": {
     "name": "administrator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/administrator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-administrator",
     "title": "Administrator",
     "skills": [
      {
@@ -609,9 +794,7 @@
    "id": "Task_PushDown",
    "name": "3 · Push generic down first",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_PushDown",
    "lane": "Platform authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Platform",
    "skills": [
     {
      "name": "graph-detanglement"
@@ -619,7 +802,7 @@
    ],
    "role": {
     "name": "platform-authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/platform-authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-platform-authoring-agent",
     "title": "Platform authoring agent",
     "skills": [
      {
@@ -881,9 +1064,7 @@
    "id": "Task_Seam",
    "name": "4 · Route every climb through platform.ts",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_Seam",
    "lane": "Platform authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Platform",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -891,7 +1072,7 @@
    ],
    "role": {
     "name": "platform-authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/platform-authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-platform-authoring-agent",
     "title": "Platform authoring agent",
     "skills": [
      {
@@ -1153,9 +1334,7 @@
    "id": "Task_Rehearse",
    "name": "5 · Rehearse self-contained",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_Rehearse",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -1163,7 +1342,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -1230,9 +1409,7 @@
    "id": "Task_Report",
    "name": "6 · Report what would move, and how it undoes",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_Report",
    "lane": "Authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Agent",
    "skills": [
     {
      "name": "deletion-requires-confirmation"
@@ -1240,7 +1417,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1412,9 +1589,7 @@
    "id": "Task_ConfirmCreate",
    "name": "7 · Owner confirms: create the repository",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_ConfirmCreate",
    "lane": "Administrator (owner)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Admin",
    "skills": [
     {
      "name": "deletion-requires-confirmation"
@@ -1422,12 +1597,12 @@
    ],
    "calls": {
     "name": "Ask the person",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "href": "ask-the-person.html",
     "diagram": "ask-the-person.html"
    },
    "role": {
     "name": "administrator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/administrator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-administrator",
     "title": "Administrator",
     "skills": [
      {
@@ -1464,9 +1639,7 @@
    "id": "Task_CreateRepo",
    "name": "8 · Create the repository",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_CreateRepo",
    "lane": "Administrator (owner)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Admin",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -1474,7 +1647,7 @@
    ],
    "role": {
     "name": "administrator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/administrator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-administrator",
     "title": "Administrator",
     "skills": [
      {
@@ -1511,9 +1684,7 @@
    "id": "Task_Drain",
    "name": "Drain: land, close or re-target the open PRs",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_Drain",
    "lane": "Authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Agent",
    "skills": [
     {
      "name": "kg-separation"
@@ -1525,7 +1696,7 @@
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1697,9 +1868,7 @@
    "id": "Task_Seed",
    "name": "9 · Copy the staged contents in, with history",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_Seed",
    "lane": "Authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Agent",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -1707,7 +1876,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1879,9 +2048,7 @@
    "id": "Task_Repoint",
    "name": "10 · Re-point: livesAt, seam, mount or subscription",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_Repoint",
    "lane": "Platform authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Platform",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -1892,7 +2059,7 @@
    ],
    "role": {
     "name": "platform-authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/platform-authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-platform-authoring-agent",
     "title": "Platform authoring agent",
     "skills": [
      {
@@ -2154,9 +2321,7 @@
    "id": "Task_FreshClone",
    "name": "11 · Verify on a fresh clone",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_FreshClone",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "sub-kg-lifecycle"
@@ -2164,7 +2329,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -2231,9 +2396,7 @@
    "id": "Task_ConfirmCutover",
    "name": "12 · Owner confirms: freeze the in-repo copy",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_ConfirmCutover",
    "lane": "Administrator (owner)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Admin",
    "skills": [
     {
      "name": "deletion-requires-confirmation"
@@ -2241,12 +2404,12 @@
    ],
    "calls": {
     "name": "Ask the person",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "href": "ask-the-person.html",
     "diagram": "ask-the-person.html"
    },
    "role": {
     "name": "administrator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/administrator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-administrator",
     "title": "Administrator",
     "skills": [
      {
@@ -2283,9 +2446,7 @@
    "id": "Task_Cutover",
    "name": "13 · Cutover: freeze the copy in the kept trashcan",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/node/Task_Cutover",
    "lane": "Administrator (owner)",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SubKgLifecycle/lane/Lane_Admin",
    "skills": [
     {
      "name": "deletion-requires-confirmation"
@@ -2293,7 +2454,7 @@
    ],
    "role": {
     "name": "administrator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/administrator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-administrator",
     "title": "Administrator",
     "skills": [
      {

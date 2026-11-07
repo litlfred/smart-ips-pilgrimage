@@ -447,7 +447,7 @@
           "heading": false
         },
         {
-          "term": "agents",
+          "term": "reasoning",
           "heading": false
         }
       ],
@@ -521,11 +521,11 @@
       },
       "keywords": [
         {
-          "term": "architectural trade-offs",
+          "term": "individual exploration",
           "heading": false
         },
         {
-          "term": "individual exploration",
+          "term": "architectural trade-offs",
           "heading": false
         },
         {
@@ -549,7 +549,7 @@
           "heading": false
         },
         {
-          "term": "get foo",
+          "term": "approaches fail",
           "heading": false
         }
       ],
@@ -669,7 +669,7 @@
           "heading": false
         },
         {
-          "term": "localization",
+          "term": "employ",
           "heading": false
         }
       ],
@@ -755,11 +755,11 @@
           "heading": false
         },
         {
-          "term": "codebase",
+          "term": "exploration",
           "heading": false
         },
         {
-          "term": "exploration",
+          "term": "codebase",
           "heading": false
         },
         {
@@ -942,11 +942,11 @@
           "heading": false
         },
         {
-          "term": "unsuccessful",
+          "term": "breadth",
           "heading": false
         },
         {
-          "term": "breadth",
+          "term": "unsuccessful",
           "heading": false
         }
       ],
@@ -1079,7 +1079,7 @@
           "heading": false
         },
         {
-          "term": "component",
+          "term": "exploration",
           "heading": false
         }
       ],
@@ -1228,11 +1228,11 @@
           "heading": false
         },
         {
-          "term": "pauli",
+          "term": "debate process",
           "heading": false
         },
         {
-          "term": "debate process",
+          "term": "pauli",
           "heading": false
         }
       ],
@@ -1542,11 +1542,11 @@
           "heading": false
         },
         {
-          "term": "competing",
+          "term": "analytical",
           "heading": false
         },
         {
-          "term": "analytical",
+          "term": "competing",
           "heading": false
         },
         {
@@ -1644,7 +1644,7 @@
           "heading": false
         },
         {
-          "term": "select entities",
+          "term": "issue resolving",
           "heading": false
         }
       ],
@@ -1690,19 +1690,19 @@
       "heading": false
     },
     {
-      "term": "debate framework",
-      "heading": false
-    },
-    {
       "term": "issue resolution",
       "heading": true
+    },
+    {
+      "term": "debate process",
+      "heading": false
     },
     {
       "term": "localization through",
       "heading": false
     },
     {
-      "term": "debate process",
+      "term": "debate framework",
       "heading": false
     },
     {

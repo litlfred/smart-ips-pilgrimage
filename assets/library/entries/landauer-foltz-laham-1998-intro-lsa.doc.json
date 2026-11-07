@@ -32,7 +32,7 @@
           "heading": false
         },
         {
-          "term": "department",
+          "term": "psychology",
           "heading": false
         }
       ],
@@ -114,11 +114,11 @@
           "heading": false
         },
         {
-          "term": "issue",
+          "term": "articles",
           "heading": false
         },
         {
-          "term": "articles",
+          "term": "issue",
           "heading": false
         }
       ],
@@ -302,11 +302,11 @@
           "heading": false
         },
         {
-          "term": "space",
+          "term": "observational",
           "heading": false
         },
         {
-          "term": "observational",
+          "term": "space",
           "heading": false
         },
         {
@@ -361,11 +361,11 @@
           "heading": false
         },
         {
-          "term": "decomposed",
+          "term": "column",
           "heading": false
         },
         {
-          "term": "column",
+          "term": "decomposed",
           "heading": false
         },
         {
@@ -408,7 +408,7 @@
           "heading": false
         },
         {
-          "term": "smallest",
+          "term": "nine",
           "heading": false
         },
         {
@@ -416,11 +416,11 @@
           "heading": false
         },
         {
-          "term": "dimensions",
+          "term": "smallest",
           "heading": false
         },
         {
-          "term": "nine",
+          "term": "dimensions",
           "heading": false
         },
         {
@@ -682,7 +682,7 @@
           "heading": false
         },
         {
-          "term": "lsa",
+          "term": "son",
           "heading": false
         }
       ],
@@ -858,11 +858,11 @@
       },
       "keywords": [
         {
-          "term": "standard collections",
+          "term": "weighted average",
           "heading": false
         },
         {
-          "term": "weighted average",
+          "term": "standard collections",
           "heading": false
         },
         {
@@ -937,7 +937,7 @@
           "heading": false
         },
         {
-          "term": "lsa",
+          "term": "similar",
           "heading": false
         }
       ],
@@ -1223,11 +1223,11 @@
           "heading": false
         },
         {
-          "term": "landauer",
+          "term": "university",
           "heading": false
         },
         {
-          "term": "university",
+          "term": "landauer",
           "heading": false
         },
         {
@@ -1529,11 +1529,11 @@
           "heading": false
         },
         {
-          "term": "issue",
+          "term": "articles",
           "heading": false
         },
         {
-          "term": "articles",
+          "term": "issue",
           "heading": false
         }
       ],
@@ -1584,7 +1584,7 @@
           "heading": false
         },
         {
-          "term": "ability",
+          "term": "experience",
           "heading": false
         }
       ],
@@ -1615,6 +1615,10 @@
           "heading": false
         },
         {
+          "term": "brain",
+          "heading": false
+        },
+        {
           "term": "lsa",
           "heading": false
         },
@@ -1628,10 +1632,6 @@
         },
         {
           "term": "seems",
-          "heading": false
-        },
-        {
-          "term": "brain",
           "heading": false
         },
         {
@@ -1709,11 +1709,11 @@
           "heading": false
         },
         {
-          "term": "anglin",
+          "term": "semantic analysis",
           "heading": false
         },
         {
-          "term": "semantic analysis",
+          "term": "anglin",
           "heading": false
         },
         {
@@ -1748,15 +1748,15 @@
           "heading": false
         },
         {
+          "term": "semantic analysis",
+          "heading": false
+        },
+        {
           "term": "computing machinery",
           "heading": false
         },
         {
           "term": "kintsch",
-          "heading": false
-        },
-        {
-          "term": "semantic analysis",
           "heading": false
         },
         {
@@ -1803,11 +1803,11 @@
           "heading": false
         },
         {
-          "term": "unpublished manuscript",
+          "term": "semantic analysis",
           "heading": false
         },
         {
-          "term": "semantic analysis",
+          "term": "unpublished manuscript",
           "heading": false
         },
         {
@@ -1901,12 +1901,12 @@
           "heading": false
         },
         {
-          "term": "website",
-          "heading": false
-        },
-        {
           "term": "page",
           "heading": true
+        },
+        {
+          "term": "website",
+          "heading": false
         }
       ],
       "extract": "Introduction to Latent Semantic Analysis 40 Appendix The latest information and applications of LSA can be found at our website: http://LSA.colorado.edu/ This website is organized into three content areas, Information, Demonstrations, and Applications. The Information section contains additional papers, links, and other pertinent information on LSA. The Demonstrations section currently includes examples of essay",
@@ -1961,15 +1961,15 @@
       "heading": false
     },
     {
+      "term": "semantic analysis",
+      "heading": false
+    },
+    {
       "term": "lsa measure",
       "heading": false
     },
     {
       "term": "lsa simulation",
-      "heading": false
-    },
-    {
-      "term": "semantic analysis",
       "heading": false
     },
     {
@@ -1981,11 +1981,11 @@
       "heading": false
     },
     {
-      "term": "lsa chose",
+      "term": "analysis words",
       "heading": false
     },
     {
-      "term": "analysis words",
+      "term": "lsa chose",
       "heading": false
     },
     {

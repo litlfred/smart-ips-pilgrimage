@@ -709,7 +709,7 @@
           "heading": false
         },
         {
-          "term": "cookie",
+          "term": "style",
           "heading": false
         }
       ],
@@ -929,19 +929,19 @@
           "heading": false
         },
         {
-          "term": "claude platform",
-          "heading": false
-        },
-        {
           "term": "process file",
           "heading": false
         },
         {
-          "term": "path",
+          "term": "claude platform",
           "heading": false
         },
         {
           "term": "platform docs",
+          "heading": false
+        },
+        {
+          "term": "path",
           "heading": false
         },
         {
@@ -1317,11 +1317,11 @@
           "heading": false
         },
         {
-          "term": "policy",
+          "term": "customer",
           "heading": false
         },
         {
-          "term": "customer",
+          "term": "policy",
           "heading": false
         },
         {

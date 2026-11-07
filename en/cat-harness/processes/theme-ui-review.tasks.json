@@ -1,15 +1,86 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_ThemeUIReview",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview",
+ "markers": [
+  {
+   "id": "A_Inventory",
+   "name": "Inventory the ingested assets",
+   "left": 18.71,
+   "top": 57.14,
+   "box": {
+    "left": 14.26,
+    "top": 84.29,
+    "width": 1.47,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_Accessibility",
+   "name": "Accessibility: measure, do not assert",
+   "left": 30.98,
+   "top": 57.14,
+   "box": {
+    "left": 26.53,
+    "top": 84.29,
+    "width": 1.47,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_Branding",
+   "name": "Branding: does it read as this instance?",
+   "left": 43.25,
+   "top": 57.14,
+   "box": {
+    "left": 38.8,
+    "top": 84.29,
+    "width": 1.47,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_Locales",
+   "name": "Languages: extracted, rendered, and RTL",
+   "left": 55.52,
+   "top": 57.14,
+   "box": {
+    "left": 51.07,
+    "top": 84.29,
+    "width": 1.47,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "R_Judge",
+   "name": "Judge the assets in their design",
+   "left": 67.79,
+   "top": 8.57,
+   "box": {
+    "left": 63.34,
+    "top": 35.71,
+    "width": 1.47,
+    "height": 6.86
+   }
+  },
+  {
+   "id": "A_RaiseFindings",
+   "name": "Raise findings before the assets land",
+   "left": 86.81,
+   "top": 57.14,
+   "box": {
+    "left": 82.36,
+    "top": 84.29,
+    "width": 1.47,
+    "height": 6.86
+   }
+  }
+ ],
  "tasks": {
   "A_Inventory": {
    "id": "A_Inventory",
    "name": "Inventory the ingested assets",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/node/A_Inventory",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/lane/Lane_Agent",
    "skills": [
     {
      "name": "theme-ui-review"
@@ -17,7 +88,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -51,9 +122,7 @@
    "id": "A_Accessibility",
    "name": "Accessibility: measure, do not assert",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/node/A_Accessibility",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/lane/Lane_Agent",
    "skills": [
     {
      "name": "theme-ui-review"
@@ -61,7 +130,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -95,9 +164,7 @@
    "id": "A_Branding",
    "name": "Branding: does it read as this instance?",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/node/A_Branding",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/lane/Lane_Agent",
    "skills": [
     {
      "name": "theme-ui-review"
@@ -105,7 +172,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -139,9 +206,7 @@
    "id": "A_Locales",
    "name": "Languages: extracted, rendered, and RTL",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/node/A_Locales",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/lane/Lane_Agent",
    "skills": [
     {
      "name": "theme-ui-review"
@@ -149,7 +214,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {
@@ -183,13 +248,11 @@
    "id": "R_Judge",
    "name": "Judge the assets in their design",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/node/R_Judge",
    "lane": "Reviewer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/lane/Lane_Reviewer",
    "skills": [],
    "role": {
     "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -229,9 +292,7 @@
    "id": "A_RaiseFindings",
    "name": "Raise findings before the assets land",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/node/A_RaiseFindings",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_ThemeUIReview/lane/Lane_Agent",
    "skills": [
     {
      "name": "theme-ui-review"
@@ -239,7 +300,7 @@
    ],
    "role": {
     "name": "ingestion-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/ingestion-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-ingestion-agent",
     "title": "Ingestion engine",
     "skills": [
      {

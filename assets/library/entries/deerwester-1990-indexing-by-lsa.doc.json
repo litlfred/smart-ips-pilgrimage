@@ -79,11 +79,11 @@
           "heading": false
         },
         {
-          "term": "singular-value decomposition",
+          "term": "semantic structure",
           "heading": false
         },
         {
-          "term": "semantic structure",
+          "term": "singular-value decomposition",
           "heading": false
         },
         {
@@ -248,7 +248,7 @@
           "heading": false
         },
         {
-          "term": "distance",
+          "term": "retrieval",
           "heading": false
         }
       ],
@@ -611,10 +611,6 @@
           "heading": false
         },
         {
-          "term": "interchanged",
-          "heading": false
-        },
-        {
           "term": "singular values",
           "heading": false
         },
@@ -624,6 +620,10 @@
         },
         {
           "term": "diagonal",
+          "heading": false
+        },
+        {
+          "term": "permutations",
           "heading": false
         }
       ],
@@ -654,11 +654,11 @@
           "heading": false
         },
         {
-          "term": "xhihat",
+          "term": "comparing",
           "heading": false
         },
         {
-          "term": "comparing",
+          "term": "xhihat",
           "heading": false
         },
         {
@@ -725,7 +725,7 @@
           "heading": false
         },
         {
-          "term": "documents",
+          "term": "comparing",
           "heading": false
         }
       ],
@@ -748,11 +748,11 @@
       },
       "keywords": [
         {
-          "term": "computational constraints",
+          "term": "like row",
           "heading": false
         },
         {
-          "term": "like row",
+          "term": "computational constraints",
           "heading": false
         },
         {
@@ -929,7 +929,7 @@
           "heading": false
         },
         {
-          "term": "documents",
+          "term": "retrieval",
           "heading": false
         }
       ],
@@ -1133,7 +1133,7 @@
           "heading": false
         },
         {
-          "term": "documents",
+          "term": "similarity",
           "heading": false
         }
       ],
@@ -1398,11 +1398,11 @@
           "heading": false
         },
         {
-          "term": "singular values",
+          "term": "data analysis",
           "heading": false
         },
         {
-          "term": "data analysis",
+          "term": "singular values",
           "heading": false
         },
         {
@@ -1410,11 +1410,11 @@
           "heading": false
         },
         {
-          "term": "eds",
+          "term": "jasis",
           "heading": false
         },
         {
-          "term": "jasis",
+          "term": "lundy",
           "heading": false
         }
       ],

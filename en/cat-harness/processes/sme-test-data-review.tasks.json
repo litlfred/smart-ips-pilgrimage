@@ -1,15 +1,62 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_SmeTestDataReview",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SmeTestDataReview",
+ "markers": [
+  {
+   "id": "Task_PrepareWorkedCase",
+   "name": "Prepare the worked case: input, logic, output",
+   "left": 45.97,
+   "top": 10,
+   "box": {
+    "left": 39.87,
+    "top": 22.67,
+    "width": 2.02,
+    "height": 3.2
+   }
+  },
+  {
+   "id": "Task_PrepareCohort",
+   "name": "Prepare the cohort: inputs, expected and computed",
+   "left": 45.97,
+   "top": 30,
+   "box": {
+    "left": 39.87,
+    "top": 42.67,
+    "width": 2.02,
+    "height": 3.2
+   }
+  },
+  {
+   "id": "Task_SmeJudge",
+   "name": "Judge whether the case or cohort is right",
+   "left": 66.13,
+   "top": 50,
+   "box": {
+    "left": 60.04,
+    "top": 62.67,
+    "width": 2.02,
+    "height": 3.2
+   }
+  },
+  {
+   "id": "Task_RecordCaseVerdict",
+   "name": "Record the SME's verdict and rationale",
+   "left": 66.13,
+   "top": 70,
+   "box": {
+    "left": 60.04,
+    "top": 82.67,
+    "width": 2.02,
+    "height": 3.2
+   }
+  }
+ ],
  "tasks": {
   "Task_PrepareWorkedCase": {
    "id": "Task_PrepareWorkedCase",
-   "name": "Prepare worked case: input, decisionLogicRef and systemOutput",
+   "name": "Prepare the worked case: input, logic, output",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SmeTestDataReview/node/Task_PrepareWorkedCase",
    "lane": "Authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SmeTestDataReview/lane/Lane_Prepare",
    "skills": [
     {
      "name": "test-data-sets"
@@ -17,7 +64,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -187,11 +234,9 @@
   },
   "Task_PrepareCohort": {
    "id": "Task_PrepareCohort",
-   "name": "Prepare cohort: inputs, indicatorRef, expected & computed value",
+   "name": "Prepare the cohort: inputs, expected and computed",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SmeTestDataReview/node/Task_PrepareCohort",
    "lane": "Authoring agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SmeTestDataReview/lane/Lane_Prepare",
    "skills": [
     {
      "name": "test-data-sets"
@@ -199,7 +244,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -369,15 +414,13 @@
   },
   "Task_SmeJudge": {
    "id": "Task_SmeJudge",
-   "name": "Judge domain correctness of worked case or indicator cohort",
+   "name": "Judge whether the case or cohort is right",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SmeTestDataReview/node/Task_SmeJudge",
    "lane": "Clinical / scientific SME",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SmeTestDataReview/lane/Lane_SME",
    "skills": [],
    "role": {
     "name": "clinical-sme",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/clinical-sme",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-clinical-sme",
     "title": "Clinical / scientific SME",
     "skills": [
      {
@@ -427,9 +470,7 @@
    "id": "Task_RecordCaseVerdict",
    "name": "Record the SME's verdict and rationale",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SmeTestDataReview/node/Task_RecordCaseVerdict",
    "lane": "Tester",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_SmeTestDataReview/lane/Lane_Record",
    "skills": [
     {
      "name": "test-data-sets"
@@ -437,7 +478,7 @@
    ],
    "role": {
     "name": "tester",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/tester",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-tester",
     "title": "Tester",
     "skills": [
      {

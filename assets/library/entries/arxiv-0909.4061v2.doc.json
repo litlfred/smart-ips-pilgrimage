@@ -75,11 +75,11 @@
       },
       "keywords": [
         {
-          "term": "randomized algorithms",
+          "term": "classical algorithms",
           "heading": false
         },
         {
-          "term": "classical algorithms",
+          "term": "randomized algorithms",
           "heading": false
         },
         {
@@ -99,11 +99,11 @@
           "heading": false
         },
         {
-          "term": "rendered",
+          "term": "eﬀective",
           "heading": false
         },
         {
-          "term": "information sciences",
+          "term": "rendered",
           "heading": false
         }
       ],
@@ -252,11 +252,11 @@
           "heading": false
         },
         {
-          "term": "perturbation",
+          "term": "observation",
           "heading": false
         },
         {
-          "term": "observation",
+          "term": "perturbation",
           "heading": false
         }
       ],
@@ -511,7 +511,7 @@
           "heading": false
         },
         {
-          "term": "uσv",
+          "term": "trace",
           "heading": false
         }
       ],
@@ -644,11 +644,11 @@
           "heading": false
         },
         {
-          "term": "interpolative decomposition",
+          "term": "dimension reduction",
           "heading": false
         },
         {
-          "term": "dimension reduction",
+          "term": "interpolative decomposition",
           "heading": false
         },
         {
@@ -742,15 +742,15 @@
           "heading": false
         },
         {
+          "term": "dimension reduction",
+          "heading": false
+        },
+        {
           "term": "random embeddings",
           "heading": false
         },
         {
           "term": "numerical linear",
-          "heading": false
-        },
-        {
-          "term": "dimension reduction",
           "heading": false
         },
         {
@@ -793,6 +793,10 @@
           "heading": false
         },
         {
+          "term": "von neumann",
+          "heading": false
+        },
+        {
           "term": "linear algebra",
           "heading": false
         },
@@ -802,10 +806,6 @@
         },
         {
           "term": "banach space",
-          "heading": false
-        },
-        {
-          "term": "von neumann",
           "heading": false
         },
         {
@@ -962,11 +962,11 @@
           "heading": false
         },
         {
-          "term": "compute",
+          "term": "techniques",
           "heading": false
         },
         {
-          "term": "techniques",
+          "term": "compute",
           "heading": false
         }
       ],
@@ -1146,11 +1146,11 @@
           "heading": false
         },
         {
-          "term": "matrix approximation",
+          "term": "basis matrix",
           "heading": false
         },
         {
-          "term": "basis matrix",
+          "term": "matrix approximation",
           "heading": false
         },
         {
@@ -1264,11 +1264,11 @@
           "heading": false
         },
         {
-          "term": "standard gaussian",
+          "term": "matrices whose",
           "heading": false
         },
         {
-          "term": "matrices whose",
+          "term": "standard gaussian",
           "heading": false
         },
         {
@@ -1464,11 +1464,11 @@
           "heading": false
         },
         {
-          "term": "svd",
+          "term": "forming",
           "heading": false
         },
         {
-          "term": "forming",
+          "term": "svd",
           "heading": false
         },
         {
@@ -1613,11 +1613,11 @@
           "heading": false
         },
         {
-          "term": "factorization",
+          "term": "uλu",
           "heading": false
         },
         {
-          "term": "uλu",
+          "term": "factorization",
           "heading": false
         },
         {
@@ -1668,11 +1668,11 @@
           "heading": false
         },
         {
-          "term": "factorization",
+          "term": "uλu",
           "heading": false
         },
         {
-          "term": "uλu",
+          "term": "factorization",
           "heading": false
         }
       ],
@@ -1848,15 +1848,11 @@
       },
       "keywords": [
         {
-          "term": "matrix approximation",
-          "heading": false
-        },
-        {
           "term": "fast memory",
           "heading": false
         },
         {
-          "term": "routines",
+          "term": "matrix approximation",
           "heading": false
         },
         {
@@ -1877,6 +1873,10 @@
         },
         {
           "term": "signiﬁcant",
+          "heading": false
+        },
+        {
+          "term": "dense",
           "heading": false
         }
       ],
@@ -1927,7 +1927,7 @@
           "heading": false
         },
         {
-          "term": "smooth",
+          "term": "integral",
           "heading": false
         }
       ],
@@ -2001,11 +2001,11 @@
       },
       "keywords": [
         {
-          "term": "approximating laplace",
+          "term": "laplace integral",
           "heading": false
         },
         {
-          "term": "laplace integral",
+          "term": "approximating laplace",
           "heading": false
         },
         {
@@ -2111,11 +2111,11 @@
           "heading": false
         },
         {
-          "term": "exponent",
+          "term": "eigenfaces",
           "heading": false
         },
         {
-          "term": "eigenfaces",
+          "term": "exponent",
           "heading": false
         },
         {
@@ -2452,15 +2452,15 @@
           "heading": false
         },
         {
+          "term": "conclude",
+          "heading": false
+        },
+        {
           "term": "proposition",
           "heading": false
         },
         {
           "term": "proof",
-          "heading": false
-        },
-        {
-          "term": "conclude",
           "heading": false
         }
       ],
@@ -2546,7 +2546,7 @@
           "heading": false
         },
         {
-          "term": "test matrix",
+          "term": "perturbation theory",
           "heading": false
         },
         {
@@ -2554,7 +2554,7 @@
           "heading": false
         },
         {
-          "term": "perturbation theory",
+          "term": "test matrix",
           "heading": false
         },
         {
@@ -3557,11 +3557,11 @@
           "heading": false
         },
         {
-          "term": "nearest neighbor",
+          "term": "science dept",
           "heading": false
         },
         {
-          "term": "science dept",
+          "term": "nearest neighbor",
           "heading": false
         },
         {
@@ -3632,7 +3632,7 @@
           "heading": false
         },
         {
-          "term": "randomized algorithm",
+          "term": "probabilistic analysis",
           "heading": false
         }
       ],

@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -796,7 +796,7 @@
 
 <link rel="stylesheet" href="../../../assets/css/navbar.css"><script src="../../../assets/navbar/rail-1bpxvs31vau.js" defer></script><script src="../../../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../../../assets/page-layout.css" data-fa-page-layout><script src="../../../assets/page-layout.js" defer data-fa-page-layout></script><meta name="fa-pinned-data" content="../../.."></head>
 
-<body><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../..">{"data":"rail-1bpxvs31vau","here":"/en/cat-harness/tools/","documentIndex":{"label":"On this page","icon":"§","items":[{"href":"#by-instance","label":"By instance"},{"href":"#how-they-are-invoked-and-installed","label":"How they are invoked, and installed"},{"href":"#does-every-satisfies-name-a-skill-that-exists","label":"Does every satisfies name a skill that exists?"},{"href":"#every-tool","label":"Every tool"}],"collapsible":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../">SMART Verifiable IPS for Pilgrimage</a></nav>
+<body><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../..">{"data":"rail-1bpxvs31vau","here":"/en/cat-harness/tools/","documentIndex":{"label":"On this page","icon":"§","items":[{"href":"#by-instance","label":"By instance"},{"href":"#how-they-are-invoked-and-installed","label":"How they are invoked, and installed"},{"href":"#does-every-satisfies-name-a-skill-that-exists","label":"Does every satisfies name a skill that exists?"},{"href":"#every-tool","label":"Every tool"},{"href":"#provenance","label":"Provenance"}],"collapsible":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../">SMART Verifiable IPS for Pilgrimage</a></nav>
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
   <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
   <symbol id="svg-link" viewBox="0 0 24 24">
@@ -950,10 +950,10 @@ is <code class="language-plaintext highlighter-rouge">satisfies</code>, and it r
 to do that</em>, never <em>this skill is a tool</em>.</p>
 
 <div class="tg-grid">
-<a class="tg-stat" href="#every-tool"><b>245</b><span>Tool nodes</span></a>
-<a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>103</b><span>skills satisfied</span></a>
-<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>219</b><span>invoked as a shell command</span></a>
-<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>27</b><span>reachable over MCP</span></a>
+<a class="tg-stat" href="#every-tool"><b>252</b><span>Tool nodes</span></a>
+<a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>106</b><span>skills satisfied</span></a>
+<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>223</b><span>invoked as a shell command</span></a>
+<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>30</b><span>reachable over MCP</span></a>
 </div>
 
 <h2 id="by-instance">
@@ -977,7 +977,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><a href="cat-harness/">cat-harness</a></td>
-      <td>170</td>
+      <td>175</td>
     </tr>
     <tr>
       <td><a href="cat-harness-tools/">cat-harness-tools</a></td>
@@ -985,11 +985,11 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
     </tr>
     <tr>
       <td><a href="fhir-harness/">fhir-harness</a></td>
-      <td>34</td>
+      <td>35</td>
     </tr>
     <tr>
       <td><a href="folio-assistant-core/">folio-assistant-core</a></td>
-      <td>25</td>
+      <td>26</td>
     </tr>
     <tr>
       <td><a href="smart-base/">smart-base</a></td>
@@ -1022,15 +1022,15 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><span class="tg-tag tg-shell">shell</span></td>
-      <td>219</td>
+      <td>223</td>
     </tr>
     <tr>
       <td><span class="tg-tag tg-inproc">inProcess</span></td>
-      <td>32</td>
+      <td>35</td>
     </tr>
     <tr>
       <td><span class="tg-tag tg-mcp">mcp</span></td>
-      <td>27</td>
+      <td>30</td>
     </tr>
     <tr>
       <td><span class="tg-tag tg-manual">manual</span></td>
@@ -1049,11 +1049,11 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">none</code></td>
-      <td>215</td>
+      <td>221</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">cli</code></td>
-      <td>28</td>
+      <td>29</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">container</code></td>
@@ -1074,7 +1074,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
 </h2>
     
 
-<p>Yes — all <strong>103</strong> skills named across <strong>245</strong> tools resolve to a
+<p>Yes — all <strong>106</strong> skills named across <strong>252</strong> tools resolve to a
 skill document in this checkout. A <code class="language-plaintext highlighter-rouge">satisfies</code> pointing at nothing would be a
 tool advertising a capability the graph cannot locate.</p>
 <h2 id="every-tool">
@@ -1124,7 +1124,7 @@ tool advertising a capability the graph cannot locate.</p>
     </tr>
     <tr>
       <td><a id="archimate-check"></a><a href="#archimate-check"><code class="language-plaintext highlighter-rouge">archimate-check</code></a><br />Check an instance’s ArchiMate models against its config</td>
-      <td>The gate for the <code class="language-plaintext highlighter-rouge">archimate</code> graph typology: every model <code class="language-plaintext highlighter-rouge">cat-archimate.config.json</code> names is held, parses (Archi’s native XML or its zipped archive), and resolves — every box in every view draws an element the model holds, every relationship’s ends are in the model — and no <code class="language-plaintext highlighter-rouge">.archimate</code> file is held that the config does not name.</td>
+      <td>The ArchiMate gate (graph typology <code class="language-plaintext highlighter-rouge">archimate</code>): every model an instance’s <code class="language-plaintext highlighter-rouge">cat-archimate.config.json</code> names is held, parses (Archi’s native XML or its zipped archive), and resolves — every box in every view draws an element the model holds, every relationship’s ends are in the model — and no <code class="language-plaintext highlighter-rouge">.archimate</code> file is held that the config does not name.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">archimate-models</code></td>
       <td>1 in / 1 out</td>
@@ -1275,8 +1275,8 @@ tool advertising a capability the graph cannot locate.</p>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
-      <td><a id="build-instance-site"></a><a href="#build-instance-site"><code class="language-plaintext highlighter-rouge">build-instance-site</code></a><br />Build, check and (on request) publish an instance’s own site, or a STAGING/<branch> preview</branch></td>
-      <td>From a checkout whose layers arrive by remote mount: mount the pinned closure, install, run the instance’s own gates (<code class="language-plaintext highlighter-rouge">--pre</code>), compose the harness chrome for THIS instance, run its source steps, build with Jekyll at the base path read from the git remote (<code class="language-plaintext highlighter-rouge">/&lt;repo&gt;</code>, or <code class="language-plaintext highlighter-rouge">/&lt;repo&gt;/STAGING/&lt;branch&gt;</code> for a preview), run the post-build steps (mount-instance-docs, pdf-viewer, set-html-lang, publish-id-lookup, rail-standalone-pages), and check that every relative or base-rooted link in every page resolves to a file under the site, reading each page with an HTML parser. Any failing step stops the run; a link that does not resolve means nothing is published. It never decides to publish: only <code class="language-plaintext highlighter-rouge">--publish</code> does, and then a root publish keeps <code class="language-plaintext highlighter-rouge">STAGING/</code> and <code class="language-plaintext highlighter-rouge">_render-log/</code> on the branch, and a preview replaces only its own <code class="language-plaintext highlighter-rouge">STAGING/&lt;branch&gt;/</code>.</td>
+      <td><a id="build-instance-site"></a><a href="#build-instance-site"><code class="language-plaintext highlighter-rouge">build-instance-site</code></a><br />Build, check and (on request) publish an instance’s own site, or a branches/<branch> preview</branch></td>
+      <td>From a checkout whose layers arrive by remote mount: mount the pinned closure, install, run the instance’s own gates (<code class="language-plaintext highlighter-rouge">--pre</code>), compose the harness chrome for THIS instance, run its source steps, build with Jekyll at the base path read from the git remote (<code class="language-plaintext highlighter-rouge">/&lt;repo&gt;</code>, or <code class="language-plaintext highlighter-rouge">/&lt;repo&gt;/branches/&lt;branch&gt;</code> for a preview), run the post-build steps (mount-instance-docs, pdf-viewer, set-html-lang, publish-id-lookup, rail-standalone-pages), and check that every relative or base-rooted link in every page resolves to a file under the site, reading each page with an HTML parser. Any failing step stops the run; a link that does not resolve means nothing is published. It never decides to publish: only <code class="language-plaintext highlighter-rouge">--publish</code> does, and then a root publish keeps <code class="language-plaintext highlighter-rouge">branches/</code> and <code class="language-plaintext highlighter-rouge">_render-log/</code> on the branch, and a preview replaces only its own <code class="language-plaintext highlighter-rouge">branches/&lt;branch&gt;/</code>.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">deployment-awareness</code><br /><code class="language-plaintext highlighter-rouge">remote-mount</code></td>
       <td>10 in / 2 out</td>
@@ -1295,7 +1295,7 @@ tool advertising a capability the graph cannot locate.</p>
       <td>Write one <code class="language-plaintext highlighter-rouge">folio-dublin-core/v1</code> record and one <code class="language-plaintext highlighter-rouge">folio-catalogue-node/v1</code> item per library entry that the source ledger joins to a CSL-JSON reference, into the folio’s declared <code class="language-plaintext highlighter-rouge">catalogue</code> directory, so <code class="language-plaintext highlighter-rouge">gen-library-jsonld</code> reads the title from the catalogue’s <code class="language-plaintext highlighter-rouge">dc.title</code> instead of falling to the PDF or the slug. The join is exact: a ledger row naming the entry’s <code class="language-plaintext highlighter-rouge">structure.json</code> source file, one reference id, and the same sha256 where both record one. Unjoined entries are reported and left alone. Never touches a node it did not write.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">filing-dublin-core</code></td>
-      <td>4 in / 1 out</td>
+      <td>5 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
@@ -1315,6 +1315,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
+      <td><a id="check-translation-supplements"></a><a href="#check-translation-supplements"><code class="language-plaintext highlighter-rouge">check-translation-supplements</code></a><br />Compile and check an IG’s translation CodeSystem supplements</td>
+      <td>Compile the IG’s CodeSystems with every <code class="language-plaintext highlighter-rouge">input/fsh/translations/&lt;locale&gt;.fsh</code> CodeSystem supplement in a throw-away FSHOnly SUSHI project, require 0 SUSHI errors, and check that each supplement’s base CodeSystem is the IG’s own, its codes are a subset of the base’s, its language is the file’s locale, and every CodeSystem id is unique. SUSHI is the version <code class="language-plaintext highlighter-rouge">ig-toolchain.env</code> pins, installed from <code class="language-plaintext highlighter-rouge">scripts/sushi/package-lock.json</code> with install scripts off; the FHIR core package is pinned by sha512; SUSHI runs with no network.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">fhir-validation</code></td>
+      <td>2 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
       <td><a id="check-wireframe-questionnaire"></a><a href="#check-wireframe-questionnaire"><code class="language-plaintext highlighter-rouge">check-wireframe-questionnaire</code></a><br />Check a Questionnaire field for field against the wireframe it was derived from</td>
       <td>Compare the <code class="language-plaintext highlighter-rouge">data-element</code> fields of a mid-fidelity wireframe (per <code class="language-plaintext highlighter-rouge">data-layout</code>, in document order) with the answerable items of a BUILT Questionnaire (depth first, named by <code class="language-plaintext highlighter-rouge">definition</code> or <code class="language-plaintext highlighter-rouge">code</code>). Reports a field with no item, an item with no field, an item naming no data element, a data element twice in one layout, and the first place the order differs. Fidelity, not design.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
@@ -1324,7 +1332,7 @@ tool advertising a capability the graph cannot locate.</p>
     </tr>
     <tr>
       <td><a id="ci-health"></a><a href="#ci-health"><code class="language-plaintext highlighter-rouge">ci-health</code></a><br />Is CI passing on the default branch?</td>
-      <td>Report each workflow’s state on the default branch, which a checkout cannot see: a red workflow looks exactly like a green one from in here. One API call over the recent run history, not one request per workflow, so it stays inside the unauthenticated 60/hr limit.</td>
+      <td>Report each workflow’s state on the default branch, which a checkout cannot see: a red workflow looks exactly like a green one from in here. One API call over the recent run history, not one request per workflow, so it stays inside the unauthenticated 60/hr limit and stays usable at session start.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">ci-health</code></td>
       <td>3 in / 1 out</td>
@@ -1356,7 +1364,7 @@ tool advertising a capability the graph cannot locate.</p>
     </tr>
     <tr>
       <td><a id="content-graph-build"></a><a href="#content-graph-build"><code class="language-plaintext highlighter-rouge">content-graph-build</code></a><br />Content graph</td>
-      <td>Build the content graph under a path and report its edges, separated into the EDITORIAL relation an author maintains and the FORMAL one derived from Lean.</td>
+      <td>Build the content graph under a path and report its edges, separated into the EDITORIAL relation an author maintains and the FORMAL one derived from Lean, never as one number, because a single count lets the formal edges overwrite the editorial signal.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">content-validate</code></td>
       <td>2 in / 1 out</td>
@@ -1484,7 +1492,7 @@ tool advertising a capability the graph cannot locate.</p>
     </tr>
     <tr>
       <td><a id="feature-staging"></a><a href="#feature-staging"><code class="language-plaintext highlighter-rouge">feature-staging</code></a><br />Stage a branch’s preview</td>
-      <td>Publish a branch’s built site to <code class="language-plaintext highlighter-rouge">STAGING/&lt;slug&gt;/</code> on the publish branch, so a reviewer compares a rendered before and after rather than a description of one. Stamps the commit SHA, and removes the preview when its pull request closes.</td>
+      <td>Publish a branch’s built site to <code class="language-plaintext highlighter-rouge">branches/&lt;slug&gt;/</code> on the publish branch, so a reviewer compares a rendered before and after rather than a description of one. Stamps the commit SHA, and removes the preview when its pull request closes.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">feature-staging</code></td>
       <td>3 in / 1 out</td>
@@ -1620,7 +1628,7 @@ tool advertising a capability the graph cannot locate.</p>
     </tr>
     <tr>
       <td><a id="gh-pages"></a><a href="#gh-pages"><code class="language-plaintext highlighter-rouge">gh-pages</code></a><br />GitHub Pages (gh-pages)</td>
-      <td>Push a rendered Knowledge Graph to GitHub Pages at a publication root URL — a staging preview (<code class="language-plaintext highlighter-rouge">STAGING/&lt;slug&gt;/</code>) or the release root, the same steps either way — and report the push: a status (pushed, not pushed, could not determine) and one message carrying the commit merged onto <code class="language-plaintext highlighter-rouge">gh-pages</code> and the QA result. Its steps are bootstrap-tools’ <code class="language-plaintext highlighter-rouge">render-kg-to-github-pages</code> process, which first provisions the target: an orphan <code class="language-plaintext highlighter-rouge">gh-pages</code> branch, then Pages switched on to serve it.</td>
+      <td>Push a rendered Knowledge Graph to GitHub Pages at a publication root URL — a staging preview (<code class="language-plaintext highlighter-rouge">branches/&lt;slug&gt;/</code>) or the release root, the same steps either way — and report the push: a status (pushed, not pushed, could not determine) and one message carrying the commit merged onto <code class="language-plaintext highlighter-rouge">gh-pages</code> and the QA result. Its steps are bootstrap-tools’ <code class="language-plaintext highlighter-rouge">render-kg-to-github-pages</code> process, which first provisions the target: an orphan <code class="language-plaintext highlighter-rouge">gh-pages</code> branch, then Pages switched on to serve it.</td>
       <td><span class="tg-tag tg-manual">manual</span></td>
       <td><code class="language-plaintext highlighter-rouge">render-kg-to-cdn</code></td>
       <td>4 in / 2 out</td>
@@ -1932,7 +1940,7 @@ tool advertising a capability the graph cannot locate.</p>
     </tr>
     <tr>
       <td><a id="ig-repo-site"></a><a href="#ig-repo-site"><code class="language-plaintext highlighter-rouge">ig-repo-site</code></a><br />Build an IG repository’s own site from its cached AST, with no instance declaration</td>
-      <td>The three checkout scripts the platform’s site build runs for a repository that holds an IG and only mounts layers (<code class="language-plaintext highlighter-rouge">index.config.json</code>): <code class="language-plaintext highlighter-rouge">ig-site:ast</code> restores the AST from the IG’s cache branch (<code class="language-plaintext highlighter-rouge">ig-cache.sh restore</code>) and judges it, refusing a stale, cannot-tell or absent one (a stale one is accepted for a preview with <code class="language-plaintext highlighter-rouge">SITE_ACCEPT_STALE_AST=1</code>); <code class="language-plaintext highlighter-rouge">ig-site:compose</code> derives the artefact index from the AST (binding any IG API sidecars a layer above left in <code class="language-plaintext highlighter-rouge">$SITE_WORK/ig-api/</code>), writes the thin artefact pages, stages the IG’s <code class="language-plaintext highlighter-rouge">input/</code> and <code class="language-plaintext highlighter-rouge">sushi-config.yaml</code> (menu read at build time, palette from the webpage theme of the top layer the repository mounts, edit links from its origin) and composes it at the ROOT of the host site source; <code class="language-plaintext highlighter-rouge">ig-site:publisher-pages</code> serves the AST’s resources (<code class="language-plaintext highlighter-rouge">ast-data/</code> and <code class="language-plaintext highlighter-rouge">&lt;Type&gt;-&lt;id&gt;.json</code>), the artefact index and the sidecars, refuses a page wearing the IG Publisher’s chrome, repairs repeated element ids and stamps <code class="language-plaintext highlighter-rouge">folio-build.json</code>. Never runs the Publisher and never reads its output. Compose lists the pages it puts in the site in <code class="language-plaintext highlighter-rouge">FOLIO_SITE_UPSTREAM_PAGES</code>, so the site build reports the IG’s own dead links rather than refusing the publish over them.</td>
+      <td>The three checkout scripts the platform’s site build runs for a repository that holds an IG and only mounts layers (<code class="language-plaintext highlighter-rouge">index.config.json</code>): <code class="language-plaintext highlighter-rouge">ig-site:ast</code> restores the AST from the IG’s cache branch (<code class="language-plaintext highlighter-rouge">ig-cache.sh restore</code>) and judges it, refusing a stale, cannot-tell or absent one (a stale one is accepted for a preview by default, refused with <code class="language-plaintext highlighter-rouge">SITE_ACCEPT_STALE_AST=0</code>, and never accepted for the root); <code class="language-plaintext highlighter-rouge">ig-site:compose</code> derives the artefact index from the AST (binding any IG API sidecars a layer above left in <code class="language-plaintext highlighter-rouge">$SITE_WORK/ig-api/</code>), writes the thin artefact pages, stages the IG’s <code class="language-plaintext highlighter-rouge">input/</code> and <code class="language-plaintext highlighter-rouge">sushi-config.yaml</code> (menu read at build time, palette from the webpage theme of the top layer the repository mounts, edit links from its origin) and composes it at the ROOT of the host site source; <code class="language-plaintext highlighter-rouge">ig-site:publisher-pages</code> serves the AST’s resources (<code class="language-plaintext highlighter-rouge">ast-data/</code> and <code class="language-plaintext highlighter-rouge">&lt;Type&gt;-&lt;id&gt;.json</code>), the artefact index and the sidecars, refuses a page wearing the IG Publisher’s chrome, repairs repeated element ids and stamps <code class="language-plaintext highlighter-rouge">folio-build.json</code>. Never runs the Publisher and never reads its output. Compose lists the pages it puts in the site in <code class="language-plaintext highlighter-rouge">FOLIO_SITE_UPSTREAM_PAGES</code>, so the site build reports the IG’s own dead links rather than refusing the publish over them.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">ig-build-pipeline</code></td>
       <td>4 in / 1 out</td>
@@ -1996,7 +2004,7 @@ tool advertising a capability the graph cannot locate.</p>
     </tr>
     <tr>
       <td><a id="instantiate-harness"></a><a href="#instantiate-harness"><code class="language-plaintext highlighter-rouge">instantiate-harness</code></a><br />Instantiate a harness over a repository that has none: pin, mount, open the setup-only PR, render the preview</td>
-      <td>The scripted step of the initiation process (getting-started.bpmn, the repo-conversion skill §4). Reads the harness’s declaration at its pin and every <code class="language-plaintext highlighter-rouge">needs</code>, transitively (a need beside the instance that needs it unless –repo-of says otherwise, at its default branch’s tip unless –pin says otherwise, its declaration’s name checked), seeds them all into the repository’s index.config.json with the consent given (<code class="language-plaintext highlighter-rouge">remote-mount --seed --whole</code>), sets <code class="language-plaintext highlighter-rouge">site.landing</code> to the harness, <code class="language-plaintext highlighter-rouge">site.agentRun</code> and <code class="language-plaintext highlighter-rouge">mountApprovers</code>, mounts the closure (<code class="language-plaintext highlighter-rouge">remote-mount</code>: index.lock.json and the .gitignore mounts block), installs it as root workspaces with the hoisted linker, re-renders the agent surface from the mounted generators, runs the harness’s <code class="language-plaintext highlighter-rouge">instantiate:&lt;harness&gt;</code> checkout script when a mounted layer declares it, and commits on a branch (default harness/<harness>). Then, unless --local, pushes the branch, provisions gh-pages when absent (`pages-bootstrap --provision`), opens the setup-only PR, runs `prepare:<harness>` when declared (what the site is built from and nobody commits, such as an IG's AST) and renders the branch's preview at gh-pages STAGING/<branch>/ (`stage-local`); with --local the site is built and composed and nothing is pushed. It imports only node:*, so it runs from a fresh clone of cat-harness-tools before anything is mounted: it lays the platform's own closure, at the pins the repository will mount, into a temporary root to run the mount from. On a repository with nothing mounted yet, run the same file from a fresh clone: `git clone --depth 1 https://github.com/litlfred/cat-harness-tools /tmp/cht &amp;&amp; bun run /tmp/cht/scripts/instantiate-harness.ts …`. Two more flags, not declared as ports because no constrained type carries them yet: `--pin <name>=<sha>` pins one instance of the closure, `--repo-of <name>=&lt;owner/repo&gt;` says where a need lives.</name></sha></name></branch></harness></harness></td>
+      <td>The scripted step of the initiation process (getting-started.bpmn, the repo-conversion skill §4). Reads the harness’s declaration at its pin and every <code class="language-plaintext highlighter-rouge">needs</code>, transitively (a need beside the instance that needs it unless –repo-of says otherwise, at its default branch’s tip unless –pin says otherwise, its declaration’s name checked), seeds them all into the repository’s index.config.json with the consent given (<code class="language-plaintext highlighter-rouge">remote-mount --seed --whole</code>), sets <code class="language-plaintext highlighter-rouge">site.landing</code> to the harness, <code class="language-plaintext highlighter-rouge">site.agentRun</code> and <code class="language-plaintext highlighter-rouge">mountApprovers</code>, mounts the closure (<code class="language-plaintext highlighter-rouge">remote-mount</code>: index.lock.json and the .gitignore mounts block), installs it as root workspaces with the hoisted linker, re-renders the agent surface from the mounted generators, runs the harness’s <code class="language-plaintext highlighter-rouge">instantiate:&lt;harness&gt;</code> checkout script when a mounted layer declares it, and commits on a branch (default harness/<harness>). Then, unless --local, pushes the branch, provisions gh-pages when absent (`pages-bootstrap --provision`), opens the setup-only PR, runs `prepare:<harness>` when declared (what the site is built from and nobody commits, such as an IG's AST) and renders the branch's preview at gh-pages branches/<branch>/ (`stage-local`); with --local the site is built and composed and nothing is pushed. It imports only node:*, so it runs from a fresh clone of cat-harness-tools before anything is mounted: it lays the platform's own closure, at the pins the repository will mount, into a temporary root to run the mount from. On a repository with nothing mounted yet, run the same file from a fresh clone: `git clone --depth 1 https://github.com/litlfred/cat-harness-tools /tmp/cht &amp;&amp; bun run /tmp/cht/scripts/instantiate-harness.ts …`. Two more flags, not declared as ports because no constrained type carries them yet: `--pin <name>=<sha>` pins one instance of the closure, `--repo-of <name>=&lt;owner/repo&gt;` says where a need lives.</name></sha></name></branch></harness></harness></td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">remote-mount</code><br /><code class="language-plaintext highlighter-rouge">repo-conversion</code></td>
       <td>8 in / 1 out</td>
@@ -2007,6 +2015,22 @@ tool advertising a capability the graph cannot locate.</p>
       <td>Render who-iris’s docs pages, the catalogue visualiser at its declared route (what the catalogue knows, and what it records that it does not know), the library’s withheld list, and the IRIS replica’s home page.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">graph-rendering</code></td>
+      <td>2 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="journey-refs"></a><a href="#journey-refs"><code class="language-plaintext highlighter-rouge">journey-refs</code></a><br />Every reference a journey or a workshop names resolves</td>
+      <td>Read every <code class="language-plaintext highlighter-rouge">user-scenario</code> and <code class="language-plaintext highlighter-rouge">workshop</code> node in the checkout through the instances’ declared directories, with the journeys viewer’s own resolver, and resolve what each names: actors (<code class="language-plaintext highlighter-rouge">personas</code>, a step’s <code class="language-plaintext highlighter-rouge">lead</code>, <code class="language-plaintext highlighter-rouge">experiences[].actor</code>, <code class="language-plaintext highlighter-rouge">handoff.from</code>/<code class="language-plaintext highlighter-rouge">to</code>, <code class="language-plaintext highlighter-rouge">illustrationStyle.cast[].actor</code>), user stories, <code class="language-plaintext highlighter-rouge">realisedBy</code> BPMN files (instance-relative) and the element ids in them, <code class="language-plaintext highlighter-rouge">uses</code> blocks in a directory declaring <code class="language-plaintext highlighter-rouge">building-blocks</code>, <code class="language-plaintext highlighter-rouge">req:</code> requirements, FHIR examples and a step’s <code class="language-plaintext highlighter-rouge">dak</code> assets (data sets, decision tables, indicators) in a <code class="language-plaintext highlighter-rouge">fhir-artifact-index</code> (could not determine while the index is built at publish), <code class="language-plaintext highlighter-rouge">illustration.src</code> files, <code class="language-plaintext highlighter-rouge">follows</code>/<code class="language-plaintext highlighter-rouge">partOf</code>/<code class="language-plaintext highlighter-rouge">parts</code>/<code class="language-plaintext highlighter-rouge">includes</code> journeys (parts and includes forming no cycle; an <code class="language-plaintext highlighter-rouge">includes</code> held against the call activity its step’s <code class="language-plaintext highlighter-rouge">realisedBy</code> names, could not determine when the call names no process), the <code class="language-plaintext highlighter-rouge">trustLadder</code> code list and each <code class="language-plaintext highlighter-rouge">record.state</code> code of it, and ArchiMate <code class="language-plaintext highlighter-rouge">views</code>; and each workshop’s <code class="language-plaintext highlighter-rouge">scenarios</code>, <code class="language-plaintext highlighter-rouge">steps[]</code> <code class="language-plaintext highlighter-rouge">{scenario, step}</code> and <code class="language-plaintext highlighter-rouge">&lt;scenario&gt;#&lt;step&gt;</code> refs; each device screen’s <code class="language-plaintext highlighter-rouge">owner</code> and <code class="language-plaintext highlighter-rouge">personCard</code> actors, its <code class="language-plaintext highlighter-rouge">steps[]</code> <code class="language-plaintext highlighter-rouge">{scenario, step}</code>, and the FHIR examples its <code class="language-plaintext highlighter-rouge">qr</code> and <code class="language-plaintext highlighter-rouge">recordList</code> blocks name; and every persona’s <code class="language-plaintext highlighter-rouge">avatar</code> image path. Every journey is a DAK user scenario (the kind <code class="language-plaintext highlighter-rouge">specialises</code> it): its DAK personas, the roles its persona actors play, must be non-empty and each a declared role; a persona may be an actor or (0.4.0) a role. What is derived is not also written: a listed part’s <code class="language-plaintext highlighter-rouge">follows</code> or <code class="language-plaintext highlighter-rouge">partOf</code>, personas equal to the parts’, a lead equal to the lanes’ first actor, are each a redundant finding, and a 0.4.0 step with no experiences whose lanes no persona plays is a finding. A node that does not parse is a finding. One line per finding, naming the instance, file and step. Exit 0 every reference resolves (or no instance holds a journey or a workshop, which is said); 1 one does not; 2 the declarations could not be read.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">journey-maps</code></td>
+      <td>2 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="journeys-viewer"></a><a href="#journeys-viewer"><code class="language-plaintext highlighter-rouge">journeys-viewer</code></a><br />Journeys viewer</td>
+      <td>Draw every journey (<code class="language-plaintext highlighter-rouge">user-scenario</code>) and workshop (<code class="language-plaintext highlighter-rouge">workshop</code>) in the checkout as static pages at the route of the visualiser an instance declares for this Tool, <code class="language-plaintext highlighter-rouge">&lt;locale&gt;/&lt;instance&gt;/&lt;id&gt;/</code>: an index of all journeys, grouped by instance (each a sub-graph page), each parent’s <code class="language-plaintext highlighter-rouge">parts</code> nested under it in its order with optional and repeating parts marked (an older file’s <code class="language-plaintext highlighter-rouge">partOf</code> children after them, ordered along <code class="language-plaintext highlighter-rouge">follows</code>), and a plain DAK user scenario with no steps listed as one; one page per journey, its parts in order and the journeys it is a part of, a journey map with a lane and a feeling curve per persona, then each step, linked to the journey it <code class="language-plaintext highlighter-rouge">includes</code>, with its BPMN drawing (the step’s flow nodes highlighted), user stories, requirements, FHIR examples, building blocks, the DAK assets it uses (data sets, decision tables and indicators, linked into the IG) and ArchiMate views; and the workshop layer, the questions for the room on each step, a page per workshop and per module, job aids, and printable A3/A4 sheets; and each device screen (<code class="language-plaintext highlighter-rouge">device-screen</code>) that shows a step a workshop presents, drawn as a static device mock (phone, tablet, scanner, desktop, kiosk) with its owner beside it, in the workshop’s Device Demo, linked both ways with the walkthrough. A persona’s picture (<code class="language-plaintext highlighter-rouge">meta.persona.avatar</code>) is drawn wherever the persona appears. Instances below the declaring one are read through their declarations, so a downstream site shows the journeys of the layers it mounts too.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">journey-maps</code></td>
       <td>2 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
@@ -2176,6 +2200,30 @@ tool advertising a capability the graph cannot locate.</p>
       <td><span class="tg-tag tg-manual">manual</span></td>
       <td><code class="language-plaintext highlighter-rouge">deployment-auth</code></td>
       <td>0 in / 0 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="memory-checkpoint"></a><a href="#memory-checkpoint"><code class="language-plaintext highlighter-rouge">memory-checkpoint</code></a><br />Keep where the work stands</td>
+      <td>Before you stop or hand over, keep where the work stands: what is done, what is next, and anything the next person must know to carry on.</td>
+      <td><span class="tg-tag tg-inproc">inProcess</span> <span class="tg-tag tg-mcp">mcp</span></td>
+      <td><code class="language-plaintext highlighter-rouge">work-context</code></td>
+      <td>2 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="memory-note"></a><a href="#memory-note"><code class="language-plaintext highlighter-rouge">memory-note</code></a><br />Keep a note on the work</td>
+      <td>Keep a short note on the work you are doing — what you did, what you decided and why, and what is left open — so it is there when the work is picked up again.</td>
+      <td><span class="tg-tag tg-inproc">inProcess</span> <span class="tg-tag tg-mcp">mcp</span></td>
+      <td><code class="language-plaintext highlighter-rouge">work-context</code></td>
+      <td>2 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="memory-recall"></a><a href="#memory-recall"><code class="language-plaintext highlighter-rouge">memory-recall</code></a><br />Read what was kept</td>
+      <td>Read what has been kept about this work so far, oldest first, so you can start where the last person stopped.</td>
+      <td><span class="tg-tag tg-inproc">inProcess</span> <span class="tg-tag tg-mcp">mcp</span></td>
+      <td><code class="language-plaintext highlighter-rouge">work-context</code></td>
+      <td>1 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
@@ -2395,6 +2443,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
+      <td><a id="publish-extracted-statements"></a><a href="#publish-extracted-statements"><code class="language-plaintext highlighter-rouge">publish-extracted-statements</code></a><br />Publish extracted statements with source links</td>
+      <td>Render each declared page (a <code class="language-plaintext highlighter-rouge">folio-statement-page/v1</code> spec naming <code class="language-plaintext highlighter-rouge">folio-extracted-statements/v1</code> lists) as Markdown: every statement extracted from a library source, verbatim, with its kind and status, linked to its library entry and to the section it came from, labelled in the source’s own unit (“Catch up schedule, slide 7”). A statement whose source does not resolve fails the run and nothing is written. <code class="language-plaintext highlighter-rouge">--check</code> fails when a committed page is stale.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">publish-extracted-statements</code></td>
+      <td>3 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
       <td><a id="qa-sweep"></a><a href="#qa-sweep"><code class="language-plaintext highlighter-rouge">qa-sweep</code></a><br />QA sweep</td>
       <td>Run every registered criterion over the blocks under a path and write a per-block QA sidecar. A sidecar rather than a console report, because a printed verdict cannot distinguish “never checked” from “checked and clean”.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
@@ -2468,10 +2524,10 @@ tool advertising a capability the graph cannot locate.</p>
     </tr>
     <tr>
       <td><a id="review-log-watch"></a><a href="#review-log-watch"><code class="language-plaintext highlighter-rouge">review-log-watch</code></a><br />Check a review log and its repository’s issues for changes</td>
-      <td>The mechanical check a review-log watcher runs on every poll. Given a drafting sheet’s Contributor Feedback values and the folio repository, it reads the repository’s open and closed issues (leaving out pull requests, issues labelled <code class="language-plaintext highlighter-rouge">no-sheet</code> and, with <code class="language-plaintext highlighter-rouge">--author</code>, issues someone else opened) and compares a digest of them and of the cells people set (Title, Selected Sections, Contributor Feedback, Disposition, Ready for agent, Ready for merge, Dispositions confirmed) with the last check’s. Unchanged: it prints <code class="language-plaintext highlighter-rouge">{"status":"unchanged"}</code> and exits 0. Changed: it exits 10 and lists what changed (issue opened, updated or closed; a cell’s old and new text), the Contributor Feedback rows to append, one per issue that no row’s Issue cell links yet (Title the issue’s title, the first Contributor Feedback column <code class="language-plaintext highlighter-rouge">@login (#N): first paragraph</code>, Issue the issue’s URL; a closed issue’s row marked <code class="language-plaintext highlighter-rouge">closed</code>), and <code class="language-plaintext highlighter-rouge">closedRows</code>, the rows linking a closed issue, which the watcher hides with their text struck through. It writes no sheet and no issue: the watcher appends the rows and does the agent pass. With <code class="language-plaintext highlighter-rouge">--accept</code> it stores the new state for the next poll to compare against.</td>
+      <td>The mechanical check a review-log watcher runs on every poll. Given a drafting sheet’s Contributor Feedback values and the folio repository, it reads the repository’s open and closed issues (leaving out pull requests, issues labelled <code class="language-plaintext highlighter-rouge">no-sheet</code> and, with <code class="language-plaintext highlighter-rouge">--author</code>, issues someone else opened) and compares a digest of them and of the cells people set (Title, Selected Sections, Contributor Feedback, Disposition, Ready for agent, Ready for merge, Dispositions confirmed; on a public-comment log also Committee Feedback, TWG (CS), TWG (human) and Change Set (human)) with the last check’s. Unchanged: it prints <code class="language-plaintext highlighter-rouge">{"status":"unchanged"}</code> and exits 0. Changed: it exits 10 and lists what changed (issue opened, updated or closed; a cell’s old and new text), the Contributor Feedback rows to append, one per issue that no row’s Issue cell links yet (Title the issue’s title, the first Contributor Feedback column <code class="language-plaintext highlighter-rouge">@login (#N): first paragraph</code>, Issue the issue’s URL; a closed issue’s row marked <code class="language-plaintext highlighter-rouge">closed</code>), and <code class="language-plaintext highlighter-rouge">closedRows</code>, the rows linking a closed issue, which the watcher hides with their text struck through. A read with no Issue column (a public-comment log’s Review Change Sets) tracks only issues labelled <code class="language-plaintext highlighter-rouge">change-set</code> unless <code class="language-plaintext highlighter-rouge">--label</code> says otherwise, and appends no rows: each open issue is reported as an <code class="language-plaintext highlighter-rouge">issue-unlinked</code> change instead. It writes no sheet and no issue: the watcher appends the rows and does the agent pass. With <code class="language-plaintext highlighter-rouge">--accept</code> it stores the new state for the next poll to compare against.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">review-log-watch</code></td>
-      <td>7 in / 1 out</td>
+      <td>8 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
@@ -3055,11 +3111,671 @@ tool advertising a capability the graph cannot locate.</p>
       <td>Open an instance of a process for a subject. Idempotent: an existing instance for the same subject is returned rather than duplicated.</td>
       <td><span class="tg-tag tg-inproc">inProcess</span> <span class="tg-tag tg-mcp">mcp</span></td>
       <td><code class="language-plaintext highlighter-rouge">bean-coordination</code><br /><code class="language-plaintext highlighter-rouge">process-state</code></td>
-      <td>3 in / 1 out</td>
+      <td>4 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
   </tbody>
 </table></div>
+<h2 id="provenance">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Provenance
+  
+  
+</h2>
+    
+
+<p>Who decided, when, and under which work item, for the 35 tool(s) whose provenance log has entries. Open a tool to read its record.</p>
+
+<div class="fa-provenance-items">
+<details class="fa-provenance fa-provenance-item" id="provenance-agent-memory" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>agent-memory</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean 31ni</code></span><div class="fa-provenance-text">Other vendors (Gemini CLI, Copilot, Codex, Cursor) are beaned under <code>31ni</code> and not generated.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-archimate-actors" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>archimate-actors</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="owner-decision"><span class="fa-provenance-kind">owner-decision</span> <span class="fa-provenance-refs"><code>smart-ra#166</code> <code>2026-11-01</code></span><div class="fa-provenance-text">Actors come first (owner, 2026-11-01, smart-ra#166 D4): the IG&#39;s ActorDefinitions are written from the DAK&#39;s personas, and an ArchiMate model only points at them.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-bpmn-checklist" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>bpmn-checklist</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.io.outputs[0].description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="owner-decision"><span class="fa-provenance-kind">owner-decision</span> <span class="fa-provenance-refs"><code>2026-10-14</code></span><div class="fa-provenance-text">One committed <code>&lt;stem&gt;.checklist.md</code> per diagram in every instance, beside its <code>.bpmn</code> (owner, 2026-10-14: commit them).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-build-instance-site" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>build-instance-site</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean 53rv</code></span><div class="fa-provenance-text">A FHIR IG&#39;s site (the IG pipeline layer&#39;s <code>stage-ig-sites</code>) is not built here yet; it needs the IG&#39;s FHIR packages, which some environments cannot reach (bean <code>53rv</code>).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-ci-health" data-fa-provenance-count="2">
+  <summary class="fa-provenance-summary"><code>ci-health</code> (2)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.when
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span> <span class="fa-provenance-refs"><code>bean xom7</code></span><div class="fa-provenance-text">Before trusting ANY workflow&#39;s outcome, and at session start. A workflow&#39;s result is invisible from a checkout, which is how <code>docs-site.yml</code> failed 30 consecutive runs over two months with nothing in the repository saying so (bean <code>xom7</code>).</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean 1xhc</code></span><div class="fa-provenance-text">A REFUSED OR FAILING API CALL EXITS 2 AND IS NEVER GREEN: could-not-look must stay distinguishable from looked-and-it-was-fine, and bean <code>1xhc</code> has a case where this printed green while <code>main</code> was red because an unsettled newest run was dropped.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-compose-docs" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>compose-docs</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="issue"><span class="fa-provenance-kind">issue</span> <span class="fa-provenance-refs"><code>#2235</code></span><div class="fa-provenance-text"><code>--shell</code> writes the CHROME only — the layers&#39; Jekyll machinery and assets, no page, no instance, and the host&#39;s generated includes empty — which an IG repository composes its IG into so its own site wears the main site&#39;s chrome (#2235).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-declaration-resolution" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>declaration-resolution</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="proposal"><span class="fa-provenance-kind">proposal</span> <span class="fa-provenance-refs"><code>lesson 6</code></span><div class="fa-provenance-text">Read every instance declaration in the checkout and resolve what it names: <code>directories</code> (and those declared from within) through <code>check:declared-dirs</code>, <code>assets</code> through <code>check:declared-assets</code>, <code>visualisers[].renderedBy</code> through <code>check:visualiser-routes</code>, <code>needs</code> through the instance-graph resolver, and <code>visualisers[].coversKinds</code> against the graph typologies registered IN THIS CHECKOUT — its own and those a mounted layer contributes, read from the checkout under inspection rather than from where the harness module sits (lesson 6).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-feature-staging" data-fa-provenance-count="3">
+  <summary class="fa-provenance-summary"><code>feature-staging</code> (3)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.io.inputs[1].description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean w2g5</code></span><div class="fa-provenance-text">DELETION: the <code>branches/&lt;slug&gt;</code> to remove, instead of staging anything. It exists because the label path cannot reach the previews the health sweep reports — being findable as an orphan REQUIRES the pull request to be closed, so the close event has already fired with no label (bean <code>w2g5</code>).</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean plj1</code></span><div class="fa-provenance-text">The removal arm is guarded THREE ways, and the guards are the point rather than ceremony: <code>workflow_dispatch</code> is available only to an actor with write access; <code>cleanup_confirm</code> must repeat the slug exactly; and the removal is preflighted at removal time against the same liveness signals the health sweep uses. That is <code>deletion-requires-confirmation</code> applied to the tool most able to break it — bean <code>plj1</code> is a workflow whose shape deleted every open pull request&#39;s preview without anybody deciding it. This node does not claim that skill, because implementing the discipline once is not the same as stating it.</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.cost
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span> <span class="fa-provenance-refs"><code>bean xd1s</code></span><div class="fa-provenance-text">Concurrency is keyed on the branch or the cleanup slug, NOT the shared ref, so two cleanups of different previews no longer cancel each other (bean <code>xd1s</code>).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-gates" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>gates</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.when
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="issue"><span class="fa-provenance-kind">issue</span> <span class="fa-provenance-refs"><code>#363</code></span><div class="fa-provenance-text">It matters most where CI is not: <code>tools/</code> is an INHERITED declaration and <code>.github/workflows/</code> is not, so a downstream instance gets this Tool and none of the gates it names. #363&#39;s self-sovereign topology has no CI at all.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-gates-merged" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>gates-merged</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="owner-decision"><span class="fa-provenance-kind">owner-decision</span><div class="fa-provenance-text">The merge queue (<code>merge_group:</code> on the gating workflows, switched on by the owner) is what closes that last gap.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-gh-pages" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>gh-pages</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean plj1</code></span><div class="fa-provenance-text">Pages cannot serve server-side redirects or custom headers, and a full-replace push to the <code>gh-pages</code> branch deletes what the build did not produce unless the caller restores it first (<code>docs-site-publish</code>, bean plj1).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-ig-folio-site-workflow" data-fa-provenance-count="3">
+  <summary class="fa-provenance-summary"><code>ig-folio-site-workflow</code> (3)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.when
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span> <span class="fa-provenance-refs"><code>2026-10-14</code> <code>https://github.com/litlfred/cat-harness-tools/pull/202</code></span><div class="fa-provenance-text">A pipeline that still carries <code>folio-site.yml</code> and builds on a runner rather than in the agent&#39;s checkout (smart-base&#39;s default branch carried it on 2026-10-14). Since https://github.com/litlfred/cat-harness-tools/pull/202 <code>stage-local</code> gives an IG the same site — theme side bar and search, served directories, stamp — so this is no longer the only route to them.</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="owner-decision"><span class="fa-provenance-kind">owner-decision</span> <span class="fa-provenance-refs"><code>2026-10-14</code></span><div class="fa-provenance-text">The current agent pipeline does not use it (owner, 2026-10-14).</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.cost
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span> <span class="fa-provenance-refs"><code>2026-10-12</code></span><div class="fa-provenance-text">One runner job, 8 to 15 minutes measured on 2026-10-12, plus GitHub&#39;s Pages deploy.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-ingest-extended" data-fa-provenance-count="2">
+  <summary class="fa-provenance-summary"><code>ingest-extended</code> (2)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean 68dt</code> <code>bean 5rfy</code></span><div class="fa-provenance-text">It adds nothing for archives, spreadsheets or metadata — <code>ingest-stdlib</code> already does those, and does them where this cannot run. Its PDF rungs ARE testable in CI as of <code>68dt</code>, which installs the lean set; the table rung (<code>pdf-tables.py</code>, camelot) is the one part that still is not, and anything gated on THAT remains a path CI cannot exercise — the <code>5rfy</code> defect.</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.cost
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span> <span class="fa-provenance-refs"><code>2026-09-20</code></span><div class="fa-provenance-text">Measured 2026-09-20: the lean set is 144 MB and CI installs it, so the PDF rungs ARE exercised there now. <code>camelot-py</code> for <code>pdf-tables.py</code> is the part CI still skips — 912 KB itself, but 323 MB with numpy, pandas and OpenCV, more than the whole lean set.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-kg-validate" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>kg-validate</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.when
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span> <span class="fa-provenance-refs"><code>#363</code></span><div class="fa-provenance-text">Whenever a node&#39;s shape matters and you are not in this repository&#39;s CI. That is the case the tool exists for: <code>tools/</code> is an INHERITED declaration and <code>.github/workflows/</code> is not, so a downstream instance gets this and gets none of the 41 gates. #363&#39;s self-sovereign topology has no CI to inherit from at all.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-mcp-capture" data-fa-provenance-count="2">
+  <summary class="fa-provenance-summary"><code>mcp-capture</code> (2)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.when
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean ce65</code></span><div class="fa-provenance-text">Also the source data for migrating <code>src/tools/</code> into Tool nodes (bean <code>ce65</code>).</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span><div class="fa-provenance-text">INTROSPECTION, deliberately, not source parsing. The first attempt read <code>server.tool(...)</code> with a regex and produced wrong input lists — words followed by a colon inside a DESCRIPTION came back as parameter names, so <code>skill_fetch</code> appeared to take <code>Examples</code> and <code>Local</code>. Authoring a node&#39;s <code>io</code> from that would ship a contract agreeing with nothing, which is worse than no contract because a contract is what the next check trusts.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-merge-overlap" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>merge-overlap</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="proposal"><span class="fa-provenance-kind">proposal</span> <span class="fa-provenance-refs"><code>requirements T3</code></span><div class="fa-provenance-text">Paths, not semantics (requirements T3): two PRs that change different files can still interact, which the shared-declaration list only partly covers.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-merge-train" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>merge-train</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.cost
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span> <span class="fa-provenance-refs"><code>2026-10-02</code></span><div class="fa-provenance-text">One <code>merge-base.ts</code> per member (seconds each), then one regen (5-13 min measured 2026-10-02) and the three checks; a second regen if main had generated conflicts.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-mount-from-lock" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>mount-from-lock</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="issue"><span class="fa-provenance-kind">issue</span> <span class="fa-provenance-refs"><code>#2518</code></span><div class="fa-provenance-text">It lives in cat-harness, which is itself a mounted layer once separated, so it cannot bootstrap a checkout that does not already hold cat-harness. The parent must carry its own dependency-free entry point that fetches this script at the pin (folio-assistant&#39;s <code>.github/mount-from-lock.sh</code>, #2518) — never call this path directly from a workflow in a repository that mounts cat-harness.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-narrative-queue" data-fa-provenance-count="2">
+  <summary class="fa-provenance-summary"><code>narrative-queue</code> (2)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.when
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span><div class="fa-provenance-text">To find out what is waiting on a person, or to discover that this queue exists at all — which was the actual gap. Before this node, <code>grep narrative tools/*.ts</code> returned nothing, so an agent asking the graph how a person confirms a narrative got no answer, and that is exactly the population the command is for.</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span><div class="fa-provenance-text">That refusal is load-bearing rather than defensive — driving the CLI in an agent container once wrote <code>&quot;rejected_by&quot;: {&quot;kind&quot;: &quot;human&quot;, &quot;id&quot;: &quot;Claude&quot;}</code>, because <code>git config user.name</code> is the agent&#39;s and the schema could not tell. So this node deliberately does not offer the confirming arms: an agent may read the queue and must not answer it. A rejection with no reason is refused too, not defaulted, because one lets the next agent redraft the identical thing.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-navbar-include" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>navbar-include</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="issue"><span class="fa-provenance-kind">issue</span> <span class="fa-provenance-refs"><code>#2235</code></span><div class="fa-provenance-text">With <code>--instance</code>, render the navbar of an IG repository&#39;s OWN site instead — that instance first, then what it needs; its own pages at this site&#39;s root, every other link to the main site at <code>--link-root</code> — into the shell that site is built from (#2235).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-node-kind-pages" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>node-kind-pages</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="issue"><span class="fa-provenance-kind">issue</span> <span class="fa-provenance-refs"><code>#2195</code></span><div class="fa-provenance-text">Render a page for every node kind, every harness holding nodes of it, and every node, under /&lt;locale&gt;/&lt;declaring&gt;/&lt;kind&gt;/ (issue #2195).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-readme-sync" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>readme-sync</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean e0uk</code></span><div class="fa-provenance-text">The instance&#39;s AGENTS.md is synced too, for the <code>skills:index</code> index only: the skills the instance publishes, or, past 32 KiB, their directories with the full list in SKILLS.md (bean e0uk).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-release-please" data-fa-provenance-count="2">
+  <summary class="fa-provenance-summary"><code>release-please</code> (2)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean frq2</code></span><div class="fa-provenance-text">Declared here, not configured: no config file and no tag exist in this repository (bean <code>frq2</code>).</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean frq2</code></span><div class="fa-provenance-text">With the default token it cannot open PRs unless the repository allows Actions to (bean <code>frq2</code>).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-remote-mount" data-fa-provenance-count="6">
+  <summary class="fa-provenance-summary"><code>remote-mount</code> (6)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="owner-decision"><span class="fa-provenance-kind">owner-decision</span><div class="fa-provenance-text"><code>--staging</code> mounts for a preview and needs neither, by the owner&#39;s ruling.</div></li>
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean mo75</code></span><div class="fa-provenance-text">A directory id an override or <code>mountDefaults</code> names may be one the instance declares in its <code>&lt;name&gt;.json</code> or one it declares FROM WITHIN a declared directory (<code>skills/skills.json</code> naming <code>voices</code>), resolved at the pin through <code>instanceDirectories</code> (bean <code>mo75</code> G3); an id in neither is refused at plan time.</div></li>
+    <li class="fa-provenance-entry" data-fa-provenance-kind="owner-decision"><span class="fa-provenance-kind">owner-decision</span> <span class="fa-provenance-refs"><code>bean mo75</code> <code>2026-10-24</code></span><div class="fa-provenance-text"><code>tools</code> on an override names Tools by id and mounts each one runnable (bean <code>mo75</code> G3; owner, 2026-10-24): its definition (<code>&lt;tools dir&gt;/&lt;id&gt;/&lt;id&gt;.ts</code>), its implementation (the <code>inProcess.module</code>, or the script its <code>bun run cat &lt;key&gt;</code> resolves to) and their import closure, walked by bootstrap-tools&#39; <code>importClosure</code> (the one closure walker), as every declared directory that closure touches — the lock still records directories only.</div></li>
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean mo75</code></span><div class="fa-provenance-text">A <code>hydrated</code> mount (bean <code>mo75</code>) lays each chosen directory down as its published <code>index.hydrated.jsonld</code> only: read from the pin&#39;s git tree when a commit carries it, otherwise fetched from the pin&#39;s subgraph index package (the <code>subgraph-index-&lt;sha&gt;</code> release asset <code>subgraph-index-package</code> publishes), its tarball checked against its <code>folio-binary-release/v1</code> record, its manifest against the repository, pin and harness asked for, and each file against its sha256, <code>SubgraphHydratedSchema</code> and the subgraph IRI; the lock records the package&#39;s URL and sha256 so a replay fetches the same bytes.</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.io.inputs[5].description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="issue"><span class="fa-provenance-kind">issue</span> <span class="fa-provenance-refs"><code>folio-assistant#2682</code></span><div class="fa-provenance-text">Refused while a mount it moves has edits the lock does not hold, since the next mount would leave that mount at the old commit (folio-assistant#2682); <code>fresh</code> lets it through.</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.io.inputs[7].description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean mo75</code></span><div class="fa-provenance-text"><code>&lt;harness&gt;[:&lt;instance&gt;]</code>: write a review&#39;s choice (<code>directories</code> and/or <code>tools</code>) into that mount entry&#39;s <code>overrides.&lt;instance&gt;</code> instead of mounting, so a fresh clone replays it (bean <code>mo75</code>).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-render-log" data-fa-provenance-count="2">
+  <summary class="fa-provenance-summary"><code>render-log</code> (2)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.io.inputs[3].description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean fuzm</code></span><div class="fa-provenance-text">Checked as a VALUE, never trusted by provenance: the slug sanitiser can emit <code>..</code>, and that is only safe for a slug taken from a git ref — a dispatch input is not one (bean <code>fuzm</code>).</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span><div class="fa-provenance-text">And <code>--summary</code> / <code>--reason</code> / <code>--detail</code> are REFUSED as flags at exit 2 rather than ignored, so a caller left behind by the stdin migration is told instead of silently logging an entry with no summary.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-secrets-check" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>secrets-check</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="proposal"><span class="fa-provenance-kind">proposal</span> <span class="fa-provenance-refs"><code>§6.2</code></span><div class="fa-provenance-text">Findings per §6.2: used-not-declared, declared-not-used, declared-not-present, present-not-declared (reported, never deleted), naming advisories, and expiry (≤30 days minor, ≤7 major, expired critical).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-separation-cutover-check" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>separation-cutover-check</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="proposal"><span class="fa-provenance-kind">proposal</span> <span class="fa-provenance-refs"><code>lesson 17</code></span><div class="fa-provenance-text">It judges ONE repository. A downstream&#39;s own CI (lesson 17) and the parent&#39;s retirement into fsh-guts are not observed from here.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-site-build-local" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>site-build-local</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="owner-decision"><span class="fa-provenance-kind">owner-decision</span> <span class="fa-provenance-refs"><code>2026-10-05</code></span><div class="fa-provenance-text">The local half of the two site builds (owner, 2026-10-05: local and GitHub builds are two Tools for one skill).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-site-search-scopes" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>site-search-scopes</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean m7mn</code> <code>#1972</code></span><div class="fa-provenance-text">The site search index cut into one index per scope — each declared instance, each target locale, and the platform — plus <code>assets/js/search/manifest.json</code> naming them, so a reader&#39;s search loads its own scope rather than the whole site (issue #1972, bean <code>m7mn</code>).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-sub-kg-verify-clone" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>sub-kg-verify-clone</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="issue"><span class="fa-provenance-kind">issue</span> <span class="fa-provenance-refs"><code>#2082</code></span><div class="fa-provenance-text">Catches what a rehearsal inside this checkout cannot, because a rehearsal shares this checkout&#39;s <code>node_modules</code> and environment (#2082).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-tool-coverage" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>tool-coverage</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean yean</code></span><div class="fa-provenance-text">It enumerates SKILLS and asks which lack Tools, so a capability nobody has stated generically is absent from the list it walks — that blindness is structural, not an oversight, and bean <code>yean</code> is the case that proved it.</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-transcribe-faster-whisper" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>transcribe-faster-whisper</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.cost
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean r279</code></span><div class="fa-provenance-text">A pip install of several wheels plus the model; the CI install time must be re-measured before it is gated (<code>r279</code>).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-transcribe-whisper-cpp" data-fa-provenance-count="2">
+  <summary class="fa-provenance-summary"><code>transcribe-whisper-cpp</code> (2)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean 1r0p</code></span><div class="fa-provenance-text">A declared OPTION: not installed in this repository until the first audio upload (bean <code>1r0p</code>).</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.limits
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="bean"><span class="fa-provenance-kind">bean</span> <span class="fa-provenance-refs"><code>bean 5rfy</code></span><div class="fa-provenance-text">A C++ build and a model file per container; weights are either vendored (repository size) or fetched at run time (a third-party host in the gate, the <code>5rfy</code> shape).</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-upload-url" data-fa-provenance-count="2">
+  <summary class="fa-provenance-summary"><code>upload-url</code> (2)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.selection.cost
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="history"><span class="fa-provenance-kind">history</span> <span class="fa-provenance-refs"><code>2026-09-30</code></span><div class="fa-provenance-text">Measured over <code>origin/main</code> on 2026-09-30, the cost of NOT using it: of 16 <code>Add files via upload</code> commits, 10 put their files at the repository root, outside any declared queue, where every consumer that resolves the queue from the declaration reads them as absent.</div></li>
+  </ul>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="owner-decision"><span class="fa-provenance-kind">owner-decision</span> <span class="fa-provenance-refs"><code>2026-09-20</code></span><div class="fa-provenance-text">It exists because the obvious composition mints a live 404: the declared path <code>uploads/</code> is relative to the INSTANCE and a forge URL needs it relative to the REPOSITORY, so pasting the declared path drops the <code>cat-harness/</code> segment. Owner, 2026-09-20, on the hand-written form: &quot;were it to exist, but it doesmt on main!!!!!&quot;</div></li>
+  </ul>
+</details>
+<details class="fa-provenance fa-provenance-item" id="provenance-user-auth" data-fa-provenance-count="1">
+  <summary class="fa-provenance-summary"><code>user-auth</code> (1)</summary>
+<h3 class="fa-provenance-section">
+  
+  
+    <a href="#provenance" class="anchor-heading" aria-labelledby="provenance"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> tool.description
+  
+  
+</h3>
+    
+  <ul class="fa-provenance-list">
+    <li class="fa-provenance-entry" data-fa-provenance-kind="issue"><span class="fa-provenance-kind">issue</span> <span class="fa-provenance-refs"><code>#1207</code></span><div class="fa-provenance-text">User authentication and authorization (issue #1207). Asks GitHub for the caller&#39;s login and repository role, maps the role to a gateway actor, and answers from the ODRL policies — for an action, or for a BPMN step.</div></li>
+  </ul>
+</details>
+</div>
 
           
 

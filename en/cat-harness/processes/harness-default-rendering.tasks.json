@@ -1,15 +1,98 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_HarnessRendering",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering",
+ "markers": [
+  {
+   "id": "A_Tiles",
+   "name": "Compose each harness's nav and tile",
+   "left": 23.6,
+   "top": 7.27,
+   "box": {
+    "left": 17.8,
+    "top": 19.09,
+    "width": 1.92,
+    "height": 4.36
+   }
+  },
+  {
+   "id": "A_Ground",
+   "name": "Resolve each harness's page ground",
+   "left": 37.2,
+   "top": 7.27,
+   "box": {
+    "left": 31.4,
+    "top": 19.09,
+    "width": 1.92,
+    "height": 4.36
+   }
+  },
+  {
+   "id": "A_Publish",
+   "name": "Publish docs on their theme's art",
+   "left": 50.8,
+   "top": 7.27,
+   "box": {
+    "left": 45,
+    "top": 19.09,
+    "width": 1.92,
+    "height": 4.36
+   }
+  },
+  {
+   "id": "A_Board",
+   "name": "Draw the board of todos and beans",
+   "left": 50.8,
+   "top": 36.36,
+   "box": {
+    "left": 45,
+    "top": 48.18,
+    "width": 1.92,
+    "height": 4.36
+   }
+  },
+  {
+   "id": "A_Read",
+   "name": "Read a page or a card",
+   "left": 50.8,
+   "top": 70.91,
+   "box": {
+    "left": 45,
+    "top": 82.73,
+    "width": 1.92,
+    "height": 4.36
+   }
+  },
+  {
+   "id": "A_Propose",
+   "name": "Propose the change",
+   "left": 74.8,
+   "top": 61.82,
+   "box": {
+    "left": 69,
+    "top": 73.64,
+    "width": 1.92,
+    "height": 4.36
+   }
+  },
+  {
+   "id": "A_Todo",
+   "name": "Leave it as feedback",
+   "left": 74.8,
+   "top": 80.91,
+   "box": {
+    "left": 69,
+    "top": 92.73,
+    "width": 1.92,
+    "height": 4.36
+   }
+  }
+ ],
  "tasks": {
   "A_Tiles": {
    "id": "A_Tiles",
    "name": "Compose each harness's nav and tile",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/node/A_Tiles",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "harness-tiles"
@@ -17,7 +100,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -84,9 +167,7 @@
    "id": "A_Ground",
    "name": "Resolve each harness's page ground",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/node/A_Ground",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "harness-tiles"
@@ -94,7 +175,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -161,9 +242,7 @@
    "id": "A_Publish",
    "name": "Publish docs on their theme's art",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/node/A_Publish",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/lane/Lane_Pipeline",
    "skills": [
     {
      "name": "liquid-templates"
@@ -171,7 +250,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -238,9 +317,7 @@
    "id": "A_Board",
    "name": "Draw the board of todos and beans",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/node/A_Board",
    "lane": "Board renderer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/lane/Lane_Board",
    "skills": [
     {
      "name": "todo-manager"
@@ -248,7 +325,7 @@
    ],
    "role": {
     "name": "board-renderer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/board-renderer",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-board-renderer",
     "title": "Board renderer",
     "skills": [
      {
@@ -282,9 +359,7 @@
    "id": "A_Read",
    "name": "Read a page or a card",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/node/A_Read",
    "lane": "Reviewer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/lane/Lane_Reviewer",
    "skills": [
     {
      "name": "content-review"
@@ -292,7 +367,7 @@
    ],
    "role": {
     "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -332,9 +407,7 @@
    "id": "A_Propose",
    "name": "Propose the change",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/node/A_Propose",
    "lane": "Reviewer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/lane/Lane_Reviewer",
    "skills": [
     {
      "name": "kg-affordances"
@@ -342,7 +415,7 @@
    ],
    "role": {
     "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -382,9 +455,7 @@
    "id": "A_Todo",
    "name": "Leave it as feedback",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/node/A_Todo",
    "lane": "Reviewer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_HarnessRendering/lane/Lane_Reviewer",
    "skills": [
     {
      "name": "content-feedback"
@@ -392,7 +463,7 @@
    ],
    "role": {
     "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {

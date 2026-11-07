@@ -122,11 +122,11 @@
       },
       "keywords": [
         {
-          "term": "correlated noise",
+          "term": "ngse technique",
           "heading": false
         },
         {
-          "term": "ngse technique",
+          "term": "correlated noise",
           "heading": false
         },
         {
@@ -146,11 +146,11 @@
           "heading": false
         },
         {
-          "term": "gold standard",
+          "term": "measured values",
           "heading": false
         },
         {
-          "term": "measured values",
+          "term": "gold standard",
           "heading": false
         }
       ],
@@ -181,11 +181,11 @@
           "heading": false
         },
         {
-          "term": "metabolic tumor",
+          "term": "segmentation methods",
           "heading": false
         },
         {
-          "term": "segmentation methods",
+          "term": "metabolic tumor",
           "heading": false
         },
         {
@@ -224,15 +224,15 @@
       },
       "keywords": [
         {
-          "term": "true values",
-          "heading": false
-        },
-        {
           "term": "pth patient",
           "heading": false
         },
         {
           "term": "ˆap",
+          "heading": false
+        },
+        {
+          "term": "true values",
           "heading": false
         },
         {
@@ -330,15 +330,15 @@
           "heading": false
         },
         {
-          "term": "true nsr",
-          "heading": false
-        },
-        {
           "term": "estimated slope",
           "heading": false
         },
         {
           "term": "estimated noise",
+          "heading": false
+        },
+        {
+          "term": "true nsr",
           "heading": false
         },
         {
@@ -377,11 +377,11 @@
           "heading": false
         },
         {
-          "term": "pet segmentation",
+          "term": "quantitative imaging",
           "heading": false
         },
         {
-          "term": "quantitative imaging",
+          "term": "pet segmentation",
           "heading": false
         },
         {
@@ -397,11 +397,11 @@
           "heading": false
         },
         {
-          "term": "ngse technique",
+          "term": "brain spect",
           "heading": false
         },
         {
-          "term": "brain spect",
+          "term": "ngse technique",
           "heading": false
         }
       ],
@@ -419,10 +419,6 @@
   "withheld": false,
   "keywords": [
     {
-      "term": "true noise",
-      "heading": false
-    },
-    {
       "term": "diﬀerent noise",
       "heading": false
     },
@@ -431,20 +427,16 @@
       "heading": true
     },
     {
+      "term": "true noise",
+      "heading": false
+    },
+    {
       "term": "correlated noise",
       "heading": true
     },
     {
       "term": "estimated noise",
       "heading": true
-    },
-    {
-      "term": "true slope",
-      "heading": false
-    },
-    {
-      "term": "true nsr",
-      "heading": false
     },
     {
       "term": "diﬀerent methods",
@@ -459,11 +451,19 @@
       "heading": true
     },
     {
+      "term": "true nsr",
+      "heading": false
+    },
+    {
+      "term": "true slope",
+      "heading": false
+    },
+    {
       "term": "quantitative imaging",
       "heading": false
     },
     {
-      "term": "true values",
+      "term": "no-gold-standard technique",
       "heading": false
     }
   ],

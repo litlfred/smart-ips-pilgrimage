@@ -95,15 +95,15 @@
           "heading": false
         },
         {
+          "term": "color",
+          "heading": false
+        },
+        {
           "term": "cognitive",
           "heading": false
         },
         {
           "term": "information systems",
-          "heading": false
-        },
-        {
-          "term": "color",
           "heading": false
         }
       ],
@@ -135,7 +135,7 @@
           "heading": false
         },
         {
-          "term": "innsbruck",
+          "term": "austria",
           "heading": false
         },
         {
@@ -143,15 +143,15 @@
           "heading": false
         },
         {
-          "term": "cft",
-          "heading": false
-        },
-        {
           "term": "berlin",
           "heading": false
         },
         {
-          "term": "austria",
+          "term": "university",
+          "heading": false
+        },
+        {
+          "term": "information systems",
           "heading": false
         }
       ],
@@ -199,7 +199,7 @@
           "heading": false
         },
         {
-          "term": "true",
+          "term": "decision trees",
           "heading": false
         }
       ],
@@ -255,10 +255,6 @@
           "heading": false
         },
         {
-          "term": "vessey",
-          "heading": false
-        },
-        {
           "term": "information systems",
           "heading": false
         },
@@ -268,6 +264,10 @@
         },
         {
           "term": "decision model",
+          "heading": false
+        },
+        {
+          "term": "model comprehension",
           "heading": false
         },
         {
@@ -293,15 +293,15 @@
       "heading": true
     },
     {
+      "term": "cognitive fit",
+      "heading": false
+    },
+    {
       "term": "decision trees",
       "heading": false
     },
     {
       "term": "decision models",
-      "heading": false
-    },
-    {
-      "term": "cognitive fit",
       "heading": false
     },
     {
@@ -317,6 +317,10 @@
       "heading": false
     },
     {
+      "term": "systems research",
+      "heading": false
+    },
+    {
       "term": "bad score",
       "heading": false
     },
@@ -325,15 +329,11 @@
       "heading": false
     },
     {
-      "term": "systems research",
+      "term": "model comprehension",
       "heading": false
     },
     {
       "term": "comprehension accuracy",
-      "heading": false
-    },
-    {
-      "term": "representation features",
       "heading": false
     }
   ],

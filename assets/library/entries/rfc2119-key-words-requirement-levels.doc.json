@@ -33,11 +33,11 @@
           "heading": false
         },
         {
-          "term": "rfcs",
+          "term": "phrase",
           "heading": false
         },
         {
-          "term": "phrase",
+          "term": "rfcs",
           "heading": false
         },
         {
@@ -228,11 +228,11 @@
       "heading": false
     },
     {
-      "term": "bradner",
+      "term": "phrase",
       "heading": false
     },
     {
-      "term": "phrase",
+      "term": "bradner",
       "heading": false
     },
     {

@@ -1,15 +1,74 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_CRDM_DataModel",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel",
+ "markers": [
+  {
+   "id": "A_Entities",
+   "name": "Identify entities from the BPA and requirements",
+   "left": 19.39,
+   "top": 33.67,
+   "box": {
+    "left": 15.07,
+    "top": 49.66,
+    "width": 1.43,
+    "height": 4.04
+   }
+  },
+  {
+   "id": "A_Relations",
+   "name": "Relations and cardinalities, both ways",
+   "left": 31.32,
+   "top": 33.67,
+   "box": {
+    "left": 27,
+    "top": 49.66,
+    "width": 1.43,
+    "height": 4.04
+   }
+  },
+  {
+   "id": "BA_ConfirmEntities",
+   "name": "Confirm the entities are the ones meant",
+   "left": 43.26,
+   "top": 5.05,
+   "box": {
+    "left": 38.93,
+    "top": 21.04,
+    "width": 1.43,
+    "height": 4.04
+   }
+  },
+  {
+   "id": "S_ConfirmCardinality",
+   "name": "Confirm the cardinalities",
+   "left": 55.19,
+   "top": 62.29,
+   "box": {
+    "left": 50.87,
+    "top": 78.28,
+    "width": 1.43,
+    "height": 4.04
+   }
+  },
+  {
+   "id": "A_Declare",
+   "name": "Declare the model where a tool can read it",
+   "left": 76.07,
+   "top": 33.67,
+   "box": {
+    "left": 71.75,
+    "top": 49.66,
+    "width": 1.43,
+    "height": 4.04
+   }
+  }
+ ],
  "tasks": {
   "A_Entities": {
    "id": "A_Entities",
    "name": "Identify entities from the BPA and requirements",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel/node/A_Entities",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel/lane/Lane_Agent",
    "skills": [
     {
      "name": "crdm-data-model"
@@ -17,7 +76,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -189,9 +248,7 @@
    "id": "A_Relations",
    "name": "Relations and cardinalities, both ways",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel/node/A_Relations",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel/lane/Lane_Agent",
    "skills": [
     {
      "name": "crdm-data-model"
@@ -199,7 +256,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -371,9 +428,7 @@
    "id": "BA_ConfirmEntities",
    "name": "Confirm the entities are the ones meant",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel/node/BA_ConfirmEntities",
    "lane": "BA / Feature Requestor",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel/lane/Lane_BA",
    "skills": [
     {
      "name": "crdm-data-model"
@@ -381,12 +436,12 @@
    ],
    "calls": {
     "name": "Ask the person",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "href": "ask-the-person.html",
     "diagram": "ask-the-person.html"
    },
    "role": {
     "name": "business-analyst",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/business-analyst",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-business-analyst",
     "title": "Business analyst",
     "skills": [
      {
@@ -441,9 +496,7 @@
    "id": "S_ConfirmCardinality",
    "name": "Confirm the cardinalities",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel/node/S_ConfirmCardinality",
    "lane": "Stakeholders",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel/lane/Lane_Stakeholders",
    "skills": [
     {
      "name": "crdm-data-model"
@@ -451,12 +504,12 @@
    ],
    "calls": {
     "name": "Ask the person",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_AskThePerson",
+    "href": "ask-the-person.html",
     "diagram": "ask-the-person.html"
    },
    "role": {
     "name": "stakeholder",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/stakeholder",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-stakeholder",
     "title": "Stakeholder",
     "skills": []
    }
@@ -465,9 +518,7 @@
    "id": "A_Declare",
    "name": "Declare the model where a tool can read it",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel/node/A_Declare",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_DataModel/lane/Lane_Agent",
    "skills": [
     {
      "name": "crdm-data-model"
@@ -475,7 +526,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {

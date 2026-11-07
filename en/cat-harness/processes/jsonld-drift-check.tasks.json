@@ -1,24 +1,35 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_JsonLdDrift",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_JsonLdDrift",
+ "markers": [
+  {
+   "id": "Call_Drift",
+   "name": "Check the .jsonld siblings are in sync",
+   "left": 65.93,
+   "top": 34,
+   "box": {
+    "left": 50.77,
+    "top": 72,
+    "width": 5.02,
+    "height": 9.6
+   }
+  }
+ ],
  "tasks": {
   "Call_Drift": {
    "id": "Call_Drift",
    "name": "Check the .jsonld siblings are in sync",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_JsonLdDrift/node/Call_Drift",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_JsonLdDrift/lane/Lane_Ci",
    "skills": [],
    "calls": {
     "name": "Check a generated file still matches its source",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_GeneratedFileDrift",
+    "href": "generated-file-drift.html",
     "diagram": "generated-file-drift.html"
    },
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {

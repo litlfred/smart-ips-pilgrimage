@@ -265,7 +265,7 @@
           "heading": false
         },
         {
-          "term": "hunter",
+          "term": "usa",
           "heading": false
         }
       ],
@@ -361,7 +361,7 @@
           "heading": false
         },
         {
-          "term": "official",
+          "term": "platform",
           "heading": false
         }
       ],
@@ -450,11 +450,11 @@
           "heading": false
         },
         {
-          "term": "upstream",
+          "term": "disclosure",
           "heading": false
         },
         {
-          "term": "disclosure",
+          "term": "upstream",
           "heading": false
         }
       ],
@@ -545,11 +545,11 @@
           "heading": false
         },
         {
-          "term": "persona redefinition",
+          "term": "pat terns",
           "heading": false
         },
         {
-          "term": "pat terns",
+          "term": "persona redefinition",
           "heading": false
         },
         {
@@ -557,15 +557,15 @@
           "heading": false
         },
         {
-          "term": "oversized bodies",
-          "heading": false
-        },
-        {
           "term": "hardcoded credentials",
           "heading": false
         },
         {
-          "term": "skills specification",
+          "term": "oversized bodies",
+          "heading": false
+        },
+        {
+          "term": "github issues",
           "heading": false
         }
       ],
@@ -736,12 +736,12 @@
           "heading": true
         },
         {
-          "term": "defects",
-          "heading": true
-        },
-        {
           "term": "stress test",
           "heading": false
+        },
+        {
+          "term": "defects",
+          "heading": true
         },
         {
           "term": "agent skills",

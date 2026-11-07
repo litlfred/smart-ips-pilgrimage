@@ -600,8 +600,8 @@
           "heading": false
         },
         {
-          "term": "burden",
-          "heading": true
+          "term": "restaurant reviews",
+          "heading": false
         }
       ],
       "extract": "The range of data used in our evaluation is also broad, because potentially relevant health information is found in a diverse range of sources: academic literature, electronic health records, public health guidance, social media, news articles, and questionnaire responses [22]. Details of all the tasks, datasets, and annotations are shown in Table 1. Figure 2: Evaluation Tasks by Public Health Area. A summary of",
@@ -631,11 +631,11 @@
           "heading": false
         },
         {
-          "term": "mmlu benchmark",
+          "term": "sexual activity",
           "heading": false
         },
         {
-          "term": "sexual activity",
+          "term": "mmlu benchmark",
           "heading": false
         },
         {
@@ -651,7 +651,7 @@
           "heading": false
         },
         {
-          "term": "genetics",
+          "term": "nutrition",
           "heading": false
         }
       ],
@@ -717,15 +717,15 @@
           "heading": false
         },
         {
+          "term": "pubmed article",
+          "heading": false
+        },
+        {
           "term": "health guidance",
           "heading": false
         },
         {
           "term": "advice statement",
-          "heading": false
-        },
-        {
-          "term": "pubmed article",
           "heading": false
         },
         {
@@ -868,8 +868,8 @@
           "heading": false
         },
         {
-          "term": "api",
-          "heading": false
+          "term": "language",
+          "heading": true
         }
       ],
       "extract": "We focus on evaluating open- source/weight LLMs that we host internally to ensure comparability of results, as well as for data protection. We run all models in FP16 precision where feasible. We include the latest GPT-4 models for comparison on a subset of tasks. 2.2.1 Large Language Models In our initial evaluations we assess eleven open-weight LLMs ranging from 7 billion to 123 billion parameters (including the",
@@ -952,11 +952,11 @@
           "heading": false
         },
         {
-          "term": "disease extraction",
+          "term": "food extraction",
           "heading": false
         },
         {
-          "term": "food extraction",
+          "term": "disease extraction",
           "heading": false
         },
         {
@@ -991,6 +991,10 @@
       },
       "keywords": [
         {
+          "term": "model",
+          "heading": true
+        },
+        {
           "term": "base model",
           "heading": false
         },
@@ -1012,10 +1016,6 @@
         },
         {
           "term": "b-instruct",
-          "heading": false
-        },
-        {
-          "term": "gains",
           "heading": false
         }
       ],
@@ -1171,12 +1171,12 @@
           "heading": false
         },
         {
-          "term": "diff",
-          "heading": false
-        },
-        {
           "term": "impact",
           "heading": true
+        },
+        {
+          "term": "diff",
+          "heading": false
         },
         {
           "term": "llama",
@@ -1377,11 +1377,11 @@
           "heading": false
         },
         {
-          "term": "general domain",
+          "term": "human evaluation",
           "heading": false
         },
         {
-          "term": "human evaluation",
+          "term": "general domain",
           "heading": false
         },
         {
@@ -1596,11 +1596,11 @@
           "heading": false
         },
         {
-          "term": "public health",
+          "term": "ade",
           "heading": false
         },
         {
-          "term": "ade",
+          "term": "public health",
           "heading": false
         },
         {

@@ -1,15 +1,98 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_BeanDrain",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain",
+ "markers": [
+  {
+   "id": "Drain_BuildQueue",
+   "name": "Build the queue, grouped by owner",
+   "left": 20.76,
+   "top": 7.63,
+   "box": {
+    "left": 14.66,
+    "top": 23.73,
+    "width": 2.02,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Drain_TakeNext",
+   "name": "Take the next bean",
+   "left": 41.76,
+   "top": 44.92,
+   "box": {
+    "left": 35.67,
+    "top": 61.02,
+    "width": 2.02,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Drain_Open",
+   "name": "Open the bean",
+   "left": 56.89,
+   "top": 44.92,
+   "box": {
+    "left": 50.8,
+    "top": 61.02,
+    "width": 2.02,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Drain_Skip",
+   "name": "Mark it skip on the queue",
+   "left": 68.24,
+   "top": 69.49,
+   "box": {
+    "left": 62.14,
+    "top": 85.59,
+    "width": 2.02,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Drain_Work",
+   "name": "Work the bean (PR at the first commit)",
+   "left": 80.42,
+   "top": 44.92,
+   "box": {
+    "left": 74.33,
+    "top": 61.02,
+    "width": 2.02,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Drain_Close",
+   "name": "Close the bean",
+   "left": 95.55,
+   "top": 44.92,
+   "box": {
+    "left": 89.45,
+    "top": 61.02,
+    "width": 2.02,
+    "height": 4.07
+   }
+  },
+  {
+   "id": "Drain_Refill",
+   "name": "Refill from the deepest queue",
+   "left": 43.45,
+   "top": 7.63,
+   "box": {
+    "left": 37.35,
+    "top": 23.73,
+    "width": 2.02,
+    "height": 4.07
+   }
+  }
+ ],
  "tasks": {
   "Drain_BuildQueue": {
    "id": "Drain_BuildQueue",
    "name": "Build the queue, grouped by owner",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/node/Drain_BuildQueue",
    "lane": "Queue keeper",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/lane/Lane_QueueKeeper",
    "skills": [
     {
      "name": "bean-coordination"
@@ -17,7 +100,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -284,9 +367,7 @@
    "id": "Drain_TakeNext",
    "name": "Take the next bean",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/node/Drain_TakeNext",
    "lane": "Drainer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/lane/Lane_Drainer",
    "skills": [
     {
      "name": "bean-coordination"
@@ -294,7 +375,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -466,9 +547,7 @@
    "id": "Drain_Open",
    "name": "Open the bean",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/node/Drain_Open",
    "lane": "Drainer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/lane/Lane_Drainer",
    "skills": [
     {
      "name": "bean-coordination"
@@ -476,12 +555,12 @@
    ],
    "calls": {
     "name": "Open the bean",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanOpen",
+    "href": "bean-open.html",
     "diagram": "bean-open.html"
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -653,9 +732,7 @@
    "id": "Drain_Skip",
    "name": "Mark it skip on the queue",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/node/Drain_Skip",
    "lane": "Drainer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/lane/Lane_Drainer",
    "skills": [
     {
      "name": "bean-coordination"
@@ -663,7 +740,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -835,9 +912,7 @@
    "id": "Drain_Work",
    "name": "Work the bean (PR at the first commit)",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/node/Drain_Work",
    "lane": "Drainer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/lane/Lane_Drainer",
    "skills": [
     {
      "name": "continual-progress"
@@ -845,7 +920,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1017,9 +1092,7 @@
    "id": "Drain_Close",
    "name": "Close the bean",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/node/Drain_Close",
    "lane": "Drainer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/lane/Lane_Drainer",
    "skills": [
     {
      "name": "todo-manager"
@@ -1027,12 +1100,12 @@
    ],
    "calls": {
     "name": "Close the bean",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "href": "bean-close.html",
     "diagram": "bean-close.html"
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1204,9 +1277,7 @@
    "id": "Drain_Refill",
    "name": "Refill from the deepest queue",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/node/Drain_Refill",
    "lane": "Queue keeper",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanDrain/lane/Lane_QueueKeeper",
    "skills": [
     {
      "name": "idle-backlog"
@@ -1214,7 +1285,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {

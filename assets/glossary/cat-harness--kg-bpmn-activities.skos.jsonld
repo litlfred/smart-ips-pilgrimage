@@ -146,7 +146,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Records that a removal was considered and refused, or that a preview still stands because a signal fired. A reason is REQUIRED — the tool refuses without one."
+          "@value": "Records that a removal was considered and refused, or that a preview still stands because a signal fired; without the entry that leaves no trace, and nobody can tell why a preview is still up. A reason is REQUIRED — the tool refuses without one."
         }
       ],
       "skos:notation": "GT_LogRetained",
@@ -166,7 +166,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "THE RECORD, and not relaxable (`adjudication`, A_RecordEntry). Append one `requirement-signoff` record to `test/attestations/requirement-signoff/<set slug>.attestations.json` — who (kind, id, actor), at, scope (the set or one member), the outcome from the requirement-set code list, the stage it moves the set to, the reason, and the permalink to the issue comment where it was decided — and set the set's `stage` to match. GW_SignoffRecorded after this reads the record back, so this step cannot be skipped by completing it: a sign-off that left no attestation loops here again."
+          "@value": "THE RECORD, and not relaxable, because a judgement nobody wrote down is indistinguishable from one never made (`adjudication`, A_RecordEntry). Append one `requirement-signoff` record to `test/attestations/requirement-signoff/<set slug>.attestations.json` — who (kind, id, actor), at, scope (the set or one member), the outcome from the requirement-set code list, the stage it moves the set to, the reason, and the permalink to the issue comment where it was decided — and set the set's `stage` to match. GW_SignoffRecorded after this reads the record back, so this step cannot be skipped by completing it: a sign-off that left no attestation loops here again."
         }
       ],
       "skos:notation": "GT_RecordSignoff",
@@ -1094,6 +1094,186 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_cache.task_deps",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "bun / pip dependencies"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Component 2b. RESTORE: the package managers' download caches, keyed by the lockfile digest (`bun.lock`; the pip requirements file) and the tool version — never by a hand-listed version string. A restored download is re-verified by the package manager against the lockfile's integrity hashes: class (a). SAVE: main; a PR into its own ref scope. Owner role: the integrator (CI speed 14). `cache` node: `bun-deps`, `pip-deps`. It reports one line in `cached-step`'s format — `cached-step <step>: hit|warm|miss (<trust>) — <why>. Key <key>.` — to the job summary, which the daily hit-rate report counts."
+        }
+      ],
+      "skos:notation": "Task_Deps",
+      "dcterms:source": "cat-harness/sdlc/processes/cache.bpmn#Task_Deps",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_cache.task_gates",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Gate results: restore / save"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Component 2c. RESTORE: the result store (`build/result-store/`) and the CI cone records, by prefix — a WARM start: the cone (`ci-cone.ts`) then matches each stored entry exactly (fingerprint from `cache:key --base`, every recorded path state, every replayed git answer) and only an exact match is reported SKIPPED, never passed. A committer's local gate record is class (b): honoured on the critical path, then re-verified off it. SAVE: main only (class c for CI's records). Owner roles: the gate-reuse session (CI speed 8) and the committer-side session (CI speed 3). `cache` nodes: `result-store`, `ci-cone`, `local-gate-records`. It reports one line in `cached-step`'s format — `cached-step <step>: hit|warm|miss (<trust>) — <why>. Key <key>.` — to the job summary, which the daily hit-rate report counts."
+        }
+      ],
+      "skos:notation": "Task_Gates",
+      "dcterms:source": "cat-harness/sdlc/processes/cache.bpmn#Task_Gates",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_cache.task_igast",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "FHIR IG ASTs: Process_IgAstCache"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Component 4b, in its own lane: the FHIR IG layer's IG AST cache, `Process_IgAstCache` (declared by that layer), integrated, not replaced. It is drawn as a task because this layer may not name a process of a layer above it; the steps are that process's. RESTORE: read the cached AST from its branch store and judge it — that process's \"valid for this commit?\" IS this component's verify (class a: the AST is judged against this commit's IG sources and tooling); valid → the site is built from it. SAVE: that process's own path, not `cached-step` — a miss dispatches an AST refresh on a Java runner with 10 GB, which rewrites the branch store. The branch store is a `cache` node (`ig-ast`). Owner: CI speed 12, the IG layers' session. It reports one line in `cached-step`'s format — `cached-step <step>: hit|warm|miss (<trust>) — <why>. Key <key>.` — to the job summary, which the daily hit-rate report counts."
+        }
+      ],
+      "skos:notation": "Task_IgAst",
+      "dcterms:source": "cat-harness/sdlc/processes/cache.bpmn#Task_IgAst",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_cache.task_image",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Prepared image + node_modules"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Component 2a. RESTORE: the prepared CI image `ghcr.io/<owner>/<repo>-ci`, keyed by `.github/ci-image/key.sh` (the lock, `bun.lock`, `package.json`, the recipe files, the bun version and `ImageOS`) — computed BEFORE anything is mounted, so it is not `cache:key`; `cache:key --check image` asserts the two agree. Each layer's sha256 is checked as it streams and `mount:lock:check` re-hashes the result: class (a). SAVE: main or a dispatch only (the one job with `packages: write`). Owner role: the prepared-image session (CI speed 9). `cache` node: `ci-image`. It reports one line in `cached-step`'s format — `cached-step <step>: hit|warm|miss (<trust>) — <why>. Key <key>.` — to the job summary, which the daily hit-rate report counts."
+        }
+      ],
+      "skos:notation": "Task_Image",
+      "dcterms:source": "cat-harness/sdlc/processes/cache.bpmn#Task_Image",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_cache.task_jekyll",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Jekyll cache: restore / save"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Component 5, last: it caches the rendering of what the components above produce. RESTORE: `.jekyll-cache`, keyed by the theme, the layouts, includes and plugins, `Gemfile.lock` and the Ruby version, by exact key only. Jekyll invalidates an entry whose source changed, but a template change is not visible to it, which is why the templates are in the key. SAVE: main only — class (c). Owner role: the preview session (CI speed 2). `cache` node: `jekyll-cache`. It reports one line in `cached-step`'s format — `cached-step <step>: hit|warm|miss (<trust>) — <why>. Key <key>.` — to the job summary, which the daily hit-rate report counts."
+        }
+      ],
+      "skos:notation": "Task_Jekyll",
+      "dcterms:source": "cat-harness/sdlc/processes/cache.bpmn#Task_Jekyll",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_cache.task_layers",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Layers ref: restore / save"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Component 1, which everything else needs. RESTORE: `mount-from-lock` replays the lock from `refs/cat/layers/<key>` (key = sha256 of the lock's instances), verifying every layer's tree digest, declaration and asset sha256 against the committed lock — class (a), verified against THIS tree, so a bad entry is only a miss, and a stale `refs/cat/layers/main` still serves every layer that did not move. SAVE: the committer (`layers:publish`, run by `mount:remote` after it changes the lock), with the re-pin train and main as fallbacks. Not wrapped in `cached-step`: its per-layer verify is finer than one hit. Owner role: the layers-ref session (CI speed 13). `cache` node: `layers`. It reports one line in `cached-step`'s format — `cached-step <step>: hit|warm|miss (<trust>) — <why>. Key <key>.` — to the job summary, which the daily hit-rate report counts."
+        }
+      ],
+      "skos:notation": "Task_Layers",
+      "dcterms:source": "cat-harness/sdlc/processes/cache.bpmn#Task_Layers",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_cache.task_lean",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Lean .oleans: restore / save"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Component 3, after the layers (the Lean packages are mounted content). RESTORE: the compiled `.olean`s of each declared Lean package, keyed by the package, the toolchain AND the lake manifest (the Mathlib revision) — the manifest is part of the key, so an entry from another revision is a miss. `lake build` re-checks every restored module's trace, so a stale module is rebuilt, not trusted: class (a). SAVE: main; a contributor's warm build may be offered back (`compiled-artefact-cache`) and is accepted only through that same trace check. Owner role: the integrator (CI speed 14). `cache` node: `lean-oleans`. It reports one line in `cached-step`'s format — `cached-step <step>: hit|warm|miss (<trust>) — <why>. Key <key>.` — to the job summary, which the daily hit-rate report counts."
+        }
+      ],
+      "skos:notation": "Task_Lean",
+      "dcterms:source": "cat-harness/sdlc/processes/cache.bpmn#Task_Lean",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_cache.task_renderseed",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Render seed: writer records"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Component 4a, the seed of CI's render (owner, 2026-11-05: CI does not run `render`; its render is `derive:publish`). SAVE: main's `writer-records.yml` records each publish-time writer under trace (`writer-cone`): its read set, the state of every path it read, and the outputs it wrote. RESTORE: a run with `CAT_WRITER_SKIP=1` (a pull request, staging, the preview) skips every writer whose recorded reads all still match and puts back main's recorded outputs; a writer whose reads moved runs. The key is the writer's recorded read set; trust (a′): the outputs are the recording's own, so their PROVENANCE is checked — they come only from main's recording run, never from a run a pull request could write. Owner roles: the integrator and the preview session (CI speed 2). `cache` node: `writer-records`. It reports one line in `cached-step`'s format — `cached-step <step>: hit|warm|miss (<trust>) — <why>. Key <key>.` — to the job summary, which the daily hit-rate report counts."
+        }
+      ],
+      "skos:notation": "Task_RenderSeed",
+      "dcterms:source": "cat-harness/sdlc/processes/cache.bpmn#Task_RenderSeed",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_cache.task_sets",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Generated sets: QA copy, pages"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Component 2d. RESTORE: the QA working copy and the publish-time pages, keyed by `bundle-cache.sh digest` (the tree and the exact tool versions). A bundle is checked against the manifest it carries AND a source rule (the source run's head is this head, a parent, or a commit with this tree; or a main-scoped save) — class (a′), because a manifest alone proves a bundle intact, not built from these inputs. Hits across commits wait on the producers being byte-reproducible (the determinism audit). SAVE: the run that built it, recorded; main's records are read by every branch. Owner role: the generated-sets session (CI speed 10); the preview's copy, the preview session (CI speed 2). `cache` nodes: `qa-working-copy`, `publish-pages`. It reports one line in `cached-step`'s format — `cached-step <step>: hit|warm|miss (<trust>) — <why>. Key <key>.` — to the job summary, which the daily hit-rate report counts."
+        }
+      ],
+      "skos:notation": "Task_Sets",
+      "dcterms:source": "cat-harness/sdlc/processes/cache.bpmn#Task_Sets",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_cihealth.call_watch",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -1686,7 +1866,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Composed from the declaration by the `upload-url` Tool, never written by hand: the queue is declared with INSTANCE scope, and a forge URL needs the path relative to the REPOSITORY. Every failure is named — no origin remote, a non-GitHub forge, a declared-but-absent queue. On failure, fall back to the conversation."
+          "@value": "Composed from the declaration by the `upload-url` Tool, never written by hand: the queue is declared with INSTANCE scope, and a forge URL needs the path relative to the REPOSITORY. Every failure is named — no origin remote, a non-GitHub forge, a declared-but-absent queue — because a URL is believed, and somebody sent to a wrong one cannot tell it from an empty directory. On failure, fall back to the conversation."
         }
       ],
       "skos:notation": "A_PointToUpload",
@@ -2226,7 +2406,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "THE RECORD, and not relaxable (`adjudication`, A_RecordEntry). Append one `requirement-signoff` record to `test/attestations/requirement-signoff/<set slug>.attestations.json` — who (kind, id, actor), at, scope (the set or one member), the outcome from the requirement-set code list, the stage it moves the set to, the reason, and the permalink to the issue comment where it was decided — and set the set's `stage` to match. GW_SignoffRecorded after this reads the record back, so this step cannot be skipped by completing it: a sign-off that left no attestation loops here again."
+          "@value": "THE RECORD, and not relaxable, because a judgement nobody wrote down is indistinguishable from one never made (`adjudication`, A_RecordEntry). Append one `requirement-signoff` record to `test/attestations/requirement-signoff/<set slug>.attestations.json` — who (kind, id, actor), at, scope (the set or one member), the outcome from the requirement-set code list, the stage it moves the set to, the reason, and the permalink to the issue comment where it was decided — and set the set's `stage` to match. GW_SignoffRecorded after this reads the record back, so this step cannot be skipped by completing it: a sign-off that left no attestation loops here again."
         }
       ],
       "skos:notation": "A_RecordSignoff",
@@ -2426,7 +2606,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "An MVP is shared AS A STAGING DEPLOY, not as a description of one. `feature-staging.yml` publishes the branch under `STAGING/<branch-slug>/` on gh-pages and comments the URL on the PR, so the stakeholder who tests it is looking at the built artefact rather than at a screenshot — the same argument the merge discipline makes about rendered work."
+          "@value": "An MVP is shared AS A branches/ DEPLOY, not as a description of one. `feature-staging.yml` publishes the branch under `branches/<branch-slug>/` on gh-pages and comments the URL on the PR, so the stakeholder who tests it is looking at the built artefact rather than at a screenshot — the same argument the merge discipline makes about rendered work: holding a rendered change back for assessment makes assessment harder, not safer."
         }
       ],
       "skos:notation": "A_DeployStaging",
@@ -2766,7 +2946,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Two skills, because this step is two things: the requirements come from the CRDM process, the impact half is a question about the entities and relations the change touches, which is what data modelling answers."
+          "@value": "Two skills, because this step is two things: the requirements come from the CRDM process, the impact half is a question about the entities and relations the change touches, which is what data modelling answers; a folio-content skill such as `content-graph` is not one this harness diagram can bind."
         }
       ],
       "skos:notation": "A_DefineReqs",
@@ -2946,7 +3126,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "THE RECORD, and not relaxable (`adjudication`, A_RecordEntry). Append one `requirement-signoff` record to `test/attestations/requirement-signoff/<set slug>.attestations.json` — who (kind, id, actor), at, scope (the set or one member), the outcome from the requirement-set code list, the stage it moves the set to, the reason, and the permalink to the issue comment where it was decided — and set the set's `stage` to match. GW_SignoffRecorded after this reads the record back, so this step cannot be skipped by completing it: a sign-off that left no attestation loops here again."
+          "@value": "THE RECORD, and not relaxable, because a judgement nobody wrote down is indistinguishable from one never made (`adjudication`, A_RecordEntry). Append one `requirement-signoff` record to `test/attestations/requirement-signoff/<set slug>.attestations.json` — who (kind, id, actor), at, scope (the set or one member), the outcome from the requirement-set code list, the stage it moves the set to, the reason, and the permalink to the issue comment where it was decided — and set the set's `stage` to match. GW_SignoffRecorded after this reads the record back, so this step cannot be skipped by completing it: a sign-off that left no attestation loops here again."
         }
       ],
       "skos:notation": "A_RecordSignoff",
@@ -3266,7 +3446,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Copies every open pull request's `STAGING/<slug>/` preview from `gh-pages` into the publish directory before the replace, once per publish attempt (`restore-staging.ts`, run inside `publish-gh-pages.sh`). Only open PRs' previews are carried; a branch that cannot be read refuses the publish."
+          "@value": "Copies every open pull request's `branches/<slug>/` preview from `gh-pages` into the publish directory before the replace, once per publish attempt (`restore-staging.ts`, run inside `publish-gh-pages.sh`). Only open PRs' previews are carried; a branch that cannot be read refuses the publish."
         }
       ],
       "skos:notation": "Task_Restore",
@@ -3346,7 +3526,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Post, or update in place, one comment on the PR giving the preview URL (STAGING/<slug>/) and the commit it was built from. Pull-request events only."
+          "@value": "Post, or update in place, one comment on the PR giving the preview URL (branches/<slug>/) and the commit it was built from. Pull-request events only."
         }
       ],
       "skos:notation": "Task_Comment",
@@ -3361,12 +3541,12 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Push to the CDN under STAGING/"
+          "@value": "Push to the CDN under branches/"
         }
       ],
       "skos:definition": [
         {
-          "@value": "A PREVIEW IS THE GENERAL STEP WITH A DIFFERENT ROOT (owner, 2026-09-30: \"independent of staging vs publication … just rendering\"). Process_RenderKgToCdn, entered with the tree Task_Build rendered, `STAGING/<slug>/` under the site root as the publication root URL, and GitHub Pages as the target, so its `gh-pages` Tool pushes. For this target the push is `keep_files: true` with a `destination_dir`, so it adds one directory beside whatever else is on the branch; it is also RETRIED once: five other workflows push to `gh-pages` without joining this one's concurrency group, and a queue does not help because GitHub CANCELS a pending job when a newer one arrives for the same group rather than queueing it. Measured 2026-09-19: three staging runs from three different branches inside 17 seconds, two cancelled. The call returns the push's status and message; the render log and the PR comment that follow are this process's own. THE PREVIEW CAP rides in the same commit (owner ruling 2026-10-02, issue #1868: \"cap the maximum number of previews (<= 10) and rotate old ones off\", amended 2026-10-04 to a SIZE budget: \"Cap by size, not count\", \"3gb\"): `staging-rotate.ts` keeps this preview plus the most recently updated others while their total fits MAX_PREVIEW_BYTES = 3 GB and removes the rest, oldest first, each with a `removed` render-log entry and its record retired into STAGING/_retired/. Every push attempt re-reads `gh-pages` and re-decides rather than rebasing, so a lost race never pushes a stale removal. A rotated-off preview is regenerated by the next push to its PR branch."
+          "@value": "A PREVIEW IS THE GENERAL STEP WITH A DIFFERENT ROOT (owner, 2026-09-30: \"independent of staging vs publication … just rendering\"). Process_RenderKgToCdn, entered with the tree Task_Build rendered, `branches/<slug>/` under the site root as the publication root URL, and GitHub Pages as the target, so its `gh-pages` Tool pushes. For this target the push is `keep_files: true` with a `destination_dir`, so it adds one directory beside whatever else is on the branch; it is also RETRIED once: five other workflows push to `gh-pages` without joining this one's concurrency group, and a queue does not help because GitHub CANCELS a pending job when a newer one arrives for the same group rather than queueing it. Measured 2026-09-19: three staging runs from three different branches inside 17 seconds, two cancelled. The call returns the push's status and message; the render log and the PR comment that follow are this process's own. THE PREVIEW CAP rides in the same commit (owner ruling 2026-10-02, issue #1868: \"cap the maximum number of previews (<= 10) and rotate old ones off\", amended 2026-10-04 to a SIZE budget: \"Cap by size, not count\", \"3gb\"): `staging-rotate.ts` keeps this preview plus the most recently updated others while their total fits MAX_PREVIEW_BYTES = 3 GB and removes the rest, oldest first, each with a `removed` render-log entry and its record retired into branches/_retired/. Every push attempt re-reads `gh-pages` and re-decides rather than rebasing, so a lost race never pushes a stale removal. A rotated-off preview is regenerated by the next push to its PR branch."
         }
       ],
       "skos:notation": "Task_Deploy",
@@ -3386,7 +3566,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Its OWN commit, not part of the deploy. The publish action writes only into `destination_dir`, so an entry riding in `_site` would land at `STAGING/<slug>/_render-log/` — inside the directory a cleanup removes, which is the one place a record of the removal must not be. `continue-on-error`: a preview that deployed and whose entry did not is a gap in the record, not a failed deploy."
+          "@value": "Its OWN commit, not part of the deploy. The publish action writes only into `destination_dir`, so an entry riding in `_site` would land at `branches/<slug>/_render-log/` — inside the directory a cleanup removes, which is the one place a record of the removal must not be. `continue-on-error`: a preview that deployed and whose entry did not is a gap in the record, not a failed deploy."
         }
       ],
       "skos:notation": "Task_LogRendered",
@@ -3481,7 +3661,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Say what is going — size and file count — then remove STAGING/<slug>/ and append `removed` to the render log in the SAME commit, so a preview cannot vanish without a record of who dispatched it and why. The slug is a dispatch input, so the tool re-checks it by value rather than trusting the guard."
+          "@value": "Say what is going — size and file count — then remove branches/<slug>/ and append `removed` to the render log in the SAME commit, so a preview cannot vanish without a record of who dispatched it and why. The slug is a dispatch input, so the tool re-checks it by value rather than trusting the guard."
         }
       ],
       "skos:notation": "Task_RemoveDisp",
@@ -4141,7 +4321,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Generates or retrieves the domain glossary for the target locale. Sources: 1. Root folio's translations/ glossary 2. Folio-assistant dependency translations (depth-first walk) 3. WHO standard terminology (from the WHO SMART Base IG) 4. Previous translations of related content"
+          "@value": "Builds the locale term base for the target locale from the layered glossaries, has it reviewed, and hands it to the translator with the POT. Each layer's glossary is the directory it declares with the `glossary` graph typology. Precedence, within one subject area (the scheme's `subject`): the more authoritative (lower) layer fixes a term's translation; an instance layer only adds, and may not give a fixed term a second translation. A match in another subject area is a sense check for the reviewer, not a violation. Previous translations of related content are evidence for a term with no fixed form, not a source that overrides one. A fixed translation is an authored term with a non-empty, non-fuzzy msgstr in its scheme's catalogue (translation-manager, \"The locale term base\")."
         }
       ],
       "skos:notation": "Task_PrepareGlossary",
@@ -4221,7 +4401,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Back-translate the target-language .md into the source language and compare the meaning with the original. It catches semantic drift and terminology misses that a forward-only fluency check cannot see, and tells the two apart. Tool: the translation_validate MCP tool. No gateway follows: drift or clean, the translation goes to Task_SMEReview with the findings attached. Which of two readings is right is a human call (translation-manager, \"route drift to a human reviewer\"), and every translation in this workflow is reviewed and signed off anyway, so a clean result is evidence for the reviewer and never a way around them."
+          "@value": "Back-translate the target-language .md into the source language and compare the meaning with the original. It catches semantic drift and terminology misses that a forward-only fluency check cannot see, and tells the two apart. Tool: the translation_validate MCP tool. No gateway follows: drift or clean, the translation goes to Task_SMEReview with the findings attached. Which of two readings is right is a human call (translation-manager, \"route drift to a human reviewer\"), and every translation in this workflow is reviewed and signed off anyway, so a clean result is evidence for the reviewer and never a way around them. The findings include `translation:glossary:check`'s: every glossary term translated against the locale term base, fixed before sign-off, with its glossary section in the KG QA report."
         }
       ],
       "skos:notation": "Task_RoundTripQA",
@@ -4381,7 +4561,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "THE FIRST LINK: everything downstream of here takes a file that is already in the queue. WHAT THIS STEP IS. The basic flow's ACCEPT step: choosing an arrival route, writing the bytes into the declared queue of the instance that will own them, and discharging what that route does not discharge for you. The routes, what each writer owes, and the two that are mechanisms against the one that is a persona are in the `upload-routes` skill; `upload-url` composes the forge URL for the web route from the declaration rather than from a literal. WHY A PLAIN `bpmn:task` AND NOT A `userTask`. A `userTask` asserts a human performs it, and this lane is \"Contributor (human or agent)\" because both do; asserting human-only would be an `activity-fulfilment-kind` contradiction. A plain task asserts nothing about the performer. WHY THE BEAN OP IS `note` AND NOT `claim`. Placing a file claims nothing; it adds to a queue. What it owes the work plan is visibility. A note against the ingestion bean is what makes the queue's growth something another session can see."
+          "@value": "THE FIRST LINK: everything downstream of here takes a file that is already in the queue, so without this step how the file got there is governed by nothing. WHAT THIS STEP IS. The basic flow's ACCEPT step: choosing an arrival route, writing the bytes into the declared queue of the instance that will own them, and discharging what that route does not discharge for you. The routes, what each writer owes, and the two that are mechanisms against the one that is a persona are in the `upload-routes` skill; `upload-url` composes the forge URL for the web route from the declaration rather than from a literal, because a hand-written one can 404. WHY A PLAIN `bpmn:task` AND NOT A `userTask`. A `userTask` asserts a human performs it, and this lane is \"Contributor (human or agent)\" because both do; asserting human-only would be an `activity-fulfilment-kind` contradiction. A plain task asserts nothing about the performer. WHY THE BEAN OP IS `note` AND NOT `claim`. Placing a file claims nothing; it adds to a queue. What it owes the work plan is visibility. A note against the ingestion bean is what makes the queue's growth something another session can see."
         }
       ],
       "skos:notation": "Task_Place",
@@ -6476,7 +6656,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Sparse checkout of the declaration and the chosen directories, copied to the mount path (by default the instance's home path, so relative imports and sibling discovery hold). Never onto tracked bytes; never onto a directory no lock says this mount made; never over edits to a previous mount — those are left untouched and reported."
+          "@value": "Sparse checkout of the declaration and the chosen directories, copied to the mount path (by default the instance's home path, so relative imports and sibling discovery hold). Never onto tracked bytes; never onto a directory no lock says this mount made; never over edits to a previous mount — those are left untouched and reported. A replay of the lock tries the index's layers cache ref first (`refs/cat/layers/<key>`, then `refs/cat/layers/main`): one shallow fetch, every byte verified against the lock, and any layer that does not verify is fetched from its own repository."
         }
       ],
       "skos:notation": "Task_MountInstances",
@@ -6496,7 +6676,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "When the lock changed, the layers an agent's skills and memory are generated from changed with it. `mount:remote` re-runs the generators of what an agent actually reads — `skill:commands` (`.claude/commands/`) and `agent-memory` (`.claude/agent-memory/` and the `.agents/` copies) — from the checkout root, and a generator that fails fails the run. A re-pin commit therefore carries the new layers AND the surface rendered from them."
+          "@value": "When the lock changed, the layers an agent's skills and memory are generated from changed with it. `mount:remote` re-runs the generators of what an agent actually reads — `skill:commands` (`.claude/commands/`) and `agent-memory` (`.claude/agent-memory/` and the `.agents/` copies) — from the checkout root, and a generator that fails fails the run. A re-pin commit therefore carries the new layers AND the surface rendered from them, because new layers shipped without their rendered surface fail the agent-memory tests."
         }
       ],
       "skos:notation": "Task_RenderAgentSurface",
@@ -6536,7 +6716,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "`index.lock.json` beside the downstream's `index.config.json` (the legacy `<instance>.mount-lock.json` is still read, and is renamed onto the new name when rewritten; both present is an error): the pins it was written for, each instance's repository, SHA and how the pin was found, each directory's tree digest — and what was NOT mounted, with why, so an offline check cannot read a gap as clean."
+          "@value": "`index.lock.json` beside the downstream's `index.config.json` (the legacy `<instance>.mount-lock.json` is still read, and is renamed onto the new name when rewritten; both present is an error): the pins it was written for, each instance's repository, SHA and how the pin was found, each directory's tree digest — and what was NOT mounted, with why, so an offline check cannot read a gap as clean. Whoever writes the lock writes its layers cache ref (`layers:publish`, which refuses unless every mount hashes to the lock); on main, the index's workflow does it."
         }
       ],
       "skos:notation": "Task_WriteLock",
@@ -7211,7 +7391,7 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Record the recommendation AND the rejected options"
+          "@value": "Record the chosen option AND the rejected ones"
         }
       ],
       "skos:definition": [
@@ -7696,7 +7876,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "The gates are re-asked, not inherited: a licence can change, and a collection can grow past the size a caller agreed to. AND THE NEW FIXITY IS RECORDED IN THE SAME CHANGE. This step rewrites bytes that a materialization record describes, so leaving the old digest behind would make a CORRECT run of this process fail check:materialized-fixity as a mismatch — the gate reading \"somebody edited held content without saying so\" about the one process whose job is to replace it. This is the publication exception, stated as a rule rather than as a carve-out. The exception is NOT \"these actors may skip the rule\"; it is \"say what you did\". A writer that updates the digest alongside the bytes passes, and the record then describes what is actually there. A writer that does not fails, correctly, because it has forked upstream silently."
+          "@value": "The gates are re-asked, not inherited: a licence can change, and a collection can grow past the size a caller agreed to. AND THE NEW FIXITY IS RECORDED IN THE SAME CHANGE. This step rewrites bytes that a materialization record describes, so leaving the old digest behind would make a CORRECT run of this process fail check:materialized-fixity as a mismatch — the gate reading \"somebody edited held content without saying so\" about the one process whose job is to replace it. This is the publication exception, stated as a rule rather than as a carve-out, because a list of permitted writers goes stale when a writer is added. The exception is NOT \"these actors may skip the rule\"; it is \"say what you did\". A writer that updates the digest alongside the bytes passes, and the record then describes what is actually there. A writer that does not fails, correctly, because it has forked upstream silently."
         }
       ],
       "skos:notation": "Task_Apply",
@@ -7791,7 +7971,7 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Record the conflict, decide nothing, and do NOT re-pin"
+          "@value": "Record the conflict: no decision, no re-pin"
         }
       ],
       "skos:definition": [
@@ -8071,7 +8251,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Records that a removal was considered and refused, or that a preview still stands because a signal fired. A reason is REQUIRED — the tool refuses without one."
+          "@value": "Records that a removal was considered and refused, or that a preview still stands because a signal fired; without the entry that leaves no trace, and nobody can tell why a preview is still up. A reason is REQUIRED — the tool refuses without one."
         }
       ],
       "skos:notation": "A_LogRetained",
@@ -8111,7 +8291,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "`rm -rf STAGING/<slug>`. Cannot reach the log, which lives outside STAGING/ — structural rather than guarded, because a branch named to collide with a directory under STAGING/ slugifies to exactly that name and git permits the ref."
+          "@value": "`rm -rf branches/<slug>`. Cannot reach the log, which lives outside branches/ — structural rather than guarded, because a branch named to collide with a directory under branches/ slugifies to exactly that name and git permits the ref."
         }
       ],
       "skos:notation": "A_Remove",
@@ -8391,7 +8571,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Prose, code nodes, or both. This is the only decision the generic lane makes on its own: everything after it is made inside a subprocess by the role that lane binds. Binds `content-review`, the same skill as Task_Consolidate in this lane. A paper process that wants semantic scoping adds it by calling this process."
+          "@value": "Prose, code nodes, or both. This is the only decision the generic lane makes on its own: everything after it is made inside a subprocess by the role that lane binds. Binds `content-review`, the same skill as Task_Consolidate in this lane, because a paper skill belongs to the science layer, which this harness diagram cannot reach. A paper process that wants semantic scoping adds it by calling this process."
         }
       ],
       "skos:notation": "Task_ClassifyChange",
@@ -9166,7 +9346,7 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Prepare cohort: inputs, indicatorRef, expected & computed value"
+          "@value": "Prepare the cohort: inputs, expected and computed"
         }
       ],
       "skos:definition": [
@@ -9186,7 +9366,7 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Prepare worked case: input, decisionLogicRef and systemOutput"
+          "@value": "Prepare the worked case: input, logic, output"
         }
       ],
       "skos:definition": [
@@ -9226,7 +9406,7 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Judge domain correctness of worked case or indicator cohort"
+          "@value": "Judge whether the case or cohort is right"
         }
       ],
       "skos:definition": [
@@ -10586,7 +10766,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "A person looks at the ingested assets laid out in the design they are for, at BOTH a web and a mobile width. THIS IS A HUMAN STEP INSIDE INGESTION, stated rather than hidden: ingestion of a THEME SOURCE is attended at this step, while ingestion of everything else never reaches it. A judgement made at one viewport is incomplete, not passed, and the wireframe of the surface (wireframe-design-review) says what each layout was meant to be."
+          "@value": "A person looks at the ingested assets laid out in the design they are for, at BOTH a web and a mobile width. THIS IS A HUMAN STEP INSIDE INGESTION, stated rather than hidden: ingestion of a THEME SOURCE is attended at this step, while ingestion of everything else never reaches it. A judgement made at one viewport is incomplete, not passed, and the wireframe of the surface (wireframe-design-review) says what each layout was meant to be. A clean build, a passing suite and every gate can all miss what only rendering the page and looking finds."
         }
       ],
       "skos:notation": "R_Judge",
@@ -10646,7 +10826,7 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Adjudicate flagged passage (human reviewer)"
+          "@value": "Adjudicate the flagged passage (human)"
         }
       ],
       "skos:definition": [
@@ -10679,6 +10859,26 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_translation.task_glossarycheck",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Check glossary terms (translation:glossary:check)"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "After translating: run `translation:glossary:check --instance <dir> --locale <locale>`, fix the violations, and include its glossary section in the KG QA report. A term translated against the term base is a terminology miss, so it takes the drift branch to the adjudicator."
+        }
+      ],
+      "skos:notation": "Task_GlossaryCheck",
+      "dcterms:source": "cat-harness/processes/library/translation-workflow.bpmn#Task_GlossaryCheck",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_translation.task_poinject",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -10706,7 +10906,7 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Extract translatable strings (POT generation)"
+          "@value": "Extract translatable strings (POT)"
         }
       ],
       "skos:definition": [
@@ -10779,6 +10979,26 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_translation.task_termbase",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Build and review the locale term base"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Before translating: build the locale term base from the layered glossaries, review it, and translate with it. Precedence, within one subject area (the scheme's `subject`): the more authoritative (lower) layer fixes a term's translation; an instance layer only adds. A match in another subject area is a sense check, not a violation. Each layer's glossary is the directory it declares with the `glossary` graph typology. A fixed translation is an authored term with a non-empty, non-fuzzy msgstr in its scheme's catalogue."
+        }
+      ],
+      "skos:notation": "Task_TermBase",
+      "dcterms:source": "cat-harness/processes/library/translation-workflow.bpmn#Task_TermBase",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/cat-harness/v0/ns/glossary/kg-bpmn-activities/process_translation.task_translate",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -10791,7 +11011,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Translation of .pot → .po by one of: 1. Existing PO from the WHO SMART Base IG (Weblate/Crowdin/Launchpad) 2. FHIR/translation-utils po-translate CLI (DeepL/Google, tagged #fuzzy) 3. Agent (LLM) translation 4. Human translator Result: <locale>/block.po with msgid/msgstr pairs."
+          "@value": "Translation of .pot → .po, with the locale term base, by one of: 1. Existing PO from the WHO SMART Base IG (Weblate/Crowdin/Launchpad) 2. FHIR/translation-utils po-translate CLI (DeepL/Google, tagged #fuzzy) 3. Agent (LLM) translation 4. Human translator Result: <locale>/block.po with msgid/msgstr pairs."
         }
       ],
       "skos:notation": "Task_Translate",
@@ -11071,7 +11291,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "An MVP is a DEPLOYED BUILD, not a description of one. The pin is moved on a branch and `feature-staging.yml` publishes it under `STAGING/<branch-slug>/`, so the reviewer looks at the artefact rather than at a screenshot — the same argument the merge discipline makes about rendered work."
+          "@value": "An MVP is a DEPLOYED BUILD, not a description of one. The pin is moved on a branch and `feature-staging.yml` publishes it under `branches/<branch-slug>/`, so the reviewer looks at the artefact rather than at a screenshot — the same argument the merge discipline makes about rendered work."
         }
       ],
       "skos:notation": "Task_Mvp",

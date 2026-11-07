@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -905,7 +905,7 @@
 
 <p>Generated by <code class="language-plaintext highlighter-rouge">cat-harness-tools/scripts/gen-processes-viz.ts</code>. <strong>Every number here is counted from the directory</strong>, never carried in prose — <code class="language-plaintext highlighter-rouge">bpmn-processes</code>’ own rule, and the bean that asked for this page had two different counts in its title and its body.</p>
 
-<p><strong>28</strong> diagram(s), <strong>28</strong> parsed, <strong>0</strong> that would not load.</p>
+<p><strong>30</strong> diagram(s), <strong>30</strong> parsed, <strong>0</strong> that would not load.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -917,11 +917,11 @@
   <tbody>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/</code></td>
-      <td>18</td>
+      <td>19</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/</code></td>
-      <td>6</td>
+      <td>7</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/ui/</code></td>
@@ -964,7 +964,7 @@
     </tr>
     <tr>
       <td><a href="../authoring-a-document.html">Authoring a document</a></td>
-      <td>10</td>
+      <td>11</td>
       <td>—</td>
       <td>none recorded</td>
     </tr>
@@ -1006,7 +1006,7 @@
     </tr>
     <tr>
       <td><a href="../contributor-feedback.html">Contributor feedback on a working draft</a></td>
-      <td>8</td>
+      <td>9</td>
       <td>—</td>
       <td>none recorded</td>
     </tr>
@@ -1065,8 +1065,14 @@
       <td>none recorded</td>
     </tr>
     <tr>
+      <td><a href="../record-agent-step.html">Record agent step</a></td>
+      <td>3</td>
+      <td>—</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
       <td><a href="../review-log-watch.html">Review-log watch</a></td>
-      <td>5</td>
+      <td>7</td>
       <td>—</td>
       <td>none recorded</td>
     </tr>
@@ -1102,7 +1108,13 @@
     </tr>
     <tr>
       <td><a href="../l1-document-ingestion.html">L1 document ingestion — a document to the L1 source knowledge graph</a></td>
-      <td>14</td>
+      <td>15</td>
+      <td>—</td>
+      <td>none recorded</td>
+    </tr>
+    <tr>
+      <td><a href="../publish-extracted-statements.html">Publish extracted statements with source links</a></td>
+      <td>4</td>
       <td>—</td>
       <td>none recorded</td>
     </tr>
@@ -1139,7 +1151,7 @@
 
 <p>The reverse of <code class="language-plaintext highlighter-rouge">&lt;bootstrap.processes:skill ref&gt;</code>, which is the join nothing else exposes: a skill says what to do, and until now nothing said which processes ask for it.</p>
 
-<p><strong>59</strong> distinct skill(s) are named by an activity.</p>
+<p><strong>61</strong> distinct skill(s) are named by an activity.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -1314,6 +1326,10 @@
       <td><a href="../public-comment-release.html"><code class="language-plaintext highlighter-rouge">public-comment-release.bpmn</code></a></td>
     </tr>
     <tr>
+      <td><code class="language-plaintext highlighter-rouge">publish-extracted-statements</code></td>
+      <td><a href="../authoring-a-document.html"><code class="language-plaintext highlighter-rouge">authoring-a-document.bpmn</code></a>, <a href="../l1-document-ingestion.html"><code class="language-plaintext highlighter-rouge">l1-document-ingestion.bpmn</code></a>, <a href="../publish-extracted-statements.html"><code class="language-plaintext highlighter-rouge">publish-extracted-statements.bpmn</code></a></td>
+    </tr>
+    <tr>
       <td><code class="language-plaintext highlighter-rouge">quality-control</code></td>
       <td><a href="../draft-to-publication.html"><code class="language-plaintext highlighter-rouge">draft-to-publication.bpmn</code></a></td>
     </tr>
@@ -1347,11 +1363,15 @@
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">review-log-watch</code></td>
-      <td><a href="../review-log-watch.html"><code class="language-plaintext highlighter-rouge">review-log-watch.bpmn</code></a></td>
+      <td><a href="../record-agent-step.html"><code class="language-plaintext highlighter-rouge">record-agent-step.bpmn</code></a>, <a href="../review-log-watch.html"><code class="language-plaintext highlighter-rouge">review-log-watch.bpmn</code></a></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">review-sheet-agent-columns</code></td>
+      <td><a href="../contributor-feedback.html"><code class="language-plaintext highlighter-rouge">contributor-feedback.bpmn</code></a>, <a href="../record-agent-step.html"><code class="language-plaintext highlighter-rouge">record-agent-step.bpmn</code></a>, <a href="../review-log-watch.html"><code class="language-plaintext highlighter-rouge">review-log-watch.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">review-sheet-script</code></td>
-      <td><a href="../contributor-feedback.html"><code class="language-plaintext highlighter-rouge">contributor-feedback.bpmn</code></a>, <a href="../folio-review-publish.html"><code class="language-plaintext highlighter-rouge">folio-review-publish.bpmn</code></a>, <a href="../public-comment-release.html"><code class="language-plaintext highlighter-rouge">public-comment-release.bpmn</code></a>, <a href="../review-log-watch.html"><code class="language-plaintext highlighter-rouge">review-log-watch.bpmn</code></a></td>
+      <td><a href="../contributor-feedback.html"><code class="language-plaintext highlighter-rouge">contributor-feedback.bpmn</code></a>, <a href="../folio-review-publish.html"><code class="language-plaintext highlighter-rouge">folio-review-publish.bpmn</code></a>, <a href="../public-comment-release.html"><code class="language-plaintext highlighter-rouge">public-comment-release.bpmn</code></a>, <a href="../record-agent-step.html"><code class="language-plaintext highlighter-rouge">record-agent-step.bpmn</code></a>, <a href="../review-log-watch.html"><code class="language-plaintext highlighter-rouge">review-log-watch.bpmn</code></a></td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">staging-review</code></td>
@@ -1410,7 +1430,7 @@
   <tbody>
     <tr>
       <td>Ingestion Engine (agent, runs unattended)</td>
-      <td>5</td>
+      <td>6</td>
     </tr>
     <tr>
       <td>CI/CD Pipeline</td>
@@ -1423,6 +1443,10 @@
     <tr>
       <td>Review Committee</td>
       <td>3</td>
+    </tr>
+    <tr>
+      <td>Authoring agent</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>Authoring agent (system)</td>
@@ -1494,10 +1518,6 @@
     </tr>
     <tr>
       <td>Author and policy author</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Authoring agent</td>
       <td>1</td>
     </tr>
     <tr>
@@ -1676,7 +1696,7 @@
 </h2>
     
 
-<p>Three states, not two. <code class="language-plaintext highlighter-rouge">loadProcessModel</code> reads an undeclared policy as <code class="language-plaintext highlighter-rouge">strict</code>, which is right for the engine — <em>“a process that forgot to say is governed, not exempt”</em> — and hides a fact a reader wants. <strong>Somebody chose strict</strong> and <strong>nobody said, so the engine assumed strict</strong> are different, and the second is <strong>8</strong> of 28 here.</p>
+<p>Three states, not two. <code class="language-plaintext highlighter-rouge">loadProcessModel</code> reads an undeclared policy as <code class="language-plaintext highlighter-rouge">strict</code>, which is right for the engine — <em>“a process that forgot to say is governed, not exempt”</em> — and hides a fact a reader wants. <strong>Somebody chose strict</strong> and <strong>nobody said, so the engine assumed strict</strong> are different, and the second is <strong>9</strong> of 30 here.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -1690,11 +1710,11 @@
     <tr>
       <td><code class="language-plaintext highlighter-rouge">strict</code></td>
       <td>9</td>
-      <td>8</td>
+      <td>9</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">advisory</code></td>
-      <td>11</td>
+      <td>12</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -1708,36 +1728,7 @@
 </h2>
     
 
-<p><strong>26 diagram(s) have no rendered SVG.</strong> <code class="language-plaintext highlighter-rouge">bun run cat render:bpmn</code>.</p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/conduct/getting-started.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/authoring-a-document.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-change-review-committee.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-change-review-make.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-change-review-publish.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-change-review-stage.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-change-review.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/content-lifecycle.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/contributor-feedback.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/draft-to-publication.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/dsa-document-lifecycle.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/editing-hci-validation.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/evidence-retrieval.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/public-comment-change.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/public-comment-release.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/public-comment.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/content/review-log-watch.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/deep-document-research.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/ingest-build-l1-kg.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/ingest-derive-content.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/ingest-extract-structure.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/ingest-l1-completeness-gate.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/library/l1-document-ingestion.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/ui/board-open-close.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/ui/board-place-note.bpmn</code></li>
-  <li><code class="language-plaintext highlighter-rouge">folio-assistant-core/processes/ui/board-relocate.bpmn</code></li>
-</ul>
+<p>Every one of the <strong>30</strong> diagrams has a rendered SVG.</p>
 <h3 id="activities-carrying-no-bootstrapprocessesskill-ref--a-census-not-a-gap-list">
   
   

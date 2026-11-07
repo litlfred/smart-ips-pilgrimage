@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -1108,6 +1108,42 @@
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/bean-open.bpmn#Leave it alone&amp;#10;(coordinate instead)"><code>Leave it alone&amp;#10;(coordinate instead)</code></a><br><span class="p">cat-harness/sdlc/processes/bean-open.bpmn#Leave it alone&amp;#10;(coordinate instead)</span></td>
   <td>task in bean-open</td>
 </tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-bun-pip-10-dependencies">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#bun / pip&amp;#10;dependencies"><code>bun / pip&amp;#10;dependencies</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#bun / pip&amp;#10;dependencies</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-FHIR-IG-ASTs-10-Process_IgAstCache">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#FHIR IG ASTs:&amp;#10;Process_IgAstCache"><code>FHIR IG ASTs:&amp;#10;Process_IgAstCache</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#FHIR IG ASTs:&amp;#10;Process_IgAstCache</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Gate-results-10-restore-save">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Gate results:&amp;#10;restore / save"><code>Gate results:&amp;#10;restore / save</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Gate results:&amp;#10;restore / save</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Generated-sets-10-QA-copy-pages">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Generated sets:&amp;#10;QA copy, pages"><code>Generated sets:&amp;#10;QA copy, pages</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Generated sets:&amp;#10;QA copy, pages</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Jekyll-cache-10-restore-save">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Jekyll cache:&amp;#10;restore / save"><code>Jekyll cache:&amp;#10;restore / save</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Jekyll cache:&amp;#10;restore / save</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Layers-ref-10-restore-save">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Layers ref:&amp;#10;restore / save"><code>Layers ref:&amp;#10;restore / save</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Layers ref:&amp;#10;restore / save</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Lean-oleans-10-restore-save">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Lean .oleans:&amp;#10;restore / save"><code>Lean .oleans:&amp;#10;restore / save</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Lean .oleans:&amp;#10;restore / save</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Prepared-image-10-node_modules">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Prepared image +&amp;#10;node_modules"><code>Prepared image +&amp;#10;node_modules</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Prepared image +&amp;#10;node_modules</span></td>
+  <td>task in cache</td>
+</tr>
+<tr id="a-cat-harness-sdlc-processes-cache-bpmn-Render-seed-10-writer-records">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/cache.bpmn#Render seed:&amp;#10;writer records"><code>Render seed:&amp;#10;writer records</code></a><br><span class="p">cat-harness/sdlc/processes/cache.bpmn#Render seed:&amp;#10;writer records</span></td>
+  <td>task in cache</td>
+</tr>
 <tr id="a-cat-harness-sdlc-processes-ci-health-watch-bpmn-Report-the-verdict-on-the-tracking-issue">
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/ci-health-watch.bpmn#Report the verdict on the tracking issue"><code>Report the verdict on the tracking issue</code></a><br><span class="p">cat-harness/sdlc/processes/ci-health-watch.bpmn#Report the verdict on the tracking issue</span></td>
   <td>callActivity in ci-health-watch</td>
@@ -1289,7 +1325,7 @@
   <td>serviceTask in feature-staging</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/feature-staging.bpmn#Push to the CDN under STAGING/"><code>Push to the CDN under STAGING/</code></a><br><span class="p">cat-harness/sdlc/processes/feature-staging.bpmn#Push to the CDN under STAGING/</span></td>
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/feature-staging.bpmn#Push to the CDN under branches/"><code>Push to the CDN under branches/</code></a><br><span class="p">cat-harness/sdlc/processes/feature-staging.bpmn#Push to the CDN under branches/</span></td>
   <td>callActivity in feature-staging</td>
 </tr>
 <tr id="a-cat-harness-sdlc-processes-feature-staging-bpmn-Re-evaluate-liveness-10-AT-REMOVAL-TIME">
@@ -1556,8 +1592,8 @@
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/options-analysis.bpmn#Frame the decision and check the trigger"><code>Frame the decision and check the trigger</code></a><br><span class="p">cat-harness/sdlc/processes/options-analysis.bpmn#Frame the decision and check the trigger</span></td>
   <td>task in options-analysis</td>
 </tr>
-<tr id="a-cat-harness-sdlc-processes-options-analysis-bpmn-Record-the-recommendation-AND-the-rejected-options">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/options-analysis.bpmn#Record the recommendation AND the rejected options"><code>Record the recommendation AND the rejected options</code></a><br><span class="p">cat-harness/sdlc/processes/options-analysis.bpmn#Record the recommendation AND the rejected options</span></td>
+<tr id="a-cat-harness-sdlc-processes-options-analysis-bpmn-Record-the-chosen-option-AND-the-rejected-ones">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/options-analysis.bpmn#Record the chosen option AND the rejected ones"><code>Record the chosen option AND the rejected ones</code></a><br><span class="p">cat-harness/sdlc/processes/options-analysis.bpmn#Record the chosen option AND the rejected ones</span></td>
   <td>task in options-analysis</td>
 </tr>
 <tr id="a-cat-harness-sdlc-processes-options-analysis-bpmn-Select-the-methodology-by-context">
@@ -1740,16 +1776,16 @@
   <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/saturation-meta-merge.bpmn#Run main's checks"><code>Run main's checks</code></a><br><span class="p">cat-harness/sdlc/processes/saturation-meta-merge.bpmn#Run main's checks</span></td>
   <td>serviceTask in saturation-meta-merge</td>
 </tr>
-<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Judge-domain-correctness-10-of-worked-case-or-10-indicator-cohort">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Judge domain correctness&amp;#10;of worked case or&amp;#10;indicator cohort"><code>Judge domain correctness&amp;#10;of worked case or&amp;#10;indicator cohort</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Judge domain correctness&amp;#10;of worked case or&amp;#10;indicator cohort</span></td>
+<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Judge-whether-the-case-or-cohort-is-right">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Judge whether the case or cohort is right"><code>Judge whether the case or cohort is right</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Judge whether the case or cohort is right</span></td>
   <td>userTask in sme-test-data-review</td>
 </tr>
-<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Prepare-cohort-10-inputs-indicatorRef-10-expected-amp-computed-value">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Prepare cohort:&amp;#10;inputs, indicatorRef,&amp;#10;expected &amp;amp; computed value"><code>Prepare cohort:&amp;#10;inputs, indicatorRef,&amp;#10;expected &amp;amp; computed value</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Prepare cohort:&amp;#10;inputs, indicatorRef,&amp;#10;expected &amp;amp; computed value</span></td>
+<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Prepare-the-cohort-inputs-expected-and-computed">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Prepare the cohort: inputs, expected and computed"><code>Prepare the cohort: inputs, expected and computed</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Prepare the cohort: inputs, expected and computed</span></td>
   <td>task in sme-test-data-review</td>
 </tr>
-<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Prepare-worked-case-10-input-decisionLogicRef-10-and-systemOutput">
-  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Prepare worked case:&amp;#10;input, decisionLogicRef&amp;#10;and systemOutput"><code>Prepare worked case:&amp;#10;input, decisionLogicRef&amp;#10;and systemOutput</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Prepare worked case:&amp;#10;input, decisionLogicRef&amp;#10;and systemOutput</span></td>
+<tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Prepare-the-worked-case-input-logic-output">
+  <td><a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/sme-test-data-review.bpmn#Prepare the worked case: input, logic, output"><code>Prepare the worked case: input, logic, output</code></a><br><span class="p">cat-harness/sdlc/processes/sme-test-data-review.bpmn#Prepare the worked case: input, logic, output</span></td>
   <td>task in sme-test-data-review</td>
 </tr>
 <tr id="a-cat-harness-sdlc-processes-sme-test-data-review-bpmn-Record-the-SME-s-verdict-and-rationale">

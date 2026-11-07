@@ -264,15 +264,15 @@
           "heading": false
         },
         {
+          "term": "visual",
+          "heading": false
+        },
+        {
           "term": "overes",
           "heading": false
         },
         {
           "term": "organisational",
-          "heading": false
-        },
-        {
-          "term": "santoro",
           "heading": false
         }
       ],
@@ -304,11 +304,11 @@
           "heading": false
         },
         {
-          "term": "bpvs",
+          "term": "cognitive sense",
           "heading": false
         },
         {
-          "term": "cognitive sense",
+          "term": "bpvs",
           "heading": false
         },
         {
@@ -320,7 +320,7 @@
           "heading": false
         },
         {
-          "term": "organisations",
+          "term": "slr",
           "heading": false
         }
       ],
@@ -368,7 +368,7 @@
           "heading": false
         },
         {
-          "term": "accurate data",
+          "term": "user interaction",
           "heading": false
         }
       ],
@@ -392,11 +392,11 @@
           "heading": false
         },
         {
-          "term": "inclusion criteria",
+          "term": "exclusion criteria",
           "heading": false
         },
         {
-          "term": "exclusion criteria",
+          "term": "inclusion criteria",
           "heading": false
         },
         {
@@ -459,12 +459,12 @@
           "heading": false
         },
         {
-          "term": "frameworks",
-          "heading": true
-        },
-        {
           "term": "visual learning",
           "heading": false
+        },
+        {
+          "term": "frameworks",
+          "heading": true
         },
         {
           "term": "bpv",
@@ -479,7 +479,7 @@
           "heading": false
         },
         {
-          "term": "dashboards",
+          "term": "notations",
           "heading": false
         }
       ],
@@ -507,12 +507,12 @@
           "heading": false
         },
         {
-          "term": "objectives",
-          "heading": true
-        },
-        {
           "term": "process models",
           "heading": false
+        },
+        {
+          "term": "objectives",
+          "heading": true
         },
         {
           "term": "exploitation",
@@ -523,11 +523,11 @@
           "heading": false
         },
         {
-          "term": "behaviour",
+          "term": "view",
           "heading": false
         },
         {
-          "term": "view",
+          "term": "behaviour",
           "heading": false
         }
       ],
@@ -559,15 +559,11 @@
           "heading": false
         },
         {
-          "term": "task-centric",
-          "heading": false
-        },
-        {
           "term": "diagrams",
           "heading": false
         },
         {
-          "term": "colour",
+          "term": "task-centric",
           "heading": false
         },
         {
@@ -575,7 +571,11 @@
           "heading": false
         },
         {
-          "term": "contributed",
+          "term": "colour",
+          "heading": false
+        },
+        {
+          "term": "charts",
           "heading": false
         }
       ],
@@ -731,11 +731,11 @@
           "heading": true
         },
         {
-          "term": "experienced users",
+          "term": "bpmn diagrams",
           "heading": false
         },
         {
-          "term": "bpmn diagrams",
+          "term": "experienced users",
           "heading": false
         },
         {
@@ -815,11 +815,11 @@
           "heading": false
         },
         {
-          "term": "significance",
+          "term": "comprehension",
           "heading": false
         },
         {
-          "term": "comprehension",
+          "term": "significance",
           "heading": false
         },
         {
@@ -867,11 +867,11 @@
           "heading": false
         },
         {
-          "term": "papers",
+          "term": "research",
           "heading": false
         },
         {
-          "term": "research",
+          "term": "papers",
           "heading": false
         },
         {
@@ -895,6 +895,10 @@
       "summary": null,
       "keywords": [
         {
+          "term": "process visualization",
+          "heading": false
+        },
+        {
           "term": "international workshops",
           "heading": false
         },
@@ -907,15 +911,7 @@
           "heading": false
         },
         {
-          "term": "process visualization",
-          "heading": false
-        },
-        {
           "term": "business process",
-          "heading": false
-        },
-        {
-          "term": "international journal",
           "heading": false
         },
         {
@@ -923,7 +919,11 @@
           "heading": false
         },
         {
-          "term": "bpm international",
+          "term": "information visualization",
+          "heading": false
+        },
+        {
+          "term": "international journal",
           "heading": false
         }
       ],
@@ -976,6 +976,10 @@
       "heading": false
     },
     {
+      "term": "process visualization",
+      "heading": false
+    },
+    {
       "term": "visualising process",
       "heading": false
     },
@@ -984,11 +988,7 @@
       "heading": false
     },
     {
-      "term": "business processes",
-      "heading": false
-    },
-    {
-      "term": "process visualization",
+      "term": "perspective process",
       "heading": false
     }
   ],

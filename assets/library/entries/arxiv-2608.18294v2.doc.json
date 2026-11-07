@@ -507,11 +507,11 @@
           "heading": false
         },
         {
-          "term": "conditional independence",
+          "term": "downstream analyses",
           "heading": false
         },
         {
-          "term": "error-prone variable",
+          "term": "conditional independence",
           "heading": false
         }
       ],
@@ -581,11 +581,11 @@
           "heading": false
         },
         {
-          "term": "true label",
+          "term": "rdβ",
           "heading": false
         },
         {
-          "term": "rdβ",
+          "term": "true label",
           "heading": false
         },
         {
@@ -823,11 +823,11 @@
       },
       "keywords": [
         {
-          "term": "true label",
+          "term": "bridge function",
           "heading": false
         },
         {
-          "term": "bridge function",
+          "term": "true label",
           "heading": false
         },
         {
@@ -996,7 +996,7 @@
           "heading": false
         },
         {
-          "term": "conditional classification",
+          "term": "single-proxy bridge",
           "heading": false
         }
       ],
@@ -1088,11 +1088,11 @@
           "heading": false
         },
         {
-          "term": "analogs",
+          "term": "bridge",
           "heading": false
         },
         {
-          "term": "bridge",
+          "term": "analogs",
           "heading": false
         },
         {
@@ -1166,11 +1166,11 @@
           "heading": false
         },
         {
-          "term": "kruskal condition",
+          "term": "class-specific bridges",
           "heading": false
         },
         {
-          "term": "class-specific bridges",
+          "term": "kruskal condition",
           "heading": false
         },
         {
@@ -1264,7 +1264,7 @@
           "heading": false
         },
         {
-          "term": "conditioning",
+          "term": "researchers",
           "heading": false
         }
       ],
@@ -1401,7 +1401,7 @@
           "heading": false
         },
         {
-          "term": "simulation study",
+          "term": "gold-standard labels",
           "heading": false
         }
       ],
@@ -1448,11 +1448,11 @@
           "heading": false
         },
         {
-          "term": "empirical coverage",
+          "term": "majority voting",
           "heading": false
         },
         {
-          "term": "majority voting",
+          "term": "empirical coverage",
           "heading": false
         }
       ],
@@ -1894,12 +1894,12 @@
           "heading": false
         },
         {
-          "term": "algorithm",
-          "heading": true
-        },
-        {
           "term": "log",
           "heading": false
+        },
+        {
+          "term": "algorithm",
+          "heading": true
         }
       ],
       "extract": "Let ξ(t) i = Prθ(t)(L∗ i = 1 | eLi, Zi) denote the posterior responsibility at iteration t. For compactness, define f(t) ij,a = {η(t) ij,a}L(j) i {1 −η(t) ij,a}1−L(j) i . The E-step is ξ(t) i = p(t) i QJ j=1 f(t) ij,1 (1 −p(t) i ) QJ j=1 f(t) ij,0 + p(t) i QJ j=1 f(t) ij,1 . (C.2) The production code evaluates equation (C.2) on the log scale using a log-sum-exp calculation. Given ξ(t) i , the M-step separates into",
@@ -2057,15 +2057,15 @@
       "heading": false
     },
     {
+      "term": "conditional bridge",
+      "heading": false
+    },
+    {
       "term": "conditional independence",
       "heading": true
     },
     {
       "term": "downstream moment",
-      "heading": false
-    },
-    {
-      "term": "conditional bridge",
       "heading": false
     },
     {
@@ -2077,11 +2077,11 @@
       "heading": true
     },
     {
-      "term": "downstream inference",
+      "term": "imperfect labels",
       "heading": false
     },
     {
-      "term": "imperfect labels",
+      "term": "downstream inference",
       "heading": false
     },
     {

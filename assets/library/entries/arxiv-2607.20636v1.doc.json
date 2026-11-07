@@ -1688,11 +1688,11 @@
           "heading": false
         },
         {
-          "term": "social epistemology",
+          "term": "modelling grit",
           "heading": false
         },
         {
-          "term": "modelling grit",
+          "term": "social epistemology",
           "heading": false
         }
       ],
@@ -1715,11 +1715,11 @@
       },
       "keywords": [
         {
-          "term": "decision-making problem",
+          "term": "theoretical settings",
           "heading": false
         },
         {
-          "term": "theoretical settings",
+          "term": "decision-making problem",
           "heading": false
         },
         {
@@ -1739,7 +1739,7 @@
           "heading": false
         },
         {
-          "term": "decision",
+          "term": "decisions",
           "heading": false
         },
         {
@@ -2121,11 +2121,11 @@
           "heading": false
         },
         {
-          "term": "creasing",
+          "term": "tth",
           "heading": false
         },
         {
-          "term": "tth",
+          "term": "arms",
           "heading": false
         }
       ],
@@ -2700,11 +2700,11 @@
           "heading": false
         },
         {
-          "term": "chapter",
+          "term": "instances",
           "heading": false
         },
         {
-          "term": "instances",
+          "term": "chapter",
           "heading": false
         },
         {
@@ -2767,8 +2767,8 @@
           "heading": false
         },
         {
-          "term": "data-driven",
-          "heading": true
+          "term": "improving bandits",
+          "heading": false
         }
       ],
       "extract": "As before, we have an algorithm playing against an adversary. The role of the adversary is to pick the instance on which the algorithm must perform, and the algorithm’s goal is to solve some optimization problem on that instance. In contrast to the previous chapter, we now will study a situation where the adversary can only define a distribution over instances. Then, a neutral party chooses the specific instance",
@@ -2857,11 +2857,11 @@
           "heading": false
         },
         {
-          "term": "loss function",
+          "term": "hyperparameter transfer",
           "heading": false
         },
         {
-          "term": "hyperparameter transfer",
+          "term": "loss function",
           "heading": false
         },
         {
@@ -2986,11 +2986,11 @@
           "heading": false
         },
         {
-          "term": "envelope exponent",
+          "term": "every arm",
           "heading": false
         },
         {
-          "term": "every arm",
+          "term": "envelope exponent",
           "heading": false
         },
         {
@@ -3033,11 +3033,11 @@
           "heading": false
         },
         {
-          "term": "loss function",
+          "term": "dual complexity",
           "heading": false
         },
         {
-          "term": "dual complexity",
+          "term": "loss function",
           "heading": false
         },
         {
@@ -3045,11 +3045,11 @@
           "heading": false
         },
         {
-          "term": "bandits problem",
+          "term": "augmented instance",
           "heading": false
         },
         {
-          "term": "augmented instance",
+          "term": "bandits problem",
           "heading": false
         }
       ],
@@ -3139,11 +3139,11 @@
           "heading": false
         },
         {
-          "term": "arm gets",
+          "term": "worst-case instances",
           "heading": false
         },
         {
-          "term": "worst-case instances",
+          "term": "arm gets",
           "heading": false
         },
         {
@@ -3264,15 +3264,11 @@
       },
       "keywords": [
         {
-          "term": "h-bounded loss",
-          "heading": false
-        },
-        {
           "term": "sample complexity",
           "heading": true
         },
         {
-          "term": "exact bai",
+          "term": "h-bounded loss",
           "heading": false
         },
         {
@@ -3280,15 +3276,19 @@
           "heading": false
         },
         {
+          "term": "exact bai",
+          "heading": false
+        },
+        {
           "term": "approximate bai",
           "heading": false
         },
         {
-          "term": "generic h-bounded",
+          "term": "instances drawn",
           "heading": false
         },
         {
-          "term": "instances drawn",
+          "term": "generic h-bounded",
           "heading": false
         },
         {
@@ -3335,15 +3335,15 @@
           "heading": false
         },
         {
-          "term": "worst-case",
-          "heading": false
-        },
-        {
           "term": "instances",
           "heading": false
         },
         {
-          "term": "benign",
+          "term": "worst-case",
+          "heading": false
+        },
+        {
+          "term": "strength",
           "heading": false
         }
       ],
@@ -3435,11 +3435,11 @@
           "heading": false
         },
         {
-          "term": "social world",
+          "term": "few years",
           "heading": false
         },
         {
-          "term": "few years",
+          "term": "social world",
           "heading": false
         },
         {
@@ -3490,11 +3490,11 @@
           "heading": false
         },
         {
-          "term": "real world",
+          "term": "theoretical model",
           "heading": false
         },
         {
-          "term": "theoretical model",
+          "term": "real world",
           "heading": false
         }
       ],
@@ -3545,7 +3545,7 @@
           "heading": false
         },
         {
-          "term": "responsive",
+          "term": "pretty",
           "heading": false
         }
       ],
@@ -3674,11 +3674,11 @@
           "heading": false
         },
         {
-          "term": "theoretical models",
+          "term": "grey hair",
           "heading": false
         },
         {
-          "term": "grey hair",
+          "term": "theoretical models",
           "heading": false
         },
         {
@@ -3694,11 +3694,11 @@
           "heading": false
         },
         {
-          "term": "deep learning",
+          "term": "theoretical computer",
           "heading": false
         },
         {
-          "term": "theoretical computer",
+          "term": "deep learning",
           "heading": false
         }
       ],
@@ -3737,19 +3737,19 @@
           "heading": false
         },
         {
-          "term": "oracles",
-          "heading": false
-        },
-        {
           "term": "transparency",
           "heading": false
         },
         {
-          "term": "scholarship",
+          "term": "oracles",
           "heading": false
         },
         {
           "term": "modules",
+          "heading": false
+        },
+        {
+          "term": "articulating",
           "heading": false
         }
       ],
@@ -3784,19 +3784,19 @@
           "heading": false
         },
         {
-          "term": "mor",
-          "heading": false
-        },
-        {
           "term": "individuals",
           "heading": false
         },
         {
-          "term": "chapter",
+          "term": "mor",
           "heading": false
         },
         {
           "term": "circumstances",
+          "heading": false
+        },
+        {
+          "term": "chapter",
           "heading": false
         },
         {
@@ -4078,11 +4078,11 @@
           "heading": false
         },
         {
-          "term": "morton",
+          "term": "people like",
           "heading": false
         },
         {
-          "term": "people like",
+          "term": "morton",
           "heading": false
         },
         {
@@ -4550,11 +4550,11 @@
           "heading": false
         },
         {
-          "term": "optimism",
+          "term": "external support",
           "heading": false
         },
         {
-          "term": "external support",
+          "term": "optimism",
           "heading": false
         }
       ],
@@ -4691,11 +4691,11 @@
           "heading": false
         },
         {
-          "term": "morton",
+          "term": "computer science",
           "heading": false
         },
         {
-          "term": "computer science",
+          "term": "morton",
           "heading": false
         },
         {
@@ -4734,8 +4734,8 @@
           "heading": false
         },
         {
-          "term": "multi-armed bandits",
-          "heading": false
+          "term": "improving",
+          "heading": true
         },
         {
           "term": "improving multi-armed",
@@ -4750,11 +4750,11 @@
           "heading": false
         },
         {
-          "term": "option",
+          "term": "reward",
           "heading": false
         },
         {
-          "term": "reward",
+          "term": "options",
           "heading": false
         }
       ],
@@ -5322,11 +5322,11 @@
           "heading": false
         },
         {
-          "term": "engages",
+          "term": "quantitative",
           "heading": false
         },
         {
-          "term": "quantitative",
+          "term": "engages",
           "heading": false
         }
       ],
@@ -5408,11 +5408,11 @@
           "heading": true
         },
         {
-          "term": "synthesize",
+          "term": "theoretical",
           "heading": false
         },
         {
-          "term": "theoretical",
+          "term": "synthesize",
           "heading": false
         }
       ],
@@ -5510,11 +5510,11 @@
           "heading": false
         },
         {
-          "term": "going",
+          "term": "options",
           "heading": false
         },
         {
-          "term": "options",
+          "term": "going",
           "heading": false
         }
       ],
@@ -5631,11 +5631,11 @@
           "heading": true
         },
         {
-          "term": "study",
+          "term": "problems",
           "heading": false
         },
         {
-          "term": "problems",
+          "term": "study",
           "heading": false
         }
       ],
@@ -6105,11 +6105,11 @@
           "heading": false
         },
         {
-          "term": "randomized algorithm",
+          "term": "every deterministic",
           "heading": false
         },
         {
-          "term": "every deterministic",
+          "term": "yao principle",
           "heading": false
         }
       ],
@@ -6217,7 +6217,7 @@
           "heading": false
         },
         {
-          "term": "theorem",
+          "term": "complexity",
           "heading": false
         }
       ],
@@ -6322,19 +6322,19 @@
           "heading": false
         },
         {
-          "term": "arg minα",
-          "heading": false
-        },
-        {
-          "term": "reward curves",
-          "heading": false
-        },
-        {
           "term": "dual loss",
           "heading": false
         },
         {
+          "term": "arg minα",
+          "heading": false
+        },
+        {
           "term": "open interval",
+          "heading": false
+        },
+        {
+          "term": "reward curves",
           "heading": false
         }
       ],
@@ -6671,11 +6671,11 @@
           "heading": false
         },
         {
-          "term": "cumulative reward",
+          "term": "arm selected",
           "heading": false
         },
         {
-          "term": "arm selected",
+          "term": "cumulative reward",
           "heading": false
         }
       ],
@@ -6939,11 +6939,11 @@
           "heading": false
         },
         {
-          "term": "societal biases",
+          "term": "philosophical perspective",
           "heading": false
         },
         {
-          "term": "philosophical perspective",
+          "term": "societal biases",
           "heading": false
         },
         {
@@ -7512,7 +7512,7 @@
           "heading": false
         },
         {
-          "term": "reward",
+          "term": "strategy",
           "heading": false
         }
       ],
@@ -7641,15 +7641,15 @@
       "heading": false
     },
     {
+      "term": "optimal arm",
+      "heading": false
+    },
+    {
       "term": "arm now",
       "heading": false
     },
     {
       "term": "reward ratio",
-      "heading": false
-    },
-    {
-      "term": "optimal arm",
       "heading": false
     },
     {
@@ -7673,7 +7673,7 @@
       "heading": false
     },
     {
-      "term": "cumulative reward",
+      "term": "fixed arm",
       "heading": true
     },
     {
@@ -7681,7 +7681,7 @@
       "heading": false
     },
     {
-      "term": "fixed arm",
+      "term": "cumulative reward",
       "heading": true
     }
   ],

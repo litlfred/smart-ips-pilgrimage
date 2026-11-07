@@ -335,7 +335,7 @@
 
   `relative_url` for the same reason every other path here uses it: the site is
   served from `/folio-assistant` on the canonical deploy and from
-  `/folio-assistant/STAGING/<branch>` on a preview, and an absolute literal
+  `/folio-assistant/branches/<branch>` on a preview, and an absolute literal
   404s on every deploy but one.
 
   A URL rather than inline JSON, unlike `fa-site-links` above, because the
@@ -416,7 +416,7 @@
 
   Every other site-root path on this page is composed by Liquid: `relative_url`
   prepends `site.baseurl`, which is `/folio-assistant` on the canonical deploy
-  and `/folio-assistant/STAGING/<branch>` on a preview. The tiles cannot use
+  and `/folio-assistant/branches/<branch>` on a preview. The tiles cannot use
   it, because they reach the client as JSON and are composed in `docs-ui.js`
   after Liquid has finished — so the base has to travel with them.
 
@@ -447,7 +447,7 @@
 
   `feature-staging.yml` writes `staging_slug` into `_data/build.yml`;
   `docs-site.yml` writes the same file WITHOUT it. So a non-empty value here
-  means "a STAGING/<slug>/ preview", an empty one means the canonical deploy
+  means "a branches/<slug>/ preview", an empty one means the canonical deploy
   or a local build.
 
   It exists so a tile can vanish with its page. `compose-docs.ts` withholds a
@@ -563,7 +563,7 @@
 
   These five are served from stable paths with no hash in the name, so a
   browser that has the page cached keeps the old CSS and JS until its
-  `max-age` runs out. On the live site that is invisible. On a STAGING
+  `max-age` runs out. On the live site that is invisible. On a branches/
   preview it is the whole point of the deployment: the reviewer opens the URL
   they opened an hour ago, gets yesterday's stylesheet, and reports "i dont
   see changes" — which is indistinguishable from a deploy that never
@@ -582,7 +582,7 @@
 -->
 <!-- The harness icon row's own style, which railed pages load without docs-ui.css (beans `lhvt`, `9rq1`). -->
 <link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=b4497e8e1c4a">
+<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=34ea92e5aa62">
 <!-- Narrow viewports: wide content scrolls in its own box, never the page
      (bean `2r2n`). The standalone viewers inline the same file through
      `withViewerNav`, so both kinds of page read one set of rules. -->
@@ -593,7 +593,7 @@
   `state-visualizer.ts` can inline exactly these bytes into the generated
   `<base>/<stub>/state-visualizer/` pages. One rule, two surfaces.
 -->
-<link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=ed3e33f033fe">
+<link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=bd8c73337b01">
 <!-- Sticky themes. GENERATED from the theme nodes in `schemas/ui/themes.ts` by
      `bun run cat themes:css`; `themes:css:check` fails the build when it is stale.
      Loaded AFTER docs-ui.css deliberately: it supplies the `--fa-sticky-*`
@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=a0626cf3fe45">
+<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=dbb53d57180e">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","validators"]</script>
+<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -641,11 +641,11 @@
 <script src="../../../../../assets/js/kg-render.js" defer></script>
 <!-- BEFORE docs-ui.js, which calls it: the one drawing of the harness icon row (beans `lhvt`, `9rq1`). -->
 <script src="../../../../../assets/js/navbar-row.js?v=6bb19e1d17a5" defer></script>
-<script src="../../../../../assets/js/docs-ui.js?v=69d9894b0281" defer></script>
+<script src="../../../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script>
 <!-- The edit, source and feedback links of every page, from the platform's one
   recipe (cat-harness-tools/src/core/edit-links.ts, bean v433): links carry their
   facts and this builds the hrefs. -->
-<script src="../../../../../assets/js/edit-links.js?v=23ca1803a02a" defer></script>
+<script src="../../../../../assets/js/edit-links.js?v=04eadbe3cd70" defer></script>
 
 <!--
   The work-plan dashboard. SELF-MOUNTING on any page carrying
@@ -913,16 +913,16 @@
 
 <p>Candidate terms extracted from every schema field with a doc comment: <code class="language-plaintext highlighter-rouge">&lt;Declaration&gt;.&lt;field&gt;</code> as the label, the comment’s first paragraph as the definition. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2308 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 146 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 184 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 13 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2471 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 146 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 202 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 13 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 7 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/schema-fields/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 524 terms and is 307 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 557 terms and is 327 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
 <thead><tr><th>target</th><th>mapped</th><th>unmapped</th><th>undetermined</th><th>why undetermined</th></tr></thead>
-<tbody><tr><td><code>fhir</code></td><td>0</td><td>2685</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>2685</td><td>0</td><td>—</td></tr></tbody>
+<tbody><tr><td><code>fhir</code></td><td>0</td><td>2877</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>2877</td><td>0</td><td>—</td></tr></tbody>
 </table></div>
 <p class="fa-gloss-mapping-note"><strong>Undetermined is never “no match”.</strong> 
 A vocabulary that could not be reached has said nothing, and the column above keeps that 
@@ -932,7 +932,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">524</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">557</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-P">P</a> <a href="#letter-Q">Q</a> <a href="#letter-R">R</a></nav>
 <h2 id="letter-P">
@@ -1188,6 +1188,48 @@ PaperRef.url <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>Folio viewer URL for this paper. Used for: - Cross-paper dependency resolution (qualified <code>uses</code> refs) - BibTeX <code>folio-url</code> field for folio-hosted citations - Read-only import of external papers for commenting/referencing</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/types.ts"><code>cat-harness-tools/schemas/types.ts#PaperRef.url</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--user-scenario.partschema.optional" data-fa-state="extracted" data-fa-gloss="">
+PartSchema.optional <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The story may skip it.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#PartSchema.optional</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--user-scenario.partschema.repeats" data-fa-state="extracted" data-fa-gloss="">
+PartSchema.repeats <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>It may happen more than once.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#PartSchema.repeats</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--user-scenario.partschema.scenario" data-fa-state="extracted" data-fa-gloss="">
+PartSchema.scenario <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The journey that is this part.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#PartSchema.scenario</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.passcodeblockschema.digits" data-fa-state="extracted" data-fa-gloss="">
+PasscodeBlockSchema.digits <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The digits.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#PasscodeBlockSchema.digits</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.passcodeblockschema.entry" data-fa-state="extracted" data-fa-gloss="">
+PasscodeBlockSchema.entry <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Drawn as boxes being typed into (a verifier's entry) rather than a code held.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#PasscodeBlockSchema.entry</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.passcodeblockschema.shown" data-fa-state="extracted" data-fa-gloss="">
+PasscodeBlockSchema.shown <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Shown, or drawn as dots.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#PasscodeBlockSchema.shown</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-schema-fields--pcf-consent.pcfdecideoptions.actiongraph" data-fa-state="extracted" data-fa-gloss="">
 PcfDecideOptions.actionGraph <span class="fa-gloss-status">candidate, extracted</span>
@@ -1553,6 +1595,34 @@ PermitRequest.provRecords <span class="fa-gloss-status">candidate, extracted</sp
 <p>PROV-O activity records used to verify whether duties on a matching permission have been fulfilled. When omitted (<code>undefined</code>) and a duty is due, <code>permits()</code> returns <code>&quot;unknown&quot;</code>.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/odrl.ts"><code>cat-harness-tools/schemas/content/odrl.ts#PermitRequest.provRecords</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.personcardblockschema.actor" data-fa-state="extracted" data-fa-gloss="">
+PersonCardBlockSchema.actor <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The actor shown: name and avatar from its persona.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#PersonCardBlockSchema.actor</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.personcardblockschema.banner" data-fa-state="extracted" data-fa-gloss="">
+PersonCardBlockSchema.banner <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Drawn as a dark banner across the screen, as an EMR's patient bar.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#PersonCardBlockSchema.banner</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.personcardblockschema.name" data-fa-state="extracted" data-fa-gloss="">
+PersonCardBlockSchema.name <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The name as the screen spells it, when it is not the persona's (&quot;Somsack Sengmany&quot;).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#PersonCardBlockSchema.name</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.personcardblockschema.subtitle" data-fa-state="extracted" data-fa-gloss="">
+PersonCardBlockSchema.subtitle <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A line under the name.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#PersonCardBlockSchema.subtitle</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--pinned-terminology.pinnedconceptschema.deprecated" data-fa-state="extracted" data-fa-gloss="">
 PinnedConceptSchema.deprecated <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -1742,6 +1812,13 @@ PrComment.association <span class="fa-gloss-status">candidate, extracted</span>
 <p>GitHub's <code>author_association</code>: OWNER, MEMBER, COLLABORATOR, CONTRIBUTOR, NONE… Absent when not known.</p>
 <p class="fa-gloss-meta">Schema fields of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/schemas/review-comment.ts"><code>folio-assistant-core/schemas/review-comment.ts#PrComment.association</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--user-scenario.preconditionschema.description" data-fa-state="extracted" data-fa-gloss="">
+PreconditionSchema.description <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Markdown.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#PreconditionSchema.description</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--rendered-impact.predictioncheck.confirmed" data-fa-state="extracted" data-fa-gloss="">
 PredictionCheck.confirmed <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -1916,6 +1993,13 @@ ProofStateExport.line <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>Line number in the Lean file.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/formalization-types.ts"><code>cat-harness-tools/schemas/formalization-types.ts#ProofStateExport.line</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--work-plan.proposalapproval.path" data-fa-state="extracted" data-fa-gloss="">
+ProposalApproval.path <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The proposal's path, as the plan's <code>proposal:</code> tag spells it.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/work-plan.ts"><code>cat-harness-tools/schemas/sdlc/work-plan.ts#ProposalApproval.path</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--bib-verification.proposedaction.bean" data-fa-state="extracted" data-fa-gloss="">
 ProposedAction.bean <span class="fa-gloss-status">candidate, extracted</span>
@@ -2372,15 +2456,22 @@ QaCriterionEntry.result <span class="fa-gloss-status">candidate, extracted</span
 QaCriterionEntry.reviewed_at <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>When the audit ran (ISO-8601 UTC).</p>
+<p>When the audit ran (ISO-8601 UTC). Optional, and no longer written by the platform's writers (owner rulings 2026-11-06: card &quot;QA dates&quot;, option 1, derive the date; card &quot;Date source&quot;, option 1, derive it ON READ): the date a verdict is shown and ordered by is DERIVED from &#123;@link reviewed_tree} — the commit date of the commit carrying that tree (<code>tree-commits.json</code>, <code>entryDate</code> in <code>pipeline/qa-utils.ts</code>) — so the verdict's bytes carry no clock and a PR's QA output can be reused on main. The run's own time is in its run record. Kept readable for existing sidecars.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/block-qa.ts"><code>cat-harness-tools/schemas/sdlc/block-qa.ts#QaCriterionEntry.reviewed_at</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--block-qa.qacriterionentry.reviewed_sha" data-fa-state="extracted" data-fa-gloss="">
 QaCriterionEntry.reviewed_sha <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Repo HEAD at audit time (full git SHA). Producers must set this on every new entry; optional in the type only because legacy agent entries (pre-2026-06) omit it — matching the interchange schema (<code>tools/block-qa-schema/</code>), where it is likewise optional.</p>
+<p>Repo HEAD at audit time (full git SHA). No longer written — superseded by <code>reviewed_tree</code> (bean 69lr) — and kept readable so existing sidecars validate. Legacy agent entries (pre-2026-06) omit it too.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/block-qa.ts"><code>cat-harness-tools/schemas/sdlc/block-qa.ts#QaCriterionEntry.reviewed_sha</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--block-qa.qacriterionentry.reviewed_tree" data-fa-state="extracted" data-fa-gloss="">
+QaCriterionEntry.reviewed_tree <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Tree of repo HEAD at audit time (<code>HEAD^&#123;tree}</code>, full git id, or the <code>unknown</code> sentinel outside git). Producers must set this on every new entry; optional in the type only because older entries carry <code>reviewed_sha</code> instead. The tree, not the commit, because a PR run's HEAD is GitHub's synthetic merge commit, which can vanish — the tree survives onto main unchanged (bean 69lr; owner card Q4, 2026-11-05).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/block-qa.ts"><code>cat-harness-tools/schemas/sdlc/block-qa.ts#QaCriterionEntry.reviewed_tree</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--block-qa.qacriterionentry.reviewer" data-fa-state="extracted" data-fa-gloss="">
 QaCriterionEntry.reviewer <span class="fa-gloss-status">candidate, extracted</span>
@@ -2687,7 +2778,7 @@ QaScriptSidecar.extra_inputs <span class="fa-gloss-status">candidate, extracted<
 QaScriptSidecar.last_run_at <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>ISO-8601 UTC timestamp of the most recent qa-sweep run.</p>
+<p>ISO-8601 UTC timestamp of the most recent qa-sweep run. Optional and no longer written: the run's time is in its run record.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/block-qa.ts"><code>cat-harness-tools/schemas/sdlc/block-qa.ts#QaScriptSidecar.last_run_at</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--block-qa.qascriptsidecar.last_run_sha" data-fa-state="extracted" data-fa-gloss="">
@@ -2799,8 +2890,64 @@ QaWitness.scriptHash <span class="fa-gloss-status">candidate, extracted</span>
 QaWitness.sha <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Repo HEAD at review time.</p>
+<p>Repo HEAD at review time — read from older sidecars, no longer written.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/qa-record-shapes.ts"><code>cat-harness-tools/schemas/kg/qa-record-shapes.ts#QaWitness.sha</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--qa-record-shapes.qawitness.tree" data-fa-state="extracted" data-fa-gloss="">
+QaWitness.tree <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Tree of repo HEAD at review time — what verdicts record since bean 69lr (owner card Q4, 2026-11-05): a PR run's HEAD commit can vanish, its tree cannot.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/qa-record-shapes.ts"><code>cat-harness-tools/schemas/kg/qa-record-shapes.ts#QaWitness.tree</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.qrblockschema.example" data-fa-state="extracted" data-fa-gloss="">
+QrBlockSchema.example <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The FHIR example the code carries, <code>Type/id</code>: linked to its page.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#QrBlockSchema.example</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.qrblockschema.holder" data-fa-state="extracted" data-fa-gloss="">
+QrBlockSchema.holder <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Whose it is, as the card prints it (&quot;Somsack Sengmany&quot;).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#QrBlockSchema.holder</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.qrblockschema.holdernote" data-fa-state="extracted" data-fa-gloss="">
+QrBlockSchema.holderNote <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A line under the holder (&quot;Guardian: Khamla Sengmany&quot;).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#QrBlockSchema.holderNote</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.qrblockschema.label" data-fa-state="extracted" data-fa-gloss="">
+QrBlockSchema.label <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>What it is, under the title (&quot;Vaccine: Hep B birth dose&quot;).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#QrBlockSchema.label</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.qrblockschema.mode" data-fa-state="extracted" data-fa-gloss="">
+QrBlockSchema.mode <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p><code>show</code>: a code on this screen; <code>scan</code>: the camera reading one.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#QrBlockSchema.mode</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.qrblockschema.payload" data-fa-state="extracted" data-fa-gloss="">
+QrBlockSchema.payload <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>What the code encodes: drawn as a real QR code of this text.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#QrBlockSchema.payload</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.qrblockschema.title" data-fa-state="extracted" data-fa-gloss="">
+QrBlockSchema.title <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The card's title (&quot;Digital Vaccine Certificate&quot;).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#QrBlockSchema.title</code></a></p>
 </dd>
 </dl>
 <h2 id="letter-R">
@@ -2825,6 +2972,20 @@ ReaderFilter.properties <span class="fa-gloss-status">candidate, extracted</span
 <dd>
 <p>Kind properties to keep, keyed by property name — the owner's *&quot;filter out by kind properties&quot;*. OR within a property's values, AND across properties.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/reader-filter.ts"><code>cat-harness-tools/schemas/content/reader-filter.ts#ReaderFilter.properties</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--user-scenario.realisedbyschema.process" data-fa-state="extracted" data-fa-gloss="">
+RealisedBySchema.process <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The BPMN file, relative to the instance root.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#RealisedBySchema.process</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--user-scenario.realisedbyschema.tasks" data-fa-state="extracted" data-fa-gloss="">
+RealisedBySchema.tasks <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Flow-node ids in that process. Omitted: the whole process.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#RealisedBySchema.tasks</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--recording.recogniserschema.invocation" data-fa-state="extracted" data-fa-gloss="">
 RecogniserSchema.invocation <span class="fa-gloss-status">candidate, extracted</span>
@@ -2888,6 +3049,55 @@ RecordingSchema.duration_s <span class="fa-gloss-status">candidate, extracted</s
 <dd>
 <p>Length in seconds, read by <code>ffprobe</code>, or null when nothing could read it.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/library/recording.ts"><code>cat-harness-tools/schemas/library/recording.ts#RecordingSchema.duration_s</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.recordlistblockschema.example" data-fa-state="extracted" data-fa-gloss="">
+RecordListBlockSchema.example <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A FHIR example, <code>Type/id</code>, whose resources are the rows when <code>rows</code> is absent (a Bundle's entries, else the resource itself); linked to its page either way.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#RecordListBlockSchema.example</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.recordlistblockschema.footnote" data-fa-state="extracted" data-fa-gloss="">
+RecordListBlockSchema.footnote <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Small print under the rows.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#RecordListBlockSchema.footnote</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.recordlistblockschema.summary" data-fa-state="extracted" data-fa-gloss="">
+RecordListBlockSchema.summary <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A chip beside the title (&quot;2 doses completed&quot;).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#RecordListBlockSchema.summary</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.recordrowschema.code" data-fa-state="extracted" data-fa-gloss="">
+RecordRowSchema.code <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A code or an identifier, drawn in mono.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#RecordRowSchema.code</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.recordrowschema.detail" data-fa-state="extracted" data-fa-gloss="">
+RecordRowSchema.detail <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A line under the label.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#RecordRowSchema.detail</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--device-screen.recordrowschema.struck" data-fa-state="extracted" data-fa-gloss="">
+RecordRowSchema.struck <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Drawn struck through: a thing that must NOT be given (an allergy).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/device-screen.ts"><code>cat-harness-tools/schemas/process/device-screen.ts#RecordRowSchema.struck</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--user-scenario.recordschema.state" data-fa-state="extracted" data-fa-gloss="">
+RecordSchema.state <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A code of the scenario's <code>trustLadder</code> code list.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#RecordSchema.state</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--red-flag.redflagcategorydefinition.definition" data-fa-state="extracted" data-fa-gloss="">
 RedFlagCategoryDefinition.definition <span class="fa-gloss-status">candidate, extracted</span>
@@ -2958,6 +3168,20 @@ ReferenceNodeSchema.provenance <span class="fa-gloss-status">candidate, extracte
 <dd>
 <p>Where the reference came from. Absent means <code>authored</code>.</p>
 <p class="fa-gloss-meta">Schema fields of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/schemas/reference.ts"><code>folio-assistant-core/schemas/reference.ts#ReferenceNodeSchema.provenance</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--user-scenario.referenceschema.href" data-fa-state="extracted" data-fa-gloss="">
+ReferenceSchema.href <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A URL (<code>https:</code>, <code>mailto:</code> …), an absolute path or a <code>#fragment</code> as it is; anything else is a path from the SITE'S ROOT (<code>vaxlink/</code>, <code>journeys.html#j1</code>), resolved the same way on the journey page and the workshop pages (<code>fromSite</code>, <code>scripts/journeys/read.ts</code>).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#ReferenceSchema.href</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--user-scenario.referenceschema.rel" data-fa-state="extracted" data-fa-gloss="">
+ReferenceSchema.rel <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>What the link is to the step or journey: <code>specifies</code>, <code>illustrates</code>, <code>reading</code>. Free text.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#ReferenceSchema.rel</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-schema-fields--changeset.refschema.commit" data-fa-state="extracted" data-fa-gloss="">
 RefSchema.commit <span class="fa-gloss-status">candidate, extracted</span>
@@ -3621,7 +3845,7 @@ RenderOptions.referencedTerms <span class="fa-gloss-status">candidate, extracted
 RenderSubjectSchema.path <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>The path on the publish branch — <code>STAGING/&lt;slug&gt;</code>, or <code>/</code> for the site.</p>
+<p>The path on the publish branch — <code>branches/&lt;slug&gt;</code>, or <code>/</code> for the site.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/ui/render-log.ts"><code>cat-harness-tools/schemas/ui/render-log.ts#RenderSubjectSchema.path</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--render-log.rendersubjectschema.slug" data-fa-state="extracted" data-fa-gloss="">
@@ -4379,6 +4603,13 @@ RoleDef.formerNames <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>Names this role was known by and no longer is, each with the date it was retired — <code>Initiator</code> became <code>Bootstrapping Agent</code> on 2026-09-23. Published as <code>skos:hiddenLabel</code> on this role, and the old name's concept is <code>owl:deprecated</code> and <code>dcterms:isReplacedBy</code> this role, so a reader holding the old name is sent to the new one. Authored here, beside the definition, rather than only remembered by the harness's glossary ledger: a retired name is part of what the role IS to a reader of old text.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#RoleDef.formerNames</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--role-graph.roledef.holding" data-fa-state="extracted" data-fa-gloss="">
+RoleDef.holding <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>For a lane one session holds at a time, such as the merge steward: when the lane is needed at all, how sibling sessions choose its holder, and whether a lone session holds it for itself (owner rulings, 2026-11-07). See &#123;@link LaneHolding}, &#123;@link laneNeeded} and &#123;@link electHolder}.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#RoleDef.holding</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--role-graph.roledef.id" data-fa-state="extracted" data-fa-gloss="">
 RoleDef.id <span class="fa-gloss-status">candidate, extracted</span>

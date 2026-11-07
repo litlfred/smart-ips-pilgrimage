@@ -1,15 +1,158 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_MergeRefusal",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal",
+ "markers": [
+  {
+   "id": "Task_Record",
+   "name": "Record the refusal on the bean",
+   "left": 25.61,
+   "top": 29.45,
+   "box": {
+    "left": 21.94,
+    "top": 42.47,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_Comment",
+   "name": "Comment on the PR once, linking the bean",
+   "left": 33.69,
+   "top": 29.45,
+   "box": {
+    "left": 30.03,
+    "top": 42.47,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_HandBack",
+   "name": "Hand back, with a fail condition",
+   "left": 46.82,
+   "top": 29.45,
+   "box": {
+    "left": 43.16,
+    "top": 42.47,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_Fix",
+   "name": "Fix the PR, report on the PR",
+   "left": 46.82,
+   "top": 4.79,
+   "box": {
+    "left": 43.16,
+    "top": 17.81,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_Dispatch",
+   "name": "Dispatch one agent, recorded on the bean",
+   "left": 46.82,
+   "top": 52.74,
+   "box": {
+    "left": 43.16,
+    "top": 65.75,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_AgentFix",
+   "name": "Merge main in, regenerate, fix mechanical gates",
+   "left": 46.82,
+   "top": 76.03,
+   "box": {
+    "left": 43.16,
+    "top": 89.04,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_AskOwner",
+   "name": "Ask the owner on the PR, both sides quoted",
+   "left": 61.97,
+   "top": 76.03,
+   "box": {
+    "left": 58.31,
+    "top": 89.04,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_Retrain",
+   "name": "Re-enter a train on the new head",
+   "left": 61.97,
+   "top": 29.45,
+   "box": {
+    "left": 58.31,
+    "top": 42.47,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_Close",
+   "name": "Record the merge commit as evidence",
+   "left": 75.1,
+   "top": 29.45,
+   "box": {
+    "left": 71.44,
+    "top": 42.47,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Task_Scrap",
+   "name": "Scrap the bean, with the reason",
+   "left": 75.1,
+   "top": 52.74,
+   "box": {
+    "left": 71.44,
+    "top": 65.75,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Call_BeanOpen",
+   "name": "Open the bean",
+   "left": 11.97,
+   "top": 29.45,
+   "box": {
+    "left": 8.31,
+    "top": 42.47,
+    "width": 1.21,
+    "height": 3.29
+   }
+  },
+  {
+   "id": "Call_BeanClose_2",
+   "name": "Close the bean",
+   "left": 83.18,
+   "top": 29.45,
+   "box": {
+    "left": 79.52,
+    "top": 42.47,
+    "width": 1.21,
+    "height": 3.29
+   }
+  }
+ ],
  "tasks": {
   "Task_Record": {
    "id": "Task_Record",
    "name": "Record the refusal on the bean",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Record",
    "lane": "Merge steward",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -17,7 +160,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -284,9 +427,7 @@
    "id": "Task_Comment",
    "name": "Comment on the PR once, linking the bean",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Comment",
    "lane": "Merge steward",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -294,7 +435,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -561,9 +702,7 @@
    "id": "Task_HandBack",
    "name": "Hand back, with a fail condition",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_HandBack",
    "lane": "Merge steward",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -571,7 +710,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -838,9 +977,7 @@
    "id": "Task_Fix",
    "name": "Fix the PR, report on the PR",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Fix",
    "lane": "Owning session",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Owner",
    "skills": [
     {
      "name": "prepare-merge"
@@ -848,7 +985,7 @@
    ],
    "role": {
     "name": "sibling-session",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/sibling-session",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-sibling-session",
     "title": "Sibling session",
     "skills": [
      {
@@ -861,9 +998,7 @@
    "id": "Task_Dispatch",
    "name": "Dispatch one agent, recorded on the bean",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Dispatch",
    "lane": "Merge steward",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "dispatch-agent"
@@ -871,7 +1006,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -1138,9 +1273,7 @@
    "id": "Task_AgentFix",
    "name": "Merge main in, regenerate, fix mechanical gates",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_AgentFix",
    "lane": "Dispatched agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Dispatched",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -1148,7 +1281,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1320,9 +1453,7 @@
    "id": "Task_AskOwner",
    "name": "Ask the owner on the PR, both sides quoted",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_AskOwner",
    "lane": "Dispatched agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Dispatched",
    "skills": [
     {
      "name": "interaction-modality"
@@ -1330,7 +1461,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -1502,9 +1633,7 @@
    "id": "Task_Retrain",
    "name": "Re-enter a train on the new head",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Retrain",
    "lane": "Merge steward",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "merge-conflict-patterns"
@@ -1512,7 +1641,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -1779,9 +1908,7 @@
    "id": "Task_Close",
    "name": "Record the merge commit as evidence",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Close",
    "lane": "Merge steward",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "bean-coordination"
@@ -1789,7 +1916,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -2056,9 +2183,7 @@
    "id": "Task_Scrap",
    "name": "Scrap the bean, with the reason",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Task_Scrap",
    "lane": "Merge steward",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "bean-coordination"
@@ -2066,7 +2191,7 @@
    ],
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -2333,9 +2458,7 @@
    "id": "Call_BeanOpen",
    "name": "Open the bean",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Call_BeanOpen",
    "lane": "Merge steward",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "bean-coordination"
@@ -2343,12 +2466,12 @@
    ],
    "calls": {
     "name": "Open the bean",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanOpen",
+    "href": "bean-open.html",
     "diagram": "bean-open.html"
    },
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {
@@ -2615,9 +2738,7 @@
    "id": "Call_BeanClose_2",
    "name": "Close the bean",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/node/Call_BeanClose_2",
    "lane": "Merge steward",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_MergeRefusal/lane/Lane_Steward",
    "skills": [
     {
      "name": "todo-manager"
@@ -2625,12 +2746,12 @@
    ],
    "calls": {
     "name": "Close the bean",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "href": "bean-close.html",
     "diagram": "bean-close.html"
    },
    "role": {
     "name": "session-coordinator",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/session-coordinator",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-session-coordinator",
     "title": "Session coordinator",
     "skills": [
      {

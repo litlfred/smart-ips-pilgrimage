@@ -1,15 +1,86 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_CRDM_Requirements",
- "processHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements",
+ "markers": [
+  {
+   "id": "A_MapWorkflow",
+   "name": "Phase 2: Map current workflow (BPA)",
+   "left": 19.21,
+   "top": 39.17,
+   "box": {
+    "left": 13.99,
+    "top": 55,
+    "width": 1.73,
+    "height": 4
+   }
+  },
+  {
+   "id": "A_DefineReqs",
+   "name": "Phases 3–4: Define requirements + impact",
+   "left": 30.72,
+   "top": 39.17,
+   "box": {
+    "left": 25.5,
+    "top": 55,
+    "width": 1.73,
+    "height": 4
+   }
+  },
+  {
+   "id": "Call_Wireframe",
+   "name": "Wireframe candidates (web + mobile)",
+   "left": 50.86,
+   "top": 39.17,
+   "box": {
+    "left": 45.65,
+    "top": 55,
+    "width": 1.73,
+    "height": 4
+   }
+  },
+  {
+   "id": "A_CompareOptions",
+   "name": "Phase 4a: Compare the viable options",
+   "left": 62.37,
+   "top": 39.17,
+   "box": {
+    "left": 57.16,
+    "top": 55,
+    "width": 1.73,
+    "height": 4
+   }
+  },
+  {
+   "id": "BA_ReviewReqs",
+   "name": "Review requirements and impact analysis",
+   "left": 73.88,
+   "top": 5,
+   "box": {
+    "left": 68.67,
+    "top": 20.83,
+    "width": 1.73,
+    "height": 4
+   }
+  },
+  {
+   "id": "S_ApproveReqs",
+   "name": "Approve requirements",
+   "left": 85.4,
+   "top": 74.17,
+   "box": {
+    "left": 80.18,
+    "top": 90,
+    "width": 1.73,
+    "height": 4
+   }
+  }
+ ],
  "tasks": {
   "A_MapWorkflow": {
    "id": "A_MapWorkflow",
    "name": "Phase 2: Map current workflow (BPA)",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/node/A_MapWorkflow",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/lane/Lane_Agent",
    "skills": [
     {
      "name": "bpmn-authoring"
@@ -17,7 +88,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -189,12 +260,16 @@
    "id": "A_DefineReqs",
    "name": "Phases 3–4: Define requirements + impact",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/node/A_DefineReqs",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/lane/Lane_Agent",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     },
     {
      "name": "data-modelling"
@@ -202,7 +277,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -374,9 +449,7 @@
    "id": "Call_Wireframe",
    "name": "Wireframe candidates (web + mobile)",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/node/Call_Wireframe",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/lane/Lane_Agent",
    "skills": [
     {
      "name": "wireframe-design-review",
@@ -390,12 +463,12 @@
    ],
    "calls": {
     "name": "Wireframe design review",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_WireframeDesignReview",
+    "href": "wireframe-design-review.html",
     "diagram": "wireframe-design-review.html"
    },
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -567,9 +640,7 @@
    "id": "A_CompareOptions",
    "name": "Phase 4a: Compare the viable options",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/node/A_CompareOptions",
    "lane": "Agent",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/lane/Lane_Agent",
    "skills": [
     {
      "name": "decision-comparison"
@@ -577,7 +648,7 @@
    ],
    "role": {
     "name": "authoring-agent",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/authoring-agent",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-authoring-agent",
     "title": "Authoring agent",
     "skills": [
      {
@@ -749,17 +820,21 @@
    "id": "BA_ReviewReqs",
    "name": "Review requirements and impact analysis",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/node/BA_ReviewReqs",
    "lane": "BA / Feature Requestor",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/lane/Lane_BA",
    "skills": [
     {
-     "name": "crdm-requirements-workflow"
+     "name": "crdm-requirements-workflow",
+     "methodologies": [
+      {
+       "name": "crdm",
+       "href": "../../../en/cat-harness/methodologies/cat-harness/crdm/"
+      }
+     ]
     }
    ],
    "role": {
     "name": "business-analyst",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/business-analyst",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-business-analyst",
     "title": "Business analyst",
     "skills": [
      {
@@ -814,13 +889,11 @@
    "id": "S_ApproveReqs",
    "name": "Approve requirements",
    "type": "bpmn:Task",
-   "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/node/S_ApproveReqs",
    "lane": "Stakeholders",
-   "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CRDM_Requirements/lane/Lane_Stakeholders",
    "skills": [],
    "role": {
     "name": "stakeholder",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/stakeholder",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-stakeholder",
     "title": "Stakeholder",
     "skills": []
    }

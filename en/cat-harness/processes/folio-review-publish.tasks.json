@@ -1,15 +1,50 @@
 {
  "$schema": "process-task-panel/v1",
  "process": "Process_FolioReviewPublish",
- "processHref": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_FolioReviewPublish",
+ "markers": [
+  {
+   "id": "Task_Review",
+   "name": "Review and record feedback",
+   "left": 37.54,
+   "top": 36.96,
+   "box": {
+    "left": 27.27,
+    "top": 57.61,
+    "width": 3.4,
+    "height": 5.22
+   }
+  },
+  {
+   "id": "Task_Publish",
+   "name": "Publish",
+   "left": 75.78,
+   "top": 4.35,
+   "box": {
+    "left": 65.51,
+    "top": 25,
+    "width": 3.4,
+    "height": 5.22
+   }
+  },
+  {
+   "id": "Call_ContributorFeedback",
+   "name": "Contributor feedback",
+   "left": 75.78,
+   "top": 69.57,
+   "box": {
+    "left": 65.51,
+    "top": 90.22,
+    "width": 3.4,
+    "height": 5.22
+   }
+  }
+ ],
  "tasks": {
   "Task_Review": {
    "id": "Task_Review",
    "name": "Review and record feedback",
    "type": "bpmn:UserTask",
-   "href": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_FolioReviewPublish/node/Task_Review",
    "lane": "Reviewer",
-   "laneHref": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_FolioReviewPublish/lane/Lane_Reviewer",
    "skills": [
     {
      "name": "content-review"
@@ -20,7 +55,7 @@
    ],
    "role": {
     "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-reviewer",
     "title": "Reviewer / SME",
     "skills": [
      {
@@ -60,9 +95,7 @@
    "id": "Task_Publish",
    "name": "Publish",
    "type": "bpmn:ServiceTask",
-   "href": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_FolioReviewPublish/node/Task_Publish",
    "lane": "Build pipeline",
-   "laneHref": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_FolioReviewPublish/lane/Lane_Build",
    "skills": [
     {
      "name": "content-publish"
@@ -70,7 +103,7 @@
    ],
    "role": {
     "name": "build-pipeline",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-cat-harness-scenarios-roles-json-build-pipeline",
     "title": "Build pipeline",
     "skills": [
      {
@@ -137,9 +170,7 @@
    "id": "Call_ContributorFeedback",
    "name": "Contributor feedback",
    "type": "bpmn:CallActivity",
-   "href": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_FolioReviewPublish/node/Call_ContributorFeedback",
    "lane": "Authoring Committee",
-   "laneHref": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_FolioReviewPublish/lane/Lane_Committee",
    "skills": [
     {
      "name": "review-sheet-script"
@@ -147,12 +178,12 @@
    ],
    "calls": {
     "name": "Contributor feedback on a working draft",
-    "href": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_ContributorFeedback",
+    "href": "contributor-feedback.html",
     "diagram": "contributor-feedback.html"
    },
    "role": {
     "name": "authoring-committee",
-    "href": "https://litlfred.github.io/folio-assistant/folio-assistant-core/role/authoring-committee",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-folio-assistant-core-scenarios-roles-json-authoring-committee",
     "title": "Authoring Committee",
     "skills": [
      {
