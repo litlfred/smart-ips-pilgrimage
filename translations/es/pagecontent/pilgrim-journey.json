@@ -1,10 +1,10 @@
 {
   "$schema": "translation-node/v1",
-  "$comment": "Spanish translation of input/pagecontent/pilgrim-journey.md. Agent translation, unofficial: no human has adjudicated it. Coverage 69/69.",
+  "$comment": "Spanish translation of input/pagecontent/pilgrim-journey.md. Agent translation, unofficial: no human has adjudicated it. Coverage 70/70.",
   "label": "trans:es/pagecontent/pilgrim-journey",
   "locale": "es",
   "sourceFile": "input/pagecontent/pilgrim-journey.md",
-  "sourceHash": "1d791f107b99",
+  "sourceHash": "d59919a220fb",
   "potFile": "translations/es/pagecontent/pilgrim-journey.pot",
   "poFile": "translations/es/pagecontent/pilgrim-journey.po",
   "poIncludes": [
@@ -18,8 +18,8 @@
     "generator": "agent translation (smart-ips-pilgrimage es session)"
   },
   "coverage": {
-    "translated": 69,
-    "total": 69,
+    "translated": 70,
+    "total": 70,
     "pct": 100
   }
 }
