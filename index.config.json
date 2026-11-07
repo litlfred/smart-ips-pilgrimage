@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "6b0c412339df7668e4342883f9429754b75c5539",
+          "ref": "1fd617622eaadaa788cf3bff455333249cfd5bf9",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -43,8 +43,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "6b0c412339df7668e4342883f9429754b75c5539",
-              "evidence": "Owner (litlfred), 2026-11-07, relayed by the coordinating session: 'repin + merge open 12 hrs'; earlier 'repin as needed. merge when green and ready'. Pinned to the persona-skills PR branch until smart-base#313/#316/#317 merge; re-pinned to main then."
+              "ref": "1fd617622eaadaa788cf3bff455333249cfd5bf9",
+              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
         }
@@ -242,7 +242,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-trust-tools",
-          "ref": "8c52d6ede1e3ab43830aa25376d4f1a14e09acf9",
+          "ref": "354f115ed39da47ef53be971398a50bf10f8bfe2",
           "overrides": {
             "smart-trust-tools": {
               "whole": true
@@ -252,8 +252,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "8c52d6ede1e3ab43830aa25376d4f1a14e09acf9",
-              "evidence": "Owner, 2026-11-07: 'B: fix smart-trust-tools first' (relayed by the coordinating session): make smart-trust-tools pass the harness gates pilgrimage#25 runs, then re-pin it here. smart-trust-tools main 8c52d6e merges #56-#61."
+              "ref": "354f115ed39da47ef53be971398a50bf10f8bfe2",
+              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
         }
