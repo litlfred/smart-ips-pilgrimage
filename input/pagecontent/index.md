@@ -19,7 +19,7 @@ Supporting guidance, recommendations, resources, and standards are included in t
 Eligible Participants may request to join through the <a href ="Letter_of_Application_IPS_Pilgrimage_1.0.docx">The Letter of Application</a>
 <br/>
 
-<img src="workflow.png" alt="Overview of key clinical process flows" style="width:60%"/>
+<div style="width:60%" markdown="0">{% include workflow.svg %}</div>
 
 Follow one pilgrim through these steps in [The Pilgrim's Journey](pilgrim-journey.html).
 <br clear="all"/>
