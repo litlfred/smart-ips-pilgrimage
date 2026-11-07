@@ -291,3 +291,7 @@ msgstr "Чего, как показывает история, ещё не хва
 #: input/pagecontent/pilgrim-journey.md:18
 msgid "Who they are"
 msgstr "Кто они"
+
+#: input/pagecontent/pilgrim-journey.md:16
+msgid "Each numbered step in the figure opens its moment in the <a0>journeys viewer</a0>, which walks through the whole story screen by screen."
+msgstr "Каждый пронумерованный шаг на рисунке открывает свой момент в <a0>просмотрщике путей</a0>, который проводит через всю историю экран за экраном."
