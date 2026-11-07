@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "60aa67361364ce7439279372405ba5cbc0b3b00d",
+          "ref": "65362ed839cd62bb2fac729d8dabad267ecad6ca",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -102,8 +102,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "60aa67361364ce7439279372405ba5cbc0b3b00d",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); refreshed 11:00Z for cat-harness-tools cc67cd17 (#1622)."
+              "ref": "65362ed839cd62bb2fac729d8dabad267ecad6ca",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\"; fhir-harness to 65362ed8 (#302, the generic translation-supplements check the owner asked for)."
             }
           }
         }
