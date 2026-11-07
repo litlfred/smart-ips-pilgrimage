@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=dbb53d57180e">
+<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=f1e0958e3c5a">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -980,6 +980,7 @@
 <li><a href="scenarios/">scenarios</a> <span class="p">cat-harness/scenarios</span> <span class="n" data-da-count="index/roles/scenarios" data-da-count-state="pending">…</span></li>
 <li><a href="smart-base-scenarios/">smart-base-scenarios</a> <span class="p">smart-base/scenarios</span> <span class="n" data-da-count="index/roles/smart-base-scenarios" data-da-count-state="pending">…</span></li>
 <li><a href="smart-ips-pilgrimage-scenarios/">smart-ips-pilgrimage-scenarios</a> <span class="p">scenarios</span> <span class="n" data-da-count="index/roles/smart-ips-pilgrimage-scenarios" data-da-count-state="pending">…</span></li>
+<li><a href="smart-trust-tools-scenarios/">smart-trust-tools-scenarios</a> <span class="p">smart-trust-tools/scenarios</span> <span class="n" data-da-count="index/roles/smart-trust-tools-scenarios" data-da-count-state="pending">…</span></li>
 <li><a href="who-iris-scenarios/">who-iris-scenarios</a> <span class="p">who-iris/scenarios</span> <span class="n" data-da-count="index/roles/who-iris-scenarios" data-da-count-state="pending">…</span></li>
 </ul>
 
@@ -1227,9 +1228,53 @@
   <td><a href="https://github.com/litlfred/folio-assistant/blob/main/scenarios/roles.json#trust-network"><code>Trust network</code></a><br><span class="p">scenarios/roles.json#trust-network</span></td>
   <td>WHO GDHCN: the trust network both countries take part in, which distributes the public keys documents are signed with.</td>
 </tr>
+<tr id="a-smart-base-scenarios-roles-json-health-worker">
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/scenarios/roles.json#health-worker"><code>Health worker</code></a><br><span class="p">smart-base/scenarios/roles.json#health-worker</span></td>
+  <td>The generic DAK persona who delivers care at the point of care and records it on a device: completes the DAK's SDC forms and acts on its decision-support guidance (<code>questionnaire-data-capture.bpmn</code>, `act-on-decision-sup…</td>
+</tr>
 <tr id="a-smart-base-scenarios-roles-json-l1-extraction-reviewer">
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/scenarios/roles.json#l1-extraction-reviewer"><code>L1 extraction reviewer</code></a><br><span class="p">smart-base/scenarios/roles.json#l1-extraction-reviewer</span></td>
   <td>Signs, or rejects, the exclusions an L1 extraction proposes: each normative-looking sentence of a WHO publication that the curation says is not a recommendation, an implementation practice or a remark.</td>
+</tr>
+<tr id="a-smart-base-scenarios-roles-json-point-of-care-system">
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/scenarios/roles.json#point-of-care-system"><code>Point-of-care system</code></a><br><span class="p">smart-base/scenarios/roles.json#point-of-care-system</span></td>
+  <td>The app or EHR the health worker uses: renders the DAK's forms, extracts their resources, applies the DAK's decision tables (PlanDefinitions) and writes what the health worker accepted.</td>
+</tr>
+<tr id="a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system">
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/scenarios/roles.json#hcert-issuing-system"><code>HCERT issuing system</code></a><br><span class="p">smart-trust-tools/scenarios/roles.json#hcert-issuing-system</span></td>
+  <td>The HCERT side of the VHL Sharer (smart-trust: Issuer): a clinic system or national portal that issues HCERT certificates, embedding the Kotlin or Rust library.</td>
+</tr>
+<tr id="a-smart-trust-tools-scenarios-roles-json-hcert-key-holder">
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/scenarios/roles.json#hcert-key-holder"><code>Signing key holder</code></a><br><span class="p">smart-trust-tools/scenarios/roles.json#hcert-key-holder</span></td>
+  <td>The HSM, KMS, Android Keystore or WebCrypto key of a Trust Network Participant that signs the bytes the issuing system prepares; the library never holds the private key.</td>
+</tr>
+<tr id="a-smart-trust-tools-scenarios-roles-json-hcert-verifying-system">
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/scenarios/roles.json#hcert-verifying-system"><code>HCERT verifying system</code></a><br><span class="p">smart-trust-tools/scenarios/roles.json#hcert-verifying-system</span></td>
+  <td>The HCERT side of the VHL Receiver (smart-trust: Receiver): a clinic EMR, border system or CHW app that verifies, or triage-reads, an HCERT.</td>
+</tr>
+<tr id="a-smart-trust-tools-scenarios-roles-json-issuing-health-worker">
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/scenarios/roles.json#issuing-health-worker"><code>Issuing health worker</code></a><br><span class="p">smart-trust-tools/scenarios/roles.json#issuing-health-worker</span></td>
+  <td>The health worker of an issuing participant who hands the holder the credentials the issuing system made: prints them, one QR per certificate, or sends them to the holder's wallet.</td>
+</tr>
+<tr id="a-smart-trust-tools-scenarios-roles-json-library-maintainer">
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/scenarios/roles.json#library-maintainer"><code>Library maintainer</code></a><br><span class="p">smart-trust-tools/scenarios/roles.json#library-maintainer</span></td>
+  <td>The person or agent who keeps the contract, its generated artefacts, the conformance tests and the published graph current.</td>
+</tr>
+<tr id="a-smart-trust-tools-scenarios-roles-json-receiving-health-worker">
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/scenarios/roles.json#receiving-health-worker"><code>Receiving health worker</code></a><br><span class="p">smart-trust-tools/scenarios/roles.json#receiving-health-worker</span></td>
+  <td>The health worker who operates a receiving system (CHW app, clinic EHR, point-of-care viewer): scans the QR the holder shows and enters the passcode the holder says.</td>
+</tr>
+<tr id="a-smart-trust-tools-scenarios-roles-json-vhl-holder">
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/scenarios/roles.json#vhl-holder"><code>VHL Holder</code></a><br><span class="p">smart-trust-tools/scenarios/roles.json#vhl-holder</span></td>
+  <td>IHE ITI VHL VHL Holder (smart-trust Holder): the person who holds certificates or a health link (a Verifiable Health Link, or a SMART Health Link: the same holder's work over the HL7 specification VHL profiles), present…</td>
+</tr>
+<tr id="a-smart-trust-tools-scenarios-roles-json-vhl-receiver">
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/scenarios/roles.json#vhl-receiver"><code>VHL receiver</code></a><br><span class="p">smart-trust-tools/scenarios/roles.json#vhl-receiver</span></td>
+  <td>The IHE ITI VHL Receiver side: scans a VHL, retrieves the manifest and reads the documents.</td>
+</tr>
+<tr id="a-smart-trust-tools-scenarios-roles-json-vhl-sharer">
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/scenarios/roles.json#vhl-sharer"><code>VHL sharer</code></a><br><span class="p">smart-trust-tools/scenarios/roles.json#vhl-sharer</span></td>
+  <td>The IHE ITI VHL Sharer side: issues Verifiable Health Links and hosts their manifests.</td>
 </tr>
 <tr id="a-who-iris-scenarios-roles-json-cloudflare-git">
   <td><a href="https://github.com/litlfred/who-iris/blob/main/scenarios/roles.json#cloudflare-git"><code>Cloudflare git (Artifacts)</code></a><br><span class="p">who-iris/scenarios/roles.json#cloudflare-git</span></td>

@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=dbb53d57180e">
+<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=f1e0958e3c5a">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -981,6 +981,7 @@
 <li><a href="sdlc-processes/">sdlc-processes</a> <span class="p">cat-harness/sdlc/processes</span> <span class="n" data-da-count="index/processes/sdlc-processes" data-da-count-state="pending">…</span></li>
 <li><a href="smart-base-house-processes/">smart-base-house-processes</a> <span class="p">smart-base/processes</span> <span class="n" data-da-count="index/processes/smart-base-house-processes" data-da-count-state="pending">…</span></li>
 <li><a href="smart-base-processes/">smart-base-processes</a> <span class="p">smart-base/methodologies/processes</span> <span class="n" data-da-count="index/processes/smart-base-processes" data-da-count-state="pending">…</span></li>
+<li><a href="smart-trust-tools-processes/">smart-trust-tools-processes</a> <span class="p">smart-trust-tools/processes</span> <span class="n" data-da-count="index/processes/smart-trust-tools-processes" data-da-count-state="pending">…</span></li>
 <li><a href="who-iris-processes/">who-iris-processes</a> <span class="p">who-iris/processes</span> <span class="n" data-da-count="index/processes/who-iris-processes" data-da-count-state="pending">…</span></li>
 </ul>
 
@@ -1481,6 +1482,10 @@
   <td>The nine-chapter sequence of the WHO/ITU Digital Implementation Investment Guide, as the Guide numbers it.<div class="f"><span class="k">activities</span> 11</div><div class="f"><span class="k">lanes</span> Programme manager · Business analyst</div><div class="f"><span class="k">skills</span> bean-coordination, methodology-adoption, todo-manager</div></td>
 </tr>
 <tr>
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/act-on-decision-support.bpmn"><code>Act on decision-support guidance</code></a><br><span class="p">smart-base/processes/content/act-on-decision-support.bpmn</span></td>
+  <td>The point-of-care system applies one of the DAK's decision tables, published as a CPG-on-FHIR PlanDefinition, to one client ($apply) and shows the health worker what it proposes (a RequestGroup, or CDS Hooks cards).<div class="f"><span class="k">activities</span> 5</div><div class="f"><span class="k">lanes</span> Point-of-care system · Health worker</div><div class="f"><span class="k">skills</span> activate-accepted-guidance, apply-decision-support, record-decision-rationale, review-decision-support-guidance</div></td>
+</tr>
+<tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/classify-and-code-content.bpmn"><code>Classify and code content</code></a><br><span class="p">smart-base/processes/content/classify-and-code-content.bpmn</span></td>
   <td>Classifies and codes L1 extracted statements (recommendations, implementation practices, remarks, proposed coverage exclusions) and L2 DAK slots (personas, business processes, guideline domains, conditions, intervention…<div class="f"><span class="k">activities</span> 5</div><div class="f"><span class="k">lanes</span> Authoring agent · L1 extraction reviewer (person) · Terminologist / ontologist reviewer (person)</div><div class="f"><span class="k">skills</span> classify-and-code-content, content-review, glossary-terms, interaction-modality, ontologist, recommendation-extraction, recommendation-scenarios, staging-review, terminology-management</div></td>
 </tr>
@@ -1501,12 +1506,32 @@
   <td>How a WHO SMART Guidelines L2 Digital Adaptation Kit is authored by a business analyst, a terminologist and a clinical SME under a programme manager.<div class="f"><span class="k">activities</span> 14</div><div class="f"><span class="k">lanes</span> Programme manager / technical officer · Work plan — beans (shared by humans and agents) · Business analyst · Terminologist · Clinical SME</div><div class="f"><span class="k">skills</span> bean-coordination, bpmn-authoring, content-plan, content-review, content-validate, dak-l1-library, dmn-authoring, indicator-extraction, l2-component-edit-review, l2-dak-authoring, terminology-management, todo-manager</div></td>
 </tr>
 <tr>
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/questionnaire-data-capture.bpmn"><code>Capture data with an SDC questionnaire</code></a><br><span class="p">smart-base/processes/content/questionnaire-data-capture.bpmn</span></td>
+  <td>A health worker completes one of the DAK's forms, a FHIR R4 Questionnaire conforming to Structured Data Capture, as their device renders it, and the point-of-care system turns the completed QuestionnaireResponse into th…<div class="f"><span class="k">activities</span> 3</div><div class="f"><span class="k">lanes</span> Health worker · Point-of-care system</div><div class="f"><span class="k">skills</span> complete-sdc-questionnaire, extract-questionnaire-response</div></td>
+</tr>
+<tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/SGAuthoring.DAKLifecycle.bpmn"><code>Phase 1: Planning</code></a><br><span class="p">smart-base/processes/content/SGAuthoring.DAKLifecycle.bpmn</span></td>
   <td>Plans a DAK: scope, team, method, sources, roadmap and consultations, then starts the sprint cycle.<div class="f"><span class="k">activities</span> 61</div><div class="f"><span class="k">lanes</span> Programme Manager · Business Analyst · Clinical SME · FHIR Modeller · Terminologist · QC Reviewer · Publication Manager · Translator</div><div class="f"><span class="k">skills</span> bpmn-authoring, content-feedback, content-plan, content-publish, content-review, content-test, content-validate, dak-l1-library, dmn-authoring, fhir-validation, ig-build-pipeline, ig-publication, instance-publication, l2-dak-authoring, l3-fhir-authoring, methodology-adoption, package-release, publish-verification, qa-reports, raci, recommendation-extraction, release-epic-planning, smart-guideline-create, terminology-management, todo-manager, translation-manager, vocabulary-authority, wireframe-design-review</div></td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/smart-guideline-end-to-end.bpmn"><code>SMART Guideline end to end</code></a><br><span class="p">smart-base/processes/content/smart-guideline-end-to-end.bpmn</span></td>
   <td>From a use case to a consuming application: identify the L1 guidelines, ingest them into an L1 knowledge graph, choose the L2 DAKs to build on, create or adapt the L2 assets, choose the L3 IGs to build on, produce the L…<div class="f"><span class="k">activities</span> 18</div><div class="f"><span class="k">lanes</span> Requester (country team / implementer) · Authoring agent · Human adjudicators</div><div class="f"><span class="k">skills</span> content-review, dak-l1-library, dak-postprocessing, dak-preprocessing, decision-audit, decision-comparison, feature-staging, fhir-questionnaire-wireframe, guideline-use-case, ig-artifact-ingestion, ig-ast-delta, l2-dak-authoring, l2-dependency-choice, l3-dependency-choice, l3-fhir-authoring, l3-readiness, l4-application-brief, l4-application-build, recommendation-extraction, smart-base-tools, staging-review, visual-diff, wireframe-design-review</div></td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/hcert-contract-change.bpmn"><code>Change the library contract</code></a><br><span class="p">smart-trust-tools/processes/content/hcert-contract-change.bpmn</span></td>
+  <td>A WHO or IHE specification changed, or an open issue (bean) was resolved: the maintainer amends the requirements and the WIT or CDDL, regenerates what is derived from them, tests both implementations against the shared…<div class="f"><span class="k">activities</span> 4</div><div class="f"><span class="k">lanes</span> Library maintainer</div></td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/hcert-issuance.bpmn"><code>Issue an HCERT QR code</code></a><br><span class="p">smart-trust-tools/processes/content/hcert-issuance.bpmn</span></td>
+  <td>QR Code Generation steps 1 to 9, as the library and its host divide them: the issuing system runs every step; the key holder only signs the bytes prepare returns, so the private key never enters the library (STT-ISS-004…<div class="f"><span class="k">activities</span> 11</div><div class="f"><span class="k">lanes</span> HCERT issuing system · Signing key holder</div></td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/hcert-verification.bpmn"><code>Verify an HCERT QR code</code></a><br><span class="p">smart-trust-tools/processes/content/hcert-verification.bpmn</span></td>
+  <td>QR Code Generation section 11 in the STT-VER-001 order.<div class="f"><span class="k">activities</span> 4</div><div class="f"><span class="k">lanes</span> HCERT verifying system</div></td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/vhl-sharing.bpmn"><code>Share records by Verifiable Health Link</code></a><br><span class="p">smart-trust-tools/processes/content/vhl-sharing.bpmn</span></td>
+  <td>Journeys J4.0 and J4.1: the sharer issues one passcode-protected VHL per family member; a clinic abroad verifies it, retrieves the manifest over mutual TLS (the host's HTTP) and decrypts the documents (IHE ITI-YY3 to IT…<div class="f"><span class="k">activities</span> 5</div><div class="f"><span class="k">lanes</span> VHL sharer · VHL receiver</div></td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/who-iris/blob/main/processes/iris-cdn-initial-load.bpmn"><code>IRIS CDN initial load</code></a><br><span class="p">who-iris/processes/iris-cdn-initial-load.bpmn</span></td>

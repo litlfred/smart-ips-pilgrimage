@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=dbb53d57180e">
+<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=f1e0958e3c5a">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -981,6 +981,7 @@
 <li><a href="sdlc-skills/">sdlc-skills</a> <span class="p">cat-harness/sdlc/skills</span> <span class="n" data-da-count="index/skills/sdlc-skills" data-da-count-state="pending">…</span></li>
 <li><a href="skills/">skills</a> <span class="p">cat-harness/skills</span> <span class="n" data-da-count="index/skills/skills" data-da-count-state="pending">…</span></li>
 <li><a href="smart-base-skills/">smart-base-skills</a> <span class="p">smart-base/skills</span> <span class="n" data-da-count="index/skills/smart-base-skills" data-da-count-state="pending">…</span></li>
+<li><a href="stt-skills/">stt-skills</a> <span class="p">smart-trust-tools/skills</span> <span class="n" data-da-count="index/skills/stt-skills" data-da-count-state="pending">…</span></li>
 <li><a href="who-iris-skills/">who-iris-skills</a> <span class="p">who-iris/skills</span> <span class="n" data-da-count="index/skills/who-iris-skills" data-da-count-state="pending">…</span></li>
 <li><a href="work-plan-skills/">work-plan-skills</a> <span class="p">cat-harness/work-plan/skills</span> <span class="n" data-da-count="index/skills/work-plan-skills" data-da-count-state="pending">…</span></li>
 </ul>
@@ -2306,8 +2307,20 @@
   <td>Where to start when a person or an agent reviews a document folio larger than one chapter, such as a DAK or an L1 digital transformation handbook.</td>
 </tr>
 <tr>
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/activate-accepted-guidance.md"><code>activate-accepted-guidance</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/activate-accepted-guidance.md</span></td>
+  <td>The point-of-care system carries out the health worker's decisions on decision-support guidance: each accepted action's request becomes active (intent plan or order) and joins the client's CarePlan; a declined action is…</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/apply-decision-support.md"><code>apply-decision-support</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/apply-decision-support.md</span></td>
+  <td>The point-of-care system applies a DAK decision table's PlanDefinition to one client ($apply) and gets the proposed actions back as a RequestGroup (R4; RequestOrchestration in R5), or as CDS Hooks cards when the guidanc…</td>
+</tr>
+<tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/classify-and-code-content.md"><code>classify-and-code-content</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/classify-and-code-content.md</span></td>
   <td>Classify and code L1 narrative content (recommendations, implementation practices, remarks, and proposed coverage exclusions) and L2 DAK slots (personas, business processes, guideline domains, conditions, interventions,…</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/complete-sdc-questionnaire.md"><code>complete-sdc-questionnaire</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/complete-sdc-questionnaire.md</span></td>
+  <td>A health worker (or a client, on their own device) completes a FHIR R4 Questionnaire conforming to Structured Data Capture as their device renders it, and the result is a QuestionnaireResponse.</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/dak-l1-library.md"><code>dak-l1-library</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/dak-l1-library.md</span></td>
@@ -2330,6 +2343,10 @@
   <td>Turn a WHO Digital Transformation Handbook that exists only as an L1 publication (ingested in who-iris) into an L2 DTH in its own repository that depends on smart-ra: write the handbook's workplan first (what goes in it…</td>
 </tr>
 <tr>
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/extract-questionnaire-response.md"><code>extract-questionnaire-response</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/extract-questionnaire-response.md</span></td>
+  <td>The point-of-care system turns a completed QuestionnaireResponse into the FHIR resources it stands for, by the extraction its SDC Questionnaire declares (StructureMap-based, definition-based or observation-based $extrac…</td>
+</tr>
+<tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/grade.md"><code>grade</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/grade.md</span></td>
   <td>GRADE — the grading system a WHO guideline folio declares for certainty of evidence, and the Evidence-to-Decision judgement a recommendation rests on.</td>
 </tr>
@@ -2344,6 +2361,10 @@
 <tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/indicator-extraction.md"><code>indicator-extraction</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/indicator-extraction.md</span></td>
   <td>Extract the indicators an L1 source prints (indicator reference or metadata sheets: name, numerator, denominator, disaggregation, definition, data sources) as L1 <code>indicator</code> nodes with every printed field, then draft on…</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/inform-client.md"><code>inform-client</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/inform-client.md</span></td>
+  <td>A health worker tells the client (or caregiver) what was decided and what happens next, in words and, where the DAK gives one, on a slip or card: a referral, a return date, a result.</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/l2-component-edit-review.md"><code>l2-component-edit-review</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/l2-component-edit-review.md</span></td>
@@ -2390,6 +2411,18 @@
   <td>Join each L1 recommendation to who acts on it and during which business process: one smart-kg L2 user-scenario candidate per recommendation, from the agent's mapping, reusing the target guide's personas and processes fi…</td>
 </tr>
 <tr>
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/record-decision-rationale.md"><code>record-decision-rationale</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/record-decision-rationale.md</span></td>
+  <td>OPTIONAL and never blocking: a health worker who chooses to may note why they accepted or declined decision-support guidance, in one tap plus an optional coded or free-text reason.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/review-client-history.md"><code>review-client-history</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/review-client-history.md</span></td>
+  <td>A health worker reads the client's history as their device shows it (an International Patient Summary, imported records, or a paper card and what the client reports) and takes into account what bears on today's care, we…</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/review-decision-support-guidance.md"><code>review-decision-support-guidance</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/review-decision-support-guidance.md</span></td>
+  <td>A health worker sees the decision-support guidance for one client on their device (the proposed actions of a RequestGroup or CDS Hooks cards) and accepts or declines each action; modifies one only where the device offer…</td>
+</tr>
+<tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/smart-base-tools.md"><code>smart-base-tools</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/smart-base-tools.md</span></td>
   <td><span class="none">no description in the artefact</span></td>
 </tr>
@@ -2412,6 +2445,86 @@
 <tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/transcription-verbatim.md"><code>transcription-verbatim</code></a><br><span class="p">smart-base/skills/content/authoring-who-smart-guidelines/transcription-verbatim.md</span></td>
   <td>Check L1 authored from pictures (a schedule poster, a slide deck: a source with no usable text layer) against the image narratives and transcriptions it names: every statement verbatim in one of them, every transcriptio…</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert-library/hcert-conformance-testing.md"><code>hcert-conformance-testing</code></a><br><span class="p">smart-trust-tools/skills/hcert-library/hcert-conformance-testing.md</span></td>
+  <td>Test an implementation against the shared vectors: the PR 129 DVC example, negative vectors, cross-implementation checks and schema checks.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert-library/hcert-contract-maintenance.md"><code>hcert-contract-maintenance</code></a><br><span class="p">smart-trust-tools/skills/hcert-library/hcert-contract-maintenance.md</span></td>
+  <td>Keep the contract and everything generated from it current: the WIT, its TypeScript view and Kotlin skeleton, the CDDL, and the payload models derived from the FHIR logical models.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert-library/hcert-kg-publication.md"><code>hcert-kg-publication</code></a><br><span class="p">smart-trust-tools/skills/hcert-library/hcert-kg-publication.md</span></td>
+  <td>Check the requirement graph and publish the site that renders it.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert-library/hcert-library-architecture.md"><code>hcert-library-architecture</code></a><br><span class="p">smart-trust-tools/skills/hcert-library/hcert-library-architecture.md</span></td>
+  <td>The rules every implementation follows: Kotlin first, Rust second, one contract, a synchronous core with no I/O, open standards, no payload in logs.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-assemble-payload.md"><code>hcert-assemble-payload</code></a><br><span class="p">smart-trust-tools/skills/hcert/hcert-assemble-payload.md</span></td>
+  <td>Step 2: build and validate the payload against its logical model (DVCMin, or a VHL payload), keeping unknown elements.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-build-cwt.md"><code>hcert-build-cwt</code></a><br><span class="p">smart-trust-tools/skills/hcert/hcert-build-cwt.md</span></td>
+  <td>Step 3: wrap the payload in a CWT claim set (iss, iat, exp, hcert -260) inside the DSC's validity.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-compress.md"><code>hcert-compress</code></a><br><span class="p">smart-trust-tools/skills/hcert/hcert-compress.md</span></td>
+  <td>Step 6: ZLIB/DEFLATE after signing, and bounded inflation.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-encode-base45.md"><code>hcert-encode-base45</code></a><br><span class="p">smart-trust-tools/skills/hcert/hcert-encode-base45.md</span></td>
+  <td>Step 7: RFC 9285 Base45, decoded strictly.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-encode-cbor.md"><code>hcert-encode-cbor</code></a><br><span class="p">smart-trust-tools/skills/hcert/hcert-encode-cbor.md</span></td>
+  <td>Step 4: serialise as RFC 8949 deterministic CBOR, and decode untrusted CBOR within limits.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-prefix-context.md"><code>hcert-prefix-context</code></a><br><span class="p">smart-trust-tools/skills/hcert/hcert-prefix-context.md</span></td>
+  <td>Steps 8 and 9: the HC1: context identifier, giving a QR-ready string the application renders with its own QR encoder.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-select-payload.md"><code>hcert-select-payload</code></a><br><span class="p">smart-trust-tools/skills/hcert/hcert-select-payload.md</span></td>
+  <td>Step 1: choose the logical model and hcert subclaim for a use case, from the registry the IG defines.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-sign-cose.md"><code>hcert-sign-cose</code></a><br><span class="p">smart-trust-tools/skills/hcert/hcert-sign-cose.md</span></td>
+  <td>Step 5: sign as COSE_Sign1 (ES256 or PS256) in two phases, the private key staying with its holder.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-trust-list.md"><code>hcert-trust-list</code></a><br><span class="p">smart-trust-tools/skills/hcert/hcert-trust-list.md</span></td>
+  <td>Hold the trusted DSCs the host obtained (PEM, DER, GDHCN DID trustlist v2) and find every candidate for a kid.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-verify.md"><code>hcert-verify</code></a><br><span class="p">smart-trust-tools/skills/hcert/hcert-verify.md</span></td>
+  <td>Verify an HC1 string or raw COSE: the steps upwards, trust lookup by kid, signature, key usage, time and payload; or read it explicitly unverified for triage.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/vhl/vhl-receive.md"><code>vhl-receive</code></a><br><span class="p">smart-trust-tools/skills/vhl/vhl-receive.md</span></td>
+  <td>Use a VHL: verify it, build the ITI-YY5 manifest request with its HTTP Message Signature, read the manifest Bundle and decrypt each document (journey J4.1).</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/vhl/vhl-share.md"><code>vhl-share</code></a><br><span class="p">smart-trust-tools/skills/vhl/vhl-share.md</span></td>
+  <td>Issue a VHL: a key, documents encrypted as JWE dir / A256GCM, and the payload as a CBOR map at HCERT key 5 (journey J4.0).</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/wallet/hand-over-credential.md"><code>hand-over-credential</code></a><br><span class="p">smart-trust-tools/skills/wallet/hand-over-credential.md</span></td>
+  <td>The health worker at the issuing side hands the holder the credentials the issuing system made: printed (one QR per certificate) or into the holder's wallet, and says what each is.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/wallet/holder-consent-to-share.md"><code>holder-consent-to-share</code></a><br><span class="p">smart-trust-tools/skills/wallet/holder-consent-to-share.md</span></td>
+  <td>The holder decides what a health link (a Verifiable Health Link or a SMART Health Link) shares: which members' records, protected by which passcode, until when.</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/wallet/holder-present-credential.md"><code>holder-present-credential</code></a><br><span class="p">smart-trust-tools/skills/wallet/holder-present-credential.md</span></td>
+  <td>The holder shows the one health credential a receiver asks for, as a QR: an HCERT (HC1:) on paper or in a wallet app, or a health link: the HCERT carrying a Verifiable Health Link, or a SMART Health Link (shlink:/).</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/wallet/receiver-scan-credential.md"><code>receiver-scan-credential</code></a><br><span class="p">smart-trust-tools/skills/wallet/receiver-scan-credential.md</span></td>
+  <td>The health worker at a receiving system scans the QR a holder shows (an HCERT, a VHL carried in an HCERT, or a SMART Health Link) and, for a passcode-protected health link, enters the passcode the holder says.</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/who-iris/blob/main/skills/iris-cdn-exporter.md"><code>iris-cdn-exporter</code></a><br><span class="p">who-iris/skills/iris-cdn-exporter.md</span></td>

@@ -306,6 +306,19 @@
     "note": "arXiv:1603.07466"
   },
   {
+    "id": "who-smart-trust-changes",
+    "type": "document",
+    "title": "Change Log"
+  },
+  {
+    "id": "who-smart-trust-changes",
+    "type": "webpage",
+    "title": "Change Log",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/changes.html",
+    "title-short": "Changes"
+  },
+  {
     "id": "arxiv-2507.07974v2",
     "type": "article-journal",
     "title": "Defending Against Prompt Injection With a Few DefensiveTokens",
@@ -360,6 +373,31 @@
         ]
       ]
     }
+  },
+  {
+    "id": "who-smart-trust-cwt-payload-model",
+    "type": "document",
+    "title": "CWTPayload logical model (FSH)"
+  },
+  {
+    "id": "who-smart-trust-data-exchange",
+    "type": "document",
+    "title": "Data Exchange"
+  },
+  {
+    "id": "who-smart-trust-data-exchange",
+    "type": "webpage",
+    "title": "Data Exchange",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/data_exchange.html",
+    "title-short": "Data exchange"
+  },
+  {
+    "id": "who-ddcc-ig",
+    "type": "webpage",
+    "title": "DDCC Implementation Guide",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/ddcc/"
   },
   {
     "id": "arxiv-2503.18813v2",
@@ -487,6 +525,28 @@
     "title": "DSpace 7 REST Contract (dspace-7_x)"
   },
   {
+    "id": "who-trust-phw-dvc-vaccines-vs",
+    "type": "webpage",
+    "title": "DVC - Vaccines value set (trust-phw)",
+    "publisher": "World Health Organization",
+    "URL": "http://smart.who.int/trust-phw/ValueSet-DVCVaccines.html"
+  },
+  {
+    "id": "who-smart-trust-phw-dvcmin",
+    "type": "document",
+    "title": "DVCMin logical model (FSH)"
+  },
+  {
+    "id": "who-smart-trust-phw-dvcmin-prequal",
+    "type": "document",
+    "title": "DVCMinPreQual profile (FSH)"
+  },
+  {
+    "id": "who-smart-trust-phw-dvcmin-vaccine-details",
+    "type": "document",
+    "title": "DVCMinVaccineDetails logical model (FSH)"
+  },
+  {
     "id": "arxiv-2608.18294v2",
     "type": "article-journal",
     "title": "Debiased Inference for AI-Generated Data without Gold-Standard Labels: Identification via Multiple Imperfect Measurements",
@@ -499,6 +559,19 @@
     "URL": "https://arxiv.org/abs/2608.18294",
     "abstract": "An increasing number of scholars use AI to measure variables they subsequently include in downstream analyses. Although AI-measured variables are often analyzed as if observed without error, ignoring prediction errors in automated measurement leads to substantial bias and invalid confidence intervals in downstream analyses, even if AI measurement accuracy is high, e.g., above 90%. Existing solutions, such as design-based supervised learning and prediction-powered infer- ence, combine error-prone AI-based measurements with gold-standard labels, which may be costly and difficult to obtain in some application areas. In this paper, we propose debiased inference with multiple imperfect measurements (DMM), a framework that combines multiple error-prone AI measurements to enable valid downstream inference without gold-standard labels. Building on the established results on CP decomposition, DMM assumes that these measurements are independent conditional on the latent true label and observed unit-level features, such as text features represented by embeddings. This framework allows for unknown misclassification rates to vary across annotation methods (e.g., large language models) and across units of annotation (e.g., texts). Under this assumption, we use semiparamet- ric inference theory to prove that the DMM estimator is consistent and asymptotically normal, enabling valid inference for a wide range of downstream statistical analyses common in the so- cial sciences. Our simulation results show that DMM yields valid inference and that adding accurate, though imperfect, measurements can improve efficiency. Focusing on common applica- tions of large language model annotations, we also develop diagnostics to assess the conditional independence assumption. ∗We thank Betsy Ogburn, Helen Guo, AmirEmad Ghassami, and Ilya Shpitser for thoughtful comments. †Associate Professor, Department of Political Science and Statistics and Data Science Center, Massachusetts Insti- tute of Techn",
     "note": "arXiv:2608.18294"
+  },
+  {
+    "id": "who-smart-trust-endpoints",
+    "type": "document",
+    "title": "Endpoints"
+  },
+  {
+    "id": "who-smart-trust-endpoints",
+    "type": "webpage",
+    "title": "Endpoints",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/endpoints.html",
+    "title-short": "Endpoints"
   },
   {
     "id": "equipping-agents-for-the-real-world-with-agent-skills-anthro",
@@ -539,6 +612,40 @@
         ]
       ]
     }
+  },
+  {
+    "id": "who-trust-gdhcn-key-usage-vs",
+    "type": "webpage",
+    "title": "GDHCN Key Usage value set",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/ValueSet-KeyUsage.html"
+  },
+  {
+    "id": "who-trust-gdhcn-participants-vs",
+    "type": "webpage",
+    "title": "GDHCN Participants value set",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/ValueSet-Participants.html"
+  },
+  {
+    "id": "who-trust-gdhcn-trust-domain-vs",
+    "type": "webpage",
+    "title": "GDHCN Trust Domain value set",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/ValueSet-Domains.html"
+  },
+  {
+    "id": "who-smart-trust-did-gdhcn",
+    "type": "document",
+    "title": "GDHCN Trustlists (DID)"
+  },
+  {
+    "id": "who-smart-trust-did-gdhcn",
+    "type": "webpage",
+    "title": "GDHCN Trustlists (DID)",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/concepts_did_gdhcn.html",
+    "title-short": "DID"
   },
   {
     "id": "cucumber-2024-gherkin-reference",
@@ -624,6 +731,29 @@
     "note": "arXiv:2405.14766"
   },
   {
+    "id": "who-smart-trust-hcert-model",
+    "type": "document",
+    "title": "HCert logical model (FSH)"
+  },
+  {
+    "id": "who-smart-trust-hcert-spec",
+    "type": "document",
+    "title": "HCERT Specification"
+  },
+  {
+    "id": "who-smart-trust-hcert-spec",
+    "type": "webpage",
+    "title": "HCERT Specification",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/hcert_spec.html",
+    "title-short": "HCERT"
+  },
+  {
+    "id": "who-smart-trust-phw-health-link-payload",
+    "type": "document",
+    "title": "HealthLinkPayload and VerifiableHealthLinkPayload logical models (FSH)"
+  },
+  {
     "id": "hl7-ips",
     "type": "webpage",
     "title": "International Patient Summary",
@@ -677,6 +807,70 @@
       "raw": "D:20261001"
     },
     "abstract": "The Open Digital Rights Language (ODRL) is a policy expression language that provides a flexible and interoperable information model, vocabulary, and encoding mechanisms for representing statements about the usage of content and services. The ODRL Information Model describes the underlying concepts, entities, and relationships that form the foundational basis for the semantics of the ODRL policies. Policies are used to represent permitted and prohibited actions over a certain asset, as well as the obligations required to be meet by stakeholders. In addition, policies may be limited by constraints (e.g., temporal or spatial constraints) and duties (e.g. payments) may be imposed on permissions. Status of This Document This section describes the status of this document at the time of its publication. Other documents may supersede this document. A list of current W3C publications and the latest revision of this technical report can be found in the W3C technical reports index at https://www.w3.org/TR/. This document was published by the Permissions & Obligations Expression Working Group as a Recommendation. Comments regarding this document are welcome. Please send them to public-poe-comments@w3.org (subscribe, archives). Please see the Working Group's implementation report. This document has been reviewed by W3C Members, by software developers, and by other W3C groups and interested parties, and is endorsed by the Director as a W3C Recommendation. It is a stable document and may be used as reference material or cited from another document. W3C's role in making the Recommendation is to draw attention to the specification and to promote its widespread deployment. This enhances the functionality and interoperability of the Web. This document was produced by a group operating under the W3C Patent Policy. W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group; that page also includes instructions for disclosing a patent. An"
+  },
+  {
+    "id": "who-icvp-ig",
+    "type": "webpage",
+    "title": "ICVP Implementation Guide",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/icvp"
+  },
+  {
+    "id": "ihe-iti-vhl-volume-1",
+    "type": "document",
+    "title": "IHE ITI Verifiable Health Link (VHL), Volume 1"
+  },
+  {
+    "id": "ihe-iti-vhl-volume-1",
+    "type": "webpage",
+    "title": "IHE ITI Verifiable Health Link (VHL), Volume 1",
+    "publisher": "IHE International",
+    "URL": "https://profiles.ihe.net/ITI/VHL/volume-1.html",
+    "title-short": "VHL Vol. 1"
+  },
+  {
+    "id": "ihe-iti-vhl-actors",
+    "type": "document",
+    "title": "IHE ITI VHL ActorDefinitions (FSH)"
+  },
+  {
+    "id": "ihe-iti-vhl-iti-yy3",
+    "type": "document",
+    "title": "IHE VHL ITI-YY3 Generate VHL"
+  },
+  {
+    "id": "ihe-iti-vhl-iti-yy3",
+    "type": "webpage",
+    "title": "IHE VHL ITI-YY3 Generate VHL",
+    "publisher": "IHE International",
+    "URL": "https://profiles.ihe.net/ITI/VHL/ITI-YY3.html",
+    "title-short": "ITI-YY3"
+  },
+  {
+    "id": "ihe-iti-vhl-iti-yy4",
+    "type": "document",
+    "title": "IHE VHL ITI-YY4 Provide VHL"
+  },
+  {
+    "id": "ihe-iti-vhl-iti-yy4",
+    "type": "webpage",
+    "title": "IHE VHL ITI-YY4 Provide VHL",
+    "publisher": "IHE International",
+    "URL": "https://profiles.ihe.net/ITI/VHL/ITI-YY4.html",
+    "title-short": "ITI-YY4"
+  },
+  {
+    "id": "ihe-iti-vhl-iti-yy5",
+    "type": "document",
+    "title": "IHE VHL ITI-YY5 Retrieve Manifest"
+  },
+  {
+    "id": "ihe-iti-vhl-iti-yy5",
+    "type": "webpage",
+    "title": "IHE VHL ITI-YY5 Retrieve Manifest",
+    "publisher": "IHE International",
+    "URL": "https://profiles.ihe.net/ITI/VHL/ITI-YY5.html",
+    "title-short": "ITI-YY5"
   },
   {
     "id": "qi-hessen-vanderheijden-2023-ca-vs-lsa",
@@ -976,6 +1170,13 @@
     "note": "arXiv:2606.21008"
   },
   {
+    "id": "who-ph4h-medication-treatment-line-min",
+    "type": "webpage",
+    "title": "MedicationTreatmentLineMin logical model (ph4h)",
+    "publisher": "World Health Organization",
+    "URL": "http://smart.who.int/ph4h/StructureDefinition-MedicationTreatmentLineMin.html"
+  },
+  {
     "id": "mcp-2026-specification-2026-07-28",
     "type": "document",
     "title": "Model Context Protocol Specification, version 2026-07-28",
@@ -1055,6 +1256,19 @@
     }
   },
   {
+    "id": "who-smart-trust-qr-code-generation",
+    "type": "document",
+    "title": "QR Code Generation"
+  },
+  {
+    "id": "who-smart-trust-qr-code-generation",
+    "type": "webpage",
+    "title": "QR Code Generation",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/qr_code_generation.html",
+    "title-short": "QR"
+  },
+  {
     "id": "wang-rangaiah-2026-mcdm-aggregation",
     "type": "document",
     "title": "Multi-Criteria Decision-Making: Aggregation-Type Methods",
@@ -1085,6 +1299,19 @@
     "URL": "https://arxiv.org/abs/2505.10399",
     "abstract": "There can be many competing and contradictory explanations for a single model prediction, making it difficult to select which one to use. Current explanation evaluation frameworks measure qual- ity by comparing against ideal “ground-truth” explanations, or by verifying model sensitivity to important inputs. We outline the limitations of these approaches, and propose three desirable princi- ples to ground the future development of explanation evaluation strategies for local feature importance explanations. We propose a ground-truth Agnostic eXplanation Evaluation framework (AXE) for evaluating and comparing model explanations that satis- fies these principles. Unlike prior approaches, AXE does not require access to ideal ground-truth explanations for comparison, or rely on model sensitivity – providing an independent measure of expla- nation quality. We verify AXE by comparing with baselines, and show how it can be used to detect explanation fairwashing. Our code is available at https://github.com/KaiRawal/Evaluating-Model- Explanations-without-Ground-Truth. CCS Concepts • Computing methodologies →Artificial intelligence; Ma- chine learning.",
     "note": "arXiv:2505.10399"
+  },
+  {
+    "id": "who-smart-trust-reference-implementation",
+    "type": "document",
+    "title": "Reference Implementations"
+  },
+  {
+    "id": "who-smart-trust-reference-implementation",
+    "type": "webpage",
+    "title": "Reference Implementations",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/reference_implementation.html",
+    "title-short": "Ref. impl."
   },
   {
     "id": "strauch-carbno-2025-spdx-3-1-supply-chain",
@@ -1143,6 +1370,21 @@
     "id": "skills-in-openai-api-notebook",
     "type": "document",
     "title": "Skills in OpenAI API"
+  },
+  {
+    "id": "who-smart-trust-actors",
+    "type": "document",
+    "title": "smart-trust ActorDefinitions (FSH)"
+  },
+  {
+    "id": "who-smart-trust-requirements-fsh",
+    "type": "document",
+    "title": "smart-trust FHIR Requirements (FSH)"
+  },
+  {
+    "id": "who-smart-trust-phw-aliases",
+    "type": "document",
+    "title": "smart-trust-phw FSH aliases"
   },
   {
     "id": "arxiv-2607.00053v1",
@@ -1335,6 +1577,19 @@
     "abstract": "The PROV Ontology (PROV-O) expresses the PROV Data Model [PROV-DM] using the OWL2 Web Ontology Language (OWL2) [OWL2- OVERVIEW]. It provides a set of classes, properties, and restrictions that can be used to represent and interchange provenance information generated in different systems and under different contexts. It can also be specialized to create new classes and properties to model provenance information for different applications and domains. The PROV Document Overview describes the overall state of PROV, and should be read before other PROV documents. The namespace for all PROV-O terms is http://www.w3.org/ns/prov#. The OWL encoding of the PROV Ontology is available here. Status of This Document This section describes the status of this document at the time of its publication. Other documents may supersede this document. A list of current W3C publications and the latest revision of this technical report can be found in the W3C technical reports index at http://www.w3.org/TR/. PROV Family of Documents This document is part of the PROV family of documents, a set of documents defining various aspects that are necessary to achieve the vision of inter-operable interchange of provenance information in heterogeneous environments such as the Web. These documents are listed below. Please consult the [PROV-OVERVIEW] for a guide to reading these documents. PROV-OVERVIEW (Note), an overview of the PROV family of documents [PROV-OVERVIEW]; PROV-PRIMER (Note), a primer for the PROV data model [PROV-PRIMER]; PROV-O (Recommendation), the PROV ontology, an OWL2 ontology allowing the mapping of the PROV data model to RDF (this document); PROV-DM (Recommendation), the PROV data model for provenance [PROV-DM]; PROV-N (Recommendation), a notation for provenance aimed at human consumption [PROV-N]; PROV-CONSTRAINTS (Recommendation), a set of constraints applying to the PROV data model [PROV-CONSTRAINTS]; PROV-XML (Note), an XML schema for the PROV data model [PROV-XML]; PROV-AQ ("
   },
   {
+    "id": "who-smart-trust-trust-domains",
+    "type": "document",
+    "title": "Trust Domains"
+  },
+  {
+    "id": "who-smart-trust-trust-domains",
+    "type": "webpage",
+    "title": "Trust Domains",
+    "publisher": "World Health Organization",
+    "URL": "https://smart.who.int/trust/trust_domains.html",
+    "title-short": "Domains"
+  },
+  {
     "id": "arxiv-2510.19207v2",
     "type": "article-journal",
     "title": "Defending Against Prompt Injection with DataFilter",
@@ -1396,6 +1651,14 @@
     "id": "smart-trust",
     "type": "document",
     "title": "WHO SMART Trust"
+  },
+  {
+    "id": "who-itb",
+    "type": "software",
+    "title": "WHO-ITB: Interoperability Test Bed with HCERT validation (GDHCN Trust Network)",
+    "publisher": "World Health Organization",
+    "URL": "https://github.com/WorldHealthOrganization/WHO-ITB/tree/883291d51e206719c1417cf95393a5cd8b20dc4b",
+    "note": "Read at commit 883291d51e206719c1417cf95393a5cd8b20dc4b (2026-07-21). Three GITB test suites: Track 1 HCERT VHL, QR to verified LAC IPS bundle; Track 2 HCERT ICVP, QR to ICVP-IPS conformance; Track 3 HCERT PH4H, QR to MeOW bundle. Each decodes an uploaded QR image through the gdhcn-helper service (decode/hcert, verify/signature against the GDHCN DEV trust list, extract/reference, shlink/authorize, shlink/fetch-fhir), then validates or transforms the FHIR content with Matchbox. Test data: test-data/Track1_VHL_1234_2026.jpg, Track2_ICVP_2026.jpg, Track3_MeOW_2026.jpg. The repository carries no licence file, so its test data is cited here, not copied."
   },
   {
     "id": "arxiv-2106.12880v1",

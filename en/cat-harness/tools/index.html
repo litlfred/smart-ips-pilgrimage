@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../assets/css/avatars.css?v=dbb53d57180e">
+<link rel="stylesheet" href="../../../assets/css/avatars.css?v=f1e0958e3c5a">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -950,9 +950,9 @@ is <code class="language-plaintext highlighter-rouge">satisfies</code>, and it r
 to do that</em>, never <em>this skill is a tool</em>.</p>
 
 <div class="tg-grid">
-<a class="tg-stat" href="#every-tool"><b>252</b><span>Tool nodes</span></a>
-<a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>106</b><span>skills satisfied</span></a>
-<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>223</b><span>invoked as a shell command</span></a>
+<a class="tg-stat" href="#every-tool"><b>270</b><span>Tool nodes</span></a>
+<a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>122</b><span>skills satisfied</span></a>
+<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>241</b><span>invoked as a shell command</span></a>
 <a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>30</b><span>reachable over MCP</span></a>
 </div>
 
@@ -996,6 +996,10 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
       <td>14</td>
     </tr>
     <tr>
+      <td><a href="smart-trust-tools/">smart-trust-tools</a></td>
+      <td>18</td>
+    </tr>
+    <tr>
       <td><a href="who-iris/">who-iris</a></td>
       <td>1</td>
     </tr>
@@ -1022,7 +1026,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><span class="tg-tag tg-shell">shell</span></td>
-      <td>223</td>
+      <td>241</td>
     </tr>
     <tr>
       <td><span class="tg-tag tg-inproc">inProcess</span></td>
@@ -1049,7 +1053,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">none</code></td>
-      <td>221</td>
+      <td>239</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">cli</code></td>
@@ -1074,7 +1078,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
 </h2>
     
 
-<p>Yes — all <strong>106</strong> skills named across <strong>252</strong> tools resolve to a
+<p>Yes — all <strong>122</strong> skills named across <strong>270</strong> tools resolve to a
 skill document in this checkout. A <code class="language-plaintext highlighter-rouge">satisfies</code> pointing at nothing would be a
 tool advertising a capability the graph cannot locate.</p>
 <h2 id="every-tool">
@@ -1283,6 +1287,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
+      <td><a id="build-site"></a><a href="#build-site"><code class="language-plaintext highlighter-rouge">build-site</code></a><br />Build the viewer pages</td>
+      <td>Write the viewer pages that site.build serves under viewers/: the graph explorer and traceability matrix over this instance’s nodes (requirements, library sections, external schemas, references, directives, skills, Tools, processes, roles and beans), the requirements document, the WIT contract, the TypeScript reference (TypeDoc), the Kotlin skeleton and the wire and payload models. Also copies docs/*.md into the Jekyll source (site_docs.sh).</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-kg-publication</code></td>
+      <td>1 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
       <td><a id="cat-harness-schema"></a><a href="#cat-harness-schema"><code class="language-plaintext highlighter-rouge">cat-harness-schema</code></a><br />Instance declaration schema</td>
       <td>The zod definition of <code class="language-plaintext highlighter-rouge">&lt;name&gt;.json</code> — what an instance may declare about itself — and the published JSON Schema generated from it.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
@@ -1307,6 +1319,22 @@ tool advertising a capability the graph cannot locate.</p>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
+      <td><a id="check-models"></a><a href="#check-models"><code class="language-plaintext highlighter-rouge">check-models</code></a><br />Check the vectors against the models</td>
+      <td>Decode the smart-trust PR 129 certificate and validate its payload against the CDDL (api/cddl and models/generated) and, through the JSON-LD context, the SHACL shapes.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-conformance-testing</code></td>
+      <td>0 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="check-req-nodes"></a><a href="#check-req-nodes"><code class="language-plaintext highlighter-rouge">check-req-nodes</code></a><br />Check the requirement graph</td>
+      <td>Check every node of this instance’s requirement graph: each skills/requirements/*.json parses as a bootstrap requirement with id req:<file>; every derivedFrom names a requirement and every reference a node that exists (a library section or entry, an external schema, a reference, a directive, a test vector, or a smart-trust FHIR Requirements canonical); every statement has a success criterion; every skill's satisfies and tested-by, every bean's requirements and sources, and every test plan resolve; every external schema and reference parses against its typology's schema; every code list parses as folio-code-list/v1, with every requirement's area a code of requirement-area; and the shared negative vectors parse against their schema, each expected step and reason a case of the WIT failure taxonomy.</file></td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-kg-publication</code></td>
+      <td>0 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
       <td><a id="check-tools"></a><a href="#check-tools"><code class="language-plaintext highlighter-rouge">check-tools</code></a><br />Do the Tool nodes agree with their skills?</td>
       <td>Check every Tool node’s joins: that each <code class="language-plaintext highlighter-rouge">satisfies</code> resolves to a real skill and agrees with that skill’s declared contract, that every io port names a declared type, and that no argv input has a type able to express a shell payload.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
@@ -1320,6 +1348,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">fhir-validation</code></td>
       <td>2 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="check-upstream-patches"></a><a href="#check-upstream-patches"><code class="language-plaintext highlighter-rouge">check-upstream-patches</code></a><br />Check the upstream patches are well-formed</td>
+      <td>Check every file under upstream/ (the upstream-patches graph, kept on the state branch cat/smart-trust-tools/upstream-patches and mounted by state:mount): each is a numbered git format-patch file, upstream/<target>/NNNN-<subject>.patch, with the mbox From line, an author, a date, a [PATCH] subject, a --- separator and at least one diff --git hunk.</subject></target></td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-contract-maintenance</code></td>
+      <td>0 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
@@ -1344,6 +1380,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">harness-tiles</code></td>
       <td>4 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="conformance-ts"></a><a href="#conformance-ts"><code class="language-plaintext highlighter-rouge">conformance-ts</code></a><br />One TypeScript conformance suite for both libraries</td>
+      <td>suite.ts: 45 checks over every interface of the <code class="language-plaintext highlighter-rouge">hcert</code> world, type-checked (tsc, toolchain/node) against api/generated/ts, the TypeScript jco derives from the WIT contract, and driven by the shared vectors. run.mjs runs it against the Kotlin/JS package (hcert-core’s WitJs facade) or the jco-transpiled Rust component; each loader only regroups its package’s exports under the interface names. Both must pass (STT-TST-007). cross.mjs loads both and runs cross.ts: each library verifies the other’s ES256 and PS256 certificates, built from byte-identical Sig_structures (STT-TST-003, STT-GEN-006).</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-conformance-testing</code></td>
+      <td>2 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
@@ -1499,6 +1543,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
+      <td><a id="fetch-lms"></a><a href="#fetch-lms"><code class="language-plaintext highlighter-rouge">fetch-lms</code></a><br />Fetch the FHIR logical models</td>
+      <td>Fetch the DVCMin logical models as FHIR R5 StructureDefinitions from the smart-trust-phw build at the commit models/fhir/SOURCE.yaml pins, into models/fhir/.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-contract-maintenance</code></td>
+      <td>0 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
       <td><a id="fhir-cache-seed-npm"></a><a href="#fhir-cache-seed-npm"><code class="language-plaintext highlighter-rouge">fhir-cache-seed-npm</code></a><br />Seed the FHIR package cache from trusted sources (exact versions)</td>
       <td>Fill <code class="language-plaintext highlighter-rouge">~/.fhir/packages</code> (or <code class="language-plaintext highlighter-rouge">--cache</code>) for an environment that cannot reach packages.fhir.org, from trust anchors only: npm account <code class="language-plaintext highlighter-rouge">grahamegrieve</code>, publishers’ own published-site repositories (the seeder’s list, each fetch verified against the tarball’s own package.json), template repos found through FHIR/ig-registry’s templates.json read live each run, and a <code class="language-plaintext highlighter-rouge">--mirror</code>. Exact versions only (a patch wildcard resolves as the Publisher resolves it, recorded); every tarball verified; nothing computed once and kept; provenance recorded; missing versions listed, never substituted.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
@@ -1511,6 +1563,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td>On a machine that reaches packages.fhir.org, fetch exactly a missing list (from <code class="language-plaintext highlighter-rouge">fhir-cache-seed-npm --missing-out</code>), check each tarball names itself exactly, record SHA512SUMS, and commit and push to a git repository that an environment without packages.fhir.org reads with <code class="language-plaintext highlighter-rouge">--mirror</code>. The person running it is the trust anchor for what it adds.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">ig-publisher-fork</code></td>
+      <td>2 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="fhir-validate"></a><a href="#fhir-validate"><code class="language-plaintext highlighter-rouge">fhir-validate</code></a><br />Validate the FHIR logical models</td>
+      <td>Run the HL7 FHIR Validator (validator_cli.jar) on the StructureDefinitions in models/fhir against the FHIR version they declare, with the jar and every FHIR package pinned by sha256 in toolchain/fhir-validator/validator.json, verified before use, and no fetch at run time (-no-http-access, -tx n/a). The site’s pre step: it runs when the site is published to main and says it is not run for a staging preview.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-contract-maintenance</code></td>
       <td>2 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
@@ -1608,6 +1668,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">prepare-merge</code></td>
       <td>1 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="gen-api-types"></a><a href="#gen-api-types"><code class="language-plaintext highlighter-rouge">gen-api-types</code></a><br />TypeScript declarations from the WIT contract</td>
+      <td>Run jco over api/wit to write the TypeScript view of the contract into api/generated/ts, the API reference that Node and browser callers read. jco comes from the pinned toolchain/node lockfile, installed with scripts disabled.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-contract-maintenance</code></td>
+      <td>0 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
@@ -1800,6 +1868,22 @@ tool advertising a capability the graph cannot locate.</p>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">initialization-steps</code></td>
       <td>2 in / 3 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="hcert-kotlin"></a><a href="#hcert-kotlin"><code class="language-plaintext highlighter-rouge">hcert-kotlin</code></a><br />HCERT and VHL library (Kotlin Multiplatform)</td>
+      <td>The Kotlin implementation of the HCERT pipeline and Verifiable Health Links, for the JVM (Android as-is) and Node: <code class="language-plaintext highlighter-rouge">hcert-api</code>, the declarations wit2kotlin generates from the WIT contract, and <code class="language-plaintext highlighter-rouge">hcert-core</code>, the behaviour (deterministic CBOR, COSE_Sign1 ES256/PS256, ZLIB, Base45, HC1, the trust list, verification, the VHL payload, the ITI-YY5 manifest request and JWE dir/A256GCM). No third-party runtime dependency; every build artefact is pinned in gradle/verification-metadata.xml.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-assemble-payload</code><br /><code class="language-plaintext highlighter-rouge">hcert-build-cwt</code><br /><code class="language-plaintext highlighter-rouge">hcert-compress</code><br /><code class="language-plaintext highlighter-rouge">hcert-encode-base45</code><br /><code class="language-plaintext highlighter-rouge">hcert-encode-cbor</code><br /><code class="language-plaintext highlighter-rouge">hcert-library-architecture</code><br /><code class="language-plaintext highlighter-rouge">hcert-prefix-context</code><br /><code class="language-plaintext highlighter-rouge">hcert-select-payload</code><br /><code class="language-plaintext highlighter-rouge">hcert-sign-cose</code><br /><code class="language-plaintext highlighter-rouge">hcert-trust-list</code><br /><code class="language-plaintext highlighter-rouge">hcert-verify</code><br /><code class="language-plaintext highlighter-rouge">vhl-receive</code><br /><code class="language-plaintext highlighter-rouge">vhl-share</code></td>
+      <td>1 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="hcert-rust"></a><a href="#hcert-rust"><code class="language-plaintext highlighter-rouge">hcert-rust</code></a><br />HCERT library (Rust, native and WebAssembly)</td>
+      <td>The Rust implementation of the HCERT pipeline: Base45, ZLIB, deterministic CBOR, COSE_Sign1 ES256/PS256 (RustCrypto p256, rsa, sha2), CWT, the DVCMin payload, the trust store (PEM, DER, GDHCN DID trustlist v2, trust domains), the section 11 verifier, two-phase issuance and Verifiable Health Links (payload, vhlink:/, the ITI-YY5 manifest, JWE dir/A256GCM with aes-gcm, the RFC 9421 signature base). It builds natively; as the WebAssembly component of the <code class="language-plaintext highlighter-rouge">hcert</code> world in api/wit (feature component, wit-bindgen; build-component.sh componentises and transpiles it with the pinned jco into an ES module for browsers and Node, whose only import, wasi:random, maps to crypto.getRandomValues); and as an import-free module with a JSON call surface for the live demos (js/hcert.mjs, with a TEST ONLY builder of self-signed DSCs). Every crate is pinned in Cargo.lock (DEPENDENCIES.md).</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-assemble-payload</code><br /><code class="language-plaintext highlighter-rouge">hcert-build-cwt</code><br /><code class="language-plaintext highlighter-rouge">hcert-compress</code><br /><code class="language-plaintext highlighter-rouge">hcert-conformance-testing</code><br /><code class="language-plaintext highlighter-rouge">hcert-encode-base45</code><br /><code class="language-plaintext highlighter-rouge">hcert-encode-cbor</code><br /><code class="language-plaintext highlighter-rouge">hcert-prefix-context</code><br /><code class="language-plaintext highlighter-rouge">hcert-select-payload</code><br /><code class="language-plaintext highlighter-rouge">hcert-sign-cose</code><br /><code class="language-plaintext highlighter-rouge">hcert-trust-list</code><br /><code class="language-plaintext highlighter-rouge">hcert-verify</code></td>
+      <td>1 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
@@ -2147,6 +2231,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
+      <td><a id="lm-derive"></a><a href="#lm-derive"><code class="language-plaintext highlighter-rouge">lm-derive</code></a><br />Payload models from the FHIR logical models</td>
+      <td>Derive, from the FHIR logical models in models/fhir, the JSON-LD context, SHACL shapes and CDDL rules in models/generated/ that the payload codecs and the conformance checks read.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-contract-maintenance</code></td>
+      <td>1 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
       <td><a id="log-message"></a><a href="#log-message"><code class="language-plaintext highlighter-rouge">log-message</code></a><br />Log a message to the discussion</td>
       <td>Write a log line where the human actor will read it: the discussion you are already in. Takes the five required fields and the optional body, and renders them as one entry.</td>
       <td><span class="tg-tag tg-manual">manual</span></td>
@@ -2280,6 +2372,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">harness-tiles</code></td>
       <td>5 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="negative-vectors"></a><a href="#negative-vectors"><code class="language-plaintext highlighter-rouge">negative-vectors</code></a><br />Shared negative test vectors</td>
+      <td>Derive vectors/negative/negative-vectors.json from the smart-trust PR 129 certificates: one language-neutral file of inputs a conforming verifier must refuse, each with the step and reason it must stop at. The Kotlin suite, the Node smoke test and the Rust suite load the same file. Nothing is newly signed: each case changes a byte, a prefix, the clock or the trust list.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-conformance-testing</code></td>
+      <td>1 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
@@ -2488,6 +2588,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">graph-rendering</code></td>
       <td>2 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="release-packaging"></a><a href="#release-packaging"><code class="language-plaintext highlighter-rouge">release-packaging</code></a><br />Release packaging (dry run)</td>
+      <td>Assemble the two npm packages of the libraries, @litlfred/hcert-component (the jco-transpiled Rust component) and @litlfred/hcert-kotlin-js (the Kotlin/JS library), from their build outputs, each with a package.json that has the VERSION, no dependencies and no scripts; and check that VERSION, the single version source, is a semantic version that Cargo.toml, Cargo.lock, the Gradle build, CHANGELOG.md and every built package.json and POM agree with. The Maven dry run is the hcert-kotlin build’s publishDryRun task and the crate’s is cargo package; docs/RELEASING.md is the runbook an agent follows to publish.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-library-architecture</code></td>
+      <td>1 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
@@ -2843,6 +2951,30 @@ tool advertising a capability the graph cannot locate.</p>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
+      <td><a id="test-gherkin"></a><a href="#test-gherkin"><code class="language-plaintext highlighter-rouge">test-gherkin</code></a><br />Every test has a Gherkin Scenario</td>
+      <td>Check test/features/*.feature against the suites: every Rust #[test], Kotlin @Test and TypeScript conformance run(…) has a Scenario tagged @test:<path>::<test>, every such tag names a test, WHO-ITB Scenarios carry @itb:<suite>/<testcase>, and every test-plan case names its feature file. Temporary, until cat-harness check:test-gherkin is pinned.</testcase></suite></test></path></td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-conformance-testing</code></td>
+      <td>1 in / 0 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="test-plan"></a><a href="#test-plan"><code class="language-plaintext highlighter-rouge">test-plan</code></a><br />Library conformance test plan</td>
+      <td>Write test/plans/hcert-library-conformance.test-plan.json (test-plan/v1) from the skills and the requirements’ success criteria: one case per skill, one assertion per criterion verified by test. The plan any implementation of the library, Kotlin or Rust, runs.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-conformance-testing</code></td>
+      <td>1 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="test-systems"></a><a href="#test-systems"><code class="language-plaintext highlighter-rouge">test-systems</code></a><br />Systems under test and their bindings</td>
+      <td>Write the bindings and uncovered lists of each test/systems/<id>.system.json (system/v1) from the tags in its tests: the requirement ids a Kotlin, Rust or TypeScript test's name starts with, or a script's "Verifies" sentence. Each assertion of a plan the system claims gets the tests that verify it, with the surface and target each runs on; each required assertion a declared target leaves unverified, and no `unbound` entry explains, is listed as uncovered.</id></td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-conformance-testing</code></td>
+      <td>1 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
       <td><a id="theme-viewer"></a><a href="#theme-viewer"><code class="language-plaintext highlighter-rouge">theme-viewer</code></a><br />Themes viewer</td>
       <td>Render every theme in the checkout, the platform’s and each instance’s declared themes, with palette, contrast and art.</td>
       <td><span class="tg-tag tg-shell">shell</span></td>
@@ -3027,6 +3159,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>
+      <td><a id="vhl-jwe-fixture"></a><a href="#vhl-jwe-fixture"><code class="language-plaintext highlighter-rouge">vhl-jwe-fixture</code></a><br />Independent JWE fixture</td>
+      <td>Make vectors/ihe-vhl/jwe-dir-a256gcm.json with node:crypto alone, so the library’s RFC 7516 dir / A256GCM decryption (with and without zip DEF) is checked against an implementation that is not the library. TEST ONLY: the key is in the file.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-conformance-testing</code></td>
+      <td>0 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
       <td><a id="vocab-map"></a><a href="#vocab-map"><code class="language-plaintext highlighter-rouge">vocab-map</code></a><br />Apply a vocabulary mapping table</td>
       <td>Carry one source record into a target vocabulary by a declared <code class="language-plaintext highlighter-rouge">folio-vocab-mapping/v1</code> table: each source field becomes the predicate its row names, in the table’s order, with a DERIVED target (such as <code class="language-plaintext highlighter-rouge">dcterms:title</code> rendering <code class="language-plaintext highlighter-rouge">skos:prefLabel</code>) copied from its authoritative one so the two cannot drift. A table is shaped like a FHIR ConceptMap: an existing ConceptMap, R4 or R5, is representable as one without loss (<code class="language-plaintext highlighter-rouge">fromConceptMap</code>), and a table can be produced as a ConceptMap (<code class="language-plaintext highlighter-rouge">toConceptMap</code>), which returns every loss rather than dropping anything silently. First consumer: <code class="language-plaintext highlighter-rouge">glossary-export</code>.</td>
       <td><span class="tg-tag tg-inproc">inProcess</span></td>
@@ -3048,6 +3188,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><span class="tg-tag tg-shell">shell</span></td>
       <td><code class="language-plaintext highlighter-rouge">wireframe-viewport-check</code></td>
       <td>5 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="wit2kotlin"></a><a href="#wit2kotlin"><code class="language-plaintext highlighter-rouge">wit2kotlin</code></a><br />Kotlin skeleton from the WIT contract</td>
+      <td>Generate the Kotlin declarations in tools/hcert-kotlin/hcert-api from api/wit by fixed mapping rules: records to data classes, variants to sealed interfaces, resources to AutoCloseable interfaces, result&lt;T, E&gt; to HcertResult; worlds are not generated, and no Kotlin name or KDoc mentions WIT.</td>
+      <td><span class="tg-tag tg-shell">shell</span></td>
+      <td><code class="language-plaintext highlighter-rouge">hcert-contract-maintenance</code></td>
+      <td>1 in / 1 out</td>
       <td><a href="https://github.com/litlfred/smart-ips-pilgrimage/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>

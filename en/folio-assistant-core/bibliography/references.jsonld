@@ -286,6 +286,27 @@
       "dcterms:hasVersion": "cat-harness/library/process/arxiv-1603.07466v1"
     },
     {
+      "@id": "references/who-smart-trust-changes",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Change Log",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-changes/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-changes"
+    },
+    {
+      "@id": "references/who-smart-trust-changes",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Change Log",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/changes.html",
+      "dcterms:hasVersion": "library/who-smart-trust-changes"
+    },
+    {
       "@id": "references/arxiv-2507.07974v2",
       "@type": [
         "fabio:Work",
@@ -338,6 +359,47 @@
       "dcterms:issued": "2026",
       "dcterms:source": "folio-assistant-core/library/c2pa-2026-specification-2-5/manifest.jsonld",
       "dcterms:hasVersion": "folio-assistant-core/library/c2pa-2026-specification-2-5"
+    },
+    {
+      "@id": "references/who-smart-trust-cwt-payload-model",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "CWTPayload logical model (FSH)",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-cwt-payload-model/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-cwt-payload-model"
+    },
+    {
+      "@id": "references/who-smart-trust-data-exchange",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Data Exchange",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-data-exchange/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-data-exchange"
+    },
+    {
+      "@id": "references/who-smart-trust-data-exchange",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Data Exchange",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/data_exchange.html",
+      "dcterms:hasVersion": "library/who-smart-trust-data-exchange"
+    },
+    {
+      "@id": "references/who-ddcc-ig",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "DDCC Implementation Guide",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/ddcc/"
     },
     {
       "@id": "references/arxiv-2503.18813v2",
@@ -433,6 +495,46 @@
       "dcterms:hasVersion": "folio-assistant-core/library/dspace-7-rest-contract"
     },
     {
+      "@id": "references/who-trust-phw-dvc-vaccines-vs",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "DVC - Vaccines value set (trust-phw)",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "http://smart.who.int/trust-phw/ValueSet-DVCVaccines.html"
+    },
+    {
+      "@id": "references/who-smart-trust-phw-dvcmin",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "DVCMin logical model (FSH)",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-dvcmin/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-dvcmin"
+    },
+    {
+      "@id": "references/who-smart-trust-phw-dvcmin-prequal",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "DVCMinPreQual profile (FSH)",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-dvcmin-prequal/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-dvcmin-prequal"
+    },
+    {
+      "@id": "references/who-smart-trust-phw-dvcmin-vaccine-details",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "DVCMinVaccineDetails logical model (FSH)",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-dvcmin-vaccine-details/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-dvcmin-vaccine-details"
+    },
+    {
       "@id": "references/arxiv-2608.18294v2",
       "@type": [
         "fabio:Work",
@@ -446,6 +548,27 @@
       "dcterms:abstract": "An increasing number of scholars use AI to measure variables they subsequently include in downstream analyses. Although AI-measured variables are often analyzed as if observed without error, ignoring prediction errors in automated measurement leads to substantial bias and invalid confidence intervals in downstream analyses, even if AI measurement accuracy is high, e.g., above 90%. Existing solutions, such as design-based supervised learning and prediction-powered infer- ence, combine error-prone AI-based measurements with gold-standard labels, which may be costly and difficult to obtain in some application areas. In this paper, we propose debiased inference with multiple imperfect measurements (DMM), a framework that combines multiple error-prone AI measurements to enable valid downstream inference without gold-standard labels. Building on the established results on CP decomposition, DMM assumes that these measurements are independent conditional on the latent true label and observed unit-level features, such as text features represented by embeddings. This framework allows for unknown misclassification rates to vary across annotation methods (e.g., large language models) and across units of annotation (e.g., texts). Under this assumption, we use semiparamet- ric inference theory to prove that the DMM estimator is consistent and asymptotically normal, enabling valid inference for a wide range of downstream statistical analyses common in the so- cial sciences. Our simulation results show that DMM yields valid inference and that adding accurate, though imperfect, measurements can improve efficiency. Focusing on common applica- tions of large language model annotations, we also develop diagnostics to assess the conditional independence assumption. ∗We thank Betsy Ogburn, Helen Guo, AmirEmad Ghassami, and Ilya Shpitser for thoughtful comments. †Associate Professor, Department of Political Science and Statistics and Data Science Center, Massachusetts Insti- tute of Techn",
       "dcterms:source": "cat-harness/library/content/arxiv-2608.18294v2/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/content/arxiv-2608.18294v2"
+    },
+    {
+      "@id": "references/who-smart-trust-endpoints",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Endpoints",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-endpoints/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-endpoints"
+    },
+    {
+      "@id": "references/who-smart-trust-endpoints",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Endpoints",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/endpoints.html",
+      "dcterms:hasVersion": "library/who-smart-trust-endpoints"
     },
     {
       "@id": "references/equipping-agents-for-the-real-world-with-agent-skills-anthro",
@@ -490,6 +613,57 @@
       "dcterms:issued": "2015",
       "dcterms:source": "cat-harness/library/process/figl-strembeck-2015-flow-direction-experiment/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/process/figl-strembeck-2015-flow-direction-experiment"
+    },
+    {
+      "@id": "references/who-trust-gdhcn-key-usage-vs",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "GDHCN Key Usage value set",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/ValueSet-KeyUsage.html"
+    },
+    {
+      "@id": "references/who-trust-gdhcn-participants-vs",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "GDHCN Participants value set",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/ValueSet-Participants.html"
+    },
+    {
+      "@id": "references/who-trust-gdhcn-trust-domain-vs",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "GDHCN Trust Domain value set",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/ValueSet-Domains.html"
+    },
+    {
+      "@id": "references/who-smart-trust-did-gdhcn",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "GDHCN Trustlists (DID)",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-did-gdhcn/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-did-gdhcn"
+    },
+    {
+      "@id": "references/who-smart-trust-did-gdhcn",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "GDHCN Trustlists (DID)",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/concepts_did_gdhcn.html",
+      "dcterms:hasVersion": "library/who-smart-trust-did-gdhcn"
     },
     {
       "@id": "references/cucumber-2024-gherkin-reference",
@@ -545,6 +719,47 @@
       "dcterms:hasVersion": "cat-harness/library/content/arxiv-2405.14766v2"
     },
     {
+      "@id": "references/who-smart-trust-hcert-model",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "HCert logical model (FSH)",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-hcert-model/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-hcert-model"
+    },
+    {
+      "@id": "references/who-smart-trust-hcert-spec",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "HCERT Specification",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-hcert-spec/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-hcert-spec"
+    },
+    {
+      "@id": "references/who-smart-trust-hcert-spec",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "HCERT Specification",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/hcert_spec.html",
+      "dcterms:hasVersion": "library/who-smart-trust-hcert-spec"
+    },
+    {
+      "@id": "references/who-smart-trust-phw-health-link-payload",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "HealthLinkPayload and VerifiableHealthLinkPayload logical models (FSH)",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-health-link-payload/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-health-link-payload"
+    },
+    {
       "@id": "references/hl7-ips",
       "@type": [
         "fabio:Work",
@@ -595,6 +810,110 @@
       "dcterms:abstract": "The Open Digital Rights Language (ODRL) is a policy expression language that provides a flexible and interoperable information model, vocabulary, and encoding mechanisms for representing statements about the usage of content and services. The ODRL Information Model describes the underlying concepts, entities, and relationships that form the foundational basis for the semantics of the ODRL policies. Policies are used to represent permitted and prohibited actions over a certain asset, as well as the obligations required to be meet by stakeholders. In addition, policies may be limited by constraints (e.g., temporal or spatial constraints) and duties (e.g. payments) may be imposed on permissions. Status of This Document This section describes the status of this document at the time of its publication. Other documents may supersede this document. A list of current W3C publications and the latest revision of this technical report can be found in the W3C technical reports index at https://www.w3.org/TR/. This document was published by the Permissions & Obligations Expression Working Group as a Recommendation. Comments regarding this document are welcome. Please send them to public-poe-comments@w3.org (subscribe, archives). Please see the Working Group's implementation report. This document has been reviewed by W3C Members, by software developers, and by other W3C groups and interested parties, and is endorsed by the Director as a W3C Recommendation. It is a stable document and may be used as reference material or cited from another document. W3C's role in making the Recommendation is to draw attention to the specification and to promote its widespread deployment. This enhances the functionality and interoperability of the Web. This document was produced by a group operating under the W3C Patent Policy. W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group; that page also includes instructions for disclosing a patent. An",
       "dcterms:source": "cat-harness/library/conduct/w3c-2018-odrl-model-2-2/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/conduct/w3c-2018-odrl-model-2-2"
+    },
+    {
+      "@id": "references/who-icvp-ig",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "ICVP Implementation Guide",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/icvp"
+    },
+    {
+      "@id": "references/ihe-iti-vhl-volume-1",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "IHE ITI Verifiable Health Link (VHL), Volume 1",
+      "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-volume-1/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-volume-1"
+    },
+    {
+      "@id": "references/ihe-iti-vhl-volume-1",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "IHE ITI Verifiable Health Link (VHL), Volume 1",
+      "dcterms:publisher": "IHE International",
+      "dcterms:identifier": "https://profiles.ihe.net/ITI/VHL/volume-1.html",
+      "dcterms:hasVersion": "library/ihe-iti-vhl-volume-1"
+    },
+    {
+      "@id": "references/ihe-iti-vhl-actors",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "IHE ITI VHL ActorDefinitions (FSH)",
+      "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-actors/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-actors"
+    },
+    {
+      "@id": "references/ihe-iti-vhl-iti-yy3",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "IHE VHL ITI-YY3 Generate VHL",
+      "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-iti-yy3/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-iti-yy3"
+    },
+    {
+      "@id": "references/ihe-iti-vhl-iti-yy3",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "IHE VHL ITI-YY3 Generate VHL",
+      "dcterms:publisher": "IHE International",
+      "dcterms:identifier": "https://profiles.ihe.net/ITI/VHL/ITI-YY3.html",
+      "dcterms:hasVersion": "library/ihe-iti-vhl-iti-yy3"
+    },
+    {
+      "@id": "references/ihe-iti-vhl-iti-yy4",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "IHE VHL ITI-YY4 Provide VHL",
+      "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-iti-yy4/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-iti-yy4"
+    },
+    {
+      "@id": "references/ihe-iti-vhl-iti-yy4",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "IHE VHL ITI-YY4 Provide VHL",
+      "dcterms:publisher": "IHE International",
+      "dcterms:identifier": "https://profiles.ihe.net/ITI/VHL/ITI-YY4.html",
+      "dcterms:hasVersion": "library/ihe-iti-vhl-iti-yy4"
+    },
+    {
+      "@id": "references/ihe-iti-vhl-iti-yy5",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "IHE VHL ITI-YY5 Retrieve Manifest",
+      "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-iti-yy5/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-iti-yy5"
+    },
+    {
+      "@id": "references/ihe-iti-vhl-iti-yy5",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "IHE VHL ITI-YY5 Retrieve Manifest",
+      "dcterms:publisher": "IHE International",
+      "dcterms:identifier": "https://profiles.ihe.net/ITI/VHL/ITI-YY5.html",
+      "dcterms:hasVersion": "library/ihe-iti-vhl-iti-yy5"
     },
     {
       "@id": "references/qi-hessen-vanderheijden-2023-ca-vs-lsa",
@@ -845,6 +1164,16 @@
       "dcterms:hasVersion": "cat-harness/library/content/arxiv-2606.21008v3"
     },
     {
+      "@id": "references/who-ph4h-medication-treatment-line-min",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "MedicationTreatmentLineMin logical model (ph4h)",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "http://smart.who.int/ph4h/StructureDefinition-MedicationTreatmentLineMin.html"
+    },
+    {
       "@id": "references/mcp-2026-specification-2026-07-28",
       "@type": [
         "fabio:Work",
@@ -926,6 +1255,27 @@
       "dcterms:hasVersion": "cat-harness/library/process/gurel-tat-2017-swot-analysis"
     },
     {
+      "@id": "references/who-smart-trust-qr-code-generation",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "QR Code Generation",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-qr-code-generation/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-qr-code-generation"
+    },
+    {
+      "@id": "references/who-smart-trust-qr-code-generation",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "QR Code Generation",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/qr_code_generation.html",
+      "dcterms:hasVersion": "library/who-smart-trust-qr-code-generation"
+    },
+    {
       "@id": "references/wang-rangaiah-2026-mcdm-aggregation",
       "@type": [
         "fabio:Work",
@@ -955,6 +1305,27 @@
       "dcterms:abstract": "There can be many competing and contradictory explanations for a single model prediction, making it difficult to select which one to use. Current explanation evaluation frameworks measure qual- ity by comparing against ideal “ground-truth” explanations, or by verifying model sensitivity to important inputs. We outline the limitations of these approaches, and propose three desirable princi- ples to ground the future development of explanation evaluation strategies for local feature importance explanations. We propose a ground-truth Agnostic eXplanation Evaluation framework (AXE) for evaluating and comparing model explanations that satis- fies these principles. Unlike prior approaches, AXE does not require access to ideal ground-truth explanations for comparison, or rely on model sensitivity – providing an independent measure of expla- nation quality. We verify AXE by comparing with baselines, and show how it can be used to detect explanation fairwashing. Our code is available at https://github.com/KaiRawal/Evaluating-Model- Explanations-without-Ground-Truth. CCS Concepts • Computing methodologies →Artificial intelligence; Ma- chine learning.",
       "dcterms:source": "cat-harness/library/content/arxiv-2505.10399v1/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/content/arxiv-2505.10399v1"
+    },
+    {
+      "@id": "references/who-smart-trust-reference-implementation",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Reference Implementations",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-reference-implementation/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-reference-implementation"
+    },
+    {
+      "@id": "references/who-smart-trust-reference-implementation",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Reference Implementations",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/reference_implementation.html",
+      "dcterms:hasVersion": "library/who-smart-trust-reference-implementation"
     },
     {
       "@id": "references/strauch-carbno-2025-spdx-3-1-supply-chain",
@@ -1024,6 +1395,36 @@
       "dcterms:title": "Skills in OpenAI API",
       "dcterms:source": "cat-harness/library/conduct/skills-in-openai-api-notebook/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/conduct/skills-in-openai-api-notebook"
+    },
+    {
+      "@id": "references/who-smart-trust-actors",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "smart-trust ActorDefinitions (FSH)",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-actors/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-actors"
+    },
+    {
+      "@id": "references/who-smart-trust-requirements-fsh",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "smart-trust FHIR Requirements (FSH)",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-requirements-fsh/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-requirements-fsh"
+    },
+    {
+      "@id": "references/who-smart-trust-phw-aliases",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "smart-trust-phw FSH aliases",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-aliases/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-aliases"
     },
     {
       "@id": "references/arxiv-2607.00053v1",
@@ -1176,6 +1577,27 @@
       "dcterms:hasVersion": "cat-harness/library/kg/w3c-2013-prov-o"
     },
     {
+      "@id": "references/who-smart-trust-trust-domains",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "Trust Domains",
+      "dcterms:source": "smart-trust-tools/library/who-smart-trust-trust-domains/manifest.jsonld",
+      "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-trust-domains"
+    },
+    {
+      "@id": "references/who-smart-trust-trust-domains",
+      "@type": [
+        "fabio:Work",
+        "bibo:Webpage"
+      ],
+      "dcterms:title": "Trust Domains",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://smart.who.int/trust/trust_domains.html",
+      "dcterms:hasVersion": "library/who-smart-trust-trust-domains"
+    },
+    {
       "@id": "references/arxiv-2510.19207v2",
       "@type": [
         "fabio:Work",
@@ -1236,6 +1658,16 @@
       "dcterms:title": "WHO SMART Trust",
       "dcterms:source": "smart-base/library/smart-trust/manifest.jsonld",
       "dcterms:hasVersion": "smart-base/library/smart-trust"
+    },
+    {
+      "@id": "references/who-itb",
+      "@type": [
+        "fabio:Work",
+        "bibo:Document"
+      ],
+      "dcterms:title": "WHO-ITB: Interoperability Test Bed with HCERT validation (GDHCN Trust Network)",
+      "dcterms:publisher": "World Health Organization",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/WHO-ITB/tree/883291d51e206719c1417cf95393a5cd8b20dc4b"
     },
     {
       "@id": "references/arxiv-2106.12880v1",

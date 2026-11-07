@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=dbb53d57180e">
+<link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=f1e0958e3c5a">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -913,16 +913,16 @@
 
 <p>Candidate terms extracted from every BPMN task and call activity: <code class="language-plaintext highlighter-rouge">name</code> as the label, its own <code class="language-plaintext highlighter-rouge">&lt;documentation&gt;</code> as the definition, the element id as the code. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap 38 (<a href="../../../../../assets/glossary/bootstrap--kg-bpmn-activities.skos.jsonld">SKOS</a>) · bootstrap-tools 7 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-bpmn-activities.skos.jsonld">SKOS</a>) · cat-harness 587 (<a href="../../../../../assets/glossary/cat-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · fhir-harness 49 (<a href="../../../../../assets/glossary/fhir-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · folio-assistant-core 250 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-bpmn-activities.skos.jsonld">SKOS</a>) · smart-base 153 (<a href="../../../../../assets/glossary/smart-base--kg-bpmn-activities.skos.jsonld">SKOS</a>) · who-iris 34 (<a href="../../../../../assets/glossary/who-iris--kg-bpmn-activities.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap 38 (<a href="../../../../../assets/glossary/bootstrap--kg-bpmn-activities.skos.jsonld">SKOS</a>) · bootstrap-tools 7 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-bpmn-activities.skos.jsonld">SKOS</a>) · cat-harness 587 (<a href="../../../../../assets/glossary/cat-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · fhir-harness 49 (<a href="../../../../../assets/glossary/fhir-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · folio-assistant-core 250 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-bpmn-activities.skos.jsonld">SKOS</a>) · smart-base 159 (<a href="../../../../../assets/glossary/smart-base--kg-bpmn-activities.skos.jsonld">SKOS</a>) · smart-trust-tools 24 (<a href="../../../../../assets/glossary/smart-trust-tools--kg-bpmn-activities.skos.jsonld">SKOS</a>) · who-iris 34 (<a href="../../../../../assets/glossary/who-iris--kg-bpmn-activities.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 3 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/bpmn-activities/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 401 terms and is 321 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 410 terms and is 327 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
 <thead><tr><th>target</th><th>mapped</th><th>unmapped</th><th>undetermined</th><th>why undetermined</th></tr></thead>
-<tbody><tr><td><code>fhir</code></td><td>0</td><td>1118</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>1118</td><td>0</td><td>—</td></tr></tbody>
+<tbody><tr><td><code>fhir</code></td><td>0</td><td>1148</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>1148</td><td>0</td><td>—</td></tr></tbody>
 </table></div>
 <p class="fa-gloss-mapping-note"><strong>Undetermined is never “no match”.</strong> 
 A vocabulary that could not be reached has said nothing, and the column above keeps that 
@@ -932,7 +932,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">401</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">410</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-R">R</a> <a href="#letter-S">S</a> <a href="#letter-T">T</a> <a href="#letter-U">U</a> <a href="#letter-V">V</a> <a href="#letter-W">W</a></nav>
 <h2 id="letter-R">
@@ -1146,6 +1146,13 @@ Read the head's evidence, live <span class="fa-gloss-status">candidate, extracte
 <dd>
 <p>On the PR's current head SHA, now: <code>ciState</code> (green, red, pending, none, unreadable) per OWED job from the workflow runs whose head_sha is the head; <code>mergeable</code> (clean, dirty, unknown); <code>review</code> (clear, blocking, unknown), including open CHANGES_REQUESTED reviews, a draft, <code>needs-merge-human</code>, and Claude Approvals where the repository runs it. Where the repository has <code>merge:guard</code>, its evaluate mode is this step (exit 2 is <code>unreadable</code>, never a pass). Write each fact down with the URL it came from.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/merge-to-main.bpmn"><code>cat-harness/sdlc/processes/merge-to-main.bpmn#Task_ReadEvidence</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-bpmn-activities--process_vhlsharing.task_read" data-fa-state="extracted" data-fa-gloss="">
+Read the manifest Bundle and decrypt each document <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Read the searchset Bundle the sharer returns and decrypt each document with the link key, accepting zip DEF.</p>
+<p class="fa-gloss-meta">BPMN activities of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/vhl-sharing.bpmn"><code>smart-trust-tools/processes/content/vhl-sharing.bpmn#Task_Read</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_copyoutmaterialized.task_readsource" data-fa-state="extracted" data-fa-gloss="">
 Read the original — and write nothing <span class="fa-gloss-status">candidate, extracted</span>
@@ -1811,6 +1818,13 @@ Render the method: adopted vs refused <span class="fa-gloss-status">candidate, e
 <dd>
 <p>What the source says, section by section, then a table of what this platform adopts and what it refuses, each with a reason. Extensions beyond the source (such as web plus mobile where the paper studied mobile) are stated as ours. Reported results are not imported as facts.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/methodology-from-source.bpmn"><code>cat-harness/processes/library/methodology-from-source.bpmn#A_Render</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-bpmn-activities--process_hcertissuance.task_render" data-fa-state="extracted" data-fa-gloss="">
+Render the QR code (Alphanumeric, EC Q) <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The application renders the HC1 string as a QR code in Alphanumeric mode, error correction Q, with its own QR encoder.</p>
+<p class="fa-gloss-meta">BPMN activities of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/hcert-issuance.bpmn"><code>smart-trust-tools/processes/content/hcert-issuance.bpmn#Task_Render</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-bpmn-activities--process_dsadocumentlifecycle.task_render" data-fa-state="extracted" data-fa-gloss="">
 Render the text to HTML and PDF <span class="fa-gloss-status">candidate, extracted</span>
@@ -2886,6 +2900,13 @@ Select the methodology by context <span class="fa-gloss-status">candidate, extra
 <p>Ask the selection question in order, first yes decides: do the criteria RECUR with the same inputs having to produce the same answer; is this the CERTAINTY of a body of evidence behind a recommendation; is the context a BEAN recording a decision; otherwise a one-off choice among candidates. If none fits, that is a finding — say which question the decision is and that no adopted methodology covers it. Do not improvise one and do not stretch the nearest fit. The declared set is the contents of the <code>methodology</code> graph. Ask for it; do not remember it.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/options-analysis.bpmn"><code>cat-harness/sdlc/processes/options-analysis.bpmn#A_Select</code></a></p>
 </dd>
+<dt id="smart-trust-tools--kg-bpmn-activities--process_hcertissuance.task_selectpayload" data-fa-state="extracted" data-fa-gloss="">
+Select the payload type and subclaim <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Choose the logical model and the hcert subclaim for the use case from the registry QR Code Generation 2 defines: a DVC (key -6) when the certificate must verify offline, a VHL (key 5) when the records are larger than a QR code holds.</p>
+<p class="fa-gloss-meta">BPMN activities of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/hcert-issuance.bpmn"><code>smart-trust-tools/processes/content/hcert-issuance.bpmn#Task_SelectPayload</code></a></p>
+</dd>
 <dt id="cat-harness--kg-bpmn-activities--process_copyintofolio.task_chooseasset" data-fa-state="extracted" data-fa-gloss="">
 Select upstream asset and target folio <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -2899,6 +2920,13 @@ Separate this graph? <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>The owner decides from the measured signals, and also decides the address base for its identifiers, where verdicts about it live, and what its tools repository owns. Declining is a real outcome: the graph stays where it is.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/kg/kg-separation.bpmn"><code>cat-harness/processes/kg/kg-separation.bpmn#Task_Decide</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-bpmn-activities--process_hcertissuance.task_encodecbor" data-fa-state="extracted" data-fa-gloss="">
+Serialise as deterministic CBOR <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Serialise the claim set as RFC 8949 deterministic CBOR, so the same claims always give the same bytes.</p>
+<p class="fa-gloss-meta">BPMN activities of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/hcert-issuance.bpmn"><code>smart-trust-tools/processes/content/hcert-issuance.bpmn#Task_EncodeCbor</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_kgtoportal.a_serialize" data-fa-state="extracted" data-fa-gloss="">
 Serialize to JSON-LD <span class="fa-gloss-status">candidate, extracted</span>
@@ -3018,6 +3046,13 @@ Sign over the API <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>The attestation service signs the run hashes. Reached only from the one table row that has both egress and a configured endpoint.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/qa-report-signing.bpmn"><code>cat-harness/sdlc/processes/qa-report-signing.bpmn#Task_ApiSign</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-bpmn-activities--process_hcertissuance.task_sign" data-fa-state="extracted" data-fa-gloss="">
+Sign the bytes with the DSC key <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The key holder signs the Sig_structure bytes with the DSC private key (ES256, or PS256) and returns the raw signature. The key never leaves it.</p>
+<p class="fa-gloss-meta">BPMN activities of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/hcert-issuance.bpmn"><code>smart-trust-tools/processes/content/hcert-issuance.bpmn#Task_Sign</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_testplanexecution.call_sign" data-fa-state="extracted" data-fa-gloss="">
 Sign the certification <span class="fa-gloss-status">candidate, extracted</span>
@@ -3194,6 +3229,13 @@ Streamline and cross-check all DAK components <span class="fa-gloss-status">cand
 <p><em>The asset carries no description.</em></p>
 <p class="fa-gloss-meta">BPMN activities of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/SGAuthoring.DAKLifecycle.bpmn"><code>smart-base/processes/content/SGAuthoring.DAKLifecycle.bpmn#Task_DraftDAKComponents</code></a></p>
 </dd>
+<dt id="smart-trust-tools--kg-bpmn-activities--process_hcertverification.task_decode" data-fa-state="extracted" data-fa-gloss="">
+Strip HC1:, Base45-decode and inflate <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Strip HC1: (refusing any other context), Base45-decode strictly and inflate within a size limit.</p>
+<p class="fa-gloss-meta">BPMN activities of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/hcert-verification.bpmn"><code>smart-trust-tools/processes/content/hcert-verification.bpmn#Task_Decode</code></a></p>
+</dd>
 <dt id="cat-harness--kg-bpmn-activities--process_humantranslation.task_submitpo" data-fa-state="extracted" data-fa-gloss="">
 Submit completed .po file <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -3294,6 +3336,13 @@ Terminology bindings <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>ICD-11, SNOMED CT and LOINC bindings, governed separately from the artefacts that cite them. Calls Process_L2ComponentEditReview with the terminology inputs of the skill l2-component-edit-review (checker: bindings resolve and unmappedConcepts is reported; renderer: the term diff on the code columns; reviewer: a terminologist other than the one who bound it).</p>
 <p class="fa-gloss-meta">BPMN activities of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/l2-dak-authoring.bpmn"><code>smart-base/processes/content/l2-dak-authoring.bpmn#Task_Terminology</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-bpmn-activities--process_hcertcontractchange.task_test" data-fa-state="extracted" data-fa-gloss="">
+Test against the shared vectors <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Run check-models and the hcert-core tests on the JVM and Node against the shared vectors.</p>
+<p class="fa-gloss-meta">BPMN activities of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/hcert-contract-change.bpmn"><code>smart-trust-tools/processes/content/hcert-contract-change.bpmn#Task_Test</code></a></p>
 </dd>
 <dt id="smart-base--kg-bpmn-activities--process_planning.task_testfunctionality" data-fa-state="extracted" data-fa-gloss="">
 Test L3 functionality (StructureMaps, CQL, Measures) <span class="fa-gloss-status">candidate, extracted</span>
@@ -3416,6 +3465,13 @@ Update IG status to active, set version, date <span class="fa-gloss-status">cand
 <dd>
 <p><em>The asset carries no description.</em></p>
 <p class="fa-gloss-meta">BPMN activities of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/SGAuthoring.DAKLifecycle.bpmn"><code>smart-base/processes/content/SGAuthoring.DAKLifecycle.bpmn#Task_UpdateIGStatus</code></a></p>
+</dd>
+<dt id="smart-base--kg-bpmn-activities--process_actondecisionsupport.task_activate" data-fa-state="extracted" data-fa-gloss="">
+Update the care plan <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Make each accepted request active (intent plan or order) and reference it from the client's CarePlan, in one transaction; write nothing for a declined action.</p>
+<p class="fa-gloss-meta">BPMN activities of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/act-on-decision-support.bpmn"><code>smart-base/processes/content/act-on-decision-support.bpmn#Task_Activate</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_mountsubgraph.task_usecheckoutpath" data-fa-state="extracted" data-fa-gloss="">
 Use the checkout path in place <span class="fa-gloss-status">candidate, extracted</span>
@@ -3552,6 +3608,13 @@ Verify the ORIGINAL still hashes to its digest <span class="fa-gloss-status">can
 <dd>
 <p><code>check:materialized-fixity</code>. Run against the SOURCE, not the copy — the copy is new content with no claim to verify, and the source is the thing a botched copy-out would have disturbed. A mismatch here means the copy-out was an edit in place wearing a copy's clothes, and it is the only signal that tells the two apart.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/processes/library/copy-out-materialized.bpmn"><code>cat-harness/processes/library/copy-out-materialized.bpmn#Task_VerifySourceUntouched</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-bpmn-activities--process_vhlsharing.task_verifylink" data-fa-state="extracted" data-fa-gloss="">
+Verify the VHL HCERT and its exp <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Verify the VHL as an HCERT, and refuse a link whose exp has passed.</p>
+<p class="fa-gloss-meta">BPMN activities of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/processes/content/vhl-sharing.bpmn"><code>smart-trust-tools/processes/content/vhl-sharing.bpmn#Task_VerifyLink</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_kgtoportal.p_verify" data-fa-state="extracted" data-fa-gloss="">
 Verify what arrived against what was signed <span class="fa-gloss-status">candidate, extracted</span>

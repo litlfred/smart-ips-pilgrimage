@@ -607,7 +607,7 @@
      `avatars:css:check` fails the build when it is stale. One stylesheet
      rather than 68 assets: the glyph is a mask and the colour is a property,
      so a scheme swap is a custom property and the trash state is a selector. -->
-<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=dbb53d57180e">
+<link rel="stylesheet" href="../../../../assets/css/avatars.css?v=f1e0958e3c5a">
 
 <!--
   The kinds THIS INSTANCE DECLARES, for the avatar fan.
@@ -912,14 +912,14 @@
 
 <p>Candidate terms extracted from every skill’s front matter: <code class="language-plaintext highlighter-rouge">name</code> as the label, <code class="language-plaintext highlighter-rouge">description</code> as the definition. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap 13 (<a href="../../../../assets/glossary/bootstrap--kg-skills.skos.jsonld">SKOS</a>) · bootstrap-tools 3 (<a href="../../../../assets/glossary/bootstrap-tools--kg-skills.skos.jsonld">SKOS</a>) · cat-harness 258 (<a href="../../../../assets/glossary/cat-harness--kg-skills.skos.jsonld">SKOS</a>) · fhir-harness 18 (<a href="../../../../assets/glossary/fhir-harness--kg-skills.skos.jsonld">SKOS</a>) · folio-assistant-core 48 (<a href="../../../../assets/glossary/folio-assistant-core--kg-skills.skos.jsonld">SKOS</a>) · smart-base 27 (<a href="../../../../assets/glossary/smart-base--kg-skills.skos.jsonld">SKOS</a>) · who-iris 5 (<a href="../../../../assets/glossary/who-iris--kg-skills.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap 13 (<a href="../../../../assets/glossary/bootstrap--kg-skills.skos.jsonld">SKOS</a>) · bootstrap-tools 3 (<a href="../../../../assets/glossary/bootstrap-tools--kg-skills.skos.jsonld">SKOS</a>) · cat-harness 258 (<a href="../../../../assets/glossary/cat-harness--kg-skills.skos.jsonld">SKOS</a>) · fhir-harness 18 (<a href="../../../../assets/glossary/fhir-harness--kg-skills.skos.jsonld">SKOS</a>) · folio-assistant-core 48 (<a href="../../../../assets/glossary/folio-assistant-core--kg-skills.skos.jsonld">SKOS</a>) · smart-base 35 (<a href="../../../../assets/glossary/smart-base--kg-skills.skos.jsonld">SKOS</a>) · smart-trust-tools 20 (<a href="../../../../assets/glossary/smart-trust-tools--kg-skills.skos.jsonld">SKOS</a>) · who-iris 5 (<a href="../../../../assets/glossary/who-iris--kg-skills.skos.jsonld">SKOS</a>).</p>
 
-<p><strong>Size:</strong> this page holds 372 terms and is 290 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 400 terms and is 309 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
 <thead><tr><th>target</th><th>mapped</th><th>unmapped</th><th>undetermined</th><th>why undetermined</th></tr></thead>
-<tbody><tr><td><code>fhir</code></td><td>0</td><td>372</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>372</td><td>0</td><td>—</td></tr></tbody>
+<tbody><tr><td><code>fhir</code></td><td>0</td><td>400</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>400</td><td>0</td><td>—</td></tr></tbody>
 </table></div>
 <p class="fa-gloss-mapping-note"><strong>Undetermined is never “no match”.</strong> 
 A vocabulary that could not be reached has said nothing, and the column above keeps that 
@@ -929,7 +929,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">372</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">400</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-A">A</a> <a href="#letter-B">B</a> <a href="#letter-C">C</a> <a href="#letter-D">D</a> <a href="#letter-E">E</a> <a href="#letter-F">F</a> <a href="#letter-G">G</a> <a href="#letter-H">H</a> <a href="#letter-I">I</a> <a href="#letter-J">J</a> <a href="#letter-K">K</a> <a href="#letter-L">L</a> <a href="#letter-M">M</a> <a href="#letter-N">N</a> <a href="#letter-O">O</a> <a href="#letter-P">P</a> <a href="#letter-Q">Q</a> <a href="#letter-R">R</a> <a href="#letter-S">S</a> <a href="#letter-T">T</a> <a href="#letter-U">U</a> <a href="#letter-V">V</a> <a href="#letter-W">W</a> <a href="#letter-Z">Z</a></nav>
 <h2 id="letter-A">
@@ -941,6 +941,13 @@ be a term this corpus is right to coin.</p>
 </h2>
     
 <dl class="fa-gloss">
+<dt id="smart-base--kg-skills--activate-accepted-guidance" data-fa-state="extracted" data-fa-gloss="">
+activate-accepted-guidance <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The point-of-care system carries out the health worker's decisions on decision-support guidance: each accepted action's request becomes active (intent plan or order) and joins the client's CarePlan; a declined action is not written. Input is the guidance and the decisions; output is the transaction Bundle saved.</p>
+<p class="fa-gloss-meta">Skills of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/activate-accepted-guidance.md"><code>smart-base/skills/content/authoring-who-smart-guidelines/activate-accepted-guidance.md</code></a></p>
+</dd>
 <dt id="cat-harness--kg-skills--activity-log" data-fa-state="extracted" data-fa-gloss="">
 activity-log <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -989,6 +996,13 @@ agent-permissions <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>Securing what a coding agent may do without asking, from the person who can grant it: the <code>secure-agent-permissions</code> sub-process, run at session start and on demand when an action is denied. Vendor-neutral: the coding agent is a Tool (Claude Code is one; Gemini CLI, Cursor, Copilot and Codex are others), and each Tool's own config format belongs to its adapter, not here. Covers the permissions the harness's processes need, least privilege, how each one is explained before it is granted, how a grant is recorded, and the rules that no grant relaxes: never self-granted, generated projections are CI's, and merging to main is never a standing permission.</p>
 <p class="fa-gloss-meta">Skills of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/skills/conduct/conduct-core/agent-permissions.md"><code>cat-harness/skills/conduct/conduct-core/agent-permissions.md</code></a></p>
+</dd>
+<dt id="smart-base--kg-skills--apply-decision-support" data-fa-state="extracted" data-fa-gloss="">
+apply-decision-support <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The point-of-care system applies a DAK decision table's PlanDefinition to one client ($apply) and gets the proposed actions back as a RequestGroup (R4; RequestOrchestration in R5), or as CDS Hooks cards when the guidance comes from a CDS service. Input is the PlanDefinition and the client; output is the proposal, every request in it still a proposal.</p>
+<p class="fa-gloss-meta">Skills of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/apply-decision-support.md"><code>smart-base/skills/content/authoring-who-smart-guidelines/apply-decision-support.md</code></a></p>
 </dd>
 <dt id="cat-harness--kg-skills--archimate-models" data-fa-state="extracted" data-fa-gloss="">
 archimate-models <span class="fa-gloss-status">candidate, extracted</span>
@@ -1324,6 +1338,13 @@ compiled-artefact-cache <span class="fa-gloss-status">candidate, extracted</span
 <dd>
 <p>The general pattern for caching expensive compiled artefacts (Lean .oleans, FHIR ASTs) across builds. Defines branch-based storage, validity checking, exit code protocol, safety guards, and the restore→build→contribute loop.</p>
 <p class="fa-gloss-meta">Skills of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/skills/process/process-core/compiled-artefact-cache.md"><code>cat-harness/skills/process/process-core/compiled-artefact-cache.md</code></a></p>
+</dd>
+<dt id="smart-base--kg-skills--complete-sdc-questionnaire" data-fa-state="extracted" data-fa-gloss="">
+complete-sdc-questionnaire <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A health worker (or a client, on their own device) completes a FHIR R4 Questionnaire conforming to Structured Data Capture as their device renders it, and the result is a QuestionnaireResponse. Generic for any DAK form: a registration, a visit, a referral. Input is the Questionnaire as rendered, with any pre-populated answers; output is the completed QuestionnaireResponse.</p>
+<p class="fa-gloss-meta">Skills of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/complete-sdc-questionnaire.md"><code>smart-base/skills/content/authoring-who-smart-guidelines/complete-sdc-questionnaire.md</code></a></p>
 </dd>
 <dt id="bootstrap--kg-skills--confirm-harness" data-fa-state="extracted" data-fa-gloss="">
 confirm-harness <span class="fa-gloss-status">candidate, extracted</span>
@@ -1807,6 +1828,13 @@ external-registry-contract <span class="fa-gloss-status">candidate, extracted</s
 <p>The contract the <code>external-registry</code> role is held to: what a trusted registry outside this instance must provide for a portal to verify what it received, and what the verifier does when it cannot. The narrowest contract the diagrams require. A mechanical role's skill is a contract to test against, not instructions to read.</p>
 <p class="fa-gloss-meta">Skills of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/skills/kg/kg-core/external-registry-contract.md"><code>cat-harness/skills/kg/kg-core/external-registry-contract.md</code></a></p>
 </dd>
+<dt id="smart-base--kg-skills--extract-questionnaire-response" data-fa-state="extracted" data-fa-gloss="">
+extract-questionnaire-response <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The point-of-care system turns a completed QuestionnaireResponse into the FHIR resources it stands for, by the extraction its SDC Questionnaire declares (StructureMap-based, definition-based or observation-based $extract), and saves them. Input is the response and its Questionnaire; output is a transaction Bundle. Generic for any DAK form.</p>
+<p class="fa-gloss-meta">Skills of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/extract-questionnaire-response.md"><code>smart-base/skills/content/authoring-who-smart-guidelines/extract-questionnaire-response.md</code></a></p>
+</dd>
 </dl>
 <h2 id="letter-F">
   
@@ -2047,6 +2075,13 @@ hand-back-to-discussion <span class="fa-gloss-status">candidate, extracted</span
 <p>A sibling agent, spawned during or working beside a live agent-human discussion, hands every card, question, decision, result, blocker or piece of context back to the discussion agent that is talking with the person, and never leaves it only in its own thread. The discussion agent asks the person (ask-the-person), marks every copy answered, and routes the answer back. A review sheet or issue in play is an extra channel. Use whenever an agent that is not the one talking with the person has something the person must see.</p>
 <p class="fa-gloss-meta">Skills of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/skills/conduct/conduct-core/hand-back-to-discussion.md"><code>cat-harness/skills/conduct/conduct-core/hand-back-to-discussion.md</code></a></p>
 </dd>
+<dt id="smart-trust-tools--kg-skills--hand-over-credential" data-fa-state="extracted" data-fa-gloss="">
+hand-over-credential <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The health worker at the issuing side hands the holder the credentials the issuing system made: printed (one QR per certificate) or into the holder's wallet, and says what each is. Input is what was issued and the medium; output is what the holder now holds. Performed by a person; the issuing system's own steps are the hcert package's.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/wallet/hand-over-credential.md"><code>smart-trust-tools/skills/wallet/hand-over-credential.md</code></a></p>
+</dd>
 <dt id="cat-harness--kg-skills--handover-report" data-fa-state="extracted" data-fa-gloss="">
 handover-report <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -2074,6 +2109,118 @@ harness-tiles <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>A tile is a function of the harness watching a directory, not of nodes. Where the tile set comes from, what a tile opens, and the two gaps it reports rather than hides.</p>
 <p class="fa-gloss-meta">Skills of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/skills/ui/ui-core/harness-tiles.md"><code>cat-harness/skills/ui/ui-core/harness-tiles.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-assemble-payload" data-fa-state="extracted" data-fa-gloss="">
+hcert-assemble-payload <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Step 2: build and validate the payload against its logical model (DVCMin, or a VHL payload), keeping unknown elements.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-assemble-payload.md"><code>smart-trust-tools/skills/hcert/hcert-assemble-payload.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-build-cwt" data-fa-state="extracted" data-fa-gloss="">
+hcert-build-cwt <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Step 3: wrap the payload in a CWT claim set (iss, iat, exp, hcert -260) inside the DSC's validity.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-build-cwt.md"><code>smart-trust-tools/skills/hcert/hcert-build-cwt.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-compress" data-fa-state="extracted" data-fa-gloss="">
+hcert-compress <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Step 6: ZLIB/DEFLATE after signing, and bounded inflation.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-compress.md"><code>smart-trust-tools/skills/hcert/hcert-compress.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-conformance-testing" data-fa-state="extracted" data-fa-gloss="">
+hcert-conformance-testing <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Test an implementation against the shared vectors: the PR 129 DVC example, negative vectors, cross-implementation checks and schema checks.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert-library/hcert-conformance-testing.md"><code>smart-trust-tools/skills/hcert-library/hcert-conformance-testing.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-contract-maintenance" data-fa-state="extracted" data-fa-gloss="">
+hcert-contract-maintenance <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Keep the contract and everything generated from it current: the WIT, its TypeScript view and Kotlin skeleton, the CDDL, and the payload models derived from the FHIR logical models.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert-library/hcert-contract-maintenance.md"><code>smart-trust-tools/skills/hcert-library/hcert-contract-maintenance.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-encode-base45" data-fa-state="extracted" data-fa-gloss="">
+hcert-encode-base45 <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Step 7: RFC 9285 Base45, decoded strictly.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-encode-base45.md"><code>smart-trust-tools/skills/hcert/hcert-encode-base45.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-encode-cbor" data-fa-state="extracted" data-fa-gloss="">
+hcert-encode-cbor <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Step 4: serialise as RFC 8949 deterministic CBOR, and decode untrusted CBOR within limits.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-encode-cbor.md"><code>smart-trust-tools/skills/hcert/hcert-encode-cbor.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-kg-publication" data-fa-state="extracted" data-fa-gloss="">
+hcert-kg-publication <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Check the requirement graph and publish the site that renders it.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert-library/hcert-kg-publication.md"><code>smart-trust-tools/skills/hcert-library/hcert-kg-publication.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-library-architecture" data-fa-state="extracted" data-fa-gloss="">
+hcert-library-architecture <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The rules every implementation follows: Kotlin first, Rust second, one contract, a synchronous core with no I/O, open standards, no payload in logs.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert-library/hcert-library-architecture.md"><code>smart-trust-tools/skills/hcert-library/hcert-library-architecture.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-prefix-context" data-fa-state="extracted" data-fa-gloss="">
+hcert-prefix-context <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Steps 8 and 9: the HC1: context identifier, giving a QR-ready string the application renders with its own QR encoder.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-prefix-context.md"><code>smart-trust-tools/skills/hcert/hcert-prefix-context.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-select-payload" data-fa-state="extracted" data-fa-gloss="">
+hcert-select-payload <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Step 1: choose the logical model and hcert subclaim for a use case, from the registry the IG defines.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-select-payload.md"><code>smart-trust-tools/skills/hcert/hcert-select-payload.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-sign-cose" data-fa-state="extracted" data-fa-gloss="">
+hcert-sign-cose <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Step 5: sign as COSE_Sign1 (ES256 or PS256) in two phases, the private key staying with its holder.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-sign-cose.md"><code>smart-trust-tools/skills/hcert/hcert-sign-cose.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-trust-list" data-fa-state="extracted" data-fa-gloss="">
+hcert-trust-list <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Hold the trusted DSCs the host obtained (PEM, DER, GDHCN DID trustlist v2) and find every candidate for a kid.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-trust-list.md"><code>smart-trust-tools/skills/hcert/hcert-trust-list.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--hcert-verify" data-fa-state="extracted" data-fa-gloss="">
+hcert-verify <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Verify an HC1 string or raw COSE: the steps upwards, trust lookup by kid, signature, key usage, time and payload; or read it explicitly unverified for triage.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/hcert/hcert-verify.md"><code>smart-trust-tools/skills/hcert/hcert-verify.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--holder-consent-to-share" data-fa-state="extracted" data-fa-gloss="">
+holder-consent-to-share <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The holder decides what a health link (a Verifiable Health Link or a SMART Health Link) shares: which members' records, protected by which passcode, until when. That choice is the holder's consent, and the sharer issues nothing beyond it. Input is the records the sharer offers; output is the share request. Performed by a person.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/wallet/holder-consent-to-share.md"><code>smart-trust-tools/skills/wallet/holder-consent-to-share.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--holder-present-credential" data-fa-state="extracted" data-fa-gloss="">
+holder-present-credential <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The holder shows the one health credential a receiver asks for, as a QR: an HCERT (HC1:) on paper or in a wallet app, or a health link: the HCERT carrying a Verifiable Health Link, or a SMART Health Link (shlink:/). Input is what the holder holds and what is asked for; output is the QR shown. Performed by a person; the library has no holder-side operation.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/wallet/holder-present-credential.md"><code>smart-trust-tools/skills/wallet/holder-present-credential.md</code></a></p>
 </dd>
 <dt id="cat-harness--kg-skills--html-rendering-qc" data-fa-state="extracted" data-fa-gloss="">
 html-rendering-qc <span class="fa-gloss-status">candidate, extracted</span>
@@ -2203,6 +2350,13 @@ indicator-extraction <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>Extract the indicators an L1 source prints (indicator reference or metadata sheets: name, numerator, denominator, disaggregation, definition, data sources) as L1 <code>indicator</code> nodes with every printed field, then draft one L2 program indicator per indicator, derived from its L1 node. Read before adding a WHO handbook's or guideline's indicators to a DAK or a DTH, and whenever an L2 indicator has to trace to its source. Part of L1 → L2 extraction for every DAK and DTH, beside recommendation-extraction.</p>
 <p class="fa-gloss-meta">Skills of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/indicator-extraction.md"><code>smart-base/skills/content/authoring-who-smart-guidelines/indicator-extraction.md</code></a></p>
+</dd>
+<dt id="smart-base--kg-skills--inform-client" data-fa-state="extracted" data-fa-gloss="">
+inform-client <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A health worker tells the client (or caregiver) what was decided and what happens next, in words and, where the DAK gives one, on a slip or card: a referral, a return date, a result. Input is what to tell and the client's language; output is that the client was told, and what they were handed. Generic for any DAK step that ends with the client being informed.</p>
+<p class="fa-gloss-meta">Skills of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/inform-client.md"><code>smart-base/skills/content/authoring-who-smart-guidelines/inform-client.md</code></a></p>
 </dd>
 <dt id="bootstrap--kg-skills--initialization-steps" data-fa-state="extracted" data-fa-gloss="">
 initialization-steps <span class="fa-gloss-status">candidate, extracted</span>
@@ -2959,6 +3113,13 @@ readme-sections <span class="fa-gloss-status">candidate, extracted</span>
 <p>A folio's README is the author's file; the platform owns only the marked regions it generates. How the sync/audit split works, why the platform never generates a folio's prose, and the third state both tools must report.</p>
 <p class="fa-gloss-meta">Skills of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/skills/ui/ui-core/readme-sections.md"><code>cat-harness/skills/ui/ui-core/readme-sections.md</code></a></p>
 </dd>
+<dt id="smart-trust-tools--kg-skills--receiver-scan-credential" data-fa-state="extracted" data-fa-gloss="">
+receiver-scan-credential <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The health worker at a receiving system scans the QR a holder shows (an HCERT, a VHL carried in an HCERT, or a SMART Health Link) and, for a passcode-protected health link, enters the passcode the holder says. Input is the QR as shown; output is its text (and passcode) handed to the receiving system, which verifies it or follows the link. Performed by a person; never judges authenticity.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/wallet/receiver-scan-credential.md"><code>smart-trust-tools/skills/wallet/receiver-scan-credential.md</code></a></p>
+</dd>
 <dt id="smart-base--kg-skills--recommendation-candidates" data-fa-state="extracted" data-fa-gloss="">
 recommendation-candidates <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -2979,6 +3140,13 @@ recommendation-scenarios <span class="fa-gloss-status">candidate, extracted</spa
 <dd>
 <p>Join each L1 recommendation to who acts on it and during which business process: one smart-kg L2 user-scenario candidate per recommendation, from the agent's mapping, reusing the target guide's personas and processes first, then smart-base's generic personas, and never inventing a process. Step 2 of recommendation-extraction; the <code>l1-recommendation-scenarios</code> Tool satisfies it.</p>
 <p class="fa-gloss-meta">Skills of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/recommendation-scenarios.md"><code>smart-base/skills/content/authoring-who-smart-guidelines/recommendation-scenarios.md</code></a></p>
+</dd>
+<dt id="smart-base--kg-skills--record-decision-rationale" data-fa-state="extracted" data-fa-gloss="">
+record-decision-rationale <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>OPTIONAL and never blocking: a health worker who chooses to may note why they accepted or declined decision-support guidance, in one tap plus an optional coded or free-text reason. Input is the decision; output is one FHIR Provenance (or nothing, when skipped, which is the default). The care plan is updated whether or not this is ever done.</p>
+<p class="fa-gloss-meta">Skills of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/record-decision-rationale.md"><code>smart-base/skills/content/authoring-who-smart-guidelines/record-decision-rationale.md</code></a></p>
 </dd>
 <dt id="cat-harness--kg-skills--ref-stewardship" data-fa-state="extracted" data-fa-gloss="">
 ref-stewardship <span class="fa-gloss-status">candidate, extracted</span>
@@ -3092,12 +3260,26 @@ review <span class="fa-gloss-status">candidate, extracted</span>
 <p>Where to start when a person or an agent reviews a document folio larger than one chapter, such as a DAK or an L1 digital transformation handbook. A pointer, not a method: it names the review skills that already exist, says which question each one answers, and gives the order to read them in. Use when someone asks &quot;how do I review this&quot;, when a review session starts on a large folio, or before writing a new review skill, so it is not written twice.</p>
 <p class="fa-gloss-meta">Skills of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/review/review.md"><code>folio-assistant-core/skills/review/review.md</code></a></p>
 </dd>
+<dt id="smart-base--kg-skills--review-client-history" data-fa-state="extracted" data-fa-gloss="">
+review-client-history <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A health worker reads the client's history as their device shows it (an International Patient Summary, imported records, or a paper card and what the client reports) and takes into account what bears on today's care, weighing each item by where it came from: verified, unverified or reported. Input is the records with their provenance; output is what the health worker relies on.</p>
+<p class="fa-gloss-meta">Skills of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/review-client-history.md"><code>smart-base/skills/content/authoring-who-smart-guidelines/review-client-history.md</code></a></p>
+</dd>
 <dt id="folio-assistant-core--kg-skills--review-comments" data-fa-state="extracted" data-fa-gloss="">
 review-comments <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
 <p>Reviewer comments on a folio's edit-set, from a tagged pull-request comment to a structured todo on the review page. Covers the tag a reviewer types, how the comments are ingested into <code>review-comment/1.0.0</code> todos, where the published <code>review-comments.json</code> comes from and when it refreshes, how a comment follows a renamed block and survives a removed one, who may change a comment's status, and how to change this process. Use when a reviewer asks how to comment on a block, when the review page shows no comments or a wrong one, when editing the ingestion, or when a folio's staging workflow is set up.</p>
 <p class="fa-gloss-meta">Skills of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/content/content-lifecycle-ext/review-comments.md"><code>folio-assistant-core/skills/content/content-lifecycle-ext/review-comments.md</code></a></p>
+</dd>
+<dt id="smart-base--kg-skills--review-decision-support-guidance" data-fa-state="extracted" data-fa-gloss="">
+review-decision-support-guidance <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>A health worker sees the decision-support guidance for one client on their device (the proposed actions of a RequestGroup or CDS Hooks cards) and accepts or declines each action; modifies one only where the device offers it. Input is the guidance as rendered; output is the decision per action. At most one tap per action; nothing else is asked.</p>
+<p class="fa-gloss-meta">Skills of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/skills/content/authoring-who-smart-guidelines/review-decision-support-guidance.md"><code>smart-base/skills/content/authoring-who-smart-guidelines/review-decision-support-guidance.md</code></a></p>
 </dd>
 <dt id="cat-harness--kg-skills--review-heatmap" data-fa-state="extracted" data-fa-gloss="">
 review-heatmap <span class="fa-gloss-status">candidate, extracted</span>
@@ -3636,6 +3818,20 @@ uses-editorial-review <span class="fa-gloss-status">candidate, extracted</span>
 </h2>
     
 <dl class="fa-gloss">
+<dt id="smart-trust-tools--kg-skills--vhl-receive" data-fa-state="extracted" data-fa-gloss="">
+vhl-receive <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Use a VHL: verify it, build the ITI-YY5 manifest request with its HTTP Message Signature, read the manifest Bundle and decrypt each document (journey J4.1). A plain SMART Health Link is received by the same steps, without the HCERT verification.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/vhl/vhl-receive.md"><code>smart-trust-tools/skills/vhl/vhl-receive.md</code></a></p>
+</dd>
+<dt id="smart-trust-tools--kg-skills--vhl-share" data-fa-state="extracted" data-fa-gloss="">
+vhl-share <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Issue a VHL: a key, documents encrypted as JWE dir / A256GCM, and the payload as a CBOR map at HCERT key 5 (journey J4.0). A plain SMART Health Link is issued by the same steps with its own carrier.</p>
+<p class="fa-gloss-meta">Skills of smart-trust-tools · source <a href="https://github.com/litlfred/smart-trust-tools/blob/main/skills/vhl/vhl-share.md"><code>smart-trust-tools/skills/vhl/vhl-share.md</code></a></p>
+</dd>
 <dt id="cat-harness--kg-skills--visual-diff" data-fa-state="extracted" data-fa-gloss="">
 visual-diff <span class="fa-gloss-status">candidate, extracted</span>
 </dt>

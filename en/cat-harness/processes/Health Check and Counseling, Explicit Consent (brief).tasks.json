@@ -153,7 +153,11 @@
    "name": "registration",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "complete-sdc-questionnaire"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0yvvi0a": {
@@ -169,7 +173,11 @@
    "name": "inform patient ineligible for Hajj",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "inform-client"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0ueuuxn": {
@@ -185,7 +193,11 @@
    "name": "Review SHL",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "holder-consent-to-share"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_1xtr5gr": {
@@ -193,7 +205,11 @@
    "name": "configure SHL privacy settings on wallet",
    "type": "bpmn:UserTask",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "holder-consent-to-share"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_11hg5h3": {
@@ -225,7 +241,11 @@
    "name": "Counsel patient on consent and digital health wallet",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "inform-client"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_19tvs6z": {
@@ -233,7 +253,11 @@
    "name": "fill consent form for sharing IPS during Hajj on wallet",
    "type": "bpmn:UserTask",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "holder-consent-to-share"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0kju8im": {

@@ -213,7 +213,11 @@
    "name": "registration",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "complete-sdc-questionnaire"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0yvvi0a": {
@@ -229,7 +233,11 @@
    "name": "Shows QR image on health wallet app",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "holder-present-credential"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_1gga1fr": {
@@ -245,7 +253,11 @@
    "name": "verify QR code signature",
    "type": "bpmn:Task",
    "lane": "System Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "hcert-verify"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0isufb9": {
@@ -261,7 +273,11 @@
    "name": "uses bar code scanner",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "receiver-scan-credential"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0untwjs": {
@@ -277,7 +293,11 @@
    "name": "Retrieve serialized CWT",
    "type": "bpmn:ReceiveTask",
    "lane": "System Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "hcert-verify"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_1i8bqw0": {
@@ -285,7 +305,11 @@
    "name": "retrieve health document (IPS) request",
    "type": "bpmn:SendTask",
    "lane": "System Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "vhl-receive"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_1hznkm2": {

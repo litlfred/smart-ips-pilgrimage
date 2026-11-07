@@ -1,0 +1,109 @@
+TY  - GEN
+ID  - who-smart-trust-changes
+TI  - Change Log
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-cwt-payload-model
+TI  - CWTPayload logical model (FSH)
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-data-exchange
+TI  - Data Exchange
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-phw-dvcmin
+TI  - DVCMin logical model (FSH)
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-phw-dvcmin-prequal
+TI  - DVCMinPreQual profile (FSH)
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-phw-dvcmin-vaccine-details
+TI  - DVCMinVaccineDetails logical model (FSH)
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-endpoints
+TI  - Endpoints
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-did-gdhcn
+TI  - GDHCN Trustlists (DID)
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-hcert-model
+TI  - HCert logical model (FSH)
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-hcert-spec
+TI  - HCERT Specification
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-phw-health-link-payload
+TI  - HealthLinkPayload and VerifiableHealthLinkPayload logical models (FSH)
+ER  - 
+
+TY  - GEN
+ID  - ihe-iti-vhl-volume-1
+TI  - IHE ITI Verifiable Health Link (VHL), Volume 1
+ER  - 
+
+TY  - GEN
+ID  - ihe-iti-vhl-actors
+TI  - IHE ITI VHL ActorDefinitions (FSH)
+ER  - 
+
+TY  - GEN
+ID  - ihe-iti-vhl-iti-yy3
+TI  - IHE VHL ITI-YY3 Generate VHL
+ER  - 
+
+TY  - GEN
+ID  - ihe-iti-vhl-iti-yy4
+TI  - IHE VHL ITI-YY4 Provide VHL
+ER  - 
+
+TY  - GEN
+ID  - ihe-iti-vhl-iti-yy5
+TI  - IHE VHL ITI-YY5 Retrieve Manifest
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-qr-code-generation
+TI  - QR Code Generation
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-reference-implementation
+TI  - Reference Implementations
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-actors
+TI  - smart-trust ActorDefinitions (FSH)
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-requirements-fsh
+TI  - smart-trust FHIR Requirements (FSH)
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-phw-aliases
+TI  - smart-trust-phw FSH aliases
+ER  - 
+
+TY  - GEN
+ID  - who-smart-trust-trust-domains
+TI  - Trust Domains
+ER  - 

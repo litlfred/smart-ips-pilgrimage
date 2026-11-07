@@ -261,7 +261,11 @@
    "name": "registration",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "complete-sdc-questionnaire"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_1n6cwq1": {
@@ -277,7 +281,11 @@
    "name": "inform patient ineligible for Hajj",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "inform-client"
+    }
+   ],
    "binding": "unbound"
   },
   "display-shl": {
@@ -293,7 +301,11 @@
    "name": "generate Verifiable SHL",
    "type": "bpmn:SendTask",
    "lane": "System Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "vhl-share"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_09jhr1u": {
@@ -349,7 +361,11 @@
    "name": "Counsel patient on consent and digital health wallet",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "inform-client"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_09oy5wb": {
@@ -389,7 +405,11 @@
    "name": "generate SHL & configure access to IPS via SHL",
    "type": "bpmn:Task",
    "lane": "System Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "vhl-share"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_1816554": {
@@ -397,7 +417,11 @@
    "name": "Review SHL",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "holder-consent-to-share"
+    }
+   ],
    "binding": "unbound"
   },
   "shl-configure-privacy-settings": {
@@ -405,7 +429,11 @@
    "name": "configure SHL privacy settings on wallet",
    "type": "bpmn:UserTask",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "holder-consent-to-share"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0lhorix": {
@@ -421,7 +449,11 @@
    "name": "fill consent form for sharing IPS during Hajj on wallet",
    "type": "bpmn:UserTask",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "holder-consent-to-share"
+    }
+   ],
    "binding": "unbound"
   }
  }

@@ -165,7 +165,11 @@
    "name": "registration",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "complete-sdc-questionnaire"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0yvvi0a": {
@@ -181,7 +185,11 @@
    "name": "displays QR code",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "holder-present-credential"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0sfhcs9": {
@@ -189,7 +197,11 @@
    "name": "scans QR code",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "receiver-scan-credential"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_1i8bqw0": {
@@ -197,7 +209,11 @@
    "name": "retrieve health document (IPS) from Origin Country HIE",
    "type": "bpmn:Task",
    "lane": "System Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "vhl-receive"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_1t170os": {
@@ -213,7 +229,11 @@
    "name": "verify QR code signature",
    "type": "bpmn:Task",
    "lane": "System Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "hcert-verify"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0wou2yo": {

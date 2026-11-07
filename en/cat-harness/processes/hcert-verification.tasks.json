@@ -1,0 +1,184 @@
+{
+ "$schema": "process-task-panel/v1",
+ "process": "Process_HcertVerification",
+ "markers": [
+  {
+   "id": "Task_Decode",
+   "name": "Strip HC1:, Base45-decode and inflate",
+   "left": 30.8,
+   "top": 28.95,
+   "box": {
+    "left": 24.2,
+    "top": 57.89,
+    "width": 1.92,
+    "height": 12.63
+   }
+  },
+  {
+   "id": "Task_Parse",
+   "name": "Parse COSE_Sign1 and validate the protected header",
+   "left": 46,
+   "top": 28.95,
+   "box": {
+    "left": 39.4,
+    "top": 57.89,
+    "width": 1.92,
+    "height": 12.63
+   }
+  },
+  {
+   "id": "Task_Lookup",
+   "name": "Find every trusted DSC with the kid",
+   "left": 61.2,
+   "top": 28.95,
+   "box": {
+    "left": 54.6,
+    "top": 57.89,
+    "width": 1.92,
+    "height": 12.63
+   }
+  },
+  {
+   "id": "Task_Check",
+   "name": "Check signature, key usage, CWT and time; dispatch the payload",
+   "left": 76.4,
+   "top": 28.95,
+   "box": {
+    "left": 69.8,
+    "top": 57.89,
+    "width": 1.92,
+    "height": 12.63
+   }
+  }
+ ],
+ "tasks": {
+  "Task_Decode": {
+   "id": "Task_Decode",
+   "name": "Strip HC1:, Base45-decode and inflate",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT verifying system",
+   "skills": [],
+   "role": {
+    "name": "hcert-verifying-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-verifying-system",
+    "title": "HCERT verifying system",
+    "skills": [
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-trust-list"
+     },
+     {
+      "name": "hcert-verify"
+     }
+    ]
+   }
+  },
+  "Task_Parse": {
+   "id": "Task_Parse",
+   "name": "Parse COSE_Sign1 and validate the protected header",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT verifying system",
+   "skills": [],
+   "role": {
+    "name": "hcert-verifying-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-verifying-system",
+    "title": "HCERT verifying system",
+    "skills": [
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-trust-list"
+     },
+     {
+      "name": "hcert-verify"
+     }
+    ]
+   }
+  },
+  "Task_Lookup": {
+   "id": "Task_Lookup",
+   "name": "Find every trusted DSC with the kid",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT verifying system",
+   "skills": [],
+   "role": {
+    "name": "hcert-verifying-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-verifying-system",
+    "title": "HCERT verifying system",
+    "skills": [
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-trust-list"
+     },
+     {
+      "name": "hcert-verify"
+     }
+    ]
+   }
+  },
+  "Task_Check": {
+   "id": "Task_Check",
+   "name": "Check signature, key usage, CWT and time; dispatch the payload",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT verifying system",
+   "skills": [],
+   "role": {
+    "name": "hcert-verifying-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-verifying-system",
+    "title": "HCERT verifying system",
+    "skills": [
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-trust-list"
+     },
+     {
+      "name": "hcert-verify"
+     }
+    ]
+   }
+  }
+ }
+}

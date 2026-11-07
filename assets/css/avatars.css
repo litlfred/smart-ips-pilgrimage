@@ -703,6 +703,48 @@
   mask-image: var(--fa-avatar-glyph);
 }
 
+.fa-avatar[data-fa-kind="fhir-logical-models"] {
+  /* a structure definition's table: elements, types, cardinality */
+  --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 5h16v14H4zM4 10h16M10 10v9' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask-image: var(--fa-avatar-glyph);
+  mask-image: var(--fa-avatar-glyph);
+}
+
+.fa-avatar[data-fa-kind="hcert-contract"] {
+  /* lines of an interface with an arrow out: a contract other code implements */
+  --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 6h16M4 12h10M4 18h7M17 14l3 3-3 3' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask-image: var(--fa-avatar-glyph);
+  mask-image: var(--fa-avatar-glyph);
+}
+
+.fa-avatar[data-fa-kind="hcert-generated-contract"] {
+  /* the contract with a box beside it: a view written from it */
+  --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 6h16M4 12h10M4 18h7M15 15h6v6h-6z' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask-image: var(--fa-avatar-glyph);
+  mask-image: var(--fa-avatar-glyph);
+}
+
+.fa-avatar[data-fa-kind="hcert-test-vectors"] {
+  /* a sheet of expected values, pinned: material a test reads, never writes */
+  --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 4h14v16H5zM8 9h8M8 13h8M8 17h4M17 3v3' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask-image: var(--fa-avatar-glyph);
+  mask-image: var(--fa-avatar-glyph);
+}
+
+.fa-avatar[data-fa-kind="payload-models"] {
+  /* a logical model with an arrow: shapes written from it */
+  --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 5h16v14H4zM4 10h16M10 10v9M16 3l4 4' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask-image: var(--fa-avatar-glyph);
+  mask-image: var(--fa-avatar-glyph);
+}
+
+.fa-avatar[data-fa-kind="upstream-patches"] {
+  /* a branch merging back upstream */
+  --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 4v16M18 4v6a4 4 0 0 1-4 4H6M15 17l3 3 3-3' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask-image: var(--fa-avatar-glyph);
+  mask-image: var(--fa-avatar-glyph);
+}
+
 .fa-avatar[data-fa-kind="smart-ips-pilgrimage"] {
   /* a shield with a check mark: a verified health document for travel, in WHO blue */
   --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4zM8 12l3 3 5-6' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
@@ -734,6 +776,13 @@
 .fa-avatar[data-fa-kind="smart-base"] {
   /* a broad base under narrowing courses — the layer the SMART stack rests on, in WHO blue */
   --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 18h18M6 14h12M9 10h6M11 6h2' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask-image: var(--fa-avatar-glyph);
+  mask-image: var(--fa-avatar-glyph);
+}
+
+.fa-avatar[data-fa-kind="smart-trust-tools"] {
+  /* a padlock — signed, verifiable health credentials */
+  --fa-avatar-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 11V8a5 5 0 0110 0v3M5 11h14v10H5zM12 15v2' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   -webkit-mask-image: var(--fa-avatar-glyph);
   mask-image: var(--fa-avatar-glyph);
 }
@@ -849,11 +898,18 @@
   .fa-avatar[data-fa-kind="review-verdicts"] { background-color: hsl(200 46% 34%); }
   .fa-avatar[data-fa-kind="l1-extraction"] { background-color: hsl(199 46% 34%); }
   .fa-avatar[data-fa-kind="web-annex"] { background-color: hsl(32 46% 34%); }
+  .fa-avatar[data-fa-kind="fhir-logical-models"] { background-color: hsl(12 46% 34%); }
+  .fa-avatar[data-fa-kind="hcert-contract"] { background-color: hsl(210 46% 34%); }
+  .fa-avatar[data-fa-kind="hcert-generated-contract"] { background-color: hsl(210 46% 34%); }
+  .fa-avatar[data-fa-kind="hcert-test-vectors"] { background-color: hsl(32 46% 34%); }
+  .fa-avatar[data-fa-kind="payload-models"] { background-color: hsl(12 46% 34%); }
+  .fa-avatar[data-fa-kind="upstream-patches"] { background-color: hsl(280 46% 34%); }
   .fa-avatar[data-fa-kind="smart-ips-pilgrimage"] { background-color: hsl(199 46% 34%); }
   .fa-avatar[data-fa-kind="cat-harness-tools"] { background-color: hsl(268 46% 34%); }
   .fa-avatar[data-fa-kind="fhir-harness"] { background-color: hsl(10 46% 34%); }
   .fa-avatar[data-fa-kind="folio-assistant-core"] { background-color: hsl(212 46% 34%); }
   .fa-avatar[data-fa-kind="smart-base"] { background-color: hsl(199 46% 34%); }
+  .fa-avatar[data-fa-kind="smart-trust-tools"] { background-color: hsl(160 46% 34%); }
   .fa-avatar[data-fa-kind="who-iris"] { background-color: hsl(199 46% 34%); }
   .fa-avatar { background-color: hsl(0 46% 34%); }
 }
@@ -955,11 +1011,18 @@
     .fa-avatar[data-fa-kind="review-verdicts"] { background-color: hsl(200 46% 34%); }
     .fa-avatar[data-fa-kind="l1-extraction"] { background-color: hsl(199 46% 34%); }
     .fa-avatar[data-fa-kind="web-annex"] { background-color: hsl(32 46% 34%); }
+    .fa-avatar[data-fa-kind="fhir-logical-models"] { background-color: hsl(12 46% 34%); }
+    .fa-avatar[data-fa-kind="hcert-contract"] { background-color: hsl(210 46% 34%); }
+    .fa-avatar[data-fa-kind="hcert-generated-contract"] { background-color: hsl(210 46% 34%); }
+    .fa-avatar[data-fa-kind="hcert-test-vectors"] { background-color: hsl(32 46% 34%); }
+    .fa-avatar[data-fa-kind="payload-models"] { background-color: hsl(12 46% 34%); }
+    .fa-avatar[data-fa-kind="upstream-patches"] { background-color: hsl(280 46% 34%); }
     .fa-avatar[data-fa-kind="smart-ips-pilgrimage"] { background-color: hsl(199 46% 34%); }
     .fa-avatar[data-fa-kind="cat-harness-tools"] { background-color: hsl(268 46% 34%); }
     .fa-avatar[data-fa-kind="fhir-harness"] { background-color: hsl(10 46% 34%); }
     .fa-avatar[data-fa-kind="folio-assistant-core"] { background-color: hsl(212 46% 34%); }
     .fa-avatar[data-fa-kind="smart-base"] { background-color: hsl(199 46% 34%); }
+    .fa-avatar[data-fa-kind="smart-trust-tools"] { background-color: hsl(160 46% 34%); }
     .fa-avatar[data-fa-kind="who-iris"] { background-color: hsl(199 46% 34%); }
     .fa-avatar { background-color: hsl(0 46% 34%); }
   }
@@ -1062,11 +1125,18 @@
   .fa-avatar[data-fa-kind="review-verdicts"] { background-color: hsl(200 42% 72%); }
   .fa-avatar[data-fa-kind="l1-extraction"] { background-color: hsl(199 42% 72%); }
   .fa-avatar[data-fa-kind="web-annex"] { background-color: hsl(32 42% 72%); }
+  .fa-avatar[data-fa-kind="fhir-logical-models"] { background-color: hsl(12 42% 72%); }
+  .fa-avatar[data-fa-kind="hcert-contract"] { background-color: hsl(210 42% 72%); }
+  .fa-avatar[data-fa-kind="hcert-generated-contract"] { background-color: hsl(210 42% 72%); }
+  .fa-avatar[data-fa-kind="hcert-test-vectors"] { background-color: hsl(32 42% 72%); }
+  .fa-avatar[data-fa-kind="payload-models"] { background-color: hsl(12 42% 72%); }
+  .fa-avatar[data-fa-kind="upstream-patches"] { background-color: hsl(280 42% 72%); }
   .fa-avatar[data-fa-kind="smart-ips-pilgrimage"] { background-color: hsl(199 42% 72%); }
   .fa-avatar[data-fa-kind="cat-harness-tools"] { background-color: hsl(268 42% 72%); }
   .fa-avatar[data-fa-kind="fhir-harness"] { background-color: hsl(10 42% 72%); }
   .fa-avatar[data-fa-kind="folio-assistant-core"] { background-color: hsl(212 42% 72%); }
   .fa-avatar[data-fa-kind="smart-base"] { background-color: hsl(199 42% 72%); }
+  .fa-avatar[data-fa-kind="smart-trust-tools"] { background-color: hsl(160 42% 72%); }
   .fa-avatar[data-fa-kind="who-iris"] { background-color: hsl(199 42% 72%); }
   .fa-avatar { background-color: hsl(0 42% 72%); }
 }
@@ -1168,11 +1238,18 @@
     .fa-avatar[data-fa-kind="review-verdicts"] { background-color: hsl(200 42% 72%); }
     .fa-avatar[data-fa-kind="l1-extraction"] { background-color: hsl(199 42% 72%); }
     .fa-avatar[data-fa-kind="web-annex"] { background-color: hsl(32 42% 72%); }
+    .fa-avatar[data-fa-kind="fhir-logical-models"] { background-color: hsl(12 42% 72%); }
+    .fa-avatar[data-fa-kind="hcert-contract"] { background-color: hsl(210 42% 72%); }
+    .fa-avatar[data-fa-kind="hcert-generated-contract"] { background-color: hsl(210 42% 72%); }
+    .fa-avatar[data-fa-kind="hcert-test-vectors"] { background-color: hsl(32 42% 72%); }
+    .fa-avatar[data-fa-kind="payload-models"] { background-color: hsl(12 42% 72%); }
+    .fa-avatar[data-fa-kind="upstream-patches"] { background-color: hsl(280 42% 72%); }
     .fa-avatar[data-fa-kind="smart-ips-pilgrimage"] { background-color: hsl(199 42% 72%); }
     .fa-avatar[data-fa-kind="cat-harness-tools"] { background-color: hsl(268 42% 72%); }
     .fa-avatar[data-fa-kind="fhir-harness"] { background-color: hsl(10 42% 72%); }
     .fa-avatar[data-fa-kind="folio-assistant-core"] { background-color: hsl(212 42% 72%); }
     .fa-avatar[data-fa-kind="smart-base"] { background-color: hsl(199 42% 72%); }
+    .fa-avatar[data-fa-kind="smart-trust-tools"] { background-color: hsl(160 42% 72%); }
     .fa-avatar[data-fa-kind="who-iris"] { background-color: hsl(199 42% 72%); }
     .fa-avatar { background-color: hsl(0 42% 72%); }
   }
@@ -1277,11 +1354,18 @@
   .fa-avatar[data-fa-kind="review-verdicts"][data-fa-trash="true"] { background-color: hsl(200 16% 52%); }
   .fa-avatar[data-fa-kind="l1-extraction"][data-fa-trash="true"] { background-color: hsl(199 16% 52%); }
   .fa-avatar[data-fa-kind="web-annex"][data-fa-trash="true"] { background-color: hsl(32 16% 52%); }
+  .fa-avatar[data-fa-kind="fhir-logical-models"][data-fa-trash="true"] { background-color: hsl(12 16% 52%); }
+  .fa-avatar[data-fa-kind="hcert-contract"][data-fa-trash="true"] { background-color: hsl(210 16% 52%); }
+  .fa-avatar[data-fa-kind="hcert-generated-contract"][data-fa-trash="true"] { background-color: hsl(210 16% 52%); }
+  .fa-avatar[data-fa-kind="hcert-test-vectors"][data-fa-trash="true"] { background-color: hsl(32 16% 52%); }
+  .fa-avatar[data-fa-kind="payload-models"][data-fa-trash="true"] { background-color: hsl(12 16% 52%); }
+  .fa-avatar[data-fa-kind="upstream-patches"][data-fa-trash="true"] { background-color: hsl(280 16% 52%); }
   .fa-avatar[data-fa-kind="smart-ips-pilgrimage"][data-fa-trash="true"] { background-color: hsl(199 16% 52%); }
   .fa-avatar[data-fa-kind="cat-harness-tools"][data-fa-trash="true"] { background-color: hsl(268 16% 52%); }
   .fa-avatar[data-fa-kind="fhir-harness"][data-fa-trash="true"] { background-color: hsl(10 16% 52%); }
   .fa-avatar[data-fa-kind="folio-assistant-core"][data-fa-trash="true"] { background-color: hsl(212 16% 52%); }
   .fa-avatar[data-fa-kind="smart-base"][data-fa-trash="true"] { background-color: hsl(199 16% 52%); }
+  .fa-avatar[data-fa-kind="smart-trust-tools"][data-fa-trash="true"] { background-color: hsl(160 16% 52%); }
   .fa-avatar[data-fa-kind="who-iris"][data-fa-trash="true"] { background-color: hsl(199 16% 52%); }
 }
 
@@ -1382,11 +1466,18 @@
     .fa-avatar[data-fa-kind="review-verdicts"][data-fa-trash="true"] { background-color: hsl(200 16% 52%); }
     .fa-avatar[data-fa-kind="l1-extraction"][data-fa-trash="true"] { background-color: hsl(199 16% 52%); }
     .fa-avatar[data-fa-kind="web-annex"][data-fa-trash="true"] { background-color: hsl(32 16% 52%); }
+    .fa-avatar[data-fa-kind="fhir-logical-models"][data-fa-trash="true"] { background-color: hsl(12 16% 52%); }
+    .fa-avatar[data-fa-kind="hcert-contract"][data-fa-trash="true"] { background-color: hsl(210 16% 52%); }
+    .fa-avatar[data-fa-kind="hcert-generated-contract"][data-fa-trash="true"] { background-color: hsl(210 16% 52%); }
+    .fa-avatar[data-fa-kind="hcert-test-vectors"][data-fa-trash="true"] { background-color: hsl(32 16% 52%); }
+    .fa-avatar[data-fa-kind="payload-models"][data-fa-trash="true"] { background-color: hsl(12 16% 52%); }
+    .fa-avatar[data-fa-kind="upstream-patches"][data-fa-trash="true"] { background-color: hsl(280 16% 52%); }
     .fa-avatar[data-fa-kind="smart-ips-pilgrimage"][data-fa-trash="true"] { background-color: hsl(199 16% 52%); }
     .fa-avatar[data-fa-kind="cat-harness-tools"][data-fa-trash="true"] { background-color: hsl(268 16% 52%); }
     .fa-avatar[data-fa-kind="fhir-harness"][data-fa-trash="true"] { background-color: hsl(10 16% 52%); }
     .fa-avatar[data-fa-kind="folio-assistant-core"][data-fa-trash="true"] { background-color: hsl(212 16% 52%); }
     .fa-avatar[data-fa-kind="smart-base"][data-fa-trash="true"] { background-color: hsl(199 16% 52%); }
+    .fa-avatar[data-fa-kind="smart-trust-tools"][data-fa-trash="true"] { background-color: hsl(160 16% 52%); }
     .fa-avatar[data-fa-kind="who-iris"][data-fa-trash="true"] { background-color: hsl(199 16% 52%); }
   }
 }
@@ -1487,11 +1578,18 @@
   .fa-avatar[data-fa-kind="review-verdicts"][data-fa-trash="true"] { background-color: hsl(200 14% 56%); }
   .fa-avatar[data-fa-kind="l1-extraction"][data-fa-trash="true"] { background-color: hsl(199 14% 56%); }
   .fa-avatar[data-fa-kind="web-annex"][data-fa-trash="true"] { background-color: hsl(32 14% 56%); }
+  .fa-avatar[data-fa-kind="fhir-logical-models"][data-fa-trash="true"] { background-color: hsl(12 14% 56%); }
+  .fa-avatar[data-fa-kind="hcert-contract"][data-fa-trash="true"] { background-color: hsl(210 14% 56%); }
+  .fa-avatar[data-fa-kind="hcert-generated-contract"][data-fa-trash="true"] { background-color: hsl(210 14% 56%); }
+  .fa-avatar[data-fa-kind="hcert-test-vectors"][data-fa-trash="true"] { background-color: hsl(32 14% 56%); }
+  .fa-avatar[data-fa-kind="payload-models"][data-fa-trash="true"] { background-color: hsl(12 14% 56%); }
+  .fa-avatar[data-fa-kind="upstream-patches"][data-fa-trash="true"] { background-color: hsl(280 14% 56%); }
   .fa-avatar[data-fa-kind="smart-ips-pilgrimage"][data-fa-trash="true"] { background-color: hsl(199 14% 56%); }
   .fa-avatar[data-fa-kind="cat-harness-tools"][data-fa-trash="true"] { background-color: hsl(268 14% 56%); }
   .fa-avatar[data-fa-kind="fhir-harness"][data-fa-trash="true"] { background-color: hsl(10 14% 56%); }
   .fa-avatar[data-fa-kind="folio-assistant-core"][data-fa-trash="true"] { background-color: hsl(212 14% 56%); }
   .fa-avatar[data-fa-kind="smart-base"][data-fa-trash="true"] { background-color: hsl(199 14% 56%); }
+  .fa-avatar[data-fa-kind="smart-trust-tools"][data-fa-trash="true"] { background-color: hsl(160 14% 56%); }
   .fa-avatar[data-fa-kind="who-iris"][data-fa-trash="true"] { background-color: hsl(199 14% 56%); }
 }
 
@@ -1592,11 +1690,18 @@
     .fa-avatar[data-fa-kind="review-verdicts"][data-fa-trash="true"] { background-color: hsl(200 14% 56%); }
     .fa-avatar[data-fa-kind="l1-extraction"][data-fa-trash="true"] { background-color: hsl(199 14% 56%); }
     .fa-avatar[data-fa-kind="web-annex"][data-fa-trash="true"] { background-color: hsl(32 14% 56%); }
+    .fa-avatar[data-fa-kind="fhir-logical-models"][data-fa-trash="true"] { background-color: hsl(12 14% 56%); }
+    .fa-avatar[data-fa-kind="hcert-contract"][data-fa-trash="true"] { background-color: hsl(210 14% 56%); }
+    .fa-avatar[data-fa-kind="hcert-generated-contract"][data-fa-trash="true"] { background-color: hsl(210 14% 56%); }
+    .fa-avatar[data-fa-kind="hcert-test-vectors"][data-fa-trash="true"] { background-color: hsl(32 14% 56%); }
+    .fa-avatar[data-fa-kind="payload-models"][data-fa-trash="true"] { background-color: hsl(12 14% 56%); }
+    .fa-avatar[data-fa-kind="upstream-patches"][data-fa-trash="true"] { background-color: hsl(280 14% 56%); }
     .fa-avatar[data-fa-kind="smart-ips-pilgrimage"][data-fa-trash="true"] { background-color: hsl(199 14% 56%); }
     .fa-avatar[data-fa-kind="cat-harness-tools"][data-fa-trash="true"] { background-color: hsl(268 14% 56%); }
     .fa-avatar[data-fa-kind="fhir-harness"][data-fa-trash="true"] { background-color: hsl(10 14% 56%); }
     .fa-avatar[data-fa-kind="folio-assistant-core"][data-fa-trash="true"] { background-color: hsl(212 14% 56%); }
     .fa-avatar[data-fa-kind="smart-base"][data-fa-trash="true"] { background-color: hsl(199 14% 56%); }
+    .fa-avatar[data-fa-kind="smart-trust-tools"][data-fa-trash="true"] { background-color: hsl(160 14% 56%); }
     .fa-avatar[data-fa-kind="who-iris"][data-fa-trash="true"] { background-color: hsl(199 14% 56%); }
   }
 }

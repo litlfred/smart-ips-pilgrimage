@@ -141,7 +141,11 @@
    "name": "registration",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "complete-sdc-questionnaire"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_1akt4be": {
@@ -157,7 +161,11 @@
    "name": "inform patient ineligible for Hajj",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "inform-client"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0g1r4b0": {
@@ -173,7 +181,11 @@
    "name": "Review SHL",
    "type": "bpmn:Task",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "holder-consent-to-share"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_0hhavs0": {
@@ -181,7 +193,11 @@
    "name": "configure SHL privacy settings on wallet",
    "type": "bpmn:UserTask",
    "lane": "Human Actor",
-   "skills": [],
+   "skills": [
+    {
+     "name": "holder-consent-to-share"
+    }
+   ],
    "binding": "unbound"
   },
   "Activity_04p41ni": {

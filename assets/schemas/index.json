@@ -12,6 +12,7 @@
     "fhir-harness/schemas",
     "folio-assistant-core/schemas",
     "smart-base/schemas",
+    "smart-trust-tools/schemas",
     "who-iris/sources"
   ],
   "modules": [
