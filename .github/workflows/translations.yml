@@ -40,3 +40,17 @@ jobs:
         run: bun cat-harness-tools/scripts/run-script.ts check:translation-officiality
       - name: How far each translation is behind its template (warns, never fails)
         run: bun input/scripts/po-status.ts --github
+
+  supplements:
+    # The per-locale CodeSystem supplements (input/fsh/translations/<loc>.fsh)
+    # compile with SUSHI and match the CodeSystems they supplement. See
+    # input/scripts/sushi/README.md. The IG build itself stays manual (Q-VC-8).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Install SUSHI from the lockfile, install scripts off
+        run: npm ci --ignore-scripts --no-audit --no-fund --prefix input/scripts/sushi
+      - name: Lay down FHIR R4 core (sha512-pinned)
+        run: python3 -I input/scripts/sushi/fhir_cache.py
+      - name: SUSHI, 0 errors, over the CodeSystems and every translation supplement
+        run: python3 -I input/scripts/sushi/supplements_check.py

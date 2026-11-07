@@ -1,0 +1,11 @@
+{
+  "_comment": "The FHIR package the translation-supplement check compiles against: FHIR R4 core, from the registry.npmjs.org mirror of the FHIR package registry, checked against its npm dist integrity (sha512) before it is unpacked into ~/.fhir/packages. The IG's other dependencies are not needed: the check compiles only the CodeSystems and their supplements.",
+  "packages": [
+    {
+      "name": "hl7.fhir.r4.core",
+      "version": "4.0.1",
+      "tarball": "https://registry.npmjs.org/@hl7/hl7.fhir.r4.core/-/hl7.fhir.r4.core-4.0.1.tgz",
+      "integrity": "sha512-oLxEHc5/e+BQR6KEnzehr+9eY18KKlEITWs6RSN0+39uVUcUSl31A+UCSuO9yfw2MTbMJDU190SJ1TO8fyIaFw=="
+    }
+  ]
+}

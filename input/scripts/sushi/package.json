@@ -1,0 +1,8 @@
+{
+  "_comment": "SUSHI, pinned by package-lock.json integrity (npm ci --ignore-scripts), the same fsh-sushi 3.20.1 and lockfile graph as smart-trust-demo's tools/ig-gen (released 2026-08-18). It compiles the CodeSystems and their per-locale translation supplements in CI (translations.yml). FHIR R4 core is pinned separately in fhir-packages.lock.json and laid into ~/.fhir/packages by fhir_cache.py, so SUSHI downloads nothing.",
+  "name": "@litlfred/smart-ips-pilgrimage-sushi",
+  "private": true,
+  "dependencies": {
+    "fsh-sushi": "3.20.1"
+  }
+}
