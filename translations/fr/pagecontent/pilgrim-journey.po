@@ -153,7 +153,7 @@ msgstr "Le deuxième jour à Mina, dans la chaleur, Kamal se sent pris de vertig
 
 #: input/pagecontent/pilgrim-journey.md:138
 msgid "One passcode policy (P4), stated once."
-msgstr "Une politique de code d'accès (P4), énoncée une seule fois."
+msgstr "Une politique de code d'accès unique (P4), énoncée une seule fois."
 
 #: input/pagecontent/pilgrim-journey.md:32
 msgid "P0 · Before the season — keys and codes are shared (step A)"

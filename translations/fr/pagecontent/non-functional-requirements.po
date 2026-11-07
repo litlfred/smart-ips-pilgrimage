@@ -24,4 +24,4 @@ msgstr "Les exigences non fonctionnelles décrivent les attributs et caractéris
 
 #: input/pagecontent/non-functional-requirements.md:1
 msgid "This page provides an overview of illustrative non-functional requirements that may be considered to kick-start the process of designing or adapting the patient mediated exchange of IPS during pilgrimage."
-msgstr "Cette page donne un aperçu d'exigences non fonctionnelles indicatives qui peuvent être prises en compte pour amorcer le processus de conception ou d'adaptation de l'échange de l'IPS à l'initiative du patient pendant le pèlerinage."
+msgstr "Cette page donne un aperçu d'exigences non fonctionnelles indicatives qui peuvent être prises en compte pour amorcer le processus de conception ou d'adaptation de l'échange de l'IPS par l'intermédiaire du patient pendant le pèlerinage."
