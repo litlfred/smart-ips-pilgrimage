@@ -26,6 +26,9 @@ FHIR R5 upgrade notes (need this implemented as a structure map):
 // An explicit consent (GDHCN Trust Network: Personal Health Wallet, PHWExplicitConsent):
 // the evidence is the consent text the pilgrim was shown and their recorded act.
 * source[x] MS
+// The kind of consent: an HL7 v3 ActConsentDirective code in category (a Hajj consent is OPTIN).
+* category MS
+* category ^short = "Includes the kind of consent: HL7 v3 ActConsentDirective OPTIN for a Hajj consent"
 * source[x] ^short = "Evidence of the pilgrim's explicit consent: the consent text shown, with their recorded act"
 
 * organization only Reference(HajjOrganization)
