@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "1e111a661b6fe2ada620b4e7480f085cedde36a0",
+          "ref": "520cd52597935984b58cb0fe4e00b2e3375c518b",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "1e111a661b6fe2ada620b4e7480f085cedde36a0",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-07",
+              "ref": "520cd52597935984b58cb0fe4e00b2e3375c518b",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\"; smart-base at #313 head 520cd525 as a staging basis (role/health-worker, role/point-of-care-system), to re-pin to main with consent after #313 merges."
             }
           }
         }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "90bb3f558f1f23a4d4b58c8e070e5bbc86e72695",
+          "ref": "a3f7af18fd3447c9cf6fedee22cef330f612712e",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -79,9 +79,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "90bb3f558f1f23a4d4b58c8e070e5bbc86e72695",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-07",
+              "ref": "a3f7af18fd3447c9cf6fedee22cef330f612712e",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); refreshed 11:00Z for cat-harness-tools cc67cd17 (#1622)."
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "299de78ec2aa5ede11acb7db6327a83301ae49ed",
+          "ref": "65362ed839cd62bb2fac729d8dabad267ecad6ca",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -101,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "299de78ec2aa5ede11acb7db6327a83301ae49ed",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-07",
+              "ref": "65362ed839cd62bb2fac729d8dabad267ecad6ca",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\"; fhir-harness to 65362ed8 (#302, the generic translation-supplements check the owner asked for)."
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "4f18e66ede3404816a99c63c2a6865a2f32541a5",
+          "ref": "e7bc1de959a37ca25f7d35bd89cde426d74269dc",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "4f18e66ede3404816a99c63c2a6865a2f32541a5",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-07",
+              "ref": "e7bc1de959a37ca25f7d35bd89cde426d74269dc",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); refreshed 11:00Z for cat-harness-tools cc67cd17 (#1622)."
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "a2da2ed27956d5b2bba1f9f648279cf05bd86c03",
+          "ref": "6eed239af4a5a97ba8307cb0ef72a8c899f8eeb4",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "a2da2ed27956d5b2bba1f9f648279cf05bd86c03",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-07",
+              "ref": "6eed239af4a5a97ba8307cb0ef72a8c899f8eeb4",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\"; cat-harness-tools at #1635 head as a staging basis (translation:glossary:check judges the caller's own instances), to re-pin to main after it merges; cat-harness main 6eed239 (#1124)."
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "78a982e36e10ad7f9248b4aba6725ac6cf529259",
+          "ref": "fa5fb43f973a89581ca3f32145cd11c9137baa26",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "78a982e36e10ad7f9248b4aba6725ac6cf529259",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-07",
+              "ref": "fa5fb43f973a89581ca3f32145cd11c9137baa26",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\"; cat-harness-tools main fa5fb43f (#1635 merged)."
             }
           }
         }
@@ -195,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "c90ef456067a874fd7017a370232908ba62e9fcd",
+          "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -204,9 +204,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "c90ef456067a874fd7017a370232908ba62e9fcd",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-07",
+              "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); the coordinator assigned smart-ips-pilgrimage's re-pin to this session."
             }
           }
         }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "9f478d4d9fcd87842e9a4f5b886232ec806e657e",
+          "ref": "1dc08c906f3a9377534b753fed493b811e040ad7",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -229,9 +229,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "9f478d4d9fcd87842e9a4f5b886232ec806e657e",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-07",
+              "ref": "1dc08c906f3a9377534b753fed493b811e040ad7",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); re-pin refreshed at 08:45Z for cat-harness-tools e3f62f5b (#1620)."
             }
           }
         }
