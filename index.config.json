@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "595945930a6cf3da7d916aa6f9ccb934ed5eb9a8",
+          "ref": "907c4cbe966881865462b2676330592e7fa9b428",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -43,7 +43,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "595945930a6cf3da7d916aa6f9ccb934ed5eb9a8",
+              "ref": "907c4cbe966881865462b2676330592e7fa9b428",
               "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
