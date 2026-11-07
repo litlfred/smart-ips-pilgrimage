@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "961679a369975afb6320647dde23d8e335bd84b5",
+          "ref": "5e6f2972eefc01de60d0a455bb676ebeb7aeaf7a",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -101,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-06",
-              "ref": "961679a369975afb6320647dde23d8e335bd84b5",
-              "evidence": "Owner, 2026-11-06: 'repin as needed. merge when green and ready' (relayed by session_01VQDpPd2LVFXt1ZV3eAxyvE; confirmed by the owner in session_01VQDpPerdPBYNvFx1ptSX61), for smart-ips-pilgrimage #15/#16 gate fixes"
+              "on": "2026-11-07",
+              "ref": "5e6f2972eefc01de60d0a455bb676ebeb7aeaf7a",
+              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "e82653753b9d1d69c4609ff5e780058f41299809",
+          "ref": "c15422170f67c39dc68ea1bcbb9755783da20982",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-06",
-              "ref": "e82653753b9d1d69c4609ff5e780058f41299809",
-              "evidence": "Owner, 2026-11-06: 'repin as needed. merge when green and ready' (relayed by session_01VQDpPd2LVFXt1ZV3eAxyvE; confirmed by the owner in session_01VQDpPerdPBYNvFx1ptSX61), for smart-ips-pilgrimage #15/#16 gate fixes"
+              "on": "2026-11-07",
+              "ref": "c15422170f67c39dc68ea1bcbb9755783da20982",
+              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "a93742937496c6c1e87d9ca6e7768282c248cd03",
+          "ref": "e3f62f5bbb5c1ccea684c2909963ec0ec46fd314",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-06",
-              "ref": "a93742937496c6c1e87d9ca6e7768282c248cd03",
-              "evidence": "Owner, 2026-11-06: 'repin as needed. merge when green and ready' (relayed by session_01VQDpPd2LVFXt1ZV3eAxyvE; confirmed by the owner in session_01VQDpPerdPBYNvFx1ptSX61), for smart-ips-pilgrimage #15/#16 gate fixes"
+              "on": "2026-11-07",
+              "ref": "e3f62f5bbb5c1ccea684c2909963ec0ec46fd314",
+              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
         }
