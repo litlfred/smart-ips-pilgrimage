@@ -1,0 +1,15 @@
+{
+  "id": "mina-facility-emr",
+  "title": "The Mina facility's EMR",
+  "kind": "system",
+  "description": "The Hajj health facility's EMR in Mina: scans the QR code, checks the signature with Malaysia's key, retrieves the IPS and keeps a rendered copy with the visit. Plays the guide's Host Country EMR.",
+  "roles": [
+    "host-emr"
+  ],
+  "capabilities": [],
+  "meta": {
+    "definedIn": [
+      "https://worldhealthorganization.github.io/smart-ips-pilgrimage/system-actors.html#hcemr"
+    ]
+  }
+}

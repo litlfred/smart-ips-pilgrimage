@@ -91,12 +91,71 @@
       ]
     },
     {
+      "id": "business-processes",
+      "path": "input/business-processes/",
+      "graphTypologies": [
+        "business-processes"
+      ],
+      "description": "The guide's business processes (BPMN 2.0), the IG source the IG Publisher renders; the processes viewer draws them for this instance, and the journeys' steps name their tasks (realisedBy). The .svg beside three of them are drawings by bootstrap-tools' render-bpmn, for the journeys viewer to highlight a step's tasks."
+    },
+    {
+      "id": "scenarios",
+      "path": "scenarios/",
+      "graphTypologies": [
+        "scenarios"
+      ],
+      "description": "The people and systems of the pilgrim's journey (actors/, each person with a meta.persona) and the roles they play (roles.json), named after this guide's personas and system actors. Every person is fictional."
+    },
+    {
+      "id": "user-scenarios",
+      "path": "user-scenarios/",
+      "graphTypologies": [
+        "user-scenario"
+      ],
+      "description": "The pilgrim's journey (input/pagecontent/pilgrim-journey.md) as user scenarios: the parent journey the-pilgrims-hajj and one sub-journey per moment P0 to P7, partOf the parent and following each other in order. Each step's picture is input/images/pilgrim/<p>.webp."
+    },
+    {
+      "id": "device-screens",
+      "path": "device-screens/",
+      "graphTypologies": [
+        "device-screen"
+      ],
+      "description": "What each person sees on their own device at a step of the pilgrim's journeys, from the owner's illustrations: Kamal's consent and his signed QR code, the scanner and the facility screen at registration in Mina, Dr Faisal's tablet, Dr Hafiz's break-the-glass phone and Dr Aisyah's computer at home. device-screen nodes (the harness's kind), drawn by the journeys viewer in the workshop's Device Demo. Every person is fictional."
+    },
+    {
+      "id": "smart-ips-pilgrimage-findings",
+      "path": "findings/",
+      "graphTypologies": [
+        "docs"
+      ],
+      "description": "Authored review material about this instance's pages, kept apart from `docs/`, which `smart-ips-pilgrimage:pages` wholly generates at publish. `wireframes/` holds the as-is wireframe of this instance's `journeys` visualiser with its findings (`check:wireframes` reads the `wireframes/` of every declared `docs` directory), as smart-base's `findings/` does for its own."
+    },
+    {
+      "id": "workshops",
+      "path": "workshops/",
+      "graphTypologies": [
+        "workshop"
+      ],
+      "description": "The policy question each moment of the pilgrim's journey raises, as a workshop for origin- and host-country policy makers."
+    },
+    {
       "id": "smart-ips-pilgrimage-translations",
       "path": "translations/",
       "graphTypologies": [
         "translation-sources"
       ],
       "description": "The gettext side of this IG's text, one directory per target locale (ar, es, fr, ru, zh; the source is en): .pot templates extracted by input/scripts/translation-pot.ts (the harness's own extractors) from the narrative pages in input/pagecontent/ and the BPMN in input/business-processes/, and the .po catalogues translated from them, each with a translation-node/v1 manifest. Agent translations are unofficial (official: false, generatedBy agent) until a person signs them off. FHIR resources are not here: they use CodeSystem supplements in input/fsh/translations/<locale>.fsh."
+    }
+  ],
+  "visualisers": [
+    {
+      "id": "journeys",
+      "renderedBy": "journeys-viewer",
+      "coversKinds": [
+        "user-scenario",
+        "workshop"
+      ],
+      "subgraphs": "instance"
     }
   ],
   "avatar": {

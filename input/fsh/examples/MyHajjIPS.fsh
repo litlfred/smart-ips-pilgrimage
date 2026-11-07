@@ -393,7 +393,8 @@ Description: "Example HajjConsent CONSENT-MYS: the origin country may release th
 Usage: #inline
 * status = #active
 * scope = $consentscope#patient-privacy
-* category = $loinc#59284-0 "Patient Consent"
+* category[0] = $loinc#59284-0 "Patient Consent"
+* category[+] = http://terminology.hl7.org/CodeSystem/v3-ActCode#OPTIN "opt-in"
 * patient = Reference(urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8)
 * dateTime = "2025-04-01T09:00:00+08:00"
 * performer = Reference(urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8)
@@ -415,7 +416,8 @@ Description: "Example HajjConsent CONSENT-KSA: the host Ministry of Health may u
 Usage: #inline
 * status = #active
 * scope = $consentscope#patient-privacy
-* category = $loinc#59284-0 "Patient Consent"
+* category[0] = $loinc#59284-0 "Patient Consent"
+* category[+] = http://terminology.hl7.org/CodeSystem/v3-ActCode#OPTIN "opt-in"
 * patient = Reference(urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8)
 * dateTime = "2025-04-01T09:05:00+08:00"
 * performer = Reference(urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8)
