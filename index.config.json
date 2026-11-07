@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "e3f62f5bbb5c1ccea684c2909963ec0ec46fd314",
+          "ref": "f3b5387951764025ff742c2086cbf31c052398d1",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,7 +183,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "e3f62f5bbb5c1ccea684c2909963ec0ec46fd314",
+              "ref": "f3b5387951764025ff742c2086cbf31c052398d1",
               "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
