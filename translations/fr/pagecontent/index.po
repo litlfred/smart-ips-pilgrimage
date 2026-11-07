@@ -104,7 +104,7 @@ msgstr "Ce guide suppose l'utilisation des ressources suivantes :"
 
 #: input/pagecontent/index.md:43
 msgid "This guide utilizes the <a0>International Patient Summary(IPS)</a0> as a base for defining immunizations and expects that most data captured will be presented in conformance with the resources defined as part of that implementation guide."
-msgstr "Ce guide utilise le <a0>résumé international du patient (IPS)</a0> comme base pour définir les vaccinations et prévoit que la plupart des données saisies seront présentées conformément aux ressources définies dans ce guide d'implémentation."
+msgstr "Ce guide utilise le <a0>résumé international du patient (IPS)</a0> comme base pour définir les vaccinations et prévoit que la plupart des données saisies seront présentées conformément aux ressources définies dans le guide d'implémentation de l'IPS."
 
 #: input/pagecontent/index.md:4
 msgid "This implementation guide and set of artifacts are still undergoing development."
