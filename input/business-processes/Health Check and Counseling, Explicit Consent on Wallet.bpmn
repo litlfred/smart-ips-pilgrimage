@@ -103,7 +103,7 @@
         <bpmn:flowNodeRef>Activity_0lhorix</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>consent-wallet-questionnaire</bpmn:flowNodeRef>
         <bpmn:childLaneSet id="LaneSet_0c6j9ft">
-          <bpmn:lane id="pilgrim" partitionElementRef="pilgrim" name="Pilgrim">
+          <bpmn:lane id="Lane_pilgrim" partitionElementRef="pilgrim" name="Pilgrim">
             <bpmn:documentation>The Hajj pilgrim</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
@@ -460,7 +460,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
         <dc:Bounds x="226" y="80" width="2214" height="351" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_1cqu3jb_di" bpmnElement="pilgrim" isHorizontal="true">
+      <bpmndi:BPMNShape id="Lane_1cqu3jb_di" bpmnElement="Lane_pilgrim" isHorizontal="true">
         <dc:Bounds x="226" y="431" width="2214" height="330" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>

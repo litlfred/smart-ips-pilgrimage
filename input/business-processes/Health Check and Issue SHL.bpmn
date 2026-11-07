@@ -76,7 +76,7 @@
             <bpmn:flowNodeRef>Activity_1snfpmi</bpmn:flowNodeRef>
             <bpmn:flowNodeRef>Gateway_176634l</bpmn:flowNodeRef>
           </bpmn:lane>
-          <bpmn:lane id="pilgrim" partitionElementRef="pilgrim" name="Pilgrim">
+          <bpmn:lane id="Lane_pilgrim" partitionElementRef="pilgrim" name="Pilgrim">
             <bpmn:documentation>The Hajj pilgrim</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
@@ -1162,7 +1162,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
         <dc:Bounds x="1816" y="1420" width="2244" height="681" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Lane_1cqu3jb_di" bpmnElement="pilgrim" isHorizontal="true">
+      <bpmndi:BPMNShape id="Lane_1cqu3jb_di" bpmnElement="Lane_pilgrim" isHorizontal="true">
         <dc:Bounds x="1846" y="1771" width="2214" height="330" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
