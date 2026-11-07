@@ -67,7 +67,7 @@ msgstr "Documenta el proceso de control de salud y de consentimiento y emisión 
 #: input/business-processes/Health Check and Issue SHL.bpmn:174
 #. Diagram label
 msgid "eligible for Hajj?"
-msgstr "¿apto para el Hajj?"
+msgstr "¿elegible para el Hajj?"
 
 #: input/business-processes/Health Check and Issue SHL.bpmn:206
 #. Diagram label
@@ -127,7 +127,7 @@ msgstr "Actor humano"
 #: input/business-processes/Health Check and Issue SHL.bpmn:179
 #. Diagram label
 msgid "inform patient ineligible for Hajj"
-msgstr "informar al paciente de que no es apto para el Hajj"
+msgstr "informar al paciente de que no es elegible para el Hajj"
 
 #: input/business-processes/Health Check and Issue SHL.bpmn:356
 #. Diagram label

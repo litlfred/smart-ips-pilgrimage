@@ -87,7 +87,7 @@ msgstr "Actor humano"
 #: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:159
 #. Diagram label
 msgid "inform patient ineligible for Hajj"
-msgstr "informar al paciente de que no cumple los requisitos para el Hajj"
+msgstr "informar al paciente de que no es elegible para el Hajj"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:234
 #. Diagram label

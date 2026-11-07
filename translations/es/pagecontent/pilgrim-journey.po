@@ -149,7 +149,7 @@ msgstr "El día de Arafat, Kamal se desploma y lo traen inconsciente. Salmah no 
 
 #: input/pagecontent/pilgrim-journey.md:80
 msgid "On the second day in Mina, in the heat, Kamal feels dizzy and weak. Salmah brings him to the Hajj health facility. At registration he opens his wallet and shows Nurse Reem the QR code."
-msgstr "El segundo día en Mina, con el calor, Kamal se siente mareado y débil. Salmah lo lleva al centro de salud del Hajj. En el registro, abre su billetera y muestra el código QR a la enfermera Reem."
+msgstr "El segundo día en Mina, con el calor, Kamal se siente mareado y débil. Salmah lo lleva al centro de salud del Hajj. En el registro, Kamal abre su billetera y muestra el código QR a la enfermera Reem."
 
 #: input/pagecontent/pilgrim-journey.md:138
 msgid "One passcode policy (P4), stated once."
