@@ -80,7 +80,7 @@ const merge = process.argv.includes("--merge");
 const github = process.argv.includes("--github");
 const totals: Record<string, { cat: number; missing: number; new: number; obsolete: number; fuzzy: number; empty: number; entries: number }> = {};
 
-for (const locale of existsSync(TR) ? readdirSync(TR).sort() : []) {
+for (const locale of existsSync(TR) ? readdirSync(TR, { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name).sort() : []) {
   const t = (totals[locale] = { cat: 0, missing: 0, new: 0, obsolete: 0, fuzzy: 0, empty: 0, entries: 0 });
   for (const potPath of templates(join(TR, locale)).sort()) {
     const poPath = potPath.replace(/\.pot$/, ".po");

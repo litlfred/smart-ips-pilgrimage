@@ -1,0 +1,48 @@
+{
+  "$schema": "device-screen/0.1.0",
+  "id": "P2",
+  "title": "His signed summary, as a QR code",
+  "description": "The green shield: Malaysia's HIE signs Kamal's summary and puts the link to it in his wallet as a QR code.",
+  "device": "phone",
+  "owner": "kamal",
+  "steps": [
+    {
+      "scenario": "p2-summary-signed",
+      "step": "P2"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "app": "National health wallet",
+      "subtitle": "Kamal • Hajj Health Record",
+      "icon": "phone",
+      "brand": "#0d9488"
+    },
+    {
+      "type": "qr",
+      "title": "Hajj Health Record",
+      "holder": "Kamal",
+      "holderNote": "Kuala Terengganu, Malaysia",
+      "label": "International Patient Summary",
+      "payload": "https://vhl.hie.example.my/manifest/kamal-hajj-2026?exp=1798761600#key=7c1e9a44b20f5d3e",
+      "badge": {
+        "text": "Signed by Malaysia • GDHCN",
+        "tone": "success",
+        "icon": "shield-check"
+      },
+      "caption": "The code holds only a link and a key. The summary stays in Malaysia."
+    },
+    {
+      "type": "statusBadge",
+      "status": "verified",
+      "text": "Signed and ready to show",
+      "detail": "His conditions, medicines and allergy, signed with Malaysia's key registered with GDHCN."
+    },
+    {
+      "type": "note",
+      "icon": "wifi-off",
+      "text": "Works offline: the code is on the phone, ready at registration."
+    }
+  ]
+}

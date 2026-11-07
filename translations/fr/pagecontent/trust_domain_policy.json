@@ -1,6 +1,6 @@
 {
   "$schema": "translation-node/v1",
-  "$comment": "French translation of input/pagecontent/trust_domain_policy.md. Agent translation, unofficial: no human has adjudicated it. Coverage 10/10.",
+  "$comment": "French translation of input/pagecontent/trust_domain_policy.md. Agent translation, unofficial: no human has adjudicated it. Coverage 15/15.",
   "label": "trans:fr/pagecontent/trust_domain_policy",
   "locale": "fr",
   "sourceFile": "input/pagecontent/trust_domain_policy.md",
@@ -15,8 +15,8 @@
     "generator": "agent translation (smart-ips-pilgrimage fr session)"
   },
   "coverage": {
-    "translated": 10,
-    "total": 10,
+    "translated": 15,
+    "total": 15,
     "pct": 100
   }
 }
