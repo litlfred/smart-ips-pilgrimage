@@ -242,7 +242,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-trust-tools",
-          "ref": "030ff094ba47042bb4877997c58fff92a28ec0d6",
+          "ref": "8c52d6ede1e3ab43830aa25376d4f1a14e09acf9",
           "overrides": {
             "smart-trust-tools": {
               "whole": true
@@ -252,8 +252,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "030ff094ba47042bb4877997c58fff92a28ec0d6",
-              "evidence": "Owner (litlfred), 2026-11-07: 'repin + merge open 12 hrs' (relayed by the coordinating session). smart-trust-tools main, which holds the health-link wallet skills (#53) and hand-over-credential (#54); the pilgrimage's tasks name them."
+              "ref": "8c52d6ede1e3ab43830aa25376d4f1a14e09acf9",
+              "evidence": "Owner, 2026-11-07: 'B: fix smart-trust-tools first' (relayed by the coordinating session): make smart-trust-tools pass the harness gates pilgrimage#25 runs, then re-pin it here. smart-trust-tools main 8c52d6e merges #56-#61."
             }
           }
         }
