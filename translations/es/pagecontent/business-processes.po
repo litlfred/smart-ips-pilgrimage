@@ -20,7 +20,7 @@ msgstr "# Nombre del proceso ID del proceso Personas (perfiles) Objetivos      T
 
 #: input/pagecontent/business-processes.md:3
 msgid "A business process, or process, is a set of related activities or tasks performed together to achieve the objectives of the health programme area, such as registration, counselling, referrals. Workflows are a visual representation of the progression of activities (tasks, events, interactions) that are performed within the business process. The workflow provides a “story” for the business process being diagrammed and is used to enhance communication and collaboration among users, stakeholders and engineers."
-msgstr "Un proceso institucional, o proceso, es un conjunto de actividades o tareas relacionadas que se realizan conjuntamente para alcanzar los objetivos del área del programa de salud, como el registro, el asesoramiento o las derivaciones. Los flujos de trabajo son una representación visual de la progresión de las actividades (tareas, eventos, interacciones) que se realizan dentro del proceso institucional. El flujo de trabajo proporciona una “historia” del proceso institucional representado en el diagrama y se utiliza para mejorar la comunicación y la colaboración entre usuarios, partes interesadas e ingenieros."
+msgstr "Un proceso de negocio, o proceso, es un conjunto de actividades o tareas relacionadas que se realizan conjuntamente para alcanzar los objetivos del área del programa de salud, como el registro, el asesoramiento o las derivaciones. Los flujos de trabajo son una representación visual de la progresión de las actividades (tareas, eventos, interacciones) que se realizan dentro del proceso de negocio. El flujo de trabajo proporciona una “historia” del proceso de negocio representado en el diagrama y se utiliza para mejorar la comunicación y la colaboración entre usuarios, partes interesadas e ingenieros."
 
 #: input/pagecontent/business-processes.md:132
 msgid "Clinical Encounter for Unplanned Care"
@@ -40,7 +40,7 @@ msgstr "Emisión del documento de salud en el país de origen"
 
 #: input/pagecontent/business-processes.md:22
 msgid "Overview of Key Business Processes"
-msgstr "Panorama general de los procesos institucionales clave"
+msgstr "Panorama general de los procesos de negocio clave"
 
 #: input/pagecontent/business-processes.md:14
 msgid "Overview of key process flows"
@@ -56,7 +56,7 @@ msgstr "Publicación de las terminologías nacionales"
 
 #: input/pagecontent/business-processes.md:15
 msgid "The diagram here denotes the key process flows at a high level, which are further described in details as various business processes."
-msgstr "El diagrama que figura aquí representa a alto nivel los flujos de proceso clave, que se describen con más detalle como distintos procesos institucionales."
+msgstr "El diagrama que figura aquí representa a alto nivel los flujos de proceso clave, que se describen con más detalle como distintos procesos de negocio."
 
 #: input/pagecontent/business-processes.md:24
 msgid "The following table describes the workflows of the included processes."
@@ -64,7 +64,7 @@ msgstr "En el cuadro siguiente se describen los flujos de trabajo de los proceso
 
 #: input/pagecontent/business-processes.md:11
 msgid "The Trust Domain for IPS Pilgrimage focuses on key business processes that are part of providing care for pilgrims during a pilgrimage."
-msgstr "El Ámbito de confianza de IPS Pilgrimage se centra en los procesos institucionales clave que forman parte de la atención a los peregrinos durante una peregrinación."
+msgstr "El Ámbito de confianza de IPS Pilgrimage se centra en los procesos de negocio clave que forman parte de la atención a los peregrinos durante una peregrinación."
 
 #: input/pagecontent/business-processes.md:97
 msgid "The workflows that follow depict processes that have been generalized across different contexts and may not reflect the variability and nuances across different settings. The simplicity of the workflow may not adequately illustrate the nonlinear steps that may occur."
@@ -72,7 +72,7 @@ msgstr "Los flujos de trabajo que siguen representan procesos que se han general
 
 #: input/pagecontent/business-processes.md:1
 msgid "This page describes the business processes."
-msgstr "En esta página se describen los procesos institucionales."
+msgstr "En esta página se describen los procesos de negocio."
 
 #: input/pagecontent/business-processes.md:103
 #: input/pagecontent/business-processes.md:112

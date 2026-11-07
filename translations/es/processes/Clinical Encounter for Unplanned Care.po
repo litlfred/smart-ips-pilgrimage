@@ -167,12 +167,12 @@ msgstr "La billetera sanitaria digital del país de origen del peregrino"
 #: input/business-processes/Clinical Encounter for Unplanned Care.bpmn:16
 #. Diagram element documentation
 msgid "This is the documentation for the overall business process - Element documentation"
-msgstr "Esta es la documentación del proceso institucional general - documentación del elemento"
+msgstr "Esta es la documentación del proceso de negocio general - documentación del elemento"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care.bpmn:45
 #. Diagram element documentation
 msgid "This is the documentation for the overall business process - process documentation"
-msgstr "Esta es la documentación del proceso institucional general - documentación del proceso"
+msgstr "Esta es la documentación del proceso de negocio general - documentación del proceso"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care.bpmn:231
 #. Diagram label

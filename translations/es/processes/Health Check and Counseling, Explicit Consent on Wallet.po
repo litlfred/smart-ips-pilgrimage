@@ -247,12 +247,12 @@ msgstr "El HIE o sistema nacional del país de origen del peregrino"
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:16
 #. Diagram element documentation
 msgid "This is the documentation for the overall business process - Element documentation"
-msgstr "Esta es la documentación del proceso institucional general - documentación del elemento"
+msgstr "Esta es la documentación del proceso de negocio general - documentación del elemento"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:20
 #. Diagram element documentation
 msgid "This is the documentation for the overall business process - process documentation"
-msgstr "Esta es la documentación del proceso institucional general - documentación del proceso"
+msgstr "Esta es la documentación del proceso de negocio general - documentación del proceso"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:395
 #. Diagram element documentation

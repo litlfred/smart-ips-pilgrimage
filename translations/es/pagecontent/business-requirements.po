@@ -16,7 +16,7 @@ msgstr ""
 
 #: input/pagecontent/business-requirements.md:4
 msgid "<a0>Business Processes</a0> - Depiction of business processes as visual workflows as introduced in the L2"
-msgstr "<a0>Procesos institucionales</a0> - Representación de los procesos institucionales como flujos de trabajo visuales, tal como se presentan en el L2"
+msgstr "<a0>Procesos de negocio</a0> - Representación de los procesos de negocio como flujos de trabajo visuales, tal como se presentan en el L2"
 
 #: input/pagecontent/business-requirements.md:1
 msgid "<a0>Concepts</a0> - A glossary of terms and key concepts introduced in the L2 or in the Implementation Guide"
@@ -32,7 +32,7 @@ msgstr "<a0>Lógica de apoyo a la toma de decisiones</a0> - Lógica y algoritmos
 
 #: input/pagecontent/business-requirements.md:8
 msgid "<a0>Functional Requirements</a0> - List of core functions and capabilities the system must have to meet the end-users’ needs and achieve tasks within the business process."
-msgstr "<a0>Requisitos funcionales</a0> - Lista de las funciones y capacidades básicas que el sistema debe tener para satisfacer las necesidades de los usuarios finales y llevar a cabo las tareas del proceso institucional."
+msgstr "<a0>Requisitos funcionales</a0> - Lista de las funciones y capacidades básicas que el sistema debe tener para satisfacer las necesidades de los usuarios finales y llevar a cabo las tareas del proceso de negocio."
 
 #: input/pagecontent/business-requirements.md:2
 msgid "<a0>Generic Personas</a0> - Depiction of end-users and related stakeholders as introduced in the L2"
