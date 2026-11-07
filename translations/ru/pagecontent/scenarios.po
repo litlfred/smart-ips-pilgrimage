@@ -17,7 +17,7 @@ msgstr ""
 
 #: input/pagecontent/scenarios.md:10
 msgid "As examples, the scenarios identify: key data elements that need to be recorded and/or calculated; decision-support logic that can be automated in the system; key functional and non-functional requirements that should be included in the system, and adolescent-specific considerations that should be accounted for."
-msgstr "В качестве примеров сценарии определяют: ключевые элементы данных, которые необходимо записывать и/или рассчитывать; логику поддержки принятия решений, которая может быть автоматизирована в системе; ключевые функциональные и нефункциональные требования, которые должны быть включены в систему, а также особенности, касающиеся подростков, которые следует учитывать."
+msgstr "В качестве примеров сценарии определяют: ключевые элементы данных, которые необходимо записывать и/или рассчитывать; логику поддержки принятия решений, которая может быть автоматизирована в системе; ключевые функциональные и нефункциональные требования, которые следует включить в систему, а также особенности, касающиеся подростков, которые следует учитывать."
 
 #: input/pagecontent/scenarios.md:42
 msgid "Break The Glass Clinical Encounter"
@@ -49,7 +49,7 @@ msgstr "Национальная HIE"
 
 #: input/pagecontent/scenarios.md:29
 msgid "Once shared to the WHO Terminology Service, these terminologies should be retrievable from the Host Country EMR via the IHE SCVM profile."
-msgstr "После передачи в Терминологическую службу ВОЗ эти терминологии должны быть доступны для получения из EMR принимающей страны посредством профиля IHE SCVM."
+msgstr "После передачи в Терминологическую службу ВОЗ эти терминологии следует сделать доступными для получения из EMR принимающей страны посредством профиля IHE SCVM."
 
 #: input/pagecontent/scenarios.md:12
 msgid "Publication of National Public Keys for Verification"
@@ -77,7 +77,7 @@ msgstr "Пользовательские сценарии носят исклю�
 
 #: input/pagecontent/scenarios.md:25
 msgid "These terminologies should be shared from the National HIE to the WHO Terminology Service."
-msgstr "Эти терминологии должны передаваться из национальной HIE в Терминологическую службу ВОЗ."
+msgstr "Эти терминологии следует передавать из национальной HIE в Терминологическую службу ВОЗ."
 
 #: input/pagecontent/scenarios.md:39
 msgid "This is a \"Phase 1\" scenario in which a Pilgrim in a Host Country has need to seek care from a Host Country Health Worker. The pilgrim mediates exchange by showing the QR code issued by their Origin Country.  The Host Country EMR uses the QR code to access the National IHE to retrieve the patient summary (IPS)."
