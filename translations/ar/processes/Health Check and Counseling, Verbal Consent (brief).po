@@ -6,6 +6,12 @@
 # placeholders, numbers and URLs are kept as written; persona names are
 # fictional and kept as written. Modern Standard Arabic, right-to-left.
 #
+# Untainted round trip, 2026-11-07: two back-translators that saw only the
+# Arabic (no English, no repository) rendered every Arabic msgstr into
+# English; the translator adjudicated against the msgids. One term-of-art
+# drift found and fixed ("counselor" read back as "guide": now المستشار
+# throughout). No claim, quantifier, negation or named entity was found moved.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Health Check and Counseling, Verbal Consent (brief)\n"
@@ -42,7 +48,7 @@ msgstr "إرشاد المريض بشأن الموافقة والمحفظة ال�
 #: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:73
 #. Diagram label
 msgid "Counselor"
-msgstr "المرشد"
+msgstr "المستشار"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:74
 #. Diagram element documentation
@@ -127,7 +133,7 @@ msgstr "الحاج"
 #: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:198
 #. Diagram label
 msgid "pilgrim provided consent to counselor?"
-msgstr "هل قدّم الحاج موافقته للمرشد؟"
+msgstr "هل قدّم الحاج موافقته للمستشار؟"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:213
 #. Diagram label
