@@ -1,5 +1,5 @@
 {
-  "_comment": "Roles that the people and systems of the pilgrim's journey (user-scenarios/) play, named after this guide's personas and system actors (input/pagecontent/personas.md, system-actors.md). Schema: cat-harness-tools/schemas/process/role-graph.ts. Every person is fictional.",
+  "_comment": "Roles that the people and systems of the pilgrim's journey (user-scenarios/) play, named after this guide's personas and system actors (input/pagecontent/personas.md, system-actors.md). Schema: cat-harness-tools/schemas/process/role-graph.ts. Every person is fictional. Each role's skills are what its lane's tasks in input/business-processes/ name: smart-base's point-of-care skills (registration, counselling, the health assessment) and smart-trust-tools' wallet skills (presenting and scanning a health link's QR, consenting to what an SHL shares).",
   "name": "smart-ips-pilgrimage",
   "roles": [
     {
@@ -9,7 +9,10 @@
       "actorKinds": [
         "person"
       ],
-      "skills": [],
+      "skills": [
+        "holder-consent-to-share",
+        "holder-present-credential"
+      ],
       "otherNames": [
         "Pilgrim (IG persona)"
       ]
@@ -30,7 +33,11 @@
       "actorKinds": [
         "person"
       ],
-      "skills": [],
+      "skills": [
+        "complete-sdc-questionnaire",
+        "inform-client",
+        "review-decision-support-guidance"
+      ],
       "otherNames": [
         "Counsellor (IG persona)"
       ]
@@ -54,7 +61,10 @@
       "actorKinds": [
         "person"
       ],
-      "skills": [],
+      "skills": [
+        "complete-sdc-questionnaire",
+        "receiver-scan-credential"
+      ],
       "otherNames": [
         "Host Country Health Worker (IG persona)"
       ]

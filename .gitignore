@@ -63,6 +63,7 @@ tramp
 /cat-harness-tools/
 /bootstrap/
 /bootstrap-tools/
+/smart-trust-tools/
 # END index mounts
 node_modules/
 /docs/
