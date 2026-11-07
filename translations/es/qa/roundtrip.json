@@ -462,7 +462,7 @@
    "po": "translations/es/pagecontent/codings.po",
    "source": "input/pagecontent/codings.md",
    "hashes": {
-    "po": "b717e128c851e3f6871502a4f5b3f398d1c94f5be807a2d22d362e51c9207ab2",
+    "po": "de27274e2c0ef86f35406b55967c73dfc52306f51d3f2247d4f08038f04be386",
     "source": "d9dc0083b3f3003763d9c3e5584a52d75615517aae5ce3f56b103bf99bc427f5"
    },
    "criterion": "translation-semantic-roundtrip",
@@ -470,8 +470,8 @@
     {
      "reviewer": "roundtrip-adjudicator",
      "kind": "agent",
-     "result": "fail",
-     "severity": "major",
+     "result": "pass",
+     "severity": null,
      "saw": [
       "source (English msgid)",
       "back-translation"
@@ -493,6 +493,12 @@
          "note": "Descriptive 'will' became normative 'shall' (Spanish likely 'deberán'); introduces a normative-keyword reading absent in the source."
         }
        ]
+      },
+      {
+       "round": "r3",
+       "verdict": "pass",
+       "severity": null,
+       "drifts": []
       }
      ]
     },
@@ -507,7 +513,7 @@
       "source (English)"
      ],
      "toolsUsed": "one Read of the Spanish-only input, one Write of the output (declared by each agent)",
-     "notes": "[1] Note that the terminologies included in this implementation guide shall need to be updated, since the ideal distribution mechanism (as an expression) is not currently supported by the logical content definition structures available in the FHIR ValueSet resource nor by any of its known implementations. Before using them in a production environment, make sure you have the most recent value sets based on the definitions of each value set (according to the inclusion and exclusion criteria defined for each one).\n[2] The following terminology artifacts are included in this implementation guide:"
+     "notes": "[1] Note that the terminologies included in this implementation guide will have to be updated, since the ideal distribution mechanism (as an expression) is not currently supported by the logical content definition structures available in the FHIR ValueSet resource nor by any of its known implementations. Before using them in a production environment, make sure you have the most recent value sets based on the definitions of each value set (according to the inclusion and exclusion criteria defined for each one).\n[2] The following terminology artifacts are included in this implementation guide:"
     }
    ]
   },
