@@ -233,7 +233,7 @@ msgstr "Основная цель данной реализации — дать
 
 #: input/pagecontent/reference-implementations-malaysia.md:117
 msgid "This expanded guide should provide a thorough understanding of the project, its stakeholders, and the technical steps involved, making it easier for all parties to implement and utilize the system effectively."
-msgstr "Это расширенное руководство должно дать полное представление о проекте, его заинтересованных сторонах и связанных с ним технических шагах, облегчая всем сторонам эффективное внедрение и использование системы."
+msgstr "Это расширенное руководство даст полное представление о проекте, его заинтересованных сторонах и связанных с ним технических шагах, облегчая всем сторонам эффективное внедрение и использование системы."
 
 #: input/pagecontent/reference-implementations-malaysia.md:115
 msgid "This implementation guide provides detailed steps and considerations for rolling out the Smart Health Certificate QR system for Malaysian Hajj pilgrims. By leveraging the MySejahtera app, the Ministry of Health Malaysia, and Tabung Haji, this initiative aims to enhance the healthcare experience for pilgrims in Saudi Arabia. The use of standardized health records and QR codes ensures that healthcare providers can quickly access essential medical information, facilitating timely and effective medical care during the Hajj."

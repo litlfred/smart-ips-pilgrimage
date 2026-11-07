@@ -202,7 +202,7 @@ msgstr "Вопрос политики: даётся ли согласие оди
 
 #: input/pagecontent/pilgrim-journey.md:132
 msgid "Policy question: should the host country send a summary of care back to the home country — and with whose consent?"
-msgstr "Вопрос политики: должна ли принимающая страна направлять в страну проживания сводку об оказанной помощи — и с чьего согласия?"
+msgstr "Вопрос политики: следует ли принимающей стране направлять в страну проживания сводку об оказанной помощи — и с чьего согласия?"
 
 #: input/pagecontent/pilgrim-journey.md:74
 msgid "Policy question: what must the summary contain for a pilgrim — and who decides what is left out?"
@@ -210,11 +210,11 @@ msgstr "Вопрос политики: что должна содержать с
 
 #: input/pagecontent/pilgrim-journey.md:97
 msgid "Policy question: what protection should the passcode give — and is a passcode shared by every pilgrim of a country a passcode at all?"
-msgstr "Вопрос политики: какую защиту должен обеспечивать код доступа — и является ли кодом доступа вообще код, общий для всех паломников страны?"
+msgstr "Вопрос политики: какую защиту следует обеспечивать с помощью кода доступа — и является ли кодом доступа вообще код, общий для всех паломников страны?"
 
 #: input/pagecontent/pilgrim-journey.md:85
 msgid "Policy question: what should happen when a pilgrim arrives with no phone, a flat battery, or no QR code?"
-msgstr "Вопрос политики: что должно происходить, если паломник прибывает без телефона, с разряженной батареей или без QR-кода?"
+msgstr "Вопрос политики: что следует предпринять, если паломник прибывает без телефона, с разряженной батареей или без QR-кода?"
 
 #: input/pagecontent/pilgrim-journey.md:44
 msgid "Policy question: which Malaysian institution signs health documents on behalf of the health sector, and who in KSA decides to accept that signature?"
