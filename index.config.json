@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "872d356a46edadc2cc3871b24b2a4aa5a05ad4c1",
+          "ref": "45ed9a4edbe90831306680cb1bf6df2cb29e554f",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -43,7 +43,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "872d356a46edadc2cc3871b24b2a4aa5a05ad4c1",
+              "ref": "45ed9a4edbe90831306680cb1bf6df2cb29e554f",
               "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "fa5fb43f973a89581ca3f32145cd11c9137baa26",
+          "ref": "9c0983300dd053d455e3866a5ff7169abc6205be",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,7 +183,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "fa5fb43f973a89581ca3f32145cd11c9137baa26",
+              "ref": "9c0983300dd053d455e3866a5ff7169abc6205be",
               "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
@@ -232,6 +232,28 @@
               "on": "2026-11-07",
               "ref": "1dc08c906f3a9377534b753fed493b811e040ad7",
               "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); re-pin refreshed at 08:45Z for cat-harness-tools e3f62f5b (#1620)."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "smart-trust-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/smart-trust-tools",
+          "ref": "354f115ed39da47ef53be971398a50bf10f8bfe2",
+          "overrides": {
+            "smart-trust-tools": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-07",
+              "ref": "354f115ed39da47ef53be971398a50bf10f8bfe2",
+              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
             }
           }
         }

@@ -7,7 +7,7 @@ generated: "scripts/subgraph-readmes.ts of the bootstrap toolset (https://github
 
 # business-processes
 
-The guide's business processes (BPMN 2.0), the IG source the IG Publisher renders; the processes viewer draws them for this instance, and the journeys' steps name their tasks (realisedBy). The .svg beside three of them are drawings by bootstrap-tools' render-bpmn, for the journeys viewer to highlight a step's tasks.
+The guide's business processes (BPMN 2.0), the IG source the IG Publisher renders; the processes viewer draws them for this instance, and the journeys' steps name their tasks (realisedBy). The .svg beside three of them are drawings by bootstrap-tools' render-bpmn, for the journeys viewer to highlight a step's tasks. Each leaf lane binds its role (partitionElementRef, scenarios/roles.json) and the tasks a person performs name their skill (<bootstrap.processes:skill>); they stay here, in the IG's layout, rather than moving to a harness processes/ directory, because the IG Publisher and the journeys' realisedBy read them here.
 
 Part of [SMART Verifiable IPS for Pilgrimage](../../README.md) 2.1.0, declared as `business-processes`, holding `business-processes`.
 

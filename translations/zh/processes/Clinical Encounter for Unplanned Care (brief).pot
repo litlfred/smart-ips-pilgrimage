@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clinical Encounter for Unplanned Care (brief)\n"
-"POT-Creation-Date: 2026-11-06T09:51:52.217Z\n"
+"POT-Creation-Date: 2026-11-07T08:55:16.795Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -14,147 +14,147 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:164
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:167
 #. Diagram label
 msgid "Add passcode"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:131
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:134
 #. Diagram label
 msgid "arrive to clinic at host country"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:15
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:18
 #. Diagram label
 msgid "Clinical Encounter for Unplanned Care (brief)"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:96
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:99
 #. Diagram element documentation
 msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:180
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:183
 #. Diagram label
 msgid "display health document"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:135
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:138
 #. Diagram label
 msgid "displays QR code"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:4
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:7
 #. Diagram element documentation
 msgid "Documents the health check and SHL consent and issuance process"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:184
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:187
 #. Diagram label
 msgid "End"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:3
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:6
 #. Diagram label
 msgid "Health Check and Issue SHL"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:44
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:47
 #. Diagram label
 msgid "Health Check and SHL Issuance, Wallet Consent"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:60
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:63
 #. Diagram label
 msgid "Host Country EMR"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:95
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:98
 #. Diagram label
 msgid "Host Country Health Worker"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:79
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:82
 #. Diagram label
 msgid "Human Actor"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:187
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:190
 #. Diagram label
 msgid "leave clinic"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:109
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:112
 #. Diagram label
 msgid "Pilgrim"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:195
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:198
 #. Diagram label
 msgid "provide care"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:127
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:130
 #. Diagram label
 msgid "registration"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:160
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:163
 #. Diagram label
 msgid "retrieve health document (IPS) from Origin Country HIE"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:176
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:179
 #. Diagram label
 msgid "save a local copy of health document"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:139
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:142
 #. Diagram label
 msgid "scans QR code"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:156
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:159
 #. Diagram label
 msgid "Start"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:52
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:55
 #. Diagram label
 msgid "System Actor"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:110
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:113
 #. Diagram element documentation
 msgid "The Hajj pilgrim"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:61
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:64
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:16
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:19
 #. Diagram element documentation
 msgid "This is the documentation for the overall business process - Element documentation"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:45
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:48
 #. Diagram element documentation
 msgid "This is the documentation for the overall business process - process documentation"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:191
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:194
 #. Diagram label
 msgid "update local record of care"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:172
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:175
 #. Diagram label
 msgid "verify health document (IPS) signature"
 msgstr ""
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:168
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:171
 #. Diagram label
 msgid "verify QR code signature"
 msgstr ""

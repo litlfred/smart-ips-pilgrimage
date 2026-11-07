@@ -7,7 +7,8 @@
   "title": "SMART Verifiable IPS for Pilgrimage",
   "description": "The WHO SMART Guidelines Verifiable IPS for Pilgrimage implementation guide (FHIR IG source under input/): GDHCN and IPS for verifiable health documents during pilgrimage, as a harnessed instance of smart-base.",
   "needs": [
-    "smart-base"
+    "smart-base",
+    "smart-trust-tools"
   ],
   "assets": [
     {
@@ -96,7 +97,7 @@
       "graphTypologies": [
         "business-processes"
       ],
-      "description": "The guide's business processes (BPMN 2.0), the IG source the IG Publisher renders; the processes viewer draws them for this instance, and the journeys' steps name their tasks (realisedBy). The .svg beside three of them are drawings by bootstrap-tools' render-bpmn, for the journeys viewer to highlight a step's tasks."
+      "description": "The guide's business processes (BPMN 2.0), the IG source the IG Publisher renders; the processes viewer draws them for this instance, and the journeys' steps name their tasks (realisedBy). The .svg beside three of them are drawings by bootstrap-tools' render-bpmn, for the journeys viewer to highlight a step's tasks. Each leaf lane binds its role (partitionElementRef, scenarios/roles.json) and the tasks a person performs name their skill (<bootstrap.processes:skill>); they stay here, in the IG's layout, rather than moving to a harness processes/ directory, because the IG Publisher and the journeys' realisedBy read them here."
     },
     {
       "id": "scenarios",

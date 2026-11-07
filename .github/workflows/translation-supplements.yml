@@ -19,4 +19,4 @@ permissions:
 
 jobs:
   supplements:
-    uses: litlfred/fhir-harness/.github/workflows/translation-supplements.yml@65362ed839cd62bb2fac729d8dabad267ecad6ca # index.lock.json
+    uses: litlfred/fhir-harness/.github/workflows/translation-supplements.yml@a0492cdc734e60040faef90f2cd353da25c6d7bf # index.lock.json
