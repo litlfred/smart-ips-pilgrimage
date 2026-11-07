@@ -907,7 +907,7 @@
 
 <p><code class="language-plaintext highlighter-rouge">Process_ActOnDecisionSupport</code> · advisory · 4 step(s)</p>
 
-<p>The point-of-care system applies one of the DAK’s decision tables, published as a CPG-on-FHIR PlanDefinition, to one client ($apply) and shows the health worker what it proposes (a RequestGroup, or CDS Hooks cards). The health worker accepts or declines each action, one tap each, and the system makes the accepted requests active in the client’s CarePlan; a declined action is never written. Recording why is OPTIONAL and never blocks: after the review a parallel split (Gateway_Fork) sends the main path on to the care plan and, separately, to Gateway_AddReason, which reads whether the health worker tapped “add a reason” while reviewing (false unless they did, so skipping is the default) and only then reaches the rationale task. The two paths end at their own end events and are never joined, so the care plan never waits for documentation. That is the simplest correct construct the harness executes: a non-interrupting boundary event on the review says the same thing, but the harness’s interpreter does not run boundary events; an inclusive gateway would need a join the main path waits at; and a rationale task on the main path would make every run pass through it. The record, when made, is one FHIR Provenance. Skills: apply-decision-support, review-decision-support-guidance, record-decision-rationale, activate-accepted-guidance (package authoring-who-smart-guidelines).</p>
+<p>The point-of-care system applies one of the DAK’s decision tables, published as a CPG-on-FHIR PlanDefinition, to one client ($apply) and shows the health worker what it proposes (a RequestGroup, or CDS Hooks cards). The health worker accepts or declines each action, one tap each, and the system makes the accepted requests active in the client’s CarePlan; a declined action is never written. Recording why is OPTIONAL and never blocks: Event_AddReason is a non-interrupting boundary event on the review. It happens only when the health worker taps “add a reason” while reviewing, starts the rationale task beside the review, and takes nothing away from it: the review completes and the care plan is updated whether or not a reason is ever recorded. Skipping is the default, because the event is absent unless chosen. The record, when made, is one FHIR Provenance. Skills: apply-decision-support, review-decision-support-guidance, record-decision-rationale, activate-accepted-guidance (package authoring-who-smart-guidelines).</p>
 <style>.pt-diagram{position:relative;width:100%}.pt-diagram>img{display:block;width:100%;height:auto}.pt-mark{position:absolute;transform:translate(-50%,-50%);width:1.35em;height:1.35em;padding:0;border-radius:50%;border:1px solid #1f6feb;background:#fff;color:#1f6feb;font:bold 0.8em/1 sans-serif;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 2px rgba(0,0,0,.25)}.pt-layer{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:2}.pt-layer>*{pointer-events:auto}.pt-go{position:absolute;display:block;border-radius:3px;cursor:pointer}.pt-go:hover,.pt-go:focus-visible{outline:2px solid #1f6feb;outline-offset:1px;background:rgba(31,111,235,.07)}.pt-mark{z-index:1}.pt-mark:hover,.pt-mark[aria-expanded=true]{background:#1f6feb;color:#fff}.pt-mark:focus-visible{outline:2px solid #1f6feb;outline-offset:2px}.pt-panel{position:absolute;z-index:5;text-align:left;margin:0.9em 0 0 -0.6em;max-width:min(26em,90vw);min-width:14em;padding:0.6em 0.7em;background:#fff;color:#1b1f24;border:1px solid #8c959f;border-radius:6px;box-shadow:0 4px 14px rgba(0,0,0,.18);font-size:0.85em;line-height:1.35}.pt-close{position:absolute;top:0.2em;right:0.35em;border:0;background:none;font-size:1.2em;cursor:pointer;color:inherit}.pt-obj{border:1px solid #57606a;border-radius:3px;margin:0.15em 0}.pt-head{border-bottom:1px solid #57606a;padding:0.15em 0.45em;background:#f6f8fa;text-decoration:underline}.pt-head .pt-st{text-decoration:none;display:inline-block;margin-right:0.35em}.pt-attr{padding:0.1em 0.45em}.pt-st,.pt-via{color:#57606a;font-size:0.9em}.pt-edge{color:#57606a;font-size:0.85em;padding-left:1em}.pt-role .pt-head{background:#fff8c5}.pt-skill .pt-head{background:#ddf4ff}.pt-task .pt-head{background:#f6f8fa}.pt-none{color:#57606a;font-style:italic;margin-top:0.3em}.pt-diagram [data-pt-hl]>[class$="djs-visual"]>:first-child{stroke:#d97706!important;stroke-width:4px!important;fill:#fff3d6!important}.pt-diagram [data-pt-hl]>[class$="djs-visual"]>path:first-child{fill:none!important}.pt-has-hl [class*="djs-shape"]:not([data-pt-hl])>[class$="djs-visual"]>:first-child{opacity:.75}</style>
 
 <div class="pt-diagram" data-panel="act-on-decision-support.tasks.json">
@@ -916,7 +916,7 @@
 <button type="button" class="pt-mark" data-task="Task_Apply" style="left:33.15%;top:11.36%" aria-expanded="false" aria-label="About step: Apply the PlanDefinition" title="About: Apply the PlanDefinition">i</button>
 <button type="button" class="pt-mark" data-task="Task_Review" style="left:47.75%;top:52.27%" aria-expanded="false" aria-label="About step: Accept or decline the guidance" title="About: Accept or decline the guidance">i</button>
 <button type="button" class="pt-mark" data-task="Task_Activate" style="left:84.83%;top:11.36%" aria-expanded="false" aria-label="About step: Update the care plan" title="About: Update the care plan">i</button>
-<button type="button" class="pt-mark" data-task="Task_Rationale" style="left:78.09%;top:73.86%" aria-expanded="false" aria-label="About step: Note the reason (optional)" title="About: Note the reason (optional)">i</button>
+<button type="button" class="pt-mark" data-task="Task_Rationale" style="left:67.98%;top:73.86%" aria-expanded="false" aria-label="About step: Note the reason (optional)" title="About: Note the reason (optional)">i</button>
 </div>
 <div class="pt-panel" role="dialog" aria-label="Task details" hidden=""></div>
 </div>
@@ -1220,7 +1220,7 @@
 </h2>
     
 
-<p>Every one of the 3 decision(s) is documented.</p>
+<p>Every one of the 2 decision(s) is documented.</p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -1235,11 +1235,6 @@
       <td><strong>Anything proposed?</strong><br /><code class="language-plaintext highlighter-rouge">Gateway_HasGuidance</code></td>
       <td>Read from the result: an empty RequestGroup (or no card) asks the health worker nothing.</td>
       <td><strong>yes</strong> → Accept or decline the guidance<br /><strong>no</strong> → Nothing to act on</td>
-    </tr>
-    <tr>
-      <td><strong>Tapped “add a reason”?</strong><br /><code class="language-plaintext highlighter-rouge">Gateway_AddReason</code></td>
-      <td>Read from the review, not asked again: true only when the health worker tapped “add a reason” while reviewing. False is the default, and it ends this path at once.</td>
-      <td><strong>yes</strong> → Note the reason (optional)<br /><strong>no</strong> → No reason noted</td>
     </tr>
     <tr>
       <td><strong>Any action accepted?</strong><br /><code class="language-plaintext highlighter-rouge">Gateway_Accepted</code></td>
