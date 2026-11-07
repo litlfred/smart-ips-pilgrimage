@@ -27,7 +27,7 @@ jobs:
           python3 -c "import json;[print(m['harness'],m['repository'],m['ref']) for m in json.load(open('index.lock.json'))['mounts'] if m['harness']!='smart-base']" > "$RUNNER_TEMP/mounts.txt"
           while read -r h r ref; do git clone -q --filter=blob:none --no-checkout "https://github.com/$r" "$h" && git -C "$h" checkout -q "$ref" && rm -rf "$h/.git"; done < "$RUNNER_TEMP/mounts.txt"
           bun install --frozen-lockfile
-          bun cat-harness-tools/scripts/run-script.ts mount:lock
+          bun cat-harness-tools/scripts/mount-from-lock.ts --root .
       - name: The templates are current with their English sources
         run: bun input/scripts/translation-pot.ts --check
       - name: No translation is marked official
