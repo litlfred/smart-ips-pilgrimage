@@ -65,7 +65,7 @@ msgstr "这是<a0>许可协议</a0>的通俗易懂的摘要（而非替代）。
 
 #: input/pagecontent/license.md:13
 msgid "This license is acceptable for Free Cultural Works."
-msgstr "本许可协议适用于自由文化作品（Free Cultural Works）。"
+msgstr "本许可协议被认可为自由文化作品（Free Cultural Works）可接受的许可协议。"
 
 #: input/pagecontent/license.md:35
 msgid "This work is licensed under the Creative Commons Attribution 3.0 IGO license (CC BY 3.0 IGO)"

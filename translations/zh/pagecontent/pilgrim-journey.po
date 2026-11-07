@@ -222,7 +222,7 @@ msgstr "政策问题：哪个马来西亚机构代表卫生部门签名健康文
 
 #: input/pagecontent/pilgrim-journey.md:122
 msgid "Policy question: who may open an unconscious pilgrim's record, on what legal basis, and how is it accounted for afterwards?"
-msgstr "政策问题：谁可以打开失去意识的朝觐者的记录，依据什么法律基础，事后如何问责？"
+msgstr "政策问题：谁可以打开失去意识的朝觐者的记录，依据什么法律基础，事后如何对该访问进行记录和说明？"
 
 #: input/pagecontent/pilgrim-journey.md:24
 msgid "Registration nurse at a Hajj health facility in Mina."
