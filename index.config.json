@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "4e7f2c108e1670542fe267d94e528f680299690b",
+          "ref": "5b20bc19b2ea4cb2a3c543a2068b09592c428c72",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-07",
-              "ref": "4e7f2c108e1670542fe267d94e528f680299690b",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\"; cat-harness-tools to main 4e7f2c108e1670542fe267d94e528f680299690b (#1638, #1643: check:declared-paths fixture literals)."
+              "ref": "5b20bc19b2ea4cb2a3c543a2068b09592c428c72",
+              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\"; cat-harness-tools to main 5b20bc19b2ea4cb2a3c543a2068b09592c428c72 (#1601, #1645)."
             }
           }
         }
