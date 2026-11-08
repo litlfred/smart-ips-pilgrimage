@@ -7,7 +7,7 @@ generated: "scripts/subgraph-readmes.ts of the bootstrap toolset (https://github
 
 # references
 
-smart-ips-pilgrimage's bibliography: one folio-reference/v1 CSL-JSON entry per cited work, `<key>.json`. The IG is one document with one bibliography page, the KG Bibliography the site publishes (`en/folio-assistant-core/bibliography/`, the IG menu's Bibliography item); the IG pages hold no reference lists of their own, and each in-text citation links to its entry there as `en/folio-assistant-core/bibliography/#ref-<key>`. smart-base's `check:ig-citations` fails on a citation with no entry, a page reference list, or a reference-section link to a work this directory does not hold
+smart-ips-pilgrimage's bibliography: one folio-reference/v1 CSL-JSON entry per cited work, `<key>.json`. The IG is one document with one bibliography page, the KG Bibliography the site publishes (`en/folio-assistant-core/bibliography/`, the IG menu's Bibliography item); the IG pages hold no reference lists of their own, and each in-text citation links to its entry there as `en/folio-assistant-core/bibliography/references/<key>/`. smart-base's `check:ig-citations` fails on a citation with no entry, a page reference list, or a reference-section link to a work this directory does not hold
 
 Part of [SMART Verifiable IPS for Pilgrimage](../README.md) 2.1.0, declared as `references`, holding `references`.
 

@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "2e8e850f736c171f5ade19c3a3c085c4f93b50e3",
+          "ref": "62fe7e771c39686f206b95e04e2590eadd2915ce",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "2e8e850f736c171f5ade19c3a3c085c4f93b50e3",
-              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
+              "on": "2026-11-08",
+              "ref": "62fe7e771c39686f206b95e04e2590eadd2915ce",
+              "evidence": "Owner litlfred, 2026-11-08 10:36Z, project thread 'Expand bibliography entries into detail panels', card 'OK to re-pin core to 62fe7e7 in smart-trust, smart-ips-pilgrimage, smart-hiv?': chose 'A Re-pin core in the 3 PRs'."
             }
           }
         }
