@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "907c4cbe966881865462b2676330592e7fa9b428",
+          "ref": "081db44c7cef9f8a47a6038e66fd33e6fe280c07",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "907c4cbe966881865462b2676330592e7fa9b428",
-              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
+              "on": "2026-11-09",
+              "ref": "081db44c7cef9f8a47a6038e66fd33e6fe280c07",
+              "evidence": "Owner litlfred, 2026-11-09 13:32Z, project thread 'Clear small platform issue leftovers', card Q-LO-7 'When to re-pin pilgrimage for #13?': chose 'A: Re-pin now to mains'."
             }
           }
         }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "a3f7af18fd3447c9cf6fedee22cef330f612712e",
+          "ref": "48a2ecddc32b48b6c30bce1e0b3108cd62db9c2f",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -79,9 +79,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "a3f7af18fd3447c9cf6fedee22cef330f612712e",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); refreshed 11:00Z for cat-harness-tools cc67cd17 (#1622)."
+              "on": "2026-11-09",
+              "ref": "48a2ecddc32b48b6c30bce1e0b3108cd62db9c2f",
+              "evidence": "Owner litlfred, 2026-11-09 13:32Z, project thread 'Clear small platform issue leftovers', card Q-LO-7 'When to re-pin pilgrimage for #13?': chose 'A: Re-pin now to mains'."
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "a0492cdc734e60040faef90f2cd353da25c6d7bf",
+          "ref": "3b583fd90778073a6bac853345e64867f6acbf88",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -101,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "a0492cdc734e60040faef90f2cd353da25c6d7bf",
-              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
+              "on": "2026-11-09",
+              "ref": "3b583fd90778073a6bac853345e64867f6acbf88",
+              "evidence": "Owner litlfred, 2026-11-09 13:32Z, project thread 'Clear small platform issue leftovers', card Q-LO-7 'When to re-pin pilgrimage for #13?': chose 'A: Re-pin now to mains'."
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "62fe7e771c39686f206b95e04e2590eadd2915ce",
+          "ref": "52e233c07e181839edfcccd00ec14f7b7a47b479",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-08",
-              "ref": "62fe7e771c39686f206b95e04e2590eadd2915ce",
-              "evidence": "Owner litlfred, 2026-11-08 10:36Z, project thread 'Expand bibliography entries into detail panels', card 'OK to re-pin core to 62fe7e7 in smart-trust, smart-ips-pilgrimage, smart-hiv?': chose 'A Re-pin core in the 3 PRs'."
+              "on": "2026-11-09",
+              "ref": "52e233c07e181839edfcccd00ec14f7b7a47b479",
+              "evidence": "Owner litlfred, 2026-11-09 13:32Z, project thread 'Clear small platform issue leftovers', card Q-LO-7 'When to re-pin pilgrimage for #13?': chose 'A: Re-pin now to mains'."
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "af123f4c581d9cccfe94c954e00dac9fa8c88e83",
+          "ref": "c2e07113bbab32c85a637acfc27c157eb4d404ef",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "af123f4c581d9cccfe94c954e00dac9fa8c88e83",
-              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
+              "on": "2026-11-09",
+              "ref": "c2e07113bbab32c85a637acfc27c157eb4d404ef",
+              "evidence": "Owner litlfred, 2026-11-09 13:32Z, project thread 'Clear small platform issue leftovers', card Q-LO-7 'When to re-pin pilgrimage for #13?': chose 'A: Re-pin now to mains'."
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "d2e4e7ccccacd44ea3cd9540d2e5df3b43d93ddd",
+          "ref": "e4d550559c797a9c86f4b9c8b994c9d1607f67e1",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "d2e4e7ccccacd44ea3cd9540d2e5df3b43d93ddd",
-              "evidence": "litlfred 2026-11-07 17:30Z (relayed by the coordinator session): \"merge what green. window +12hrs. cooridnate merge manager\"; owner's card 2026-11-07: user-scenario translation by a harness extractor (cat-harness-tools#1671); re-pin cat-harness-tools to main d2e4e7c."
+              "on": "2026-11-09",
+              "ref": "e4d550559c797a9c86f4b9c8b994c9d1607f67e1",
+              "evidence": "Owner litlfred, 2026-11-09 13:32Z, project thread 'Clear small platform issue leftovers', card Q-LO-7 'When to re-pin pilgrimage for #13?': chose 'A: Re-pin now to mains'."
             }
           }
         }
@@ -195,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
+          "ref": "9435037232a09950ffe442bb4b00cb7da54b5985",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -204,9 +204,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-06",
-              "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-09",
+              "ref": "9435037232a09950ffe442bb4b00cb7da54b5985",
+              "evidence": "Owner litlfred, 2026-11-09 13:32Z, project thread 'Clear small platform issue leftovers', card Q-LO-7 'When to re-pin pilgrimage for #13?': chose 'A: Re-pin now to mains'."
             }
           }
         }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "1dc08c906f3a9377534b753fed493b811e040ad7",
+          "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -229,9 +229,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "1dc08c906f3a9377534b753fed493b811e040ad7",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); re-pin refreshed at 08:45Z for cat-harness-tools e3f62f5b (#1620)."
+              "on": "2026-11-09",
+              "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
+              "evidence": "Owner litlfred, 2026-11-09 13:32Z, project thread 'Clear small platform issue leftovers', card Q-LO-7 'When to re-pin pilgrimage for #13?': chose 'A: Re-pin now to mains'."
             }
           }
         }
@@ -242,7 +242,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-trust-tools",
-          "ref": "354f115ed39da47ef53be971398a50bf10f8bfe2",
+          "ref": "dd739aad2335a963fb0b85212ce8da5fc5d7dd3e",
           "overrides": {
             "smart-trust-tools": {
               "whole": true
@@ -251,9 +251,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "354f115ed39da47ef53be971398a50bf10f8bfe2",
-              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
+              "on": "2026-11-09",
+              "ref": "dd739aad2335a963fb0b85212ce8da5fc5d7dd3e",
+              "evidence": "Owner litlfred, 2026-11-09 13:32Z, project thread 'Clear small platform issue leftovers', card Q-LO-7 'When to re-pin pilgrimage for #13?': chose 'A: Re-pin now to mains'."
             }
           }
         }
