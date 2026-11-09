@@ -322,7 +322,16 @@
         "input/system-requirements/",
         "input/testing/",
         "input/vocabulary/",
-        "fsh-generated/"
+        "fsh-generated/",
+        "_genonce.sh",
+        "_genonce.bat",
+        "_gencontinuous.sh",
+        "_gencontinuous.bat",
+        "_updatePublisher.sh",
+        "_updatePublisher.bat",
+        "publication-request.json",
+        "transform_bpmn.xsl",
+        "local-template/"
       ]
     }
   }
