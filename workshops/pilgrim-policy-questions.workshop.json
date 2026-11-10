@@ -138,5 +138,51 @@
         "p7-back-home#P7"
       ]
     }
-  ]
+  ],
+  "presentation": {
+    "name": "Pilgrim IPS",
+    "badge": "Interactive Spec",
+    "tagline": "International Patient Summary (IPS) • WHO GDHCN • Verifiable Health Links (VHL)",
+    "subject": "Verifiable IPS for pilgrimage",
+    "scope": "Malaysia ⇄ Kingdom of Saudi Arabia",
+    "story": "Kamal, 61, falls ill in Mina on his first Hajj, and a Saudi doctor reads his medicines and allergies from his Malaysian health summary, checked as genuine through WHO GDHCN.",
+    "lede": "One pilgrim and the people around him, eight moments, one Hajj season. Follow the people first; the technology is what makes each hand-off possible.",
+    "recordOf": "kamal",
+    "presenterNote": "Lead with people, not screens: introduce the cast, walk the eight moments, then open the guide only when the room asks \"how does that work?\"",
+    "about": {
+      "title": "This walkthrough is the story of a FHIR implementation guide",
+      "text": "The same journey is specified in the SMART Verifiable IPS for Pilgrimage guide: personas, business processes, the overview of key process flows, and its ArchiMate model."
+    },
+    "links": [
+      {
+        "label": "The IG",
+        "href": "https://litlfred.github.io/smart-ips-pilgrimage/",
+        "frame": "FHIR IG"
+      },
+      {
+        "label": "The pilgrim's journey",
+        "href": "https://litlfred.github.io/smart-ips-pilgrimage/pilgrim-journey.html"
+      },
+      {
+        "label": "Business processes",
+        "href": "https://litlfred.github.io/smart-ips-pilgrimage/business-processes.html"
+      },
+      {
+        "label": "ArchiMate",
+        "href": "https://litlfred.github.io/smart-ips-pilgrimage/en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+      }
+    ],
+    "ig": {
+      "href": "",
+      "processes": "business-processes.html"
+    },
+    "views": [
+      {
+        "model": "2.1.0",
+        "view": "id-59a6185ff9f2580db475ac98b7e1e854",
+        "label": "Key process flows"
+      }
+    ],
+    "closingQuestion": "The technology works. What do the origin and host countries need to agree on to make it real?"
+  }
 }
