@@ -311,6 +311,7 @@
         "input/ignoreWarnings.txt",
         "input/images/",
         "input/images-source/",
+        "input/includes/",
         "input/indicators/",
         "input/maps/",
         "input/models/",

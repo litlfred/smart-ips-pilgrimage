@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-06T09:51:52.177Z\n"
+"POT-Creation-Date: 2026-11-10T16:31:21.578Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -14,80 +14,80 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/pagecontent/index.md:60
-msgid "## Globals"
-msgstr ""
-
-#: input/pagecontent/index.md:27
-msgid "### About this implementation guide"
-msgstr ""
-
-#: input/pagecontent/index.md:54
-msgid "### Cross-version analysis"
-msgstr ""
-
-#: input/pagecontent/index.md:57
-msgid "### Dependencies"
-msgstr ""
-
-#: input/pagecontent/index.md:47
-msgid "### Disclaimer The specification herewith documented is a demo working specification and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency and the official publication supersedes this draft. No liability can be inferred from the use or misuse of this specification or its consequences."
-msgstr ""
-
-#: input/pagecontent/index.md:51
-msgid "### IP statements"
-msgstr ""
-
-#: input/pagecontent/index.md:9
-msgid "### Summary"
-msgstr ""
-
-#: input/pagecontent/index.md:39
+#: input/pagecontent/index.md:43
 msgid "<a0>CPG ActivityDefinitions</a0>"
 msgstr ""
 
-#: input/pagecontent/index.md:38
+#: input/pagecontent/index.md:42
 msgid "<a0>IPS Immunization</a0>"
 msgstr ""
 
-#: input/pagecontent/index.md:37
+#: input/pagecontent/index.md:41
 msgid "<a0>IPS Patient</a0>"
 msgstr ""
 
-#: input/pagecontent/index.md:36
+#: input/pagecontent/index.md:40
 msgid "<a0>MHD Folder</a0>"
 msgstr ""
 
-#: input/pagecontent/index.md:42
+#: input/pagecontent/index.md:46
 msgid "A complete offline copy of this implementation guide can be found on the <a0>Downloads</a0> page."
 msgstr ""
 
 #: input/pagecontent/index.md:31
+msgid "About this implementation guide"
+msgstr ""
+
+#: input/pagecontent/index.md:35
 msgid "Business Requirements - contains the requirements for this implementation guide including the definition of key concepts, use cases, and a data dictionary."
 msgstr ""
 
-#: input/pagecontent/index.md:32
+#: input/pagecontent/index.md:58
+msgid "Cross-version analysis"
+msgstr ""
+
+#: input/pagecontent/index.md:36
 msgid "Data Models and Exchange - contains the data models and data exchange protocols with actors and transactions defined."
 msgstr ""
 
-#: input/pagecontent/index.md:33
+#: input/pagecontent/index.md:61
+msgid "Dependencies"
+msgstr ""
+
+#: input/pagecontent/index.md:37
 msgid "Deployment Guidance  - contains relevant technical specifications and guidance, testing resources, reference implementation materials, and supporting guidance for adaptation to local contexts."
+msgstr ""
+
+#: input/pagecontent/index.md:52
+msgid "Disclaimer"
 msgstr ""
 
 #: input/pagecontent/index.md:19
 msgid "Eligible Participants may request to join through the The Letter of Application"
 msgstr ""
 
-#: input/pagecontent/index.md:24
-msgid "Follow one pilgrim through these steps in <a0>The Pilgrim's Journey</a0>."
+#: input/pagecontent/index.md:26
+msgid "Follow one pilgrim, Kamal, through these steps in <a0>The Pilgrim's Journey</a0>. Each moment is one user scenario, played by fictional people. Click a picture to walk through that moment in the <a1>journeys viewer</a1>."
 msgstr ""
 
-#: input/pagecontent/index.md:41
+#: input/pagecontent/index.md:45
 msgid "For a complete listing of the artifacts defined in this implementation guide, refer to the <a0>Artifact Index</a0>."
 msgstr ""
 
-#: input/pagecontent/index.md:30
+#: input/pagecontent/index.md:64
+msgid "Globals"
+msgstr ""
+
+#: input/pagecontent/index.md:34
 msgid "Home - contains references to the guidance, guidelines, policies and recommendations underpinning this implementation guide."
+msgstr ""
+
+#: input/pagecontent/index.md:55
+msgid "IP statements"
+msgstr ""
+
+#: input/pagecontent/index.md:10
+msgid "Summary"
 msgstr ""
 
 #: input/pagecontent/index.md:17
@@ -98,11 +98,19 @@ msgstr ""
 msgid "The guide is part of the WHO SMART Guidelines approach to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology."
 msgstr ""
 
-#: input/pagecontent/index.md:35
+#: input/pagecontent/index.md:24
+msgid "The pilgrim's journey"
+msgstr ""
+
+#: input/pagecontent/index.md:53
+msgid "The specification herewith documented is a demo working specification and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency and the official publication supersedes this draft. No liability can be inferred from the use or misuse of this specification or its consequences."
+msgstr ""
+
+#: input/pagecontent/index.md:39
 msgid "This guide assumes use of the following resources:"
 msgstr ""
 
-#: input/pagecontent/index.md:43
+#: input/pagecontent/index.md:47
 msgid "This guide utilizes the <a0>International Patient Summary(IPS)</a0> as a base for defining immunizations and expects that most data captured will be presented in conformance with the resources defined as part of that implementation guide."
 msgstr ""
 
@@ -114,7 +122,7 @@ msgstr ""
 msgid "This implementation guide includes a machine-readable representation of WHO guidelines for verifiable IPS during pilgrimage. It explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of IPS during pilgrimage usage scenario.  This Implementation Guide leverages the WHO Global Digital Health Certification Network (GDHCN)."
 msgstr ""
 
-#: input/pagecontent/index.md:29
+#: input/pagecontent/index.md:33
 msgid "This implementation guide is broken into the following levels of <a0>knowledge representation</a0>:"
 msgstr ""
 
@@ -122,6 +130,6 @@ msgstr ""
 msgid "This Implementation Guide is intended to support the utilization of variable International Patient Summary (IPS)  documents during pilgrimage leveraging  <a0>WHO Global Digital Health Certification Network (GDHCN)</a0> global public health infrastructure."
 msgstr ""
 
-#: input/pagecontent/index.md:44
+#: input/pagecontent/index.md:48
 msgid "This Implementation Guide makes use of <a0>Clinical Quality Language</a0> for the decision support artifacts including the PlanDefinitions and Measures. They are used to express how a calculation should occur and can be used with a CQL engine in order to process the decision or indicator directly from the applicable FHIR resources. Links to this specification, the FHIR Clinical Practice Guidelines Specification, and other helpful resources can be found in the Support dropdown."
 msgstr ""

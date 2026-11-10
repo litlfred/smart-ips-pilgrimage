@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-07T07:04:05.601Z\n"
+"POT-Creation-Date: 2026-11-10T16:31:21.588Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -68,7 +68,7 @@ msgid "Dr Hafiz"
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:16
-msgid "Each numbered step in the figure opens its moment in the <a0>journeys viewer</a0>, which walks through the whole story screen by screen."
+msgid "Each numbered flow in the figure names its moment below, and each moment has its own <a0>ArchiMate view</a0>. The <a1>journeys viewer</a1> walks through the whole story screen by screen."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:27

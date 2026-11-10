@@ -116,6 +116,25 @@
       "description": "The pilgrim's journey (input/pagecontent/pilgrim-journey.md) as user scenarios: the parent journey the-pilgrims-hajj and one sub-journey per moment P0 to P7, partOf the parent and following each other in order. Each step's picture is input/images/pilgrim/<p>.webp."
     },
     {
+      "id": "archimate",
+      "path": "archimate/",
+      "graphTypologies": [
+        "archimate"
+      ],
+      "description": "The guide as ArchiMate (cat-harness's archimate subgraph): the people and systems of scenarios/roles.json, the journey moments P0 to P7 of user-scenarios/ with who takes part in each, and the home page's overview of key process flows (input/images/workflow.png) as a view with every box where the figure draws it. Built by archimate/build.py from those sources (`check:archimate` fails when the committed model is stale); the archimate-pages visualiser draws every view as SVG, and archimate/pretty.py draws the overview again in the original figure's style (input/includes/workflow-pretty.svg), one pictogram per role; the pages toggle between the two.",
+      "coverage": {
+        "visualiser": [
+          {
+            "ref": "en/smart-ips-pilgrimage/archimate/index.html",
+            "title": "ArchiMate views",
+            "writer": [
+              "cat-harness-tools/archimate/scripts/gen-archimate-pages.ts"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "device-screens",
       "path": "device-screens/",
       "graphTypologies": [
@@ -149,6 +168,13 @@
     }
   ],
   "visualisers": [
+    {
+      "id": "archimate",
+      "renderedBy": "archimate-pages",
+      "covers": [
+        "archimate"
+      ]
+    },
     {
       "id": "journeys",
       "renderedBy": "journeys-viewer",
