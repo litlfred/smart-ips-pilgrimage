@@ -163,6 +163,8 @@ def build():
         props = {"step": step, "journeyMoment": IG + JOURNEYS + moment + "/"}
         if tx:
             props["transaction"] = f"{IG}CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-{tx}"
+        if "IPS QR code" in text:
+            props["carries"] = "IPS QR code"
         rels.append((f"flow-{step}", "Flow", a, b, f"{step}. {text}", f"Step {step} of the overview of key process flows.", props))
     return els, rels, parts
 

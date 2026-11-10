@@ -25,6 +25,7 @@ pages offer both, with a toggle. Standard library only.
 """
 
 import html
+import json
 import math
 import re
 import sys
@@ -41,46 +42,17 @@ XSI = "{http://www.w3.org/2001/XMLSchema-instance}type"
 BLUE, BLUE_TEXT, GREEN, INK = "#4472C4", "#2F5597", "#548235", "#1f1f1f"
 W, H = 1280, 760
 
-# How each role looks: a pictogram drawn in a 64 x 64 box centred on (0, 0).
-ICONS = {
-    # a person in a pilgrim's ihram, the cloth over one shoulder
-    "pilgrim": f'<circle cx="0" cy="-20" r="11" fill="{INK}"/>'
-               f'<path d="M-24 30 Q-24 -2 0 -4 Q24 -2 24 30 Z" fill="{INK}"/>'
-               '<path d="M-14 0 L16 30 L6 30 L-18 6 Z" fill="#fff"/>',
-    # a clinician: head, shoulders, stethoscope
-    "host-health-worker": f'<circle cx="0" cy="-20" r="11" fill="{INK}"/>'
-                          f'<path d="M-24 30 Q-24 -2 0 -4 Q24 -2 24 30 Z" fill="{INK}"/>'
-                          '<path d="M-9 -2 L-9 12 Q-9 20 0 20 Q9 20 9 12 L9 -2" fill="none" stroke="#fff" stroke-width="3"/>'
-                          '<circle cx="9" cy="-2" r="3" fill="#fff"/>',
-    # a phone showing a QR code
-    "origin-wallet": f'<rect x="-18" y="-30" width="36" height="60" rx="6" fill="none" stroke="{INK}" stroke-width="4"/>'
-                     f'<rect x="-11" y="-18" width="9" height="9" fill="{INK}"/><rect x="2" y="-18" width="9" height="9" fill="{INK}"/>'
-                     f'<rect x="-11" y="-5" width="9" height="9" fill="{INK}"/><rect x="5" y="-2" width="4" height="4" fill="{INK}"/>'
-                     f'<rect x="2" y="5" width="4" height="4" fill="{INK}"/><rect x="8" y="5" width="3" height="3" fill="{INK}"/>'
-                     f'<circle cx="0" cy="22" r="2.5" fill="{INK}"/>',
-    # a health information exchange: a hub with the systems it joins
-    "origin-hie": '<rect x="-30" y="-4" width="60" height="10" rx="3" fill="#8a8a8a"/>'
-                  '<text x="0" y="4" text-anchor="middle" font-size="6" fill="#fff" font-weight="700">FHIR Health Exchange</text>'
-                  + "".join(f'<line x1="{x}" y1="{y1}" x2="{x}" y2="{y2}" stroke="#8a8a8a" stroke-width="3"/>'
-                            f'<rect x="{x - 7}" y="{y2 - (12 if y2 < 0 else 0)}" width="14" height="12" rx="2" fill="#b0b0b0"/>'
-                            for x in (-22, 0, 22) for y1, y2 in ((-4, -22), (6, 22)))
-                  + '<text x="0" y="-26" text-anchor="middle" font-size="13" font-weight="800" fill="#c00030">IPS</text>',
-    # a laptop showing a record
-    "host-emr": f'<rect x="-26" y="-24" width="52" height="34" rx="3" fill="none" stroke="{INK}" stroke-width="4"/>'
-                f'<path d="M-34 14 L34 14 L30 22 L-30 22 Z" fill="{INK}"/>'
-                f'<circle cx="-12" cy="-7" r="8" fill="{INK}"/><path d="M-12 -12 V-2 M-17 -7 H-7" stroke="#fff" stroke-width="2.5"/>'
-                f'<path d="M0 -14 H18 M0 -7 H18 M0 0 H18" stroke="{INK}" stroke-width="2.5"/>',
-    # WHO GDHCN: a network of trusted nodes around a key holder
-    "trust-network": '<circle cx="-22" cy="-20" r="7" fill="none" stroke="#f0a500" stroke-width="3.5"/>'
-                     '<circle cx="20" cy="-22" r="4" fill="none" stroke="#2bb5e8" stroke-width="2.5"/>'
-                     '<circle cx="-26" cy="8" r="4" fill="none" stroke="#2bb5e8" stroke-width="2.5"/>'
-                     '<circle cx="-18" cy="26" r="4" fill="none" stroke="#2bb5e8" stroke-width="2.5"/>'
-                     '<circle cx="18" cy="12" r="7" fill="none" stroke="#f0a500" stroke-width="3.5"/>'
-                     '<path d="M-22 -20 L18 12 M-26 8 L18 12" stroke="#c8c8c8" stroke-width="1.5"/>'
-                     f'<circle cx="0" cy="-6" r="9" fill="none" stroke="{INK}" stroke-width="2"/>'
-                     f'<path d="M-9 -6 H9 M0 -15 V3" stroke="{INK}" stroke-width="1.2"/>'
-                     f'<path d="M-6 6 h12 v22 h-12 Z" fill="{INK}"/>',
-}
+# How each role looks: archimate/icons.json, traced from the original figure
+# (smoothed, sharpened, then outlined), the GDHCN logo and the IPS logo.
+ICONS = {k: v for k, v in json.loads((ROOT / "archimate/icons.json").read_text(encoding="utf-8")).items() if not k.startswith("_")}
+ICON_H = {"pilgrim": 100, "trust-network": 120, "origin-hie": 96, "host-emr": 74}
+
+
+def icon(name, cx, cy, height):
+    """The named pictogram scaled to the given height, centred on (cx, cy)."""
+    i = ICONS[name]
+    k = height / i["h"]
+    return f'<g transform="translate({cx - i["w"] * k / 2:.1f} {cy - height / 2:.1f}) scale({k:.4f})">{i["svg"]}</g>'
 
 
 def esc(s):
@@ -166,16 +138,19 @@ def draw():
         role = props.get("role", "").split("#")[-1]
         cx, cy = x + w / 2, y + h / 2
         # what an arrow keeps clear of: the pictogram and its two lines of label below it
-        centre[oid] = (cx, cy + 16, max(w, 150), h + 56)
+        centre[oid] = (cx, cy + 14, max(w, 160), h + 70)
         colour = GREEN if role == "trust-network" else INK
         rows = textwrap.wrap(name, 22)
-        label = "".join(f'<tspan x="{cx}" dy="{0 if i == 0 else 14}">{esc(t)}</tspan>' for i, t in enumerate(rows))
+        label = "".join(f'<tspan x="{cx}" dy="{0 if i == 0 else 17}">{esc(t)}</tspan>' for i, t in enumerate(rows))
         actor = props.get("igActor")
-        sub = (f'<text x="{cx}" y="{cy + (48 if role == "trust-network" else 40) + 14 * len(rows)}" text-anchor="middle" font-size="10.5" font-style="italic" fill="#666">'
+        ih = ICON_H.get(role, 84)
+        icy = cy - 18 + (84 - ih) / 4
+        ly0 = icy + ih / 2 + 10
+        sub = (f'<text x="{cx}" y="{ly0 + 6 + 17 * len(rows):.1f}" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555">'
                f'{esc(actor)} · role {esc(role)}</text>') if actor else (
-               f'<text x="{cx}" y="{cy + (48 if role == "trust-network" else 40) + 14 * len(rows)}" text-anchor="middle" font-size="10.5" font-style="italic" fill="#666">role {esc(role)}</text>')
-        body = (f'<g transform="translate({cx} {cy - 8}) scale({1.35 if role == "trust-network" else 1})">{ICONS.get(role, "")}</g>'
-                f'<text x="{cx}" y="{cy + (48 if role == "trust-network" else 40)}" text-anchor="middle" font-size="12.5" font-weight="700" fill="{colour}">{label}</text>{sub}')
+               f'<text x="{cx}" y="{ly0 + 6 + 17 * len(rows):.1f}" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555">role {esc(role)}</text>')
+        body = ((icon(role, cx, icy, ih) if role in ICONS else "")
+                + f'<text x="{cx}" y="{ly0 + 6:.1f}" text-anchor="middle" font-size="14" font-weight="700" letter-spacing=".2" fill="{colour}">{label}</text>{sub}')
         page = props.get("page")
         tip = f"<title>{esc(name)} (role {esc(role)}, scenarios/roles.json)</title>"
         out.append(f'<a href="{esc(rel_link(page))}" target="_top">{tip}{body}</a>' if page else f"<g>{tip}{body}</g>")
@@ -191,6 +166,9 @@ def draw():
         (sx, sy, sw, sh), (tx, ty, tw, th) = centre[s], centre[t]
         x1, y1 = clip(sx, sy, tx, ty, sw, sh, 10)
         x2, y2 = clip(tx, ty, sx, sy, tw, th, 10)
+        if abs(y2 - y1) < 0.2 * abs(x2 - x1):
+            # a nearly level flow is drawn level, as the original draws it
+            y1 = y2 = (y1 + y2) / 2
         out.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{colour}" stroke-width="2.5" '
                    f'marker-end="url(#wf-a-{"green" if green else "blue"})"/>')
         mx, my = (x1 + x2) / 2, (y1 + y2) / 2
@@ -209,20 +187,31 @@ def draw():
         elif ny > 0 or (abs(ny) < 1e-6 and nx > 0):
             nx, ny = -nx, -ny
         text = re.sub(r"^\w+\.\s*", "", name)
-        wrapped = textwrap.wrap(text, 38)
+        wrapped = textwrap.wrap(text, 34)
         tx_ = props.get("transaction")
         code = tx_.split("TRANSACTION-")[-1] if tx_ else None
         rows = len(wrapped) + (1 if code else 0)
         lx = mx + nx * 48
         # the block's near edge sits 26px from the arrow; first baseline 12px below its top
-        ly = my + ny * 26 + 12 - (rows * 16 if ny < -0.3 else 0 if ny > 0.3 else rows * 8)
+        ly = my + ny * 26 + 12 - (rows * 19 if ny < -0.3 else 0 if ny > 0.3 else rows * 9.5)
         anchor = "middle" if abs(nx) < 0.5 else ("start" if nx > 0 else "end")
-        lab = "".join(f'<tspan x="{lx:.1f}" dy="{0 if i == 0 else 16}">{esc(w_)}</tspan>' for i, w_ in enumerate(wrapped))
-        out.append(f'<text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" font-size="13.5" fill="{text_colour}">{lab}</text>')
+        lab = "".join(f'<tspan x="{lx:.1f}" dy="{0 if i == 0 else 19}">{esc(w_)}</tspan>' for i, w_ in enumerate(wrapped))
+        out.append(f'<text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" font-size="15" letter-spacing=".3" fill="{text_colour}">{lab}</text>')
         if code:
-            cy_ = ly + 16 * len(wrapped)
+            cy_ = ly + 19 * len(wrapped)
             out.append(f'<a href="{esc(rel_link(tx_))}" target="_top"><title>Transaction {esc(code)} (IPS.HAJJ.TRANSACTION)</title>'
-                       f'<text x="{lx:.1f}" y="{cy_:.1f}" text-anchor="{anchor}" font-size="11" fill="{text_colour}" font-style="italic">{esc(code)}</text></a>')
+                       f'<text x="{lx:.1f}" y="{cy_:.1f}" text-anchor="{anchor}" font-size="12" fill="{text_colour}" font-style="italic">{esc(code)}</text></a>')
+        # what the flow carries, as the original shows it: a key for the trust lists, a QR code for the IPS
+        badge = "key" if green else "qr" if props.get("carries") == "IPS QR code" else None
+        if badge == "key" and code:
+            # beside the transaction code, on the side away from the middle
+            reach = 7 * len(code) + 24
+            out.append(icon("key", lx + (reach if anchor == "start" else -reach), cy_ - 5, 30))
+        elif badge:
+            # before the label's first line
+            width = 7.6 * max(len(r) for r in wrapped)
+            left = lx - (width / 2 if anchor == "middle" else width if anchor == "end" else 0)
+            out.append(icon("qr", left - 24, ly - 6, 34))
     out.append("</svg>\n")
     return "\n".join(out)
 
