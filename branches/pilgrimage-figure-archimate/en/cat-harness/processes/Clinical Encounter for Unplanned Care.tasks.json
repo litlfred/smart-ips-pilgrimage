@@ -1,0 +1,372 @@
+{
+ "$schema": "process-task-panel/v1",
+ "process": "Process_ya4zy3o",
+ "markers": [
+  {
+   "id": "Activity_00h86kk",
+   "name": "registration",
+   "left": 13.97,
+   "top": 5.79,
+   "box": {
+    "left": 10.8,
+    "top": 10.61,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_0yvvi0a",
+   "name": "arrive to clinic at host country",
+   "left": 13.97,
+   "top": 24.12,
+   "box": {
+    "left": 10.8,
+    "top": 28.95,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_11ndkqo",
+   "name": "Shows QR image on health wallet app",
+   "left": 21.09,
+   "top": 24.12,
+   "box": {
+    "left": 17.91,
+    "top": 28.95,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_1gga1fr",
+   "name": "display health document",
+   "left": 82.57,
+   "top": 49.56,
+   "box": {
+    "left": 79.4,
+    "top": 54.39,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_0nu4v95",
+   "name": "verify QR code signature",
+   "left": 43.95,
+   "top": 49.56,
+   "box": {
+    "left": 40.78,
+    "top": 54.39,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_0isufb9",
+   "name": "Scan QR code image",
+   "left": 30.74,
+   "top": 36.4,
+   "box": {
+    "left": 27.57,
+    "top": 41.23,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_0sfhcs9",
+   "name": "uses bar code scanner",
+   "left": 30.74,
+   "top": 8.33,
+   "box": {
+    "left": 27.57,
+    "top": 13.16,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_0untwjs",
+   "name": "loads QR code image",
+   "left": 26.68,
+   "top": 67.11,
+   "box": {
+    "left": 23.5,
+    "top": 71.93,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_0qcvetn",
+   "name": "Retrieve serialized CWT",
+   "left": 35.82,
+   "top": 49.56,
+   "box": {
+    "left": 32.65,
+    "top": 54.39,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_1i8bqw0",
+   "name": "retrieve health document (IPS) request",
+   "left": 52.08,
+   "top": 49.56,
+   "box": {
+    "left": 48.91,
+    "top": 54.39,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_1hznkm2",
+   "name": "receive health document (IPS) request",
+   "left": 52.08,
+   "top": 86.4,
+   "box": {
+    "left": 48.91,
+    "top": 91.23,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_1iodyqb",
+   "name": "send IPS document",
+   "left": 62.25,
+   "top": 86.4,
+   "box": {
+    "left": 59.07,
+    "top": 91.23,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_0wou2yo",
+   "name": "verify health document (IPS) signature",
+   "left": 61.74,
+   "top": 49.56,
+   "box": {
+    "left": 58.56,
+    "top": 54.39,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_123d2ts",
+   "name": "save a local copy of health document",
+   "left": 70.88,
+   "top": 49.56,
+   "box": {
+    "left": 67.71,
+    "top": 54.39,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_1n8jcmb",
+   "name": "provide care",
+   "left": 82.57,
+   "top": 5.79,
+   "box": {
+    "left": 79.4,
+    "top": 10.61,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_055rq1n",
+   "name": "update local record of care",
+   "left": 90.19,
+   "top": 5.79,
+   "box": {
+    "left": 87.02,
+    "top": 10.61,
+    "width": 1.22,
+    "height": 2.11
+   }
+  },
+  {
+   "id": "Activity_0ihvpj7",
+   "name": "leave clinic",
+   "left": 90.19,
+   "top": 24.12,
+   "box": {
+    "left": 87.02,
+    "top": 28.95,
+    "width": 1.22,
+    "height": 2.11
+   }
+  }
+ ],
+ "tasks": {
+  "Activity_00h86kk": {
+   "id": "Activity_00h86kk",
+   "name": "registration",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [
+    {
+     "name": "complete-sdc-questionnaire"
+    }
+   ],
+   "binding": "unbound"
+  },
+  "Activity_0yvvi0a": {
+   "id": "Activity_0yvvi0a",
+   "name": "arrive to clinic at host country",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_11ndkqo": {
+   "id": "Activity_11ndkqo",
+   "name": "Shows QR image on health wallet app",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [
+    {
+     "name": "holder-present-credential"
+    }
+   ],
+   "binding": "unbound"
+  },
+  "Activity_1gga1fr": {
+   "id": "Activity_1gga1fr",
+   "name": "display health document",
+   "type": "bpmn:Task",
+   "lane": "System Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_0nu4v95": {
+   "id": "Activity_0nu4v95",
+   "name": "verify QR code signature",
+   "type": "bpmn:Task",
+   "lane": "System Actor",
+   "skills": [
+    {
+     "name": "hcert-verify"
+    }
+   ],
+   "binding": "unbound"
+  },
+  "Activity_0isufb9": {
+   "id": "Activity_0isufb9",
+   "name": "Scan QR code image",
+   "type": "bpmn:Task",
+   "lane": "System Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_0sfhcs9": {
+   "id": "Activity_0sfhcs9",
+   "name": "uses bar code scanner",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [
+    {
+     "name": "receiver-scan-credential"
+    }
+   ],
+   "binding": "unbound"
+  },
+  "Activity_0untwjs": {
+   "id": "Activity_0untwjs",
+   "name": "loads QR code image",
+   "type": "bpmn:Task",
+   "lane": "System Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_0qcvetn": {
+   "id": "Activity_0qcvetn",
+   "name": "Retrieve serialized CWT",
+   "type": "bpmn:ReceiveTask",
+   "lane": "System Actor",
+   "skills": [
+    {
+     "name": "hcert-verify"
+    }
+   ],
+   "binding": "unbound"
+  },
+  "Activity_1i8bqw0": {
+   "id": "Activity_1i8bqw0",
+   "name": "retrieve health document (IPS) request",
+   "type": "bpmn:SendTask",
+   "lane": "System Actor",
+   "skills": [
+    {
+     "name": "vhl-receive"
+    }
+   ],
+   "binding": "unbound"
+  },
+  "Activity_1hznkm2": {
+   "id": "Activity_1hznkm2",
+   "name": "receive health document (IPS) request",
+   "type": "bpmn:ReceiveTask",
+   "lane": "System Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_1iodyqb": {
+   "id": "Activity_1iodyqb",
+   "name": "send IPS document",
+   "type": "bpmn:Task",
+   "lane": "System Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_0wou2yo": {
+   "id": "Activity_0wou2yo",
+   "name": "verify health document (IPS) signature",
+   "type": "bpmn:Task",
+   "lane": "System Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_123d2ts": {
+   "id": "Activity_123d2ts",
+   "name": "save a local copy of health document",
+   "type": "bpmn:Task",
+   "lane": "System Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_1n8jcmb": {
+   "id": "Activity_1n8jcmb",
+   "name": "provide care",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_055rq1n": {
+   "id": "Activity_055rq1n",
+   "name": "update local record of care",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  },
+  "Activity_0ihvpj7": {
+   "id": "Activity_0ihvpj7",
+   "name": "leave clinic",
+   "type": "bpmn:Task",
+   "lane": "Human Actor",
+   "skills": [],
+   "binding": "unbound"
+  }
+ }
+}

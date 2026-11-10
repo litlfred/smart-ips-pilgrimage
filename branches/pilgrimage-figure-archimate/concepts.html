@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concepts — SMART Verifiable IPS for Pilgrimage</title>
+<link rel="canonical" href="./concepts.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="SMART Verifiable IPS for Pilgrimage">
+<link rel="stylesheet" href="./assets/page-layout.css" data-fa-page-layout>
+<script src="./assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="./assets/ig-artifact.css">
+<link rel="stylesheet" href="./assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="./assets/navbar/row-2acuhncsmbg.js" defer></script><script src="./assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="./assets/css/navbar.css"><script src="./assets/navbar/rail-25hc74ko75k.js" defer></script><script src="./assets/js/navbar.js" defer></script><link rel="stylesheet" href="./assets/css/navbar-row.css"><script src="./assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content="."></head>
+<body><div data-fa-staging-banner lang="en" dir="ltr" style="background:#4F6F52;color:#fff;padding:8px 16px;font-size:14px;text-align:center;position:fixed;top:0;left:0;right:0;box-sizing:border-box;z-index:2147483001;font-family:system-ui">🔀 <b>FEATURE BRANCH</b> <span data-fa-staging-detail>— loading build details…</span></div><style>:root{--fa-staging-offset:0px}body{margin:0}.side-bar,.fa-nav{top:var(--fa-staging-offset,0px)!important}html{padding-top:var(--fa-staging-offset,0px)}</style><script>(function(){
+function el(t,a,x){var e=document.createElement(t);if(a)for(var k in a)e.setAttribute(k,a[k]);if(x!=null)e.textContent=x;return e;}
+function link(href,text,extra){var a=el('a',{href:href,style:'color:#fff;text-decoration:underline'},text);if(extra)a.setAttribute('style',a.getAttribute('style')+';'+extra);return a;}
+function chip(text){return el('span',{style:"font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:rgba(0,0,0,.22);color:#fff;padding:1px 6px;border-radius:3px"},text);}
+function sep(){return document.createTextNode(' \u00b7 ');}
+function root(){var m=location.pathname.match(/^(.*\/(?:branches|STAGING)\/[^/]+\/)/);return m?m[1]:null;}
+// Release or preview (owner, 2026-11-05): a full build is a release and is
+// drawn purple, a preview green. Set here from staging.json, not in the
+// fragment, so the fragment stays byte-identical on every build.
+function kind(f){if(f.buildType!=='full')return;var b=document.querySelector('[data-fa-staging-banner]');if(!b)return;b.style.background="#6B3FA0";b.setAttribute('data-fa-build-type','full');var t=b.querySelector('b');if(t)t.textContent='RELEASE BUILD';}
+function measure(){var b=document.querySelector('[data-fa-staging-banner]');if(!b)return;document.documentElement.style.setProperty('--fa-staging-offset',b.getBoundingClientRect().height+'px');}
+function fill(d,f,r){
+  kind(f);
+  while(d.firstChild)d.removeChild(d.firstChild);
+  d.appendChild(document.createTextNode('\u2014 '));
+  var b=link(f.branchUrl,'');b.appendChild(chip(f.branch));d.appendChild(b);
+  var rv=el('span',{'data-fa-staging-review':''});d.appendChild(rv);
+  d.appendChild(sep());d.appendChild(document.createTextNode('commit '));d.appendChild(chip(f.sha));
+  d.appendChild(sep());d.appendChild(document.createTextNode('built '+f.built));
+  d.appendChild(sep());d.appendChild(link(f.prUrl,f.pr&&f.pr!=='n/a'?'PR #'+f.pr:'no open PR found'));
+  if(f.issue){d.appendChild(sep());d.appendChild(link(f.issueUrl,'issue #'+f.issue));}
+  d.appendChild(sep());
+  var rel=location.pathname.slice(r.length);
+  if(rel===''||rel.charAt(rel.length-1)==='/')rel+='index.html';
+  if(!f.mainPagesKnown){
+    d.appendChild(link(f.mainSite+'/','compare with '+(f.beforeRef||'main')+' \u2197'));
+  }else if(f.newPages.indexOf(rel)>=0){
+    d.appendChild(link(f.mainSite+'/',(f.beforeRef||'main')+' \u2197'));
+    d.appendChild(document.createTextNode(' '));
+    d.appendChild(el('span',{style:'opacity:.85'},'(new page)'));
+  }else{
+    d.appendChild(link(f.mainSite+'/'+rel,'compare with '+(f.beforeRef||'main')+' \u2197'));
+  }
+  d.appendChild(sep());d.appendChild(link(f.runUrl,'build log'));
+  if(f.checksUrl){d.appendChild(sep());d.appendChild(link(f.checksUrl,'CI results'));}
+  stamp(f);
+  measure();
+  fresh(d,f);
+  review(rv,r,rel);
+}
+// The preview's review page (owner, 2026-11-01, Q-REV-1): reviewers could not
+// find it from a staging page. A folio writes it at <root>/<locale>/review/,
+// an IG at <root>/review/. Asked with HEAD, which the staging worker passes
+// through, so a 404 here is not answered with the live site's page. No review
+// page, no link.
+function review(s,r,rel){
+  if(typeof fetch!=='function')return;
+  var c=[],m=rel.match(/^([a-z]{2,3}(?:-[A-Za-z0-9]+)?)\//);
+  if(m)c.push(r+m[1]+'/review/');
+  c.push(r+'review/');
+  (function next(i){
+    if(i>=c.length)return;
+    fetch(c[i]+'index.html',{method:'HEAD',cache:'no-store'}).then(function(x){
+      if(!x.ok)return next(i+1);
+      s.appendChild(sep());
+      s.appendChild(link(c[i],'\ud83d\udd0d Review changes','font-weight:bold'));
+      measure();
+    }).catch(function(){next(i+1);});
+  })(0);
+}
+// Live staleness (owner, 2026-10-31, option C): ask GitHub for the branch's
+// head now and say so when it has moved past the commit this preview was
+// built from. Unauthenticated, one request per page view; on any failure
+// (rate limit, offline, a deleted branch) it says nothing rather than guess.
+function fresh(d,f){
+  var m=String(f.branchUrl||'').match(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\//);
+  if(!m||!f.branch||!f.sha||typeof fetch!=='function')return;
+  fetch('https://api.github.com/repos/'+m[1]+'/'+m[2]+'/commits/'+encodeURIComponent(f.branch),
+    {headers:{Accept:'application/vnd.github.sha'},cache:'no-store'})
+    .then(function(x){if(!x.ok)throw 0;return x.text();})
+    .then(function(head){
+      head=String(head).trim();
+      if(!/^[0-9a-f]{7,40}$/.test(head)||head.indexOf(f.sha)===0)return;
+      d.appendChild(sep());
+      var w=el('strong',{'data-fa-staging-stale':'',style:'background:#b00020;padding:0 .4em;border-radius:3px'},'\u26a0 stale: the branch is now at ');
+      w.appendChild(chip(head.slice(0,7)));
+      w.appendChild(document.createTextNode(', newer than this preview'));
+      d.appendChild(w);measure();
+    }).catch(function(){});
+}
+function stamp(f){
+  var p=document.querySelector('.fa-build-stamp');if(!p)return;
+  while(p.firstChild)p.removeChild(p.firstChild);
+  p.appendChild(document.createTextNode('deployed '));
+  var a=link(f.runUrl,'');a.appendChild(el('code',null,f.sha));p.appendChild(a);
+  p.appendChild(document.createTextNode(' · '+f.built));
+}
+function go(){
+  measure();
+  var d=document.querySelector('[data-fa-staging-detail]');if(!d)return;
+  var r=root();
+  if(!r){d.textContent='\u2014 build details unavailable (not served from a preview path)';return;}
+  fetch(r+'staging.json',{cache:'no-store'}).then(function(x){if(!x.ok)throw 0;return x.json();})
+    .then(function(f){fill(d,f,r);})
+    .catch(function(){d.textContent='\u2014 build details unavailable';measure();});
+}
+// First visit to a preview: the shared stylesheets 404 until the worker is
+// in control, so the page would paint unstyled (a page-wide search icon) for
+// the moment before the reload. Hide it until then, only when a stylesheet
+// in the head actually failed, and show it again if no reload comes.
+function unstyled(){var l=document.querySelectorAll('link[rel="stylesheet"]');for(var i=0;i<l.length;i++){if(l[i].disabled)continue;try{if(!l[i].sheet||!l[i].sheet.cssRules.length)return true;}catch(e){}}return false;}
+function share(){
+  var r=root();if(!r||!('serviceWorker' in navigator))return;
+  var k='fa-share:'+r,s=document.documentElement.style;
+  var hide=!navigator.serviceWorker.controller&&!sessionStorage.getItem(k)&&unstyled();
+  function show(){if(hide){hide=false;s.removeProperty('visibility');}}
+  if(hide){s.setProperty('visibility','hidden');setTimeout(show,4000);}
+  navigator.serviceWorker.register(r+'staging-sw.js',{scope:r}).then(function(){
+    if(navigator.serviceWorker.controller||sessionStorage.getItem(k))return show();
+    return navigator.serviceWorker.ready.then(function(){sessionStorage.setItem(k,'1');location.reload();});
+  }).catch(show);
+}
+measure();share();
+if(document.readyState!=='loading')go();else document.addEventListener('DOMContentLoaded',go);
+window.addEventListener('resize',measure);window.addEventListener('load',measure);
+})();</script><script type="application/json" id="fa-navbar-row" data-fa-root="." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root=".">{"data":"rail-25hc74ko75k","here":"/concepts.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="./">SMART Verifiable IPS for Pilgrimage</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="./index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="./index.html">Summary</a></li><li><a href="./changes.html">Changes</a></li><li><a href="./dependencies.html">Dependencies</a></li><li><a href="./en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="./adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="./concepts.html">Concepts</a></li><li><a href="./personas.html">Generic Personas</a></li><li><a href="./scenarios.html">User Scenarios</a></li><li><a href="./pilgrim-journey.html">The Pilgrim's Journey</a></li><li><a href="./business-processes.html">Business Processes</a></li><li><a href="./dictionary.html">Data Dictionary</a></li><li><a href="./decision-logic.html">Decision-support Logic</a></li><li><a href="./indicators.html">Indicator and Performance Metrics</a></li><li><a href="./functional-requirements.html">Functional Requirements</a></li><li><a href="./non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="./system-actors.html">System Actors</a></li><li><a href="./sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="./transactions.html">Transactions</a></li><li><a href="./indicators-measures.html">Indicators and Measures</a></li><li><a href="./codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="./security-privacy.html">Security and Privacy Considerations</a></li><li><a href="./testing.html">Testing</a></li><li><a href="./test-data.html">Test Data</a></li><li><a href="./reference-implementations.html">Reference Implementations</a></li><li><a href="./trust_domain.html">Trust Domains</a></li><li><a href="./downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="./artifacts.html">Artifact Index</a></li><li><a href="./maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="./assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="./assets/ig-search.js" defer></script></div>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<p>Key concepts and abbreviations are described here. Additional terms are defined in the Glossary and List of Abbreviations in the <a href="https://worldhealthorganization.github.io/ddcc/concepts.html">WHO Digital Documentation of COVID-19 Certificates FHIR Implementation Guide</a>.</p>
+
+<h1 id="key-concepts-and-definitions">Key Concepts and Definitions</h1>
+
+<h3 id="pilgrim"><strong>Pilgrim</strong></h3>
+<ul>
+  <li>A person who undertakes the Hajj pilgrimage to Mecca. In the context of the healthcare system, the pilgrim is the primary user, receiving healthcare services and interacting with various healthcare providers.</li>
+</ul>
+
+<h3 id="origin-country"><strong>Origin Country</strong></h3>
+<ul>
+  <li>The country from which the pilgrim originates or holds citizenship. This is significant in the context of healthcare as health information and preparatory measures might be initiated in the origin country before the pilgrimage.</li>
+</ul>
+
+<h3 id="host-country"><strong>Host Country</strong></h3>
+<ul>
+  <li>The country hosting the pilgrimage, which in the case of the Hajj is the Kingdom of Saudi Arabia (KSA). The host country provides healthcare and other services to pilgrims during their stay.</li>
+</ul>
+
+<h3 id="hajj-health-facility"><strong>Hajj Health Facility</strong></h3>
+<ul>
+  <li>A medical facility set up to cater specifically to the needs of Hajj pilgrims. These facilities can range from clinics to hospitals and are equipped to handle both routine health checks and emergency services.</li>
+</ul>
+
+<h3 id="registration-nurse"><strong>Registration Nurse</strong></h3>
+<ul>
+  <li>A healthcare professional responsible for the initial registration of pilgrims at Hajj health facilities. This includes collecting and verifying pilgrim information and initiating the health service process.</li>
+</ul>
+
+<h3 id="clinician"><strong>Clinician</strong></h3>
+<ul>
+  <li>A medical professional, such as a doctor or nurse, who provides clinical care to the pilgrim. Clinicians use the pilgrim’s health information, accessed via the healthcare system, to offer appropriate medical treatments.</li>
+</ul>
+
+<h3 id="international-patient-summary-ips"><strong>International Patient Summary (IPS)</strong></h3>
+<ul>
+  <li>A digital document that contains essential healthcare information about a patient, designed to support the continuity of care and patient safety. For Hajj pilgrims, the IPS includes basic demographics, medical history, medications, allergies, and other critical health information that can be shared across borders and healthcare systems.</li>
+</ul>
+
+<h3 id="qr-code"><strong>QR Code</strong></h3>
+<ul>
+  <li>A machine-readable optical label that contains information about the item to which it is attached. In this context, it holds encrypted data that allows healthcare providers access to a pilgrim’s IPS when scanned.</li>
+</ul>
+
+<h3 id="smart-health-link-shl"><strong>Smart Health Link (SHL)</strong></h3>
+<ul>
+  <li>A Smart Health Link is a special link that provides time-bound, password and cryptographically restricted access to a health certificate or document.</li>
+</ul>
+
+<h3 id="pin-personal-identification-number"><strong>PIN (Personal Identification Number)</strong></h3>
+<ul>
+  <li>A security feature that adds an extra layer of protection to the pilgrim’s health information. The default PIN is often the pilgrim’s birthdate, and it is used in conjunction with the QR code to access the IPS.</li>
+</ul>
+
+<h3 id="emr-electronic-medical-record"><strong>EMR (Electronic Medical Record)</strong></h3>
+<ul>
+  <li>A digital version of a patient’s paper chart, used by healthcare providers for diagnosis and treatment. In the context of the Hajj, EMRs are used by host country medical facilities to manage pilgrim care.</li>
+</ul>
+
+<h3 id="hie-health-information-exchange"><strong>HIE (Health Information Exchange)</strong></h3>
+<ul>
+  <li>The electronic sharing of health information among different organizations. In the context of the Hajj, it refers to the system that allows origin countries and the host country to exchange pilgrim health information securely.</li>
+</ul>
+
+<h3 id="verifiable-international-patient-summary-verifiable-ips"><strong>Verifiable International Patient Summary (Verifiable IPS)</strong></h3>
+<ul>
+  <li>An IPS document together with a digital signature that can be used to verify the provenance of the IPS within a Trust Network.</li>
+</ul>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/concepts.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/concepts.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/concepts.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/concepts.md", "lines": [{"t":"Key Concepts and Definitions","l":4},{"t":"Pilgrim","l":6},{"t":"Origin Country","l":9},{"t":"Host Country","l":12},{"t":"Hajj Health Facility","l":15},{"t":"Registration Nurse","l":18},{"t":"Clinician","l":21},{"t":"International Patient Summary (IPS)","l":24},{"t":"QR Code","l":27},{"t":"Smart Health Link (SHL)","l":30},{"t":"PIN (Personal Identification Number)","l":33},{"t":"EMR (Electronic Medical Record)","l":36},{"t":"HIE (Health Information Exchange)","l":39},{"t":"Verifiable International Patient Summary (Verifiable IPS)","l":42}]}</script>
+
+<script src="./assets/ig-source-links.js"></script>
+
+
+</main>
+<link rel="stylesheet" href="assets/ig-pages.css">
+<footer id="ig-footer">
+<p class="ig-footer-nav"><a href="business-requirements.html">&lt;prev</a> | <a href="#">top</a> | <a href="personas.html">next&gt;</a></p>
+<p class="ig-footer-band">IG © 2023+ <a href="http://who.int" rel="external">WHO</a>. Package <code>smart.who.int.ips-pilgrimage#2.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-07</p>
+<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="qa.html">QA Report</a> | <a href="https://spdx.org/licenses/CC-BY-SA-3.0-IGO.html" rel="external">License</a></p>
+</footer>
+
+</body>
+</html>

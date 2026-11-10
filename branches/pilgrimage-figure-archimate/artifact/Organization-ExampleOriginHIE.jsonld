@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-jsonld/v1",
+  "@id": "Organization-ExampleOriginHIE.jsonld",
+  "@type": "fhir:Organization",
+  "dcterms:identifier": "Organization/ExampleOriginHIE",
+  "dcterms:title": "ExampleOriginHIE",
+  "dcterms:description": "Ministry of Health Malaysia Health Information Exchange (example)",
+  "dcterms:type": "Other",
+  "schema:creativeWorkStatus": "materialized",
+  "schema:encoding": [
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "../ast-data/resources/Organization/ExampleOriginHIE--3269fd50.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "local"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
+    "prov:used": "3bcf8d6129bab7f6b143e70a723d759897308a23"
+  },
+  "dcterms:isPartOf": {
+    "@type": "fhir:ImplementationGuide",
+    "dcterms:identifier": "smart.who.int.ips-pilgrimage",
+    "schema:version": "2.1.0",
+    "schema:sameAs": {
+      "@id": "http://smart.who.int/ips-pilgrimage"
+    }
+  },
+  "dcterms:conformsTo": [
+    {
+      "@id": "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjOrganization"
+    }
+  ]
+}

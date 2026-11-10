@@ -1,0 +1,18 @@
+{
+  "$schema": "folio-site-build/v1",
+  "instance": "smart-ips-pilgrimage",
+  "platform": {
+    "commit": "d2e4e7ccccacd44ea3cd9540d2e5df3b43d93ddd"
+  },
+  "source": {
+    "repo": "litlfred/smart-ips-pilgrimage",
+    "ref": "claude/pilgrimage-figure-archimate",
+    "commit": "5f21c41528c635cbd471ffb8fae7344d3eff0590"
+  },
+  "builtAt": "2026-11-10T19:20:16.733Z",
+  "ast": {
+    "commit": "3bcf8d6129bab7f6b143e70a723d759897308a23",
+    "verdict": "stale-inputs",
+    "kind": "full"
+  }
+}

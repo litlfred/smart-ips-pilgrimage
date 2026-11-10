@@ -1,0 +1,567 @@
+{
+ "$schema": "process-task-panel/v1",
+ "process": "Process_HcertIssuance",
+ "markers": [
+  {
+   "id": "Task_SelectPayload",
+   "name": "Select the payload type and subclaim",
+   "left": 14.92,
+   "top": 14.86,
+   "box": {
+    "left": 11.72,
+    "top": 29.73,
+    "width": 0.93,
+    "height": 6.49
+   }
+  },
+  {
+   "id": "Task_AssemblePayload",
+   "name": "Assemble and validate the payload",
+   "left": 22.29,
+   "top": 14.86,
+   "box": {
+    "left": 19.09,
+    "top": 29.73,
+    "width": 0.93,
+    "height": 6.49
+   }
+  },
+  {
+   "id": "Task_BuildCwt",
+   "name": "Build the CWT claim set",
+   "left": 29.65,
+   "top": 14.86,
+   "box": {
+    "left": 26.45,
+    "top": 29.73,
+    "width": 0.93,
+    "height": 6.49
+   }
+  },
+  {
+   "id": "Task_EncodeCbor",
+   "name": "Serialise as deterministic CBOR",
+   "left": 37.02,
+   "top": 14.86,
+   "box": {
+    "left": 33.82,
+    "top": 29.73,
+    "width": 0.93,
+    "height": 6.49
+   }
+  },
+  {
+   "id": "Task_Prepare",
+   "name": "Prepare the Sig_structure",
+   "left": 44.38,
+   "top": 14.86,
+   "box": {
+    "left": 41.18,
+    "top": 29.73,
+    "width": 0.93,
+    "height": 6.49
+   }
+  },
+  {
+   "id": "Task_Sign",
+   "name": "Sign the bytes with the DSC key",
+   "left": 51.74,
+   "top": 63.51,
+   "box": {
+    "left": 48.55,
+    "top": 78.38,
+    "width": 0.93,
+    "height": 6.49
+   }
+  },
+  {
+   "id": "Task_Finish",
+   "name": "Attach the signature as COSE_Sign1",
+   "left": 59.11,
+   "top": 14.86,
+   "box": {
+    "left": 55.91,
+    "top": 29.73,
+    "width": 0.93,
+    "height": 6.49
+   }
+  },
+  {
+   "id": "Task_Compress",
+   "name": "Compress with ZLIB",
+   "left": 66.47,
+   "top": 14.86,
+   "box": {
+    "left": 63.28,
+    "top": 29.73,
+    "width": 0.93,
+    "height": 6.49
+   }
+  },
+  {
+   "id": "Task_Base45",
+   "name": "Encode as Base45",
+   "left": 73.84,
+   "top": 14.86,
+   "box": {
+    "left": 70.64,
+    "top": 29.73,
+    "width": 0.93,
+    "height": 6.49
+   }
+  },
+  {
+   "id": "Task_Prefix",
+   "name": "Prefix HC1:",
+   "left": 81.2,
+   "top": 14.86,
+   "box": {
+    "left": 78,
+    "top": 29.73,
+    "width": 0.93,
+    "height": 6.49
+   }
+  },
+  {
+   "id": "Task_Render",
+   "name": "Render the QR code (Alphanumeric, EC Q)",
+   "left": 88.57,
+   "top": 14.86,
+   "box": {
+    "left": 85.37,
+    "top": 29.73,
+    "width": 0.93,
+    "height": 6.49
+   }
+  }
+ ],
+ "tasks": {
+  "Task_SelectPayload": {
+   "id": "Task_SelectPayload",
+   "name": "Select the payload type and subclaim",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT issuing system",
+   "skills": [],
+   "role": {
+    "name": "hcert-issuing-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system",
+    "title": "HCERT issuing system",
+    "skills": [
+     {
+      "name": "hcert-assemble-payload"
+     },
+     {
+      "name": "hcert-build-cwt"
+     },
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-select-payload"
+     },
+     {
+      "name": "hcert-sign-cose"
+     },
+     {
+      "name": "hcert-trust-list"
+     }
+    ]
+   }
+  },
+  "Task_AssemblePayload": {
+   "id": "Task_AssemblePayload",
+   "name": "Assemble and validate the payload",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT issuing system",
+   "skills": [],
+   "role": {
+    "name": "hcert-issuing-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system",
+    "title": "HCERT issuing system",
+    "skills": [
+     {
+      "name": "hcert-assemble-payload"
+     },
+     {
+      "name": "hcert-build-cwt"
+     },
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-select-payload"
+     },
+     {
+      "name": "hcert-sign-cose"
+     },
+     {
+      "name": "hcert-trust-list"
+     }
+    ]
+   }
+  },
+  "Task_BuildCwt": {
+   "id": "Task_BuildCwt",
+   "name": "Build the CWT claim set",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT issuing system",
+   "skills": [],
+   "role": {
+    "name": "hcert-issuing-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system",
+    "title": "HCERT issuing system",
+    "skills": [
+     {
+      "name": "hcert-assemble-payload"
+     },
+     {
+      "name": "hcert-build-cwt"
+     },
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-select-payload"
+     },
+     {
+      "name": "hcert-sign-cose"
+     },
+     {
+      "name": "hcert-trust-list"
+     }
+    ]
+   }
+  },
+  "Task_EncodeCbor": {
+   "id": "Task_EncodeCbor",
+   "name": "Serialise as deterministic CBOR",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT issuing system",
+   "skills": [],
+   "role": {
+    "name": "hcert-issuing-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system",
+    "title": "HCERT issuing system",
+    "skills": [
+     {
+      "name": "hcert-assemble-payload"
+     },
+     {
+      "name": "hcert-build-cwt"
+     },
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-select-payload"
+     },
+     {
+      "name": "hcert-sign-cose"
+     },
+     {
+      "name": "hcert-trust-list"
+     }
+    ]
+   }
+  },
+  "Task_Prepare": {
+   "id": "Task_Prepare",
+   "name": "Prepare the Sig_structure",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT issuing system",
+   "skills": [],
+   "role": {
+    "name": "hcert-issuing-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system",
+    "title": "HCERT issuing system",
+    "skills": [
+     {
+      "name": "hcert-assemble-payload"
+     },
+     {
+      "name": "hcert-build-cwt"
+     },
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-select-payload"
+     },
+     {
+      "name": "hcert-sign-cose"
+     },
+     {
+      "name": "hcert-trust-list"
+     }
+    ]
+   }
+  },
+  "Task_Sign": {
+   "id": "Task_Sign",
+   "name": "Sign the bytes with the DSC key",
+   "type": "bpmn:ServiceTask",
+   "lane": "Signing key holder",
+   "skills": [],
+   "role": {
+    "name": "hcert-key-holder",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-key-holder",
+    "title": "Signing key holder",
+    "skills": [
+     {
+      "name": "hcert-sign-cose"
+     }
+    ]
+   }
+  },
+  "Task_Finish": {
+   "id": "Task_Finish",
+   "name": "Attach the signature as COSE_Sign1",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT issuing system",
+   "skills": [],
+   "role": {
+    "name": "hcert-issuing-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system",
+    "title": "HCERT issuing system",
+    "skills": [
+     {
+      "name": "hcert-assemble-payload"
+     },
+     {
+      "name": "hcert-build-cwt"
+     },
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-select-payload"
+     },
+     {
+      "name": "hcert-sign-cose"
+     },
+     {
+      "name": "hcert-trust-list"
+     }
+    ]
+   }
+  },
+  "Task_Compress": {
+   "id": "Task_Compress",
+   "name": "Compress with ZLIB",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT issuing system",
+   "skills": [],
+   "role": {
+    "name": "hcert-issuing-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system",
+    "title": "HCERT issuing system",
+    "skills": [
+     {
+      "name": "hcert-assemble-payload"
+     },
+     {
+      "name": "hcert-build-cwt"
+     },
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-select-payload"
+     },
+     {
+      "name": "hcert-sign-cose"
+     },
+     {
+      "name": "hcert-trust-list"
+     }
+    ]
+   }
+  },
+  "Task_Base45": {
+   "id": "Task_Base45",
+   "name": "Encode as Base45",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT issuing system",
+   "skills": [],
+   "role": {
+    "name": "hcert-issuing-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system",
+    "title": "HCERT issuing system",
+    "skills": [
+     {
+      "name": "hcert-assemble-payload"
+     },
+     {
+      "name": "hcert-build-cwt"
+     },
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-select-payload"
+     },
+     {
+      "name": "hcert-sign-cose"
+     },
+     {
+      "name": "hcert-trust-list"
+     }
+    ]
+   }
+  },
+  "Task_Prefix": {
+   "id": "Task_Prefix",
+   "name": "Prefix HC1:",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT issuing system",
+   "skills": [],
+   "role": {
+    "name": "hcert-issuing-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system",
+    "title": "HCERT issuing system",
+    "skills": [
+     {
+      "name": "hcert-assemble-payload"
+     },
+     {
+      "name": "hcert-build-cwt"
+     },
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-select-payload"
+     },
+     {
+      "name": "hcert-sign-cose"
+     },
+     {
+      "name": "hcert-trust-list"
+     }
+    ]
+   }
+  },
+  "Task_Render": {
+   "id": "Task_Render",
+   "name": "Render the QR code (Alphanumeric, EC Q)",
+   "type": "bpmn:ServiceTask",
+   "lane": "HCERT issuing system",
+   "skills": [],
+   "role": {
+    "name": "hcert-issuing-system",
+    "href": "../../../cat-harness/auto-docs/index/roles/index.html#a-smart-trust-tools-scenarios-roles-json-hcert-issuing-system",
+    "title": "HCERT issuing system",
+    "skills": [
+     {
+      "name": "hcert-assemble-payload"
+     },
+     {
+      "name": "hcert-build-cwt"
+     },
+     {
+      "name": "hcert-compress"
+     },
+     {
+      "name": "hcert-encode-base45"
+     },
+     {
+      "name": "hcert-encode-cbor"
+     },
+     {
+      "name": "hcert-prefix-context"
+     },
+     {
+      "name": "hcert-select-payload"
+     },
+     {
+      "name": "hcert-sign-cose"
+     },
+     {
+      "name": "hcert-trust-list"
+     }
+    ]
+   }
+  }
+ }
+}

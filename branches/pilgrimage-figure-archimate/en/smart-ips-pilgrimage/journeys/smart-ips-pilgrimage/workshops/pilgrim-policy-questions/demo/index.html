@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" data-presenter="on">
+<head>
+<meta name="rendered-by" content="journeys-viewer">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Device Demo — The pilgrim&#39;s Hajj: the policy questions</title>
+<meta name="folio-navbar" content="none">
+<link rel="stylesheet" href="../../../../assets/present.css">
+<script>try{if(localStorage.getItem("jp:presenter")==="off")document.documentElement.setAttribute("data-presenter","off")}catch(_){}</script>
+<script src="../../../../assets/present.js" defer></script>
+
+
+
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="../../../../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../../../../assets/page-layout.js" defer data-fa-page-layout></script><link rel="stylesheet" href="../../../../../../../assets/ig-artifact.css"></head>
+<body class="jp jp-demo"><div data-fa-staging-banner lang="en" dir="ltr" style="background:#4F6F52;color:#fff;padding:8px 16px;font-size:14px;text-align:center;position:fixed;top:0;left:0;right:0;box-sizing:border-box;z-index:2147483001;font-family:system-ui">🔀 <b>FEATURE BRANCH</b> <span data-fa-staging-detail>— loading build details…</span></div><style>:root{--fa-staging-offset:0px}body{margin:0}.side-bar,.fa-nav{top:var(--fa-staging-offset,0px)!important}html{padding-top:var(--fa-staging-offset,0px)}</style><script>(function(){
+function el(t,a,x){var e=document.createElement(t);if(a)for(var k in a)e.setAttribute(k,a[k]);if(x!=null)e.textContent=x;return e;}
+function link(href,text,extra){var a=el('a',{href:href,style:'color:#fff;text-decoration:underline'},text);if(extra)a.setAttribute('style',a.getAttribute('style')+';'+extra);return a;}
+function chip(text){return el('span',{style:"font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:rgba(0,0,0,.22);color:#fff;padding:1px 6px;border-radius:3px"},text);}
+function sep(){return document.createTextNode(' \u00b7 ');}
+function root(){var m=location.pathname.match(/^(.*\/(?:branches|STAGING)\/[^/]+\/)/);return m?m[1]:null;}
+// Release or preview (owner, 2026-11-05): a full build is a release and is
+// drawn purple, a preview green. Set here from staging.json, not in the
+// fragment, so the fragment stays byte-identical on every build.
+function kind(f){if(f.buildType!=='full')return;var b=document.querySelector('[data-fa-staging-banner]');if(!b)return;b.style.background="#6B3FA0";b.setAttribute('data-fa-build-type','full');var t=b.querySelector('b');if(t)t.textContent='RELEASE BUILD';}
+function measure(){var b=document.querySelector('[data-fa-staging-banner]');if(!b)return;document.documentElement.style.setProperty('--fa-staging-offset',b.getBoundingClientRect().height+'px');}
+function fill(d,f,r){
+  kind(f);
+  while(d.firstChild)d.removeChild(d.firstChild);
+  d.appendChild(document.createTextNode('\u2014 '));
+  var b=link(f.branchUrl,'');b.appendChild(chip(f.branch));d.appendChild(b);
+  var rv=el('span',{'data-fa-staging-review':''});d.appendChild(rv);
+  d.appendChild(sep());d.appendChild(document.createTextNode('commit '));d.appendChild(chip(f.sha));
+  d.appendChild(sep());d.appendChild(document.createTextNode('built '+f.built));
+  d.appendChild(sep());d.appendChild(link(f.prUrl,f.pr&&f.pr!=='n/a'?'PR #'+f.pr:'no open PR found'));
+  if(f.issue){d.appendChild(sep());d.appendChild(link(f.issueUrl,'issue #'+f.issue));}
+  d.appendChild(sep());
+  var rel=location.pathname.slice(r.length);
+  if(rel===''||rel.charAt(rel.length-1)==='/')rel+='index.html';
+  if(!f.mainPagesKnown){
+    d.appendChild(link(f.mainSite+'/','compare with '+(f.beforeRef||'main')+' \u2197'));
+  }else if(f.newPages.indexOf(rel)>=0){
+    d.appendChild(link(f.mainSite+'/',(f.beforeRef||'main')+' \u2197'));
+    d.appendChild(document.createTextNode(' '));
+    d.appendChild(el('span',{style:'opacity:.85'},'(new page)'));
+  }else{
+    d.appendChild(link(f.mainSite+'/'+rel,'compare with '+(f.beforeRef||'main')+' \u2197'));
+  }
+  d.appendChild(sep());d.appendChild(link(f.runUrl,'build log'));
+  if(f.checksUrl){d.appendChild(sep());d.appendChild(link(f.checksUrl,'CI results'));}
+  stamp(f);
+  measure();
+  fresh(d,f);
+  review(rv,r,rel);
+}
+// The preview's review page (owner, 2026-11-01, Q-REV-1): reviewers could not
+// find it from a staging page. A folio writes it at <root>/<locale>/review/,
+// an IG at <root>/review/. Asked with HEAD, which the staging worker passes
+// through, so a 404 here is not answered with the live site's page. No review
+// page, no link.
+function review(s,r,rel){
+  if(typeof fetch!=='function')return;
+  var c=[],m=rel.match(/^([a-z]{2,3}(?:-[A-Za-z0-9]+)?)\//);
+  if(m)c.push(r+m[1]+'/review/');
+  c.push(r+'review/');
+  (function next(i){
+    if(i>=c.length)return;
+    fetch(c[i]+'index.html',{method:'HEAD',cache:'no-store'}).then(function(x){
+      if(!x.ok)return next(i+1);
+      s.appendChild(sep());
+      s.appendChild(link(c[i],'\ud83d\udd0d Review changes','font-weight:bold'));
+      measure();
+    }).catch(function(){next(i+1);});
+  })(0);
+}
+// Live staleness (owner, 2026-10-31, option C): ask GitHub for the branch's
+// head now and say so when it has moved past the commit this preview was
+// built from. Unauthenticated, one request per page view; on any failure
+// (rate limit, offline, a deleted branch) it says nothing rather than guess.
+function fresh(d,f){
+  var m=String(f.branchUrl||'').match(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\//);
+  if(!m||!f.branch||!f.sha||typeof fetch!=='function')return;
+  fetch('https://api.github.com/repos/'+m[1]+'/'+m[2]+'/commits/'+encodeURIComponent(f.branch),
+    {headers:{Accept:'application/vnd.github.sha'},cache:'no-store'})
+    .then(function(x){if(!x.ok)throw 0;return x.text();})
+    .then(function(head){
+      head=String(head).trim();
+      if(!/^[0-9a-f]{7,40}$/.test(head)||head.indexOf(f.sha)===0)return;
+      d.appendChild(sep());
+      var w=el('strong',{'data-fa-staging-stale':'',style:'background:#b00020;padding:0 .4em;border-radius:3px'},'\u26a0 stale: the branch is now at ');
+      w.appendChild(chip(head.slice(0,7)));
+      w.appendChild(document.createTextNode(', newer than this preview'));
+      d.appendChild(w);measure();
+    }).catch(function(){});
+}
+function stamp(f){
+  var p=document.querySelector('.fa-build-stamp');if(!p)return;
+  while(p.firstChild)p.removeChild(p.firstChild);
+  p.appendChild(document.createTextNode('deployed '));
+  var a=link(f.runUrl,'');a.appendChild(el('code',null,f.sha));p.appendChild(a);
+  p.appendChild(document.createTextNode(' · '+f.built));
+}
+function go(){
+  measure();
+  var d=document.querySelector('[data-fa-staging-detail]');if(!d)return;
+  var r=root();
+  if(!r){d.textContent='\u2014 build details unavailable (not served from a preview path)';return;}
+  fetch(r+'staging.json',{cache:'no-store'}).then(function(x){if(!x.ok)throw 0;return x.json();})
+    .then(function(f){fill(d,f,r);})
+    .catch(function(){d.textContent='\u2014 build details unavailable';measure();});
+}
+// First visit to a preview: the shared stylesheets 404 until the worker is
+// in control, so the page would paint unstyled (a page-wide search icon) for
+// the moment before the reload. Hide it until then, only when a stylesheet
+// in the head actually failed, and show it again if no reload comes.
+function unstyled(){var l=document.querySelectorAll('link[rel="stylesheet"]');for(var i=0;i<l.length;i++){if(l[i].disabled)continue;try{if(!l[i].sheet||!l[i].sheet.cssRules.length)return true;}catch(e){}}return false;}
+function share(){
+  var r=root();if(!r||!('serviceWorker' in navigator))return;
+  var k='fa-share:'+r,s=document.documentElement.style;
+  var hide=!navigator.serviceWorker.controller&&!sessionStorage.getItem(k)&&unstyled();
+  function show(){if(hide){hide=false;s.removeProperty('visibility');}}
+  if(hide){s.setProperty('visibility','hidden');setTimeout(show,4000);}
+  navigator.serviceWorker.register(r+'staging-sw.js',{scope:r}).then(function(){
+    if(navigator.serviceWorker.controller||sessionStorage.getItem(k))return show();
+    return navigator.serviceWorker.ready.then(function(){sessionStorage.setItem(k,'1');location.reload();});
+  }).catch(show);
+}
+measure();share();
+if(document.readyState!=='loading')go();else document.addEventListener('DOMContentLoaded',go);
+window.addEventListener('resize',measure);window.addEventListener('load',measure);
+})();</script>
+<header class="ig-search-top fa-page-bar"><a class="ig-search-home" href="../../../../../../../index.html">SMART Verifiable IPS for Pilgrimage</a><form class="ig-search" role="search" data-ig-search-index="../../../../../../../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span></header>
+<header class="jp-head">
+<div class="jp-top">
+<div class="jp-top-l"><span>The pilgrim&#39;s Hajj: the policy questions</span><span class="jp-range">P0 → P7</span></div>
+<div class="jp-top-r"><button type="button" class="jp-presenter-btn" data-jp-presenter title="Show or hide the presenter's notes"><svg class="jp-i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg><span class="jp-on-only">Presenter Mode: ON</span><span class="jp-off-only">Presenter Notes</span></button></div>
+</div>
+<div class="jp-app">
+<div class="jp-brand"><span class="jp-logo" aria-hidden="true">T</span><div><div class="jp-brand-name"><span class="jp-name">The pilgrim&#39;s Hajj: the policy questions</span></div></div></div>
+<div class="jp-mode"><a href="../overview/"><svg class="jp-i jp-rose" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="5" r="2.5"/><path d="M8.5 19H17a3.5 3.5 0 0 0 0-7H7a3.5 3.5 0 0 1 0-7h8.5"/></svg><span>Journeys</span></a><a class="is-on" aria-current="page" href="../demo/"><svg class="jp-i jp-sky" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg><span>Device Demo</span></a></div>
+<div class="jp-links"></div>
+</div>
+</header>
+
+<main class="jp-main"><div class="jp-wrap">
+
+<section class="jp-vhead"><h2>Device Demo: what each person sees</h2><p>One screen per moment: what each person sees on their own device. A screen opens with the moments it shows, and each moment links back to it.</p></section>
+<div class="jp-screens"><a class="jp-card jp-screen" href="P1-gp/"><span class="jp-screen-i"><svg class="jp-i jp-i-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M11 18h2"/></svg></span><span><b class="jp-mono">P1-gp</b> Dr Aisyah explains who can see it, and for how long</span><span class="jp-screen-who"><span class="jp-av jp-av-sm" style="--c:#d97706" title="Dr Aisyah" aria-hidden="true">DA</span><small>Dr Aisyah · Tablet</small></span><small>P1 The health check and the choice to share</small><small class="jp-try">Ask the room who should explain consent, and who records it</small></a><a class="jp-card jp-screen" href="P1-wallet/"><span class="jp-screen-i"><svg class="jp-i jp-i-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span><span><b class="jp-mono">P1-wallet</b> Kamal agrees to share, on his phone</span><span class="jp-screen-who"><span class="jp-av jp-av-sm" style="--c:#059669" title="Kamal" aria-hidden="true">K</span><small>Kamal · Phone</small></span><small>P1 The health check and the choice to share</small></a><a class="jp-card jp-screen" href="P2/"><span class="jp-screen-i"><svg class="jp-i jp-i-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span><span><b class="jp-mono">P2</b> His signed summary, as a QR code</span><span class="jp-screen-who"><span class="jp-av jp-av-sm" style="--c:#059669" title="Kamal" aria-hidden="true">K</span><small>Kamal · Phone</small></span><small>P2 His summary is assembled and signed</small></a><a class="jp-card jp-screen" href="P4-emr/"><span class="jp-screen-i"><svg class="jp-i jp-i-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><span><b class="jp-mono">P4-emr</b> Passcode entered, signature verified</span><span class="jp-screen-who"><span class="jp-av jp-av-sm" style="--c:#65a30d" title="Nurse Reem" aria-hidden="true">NR</span><small>Nurse Reem · Computer</small></span><small>P4 Scanned and checked</small><small class="jp-try">Ask the room where the key came from, and who decided to trust it</small></a><a class="jp-card jp-screen" href="P4-phone/"><span class="jp-screen-i"><svg class="jp-i jp-i-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span><span><b class="jp-mono">P4-phone</b> Kamal shows his code</span><span class="jp-screen-who"><span class="jp-av jp-av-sm" style="--c:#059669" title="Kamal" aria-hidden="true">K</span><small>Kamal · Phone</small></span><small>P4 Scanned and checked</small></a><a class="jp-card jp-screen" href="P4-scanner/"><span class="jp-screen-i"><svg class="jp-i jp-i-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 2h10l1 9H6zM9 11l-1 11h5l1-11M10 5h4"/></svg></span><span><b class="jp-mono">P4-scanner</b> Nurse Reem scans the code</span><span class="jp-screen-who"><span class="jp-av jp-av-sm" style="--c:#65a30d" title="Nurse Reem" aria-hidden="true">NR</span><small>Nurse Reem · Scanner</small></span><small>P4 Scanned and checked</small></a><a class="jp-card jp-screen" href="P5/"><span class="jp-screen-i"><svg class="jp-i jp-i-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M11 18h2"/></svg></span><span><b class="jp-mono">P5</b> Dr Faisal reads the record kept in Malaysia</span><span class="jp-screen-who"><span class="jp-av jp-av-sm" style="--c:#2563eb" title="Dr Faisal" aria-hidden="true">DF</span><small>Dr Faisal · Tablet</small></span><small>P5 His record is read and he is treated</small></a><a class="jp-card jp-screen" href="P6/"><span class="jp-screen-i"><svg class="jp-i jp-i-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span><span><b class="jp-mono">P6</b> Break the glass: only a registration number</span><span class="jp-screen-who"><span class="jp-av jp-av-sm" style="--c:#db2777" title="Dr Hafiz" aria-hidden="true">DH</span><small>Dr Hafiz · Phone</small></span><small>P6 When he cannot show the code</small><small class="jp-try">Ask the room who may break the glass, and who is told afterwards</small></a><a class="jp-card jp-screen" href="P7/"><span class="jp-screen-i"><svg class="jp-i jp-i-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><span><b class="jp-mono">P7</b> Back home: no record of the care abroad</span><span class="jp-screen-who"><span class="jp-av jp-av-sm" style="--c:#d97706" title="Dr Aisyah" aria-hidden="true">DA</span><small>Dr Aisyah · Computer</small></span><small>P7 Back home</small><small class="jp-try">Ask the room what should come home, and to whom</small></a></div>
+</div></main>
+
+<footer class="jp-foot">Drawn by the journeys viewer from the <code>workshop</code>, <code>user-scenario</code> and <code>device-screen</code> nodes of smart-ips-pilgrimage. Every person is fictional.</footer>
+<script src="../../../../../../../assets/ig-search.js" defer></script>
+</body>
+</html>
