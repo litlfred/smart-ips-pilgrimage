@@ -119,14 +119,18 @@ def build():
     for r in roles:
         k = r["id"]
         props = {"role": f"scenarios/roles.json#{k}"}
+        # The IG's own name for the role, from its otherNames: "Host Country EMR (IG system actor HCEMR)".
+        ig = next((re.match(r"^(.*) \((IG [^)]*)\)$", n) for n in r.get("otherNames", []) if re.match(r"^(.*) \((IG [^)]*)\)$", n)), None)
+        if ig:
+            props["igActor"] = ig.group(2)
         if "person" in r["actorKinds"]:
-            els[k] = ("BusinessRole", r["title"], r["description"], {**props, "page": IG + "personas.html"})
+            els[k] = ("BusinessRole", ig.group(1) if ig else r["title"], r["description"], {**props, "page": IG + "personas.html"})
         else:
             name, page, ra = SYSTEMS[k]
             props["page"] = page if page.startswith("http") else IG + page
             for i, a in enumerate(ra):
                 props[f"smartRaActor{i + 1 if len(ra) > 1 else ''}"] = a
-            els[k] = ("ApplicationComponent", name, r["description"], props)
+            els[k] = ("ApplicationComponent", ig.group(1) if ig else name, r["description"], props)
 
     for k, (name, _) in COUNTRIES.items():
         els[k] = ("Location", name, f"Where the figure's {name} side is.", {})

@@ -17,7 +17,7 @@
   },
   "_overrides_comment": "2026-10-15: expo is reached only through fhir-harness's fhirclient -> isomorphic-webcrypto -> optional expo-random, whose peer is expo. expo's latest release asks for @expo/cli ^58.1.9, which npm does not have (58.1.8 is the newest), so an install with no lockfile, as stage-local runs it, fails to resolve. Pinned to 57.0.29, the version folio-assistant's bun.lock resolves. Drop the pin once @expo/cli 58.1.9 is published.",
   "scripts": {
-    "check:archimate": "python3 -I archimate/build.py --check && bun run cat-harness-tools/archimate/scripts/check-archimate.ts --instance .",
+    "check:archimate": "python3 -I archimate/build.py --check && python3 -I archimate/pretty.py --check && bun run cat-harness-tools/archimate/scripts/check-archimate.ts --instance .",
     "check:journey-cards": "bun input/scripts/journey-cards.ts --check"
   }
 }
