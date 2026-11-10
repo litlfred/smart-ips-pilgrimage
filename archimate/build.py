@@ -62,15 +62,17 @@ SYSTEMS = {
 # height). A box inside a country is placed inside that country's Location.
 COUNTRIES = {
     "home-country": ("Home Country", (10, 40, 550, 500)),
-    "ksa": ("KSA", (760, 40, 510, 500)),
+    "ksa": ("KSA", (720, 40, 550, 500)),
 }
+# Mirrored about the pilgrim's centre line, as the original is, so that flows
+# 2 and 4, and A and B, run at the same angle (45 degrees).
 PLACES = {
     "pilgrim": (None, (570, 85, 140, 60)),
-    "origin-wallet": ("home-country", (40, 95, 180, 60)),
-    "origin-hie": ("home-country", (240, 360, 280, 70)),
-    "host-health-worker": ("ksa", (1080, 95, 170, 60)),
-    "host-emr": ("ksa", (860, 360, 190, 70)),
-    "trust-network": (None, (545, 610, 220, 60)),
+    "origin-wallet": ("home-country", (40, 85, 180, 60)),
+    "origin-hie": ("home-country", (240, 330, 280, 70)),
+    "host-health-worker": ("ksa", (1065, 85, 170, 60)),
+    "host-emr": ("ksa", (805, 330, 190, 70)),
+    "trust-network": (None, (530, 595, 220, 60)),
 }
 
 # The numbered flows, as printed (the figure's two lines joined), with the

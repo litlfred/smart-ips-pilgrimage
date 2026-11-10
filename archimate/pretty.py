@@ -97,12 +97,19 @@ def read():
     return elements, rels, boxes, lines
 
 
-def clip(cx, cy, tx, ty, w, h, gap):
-    """Where the line from a box's centre towards (tx, ty) leaves the box, plus a gap."""
+def clip(cx, cy, tx, ty, rect, gap):
+    """Where the line from (cx, cy) towards (tx, ty) leaves rect (its centre, width, height), plus a gap.
+    The line runs between the elements' own centres, so mirrored elements give mirrored angles."""
+    rx, ry, w, h = rect
     dx, dy = tx - cx, ty - cy
-    s = min((w / 2) / abs(dx) if dx else math.inf, (h / 2) / abs(dy) if dy else math.inf)
+    ts = []
+    if dx:
+        ts.append(((rx + (w / 2 if dx > 0 else -w / 2)) - cx) / dx)
+    if dy:
+        ts.append(((ry + (h / 2 if dy > 0 else -h / 2)) - cy) / dy)
+    t = min(ts)
     d = math.hypot(dx, dy)
-    return cx + dx * s + dx / d * gap, cy + dy * s + dy / d * gap
+    return cx + dx * t + dx / d * gap, cy + dy * t + dy / d * gap
 
 
 def draw():
@@ -143,21 +150,19 @@ def draw():
         colour = GREEN if role == "trust-network" else INK
         rows = textwrap.wrap(name, 22)
         label = "".join(f'<tspan x="{cx}" dy="{0 if i == 0 else 17}">{esc(t)}</tspan>' for i, t in enumerate(rows))
-        actor = props.get("igActor")
         ih = ICON_H.get(role, 84)
         icy = cy - 18 + (84 - ih) / 4
         ly0 = icy + ih / 2 + 10
         # what an arrow keeps clear of: the pictogram and its label below it
-        top, bottom = icy - ih / 2, ly0 + 12 + 17 * len(rows)
+        top, bottom = icy - ih / 2, ly0 + 17 * len(rows) - 4
         iw = ICONS[role]["w"] * ih / ICONS[role]["h"] if role in ICONS else w
-        centre[oid] = (cx, (top + bottom) / 2, max(iw, 160), bottom - top)
-        sub = (f'<text x="{cx}" y="{ly0 + 6 + 17 * len(rows):.1f}" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555">'
-               f'{esc(actor)} · role {esc(role)}</text>') if actor else (
-               f'<text x="{cx}" y="{ly0 + 6 + 17 * len(rows):.1f}" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555">role {esc(role)}</text>')
+        centre[oid] = ((cx, cy), (cx, (top + bottom) / 2, max(iw, 160), bottom - top))
+        sub = ""
         body = ((icon(role, cx, icy, ih) if role in ICONS else "")
                 + f'<text x="{cx}" y="{ly0 + 6:.1f}" text-anchor="middle" font-size="14" font-weight="700" letter-spacing=".2" fill="{colour}">{label}</text>{sub}')
         page = props.get("page")
-        tip = f"<title>{esc(name)} (role {esc(role)}, scenarios/roles.json)</title>"
+        actor = props.get("igActor")
+        tip = f"<title>{esc(name)}{' (' + esc(actor) + ')' if actor else ''}: role {esc(role)}</title>"
         out.append(f'<a href="{esc(rel_link(page))}" target="_top">{tip}{body}</a>' if page else f"<g>{tip}{body}</g>")
 
     # The flows: an arrow each, with its step in a circle and its label as printed.
@@ -168,9 +173,9 @@ def draw():
         step = props.get("step", "")
         green = step.isalpha()
         colour, text_colour = (GREEN, GREEN) if green else (BLUE, BLUE_TEXT)
-        (sx, sy, sw, sh), (tx, ty, tw, th) = centre[s], centre[t]
-        x1, y1 = clip(sx, sy, tx, ty, sw, sh, 10)
-        x2, y2 = clip(tx, ty, sx, sy, tw, th, 10)
+        ((sx, sy), srect), ((tx, ty), trect) = centre[s], centre[t]
+        x1, y1 = clip(sx, sy, tx, ty, srect, 10)
+        x2, y2 = clip(tx, ty, sx, sy, trect, 10)
         if abs(y2 - y1) < 0.2 * abs(x2 - x1):
             # a nearly level flow is drawn level, as the original draws it
             y1 = y2 = (y1 + y2) / 2
@@ -209,7 +214,8 @@ def draw():
         left = lx - (width / 2 if anchor == "middle" else width if anchor == "end" else 0)
         tx0 = left + width - tw
         lab = "".join(f'<tspan x="{tx0:.1f}" dy="{0 if i == 0 else 19}">{esc(w_)}</tspan>' for i, w_ in enumerate(wrapped))
-        block = ((icon(badge, left + bw / 2, ly - 12 + bh / 2, bh) if badge else "")
+        block = (f'<rect x="{left - 6:.1f}" y="{ly - 18:.1f}" width="{width + 12:.1f}" height="{19 * rows + 8:.1f}" rx="6" fill="#fff" fill-opacity=".85"/>'
+                 + (icon(badge, left + bw / 2, ly - 12 + bh / 2, bh) if badge else "")
                  + f'<text x="{tx0:.1f}" y="{ly:.1f}" font-size="15" letter-spacing=".3" fill="{text_colour}">{lab}</text>')
         tx_ = props.get("transaction")
         if tx_:
