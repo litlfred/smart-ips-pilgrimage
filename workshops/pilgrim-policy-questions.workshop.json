@@ -174,7 +174,9 @@
     ],
     "ig": {
       "href": "",
-      "processes": "business-processes.html"
+      "processes": "business-processes.html",
+      "example": "artifact/{type}-{id}.html",
+      "profile": "artifact/StructureDefinition-{id}.html"
     },
     "views": [
       {
