@@ -65,7 +65,7 @@ COUNTRIES = {
     "ksa": ("KSA", (760, 40, 510, 500)),
 }
 PLACES = {
-    "pilgrim": (None, (585, 85, 140, 60)),
+    "pilgrim": (None, (570, 85, 140, 60)),
     "origin-wallet": ("home-country", (40, 95, 180, 60)),
     "origin-hie": ("home-country", (240, 360, 280, 70)),
     "host-health-worker": ("ksa", (1080, 95, 170, 60)),

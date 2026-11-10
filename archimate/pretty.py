@@ -45,14 +45,15 @@ W, H = 1280, 760
 # How each role looks: archimate/icons.json, traced from the original figure
 # (smoothed, sharpened, then outlined), the GDHCN logo and the IPS logo.
 ICONS = {k: v for k, v in json.loads((ROOT / "archimate/icons.json").read_text(encoding="utf-8")).items() if not k.startswith("_")}
-ICON_H = {"pilgrim": 100, "trust-network": 120, "origin-hie": 96, "host-emr": 74}
+ICON_H = {"pilgrim": 100, "trust-network": 120, "origin-hie": 150, "host-emr": 74}
 
 
 def icon(name, cx, cy, height):
-    """The named pictogram scaled to the given height, centred on (cx, cy)."""
+    """The named pictogram scaled to the given height, centred on (cx, cy); an icon with
+    an anchor ("cx", such as the pilgrim's head) puts that anchor at cx instead."""
     i = ICONS[name]
     k = height / i["h"]
-    return f'<g transform="translate({cx - i["w"] * k / 2:.1f} {cy - height / 2:.1f}) scale({k:.4f})">{i["svg"]}</g>'
+    return f'<g transform="translate({cx - i.get("cx", i["w"] / 2) * k:.1f} {cy - height / 2:.1f}) scale({k:.4f})">{i["svg"]}</g>'
 
 
 def esc(s):
@@ -114,6 +115,7 @@ def draw():
            f'<marker id="wf-a-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="{GREEN}"/></marker></defs>',
            '<rect width="100%" height="100%" fill="#fff"/>']
 
+    VIEW_PAGE = f"en/smart-ips-pilgrimage/archimate/{version()}/views/overview-of-key-process-flows/"
     # The countries: a dashed Y between them, and each one's name, large, at its outer edge.
     locs = [(elements[e][1], x, y, w, h) for e, x, y, w, h in boxes.values() if elements[e][0] == "Location"]
     gdhcn = next((b for b in boxes.values() if elements[b[0]][2].get("role", "").endswith("#trust-network")), None)
@@ -125,9 +127,10 @@ def draw():
         tx = x + 20 if left else x + w - 20
         words = name.split()
         lines_ = [" ".join(words[: len(words) // 2 or 1]), " ".join(words[len(words) // 2 or 1:])] if len(words) > 1 else words
-        out.append(f'<text x="{tx}" y="{y + h * 0.66}" text-anchor="{"start" if left else "end"}" font-size="30" font-weight="700" fill="{BLUE}">'
+        out.append(f'<a href="{VIEW_PAGE}" target="_top"><title>{esc(name)}: the ArchiMate view of these flows</title>'
+                   f'<text x="{tx}" y="{y + h * 0.66}" text-anchor="{"start" if left else "end"}" font-size="30" font-weight="700" fill="{BLUE}">'
                    + "".join(f'<tspan x="{tx}" dy="{0 if i == 0 else 34}">{esc(t)}</tspan>' for i, t in enumerate(l for l in lines_ if l))
-                   + "</text>")
+                   + "</text></a>")
 
     # The roles: a pictogram each, named as the IG names the actor or persona, linked to its page.
     centre = {}
@@ -137,8 +140,6 @@ def draw():
             continue
         role = props.get("role", "").split("#")[-1]
         cx, cy = x + w / 2, y + h / 2
-        # what an arrow keeps clear of: the pictogram and its two lines of label below it
-        centre[oid] = (cx, cy + 14, max(w, 160), h + 70)
         colour = GREEN if role == "trust-network" else INK
         rows = textwrap.wrap(name, 22)
         label = "".join(f'<tspan x="{cx}" dy="{0 if i == 0 else 17}">{esc(t)}</tspan>' for i, t in enumerate(rows))
@@ -146,6 +147,10 @@ def draw():
         ih = ICON_H.get(role, 84)
         icy = cy - 18 + (84 - ih) / 4
         ly0 = icy + ih / 2 + 10
+        # what an arrow keeps clear of: the pictogram and its label below it
+        top, bottom = icy - ih / 2, ly0 + 12 + 17 * len(rows)
+        iw = ICONS[role]["w"] * ih / ICONS[role]["h"] if role in ICONS else w
+        centre[oid] = (cx, (top + bottom) / 2, max(iw, 160), bottom - top)
         sub = (f'<text x="{cx}" y="{ly0 + 6 + 17 * len(rows):.1f}" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555">'
                f'{esc(actor)} · role {esc(role)}</text>') if actor else (
                f'<text x="{cx}" y="{ly0 + 6 + 17 * len(rows):.1f}" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555">role {esc(role)}</text>')
@@ -186,32 +191,34 @@ def draw():
                 nx, ny = -nx, -ny
         elif ny > 0 or (abs(ny) < 1e-6 and nx > 0):
             nx, ny = -nx, -ny
+        # The narrative is one block, linked to its transaction (or its moment): what the flow
+        # carries, as the original shows it, first (a key for the trust lists, a QR code for the
+        # IPS), as tall as the text beside it. The transaction code is in the link, not printed.
         text = re.sub(r"^\w+\.\s*", "", name)
         wrapped = textwrap.wrap(text, 34)
-        tx_ = props.get("transaction")
-        code = tx_.split("TRANSACTION-")[-1] if tx_ else None
-        rows = len(wrapped) + (1 if code else 0)
+        rows = len(wrapped)
         lx = mx + nx * 48
         # the block's near edge sits 26px from the arrow; first baseline 12px below its top
         ly = my + ny * 26 + 12 - (rows * 19 if ny < -0.3 else 0 if ny > 0.3 else rows * 9.5)
         anchor = "middle" if abs(nx) < 0.5 else ("start" if nx > 0 else "end")
-        lab = "".join(f'<tspan x="{lx:.1f}" dy="{0 if i == 0 else 19}">{esc(w_)}</tspan>' for i, w_ in enumerate(wrapped))
-        out.append(f'<text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" font-size="15" letter-spacing=".3" fill="{text_colour}">{lab}</text>')
-        if code:
-            cy_ = ly + 19 * len(wrapped)
-            out.append(f'<a href="{esc(rel_link(tx_))}" target="_top"><title>Transaction {esc(code)} (IPS.HAJJ.TRANSACTION)</title>'
-                       f'<text x="{lx:.1f}" y="{cy_:.1f}" text-anchor="{anchor}" font-size="12" fill="{text_colour}" font-style="italic">{esc(code)}</text></a>')
-        # what the flow carries, as the original shows it: a key for the trust lists, a QR code for the IPS
         badge = "key" if green else "qr" if props.get("carries") == "IPS QR code" else None
-        if badge == "key" and code:
-            # beside the transaction code, on the side away from the middle
-            reach = 7 * len(code) + 24
-            out.append(icon("key", lx + (reach if anchor == "start" else -reach), cy_ - 5, 30))
-        elif badge:
-            # before the label's first line
-            width = 7.6 * max(len(r) for r in wrapped)
-            left = lx - (width / 2 if anchor == "middle" else width if anchor == "end" else 0)
-            out.append(icon("qr", left - 24, ly - 6, 34))
+        bh = 19 * rows - 4
+        bw = ICONS[badge]["w"] * bh / ICONS[badge]["h"] if badge else 0
+        tw = 7.0 * max(len(r) for r in wrapped)
+        width = bw + (10 if badge else 0) + tw
+        left = lx - (width / 2 if anchor == "middle" else width if anchor == "end" else 0)
+        tx0 = left + width - tw
+        lab = "".join(f'<tspan x="{tx0:.1f}" dy="{0 if i == 0 else 19}">{esc(w_)}</tspan>' for i, w_ in enumerate(wrapped))
+        block = ((icon(badge, left + bw / 2, ly - 12 + bh / 2, bh) if badge else "")
+                 + f'<text x="{tx0:.1f}" y="{ly:.1f}" font-size="15" letter-spacing=".3" fill="{text_colour}">{lab}</text>')
+        tx_ = props.get("transaction")
+        if tx_:
+            code = tx_.split("TRANSACTION-")[-1]
+            out.append(f'<a href="{esc(rel_link(tx_))}" target="_top"><title>Transaction {esc(code)} (IPS.HAJJ.TRANSACTION)</title>{block}</a>')
+        elif moment:
+            out.append(f'<a href="{esc(rel_link(moment))}" target="_top"><title>Step {esc(step)}: its moment of the pilgrim\'s journey</title>{block}</a>')
+        else:
+            out.append(block)
     out.append("</svg>\n")
     return "\n".join(out)
 
