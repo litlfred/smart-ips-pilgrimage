@@ -11,9 +11,9 @@ moment says so.
 a pilgrim from Malaysia performing Hajj in the Kingdom of Saudi Arabia (KSA).
 </div>
 
-<div style="width:70%" markdown="0">{% include workflow.svg %}</div>
+<div style="width:70%" markdown="0">{% include workflow-figure.html %}</div>
 
-Each numbered step in the figure opens its moment in the [journeys viewer](en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/the-pilgrims-hajj/), which walks through the whole story screen by screen.
+Each numbered flow in the figure names its moment below, and each moment has its own [ArchiMate view](en/smart-ips-pilgrimage/archimate/2.1.0/views/the-pilgrims-journey/). The [journeys viewer](en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/the-pilgrims-hajj/) walks through the whole story screen by screen.
 
 ### The people
 
