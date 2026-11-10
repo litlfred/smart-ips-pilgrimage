@@ -13,6 +13,7 @@
   "when": "Before departure",
   "where": "Malaysia's HIE; Kamal's home",
   "country": "Malaysia",
+  "trustLadder": "record-trust",
   "illustrationStyle": {
     "prompt": "Warm, flat digital illustration with soft shading and clean outlines, friendly and respectful, in the style of a public-health storybook. Wide banner, aspect ratio 11:4. Bright natural daylight, soft pastel palette with clear colour accents. Faces in gentle three-quarter view with expressive, kind features. Technology shown as simple, oversized icons: a phone with a QR code, a shield with a check mark, a small speech bubble with a symbol. No readable text, no logos, no real brands, no flags with text. All people are fictional.",
     "cast": [
@@ -99,7 +100,26 @@
         "src": "input/images/pilgrim/p2.webp",
         "alt": "Icons for his conditions, medicines and allergy are gathered into one summary, stamped with a green shield by a golden key and turned into a QR code on the phone Kamal holds beside his packed suitcase.",
         "prompt": "A stylised server room merging into a document. Soft-glowing panels assemble a one-page patient summary from three icons: a heart (conditions), a pill bottle and insulin pen (medicines), and a red allergy warning symbol. A golden key stamps a shield with a check mark onto it. On the right the summary shrinks into a QR code and flies into a phone in Kamal's hand; he stands at home in batik with a packed suitcase. No readable text."
+      },
+      "record": {
+        "state": "signed",
+        "description": "His IPS is signed and its QR code is in his wallet",
+        "heldWhere": "Kamal's wallet (QR code); Malaysia's HIE"
       }
+    }
+  ],
+  "scene": [
+    {
+      "icon": "database",
+      "label": "Malaysia's HIE"
+    },
+    {
+      "icon": "key",
+      "label": "Signed summary"
+    },
+    {
+      "icon": "qr",
+      "label": "QR code in his wallet"
     }
   ]
 }
