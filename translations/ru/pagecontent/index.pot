@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-10T16:31:21.579Z\n"
+"POT-Creation-Date: 2026-11-10T21:28:28.762Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -66,7 +66,7 @@ msgstr ""
 msgid "Eligible Participants may request to join through the The Letter of Application"
 msgstr ""
 
-#: input/pagecontent/index.md:26
+#: input/pagecontent/index.md:24
 msgid "Follow one pilgrim, Kamal, through these steps in <a0>The Pilgrim's Journey</a0>. Each moment is one user scenario, played by fictional people. Click a picture to walk through that moment in the <a1>journeys viewer</a1>."
 msgstr ""
 
@@ -98,7 +98,7 @@ msgstr ""
 msgid "The guide is part of the WHO SMART Guidelines approach to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology."
 msgstr ""
 
-#: input/pagecontent/index.md:24
+#: input/pagecontent/index.md:22
 msgid "The pilgrim's journey"
 msgstr ""
 

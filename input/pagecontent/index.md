@@ -19,14 +19,14 @@ Supporting guidance, recommendations, resources, and standards are included in t
 Eligible Participants may request to join through the <a href ="Letter_of_Application_IPS_Pilgrimage_1.0.docx">The Letter of Application</a>
 <br/>
 
-<div style="width:100%" markdown="0">{% include workflow-figure.html %}</div>
-
 ### The pilgrim's journey
 
 Follow one pilgrim, Kamal, through these steps in [The Pilgrim's Journey](pilgrim-journey.html). Each moment is one user scenario, played by fictional people. Click a picture to walk through that moment in the [journeys viewer](en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/the-pilgrims-hajj/).
 
 <div markdown="0">{% include journey-cards.html %}</div>
 <br clear="all"/>
+
+<div style="width:100%" markdown="0">{% include workflow-figure.html %}</div>
 
 ### About this implementation guide
 
