@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "IHE ITI Verifiable Health Link (VHL), Volume 1",
+      "dcterms:identifier": "https://github.com/IHE/ITI.VHL/blob/master/input/pagecontent/volume-1.md",
       "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-volume-1/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-volume-1"
     }

@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "Data Exchange",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/data_exchange.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-data-exchange/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-data-exchange"
     }

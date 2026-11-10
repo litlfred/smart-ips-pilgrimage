@@ -5,5 +5,6 @@
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <dcterms:title>HCERT Specification</dcterms:title>
+  <dcterms:identifier xsi:type="dcterms:URI">https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/hcert_spec.md</dcterms:identifier>
   <dcterms:type>document</dcterms:type>
 </metadata>

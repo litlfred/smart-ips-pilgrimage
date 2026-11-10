@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "Endpoints",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/endpoints.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-endpoints/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-endpoints"
     }

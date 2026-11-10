@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "DVCMinPreQual profile (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/models/DVCMinPreQual.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-dvcmin-prequal/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-dvcmin-prequal"
     }

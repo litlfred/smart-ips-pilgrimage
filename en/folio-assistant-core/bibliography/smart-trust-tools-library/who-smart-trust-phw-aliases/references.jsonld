@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "smart-trust-phw FSH aliases",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/Aliases.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-aliases/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-aliases"
     }

@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "Trust Domains",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/trust_domains.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-trust-domains/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-trust-domains"
     }

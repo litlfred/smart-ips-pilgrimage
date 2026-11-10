@@ -6,5 +6,6 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <dcterms:title>Content Credentials : C2PA Technical Specification, version 2.5</dcterms:title>
   <dcterms:issued xsi:type="dcterms:W3CDTF">2026</dcterms:issued>
+  <dcterms:identifier xsi:type="dcterms:URI">https://github.com/c2pa-org/specifications/blob/main/build/site/specifications/2.5/specs/C2PA_Specification.html.md</dcterms:identifier>
   <dcterms:type>document</dcterms:type>
 </metadata>

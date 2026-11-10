@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "HCERT Specification",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/hcert_spec.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-hcert-spec/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-hcert-spec"
     }

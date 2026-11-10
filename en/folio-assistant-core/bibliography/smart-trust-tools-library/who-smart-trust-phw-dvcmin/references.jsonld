@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "DVCMin logical model (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/models/DVCMin.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-dvcmin/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-dvcmin"
     }

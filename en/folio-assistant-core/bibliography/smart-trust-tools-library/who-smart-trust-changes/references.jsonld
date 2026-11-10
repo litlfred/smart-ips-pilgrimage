@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "Change Log",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/changes.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-changes/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-changes"
     }

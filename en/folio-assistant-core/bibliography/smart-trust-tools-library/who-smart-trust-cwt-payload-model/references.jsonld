@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "CWTPayload logical model (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/fsh/models/cwt_payload.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-cwt-payload-model/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-cwt-payload-model"
     }

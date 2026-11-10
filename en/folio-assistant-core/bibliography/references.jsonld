@@ -204,6 +204,7 @@
       ],
       "dcterms:title": "beans",
       "dcterms:issued": "2026",
+      "dcterms:identifier": "https://github.com/hmans/beans/blob/main/README.md",
       "dcterms:source": "cat-harness/library/sdlc/hmans-2026-beans-readme/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/sdlc/hmans-2026-beans-readme"
     },
@@ -292,6 +293,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "Change Log",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/changes.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-changes/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-changes"
     },
@@ -357,6 +359,7 @@
       ],
       "dcterms:title": "Content Credentials : C2PA Technical Specification, version 2.5",
       "dcterms:issued": "2026",
+      "dcterms:identifier": "https://github.com/c2pa-org/specifications/blob/main/build/site/specifications/2.5/specs/C2PA_Specification.html.md",
       "dcterms:source": "folio-assistant-core/library/c2pa-2026-specification-2-5/manifest.jsonld",
       "dcterms:hasVersion": "folio-assistant-core/library/c2pa-2026-specification-2-5"
     },
@@ -367,6 +370,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "CWTPayload logical model (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/fsh/models/cwt_payload.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-cwt-payload-model/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-cwt-payload-model"
     },
@@ -377,6 +381,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "Data Exchange",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/data_exchange.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-data-exchange/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-data-exchange"
     },
@@ -491,6 +496,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "DSpace 7 REST Contract (dspace-7_x)",
+      "dcterms:identifier": "https://github.com/DSpace/RestContract/tree/dspace-7_x",
       "dcterms:source": "folio-assistant-core/library/dspace-7-rest-contract/manifest.jsonld",
       "dcterms:hasVersion": "folio-assistant-core/library/dspace-7-rest-contract"
     },
@@ -511,6 +517,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "DVCMin logical model (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/models/DVCMin.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-dvcmin/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-dvcmin"
     },
@@ -521,6 +528,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "DVCMinPreQual profile (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/models/DVCMinPreQual.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-dvcmin-prequal/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-dvcmin-prequal"
     },
@@ -531,6 +539,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "DVCMinVaccineDetails logical model (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/models/DVCMinVaccineDetails.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-dvcmin-vaccine-details/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-dvcmin-vaccine-details"
     },
@@ -556,6 +565,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "Endpoints",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/endpoints.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-endpoints/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-endpoints"
     },
@@ -589,6 +599,7 @@
       ],
       "dcterms:title": "FHIR R5 (5.0.0) — TestPlan resource",
       "dcterms:issued": "2023",
+      "dcterms:identifier": "https://github.com/HL7/fhir/tree/v5.0.0/source/testplan/",
       "dcterms:source": "fhir-harness/library/hl7-2023-fhir-r5-testplan/manifest.jsonld",
       "dcterms:hasVersion": "fhir-harness/library/hl7-2023-fhir-r5-testplan"
     },
@@ -651,6 +662,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "GDHCN Trustlists (DID)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/concepts_did_gdhcn.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-did-gdhcn/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-did-gdhcn"
     },
@@ -673,6 +685,7 @@
       ],
       "dcterms:title": "Gherkin Reference",
       "dcterms:issued": "2024",
+      "dcterms:identifier": "https://github.com/cucumber/docs/blob/main/content/docs/gherkin/reference.md",
       "dcterms:source": "fhir-harness/library/cucumber-2024-gherkin-reference/manifest.jsonld",
       "dcterms:hasVersion": "fhir-harness/library/cucumber-2024-gherkin-reference"
     },
@@ -725,6 +738,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "HCert logical model (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/fsh/models/hcert.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-hcert-model/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-hcert-model"
     },
@@ -735,6 +749,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "HCERT Specification",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/hcert_spec.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-hcert-spec/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-hcert-spec"
     },
@@ -756,6 +771,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "HealthLinkPayload and VerifiableHealthLinkPayload logical models (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/models/HealthLinkPayload.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-health-link-payload/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-health-link-payload"
     },
@@ -828,6 +844,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "IHE ITI Verifiable Health Link (VHL), Volume 1",
+      "dcterms:identifier": "https://github.com/IHE/ITI.VHL/blob/master/input/pagecontent/volume-1.md",
       "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-volume-1/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-volume-1"
     },
@@ -849,6 +866,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "IHE ITI VHL ActorDefinitions (FSH)",
+      "dcterms:identifier": "https://github.com/IHE/ITI.VHL/blob/master/input/fsh/actors.fsh",
       "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-actors/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-actors"
     },
@@ -859,6 +877,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "IHE VHL ITI-YY3 Generate VHL",
+      "dcterms:identifier": "https://github.com/IHE/ITI.VHL/blob/master/input/pagecontent/ITI-YY3.md",
       "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-iti-yy3/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-iti-yy3"
     },
@@ -880,6 +899,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "IHE VHL ITI-YY4 Provide VHL",
+      "dcterms:identifier": "https://github.com/IHE/ITI.VHL/blob/master/input/pagecontent/ITI-YY4.md",
       "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-iti-yy4/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-iti-yy4"
     },
@@ -901,6 +921,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "IHE VHL ITI-YY5 Retrieve Manifest",
+      "dcterms:identifier": "https://github.com/IHE/ITI.VHL/blob/master/input/pagecontent/ITI-YY5.md",
       "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-iti-yy5/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-iti-yy5"
     },
@@ -964,6 +985,7 @@
       ],
       "dcterms:title": "Interoperability Test Bed",
       "dcterms:issued": "2026",
+      "dcterms:identifier": "https://github.com/ISAITB/gitb/blob/master/README.md",
       "dcterms:source": "fhir-harness/library/isaitb-2026-interoperability-test-bed-readme/manifest.jsonld",
       "dcterms:hasVersion": "fhir-harness/library/isaitb-2026-interoperability-test-bed-readme"
     },
@@ -1181,6 +1203,7 @@
       ],
       "dcterms:title": "Model Context Protocol Specification, version 2026-07-28",
       "dcterms:issued": "2026",
+      "dcterms:identifier": "https://github.com/modelcontextprotocol/modelcontextprotocol/tree/main/docs/specification/2026-07-28/",
       "dcterms:source": "cat-harness/library/tools/mcp-2026-specification-2026-07-28/manifest.jsonld",
       "dcterms:hasVersion": "cat-harness/library/tools/mcp-2026-specification-2026-07-28"
     },
@@ -1261,6 +1284,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "QR Code Generation",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/qr_code_generation.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-qr-code-generation/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-qr-code-generation"
     },
@@ -1313,6 +1337,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "Reference Implementations",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/reference_implementation.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-reference-implementation/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-reference-implementation"
     },
@@ -1403,6 +1428,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "smart-trust ActorDefinitions (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/fsh/actors/actors.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-actors/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-actors"
     },
@@ -1413,6 +1439,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "smart-trust FHIR Requirements (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/fsh/requirements/requirements.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-requirements-fsh/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-requirements-fsh"
     },
@@ -1423,6 +1450,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "smart-trust-phw FSH aliases",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/Aliases.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-phw-aliases/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-phw-aliases"
     },
@@ -1583,6 +1611,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "Trust Domains",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/trust_domains.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-trust-domains/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-trust-domains"
     },

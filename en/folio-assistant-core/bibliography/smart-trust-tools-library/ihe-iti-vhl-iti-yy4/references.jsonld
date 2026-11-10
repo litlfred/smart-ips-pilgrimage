@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "IHE VHL ITI-YY4 Provide VHL",
+      "dcterms:identifier": "https://github.com/IHE/ITI.VHL/blob/master/input/pagecontent/ITI-YY4.md",
       "dcterms:source": "smart-trust-tools/library/ihe-iti-vhl-iti-yy4/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/ihe-iti-vhl-iti-yy4"
     }

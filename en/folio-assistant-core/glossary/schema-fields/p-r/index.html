@@ -622,7 +622,7 @@
   all, and a fetch for that would put a spinner in front of a badge.
 -->
 <!-- NOT MOVED: same reason as fa-site-links above. -->
-<script type="application/json" id="fa-declared-kinds">["block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
+<script type="application/json" id="fa-declared-kinds">["archimate","block-kinds","business-processes","code","code-list","content-adapters","device-screen","docs","document-kinds","fhir-artifact-index","glossary","ig-ast","ig-pages","l1-extraction","library","methodology","processes","qa","qa-checkers","references","scenarios","schemas","skills","themes","tools","translation-sources","typologies","user-scenario","validators","workshop"]</script>
 <!--
   FIRST of the deferred scripts: it fills `#fa-navbar-row` and
   `meta[name=fa-tiles]` before any reader runs (bean `gp2f`).
@@ -913,11 +913,11 @@
 
 <p>Candidate terms extracted from every schema field with a doc comment: <code class="language-plaintext highlighter-rouge">&lt;Declaration&gt;.&lt;field&gt;</code> as the label, the comment’s first paragraph as the definition. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2471 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 146 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 202 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 13 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2471 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 146 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 205 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 13 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 7 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/schema-fields/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 557 terms and is 327 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 560 terms and is 328 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
@@ -932,7 +932,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">557</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">560</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-P">P</a> <a href="#letter-Q">Q</a> <a href="#letter-R">R</a></nav>
 <h2 id="letter-P">
@@ -3169,6 +3169,13 @@ ReferenceNodeSchema.provenance <span class="fa-gloss-status">candidate, extracte
 <p>Where the reference came from. Absent means <code>authored</code>.</p>
 <p class="fa-gloss-meta">Schema fields of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/schemas/reference.ts"><code>folio-assistant-core/schemas/reference.ts#ReferenceNodeSchema.provenance</code></a></p>
 </dd>
+<dt id="folio-assistant-core--kg-schema-fields--reference.referencenodeschema.sources" data-fa-state="extracted" data-fa-gloss="">
+ReferenceNodeSchema.sources <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Every place the work can be read, beyond <code>URL</code>: alternates, mirrors, repository records. Not CSL.</p>
+<p class="fa-gloss-meta">Schema fields of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/schemas/reference.ts"><code>folio-assistant-core/schemas/reference.ts#ReferenceNodeSchema.sources</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--user-scenario.referenceschema.href" data-fa-state="extracted" data-fa-gloss="">
 ReferenceSchema.href <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -3182,6 +3189,20 @@ ReferenceSchema.rel <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>What the link is to the step or journey: <code>specifies</code>, <code>illustrates</code>, <code>reading</code>. Free text.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#ReferenceSchema.rel</code></a></p>
+</dd>
+<dt id="folio-assistant-core--kg-schema-fields--reference.referencesourceschema.kind" data-fa-state="extracted" data-fa-gloss="">
+ReferenceSourceSchema.kind <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>What kind of place it is: <code>canonical</code>, <code>repository</code>, <code>pinned</code>, <code>handle</code>, <code>doi</code>, <code>arxiv</code>, <code>mirror</code>.</p>
+<p class="fa-gloss-meta">Schema fields of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/schemas/reference.ts"><code>folio-assistant-core/schemas/reference.ts#ReferenceSourceSchema.kind</code></a></p>
+</dd>
+<dt id="folio-assistant-core--kg-schema-fields--reference.referencesourceschema.label" data-fa-state="extracted" data-fa-gloss="">
+ReferenceSourceSchema.label <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>What a reader sees for the link.</p>
+<p class="fa-gloss-meta">Schema fields of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/schemas/reference.ts"><code>folio-assistant-core/schemas/reference.ts#ReferenceSourceSchema.label</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-schema-fields--changeset.refschema.commit" data-fa-state="extracted" data-fa-gloss="">
 RefSchema.commit <span class="fa-gloss-status">candidate, extracted</span>

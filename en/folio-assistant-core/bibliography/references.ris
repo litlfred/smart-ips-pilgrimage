@@ -104,6 +104,7 @@ ID  - hmans-2026-beans-readme
 TI  - beans
 PY  - 2026
 DA  - 2026
+UR  - https://github.com/hmans/beans/blob/main/README.md
 ER  - 
 
 TY  - GEN
@@ -157,6 +158,7 @@ ER  -
 TY  - GEN
 ID  - who-smart-trust-changes
 TI  - Change Log
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/changes.md
 ER  - 
 
 TY  - ELEC
@@ -196,16 +198,19 @@ ID  - c2pa-2026-specification-2-5
 TI  - Content Credentials : C2PA Technical Specification, version 2.5
 PY  - 2026
 DA  - 2026
+UR  - https://github.com/c2pa-org/specifications/blob/main/build/site/specifications/2.5/specs/C2PA_Specification.html.md
 ER  - 
 
 TY  - GEN
 ID  - who-smart-trust-cwt-payload-model
 TI  - CWTPayload logical model (FSH)
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/fsh/models/cwt_payload.fsh
 ER  - 
 
 TY  - GEN
 ID  - who-smart-trust-data-exchange
 TI  - Data Exchange
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/data_exchange.md
 ER  - 
 
 TY  - ELEC
@@ -276,6 +281,7 @@ ER  -
 TY  - GEN
 ID  - dspace-7-rest-contract
 TI  - DSpace 7 REST Contract (dspace-7_x)
+UR  - https://github.com/DSpace/RestContract/tree/dspace-7_x
 ER  - 
 
 TY  - ELEC
@@ -288,16 +294,19 @@ ER  -
 TY  - GEN
 ID  - who-smart-trust-phw-dvcmin
 TI  - DVCMin logical model (FSH)
+UR  - https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/models/DVCMin.fsh
 ER  - 
 
 TY  - GEN
 ID  - who-smart-trust-phw-dvcmin-prequal
 TI  - DVCMinPreQual profile (FSH)
+UR  - https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/models/DVCMinPreQual.fsh
 ER  - 
 
 TY  - GEN
 ID  - who-smart-trust-phw-dvcmin-vaccine-details
 TI  - DVCMinVaccineDetails logical model (FSH)
+UR  - https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/models/DVCMinVaccineDetails.fsh
 ER  - 
 
 TY  - JOUR
@@ -311,6 +320,7 @@ ER  -
 TY  - GEN
 ID  - who-smart-trust-endpoints
 TI  - Endpoints
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/endpoints.md
 ER  - 
 
 TY  - ELEC
@@ -331,6 +341,7 @@ ID  - hl7-2023-fhir-r5-testplan
 TI  - FHIR R5 (5.0.0) — TestPlan resource
 PY  - 2023
 DA  - 2023
+UR  - https://github.com/HL7/fhir/tree/v5.0.0/source/testplan/
 ER  - 
 
 TY  - GEN
@@ -370,6 +381,7 @@ ER  -
 TY  - GEN
 ID  - who-smart-trust-did-gdhcn
 TI  - GDHCN Trustlists (DID)
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/concepts_did_gdhcn.md
 ER  - 
 
 TY  - ELEC
@@ -384,6 +396,7 @@ ID  - cucumber-2024-gherkin-reference
 TI  - Gherkin Reference
 PY  - 2024
 DA  - 2024
+UR  - https://github.com/cucumber/docs/blob/main/content/docs/gherkin/reference.md
 ER  - 
 
 TY  - JOUR
@@ -417,11 +430,13 @@ ER  -
 TY  - GEN
 ID  - who-smart-trust-hcert-model
 TI  - HCert logical model (FSH)
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/fsh/models/hcert.fsh
 ER  - 
 
 TY  - GEN
 ID  - who-smart-trust-hcert-spec
 TI  - HCERT Specification
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/hcert_spec.md
 ER  - 
 
 TY  - ELEC
@@ -434,6 +449,7 @@ ER  -
 TY  - GEN
 ID  - who-smart-trust-phw-health-link-payload
 TI  - HealthLinkPayload and VerifiableHealthLinkPayload logical models (FSH)
+UR  - https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/models/HealthLinkPayload.fsh
 ER  - 
 
 TY  - ELEC
@@ -477,6 +493,7 @@ ER  -
 TY  - GEN
 ID  - ihe-iti-vhl-volume-1
 TI  - IHE ITI Verifiable Health Link (VHL), Volume 1
+UR  - https://github.com/IHE/ITI.VHL/blob/master/input/pagecontent/volume-1.md
 ER  - 
 
 TY  - ELEC
@@ -489,11 +506,13 @@ ER  -
 TY  - GEN
 ID  - ihe-iti-vhl-actors
 TI  - IHE ITI VHL ActorDefinitions (FSH)
+UR  - https://github.com/IHE/ITI.VHL/blob/master/input/fsh/actors.fsh
 ER  - 
 
 TY  - GEN
 ID  - ihe-iti-vhl-iti-yy3
 TI  - IHE VHL ITI-YY3 Generate VHL
+UR  - https://github.com/IHE/ITI.VHL/blob/master/input/pagecontent/ITI-YY3.md
 ER  - 
 
 TY  - ELEC
@@ -506,6 +525,7 @@ ER  -
 TY  - GEN
 ID  - ihe-iti-vhl-iti-yy4
 TI  - IHE VHL ITI-YY4 Provide VHL
+UR  - https://github.com/IHE/ITI.VHL/blob/master/input/pagecontent/ITI-YY4.md
 ER  - 
 
 TY  - ELEC
@@ -518,6 +538,7 @@ ER  -
 TY  - GEN
 ID  - ihe-iti-vhl-iti-yy5
 TI  - IHE VHL ITI-YY5 Retrieve Manifest
+UR  - https://github.com/IHE/ITI.VHL/blob/master/input/pagecontent/ITI-YY5.md
 ER  - 
 
 TY  - ELEC
@@ -556,6 +577,7 @@ ID  - isaitb-2026-interoperability-test-bed-readme
 TI  - Interoperability Test Bed
 PY  - 2026
 DA  - 2026
+UR  - https://github.com/ISAITB/gitb/blob/master/README.md
 ER  - 
 
 TY  - JOUR
@@ -689,6 +711,7 @@ ID  - mcp-2026-specification-2026-07-28
 TI  - Model Context Protocol Specification, version 2026-07-28
 PY  - 2026
 DA  - 2026
+UR  - https://github.com/modelcontextprotocol/modelcontextprotocol/tree/main/docs/specification/2026-07-28/
 ER  - 
 
 TY  - JOUR
@@ -731,6 +754,7 @@ ER  -
 TY  - GEN
 ID  - who-smart-trust-qr-code-generation
 TI  - QR Code Generation
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/qr_code_generation.md
 ER  - 
 
 TY  - ELEC
@@ -760,6 +784,7 @@ ER  -
 TY  - GEN
 ID  - who-smart-trust-reference-implementation
 TI  - Reference Implementations
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/reference_implementation.md
 ER  - 
 
 TY  - ELEC
@@ -810,16 +835,19 @@ ER  -
 TY  - GEN
 ID  - who-smart-trust-actors
 TI  - smart-trust ActorDefinitions (FSH)
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/fsh/actors/actors.fsh
 ER  - 
 
 TY  - GEN
 ID  - who-smart-trust-requirements-fsh
 TI  - smart-trust FHIR Requirements (FSH)
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/fsh/requirements/requirements.fsh
 ER  - 
 
 TY  - GEN
 ID  - who-smart-trust-phw-aliases
 TI  - smart-trust-phw FSH aliases
+UR  - https://github.com/WorldHealthOrganization/smart-trust-phw/blob/main/input/fsh/Aliases.fsh
 ER  - 
 
 TY  - JOUR
@@ -916,6 +944,7 @@ ER  -
 TY  - GEN
 ID  - who-smart-trust-trust-domains
 TI  - Trust Domains
+UR  - https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/trust_domains.md
 ER  - 
 
 TY  - ELEC

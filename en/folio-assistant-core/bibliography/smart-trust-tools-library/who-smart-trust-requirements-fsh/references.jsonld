@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "smart-trust FHIR Requirements (FSH)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/fsh/requirements/requirements.fsh",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-requirements-fsh/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-requirements-fsh"
     }

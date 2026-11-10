@@ -19,6 +19,7 @@
         "bibo:Document"
       ],
       "dcterms:title": "GDHCN Trustlists (DID)",
+      "dcterms:identifier": "https://github.com/WorldHealthOrganization/smart-trust/blob/main/input/pagecontent/concepts_did_gdhcn.md",
       "dcterms:source": "smart-trust-tools/library/who-smart-trust-did-gdhcn/manifest.jsonld",
       "dcterms:hasVersion": "smart-trust-tools/library/who-smart-trust-did-gdhcn"
     }
