@@ -15,6 +15,7 @@
   "when": "Three months before Hajj",
   "where": "A GP clinic in Kuala Terengganu",
   "country": "Malaysia",
+  "trustLadder": "record-trust",
   "illustrationStyle": {
     "prompt": "Warm, flat digital illustration with soft shading and clean outlines, friendly and respectful, in the style of a public-health storybook. Wide banner, aspect ratio 11:4. Bright natural daylight, soft pastel palette with clear colour accents. Faces in gentle three-quarter view with expressive, kind features. Technology shown as simple, oversized icons: a phone with a QR code, a shield with a check mark, a small speech bubble with a symbol. No readable text, no logos, no real brands, no flags with text. All people are fictional.",
     "cast": [
@@ -133,7 +134,26 @@
         "src": "input/images/pilgrim/p1.webp",
         "alt": "In a Kuala Terengganu clinic, Dr Aisyah explains a consent card with a shield and a calendar to Kamal, in a batik shirt, who holds his phone with a padlock and a tick; Salmah sits beside him.",
         "prompt": "A bright clinic room in Kuala Terengganu, window showing palm trees and a coastal town. Dr Aisyah sits beside Kamal (batik shirt), who holds his phone; Salmah sits next to him. The phone shows a large consent screen with a check-mark toggle and a small padlock. Dr Aisyah gestures to a simple card with shield, eye and calendar icons (who can see it, for how long). Kamal smiles, reassured."
+      },
+      "record": {
+        "state": "consented",
+        "description": "His consent to share his summary for Hajj is recorded",
+        "heldWhere": "Malaysia's HIE; Kamal's wallet"
       }
+    }
+  ],
+  "scene": [
+    {
+      "icon": "clinician",
+      "label": "Pre-Hajj check, Dr Aisyah"
+    },
+    {
+      "icon": "paper",
+      "label": "Kamal agrees to share"
+    },
+    {
+      "icon": "phone",
+      "label": "Consent in his wallet"
     }
   ]
 }

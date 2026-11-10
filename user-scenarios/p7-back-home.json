@@ -13,6 +13,7 @@
   "when": "After the season",
   "where": "A GP clinic in Kuala Terengganu",
   "country": "Malaysia",
+  "trustLadder": "record-trust",
   "illustrationStyle": {
     "prompt": "Warm, flat digital illustration with soft shading and clean outlines, friendly and respectful, in the style of a public-health storybook. Wide banner, aspect ratio 11:4. Bright natural daylight, soft pastel palette with clear colour accents. Faces in gentle three-quarter view with expressive, kind features. Technology shown as simple, oversized icons: a phone with a QR code, a shield with a check mark, a small speech bubble with a symbol. No readable text, no logos, no real brands, no flags with text. All people are fictional.",
     "cast": [
@@ -76,7 +77,26 @@
         "src": "input/images/pilgrim/p7.webp",
         "alt": "Back in Kuala Terengganu, Kamal in a white kopiah and Salmah sit with Dr Aisyah, who looks at her computer with a question mark: the record of his care in Saudi Arabia has not come home.",
         "prompt": "Kuala Terengganu: Kamal, healthy, in batik with a white kopiah, sits with Dr Aisyah in her clinic, Salmah beside him. Dr Aisyah looks at her computer with a gentle question-mark bubble: she doesn't know what happened in KSA. To the side, a faint dotted arc from a small Saudi building icon toward the clinic fades out halfway with a gap. Warm but slightly unresolved."
+      },
+      "record": {
+        "state": "read-and-used",
+        "description": "Home again; his GP does not yet know he was treated",
+        "heldWhere": "Malaysia's HIE"
       }
+    }
+  ],
+  "scene": [
+    {
+      "icon": "plane",
+      "label": "Flies home"
+    },
+    {
+      "icon": "home",
+      "label": "Back in Kuala Terengganu"
+    },
+    {
+      "icon": "clinic",
+      "label": "GP not told"
     }
   ]
 }

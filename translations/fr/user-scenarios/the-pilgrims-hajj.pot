@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: the-pilgrims-hajj\n"
-"POT-Creation-Date: 2026-11-07T21:56:11.615Z\n"
+"POT-Creation-Date: 2026-11-10T20:12:07.198Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -29,17 +29,17 @@ msgctxt "references.label"
 msgid "Malaysian reference implementation"
 msgstr ""
 
-#: user-scenarios/the-pilgrims-hajj.json:27
+#: user-scenarios/the-pilgrims-hajj.json:28
 msgctxt "references.label"
 msgid "Overview of key process flows"
 msgstr ""
 
-#: user-scenarios/the-pilgrims-hajj.json:23
+#: user-scenarios/the-pilgrims-hajj.json:24
 msgctxt "references.label"
 msgid "The pilgrim's journey (guide page)"
 msgstr ""
 
-#: user-scenarios/the-pilgrims-hajj.json:31
+#: user-scenarios/the-pilgrims-hajj.json:32
 msgctxt "references.label"
 msgid "User scenarios"
 msgstr ""

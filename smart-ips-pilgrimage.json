@@ -116,6 +116,14 @@
       "description": "The pilgrim's journey (input/pagecontent/pilgrim-journey.md) as user scenarios: the parent journey the-pilgrims-hajj and one sub-journey per moment P0 to P7, partOf the parent and following each other in order. Each step's picture is input/images/pilgrim/<p>.webp."
     },
     {
+      "id": "code-lists",
+      "path": "code-lists/",
+      "graphTypologies": [
+        "code-list"
+      ],
+      "description": "The record-trust ladder the journeys' steps name: how far Kamal's health summary can be trusted abroad, moment by moment."
+    },
+    {
       "id": "archimate",
       "path": "archimate/",
       "graphTypologies": [

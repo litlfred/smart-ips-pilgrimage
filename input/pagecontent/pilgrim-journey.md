@@ -1,3 +1,9 @@
+{% include journey-hero.html %}
+
+### Eight moments that matter
+
+{% include journey-cards.html %}
+
 The [user scenarios](scenarios.html) of this guide told as one pilgrim's story,
 step by step along the [overview of key process flows](business-processes.html)
 (the numbered steps 1–5 and A–B of the figure below). Each moment names who
