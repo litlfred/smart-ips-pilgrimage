@@ -7,12 +7,12 @@
     {
       "code": "held-at-home",
       "label": "Held at home",
-      "definition": "In Malaysia's health information exchange; nothing is shared."
+      "definition": "In Onesa's health information exchange; nothing is shared."
     },
     {
       "code": "consented",
       "label": "Consented",
-      "definition": "Kamal has agreed to share his summary for Hajj."
+      "definition": "Kamal has agreed to share his summary for the pilgrimage."
     },
     {
       "code": "signed",

@@ -27,11 +27,11 @@ Under the Verifiable Credential Option of IHE ITI VHL (ITI-YY5), a VHL Receiver 
   "credentialSubject": {
     "id": "https://vhl-sharer.example.org/List?_id=abc123def456",
     "manifest": { "url": "https://vhl-sharer.example.org/List?_id=abc123def456", "flag": "LP" },
-    "recipient": "Ministry of Health, Saudi Arabia: Haj District facility"
+    "recipient": "Ministry of Health, Taifafeki (fictional): Hajj facility"
   },
   "termsOfUse": [{
     "type": "http://smart.who.int/trust/StructureDefinition/TrustDomainPolicy",
-    "id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT#CONSENT-KSA"
+    "id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT#CONSENT-XXR"
   }],
   "proof": { "type": "DataIntegrityProof", "cryptosuite": "ecdsa-rdfc-2019", "proofPurpose": "assertionMethod", "verificationMethod": "did:web:vhl-receiver.example.org#key-1", "proofValue": "z…" }
 }

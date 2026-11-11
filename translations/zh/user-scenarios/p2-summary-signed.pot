@@ -16,17 +16,17 @@ msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "country"
-msgid "Malaysia"
+msgid "Onesa"
 msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "description"
-msgid "Malaysia's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows."
+msgid "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows."
 msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "scene.label"
-msgid "Malaysia's HIE"
+msgid "Onesa's HIE"
 msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:5
@@ -86,7 +86,7 @@ msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:36
 msgctxt "step.headline"
-msgid "Malaysia's HIE turns Kamal's care history into a signed patient summary and puts the link to it in his wallet as a QR code."
+msgid "Onesa's HIE turns Kamal's care history into a signed patient summary and puts the link to it in his wallet as a QR code."
 msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:101
@@ -96,7 +96,7 @@ msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "step.narrative"
-msgid "Malaysia's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows."
+msgid "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows."
 msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:58
@@ -116,7 +116,7 @@ msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:107
 msgctxt "step.record.heldWhere"
-msgid "Kamal's wallet (QR code); Malaysia's HIE"
+msgid "Kamal's wallet (QR code); Onesa's HIE"
 msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:94
@@ -146,7 +146,7 @@ msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:14
 msgctxt "step.where"
-msgid "Malaysia's HIE; Kamal's home"
+msgid "Onesa's HIE; Kamal's home"
 msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:4
@@ -161,5 +161,5 @@ msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:14
 msgctxt "where"
-msgid "Malaysia's HIE; Kamal's home"
+msgid "Onesa's HIE; Kamal's home"
 msgstr ""

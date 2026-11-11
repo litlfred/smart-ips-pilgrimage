@@ -1,8 +1,8 @@
 {
   "$schema": "device-screen/0.1.0",
   "id": "P5",
-  "title": "Dr Faisal reads the record kept in Malaysia",
-  "description": "The insulin pen, the crossed-out penicillin and the heart: what Dr Faisal must know before he treats Kamal, read from the record kept in Malaysia.",
+  "title": "Dr Faisal reads the record kept in Onesa",
+  "description": "The insulin pen, the crossed-out penicillin and the heart: what Dr Faisal must know before he treats Kamal, read from the record kept in Onesa.",
   "device": "tablet",
   "owner": "dr-faisal",
   "steps": [
@@ -14,7 +14,7 @@
   "blocks": [
     {
       "type": "header",
-      "app": "Mina facility EMR — Treatment",
+      "app": "Nalemi facility EMR — Treatment",
       "subtitle": "Dr Faisal • Emergency",
       "icon": "stethoscope",
       "brand": "#0369a1"
@@ -23,7 +23,7 @@
       "type": "personCard",
       "actor": "kamal",
       "banner": true,
-      "subtitle": "Pilgrim from Malaysia • Salmah beside him",
+      "subtitle": "Pilgrim from Onesa • Salmah beside him",
       "chips": [
         {
           "text": "Heat exhaustion",
@@ -40,7 +40,7 @@
       "title": "Patient summary",
       "icon": "file",
       "summary": {
-        "text": "From Malaysia",
+        "text": "From Onesa",
         "tone": "info",
         "icon": "globe"
       },
@@ -70,14 +70,14 @@
           "detail": "On his record at home"
         }
       ],
-      "footnote": "Read from the record kept in Malaysia"
+      "footnote": "Read from the record kept in Onesa"
     },
     {
       "type": "statusBadge",
       "column": "side",
       "status": "verified",
       "text": "Summary verified",
-      "detail": "Fetched from Malaysia's HIE under the consent Kamal gave; a rendered copy is kept with this visit."
+      "detail": "Fetched from Onesa's HIE under the consent Kamal gave; a rendered copy is kept with this visit."
     },
     {
       "type": "alert",

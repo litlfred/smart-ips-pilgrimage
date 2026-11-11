@@ -1,8 +1,8 @@
 {
   "id": "dr-aisyah",
-  "title": "Dr Aisyah (GP, Kuala Terengganu)",
+  "title": "Dr Aisyah (GP, Tanavu)",
   "kind": "person",
-  "description": "Persona: a general practitioner in Kuala Terengganu, empanelled by the national pilgrimage authority for pre-Hajj health examinations; the guide's Counsellor. Fictional.",
+  "description": "Persona: a general practitioner in Tanavu, empanelled by the national pilgrimage authority for pre-pilgrimage health examinations; the guide's Counsellor. Fictional.",
   "roles": [
     "counsellor"
   ],
@@ -10,11 +10,11 @@
   "meta": {
     "persona": {
       "name": "Dr Aisyah",
-      "role": "GP · pre-Hajj health examination",
-      "country": "Malaysia",
+      "role": "GP · pre-pilgrimage health examination",
+      "country": "Onesa",
       "goal": "Send her pilgrims fit to travel, with their consent understood and their record ready.",
       "needs": [
-        "A clear account of what the Hajj Health Record is, who sees it and for how long",
+        "A clear account of what the Pilgrimage Health Record is, who sees it and for how long",
         "To know what happened to her patients abroad"
       ],
       "frustrations": [

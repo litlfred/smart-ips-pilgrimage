@@ -19,7 +19,7 @@ Part of [SMART Verifiable IPS for Pilgrimage](../README.md) 2.1.0, declared as `
 | [`p4-emr.json`](p4-emr.json) | Passcode entered, signature verified |  |
 | [`p4-phone.json`](p4-phone.json) | Kamal shows his code |  |
 | [`p4-scanner.json`](p4-scanner.json) | Nurse Reem scans the code |  |
-| [`p5.json`](p5.json) | Dr Faisal reads the record kept in Malaysia |  |
+| [`p5.json`](p5.json) | Dr Faisal reads the record kept in Onesa |  |
 | [`p6.json`](p6.json) | Break the glass: only a registration number |  |
 | [`p7.json`](p7.json) | Back home: no record of the care abroad |  |
 

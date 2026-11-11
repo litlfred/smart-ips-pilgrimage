@@ -15,7 +15,7 @@
     {
       "type": "header",
       "app": "Registration scanner",
-      "subtitle": "Hajj health facility, Mina",
+      "subtitle": "Pilgrimage health facility, Nalemi",
       "icon": "scan"
     },
     {
@@ -33,7 +33,7 @@
       "type": "statusBadge",
       "status": "info",
       "text": "Verifiable Health Link read",
-      "detail": "Issued in Malaysia. Sent to the EMR to check its signature."
+      "detail": "Issued in Onesa. Sent to the EMR to check its signature."
     }
   ]
 }

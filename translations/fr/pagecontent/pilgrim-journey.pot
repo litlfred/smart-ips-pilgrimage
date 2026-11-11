@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-10T20:00:55.525Z\n"
+"POT-Creation-Date: 2026-11-11T09:29:19.975Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -14,60 +14,60 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/pagecontent/pilgrim-journey.md:31
+#: input/pagecontent/pilgrim-journey.md:35
 msgid "<a0>Accompanying Clinician from Origin Country</a0>"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:30
+#: input/pagecontent/pilgrim-journey.md:34
 msgid "<a0>Counsellor</a0>"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:32
-#: input/pagecontent/pilgrim-journey.md:33
+#: input/pagecontent/pilgrim-journey.md:36
+#: input/pagecontent/pilgrim-journey.md:37
 msgid "<a0>Host Country Health Worker</a0>"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:28
+#: input/pagecontent/pilgrim-journey.md:32
 msgid "<a0>Pilgrim</a0>"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:28
-msgid "61, from Kuala Terengganu, Malaysia, performing Hajj for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:29
-msgid "Accompanying family member (not yet a persona here)"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:147
-msgid "An account of access back to the home country (P5, P7), and of language (P5)."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:35
-msgid "And the systems: Kamal's national health wallet (<a0>Origin Country Wallet</a0>), Malaysia's health information exchange (<a1>Origin Country HIE</a1>), the facility's EMR (<a2>Host Country EMR</a2>), and WHO GDHCN, the trust network both countries take part in."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:144
-msgid "Business processes for P0 (keys and terminologies), P2 (assembling the IPS) and P6 (break the glass)."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:31
-msgid "Doctor of the Malaysian Hajj medical team, travelling with the pilgrims."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:30
-msgid "Dr Aisyah"
+#: input/pagecontent/pilgrim-journey.md:32
+msgid "61, from Tanavu, Onesa, going on pilgrimage for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:33
+msgid "Accompanying family member (not yet a persona here)"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:151
+msgid "An account of access back to the home country (P5, P7), and of language (P5)."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:39
+msgid "And the systems: Kamal's national health wallet (<a0>Origin Country Wallet</a0>), Onesa's health information exchange (<a1>Origin Country HIE</a1>), the facility's EMR (<a2>Host Country EMR</a2>), and WHO GDHCN, the trust network both countries take part in."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:148
+msgid "Business processes for P0 (keys and terminologies), P2 (assembling the IPS) and P6 (break the glass)."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:35
+msgid "Doctor of the Onesan pilgrimage medical team, travelling with the pilgrims."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:34
+msgid "Dr Aisyah"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:37
 msgid "Dr Faisal"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:31
+#: input/pagecontent/pilgrim-journey.md:35
 msgid "Dr Hafiz"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:22
+#: input/pagecontent/pilgrim-journey.md:26
 msgid "Each numbered flow in the figure names its moment below, and each moment has its own <a0>ArchiMate view</a0>. The <a1>journeys viewer</a1> walks through the whole story screen by screen."
 msgstr ""
 
@@ -75,195 +75,196 @@ msgstr ""
 msgid "Eight moments that matter"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:33
+#: input/pagecontent/pilgrim-journey.md:37
 msgid "Emergency physician at the same facility."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:14
-msgid "Every person in this story is fictional. The setting follows this guide's <a0>Malaysian reference implementation</a0>: a pilgrim from Malaysia performing Hajj in the Kingdom of Saudi Arabia (KSA)."
+#, python-brace-format
+msgid "Every person in this story, and both countries, are fictional. Kamal comes from Onesa (code {code0}) and goes on pilgrimage in Taifafeki (code {code1}): two fictional countries shared with the <a0>SMART Trust demo</a0>, whose codes are ISO 3166-1 user-assigned codes, so they never name a real country. The steps follow this guide's real <a1>Malaysian reference implementation</a1>, Malaysia's Hajj Health Card, as a policy precedent."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:148
+#: input/pagecontent/pilgrim-journey.md:152
 msgid "Example patients that are pilgrims: today's examples are a resident of the Netherlands."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:30
-msgid "General practitioner in Kuala Terengganu, empanelled by the national pilgrimage authority for pre-Hajj health examinations."
+#: input/pagecontent/pilgrim-journey.md:34
+msgid "General practitioner in Tanavu, empanelled by the national pilgrimage authority for pre-pilgrimage health examinations."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:26
+#: input/pagecontent/pilgrim-journey.md:30
 msgid "Generic persona"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:28
+#: input/pagecontent/pilgrim-journey.md:32
 msgid "Kamal"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:136
-msgid "Kamal comes home. His GP in Kuala Terengganu does not know he was treated in Mina."
+#: input/pagecontent/pilgrim-journey.md:140
+msgid "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:29
+#: input/pagecontent/pilgrim-journey.md:33
 msgid "Kamal's wife, travelling with him. Speaks for him when he cannot."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:74
-msgid "Malaysia's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:44
-msgid "Malaysia's HIE publishes the public keys it signs health documents with to the WHO GDHCN trust network, and shares the national code systems its IPS uses with the WHO Terminology Service (<a0>user scenarios</a0>, first two sections). Nothing about Kamal yet: this is what lets a Saudi clinic trust and read a Malaysian record months later."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:104
+#: input/pagecontent/pilgrim-journey.md:108
 msgid "Not yet consistent here: the <a0>concepts</a0> say the default passcode is the pilgrim's birth date; the Malaysian implementation sets one standard passcode for all its pilgrims for the season."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:81
+#: input/pagecontent/pilgrim-journey.md:85
 msgid "Not yet specified here: no business process for assembling the IPS from the care history."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:51
+#: input/pagecontent/pilgrim-journey.md:55
 msgid "Not yet specified here: no business process or transaction for publishing keys or terminologies."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:129
+#: input/pagecontent/pilgrim-journey.md:133
 msgid "Not yet specified here: no business process, transaction or consent profile for emergency access."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:139
-msgid "Not yet specified here: nothing returns the record of care in KSA, or a log of who opened his summary, to Malaysia."
+#: input/pagecontent/pilgrim-journey.md:143
+msgid "Not yet specified here: nothing returns the record of care in Taifafeki, or a log of who opened his summary, to Onesa."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:117
-msgid "Not yet specified here: the summary is in the language it was written in; nothing says how a Saudi clinician reads a summary written in Malay."
+#: input/pagecontent/pilgrim-journey.md:121
+msgid "Not yet specified here: the summary is in the language it was written in; nothing says how a Taifafeki clinician reads a summary written in Onesan."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:67
+#: input/pagecontent/pilgrim-journey.md:71
 msgid "Not yet specified here: the two forms the pilgrim fills in, consent-wallet-questionnaire and shl-configure-privacy-settings, are named in the processes but not defined."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:32
+#: input/pagecontent/pilgrim-journey.md:36
 msgid "Nurse Reem"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:99
-msgid "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Malaysia's public key, fetched from GDHCN: the record really comes from Malaysia's HIE and has not been changed."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:124
-msgid "On the day of Arafat Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Malaysian medical team gives his Hajj registration number, and the facility reaches his summary through it."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:88
-msgid "On the second day in Mina, in the heat, Kamal feels dizzy and weak. Salmah brings him to the Hajj health facility. At registration he opens his wallet and shows Nurse Reem the QR code."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:146
-msgid "One passcode policy (P4), stated once."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:40
-msgid "P0 · Before the season — keys and codes are shared (step A)"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:54
-msgid "P1 · The health check and the choice to share (step 1)"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:70
-msgid "P2 · His summary is assembled and signed (step 2)"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:84
-msgid "P3 · Taken ill in Mina (step 3)"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:95
-msgid "P4 · Scanned and checked (step 4, step B)"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:107
-msgid "P5 · His record is read and he is treated (step 5)"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:120
-msgid "P6 · When he cannot show the code (Phase 2: break the glass)"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:132
-msgid "P7 · Back home (after the story the guide tells)"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:26
-msgid "Person"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:118
-msgid "Policy question: does Malaysia learn that Kamal's record was opened in KSA, and by whom?"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:68
-msgid "Policy question: is consent given once for the whole Hajj season, per facility, or per encounter — and can Kamal withdraw it while abroad?"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:140
-msgid "Policy question: should the host country send a summary of care back to the home country — and with whose consent?"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:82
-msgid "Policy question: what must the summary contain for a pilgrim — and who decides what is left out?"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:105
-msgid "Policy question: what protection should the passcode give — and is a passcode shared by every pilgrim of a country a passcode at all?"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:93
-msgid "Policy question: what should happen when a pilgrim arrives with no phone, a flat battery, or no QR code?"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:52
-msgid "Policy question: which Malaysian institution signs health documents on behalf of the health sector, and who in KSA decides to accept that signature?"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:130
-msgid "Policy question: who may open an unconscious pilgrim's record, on what legal basis, and how is it accounted for afterwards?"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:32
-msgid "Registration nurse at a Hajj health facility in Mina."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:29
-msgid "Salmah"
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:92
-msgid "Specified by: business process Clinical Encounter for Unplanned Care (<a0>Business Processes</a0>)."
-msgstr ""
-
-#: input/pagecontent/pilgrim-journey.md:64
-msgid "Specified by: business processes Health Check and Counseling, Explicit Consent on Wallet and Verbal Consent (<a0>Business Processes</a0>); transaction <a1>record consent from wallet</a1>; profile HajjConsent and its examples CONSENT-MYS and CONSENT-KSA (<a2>Artifacts</a2>)."
+#: input/pagecontent/pilgrim-journey.md:103
+msgid "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Onesa's public key, fetched from GDHCN: the record really comes from Onesa's HIE and has not been changed."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:128
+msgid "On the day of Toreva Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Onesan medical team gives his pilgrimage registration number, and the facility reaches his summary through it."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:92
+msgid "On the second day in Nalemi, in the heat, Kamal feels dizzy and weak. Salmah brings him to the pilgrimage health facility. At registration he opens his wallet and shows Nurse Reem the QR code."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:150
+msgid "One passcode policy (P4), stated once."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:78
+msgid "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:48
+msgid "Onesa's HIE publishes the public keys it signs health documents with to the WHO GDHCN trust network, and shares the national code systems its IPS uses with the WHO Terminology Service (<a0>user scenarios</a0>, first two sections). Nothing about Kamal yet: this is what lets a Taifafeki clinic trust and read an Onesan record months later."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:44
+msgid "P0 · Before the season — keys and codes are shared (step A)"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:58
+msgid "P1 · The health check and the choice to share (step 1)"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:74
+msgid "P2 · His summary is assembled and signed (step 2)"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:88
+msgid "P3 · Taken ill in Nalemi (step 3)"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:99
+msgid "P4 · Scanned and checked (step 4, step B)"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:111
+msgid "P5 · His record is read and he is treated (step 5)"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:124
+msgid "P6 · When he cannot show the code (Phase 2: break the glass)"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:136
+msgid "P7 · Back home (after the story the guide tells)"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:30
+msgid "Person"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:122
+msgid "Policy question: does Onesa learn that Kamal's record was opened in Taifafeki, and by whom?"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:72
+msgid "Policy question: is consent given once for the whole pilgrimage season, per facility, or per encounter — and can Kamal withdraw it while abroad?"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:144
+msgid "Policy question: should the host country send a summary of care back to the home country — and with whose consent?"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:86
+msgid "Policy question: what must the summary contain for a pilgrim — and who decides what is left out?"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:109
+msgid "Policy question: what protection should the passcode give — and is a passcode shared by every pilgrim of a country a passcode at all?"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:97
+msgid "Policy question: what should happen when a pilgrim arrives with no phone, a flat battery, or no QR code?"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:56
+msgid "Policy question: which Onesan institution signs health documents on behalf of the health sector, and who in Taifafeki decides to accept that signature?"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:134
+msgid "Policy question: who may open an unconscious pilgrim's record, on what legal basis, and how is it accounted for afterwards?"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:36
+msgid "Registration nurse at a pilgrimage health facility in Nalemi."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:33
+msgid "Salmah"
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:96
+msgid "Specified by: business process Clinical Encounter for Unplanned Care (<a0>Business Processes</a0>)."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:68
+msgid "Specified by: business processes Health Check and Counseling, Explicit Consent on Wallet and Verbal Consent (<a0>Business Processes</a0>); transaction <a1>record consent from wallet</a1>; profile HajjConsent and its examples CONSENT-XXK and CONSENT-XXR (<a2>Artifacts</a2>)."
+msgstr ""
+
+#: input/pagecontent/pilgrim-journey.md:132
 msgid "Specified by: described in <a0>user scenarios</a0> as a Phase 2 scenario; the <a1>Origin Country Wallet</a1> lets the pilgrim opt in or out of break-the-glass access."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:50
+#: input/pagecontent/pilgrim-journey.md:54
 msgid "Specified by: the <a0>SMART Trust</a0> framework, by reference."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:103
+#: input/pagecontent/pilgrim-journey.md:107
 msgid "Specified by: the same process (tasks scan QR code, add passcode, verify QR code signature); the receiving steps of the <a0>Malaysian reference implementation</a0>."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:79
+#: input/pagecontent/pilgrim-journey.md:83
 msgid "Specified by: transaction <a0>issue VHL</a0>; profile HajjIPS and the example My IPS; the folder example My Hajj Pilgrimage Minimal Folder (<a1>Artifacts</a1>)."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:116
+#: input/pagecontent/pilgrim-journey.md:120
 msgid "Specified by: transactions <a0>retrieve VHL folder</a0> and <a1>retrieve IPS</a1>; the <a2>Host Country EMR</a2>'s duty to keep a rendered copy; test case View IPS content (<a3>Testing</a3>)."
 msgstr ""
 
@@ -271,30 +272,30 @@ msgstr ""
 msgid "The <a0>user scenarios</a0> of this guide told as one pilgrim's story, step by step along the <a1>overview of key process flows</a1> (the numbered steps 1–5 and A–B of the figure below). Each moment names who takes part, what happens, and what in this guide specifies it, and asks the policy question it raises. Where the guide does not yet specify a moment, the moment says so."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:149
+#: input/pagecontent/pilgrim-journey.md:153
 msgid "The data dictionary, decision logic, indicators and functional requirements, which are still placeholders."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:111
-msgid "The EMR follows the link to Malaysia's HIE and retrieves Kamal's summary. Dr Faisal sees the insulin and the penicillin allergy before he treats him for heat exhaustion and low blood sugar. The EMR keeps a rendered copy of the summary with the record of the visit."
+#: input/pagecontent/pilgrim-journey.md:115
+msgid "The EMR follows the link to Onesa's HIE and retrieves Kamal's summary. Dr Faisal sees the insulin and the penicillin allergy before he treats him for heat exhaustion and low blood sugar. The EMR keeps a rendered copy of the summary with the record of the visit."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:24
+#: input/pagecontent/pilgrim-journey.md:28
 msgid "The people"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:145
+#: input/pagecontent/pilgrim-journey.md:149
 msgid "The two pilgrim forms named in P1, and a page for the pilgrim and counsellor actors: their actor files exist but no page includes them."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:58
-msgid "Three months before Hajj, Kamal has the mandatory pre-Hajj health examination with Dr Aisyah. He is fit to travel. She explains what the Hajj Health Record is, who can see it, and for how long. Kamal agrees on his wallet to share his patient summary with Saudi health workers during Hajj, and sets how the link to it is protected."
+#: input/pagecontent/pilgrim-journey.md:62
+msgid "Three months before the pilgrimage, Kamal has the mandatory pre-pilgrimage health examination with Dr Aisyah. He is fit to travel. She explains what the Pilgrimage Health Record is, who can see it, and for how long. Kamal agrees on his wallet to share his patient summary with Taifafeki health workers during the pilgrimage, and sets how the link to it is protected."
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:142
+#: input/pagecontent/pilgrim-journey.md:146
 msgid "What the story shows the guide still needs"
 msgstr ""
 
-#: input/pagecontent/pilgrim-journey.md:26
+#: input/pagecontent/pilgrim-journey.md:30
 msgid "Who they are"
 msgstr ""

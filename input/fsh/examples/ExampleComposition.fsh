@@ -61,7 +61,7 @@ Usage: #example
 * section[sectionAdvanceDirectives].title = "Advance Directives"
 * section[sectionAdvanceDirectives].code = $loinc#42348-3
 * section[sectionAdvanceDirectives].text.status = #generated
-* section[sectionAdvanceDirectives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hajj consents: CONSENT-MYS (the origin country may release the IPS) and CONSENT-KSA (the host Ministry of Health may use it for treatment)</div>"
+* section[sectionAdvanceDirectives].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hajj consents: CONSENT-XXK (the origin country may release the IPS) and CONSENT-XXR (the host Ministry of Health may use it for treatment)</div>"
 * section[sectionAdvanceDirectives].entry[0] = Reference(c7781f44-6df8-4a8b-9e06-0b34263a47c6)
 * section[sectionAdvanceDirectives].entry[+] = Reference(6ba64cfe-b224-4d40-87bf-4d8122e65e62)
 Instance: Martha

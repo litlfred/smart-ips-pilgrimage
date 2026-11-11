@@ -1,8 +1,8 @@
 {
   "id": "dr-hafiz",
-  "title": "Dr Hafiz (Malaysian Hajj medical team)",
+  "title": "Dr Hafiz (Onesan pilgrimage medical team)",
   "kind": "person",
-  "description": "Persona: a doctor of the Malaysian Hajj medical team, travelling with the pilgrims; the guide's Accompanying Clinician from Origin Country. Fictional.",
+  "description": "Persona: a doctor of the Onesan pilgrimage medical team, travelling with the pilgrims; the guide's Accompanying Clinician from Origin Country. Fictional.",
   "roles": [
     "accompanying-clinician"
   ],
@@ -10,11 +10,11 @@
   "meta": {
     "persona": {
       "name": "Dr Hafiz",
-      "role": "Hajj medical team doctor",
-      "country": "Malaysia",
+      "role": "Pilgrimage medical team doctor",
+      "country": "Onesa",
       "goal": "Look after his country's pilgrims, and vouch for them when they cannot speak.",
       "needs": [
-        "A way to identify an unconscious pilgrim to a Saudi facility",
+        "A way to identify an unconscious pilgrim to a Taifafeki facility",
         "Access that is accounted for afterwards"
       ],
       "frustrations": [

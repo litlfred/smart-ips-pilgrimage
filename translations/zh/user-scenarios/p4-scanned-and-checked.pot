@@ -16,12 +16,12 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:17
 msgctxt "country"
-msgid "Kingdom of Saudi Arabia"
+msgid "Taifafeki"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:5
 msgctxt "description"
-msgid "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Malaysia's public key, fetched from GDHCN: the record really comes from Malaysia's HIE and has not been changed. Step 4 and step B of the overview of key process flows."
+msgid "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Onesa's public key, fetched from GDHCN: the record really comes from Onesa's HIE and has not been changed. Step 4 and step B of the overview of key process flows."
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:138
@@ -41,12 +41,12 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:81
 msgctxt "step.enabler"
-msgid "The EMR verifies the signature against a key it got from the trust network, with no call to Malaysia needed."
+msgid "The EMR verifies the signature against a key it got from the trust network, with no call to Onesa needed."
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:73
 msgctxt "step.experiences.doing"
-msgid "Decodes the QR code and verifies its signature with Malaysia's public key."
+msgid "Decodes the QR code and verifies its signature with Onesa's public key."
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:55
@@ -61,7 +61,7 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:77
 msgctxt "step.experiences.doing"
-msgid "Supplies Malaysia's public key."
+msgid "Supplies Onesa's public key."
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:67
@@ -81,7 +81,7 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:56
 msgctxt "step.experiences.feeling"
-msgid "“Verified: it really comes from Malaysia.”"
+msgid "“Verified: it really comes from Onesa.”"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:104
@@ -101,7 +101,7 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:5
 msgctxt "step.handoff.payload"
-msgid "Malaysia's public key"
+msgid "Onesa's public key"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:84
@@ -111,7 +111,7 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:46
 msgctxt "step.headline"
-msgid "Nurse Reem scans the code and enters the passcode; the EMR checks the signature with Malaysia's key from GDHCN."
+msgid "Nurse Reem scans the code and enters the passcode; the EMR checks the signature with Onesa's key from GDHCN."
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:121
@@ -121,7 +121,7 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:5
 msgctxt "step.narrative"
-msgid "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Malaysia's public key, fetched from GDHCN: the record really comes from Malaysia's HIE and has not been changed. Step 4 and step B of the overview of key process flows."
+msgid "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Onesa's public key, fetched from GDHCN: the record really comes from Onesa's HIE and has not been changed. Step 4 and step B of the overview of key process flows."
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:80
@@ -141,7 +141,7 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:127
 msgctxt "step.record.heldWhere"
-msgid "The Mina facility's EMR"
+msgid "The Nalemi facility's EMR"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:109
@@ -166,12 +166,12 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:15
 msgctxt "step.when"
-msgid "Second day in Mina"
+msgid "Second day in Nalemi"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:16
 msgctxt "step.where"
-msgid "Registration, Hajj health facility, Mina"
+msgid "Registration, pilgrimage health facility, Nalemi"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:4
@@ -181,10 +181,10 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:15
 msgctxt "when"
-msgid "Second day in Mina"
+msgid "Second day in Nalemi"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:16
 msgctxt "where"
-msgid "Registration, Hajj health facility, Mina"
+msgid "Registration, pilgrimage health facility, Nalemi"
 msgstr ""

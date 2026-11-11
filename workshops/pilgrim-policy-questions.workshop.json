@@ -1,7 +1,7 @@
 {
   "$schema": "workshop/0.1.0",
   "id": "pilgrim-policy-questions",
-  "title": "The pilgrim's Hajj: the policy questions",
+  "title": "The pilgrim's journey: the policy questions",
   "description": "The policy question each moment of the pilgrim's journey (P0 to P7) raises, one per moment, as questions for a room of origin- and host-country policy makers. A question is a question: the room names who holds the answer today, it does not decide it.",
   "audience": "Ministry of Health and pilgrimage-authority policy makers of an origin country and the host country",
   "scenarios": [
@@ -29,22 +29,22 @@
     {
       "scenario": "p0-keys-and-codes-shared",
       "step": "P0",
-      "askTheRoom": "Which Malaysian institution signs health documents on behalf of the health sector, and who in KSA decides to accept that signature?",
+      "askTheRoom": "Which Onesan institution signs health documents on behalf of the health sector, and who in Taifafeki decides to accept that signature?",
       "questions": [
         {
           "module": "M1",
-          "text": "Which Malaysian institution signs health documents on behalf of the health sector, and who in KSA decides to accept that signature?"
+          "text": "Which Onesan institution signs health documents on behalf of the health sector, and who in Taifafeki decides to accept that signature?"
         }
       ]
     },
     {
       "scenario": "p1-health-check-and-consent",
       "step": "P1",
-      "askTheRoom": "Is consent given once for the whole Hajj season, per facility, or per encounter — and can Kamal withdraw it while abroad?",
+      "askTheRoom": "Is consent given once for the whole pilgrimage season, per facility, or per encounter — and can Kamal withdraw it while abroad?",
       "questions": [
         {
           "module": "M1",
-          "text": "Is consent given once for the whole Hajj season, per facility, or per encounter — and can Kamal withdraw it while abroad?"
+          "text": "Is consent given once for the whole pilgrimage season, per facility, or per encounter — and can Kamal withdraw it while abroad?"
         }
       ]
     },
@@ -84,11 +84,11 @@
     {
       "scenario": "p5-record-read-and-treated",
       "step": "P5",
-      "askTheRoom": "Does Malaysia learn that Kamal's record was opened in KSA, and by whom?",
+      "askTheRoom": "Does Onesa learn that Kamal's record was opened in Taifafeki, and by whom?",
       "questions": [
         {
           "module": "M1",
-          "text": "Does Malaysia learn that Kamal's record was opened in KSA, and by whom?"
+          "text": "Does Onesa learn that Kamal's record was opened in Taifafeki, and by whom?"
         }
       ]
     },
@@ -144,9 +144,9 @@
     "badge": "Interactive Spec",
     "tagline": "International Patient Summary (IPS) • WHO GDHCN • Verifiable Health Links (VHL)",
     "subject": "Verifiable IPS for pilgrimage",
-    "scope": "Malaysia ⇄ Kingdom of Saudi Arabia",
-    "story": "Kamal, 61, falls ill in Mina on his first Hajj, and a Saudi doctor reads his medicines and allergies from his Malaysian health summary, checked as genuine through WHO GDHCN.",
-    "lede": "One pilgrim and the people around him, eight moments, one Hajj season. Follow the people first; the technology is what makes each hand-off possible.",
+    "scope": "Onesa ⇄ Taifafeki",
+    "story": "Kamal, 61, falls ill in Nalemi on his first pilgrimage, and a Taifafeki doctor reads his medicines and allergies from his Onesan health summary, checked as genuine through WHO GDHCN.",
+    "lede": "One pilgrim and the people around him, eight moments, one pilgrimage season. Follow the people first; the technology is what makes each hand-off possible.",
     "recordOf": "kamal",
     "presenterNote": "Lead with people, not screens: introduce the cast, walk the eight moments, then open the guide only when the room asks \"how does that work?\"",
     "about": {
