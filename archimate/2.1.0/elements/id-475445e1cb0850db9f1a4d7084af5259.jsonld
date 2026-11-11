@@ -8,7 +8,7 @@
   "@type": "archimate:BusinessProcess",
   "schema:identifier": "id-475445e1cb0850db9f1a4d7084af5259",
   "schema:name": "P7 · Back home",
-  "schema:description": "Kamal comes home. His GP in Kuala Terengganu does not know he was treated in Mina. After the story this guide tells.",
+  "schema:description": "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi. After the story this guide tells.",
   "schema:category": "Business",
   "dcterms:isPartOf": "https://litlfred.github.io/smart-ips-pilgrimage/archimate/2.1.0.jsonld"
 }

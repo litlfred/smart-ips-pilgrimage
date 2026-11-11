@@ -128,7 +128,7 @@
     },
     "text" : {
       "status" : "generated",
-      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hajj consents: CONSENT-MYS (the origin country may release the IPS) and CONSENT-KSA (the host Ministry of Health may use it for treatment)</div>"
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hajj consents: CONSENT-XXK (the origin country may release the IPS) and CONSENT-XXR (the host Ministry of Health may use it for treatment)</div>"
     },
     "entry" : [{
       "reference" : "Consent/c7781f44-6df8-4a8b-9e06-0b34263a47c6"

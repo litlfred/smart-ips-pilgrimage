@@ -46,9 +46,15 @@
     },
     "CONSENT-OMN": {
       "en": "Consent for Oman"
+    },
+    "CONSENT-XXK": {
+      "en": "Consent for Onesa (fictional example)"
+    },
+    "CONSENT-XXR": {
+      "en": "Consent for Taifafeki (fictional example)"
     }
   },
   "fhir:valueSet": "http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.CONSENT",
   "fhir:version": "2.1.0",
-  "fhir:expansionTimestamp": "2026-11-10T21:43:41+00:00"
+  "fhir:expansionTimestamp": "2026-11-11T18:04:38+00:00"
 }

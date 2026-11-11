@@ -24,14 +24,14 @@ hide footbox
 participant "P0 · Before the season — keys and codes are shared" as id_1d10603bf37e5c1fbdddd2a493eff491 <<BusinessProcess>>
 participant "P1 · The health check and the choice to share" as id_dddf2e7324aa5f91904b80307fbd877a <<BusinessProcess>>
 participant "P2 · His summary is assembled and signed" as id_abe54aba83bf5d3fb7555a45a6d55e33 <<BusinessProcess>>
-participant "P3 · Taken ill in Mina" as id_15ad62c4c32e52439597bee188559dea <<BusinessProcess>>
+participant "P3 · Taken ill in Nalemi" as id_15ad62c4c32e52439597bee188559dea <<BusinessProcess>>
 participant "P4 · Scanned and checked" as id_8ada823571f4597ea07ae7870ddca86d <<BusinessProcess>>
 participant "P5 · His record is read and he is treated" as id_cef47cd08ab2539db34f341f16067b99 <<BusinessProcess>>
 participant "P6 · When he cannot show the code (break the glass)" as id_11fab3bebb77541abfcf6d1bbc736960 <<BusinessProcess>>
 participant "P7 · Back home" as id_475445e1cb0850db9f1a4d7084af5259 <<BusinessProcess>>
 id_1d10603bf37e5c1fbdddd2a493eff491 -> id_dddf2e7324aa5f91904b80307fbd877a : triggers P1 · The health check and the choice to share
 id_dddf2e7324aa5f91904b80307fbd877a -> id_abe54aba83bf5d3fb7555a45a6d55e33 : triggers P2 · His summary is assembled and signed
-id_abe54aba83bf5d3fb7555a45a6d55e33 -> id_15ad62c4c32e52439597bee188559dea : triggers P3 · Taken ill in Mina
+id_abe54aba83bf5d3fb7555a45a6d55e33 -> id_15ad62c4c32e52439597bee188559dea : triggers P3 · Taken ill in Nalemi
 id_15ad62c4c32e52439597bee188559dea -> id_8ada823571f4597ea07ae7870ddca86d : triggers P4 · Scanned and checked
 id_8ada823571f4597ea07ae7870ddca86d -> id_cef47cd08ab2539db34f341f16067b99 : triggers P5 · His record is read and he is treated
 id_cef47cd08ab2539db34f341f16067b99 -> id_11fab3bebb77541abfcf6d1bbc736960 : triggers P6 · When he cannot show the code (break the glass)

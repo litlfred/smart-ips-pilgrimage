@@ -6,9 +6,9 @@
   "source": {
     "kind": "sushi-config",
     "of": "https://github.com/litlfred/smart-ips-pilgrimage",
-    "ref": "8c95b4196ca9cffc853a50a3f28a5c73e2bf6f6b",
+    "ref": "d640328236941983744148f066b29006f7e7710f",
     "path": "sushi-config.yaml",
-    "readAt": "2026-11-10"
+    "readAt": "2026-11-11"
   },
   "groups": [
     {
@@ -50,10 +50,6 @@
         {
           "label": "User Scenarios",
           "href": "scenarios.html"
-        },
-        {
-          "label": "The Pilgrim's Journey",
-          "href": "pilgrim-journey.html"
         },
         {
           "label": "Business Processes",

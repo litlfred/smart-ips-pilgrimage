@@ -14,7 +14,7 @@
   "title" : "SMART Verifiable IPS for Pilgrimage",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-10T21:42:47+00:00",
+  "date" : "2026-11-11T18:03:08+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
@@ -825,7 +825,7 @@
       "reference" : {
         "reference" : "Consent/6ba64cfe-b224-4d40-87bf-4d8122e65e62"
       },
-      "name" : "Hajj consent: the host Ministry of Health may use the IPS (CONSENT-KSA)",
+      "name" : "Hajj consent: the host Ministry of Health may use the IPS (CONSENT-XXR)",
       "description" : "The second of the pilgrim's two Hajj consents. The pilgrim lets the host Ministry of Health use the IPS, for treatment, during the Hajj period and any follow-up care. This consent governs the host's use of the IPS after it is received.",
       "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjConsent"
     },
@@ -837,7 +837,7 @@
       "reference" : {
         "reference" : "Consent/c7781f44-6df8-4a8b-9e06-0b34263a47c6"
       },
-      "name" : "Hajj consent: the origin country may release the IPS (CONSENT-MYS)",
+      "name" : "Hajj consent: the origin country may release the IPS (CONSENT-XXK)",
       "description" : "The first of the pilgrim's two Hajj consents. The pilgrim lets the origin country HIE release the IPS to the host Ministry of Health, as information recipient, for treatment, during the Hajj period. The origin HIE enforces this consent from its own Consent Registry.",
       "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjConsent"
     },
@@ -886,7 +886,7 @@
         "reference" : "Organization/ExampleHostMoH"
       },
       "name" : "Host country Ministry of Health (example): VHL Receiver",
-      "description" : "Fictional host-country Ministry of Health (Saudi Arabia in this example), the recipient the pilgrim's consents name.",
+      "description" : "Fictional host-country Ministry of Health (the fictional Taifafeki in this example), the recipient the pilgrim's consents name.",
       "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjOrganization"
     },
     {
@@ -1378,7 +1378,7 @@
         "reference" : "Organization/ExampleOriginHIE"
       },
       "name" : "Origin country HIE (example): VHL Sharer and Consent Registry custodian",
-      "description" : "Fictional health information exchange of the pilgrim's origin country (Malaysia in this example). It holds the pilgrim's consents and releases the IPS.",
+      "description" : "Fictional health information exchange of the pilgrim's origin country (the fictional Onesa in this example). It holds the pilgrim's consents and releases the IPS.",
       "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjOrganization"
     },
     {
@@ -1623,15 +1623,6 @@
           }],
           "nameUrl" : "scenarios.html",
           "title" : "User Scenarios",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "pilgrim-journey.html"
-          }],
-          "nameUrl" : "pilgrim-journey.html",
-          "title" : "The Pilgrim's Journey",
           "generation" : "markdown"
         },
         {

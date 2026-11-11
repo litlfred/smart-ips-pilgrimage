@@ -427,7 +427,7 @@
       "@type": "fhir:Organization",
       "dcterms:identifier": "Organization/ExampleHostMoH",
       "dcterms:title": "ExampleHostMoH",
-      "dcterms:description": "Ministry of Health Saudi Arabia (example)",
+      "dcterms:description": "Ministry of Health Taifafeki (example)",
       "dcterms:type": "Other",
       "dcterms:conformsTo": [
         {
@@ -440,7 +440,7 @@
       "@type": "fhir:Organization",
       "dcterms:identifier": "Organization/ExampleOriginHIE",
       "dcterms:title": "ExampleOriginHIE",
-      "dcterms:description": "Ministry of Health Malaysia Health Information Exchange (example)",
+      "dcterms:description": "Ministry of Health Onesa Health Information Exchange (example)",
       "dcterms:type": "Other",
       "dcterms:conformsTo": [
         {

@@ -124,7 +124,7 @@
         },
         {
           "id": "id-15ad62c4c32e52439597bee188559dea",
-          "name": "P3 · Taken ill in Mina",
+          "name": "P3 · Taken ill in Nalemi",
           "type": "BusinessProcess",
           "elementId": "id-15ad62c4c32e52439597bee188559dea"
         },
@@ -171,7 +171,7 @@
         {
           "from": "id-abe54aba83bf5d3fb7555a45a6d55e33",
           "to": "id-15ad62c4c32e52439597bee188559dea",
-          "label": "triggers P3 · Taken ill in Mina",
+          "label": "triggers P3 · Taken ill in Nalemi",
           "kind": "triggering",
           "relationshipId": "id-4d04ec822be95089bed923260c04f054"
         },

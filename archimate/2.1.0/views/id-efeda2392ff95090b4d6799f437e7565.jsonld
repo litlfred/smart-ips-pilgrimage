@@ -4,12 +4,12 @@
     "schema": "https://schema.org/",
     "dcterms": "http://purl.org/dc/terms/"
   },
-  "@id": "https://litlfred.github.io/smart-ips-pilgrimage/archimate/2.1.0/views/id-5fc25ed30f0d5bc183f2bc353401a7fb.jsonld",
+  "@id": "https://litlfred.github.io/smart-ips-pilgrimage/archimate/2.1.0/views/id-efeda2392ff95090b4d6799f437e7565.jsonld",
   "@type": "archimate:Diagram",
-  "schema:identifier": "id-5fc25ed30f0d5bc183f2bc353401a7fb",
-  "schema:name": "P3 · Taken ill in Mina",
-  "schema:description": "P3 · Taken ill in Mina: Second day in Mina, A Hajj health facility in Mina. The people assigned to this moment and the systems that serve it (user-scenarios/p3-taken-ill-in-mina.json).",
-  "schema:image": "https://litlfred.github.io/smart-ips-pilgrimage/archimate/2.1.0/views/id-5fc25ed30f0d5bc183f2bc353401a7fb.svg",
+  "schema:identifier": "id-efeda2392ff95090b4d6799f437e7565",
+  "schema:name": "P3 · Taken ill in Nalemi",
+  "schema:description": "P3 · Taken ill in Nalemi: Second day in Nalemi, A pilgrimage health facility in Nalemi. The people assigned to this moment and the systems that serve it (user-scenarios/p3-taken-ill-in-mina.json).",
+  "schema:image": "https://litlfred.github.io/smart-ips-pilgrimage/archimate/2.1.0/views/id-efeda2392ff95090b4d6799f437e7565.svg",
   "schema:about": [
     {
       "@id": "https://litlfred.github.io/smart-ips-pilgrimage/archimate/2.1.0/elements/id-51918bcf0f275064ba2787ee24648745.jsonld"
