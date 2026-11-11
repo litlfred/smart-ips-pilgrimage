@@ -7,7 +7,7 @@ generated: "scripts/subgraph-readmes.ts of the bootstrap toolset (https://github
 
 # user-scenarios
 
-The pilgrim's journey (input/pagecontent/pilgrim-journey.md) as user scenarios: the parent journey the-pilgrims-hajj and one sub-journey per moment P0 to P7, partOf the parent and following each other in order. Each step's picture is input/images/pilgrim/<p>.webp.
+The pilgrim's journey (the home page, input/pagecontent/index.md) as user scenarios: the parent journey the-pilgrims-hajj and one sub-journey per moment P0 to P7, partOf the parent and following each other in order. Each step's picture is input/images/pilgrim/<p>.webp.
 
 Part of [SMART Verifiable IPS for Pilgrimage](../README.md) 2.1.0, declared as `user-scenarios`, holding `user-scenario`.
 
