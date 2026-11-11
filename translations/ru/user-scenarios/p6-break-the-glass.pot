@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: p6-break-the-glass\n"
-"POT-Creation-Date: 2026-11-10T20:12:07.197Z\n"
+"POT-Creation-Date: 2026-11-11T09:32:07.915Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -84,7 +84,7 @@ msgctxt "step.gaps"
 msgid "No business process, transaction or consent profile for emergency access."
 msgstr ""
 
-#: user-scenarios/p6-break-the-glass.json:5
+#: user-scenarios/p6-break-the-glass.json:49
 msgctxt "step.handoff.carrier"
 msgid "Pilgrimage registration number"
 msgstr ""
