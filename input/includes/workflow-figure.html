@@ -3,7 +3,8 @@
      input/images/workflow.png):
      - "As drawn": archimate/pretty.py, in the original figure's style; each pictogram is a role of scenarios/roles.json and opens
        its IG actor or persona, each numbered circle opens its journey moment;
-     - "ArchiMate": the archimate-pages visualiser's drawing; each box opens its ArchiMate element (workflow.png if it cannot load). -->
+     - "ArchiMate": the archimate-pages visualiser's drawing, shown as an image (the IG content QA gate refuses embedded objects); the picture
+       links to the SVG itself, where each box opens its ArchiMate element. -->
 <style>
 .wf-fig .wf-pane{display:none}
 .wf-fig input{position:absolute;opacity:0}
@@ -18,9 +19,9 @@
 <label for="wf-archimate">ArchiMate</label>
 <div class="wf-pane wf-pane-drawn">{% include workflow-pretty.svg %}</div>
 <div class="wf-pane wf-pane-archimate">
-<object type="image/svg+xml" data="archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg" style="width:100%;height:auto" aria-label="Overview of key process flows, ArchiMate view">
-<img src="workflow.png" alt="Overview of key process flows" style="width:100%"/>
-</object>
+<a href="archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg" title="Open the ArchiMate view on its own, where each box links to its ArchiMate element">
+<img src="archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg" alt="Overview of key process flows, ArchiMate view" style="width:100%;height:auto"/>
+</a>
 </div>
 <figcaption style="font-size:.85em">Overview of key process flows, from this guide's <a href="en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/">ArchiMate model</a>. Each picture is a role of the guide (its actor or persona), and each numbered flow is a moment of <a href="index.html">the pilgrim's journey</a>.</figcaption>
 </figure>
