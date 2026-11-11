@@ -1,0 +1,184 @@
+{
+  "$schema": "folio-index-config/v1",
+  "_comment": "smart-trust-tools takes the smart-hiv shape, as litlfred/smart-trust does: this file pins the layers it needs (fhir-harness and everything below it) and declares the site agent-run. The mounts are laid down from index.lock.json and gitignored.",
+  "instances": [
+    {
+      "name": "fhir-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/fhir-harness",
+          "ref": "5e6f2972eefc01de60d0a455bb676ebeb7aeaf7a",
+          "overrides": {
+            "fhir-harness": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-07",
+              "ref": "5e6f2972eefc01de60d0a455bb676ebeb7aeaf7a",
+              "evidence": "Owner litlfred, 2026-11-07 (after 05:30Z, this session): 'repin + merge open 12 hrs'."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "folio-assistant-core",
+      "source": {
+        "remote": {
+          "repository": "litlfred/folio-assistant-core",
+          "ref": "49496b4f3e0f4e8e1ec01c19a20d2f2ca6516230",
+          "overrides": {
+            "folio-assistant-core": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-07",
+              "ref": "49496b4f3e0f4e8e1ec01c19a20d2f2ca6516230",
+              "evidence": "Owner litlfred, 2026-11-07 (after 05:30Z, this session): 'repin + merge open 12 hrs'."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness",
+          "ref": "99fb9499ed712f0adcb1940ba95b711f11a3c48d",
+          "overrides": {
+            "cat-harness": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-07",
+              "ref": "99fb9499ed712f0adcb1940ba95b711f11a3c48d",
+              "evidence": "Owner litlfred, 2026-11-07 (after 05:30Z, this session): 'repin + merge open 12 hrs'."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness-tools",
+          "ref": "144f3d31f366958b81c0ca25edfc6db9cfa9646a",
+          "overrides": {
+            "cat-harness-tools": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-07",
+              "ref": "144f3d31f366958b81c0ca25edfc6db9cfa9646a",
+              "evidence": "Owner litlfred, 2026-11-07 (after 05:30Z, this session): 'repin + merge open 12 hrs'."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap",
+          "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
+          "overrides": {
+            "bootstrap": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-07",
+              "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
+              "evidence": "Owner litlfred, 2026-11-07 (after 05:30Z, this session): 'repin + merge open 12 hrs'."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap-tools",
+          "ref": "a668ea1f512b1081ac8f3958f92166f12ce684cb",
+          "overrides": {
+            "bootstrap-tools": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-07",
+              "ref": "a668ea1f512b1081ac8f3958f92166f12ce684cb",
+              "evidence": "Owner litlfred, 2026-11-07 (after 05:30Z, this session): 'repin + merge open 12 hrs'."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "smart-trust-tools",
+      "source": {
+        "local": {
+          "at": "."
+        }
+      },
+      "site": {
+        "build": {
+          "home": "docs/index.md",
+          "pre": [
+            "check:req-nodes",
+            "site:fhir-validate"
+          ],
+          "sourceSteps": [
+            "site:docs"
+          ],
+          "siteSteps": [
+            "site:viewers"
+          ],
+          "profile": "folio"
+        }
+      }
+    }
+  ],
+  "site": {
+    "landing": "smart-trust-tools",
+    "agentRun": true
+  }
+}
