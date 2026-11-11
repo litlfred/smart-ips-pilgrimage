@@ -66,10 +66,6 @@ msgstr "Services"
 msgid "Sharing of tabular data"
 msgstr "Partage de données tabulaires"
 
-#: input/pagecontent/scenarios.md:1
-msgid "The scenarios below, told as one pilgrim's story: <a0>The Pilgrim's Journey</a0> follows a fictional Malaysian pilgrim through every step of the key process flows, with the question each step raises."
-msgstr "Les scénarios ci-dessous, racontés comme l'histoire d'un pèlerin : <a0>The Pilgrim's Journey</a0> suit un pèlerin malaisien fictif à chaque étape des principaux flux de processus, avec la question que soulève chaque étape."
-
 #: input/pagecontent/scenarios.md:4
 msgid "The user scenarios are only illustrative and are intended to give an idea of a typical workflow."
 msgstr "Les scénarios d'utilisation sont uniquement illustratifs et visent à donner une idée d'un flux de travail type."
@@ -109,3 +105,10 @@ msgstr "Les scénarios d'utilisation peuvent être des outils utiles non seuleme
 #: input/pagecontent/scenarios.md:15
 msgid "WHO GDHCN"
 msgstr "GDHCN de l'OMS"
+
+#: input/pagecontent/scenarios.md:1
+msgid "The scenarios below, told as one pilgrim's story: <a0>the home page</a0> follows a fictional Onesan pilgrim through every step of the key process flows, with the question each step raises."
+msgstr ""
+
+#~ msgid "The scenarios below, told as one pilgrim's story: <a0>The Pilgrim's Journey</a0> follows a fictional Malaysian pilgrim through every step of the key process flows, with the question each step raises."
+#~ msgstr "Les scénarios ci-dessous, racontés comme l'histoire d'un pèlerin : <a0>The Pilgrim's Journey</a0> suit un pèlerin malaisien fictif à chaque étape des principaux flux de processus, avec la question que soulève chaque étape."

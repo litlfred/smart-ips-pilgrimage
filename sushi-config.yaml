@@ -42,8 +42,6 @@ pages:
       title: Generic Personas
     scenarios.md:
       title: User Scenarios
-    pilgrim-journey.md:
-      title: The Pilgrim's Journey
     business-processes.md:
       title: Business Processes
     dictionary.md:
@@ -111,7 +109,6 @@ menu:
     Concepts: concepts.html
     Generic Personas: personas.html
     User Scenarios: scenarios.html
-    The Pilgrim's Journey: pilgrim-journey.html
     Business Processes: business-processes.html
     Data Dictionary: dictionary.html
     Decision-support Logic: decision-logic.html
