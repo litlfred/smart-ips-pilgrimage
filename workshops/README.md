@@ -13,6 +13,6 @@ Part of [SMART Verifiable IPS for Pilgrimage](../README.md) 2.1.0, declared as `
 
 | file | what it is | used by |
 |---|---|---|
-| [`pilgrim-policy-questions.workshop.json`](pilgrim-policy-questions.workshop.json) | The pilgrim's Hajj: the policy questions |  |
+| [`pilgrim-policy-questions.workshop.json`](pilgrim-policy-questions.workshop.json) | The pilgrim's journey: the policy questions |  |
 
 <!-- kg:subgraph:end -->
