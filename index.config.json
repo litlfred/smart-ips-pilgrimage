@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "907c4cbe966881865462b2676330592e7fa9b428",
+          "ref": "4804b34245cfc80898042d9acd3dbb987480ef2d",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "907c4cbe966881865462b2676330592e7fa9b428",
-              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
+              "on": "2026-11-11",
+              "ref": "4804b34245cfc80898042d9acd3dbb987480ef2d",
+              "evidence": "litlfred, 2026-11-11, cat-harness-tools#1879: chose option A (every harnessed repo publishes its site on push to main through the shared folio-site-publish.yml, which needs tools >= 625ac09a); re-pin moves every pinned harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "a3f7af18fd3447c9cf6fedee22cef330f612712e",
+          "ref": "c7d06d51dfc5c3dde0aaf702c3f51252ace0bb90",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -79,9 +79,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "a3f7af18fd3447c9cf6fedee22cef330f612712e",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); refreshed 11:00Z for cat-harness-tools cc67cd17 (#1622)."
+              "on": "2026-11-11",
+              "ref": "c7d06d51dfc5c3dde0aaf702c3f51252ace0bb90",
+              "evidence": "litlfred, 2026-11-11, cat-harness-tools#1879: chose option A (every harnessed repo publishes its site on push to main through the shared folio-site-publish.yml, which needs tools >= 625ac09a); re-pin moves every pinned harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "a0492cdc734e60040faef90f2cd353da25c6d7bf",
+          "ref": "801525021eee7576f398369b0b562fe03081e32f",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -101,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "a0492cdc734e60040faef90f2cd353da25c6d7bf",
-              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
+              "on": "2026-11-11",
+              "ref": "801525021eee7576f398369b0b562fe03081e32f",
+              "evidence": "litlfred, 2026-11-11, cat-harness-tools#1879: chose option A (every harnessed repo publishes its site on push to main through the shared folio-site-publish.yml); re-pin to fhir-harness main at or after fhir-harness#332's merge (801525021e), whose ig-content-qa gate every IG publish now needs, under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "62fe7e771c39686f206b95e04e2590eadd2915ce",
+          "ref": "1874fd5fd7a1f57ea13faf619af66d25aef31e97",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-08",
-              "ref": "62fe7e771c39686f206b95e04e2590eadd2915ce",
-              "evidence": "Owner litlfred, 2026-11-08 10:36Z, project thread 'Expand bibliography entries into detail panels', card 'OK to re-pin core to 62fe7e7 in smart-trust, smart-ips-pilgrimage, smart-hiv?': chose 'A Re-pin core in the 3 PRs'."
+              "on": "2026-11-11",
+              "ref": "1874fd5fd7a1f57ea13faf619af66d25aef31e97",
+              "evidence": "litlfred, 2026-11-11, cat-harness-tools#1879: chose option A (every harnessed repo publishes its site on push to main through the shared folio-site-publish.yml, which needs tools >= 625ac09a); re-pin moves every pinned harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "af123f4c581d9cccfe94c954e00dac9fa8c88e83",
+          "ref": "4041cf5620e287a98d7ddeb465dd5841185114d0",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "af123f4c581d9cccfe94c954e00dac9fa8c88e83",
-              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
+              "on": "2026-11-11",
+              "ref": "4041cf5620e287a98d7ddeb465dd5841185114d0",
+              "evidence": "litlfred, 2026-11-11, cat-harness-tools#1879: chose option A (every harnessed repo publishes its site on push to main through the shared folio-site-publish.yml, which needs tools >= 625ac09a); re-pin moves every pinned harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "d2e4e7ccccacd44ea3cd9540d2e5df3b43d93ddd",
+          "ref": "9559d12d51963313a68bb35b4fc824ba4588bc80",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "d2e4e7ccccacd44ea3cd9540d2e5df3b43d93ddd",
-              "evidence": "litlfred 2026-11-07 17:30Z (relayed by the coordinator session): \"merge what green. window +12hrs. cooridnate merge manager\"; owner's card 2026-11-07: user-scenario translation by a harness extractor (cat-harness-tools#1671); re-pin cat-harness-tools to main d2e4e7c."
+              "on": "2026-11-11",
+              "ref": "9559d12d51963313a68bb35b4fc824ba4588bc80",
+              "evidence": "litlfred, 2026-11-11, cat-harness-tools#1879: chose option A (every harnessed repo publishes its site on push to main through the shared folio-site-publish.yml, which needs tools >= 625ac09a); re-pin moves every pinned harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -195,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
+          "ref": "1c36aef5ab70d7e95ee6026124cd004cab0c0990",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -204,9 +204,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-06",
-              "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-11",
+              "ref": "1c36aef5ab70d7e95ee6026124cd004cab0c0990",
+              "evidence": "litlfred, 2026-11-11, cat-harness-tools#1879: chose option A (every harnessed repo publishes its site on push to main through the shared folio-site-publish.yml, which needs tools >= 625ac09a); re-pin moves every pinned harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "1dc08c906f3a9377534b753fed493b811e040ad7",
+          "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -229,9 +229,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "1dc08c906f3a9377534b753fed493b811e040ad7",
-              "evidence": "litlfred 2026-11-07 05:25Z, session https://claude.ai/code/session_01VQDpPfeH29k3n4iKC2D5wg: \"repin + merge open 12 hrs\" (merge window to 17:25Z); re-pin refreshed at 08:45Z for cat-harness-tools e3f62f5b (#1620)."
+              "on": "2026-11-11",
+              "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
+              "evidence": "litlfred, 2026-11-11, cat-harness-tools#1879: chose option A (every harnessed repo publishes its site on push to main through the shared folio-site-publish.yml, which needs tools >= 625ac09a); re-pin moves every pinned harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -242,7 +242,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-trust-tools",
-          "ref": "354f115ed39da47ef53be971398a50bf10f8bfe2",
+          "ref": "dd739aad2335a963fb0b85212ce8da5fc5d7dd3e",
           "overrides": {
             "smart-trust-tools": {
               "whole": true
@@ -251,9 +251,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "354f115ed39da47ef53be971398a50bf10f8bfe2",
-              "evidence": "Owner, 2026-11-07 05:26 UTC: 'repin + merge open 12 hrs'"
+              "on": "2026-11-11",
+              "ref": "dd739aad2335a963fb0b85212ce8da5fc5d7dd3e",
+              "evidence": "litlfred, 2026-11-11, cat-harness-tools#1879: chose option A (every harnessed repo publishes its site on push to main through the shared folio-site-publish.yml, which needs tools >= 625ac09a); re-pin moves every pinned harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
             }
           }
         }
@@ -332,7 +332,8 @@
         "_updatePublisher.bat",
         "publication-request.json",
         "transform_bpmn.xsl",
-        "local-template/"
+        "local-template/",
+        "qa/ig-content-qa.json"
       ]
     }
   }
