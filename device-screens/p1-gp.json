@@ -15,7 +15,7 @@
     {
       "type": "header",
       "app": "Pre-Hajj health examination",
-      "subtitle": "Clinic, Kuala Terengganu • Dr Aisyah",
+      "subtitle": "Clinic, Tanavu • Dr Aisyah",
       "icon": "stethoscope",
       "brand": "#0d9488",
       "status": {
@@ -68,8 +68,8 @@
       "column": "side",
       "title": "What the Hajj Health Record shares",
       "icon": "shield",
-      "who": "Saudi health workers who treat Kamal",
-      "what": "His International Patient Summary, signed by Malaysia",
+      "who": "Taifafeki health workers who treat Kamal",
+      "what": "His International Patient Summary, signed by Onesa",
       "until": "The end of the Hajj season",
       "granted": true
     },
@@ -77,7 +77,7 @@
       "type": "note",
       "column": "side",
       "icon": "phone",
-      "text": "Kamal confirms on his own wallet; the consent is recorded by Malaysia's health information exchange."
+      "text": "Kamal confirms on his own wallet; the consent is recorded by Onesa's health information exchange."
     },
     {
       "type": "actions",

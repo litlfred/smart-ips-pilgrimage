@@ -28,7 +28,7 @@
       "type": "personCard",
       "actor": "kamal",
       "banner": true,
-      "subtitle": "Pilgrim from Malaysia • brought in by Salmah",
+      "subtitle": "Pilgrim from Onesa • brought in by Salmah",
       "chips": [
         {
           "text": "Dizzy, in the heat",
@@ -51,7 +51,7 @@
       "rows": [
         {
           "label": "Issued by",
-          "value": "Malaysia's health information exchange"
+          "value": "Onesa's health information exchange"
         },
         {
           "label": "Holds",
@@ -68,20 +68,20 @@
       "fields": [
         {
           "label": "Signed by",
-          "value": "Malaysia (HIE)"
+          "value": "Onesa (HIE)"
         },
         {
           "label": "Key",
           "value": "From the GDHCN trust list"
         }
       ],
-      "detail": "The record really comes from Malaysia's HIE and has not been changed."
+      "detail": "The record really comes from Onesa's HIE and has not been changed."
     },
     {
       "type": "note",
       "column": "side",
       "icon": "key",
-      "text": "Malaysia's public key, looked up in the GDHCN trust list (the globe): no call to Malaysia was needed to check it."
+      "text": "Onesa's public key, looked up in the GDHCN trust list (the globe): no call to Onesa was needed to check it."
     },
     {
       "type": "actions",

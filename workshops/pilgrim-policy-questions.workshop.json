@@ -29,11 +29,11 @@
     {
       "scenario": "p0-keys-and-codes-shared",
       "step": "P0",
-      "askTheRoom": "Which Malaysian institution signs health documents on behalf of the health sector, and who in KSA decides to accept that signature?",
+      "askTheRoom": "Which Onesan institution signs health documents on behalf of the health sector, and who in Taifafeki decides to accept that signature?",
       "questions": [
         {
           "module": "M1",
-          "text": "Which Malaysian institution signs health documents on behalf of the health sector, and who in KSA decides to accept that signature?"
+          "text": "Which Onesan institution signs health documents on behalf of the health sector, and who in Taifafeki decides to accept that signature?"
         }
       ]
     },
@@ -84,11 +84,11 @@
     {
       "scenario": "p5-record-read-and-treated",
       "step": "P5",
-      "askTheRoom": "Does Malaysia learn that Kamal's record was opened in KSA, and by whom?",
+      "askTheRoom": "Does Onesa learn that Kamal's record was opened in Taifafeki, and by whom?",
       "questions": [
         {
           "module": "M1",
-          "text": "Does Malaysia learn that Kamal's record was opened in KSA, and by whom?"
+          "text": "Does Onesa learn that Kamal's record was opened in Taifafeki, and by whom?"
         }
       ]
     },
@@ -144,8 +144,8 @@
     "badge": "Interactive Spec",
     "tagline": "International Patient Summary (IPS) • WHO GDHCN • Verifiable Health Links (VHL)",
     "subject": "Verifiable IPS for pilgrimage",
-    "scope": "Malaysia ⇄ Kingdom of Saudi Arabia",
-    "story": "Kamal, 61, falls ill in Mina on his first Hajj, and a Saudi doctor reads his medicines and allergies from his Malaysian health summary, checked as genuine through WHO GDHCN.",
+    "scope": "Onesa ⇄ Taifafeki",
+    "story": "Kamal, 61, falls ill in Mina on his first Hajj, and a Taifafeki doctor reads his medicines and allergies from his Onesan health summary, checked as genuine through WHO GDHCN.",
     "lede": "One pilgrim and the people around him, eight moments, one Hajj season. Follow the people first; the technology is what makes each hand-off possible.",
     "recordOf": "kamal",
     "presenterNote": "Lead with people, not screens: introduce the cast, walk the eight moments, then open the guide only when the room asks \"how does that work?\"",

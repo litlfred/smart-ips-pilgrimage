@@ -2,24 +2,24 @@
   "$schema": "user-scenario/0.2.0",
   "id": "p2-summary-signed",
   "title": "P2 · His summary is assembled and signed",
-  "description": "Malaysia's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows.",
+  "description": "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows.",
   "personas": [
-    "malaysia-hie",
+    "onesa-hie",
     "kamal-wallet",
     "kamal"
   ],
   "partOf": "the-pilgrims-hajj",
   "follows": "p1-health-check-and-consent",
   "when": "Before departure",
-  "where": "Malaysia's HIE; Kamal's home",
-  "country": "Malaysia",
+  "where": "Onesa's HIE; Kamal's home",
+  "country": "Onesa",
   "trustLadder": "record-trust",
   "illustrationStyle": {
     "prompt": "Warm, flat digital illustration with soft shading and clean outlines, friendly and respectful, in the style of a public-health storybook. Wide banner, aspect ratio 11:4. Bright natural daylight, soft pastel palette with clear colour accents. Faces in gentle three-quarter view with expressive, kind features. Technology shown as simple, oversized icons: a phone with a QR code, a shield with a check mark, a small speech bubble with a symbol. No readable text, no logos, no real brands, no flags with text. All people are fictional.",
     "cast": [
       {
         "actor": "kamal",
-        "description": "Malaysian man, 61, slim, short grey hair, kind face. Batik shirt in Malaysia. In KSA, white two-piece ihram (unstitched towelling cloth, right shoulder bare when in ihram), a small waist pouch and one phone."
+        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, white two-piece ihram (unstitched towelling cloth, right shoulder bare when in ihram), a small waist pouch and one phone."
       }
     ],
     "notes": [
@@ -33,15 +33,15 @@
     {
       "id": "P2",
       "title": "His summary is assembled and signed",
-      "headline": "Malaysia's HIE turns Kamal's care history into a signed patient summary and puts the link to it in his wallet as a QR code.",
+      "headline": "Onesa's HIE turns Kamal's care history into a signed patient summary and puts the link to it in his wallet as a QR code.",
       "when": "Before departure",
-      "where": "Malaysia's HIE; Kamal's home",
+      "where": "Onesa's HIE; Kamal's home",
       "touchpoint": "National health wallet",
-      "narrative": "Malaysia's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows.",
-      "lead": "malaysia-hie",
+      "narrative": "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows.",
+      "lead": "onesa-hie",
       "experiences": [
         {
-          "actor": "malaysia-hie",
+          "actor": "onesa-hie",
           "doing": "Assembles the IPS (conditions, medicines, allergy), issues a Verifiable Health Link to it, and signs it with a key registered with GDHCN."
         },
         {
@@ -60,7 +60,7 @@
       "policy": "What must the summary contain for a pilgrim — and who decides what is left out?",
       "handoff": {
         "summary": "The VHL QR code is in Kamal's wallet",
-        "from": "malaysia-hie",
+        "from": "onesa-hie",
         "to": "kamal-wallet",
         "carrier": "Wallet app",
         "payload": "Signed VHL (QR code) to the IPS",
@@ -104,14 +104,14 @@
       "record": {
         "state": "signed",
         "description": "His IPS is signed and its QR code is in his wallet",
-        "heldWhere": "Kamal's wallet (QR code); Malaysia's HIE"
+        "heldWhere": "Kamal's wallet (QR code); Onesa's HIE"
       }
     }
   ],
   "scene": [
     {
       "icon": "database",
-      "label": "Malaysia's HIE"
+      "label": "Onesa's HIE"
     },
     {
       "icon": "key",

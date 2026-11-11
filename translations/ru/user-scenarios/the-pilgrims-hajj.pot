@@ -21,7 +21,7 @@ msgstr ""
 
 #: user-scenarios/the-pilgrims-hajj.json:5
 msgctxt "description"
-msgid "This guide's user scenarios told as one pilgrim's story, moment by moment along the overview of key process flows (steps 1–5 and A–B): Kamal, 61, from Kuala Terengganu, performs Hajj for the first time. Each moment (P0 to P7) is a sub-journey: who takes part, what happens, what in this guide specifies it, what it does not yet specify, and the policy question it raises. The setting follows the guide's Malaysian reference implementation. Every person is fictional. Told in prose on the guide's page input/pagecontent/pilgrim-journey.md."
+msgid "This guide's user scenarios told as one pilgrim's story, moment by moment along the overview of key process flows (steps 1–5 and A–B): Kamal, 61, from Tanavu, performs Hajj for the first time. Each moment (P0 to P7) is a sub-journey: who takes part, what happens, what in this guide specifies it, what it does not yet specify, and the policy question it raises. Kamal comes from Onesa and performs Hajj in Taifafeki, two fictional countries; the steps follow the guide's real Malaysian reference implementation as a policy precedent. Every person is fictional. Told in prose on the guide's page input/pagecontent/pilgrim-journey.md."
 msgstr ""
 
 #: user-scenarios/the-pilgrims-hajj.json:5
@@ -56,5 +56,5 @@ msgstr ""
 
 #: user-scenarios/the-pilgrims-hajj.json:19
 msgctxt "where"
-msgid "Malaysia and the Kingdom of Saudi Arabia"
+msgid "Onesa and Taifafeki"
 msgstr ""

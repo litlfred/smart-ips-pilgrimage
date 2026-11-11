@@ -16,7 +16,7 @@ msgstr ""
 
 #: user-scenarios/p3-taken-ill-in-mina.json:16
 msgctxt "country"
-msgid "Kingdom of Saudi Arabia"
+msgid "Taifafeki"
 msgstr ""
 
 #: user-scenarios/p3-taken-ill-in-mina.json:5

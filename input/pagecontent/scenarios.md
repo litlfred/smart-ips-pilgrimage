@@ -1,4 +1,4 @@
-**The scenarios below, told as one pilgrim's story:** [The Pilgrim's Journey](pilgrim-journey.html) follows a fictional Malaysian pilgrim through every step of the key process flows, with the question each step raises.
+**The scenarios below, told as one pilgrim's story:** [The Pilgrim's Journey](pilgrim-journey.html) follows a fictional Onesan pilgrim through every step of the key process flows, with the question each step raises.
 {:.stu-note}
 
 The user scenarios are only illustrative and are intended to give an idea of a typical workflow.

@@ -14,7 +14,7 @@
   "blocks": [
     {
       "type": "header",
-      "app": "Malaysian Hajj medical team",
+      "app": "Onesan Hajj medical team",
       "subtitle": "Dr Hafiz • Arafat",
       "icon": "health-worker",
       "brand": "#b91c1c"
@@ -42,7 +42,7 @@
       "severity": "danger",
       "icon": "unlock",
       "title": "Break the glass",
-      "text": "Opened without the code or the passcode. The access is logged and reported to Malaysia."
+      "text": "Opened without the code or the passcode. The access is logged and reported to Onesa."
     },
     {
       "type": "actions",

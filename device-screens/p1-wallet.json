@@ -23,7 +23,7 @@
       "type": "consent",
       "title": "Share my Hajj Health Record",
       "icon": "lock",
-      "who": "Saudi health workers who treat me during Hajj",
+      "who": "Taifafeki health workers who treat me during Hajj",
       "what": "My patient summary: conditions, medicines, allergy",
       "until": "The end of the Hajj season",
       "granted": true
@@ -39,7 +39,7 @@
       "type": "statusBadge",
       "status": "verified",
       "text": "Consent recorded",
-      "detail": "Sent to Malaysia's health information exchange. You can withdraw it in the wallet."
+      "detail": "Sent to Onesa's health information exchange. You can withdraw it in the wallet."
     },
     {
       "type": "actions",

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-06T09:51:52.194Z\n"
+"POT-Creation-Date: 2026-11-11T09:21:37.570Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -67,7 +67,7 @@ msgid "Sharing of tabular data"
 msgstr ""
 
 #: input/pagecontent/scenarios.md:1
-msgid "The scenarios below, told as one pilgrim's story: <a0>The Pilgrim's Journey</a0> follows a fictional Malaysian pilgrim through every step of the key process flows, with the question each step raises."
+msgid "The scenarios below, told as one pilgrim's story: <a0>The Pilgrim's Journey</a0> follows a fictional Onesan pilgrim through every step of the key process flows, with the question each step raises."
 msgstr ""
 
 #: input/pagecontent/scenarios.md:4

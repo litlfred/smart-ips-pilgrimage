@@ -2,7 +2,7 @@
   "$schema": "user-scenario/0.2.0",
   "id": "p4-scanned-and-checked",
   "title": "P4 · Scanned and checked",
-  "description": "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Malaysia's public key, fetched from GDHCN: the record really comes from Malaysia's HIE and has not been changed. Step 4 and step B of the overview of key process flows.",
+  "description": "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Onesa's public key, fetched from GDHCN: the record really comes from Onesa's HIE and has not been changed. Step 4 and step B of the overview of key process flows.",
   "personas": [
     "nurse-reem",
     "kamal",
@@ -14,22 +14,22 @@
   "follows": "p3-taken-ill-in-mina",
   "when": "Second day in Mina",
   "where": "Registration, Hajj health facility, Mina",
-  "country": "Kingdom of Saudi Arabia",
+  "country": "Taifafeki",
   "trustLadder": "record-trust",
   "illustrationStyle": {
     "prompt": "Warm, flat digital illustration with soft shading and clean outlines, friendly and respectful, in the style of a public-health storybook. Wide banner, aspect ratio 11:4. Bright natural daylight, soft pastel palette with clear colour accents. Faces in gentle three-quarter view with expressive, kind features. Technology shown as simple, oversized icons: a phone with a QR code, a shield with a check mark, a small speech bubble with a symbol. No readable text, no logos, no real brands, no flags with text. All people are fictional.",
     "cast": [
       {
         "actor": "kamal",
-        "description": "Malaysian man, 61, slim, short grey hair, kind face. Batik shirt in Malaysia. In KSA, white two-piece ihram (unstitched towelling cloth, right shoulder bare when in ihram), a small waist pouch and one phone."
+        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, white two-piece ihram (unstitched towelling cloth, right shoulder bare when in ihram), a small waist pouch and one phone."
       },
       {
         "actor": "salmah",
-        "description": "His wife, about 58. White modest Hajj outfit and white telekung-style hijab in KSA; pastel baju kurung and tudung in Malaysia."
+        "description": "His wife, about 58. White modest Hajj outfit and white telekung-style hijab in Taifafeki; pastel baju kurung and tudung in Onesa."
       },
       {
         "actor": "nurse-reem",
-        "description": "Saudi nurse, 30s, navy scrubs, white headscarf."
+        "description": "Taifafeki nurse, 30s, navy scrubs, white headscarf."
       }
     ],
     "notes": [
@@ -43,17 +43,17 @@
     {
       "id": "P4",
       "title": "Scanned and checked",
-      "headline": "Nurse Reem scans the code and enters the passcode; the EMR checks the signature with Malaysia's key from GDHCN.",
+      "headline": "Nurse Reem scans the code and enters the passcode; the EMR checks the signature with Onesa's key from GDHCN.",
       "when": "Second day in Mina",
       "where": "Registration, Hajj health facility, Mina",
       "touchpoint": "Facility EMR with bar code scanner",
-      "narrative": "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Malaysia's public key, fetched from GDHCN: the record really comes from Malaysia's HIE and has not been changed. Step 4 and step B of the overview of key process flows.",
+      "narrative": "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Onesa's public key, fetched from GDHCN: the record really comes from Onesa's HIE and has not been changed. Step 4 and step B of the overview of key process flows.",
       "lead": "nurse-reem",
       "experiences": [
         {
           "actor": "nurse-reem",
           "doing": "Scans the QR code into the EMR and enters the passcode; sees the signature verified.",
-          "feeling": "“Verified: it really comes from Malaysia.”",
+          "feeling": "“Verified: it really comes from Onesa.”",
           "emotion": 1
         },
         {
@@ -70,22 +70,22 @@
         },
         {
           "actor": "mina-facility-emr",
-          "doing": "Decodes the QR code and verifies its signature with Malaysia's public key."
+          "doing": "Decodes the QR code and verifies its signature with Onesa's public key."
         },
         {
           "actor": "who-gdhcn",
-          "doing": "Supplies Malaysia's public key."
+          "doing": "Supplies Onesa's public key."
         }
       ],
       "painPoint": "Without a signature check, the clinic cannot tell a genuine record from a forged or altered one.",
-      "enabler": "The EMR verifies the signature against a key it got from the trust network, with no call to Malaysia needed.",
+      "enabler": "The EMR verifies the signature against a key it got from the trust network, with no call to Onesa needed.",
       "policy": "What protection should the passcode give — and is a passcode shared by every pilgrim of a country a passcode at all?",
       "handoff": {
         "summary": "The VHL is verified",
         "from": "who-gdhcn",
         "to": "mina-facility-emr",
         "carrier": "GDHCN trust list",
-        "payload": "Malaysia's public key",
+        "payload": "Onesa's public key",
         "offline": false
       },
       "realisedBy": [
