@@ -21,7 +21,7 @@ msgstr ""
 
 #: user-scenarios/p7-back-home.json:5
 msgctxt "description"
-msgid "Kamal comes home. His GP in Tanavu does not know he was treated in Mina. After the story this guide tells."
+msgid "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi. After the story this guide tells."
 msgstr ""
 
 #: user-scenarios/p7-back-home.json:78
@@ -71,7 +71,7 @@ msgstr ""
 
 #: user-scenarios/p7-back-home.json:54
 msgctxt "step.experiences.feeling"
-msgid "“Treated in Mina? Nothing came back to me.”"
+msgid "“Treated in Nalemi? Nothing came back to me.”"
 msgstr ""
 
 #: user-scenarios/p7-back-home.json:74
@@ -81,7 +81,7 @@ msgstr ""
 
 #: user-scenarios/p7-back-home.json:44
 msgctxt "step.headline"
-msgid "Kamal is home and well, but his GP does not know he was treated in Mina."
+msgid "Kamal is home and well, but his GP does not know he was treated in Nalemi."
 msgstr ""
 
 #: user-scenarios/p7-back-home.json:78
@@ -91,7 +91,7 @@ msgstr ""
 
 #: user-scenarios/p7-back-home.json:5
 msgctxt "step.narrative"
-msgid "Kamal comes home. His GP in Tanavu does not know he was treated in Mina. After the story this guide tells."
+msgid "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi. After the story this guide tells."
 msgstr ""
 
 #: user-scenarios/p7-back-home.json:70

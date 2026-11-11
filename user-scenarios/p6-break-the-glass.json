@@ -2,7 +2,7 @@
   "$schema": "user-scenario/0.2.0",
   "id": "p6-break-the-glass",
   "title": "P6 · When he cannot show the code (break the glass)",
-  "description": "On the day of Arafat Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Onesan medical team gives his Hajj registration number, and the facility reaches his summary through it. Described in this guide's user scenarios as a Phase 2 scenario.",
+  "description": "On the day of Toreva Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Onesan medical team gives his pilgrimage registration number, and the facility reaches his summary through it. Described in this guide's user scenarios as a Phase 2 scenario.",
   "personas": [
     "kamal",
     "dr-hafiz",
@@ -12,8 +12,8 @@
   ],
   "partOf": "the-pilgrims-hajj",
   "follows": "p5-record-read-and-treated",
-  "when": "The day of Arafat",
-  "where": "A health tent at Arafat",
+  "when": "The day of Toreva",
+  "where": "A health tent at Toreva",
   "country": "Taifafeki",
   "trustLadder": "record-trust",
   "illustrationStyle": {
@@ -21,11 +21,11 @@
     "cast": [
       {
         "actor": "kamal",
-        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, white two-piece ihram (unstitched towelling cloth, right shoulder bare when in ihram), a small waist pouch and one phone."
+        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, two white pilgrim's garments (unstitched towelling cloth, right shoulder bare when in pilgrim's dress), a small waist pouch and one phone."
       },
       {
         "actor": "dr-hafiz",
-        "description": "Onesan Hajj medical-team doctor, 40s, team vest."
+        "description": "Onesan pilgrimage medical-team doctor, 40s, team vest."
       },
       {
         "actor": "dr-faisal",
@@ -33,8 +33,8 @@
       }
     ],
     "notes": [
-      "Ihram (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
-      "Keep the Kaaba and other holy sites far in the background or out of frame.",
+      "Pilgrim's white garments (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
+      "Keep the shrine and other holy sites far in the background or out of frame.",
       "Keep medical signs text-free so generators don't invent wrong Arabic.",
       "The picture carries no text: the step title and the caption are page text."
     ]
@@ -43,21 +43,21 @@
     {
       "id": "P6",
       "title": "When he cannot show the code",
-      "headline": "Kamal is brought in unconscious with no one to show his code; Dr Hafiz gives his Hajj registration number and the facility reaches his summary through it.",
-      "when": "The day of Arafat",
-      "where": "A health tent at Arafat",
-      "touchpoint": "Hajj registration number; emergency access",
-      "narrative": "On the day of Arafat Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Onesan medical team gives his Hajj registration number, and the facility reaches his summary through it. Described in this guide's user scenarios as a Phase 2 scenario.",
+      "headline": "Kamal is brought in unconscious with no one to show his code; Dr Hafiz gives his pilgrimage registration number and the facility reaches his summary through it.",
+      "when": "The day of Toreva",
+      "where": "A health tent at Toreva",
+      "touchpoint": "Pilgrimage registration number; emergency access",
+      "narrative": "On the day of Toreva Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Onesan medical team gives his pilgrimage registration number, and the facility reaches his summary through it. Described in this guide's user scenarios as a Phase 2 scenario.",
       "lead": "dr-hafiz",
       "experiences": [
         {
           "actor": "kamal",
-          "doing": "Collapses on the day of Arafat and is brought in unconscious.",
+          "doing": "Collapses on the day of Toreva and is brought in unconscious.",
           "emotion": -2
         },
         {
           "actor": "dr-hafiz",
-          "doing": "Identifies Kamal and gives his Hajj registration number to the facility.",
+          "doing": "Identifies Kamal and gives his pilgrimage registration number to the facility.",
           "feeling": "“He is one of ours. Here is his number.”",
           "emotion": -1
         },
@@ -69,7 +69,7 @@
         },
         {
           "actor": "mina-facility-emr",
-          "doing": "Looks up the summary by the Hajj registration number."
+          "doing": "Looks up the summary by the pilgrimage registration number."
         },
         {
           "actor": "onesa-hie",
@@ -83,7 +83,7 @@
         "summary": "The summary is reached without the pilgrim's phone",
         "from": "dr-hafiz",
         "to": "dr-faisal",
-        "carrier": "Hajj registration number",
+        "carrier": "Pilgrimage registration number",
         "payload": "Emergency access to the IPS",
         "offline": false
       },
@@ -104,20 +104,20 @@
       ],
       "illustration": {
         "src": "input/images/pilgrim/p6.webp",
-        "alt": "At dusk on the plain of Arafat, Kamal lies unconscious on a stretcher; Dr Hafiz of the Onesan medical team hands Dr Faisal a phone with his registration number, under a broken-glass emergency sign and an open padlock.",
-        "prompt": "Evening at Arafat: the plain with the gentle hill of Jabal al-Rahmah in the far distance, golden dusk light, crowds in white as soft silhouettes. Medics carry Kamal, unconscious in white ihram, on a stretcher into a health tent. Dr Hafiz, in his medical-team vest, hands Dr Faisal a card with only a number symbol and a lanyard badge. Above them floats a red emergency-glass icon with a small crack and an unlocked padlock. Urgent but caring. Salmah is not in the scene."
+        "alt": "At dusk on the plain of Toreva, Kamal lies unconscious on a stretcher; Dr Hafiz of the Onesan medical team hands Dr Faisal a phone with his registration number, under a broken-glass emergency sign and an open padlock.",
+        "prompt": "Evening at Toreva: the plain with the gentle hill of Jabal al-Rahmah in the far distance, golden dusk light, crowds in white as soft silhouettes. Medics carry Kamal, unconscious in white pilgrim's white garments, on a stretcher into a health tent. Dr Hafiz, in his medical-team vest, hands Dr Faisal a card with only a number symbol and a lanyard badge. Above them floats a red emergency-glass icon with a small crack and an unlocked padlock. Urgent but caring. Salmah is not in the scene."
       },
       "record": {
         "state": "read-and-used",
-        "description": "Reached without his phone, through his Hajj registration",
-        "heldWhere": "Onesa's HIE; the Arafat health tent"
+        "description": "Reached without his phone, through his pilgrimage registration",
+        "heldWhere": "Onesa's HIE; the Toreva health tent"
       }
     }
   ],
   "scene": [
     {
       "icon": "tent",
-      "label": "Collapsed at Arafat"
+      "label": "Collapsed at Toreva"
     },
     {
       "icon": "clinician",

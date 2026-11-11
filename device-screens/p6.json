@@ -14,14 +14,14 @@
   "blocks": [
     {
       "type": "header",
-      "app": "Onesan Hajj medical team",
-      "subtitle": "Dr Hafiz • Arafat",
+      "app": "Onesan pilgrimage medical team",
+      "subtitle": "Dr Hafiz • Toreva",
       "icon": "health-worker",
       "brand": "#b91c1c"
     },
     {
       "type": "fields",
-      "title": "Hajj registration number",
+      "title": "Pilgrimage registration number",
       "icon": "hash",
       "rows": [
         {

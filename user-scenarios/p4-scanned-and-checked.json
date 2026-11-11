@@ -12,8 +12,8 @@
   ],
   "partOf": "the-pilgrims-hajj",
   "follows": "p3-taken-ill-in-mina",
-  "when": "Second day in Mina",
-  "where": "Registration, Hajj health facility, Mina",
+  "when": "Second day in Nalemi",
+  "where": "Registration, pilgrimage health facility, Nalemi",
   "country": "Taifafeki",
   "trustLadder": "record-trust",
   "illustrationStyle": {
@@ -21,11 +21,11 @@
     "cast": [
       {
         "actor": "kamal",
-        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, white two-piece ihram (unstitched towelling cloth, right shoulder bare when in ihram), a small waist pouch and one phone."
+        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, two white pilgrim's garments (unstitched towelling cloth, right shoulder bare when in pilgrim's dress), a small waist pouch and one phone."
       },
       {
         "actor": "salmah",
-        "description": "His wife, about 58. White modest Hajj outfit and white telekung-style hijab in Taifafeki; pastel baju kurung and tudung in Onesa."
+        "description": "His wife, about 58. White modest pilgrimage outfit and white telekung-style hijab in Taifafeki; pastel baju kurung and tudung in Onesa."
       },
       {
         "actor": "nurse-reem",
@@ -33,8 +33,8 @@
       }
     ],
     "notes": [
-      "Ihram (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
-      "Keep the Kaaba and other holy sites far in the background or out of frame.",
+      "Pilgrim's white garments (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
+      "Keep the shrine and other holy sites far in the background or out of frame.",
       "Keep medical signs text-free so generators don't invent wrong Arabic.",
       "The picture carries no text: the step title and the caption are page text."
     ]
@@ -44,8 +44,8 @@
       "id": "P4",
       "title": "Scanned and checked",
       "headline": "Nurse Reem scans the code and enters the passcode; the EMR checks the signature with Onesa's key from GDHCN.",
-      "when": "Second day in Mina",
-      "where": "Registration, Hajj health facility, Mina",
+      "when": "Second day in Nalemi",
+      "where": "Registration, pilgrimage health facility, Nalemi",
       "touchpoint": "Facility EMR with bar code scanner",
       "narrative": "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Onesa's public key, fetched from GDHCN: the record really comes from Onesa's HIE and has not been changed. Step 4 and step B of the overview of key process flows.",
       "lead": "nurse-reem",
@@ -119,12 +119,12 @@
       "illustration": {
         "src": "input/images/pilgrim/p4.webp",
         "alt": "Nurse Reem scans the QR code on Kamal's phone; the facility screen shows a passcode and a green shield, while a key comes back from the trust-network globe.",
-        "prompt": "At the registration desk, Nurse Reem holds a scanner to the QR code on Kamal's phone; Kamal sits in white ihram with Salmah beside him. On the facility screen, a passcode keypad icon, then a large shield with a green check mark. A dotted line runs up from the screen to a small floating globe icon (GDHCN), with a key icon returning down it. Reem looks attentive and calm."
+        "prompt": "At the registration desk, Nurse Reem holds a scanner to the QR code on Kamal's phone; Kamal sits in white pilgrim's white garments with Salmah beside him. On the facility screen, a passcode keypad icon, then a large shield with a green check mark. A dotted line runs up from the screen to a small floating globe icon (GDHCN), with a key icon returning down it. Reem looks attentive and calm."
       },
       "record": {
         "state": "verified",
         "description": "The signature is checked against GDHCN's trust list",
-        "heldWhere": "The Mina facility's EMR"
+        "heldWhere": "The Nalemi facility's EMR"
       }
     }
   ],

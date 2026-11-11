@@ -16,11 +16,11 @@ Part of [SMART Verifiable IPS for Pilgrimage](../README.md) 2.1.0, declared as `
 | [`p0-keys-and-codes-shared.json`](p0-keys-and-codes-shared.json) | P0 · Before the season — keys and codes are shared |  |
 | [`p1-health-check-and-consent.json`](p1-health-check-and-consent.json) | P1 · The health check and the choice to share |  |
 | [`p2-summary-signed.json`](p2-summary-signed.json) | P2 · His summary is assembled and signed |  |
-| [`p3-taken-ill-in-mina.json`](p3-taken-ill-in-mina.json) | P3 · Taken ill in Mina |  |
+| [`p3-taken-ill-in-mina.json`](p3-taken-ill-in-mina.json) | P3 · Taken ill in Nalemi |  |
 | [`p4-scanned-and-checked.json`](p4-scanned-and-checked.json) | P4 · Scanned and checked |  |
 | [`p5-record-read-and-treated.json`](p5-record-read-and-treated.json) | P5 · His record is read and he is treated |  |
 | [`p6-break-the-glass.json`](p6-break-the-glass.json) | P6 · When he cannot show the code (break the glass) |  |
 | [`p7-back-home.json`](p7-back-home.json) | P7 · Back home |  |
-| [`the-pilgrims-hajj.json`](the-pilgrims-hajj.json) | The pilgrim's Hajj |  |
+| [`the-pilgrims-hajj.json`](the-pilgrims-hajj.json) | The pilgrim's journey |  |
 
 <!-- kg:subgraph:end -->

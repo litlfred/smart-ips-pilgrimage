@@ -8,7 +8,7 @@
     "who-gdhcn"
   ],
   "partOf": "the-pilgrims-hajj",
-  "when": "Before the Hajj season",
+  "when": "Before the pilgrimage season",
   "where": "Lomaru and WHO GDHCN",
   "country": "Onesa",
   "trustLadder": "record-trust",
@@ -16,8 +16,8 @@
     "prompt": "Warm, flat digital illustration with soft shading and clean outlines, friendly and respectful, in the style of a public-health storybook. Wide banner, aspect ratio 11:4. Bright natural daylight, soft pastel palette with clear colour accents. Faces in gentle three-quarter view with expressive, kind features. Technology shown as simple, oversized icons: a phone with a QR code, a shield with a check mark, a small speech bubble with a symbol. No readable text, no logos, no real brands, no flags with text. All people are fictional.",
     "cast": [],
     "notes": [
-      "Ihram (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
-      "Keep the Kaaba and other holy sites far in the background or out of frame.",
+      "Pilgrim's white garments (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
+      "Keep the shrine and other holy sites far in the background or out of frame.",
       "Keep medical signs text-free so generators don't invent wrong Arabic.",
       "The picture carries no text: the step title and the caption are page text."
     ]
@@ -27,7 +27,7 @@
       "id": "P0",
       "title": "Keys and codes are shared",
       "headline": "Before anyone travels, Onesa's signing keys and code systems reach the trust network, so a Taifafeki clinic can trust and read an Onesan record months later.",
-      "when": "Before the Hajj season",
+      "when": "Before the pilgrimage season",
       "where": "Lomaru and WHO GDHCN",
       "narrative": "Onesa's HIE publishes the public keys it signs health documents with to the WHO GDHCN trust network, and shares the national code systems its IPS uses with the WHO Terminology Service. Nothing about Kamal yet: this is what lets a Taifafeki clinic trust and read an Onesan record months later. Step A of the overview of key process flows.",
       "lead": "onesa-hie",

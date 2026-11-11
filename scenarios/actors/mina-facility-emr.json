@@ -1,8 +1,8 @@
 {
   "id": "mina-facility-emr",
-  "title": "The Mina facility's EMR",
+  "title": "The Nalemi facility's EMR",
   "kind": "system",
-  "description": "The Hajj health facility's EMR in Mina: scans the QR code, checks the signature with Onesa's key, retrieves the IPS and keeps a rendered copy with the visit. Plays the guide's Host Country EMR.",
+  "description": "The pilgrimage health facility's EMR in Nalemi: scans the QR code, checks the signature with Onesa's key, retrieves the IPS and keeps a rendered copy with the visit. Plays the guide's Host Country EMR.",
   "roles": [
     "host-emr"
   ],

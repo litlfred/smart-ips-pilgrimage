@@ -13,7 +13,7 @@ moment says so.
 
 <div class="stu-note" markdown="1">
 **Every person in this story, and both countries, are fictional.** Kamal comes
-from **Onesa** (code `XXK`) and performs Hajj in **Taifafeki** (code `XXR`): two
+from **Onesa** (code `XXK`) and goes on pilgrimage in **Taifafeki** (code `XXR`): two
 fictional countries shared with the [SMART Trust demo](https://github.com/litlfred/smart-trust-demo/tree/main/scenarios/countries),
 whose codes are ISO 3166-1 user-assigned codes, so they never name a real country.
 The steps follow this guide's real
@@ -29,11 +29,11 @@ Each numbered flow in the figure names its moment below, and each moment has its
 
 | Person | Who they are | Generic persona |
 |---|---|---|
-| **Kamal** | 61, from Tanavu, Onesa, performing Hajj for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone. | [Pilgrim](personas.html) |
+| **Kamal** | 61, from Tanavu, Onesa, going on pilgrimage for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone. | [Pilgrim](personas.html) |
 | **Salmah** | Kamal's wife, travelling with him. Speaks for him when he cannot. | Accompanying family member (not yet a persona here) |
-| **Dr Aisyah** | General practitioner in Tanavu, empanelled by the national pilgrimage authority for pre-Hajj health examinations. | [Counsellor](personas.html) |
-| **Dr Hafiz** | Doctor of the Onesan Hajj medical team, travelling with the pilgrims. | [Accompanying Clinician from Origin Country](personas.html) |
-| **Nurse Reem** | Registration nurse at a Hajj health facility in Mina. | [Host Country Health Worker](personas.html) |
+| **Dr Aisyah** | General practitioner in Tanavu, empanelled by the national pilgrimage authority for pre-pilgrimage health examinations. | [Counsellor](personas.html) |
+| **Dr Hafiz** | Doctor of the Onesan pilgrimage medical team, travelling with the pilgrims. | [Accompanying Clinician from Origin Country](personas.html) |
+| **Nurse Reem** | Registration nurse at a pilgrimage health facility in Nalemi. | [Host Country Health Worker](personas.html) |
 | **Dr Faisal** | Emergency physician at the same facility. | [Host Country Health Worker](personas.html) |
 
 And the systems: Kamal's **national health wallet** ([Origin Country Wallet](system-actors.html#ochw)),
@@ -59,17 +59,17 @@ Onesan record months later.
 
 <img src="pilgrim/p1.webp" alt="In a Tanavu clinic, Dr Aisyah explains a consent card with a shield and a calendar to Kamal, in a batik shirt, who holds his phone with a padlock and a tick; Salmah sits beside him." style="width:100%;max-width:640px"/>
 
-Three months before Hajj, Kamal has the mandatory pre-Hajj health examination
-with Dr Aisyah. He is fit to travel. She explains what the Hajj Health Record
+Three months before the pilgrimage, Kamal has the mandatory pre-pilgrimage health examination
+with Dr Aisyah. He is fit to travel. She explains what the Pilgrimage Health Record
 is, who can see it, and for how long. Kamal agrees on his wallet to share his
-patient summary with Taifafeki health workers during Hajj, and sets how the link
+patient summary with Taifafeki health workers during the pilgrimage, and sets how the link
 to it is protected.
 
 - **Specified by:** business processes *Health Check and Counseling, Explicit Consent on Wallet* and *Verbal Consent* ([Business Processes](business-processes.html));
   transaction [record consent from wallet](transactions.html#record-consent-request);
   profile HajjConsent and its examples *CONSENT-XXK* and *CONSENT-XXR* ([Artifacts](artifacts.html)).
 - **Not yet specified here:** the two forms the pilgrim fills in, *consent-wallet-questionnaire* and *shl-configure-privacy-settings*, are named in the processes but not defined.
-- **Policy question:** is consent given once for the whole Hajj season, per facility, or per encounter — and can Kamal withdraw it while abroad?
+- **Policy question:** is consent given once for the whole pilgrimage season, per facility, or per encounter — and can Kamal withdraw it while abroad?
 
 ### P2 · His summary is assembled and signed (step 2)
 
@@ -85,12 +85,12 @@ code in his wallet.
 - **Not yet specified here:** no business process for assembling the IPS from the care history.
 - **Policy question:** what must the summary contain for a pilgrim — and who decides what is left out?
 
-### P3 · Taken ill in Mina (step 3)
+### P3 · Taken ill in Nalemi (step 3)
 
-<img src="pilgrim/p3.webp" alt="In the white tents of Mina under a hot sun, Kamal in ihram holds his forehead, dizzy; Salmah supports his arm and Nurse Reem welcomes them at the health facility." style="width:100%;max-width:640px"/>
+<img src="pilgrim/p3.webp" alt="In the white tents of Nalemi under a hot sun, Kamal in pilgrim's white garments holds his forehead, dizzy; Salmah supports his arm and Nurse Reem welcomes them at the health facility." style="width:100%;max-width:640px"/>
 
-On the second day in Mina, in the heat, Kamal feels dizzy and weak. Salmah
-brings him to the Hajj health facility. At registration he opens his wallet
+On the second day in Nalemi, in the heat, Kamal feels dizzy and weak. Salmah
+brings him to the pilgrimage health facility. At registration he opens his wallet
 and shows Nurse Reem the QR code.
 
 - **Specified by:** business process *Clinical Encounter for Unplanned Care* ([Business Processes](business-processes.html)).
@@ -123,10 +123,10 @@ summary with the record of the visit.
 
 ### P6 · When he cannot show the code (Phase 2: break the glass)
 
-<img src="pilgrim/p6.webp" alt="At dusk on the plain of Arafat, Kamal lies unconscious on a stretcher; Dr Hafiz of the Onesan medical team hands Dr Faisal a phone with his registration number, under a broken-glass emergency sign and an open padlock." style="width:100%;max-width:640px"/>
+<img src="pilgrim/p6.webp" alt="At dusk on the plain of Toreva, Kamal lies unconscious on a stretcher; Dr Hafiz of the Onesan medical team hands Dr Faisal a phone with his registration number, under a broken-glass emergency sign and an open padlock." style="width:100%;max-width:640px"/>
 
-On the day of Arafat Kamal collapses and is brought in unconscious. Salmah is
-not with him. Dr Hafiz of the Onesan medical team gives his Hajj
+On the day of Toreva Kamal collapses and is brought in unconscious. Salmah is
+not with him. Dr Hafiz of the Onesan medical team gives his pilgrimage
 registration number, and the facility reaches his summary through it.
 
 - **Specified by:** described in [user scenarios](scenarios.html) as a Phase 2 scenario; the [Origin Country Wallet](system-actors.html#ochw) lets the pilgrim opt in or out of break-the-glass access.
@@ -138,7 +138,7 @@ registration number, and the facility reaches his summary through it.
 <img src="pilgrim/p7.webp" alt="Back in Tanavu, Kamal in a white kopiah and Salmah sit with Dr Aisyah, who looks at her computer with a question mark: the record of his care in Taifafeki has not come home." style="width:100%;max-width:640px"/>
 
 Kamal comes home. His GP in Tanavu does not know he was treated in
-Mina.
+Nalemi.
 
 - **Not yet specified here:** nothing returns the record of care in Taifafeki, or a log of who opened his summary, to Onesa.
 - **Policy question:** should the host country send a summary of care back to the home country — and with whose consent?

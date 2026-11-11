@@ -15,13 +15,13 @@
     {
       "type": "header",
       "app": "National health wallet",
-      "subtitle": "Kamal • Hajj Health Record",
+      "subtitle": "Kamal • Pilgrimage Health Record",
       "icon": "phone",
       "brand": "#0d9488"
     },
     {
       "type": "qr",
-      "title": "Hajj Health Record",
+      "title": "Pilgrimage Health Record",
       "holder": "Kamal",
       "holderNote": "Tanavu, Onesa",
       "label": "International Patient Summary",

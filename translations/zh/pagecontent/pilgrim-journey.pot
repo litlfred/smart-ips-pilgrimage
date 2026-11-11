@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-11T09:23:44.255Z\n"
+"POT-Creation-Date: 2026-11-11T09:29:19.976Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -32,7 +32,7 @@ msgid "<a0>Pilgrim</a0>"
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:32
-msgid "61, from Tanavu, Onesa, performing Hajj for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone."
+msgid "61, from Tanavu, Onesa, going on pilgrimage for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:33
@@ -52,7 +52,7 @@ msgid "Business processes for P0 (keys and terminologies), P2 (assembling the IP
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:35
-msgid "Doctor of the Onesan Hajj medical team, travelling with the pilgrims."
+msgid "Doctor of the Onesan pilgrimage medical team, travelling with the pilgrims."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:34
@@ -81,7 +81,7 @@ msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:14
 #, python-brace-format
-msgid "Every person in this story, and both countries, are fictional. Kamal comes from Onesa (code {code0}) and performs Hajj in Taifafeki (code {code1}): two fictional countries shared with the <a0>SMART Trust demo</a0>, whose codes are ISO 3166-1 user-assigned codes, so they never name a real country. The steps follow this guide's real <a1>Malaysian reference implementation</a1>, Malaysia's Hajj Health Card, as a policy precedent."
+msgid "Every person in this story, and both countries, are fictional. Kamal comes from Onesa (code {code0}) and goes on pilgrimage in Taifafeki (code {code1}): two fictional countries shared with the <a0>SMART Trust demo</a0>, whose codes are ISO 3166-1 user-assigned codes, so they never name a real country. The steps follow this guide's real <a1>Malaysian reference implementation</a1>, Malaysia's Hajj Health Card, as a policy precedent."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:152
@@ -89,7 +89,7 @@ msgid "Example patients that are pilgrims: today's examples are a resident of th
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:34
-msgid "General practitioner in Tanavu, empanelled by the national pilgrimage authority for pre-Hajj health examinations."
+msgid "General practitioner in Tanavu, empanelled by the national pilgrimage authority for pre-pilgrimage health examinations."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:30
@@ -101,7 +101,7 @@ msgid "Kamal"
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:140
-msgid "Kamal comes home. His GP in Tanavu does not know he was treated in Mina."
+msgid "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:33
@@ -145,11 +145,11 @@ msgid "Nurse Reem scans the code in the facility's EMR and enters the passcode. 
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:128
-msgid "On the day of Arafat Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Onesan medical team gives his Hajj registration number, and the facility reaches his summary through it."
+msgid "On the day of Toreva Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Onesan medical team gives his pilgrimage registration number, and the facility reaches his summary through it."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:92
-msgid "On the second day in Mina, in the heat, Kamal feels dizzy and weak. Salmah brings him to the Hajj health facility. At registration he opens his wallet and shows Nurse Reem the QR code."
+msgid "On the second day in Nalemi, in the heat, Kamal feels dizzy and weak. Salmah brings him to the pilgrimage health facility. At registration he opens his wallet and shows Nurse Reem the QR code."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:150
@@ -177,7 +177,7 @@ msgid "P2 · His summary is assembled and signed (step 2)"
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:88
-msgid "P3 · Taken ill in Mina (step 3)"
+msgid "P3 · Taken ill in Nalemi (step 3)"
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:99
@@ -205,7 +205,7 @@ msgid "Policy question: does Onesa learn that Kamal's record was opened in Taifa
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:72
-msgid "Policy question: is consent given once for the whole Hajj season, per facility, or per encounter — and can Kamal withdraw it while abroad?"
+msgid "Policy question: is consent given once for the whole pilgrimage season, per facility, or per encounter — and can Kamal withdraw it while abroad?"
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:144
@@ -233,7 +233,7 @@ msgid "Policy question: who may open an unconscious pilgrim's record, on what le
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:36
-msgid "Registration nurse at a Hajj health facility in Mina."
+msgid "Registration nurse at a pilgrimage health facility in Nalemi."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:33
@@ -289,7 +289,7 @@ msgid "The two pilgrim forms named in P1, and a page for the pilgrim and counsel
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:62
-msgid "Three months before Hajj, Kamal has the mandatory pre-Hajj health examination with Dr Aisyah. He is fit to travel. She explains what the Hajj Health Record is, who can see it, and for how long. Kamal agrees on his wallet to share his patient summary with Taifafeki health workers during Hajj, and sets how the link to it is protected."
+msgid "Three months before the pilgrimage, Kamal has the mandatory pre-pilgrimage health examination with Dr Aisyah. He is fit to travel. She explains what the Pilgrimage Health Record is, who can see it, and for how long. Kamal agrees on his wallet to share his patient summary with Taifafeki health workers during the pilgrimage, and sets how the link to it is protected."
 msgstr ""
 
 #: input/pagecontent/pilgrim-journey.md:146

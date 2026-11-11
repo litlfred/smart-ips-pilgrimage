@@ -126,7 +126,7 @@ msgstr ""
 
 #: user-scenarios/p0-keys-and-codes-shared.json:11
 msgctxt "step.when"
-msgid "Before the Hajj season"
+msgid "Before the pilgrimage season"
 msgstr ""
 
 #: user-scenarios/p0-keys-and-codes-shared.json:12
@@ -141,7 +141,7 @@ msgstr ""
 
 #: user-scenarios/p0-keys-and-codes-shared.json:11
 msgctxt "when"
-msgid "Before the Hajj season"
+msgid "Before the pilgrimage season"
 msgstr ""
 
 #: user-scenarios/p0-keys-and-codes-shared.json:12

@@ -2,7 +2,7 @@
   "$schema": "user-scenario/0.2.0",
   "id": "p7-back-home",
   "title": "P7 · Back home",
-  "description": "Kamal comes home. His GP in Tanavu does not know he was treated in Mina. After the story this guide tells.",
+  "description": "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi. After the story this guide tells.",
   "personas": [
     "kamal",
     "dr-aisyah",
@@ -19,11 +19,11 @@
     "cast": [
       {
         "actor": "kamal",
-        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, white two-piece ihram (unstitched towelling cloth, right shoulder bare when in ihram), a small waist pouch and one phone."
+        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, two white pilgrim's garments (unstitched towelling cloth, right shoulder bare when in pilgrim's dress), a small waist pouch and one phone."
       },
       {
         "actor": "salmah",
-        "description": "His wife, about 58. White modest Hajj outfit and white telekung-style hijab in Taifafeki; pastel baju kurung and tudung in Onesa."
+        "description": "His wife, about 58. White modest pilgrimage outfit and white telekung-style hijab in Taifafeki; pastel baju kurung and tudung in Onesa."
       },
       {
         "actor": "dr-aisyah",
@@ -31,8 +31,8 @@
       }
     ],
     "notes": [
-      "Ihram (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
-      "Keep the Kaaba and other holy sites far in the background or out of frame.",
+      "Pilgrim's white garments (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
+      "Keep the shrine and other holy sites far in the background or out of frame.",
       "Keep medical signs text-free so generators don't invent wrong Arabic.",
       "The picture carries no text: the step title and the caption are page text."
     ]
@@ -41,17 +41,17 @@
     {
       "id": "P7",
       "title": "Back home",
-      "headline": "Kamal is home and well, but his GP does not know he was treated in Mina.",
+      "headline": "Kamal is home and well, but his GP does not know he was treated in Nalemi.",
       "when": "After the season",
       "where": "A GP clinic in Tanavu",
       "touchpoint": "GP follow-up",
-      "narrative": "Kamal comes home. His GP in Tanavu does not know he was treated in Mina. After the story this guide tells.",
+      "narrative": "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi. After the story this guide tells.",
       "lead": "dr-aisyah",
       "experiences": [
         {
           "actor": "dr-aisyah",
           "doing": "Sees Kamal back home, with nothing in her record of his care in Taifafeki.",
-          "feeling": "“Treated in Mina? Nothing came back to me.”",
+          "feeling": "“Treated in Nalemi? Nothing came back to me.”",
           "emotion": -1
         },
         {

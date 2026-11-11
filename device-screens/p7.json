@@ -23,10 +23,10 @@
       "type": "personCard",
       "actor": "kamal",
       "banner": true,
-      "subtitle": "Home from Hajj, well",
+      "subtitle": "Home from the pilgrimage, well",
       "chips": [
         {
-          "text": "Back from Hajj",
+          "text": "Back from the pilgrimage",
           "tone": "info",
           "icon": "plane"
         }
@@ -39,7 +39,7 @@
       "rows": [
         {
           "icon": "question",
-          "label": "Treated in Mina?",
+          "label": "Treated in Nalemi?",
           "detail": "Nothing in this record: not the visit, the treatment, nor who opened his summary",
           "status": {
             "text": "Missing",

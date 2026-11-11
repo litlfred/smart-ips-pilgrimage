@@ -141,7 +141,7 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:127
 msgctxt "step.record.heldWhere"
-msgid "The Mina facility's EMR"
+msgid "The Nalemi facility's EMR"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:109
@@ -166,12 +166,12 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:15
 msgctxt "step.when"
-msgid "Second day in Mina"
+msgid "Second day in Nalemi"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:16
 msgctxt "step.where"
-msgid "Registration, Hajj health facility, Mina"
+msgid "Registration, pilgrimage health facility, Nalemi"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:4
@@ -181,10 +181,10 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:15
 msgctxt "when"
-msgid "Second day in Mina"
+msgid "Second day in Nalemi"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:16
 msgctxt "where"
-msgid "Registration, Hajj health facility, Mina"
+msgid "Registration, pilgrimage health facility, Nalemi"
 msgstr ""

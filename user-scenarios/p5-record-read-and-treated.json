@@ -12,8 +12,8 @@
   ],
   "partOf": "the-pilgrims-hajj",
   "follows": "p4-scanned-and-checked",
-  "when": "Second day in Mina",
-  "where": "Treatment bay, Hajj health facility, Mina",
+  "when": "Second day in Nalemi",
+  "where": "Treatment bay, pilgrimage health facility, Nalemi",
   "country": "Taifafeki",
   "trustLadder": "record-trust",
   "illustrationStyle": {
@@ -21,11 +21,11 @@
     "cast": [
       {
         "actor": "kamal",
-        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, white two-piece ihram (unstitched towelling cloth, right shoulder bare when in ihram), a small waist pouch and one phone."
+        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, two white pilgrim's garments (unstitched towelling cloth, right shoulder bare when in pilgrim's dress), a small waist pouch and one phone."
       },
       {
         "actor": "salmah",
-        "description": "His wife, about 58. White modest Hajj outfit and white telekung-style hijab in Taifafeki; pastel baju kurung and tudung in Onesa."
+        "description": "His wife, about 58. White modest pilgrimage outfit and white telekung-style hijab in Taifafeki; pastel baju kurung and tudung in Onesa."
       },
       {
         "actor": "dr-faisal",
@@ -33,8 +33,8 @@
       }
     ],
     "notes": [
-      "Ihram (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
-      "Keep the Kaaba and other holy sites far in the background or out of frame.",
+      "Pilgrim's white garments (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
+      "Keep the shrine and other holy sites far in the background or out of frame.",
       "Keep medical signs text-free so generators don't invent wrong Arabic.",
       "The picture carries no text: the step title and the caption are page text."
     ]
@@ -44,8 +44,8 @@
       "id": "P5",
       "title": "His record is read and he is treated",
       "headline": "The EMR retrieves Kamal's summary from Onesa; Dr Faisal sees the insulin and the penicillin allergy before he treats him.",
-      "when": "Second day in Mina",
-      "where": "Treatment bay, Hajj health facility, Mina",
+      "when": "Second day in Nalemi",
+      "where": "Treatment bay, pilgrimage health facility, Nalemi",
       "touchpoint": "Facility EMR",
       "narrative": "The EMR follows the link to Onesa's HIE and retrieves Kamal's summary. Dr Faisal sees the insulin and the penicillin allergy before he treats him for heat exhaustion and low blood sugar. The EMR keeps a rendered copy of the summary with the record of the visit. Step 5 of the overview of key process flows.",
       "lead": "dr-faisal",
@@ -135,12 +135,12 @@
       "illustration": {
         "src": "input/images/pilgrim/p5.webp",
         "alt": "Kamal lies recovering on a bed with a drip, Salmah beside him; Dr Faisal shows a tablet with an insulin pen, a crossed-out penicillin capsule and a heart, read from the record kept in Onesa.",
-        "prompt": "A treatment bay. Kamal lies on a bed in white ihram with an IV drip, recovering; Salmah sits beside him, relieved. Dr Faisal looks at a tablet showing three large icons: an insulin pen, a red crossed-out penicillin capsule, and a heart. A thin dotted line runs from the tablet off-frame to a small Onesan-roofed building icon in a cloud bubble: the record is viewed from home, not copied. Dr Faisal looks confident."
+        "prompt": "A treatment bay. Kamal lies on a bed in white pilgrim's white garments with an IV drip, recovering; Salmah sits beside him, relieved. Dr Faisal looks at a tablet showing three large icons: an insulin pen, a red crossed-out penicillin capsule, and a heart. A thin dotted line runs from the tablet off-frame to a small Onesan-roofed building icon in a cloud bubble: the record is viewed from home, not copied. Dr Faisal looks confident."
       },
       "record": {
         "state": "read-and-used",
         "description": "Dr Faisal reads it and treats him; a rendered copy stays with the visit",
-        "heldWhere": "The Mina facility's EMR"
+        "heldWhere": "The Nalemi facility's EMR"
       }
     }
   ],

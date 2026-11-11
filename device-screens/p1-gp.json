@@ -14,12 +14,12 @@
   "blocks": [
     {
       "type": "header",
-      "app": "Pre-Hajj health examination",
+      "app": "Pre-pilgrimage health examination",
       "subtitle": "Clinic, Tanavu • Dr Aisyah",
       "icon": "stethoscope",
       "brand": "#0d9488",
       "status": {
-        "text": "Hajj season 2026",
+        "text": "Pilgrimage season 2026",
         "tone": "info",
         "icon": "calendar"
       }
@@ -28,7 +28,7 @@
       "type": "personCard",
       "actor": "kamal",
       "banner": true,
-      "subtitle": "Pilgrim • first Hajj • travelling with Salmah",
+      "subtitle": "Pilgrim • first pilgrimage • travelling with Salmah",
       "chips": [
         {
           "text": "Fit to travel",
@@ -44,7 +44,7 @@
       "rows": [
         {
           "icon": "stethoscope",
-          "label": "Mandatory pre-Hajj health examination",
+          "label": "Mandatory pre-pilgrimage health examination",
           "status": {
             "text": "Done",
             "tone": "success"
@@ -66,11 +66,11 @@
     {
       "type": "consent",
       "column": "side",
-      "title": "What the Hajj Health Record shares",
+      "title": "What the Pilgrimage Health Record shares",
       "icon": "shield",
       "who": "Taifafeki health workers who treat Kamal",
       "what": "His International Patient Summary, signed by Onesa",
-      "until": "The end of the Hajj season",
+      "until": "The end of the pilgrimage season",
       "granted": true
     },
     {

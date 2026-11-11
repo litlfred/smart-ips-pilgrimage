@@ -136,7 +136,7 @@ msgstr ""
 
 #: user-scenarios/p5-record-read-and-treated.json:143
 msgctxt "step.record.heldWhere"
-msgid "The Mina facility's EMR"
+msgid "The Nalemi facility's EMR"
 msgstr ""
 
 #: user-scenarios/p5-record-read-and-treated.json:125
@@ -171,12 +171,12 @@ msgstr ""
 
 #: user-scenarios/p5-record-read-and-treated.json:15
 msgctxt "step.when"
-msgid "Second day in Mina"
+msgid "Second day in Nalemi"
 msgstr ""
 
 #: user-scenarios/p5-record-read-and-treated.json:16
 msgctxt "step.where"
-msgid "Treatment bay, Hajj health facility, Mina"
+msgid "Treatment bay, pilgrimage health facility, Nalemi"
 msgstr ""
 
 #: user-scenarios/p5-record-read-and-treated.json:4
@@ -186,10 +186,10 @@ msgstr ""
 
 #: user-scenarios/p5-record-read-and-treated.json:15
 msgctxt "when"
-msgid "Second day in Mina"
+msgid "Second day in Nalemi"
 msgstr ""
 
 #: user-scenarios/p5-record-read-and-treated.json:16
 msgctxt "where"
-msgid "Treatment bay, Hajj health facility, Mina"
+msgid "Treatment bay, pilgrimage health facility, Nalemi"
 msgstr ""
