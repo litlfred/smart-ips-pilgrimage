@@ -75,11 +75,6 @@ msgctxt "step.policy"
 msgid "What must the summary contain for a pilgrim — and who decides what is left out?"
 msgstr "朝觐者的摘要必须包含哪些内容——又由谁决定省略哪些内容？"
 
-#: user-scenarios/p2-summary-signed.json:93
-msgctxt "step.references.label"
-msgid "Profile HajjIPS and the example My IPS; the folder example My Hajj Pilgrimage Minimal Folder"
-msgstr "Profile HajjIPS 和示例 My IPS；文件夹示例 My Hajj Pilgrimage Minimal Folder"
-
 #: user-scenarios/p2-summary-signed.json:88
 msgctxt "step.references.label"
 msgid "Transaction: issue VHL"
@@ -165,6 +160,11 @@ msgctxt "where"
 msgid "Onesa's HIE; Kamal's home"
 msgstr ""
 
+#: user-scenarios/p2-summary-signed.json:94
+msgctxt "step.references.label"
+msgid "Profile HajjIPS and the example My IPS; the folder example My Pilgrimage Minimal Folder"
+msgstr ""
+
 #~ msgctxt "country"
 #~ msgid "Malaysia"
 #~ msgstr "马来西亚"
@@ -188,3 +188,7 @@ msgstr ""
 #~ msgctxt "where"
 #~ msgid "Malaysia's HIE; Kamal's home"
 #~ msgstr "马来西亚的 HIE；Kamal 的家"
+
+#~ msgctxt "step.references.label"
+#~ msgid "Profile HajjIPS and the example My IPS; the folder example My Hajj Pilgrimage Minimal Folder"
+#~ msgstr "Profile HajjIPS 和示例 My IPS；文件夹示例 My Hajj Pilgrimage Minimal Folder"
