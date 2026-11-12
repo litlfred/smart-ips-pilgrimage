@@ -257,7 +257,7 @@ msgstr "المواصفة الموثَّقة هنا مواصفة عمل تجري�
 
 #: input/pagecontent/index.md:56
 msgid "The two pilgrim forms named in P1, and a page for the pilgrim and counsellor actors: their actor files exist but no page includes them."
-msgstr "النموذجان الخاصان بالزائر المذكوران في P1، وصفحة لجهتَي الزائر والمستشار الفاعلتين: ملفاتهما موجودة لكن لا تتضمنها أي صفحة."
+msgstr "الاستمارتان الخاصتان بالزائر المذكورتان في P1، وصفحة لجهتَي الزائر والمستشار الفاعلتين: ملفاتهما موجودة لكن لا تتضمنها أي صفحة."
 
 #: input/pagecontent/index.md:3
 msgid "This Implementation Guide is intended to support the utilization of verifiable International Patient Summary (IPS) documents during pilgrimage, leveraging <a0>WHO Global Digital Health Certification Network (GDHCN)</a0> global public health infrastructure."

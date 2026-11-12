@@ -99,7 +99,7 @@ msgstr "رابط SMART الصحي (SHL)"
 
 #: input/pagecontent/concepts.md:10
 msgid "The country from which the pilgrim originates or holds citizenship. This is significant in the context of healthcare as health information and preparatory measures might be initiated in the origin country before the pilgrimage."
-msgstr "البلد الذي ينحدر منه الزائر أو يحمل جنسيته. ولهذا أهمية في سياق الرعاية الصحية، إذ قد تبدأ المعلومات الصحية والتدابير التحضيرية في البلد الأم قبل الزيارة الدينية."
+msgstr "البلد الذي يأتي منه الزائر أو يحمل جنسيته. ولهذا أهمية في سياق الرعاية الصحية، إذ قد تبدأ المعلومات الصحية والتدابير التحضيرية في البلد الأم قبل الزيارة الدينية."
 
 #: input/pagecontent/concepts.md:42
 msgid "Verifiable International Patient Summary (Verifiable IPS)"
