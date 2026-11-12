@@ -64,26 +64,26 @@ msgstr "Le type de consentement que représente un {code0}, et le texte du conse
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:5
 msgid "For the pilgrimage there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
-msgstr ""
+msgstr "Pour le pèlerinage, il n'existe pas d'accord de partage de données distinct à consulter. Les deux ressources <a0>HajjConsent</a0> du pèlerin constituent la politique, et chacune engage la partie qu'elle nomme :"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:15
 #, python-brace-format
 msgid "the governing policy: the pilgrim's consents, each by its {code0} code and CodeSystem version (for example {code1} and {code2} in this guide's examples, version 2.1.0);"
-msgstr ""
+msgstr "la politique applicable : les consentements du pèlerin, chacun par son code {code0} et la version du CodeSystem (par exemple {code1} et {code2} dans les exemples de ce guide, version 2.1.0) ;"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:7
 #, python-brace-format
 msgid "The host-use consent ({code0}, or the fictional {code1} of this guide's examples) governs the Host Country Ministry of Health's use of the IPS after it is received: for treatment during the pilgrimage and any follow-up care, as its consent text states."
-msgstr ""
+msgstr "Le consentement à l'utilisation par le pays d'accueil ({code0}, ou le {code1} fictif des exemples de ce guide) régit l'utilisation de l'IPS par le ministère de la Santé du pays d'accueil après sa réception : pour le traitement pendant le pèlerinage et tout suivi des soins, comme l'indique le texte de ce consentement."
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:6
 #, python-brace-format
 msgid "The origin-release consent (for example {code0}, or the fictional {code1} of this guide's examples) lets the Origin Country HIE release the IPS to the recipient named in {code2} (role {code3}, information recipient), for the purpose in {code4} ({code5}), during {code6}. The Origin Country HIE enforces this consent from its own Consent Registry (as recorded by the Record Consent transaction, [ITI-108]), not from the copy carried inside the IPS. The IPS copy is signed when the IPS is issued, so it cannot show a later withdrawal."
-msgstr ""
+msgstr "Le consentement à la communication par le pays d'origine (par exemple {code0}, ou le {code1} fictif des exemples de ce guide) permet à la HIE du pays d'origine de communiquer l'IPS au destinataire nommé dans {code2} (rôle {code3}, destinataire de l'information), pour la finalité indiquée dans {code4} ({code5}), pendant {code6}. La HIE du pays d'origine applique ce consentement à partir de son propre Consent Registry (tel qu'enregistré par la transaction Record Consent, [ITI-108]), et non à partir de la copie contenue dans l'IPS. La copie dans l'IPS est signée lors de l'émission de l'IPS ; elle ne peut donc pas faire apparaître un retrait ultérieur."
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:21
 msgid "This guide uses no separate data sharing agreement for the pilgrimage, so the consents themselves are the policy the audit event cites. The Host Country EMR, as an ATNA Secure Node or Secure Application, should also audit what it receives."
-msgstr ""
+msgstr "Ce guide n'utilise pas d'accord de partage de données distinct pour le pèlerinage ; les consentements eux-mêmes constituent donc la politique que cite l'événement d'audit. Le DME du pays d'accueil, en tant qu'ATNA Secure Node ou Secure Application, devrait également auditer ce qu'il reçoit."
 
 #~ msgid "For the Hajj there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
 #~ msgstr "Pour le Hajj, il n'existe pas d'accord de partage de données distinct à consulter. Les deux ressources <a0>HajjConsent</a0> du pèlerin constituent la politique, et chacune engage la partie qu'elle nomme :"
