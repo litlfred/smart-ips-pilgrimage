@@ -58,27 +58,27 @@ msgstr "Esta guía sigue el modelo de consentimiento de la guía <a0>GDHCN Trust
 
 #: input/pagecontent/trust_domain_policy.md:14
 msgid "Consent directives travel with the document. The pilgrim's IPS (<a0>HajjIPS</a0>) carries the pilgrimage consents it is shared under, as consent entries, and lists them in its Advance Directives section. The Personal Health Wallet guide's process M (\"Add Consent Directives to a Shared or Issued Document\") describes the steps. The copy in the IPS is evidence for the receiver. The origin HIE enforces the copy in its own Consent Registry, because a signed IPS cannot show a later withdrawal."
-msgstr ""
+msgstr "Las directivas de consentimiento acompañan al documento. El IPS del peregrino (<a0>HajjIPS</a0>) incluye, como entradas de consentimiento, los consentimientos de la peregrinación con arreglo a los cuales se comparte, y los enumera en su sección de Directivas anticipadas (Advance Directives). El proceso M de la guía Personal Health Wallet (\"Add Consent Directives to a Shared or Issued Document\") describe los pasos. La copia que figura en el IPS es una prueba para el receptor. El HIE de origen aplica la copia que conserva en su propio Consent Registry, porque un IPS firmado no puede reflejar una retirada posterior."
 
 #: input/pagecontent/trust_domain_policy.md:11
 #, python-brace-format
 msgid "Explicit consent. The pilgrim agrees by their own act: on their wallet, or to the counsellor, who records it. Each <a0>pilgrimage consent</a0> is an explicit consent, an opt-in: its {code0} includes the HL7 v3 ActConsentDirective code {code1}. It names its {code2} code and the code system version in {code3}, and its {code4} is the evidence: the consent text the pilgrim was shown, with their recorded act. The Personal Health Wallet guide's process L (\"Record Explicit Consent\") describes the steps. Both the verbal consent and the consent on the wallet in this guide's business processes are explicit consents."
-msgstr ""
+msgstr "Consentimiento explícito. El peregrino da su conformidad mediante un acto propio: en su billetera, o ante el asesor, que lo registra. Cada <a0>consentimiento de la peregrinación</a0> es un consentimiento explícito, de adhesión voluntaria (opt-in): su {code0} incluye el código {code1} de ActConsentDirective de HL7 v3. Indica su código {code2} y la versión del sistema de códigos en {code3}, y su {code4} es la prueba: el texto de consentimiento que se mostró al peregrino, junto con el acto que este realizó y quedó registrado. El proceso L de la guía Personal Health Wallet (\"Record Explicit Consent\") describe los pasos. Tanto el consentimiento verbal como el consentimiento en la billetera de los procesos de negocio de esta guía son consentimientos explícitos."
 
 #: input/pagecontent/trust_domain_policy.md:12
 #, python-brace-format
 msgid "Implied consent. The pilgrim does nothing, and the Trust Domain's default policy applies (HL7 ActConsentDirective {code0}). This Trust Domain is opt-in: its default is the IHE PCF implicit policy {code1}. With no pilgrimage consent, the IPS is not shared."
-msgstr ""
+msgstr "Consentimiento implícito. El peregrino no hace nada y se aplica la política predeterminada del Ámbito de confianza (ActConsentDirective {code0} de HL7). Este Ámbito de confianza es de adhesión voluntaria (opt-in): su valor predeterminado es la política implícita {code1} de IHE PCF. Sin consentimiento de la peregrinación, el IPS no se comparte."
 
 #: input/pagecontent/trust_domain_policy.md:43
 #, python-brace-format
 msgid "matches it against the {code0} of the pilgrim's pilgrimage consents (system and code);"
-msgstr ""
+msgstr "lo compara con el {code0} de los consentimientos de la peregrinación del peregrino (sistema y código);"
 
 #: input/pagecontent/trust_domain_policy.md:1
 #, python-brace-format
 msgid "This Trust Domain enables data exchange mediated by the pilgrim, on the basis of the pilgrim's consent. The consents are recorded in the <a0>IPS.HAJJ.CONSENT CodeSystem</a0>, and each <a1>pilgrimage consent</a1> in a pilgrim's IPS names one of them in {code0}."
-msgstr ""
+msgstr "Este Ámbito de confianza permite el intercambio de datos mediado por el peregrino, sobre la base de su consentimiento. Los consentimientos se registran en el <a0>CodeSystem IPS.HAJJ.CONSENT</a0>, y cada <a1>consentimiento de la peregrinación</a1> del IPS de un peregrino nombra uno de ellos en {code0}."
 
 #~ #, python-brace-format
 #~ msgid "matches it against the {code0} of the pilgrim's Hajj consents (system and code);"

@@ -36,7 +36,7 @@ msgstr "Esta página incluye diagramas de secuencia que describen las interaccio
 
 #: input/pagecontent/sequence-diagrams.md:29
 msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between the Host and Origin countries"
-msgstr ""
+msgstr "Flujo de trabajo del IPS acordado para el «Encuentro clínico para atención no programada» entre el país anfitrión y los países de origen"
 
 #~ msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between KSA and Origin countries"
 #~ msgstr "Flujo de trabajo del IPS acordado para el «Encuentro clínico para atención no programada» entre KSA y los países de origen"

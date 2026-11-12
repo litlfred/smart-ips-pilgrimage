@@ -152,12 +152,12 @@ msgstr "verificar la firma del código QR"
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:99
 #. Diagram element documentation
 msgid "Counselor from origin country supporting pilgrim during inital health screening"
-msgstr ""
+msgstr "Asesor del país de origen que apoya al peregrino durante el control de salud inicial"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:113
 #. Diagram element documentation
 msgid "The pilgrim"
-msgstr ""
+msgstr "El peregrino"
 
 #. Diagram element documentation
 #~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"

@@ -242,27 +242,27 @@ msgstr "sí"
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:127
 #. Diagram element documentation
 msgid "Counselor from origin country supporting pilgrim during inital health screening"
-msgstr ""
+msgstr "Asesor del país de origen que apoya al peregrino durante el cribado de salud inicial"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:169
 #. Diagram label
 msgid "eligible for pilgrimage?"
-msgstr ""
+msgstr "¿elegible para la peregrinación?"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:330
 #. Diagram label
 msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
-msgstr ""
+msgstr "rellenar en la billetera el formulario de consentimiento para compartir el IPS durante la peregrinación"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:174
 #. Diagram label
 msgid "inform patient ineligible for pilgrimage"
-msgstr ""
+msgstr "informar al paciente de que no es elegible para la peregrinación"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:107
 #. Diagram element documentation
 msgid "The pilgrim"
-msgstr ""
+msgstr "El peregrino"
 
 #. Diagram element documentation
 #~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"

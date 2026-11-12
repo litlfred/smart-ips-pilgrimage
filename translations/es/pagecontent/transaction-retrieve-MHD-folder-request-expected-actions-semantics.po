@@ -64,26 +64,26 @@ msgstr "Qué consentimiento es un {code0}, y el texto de consentimiento que se m
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:5
 msgid "For the pilgrimage there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
-msgstr ""
+msgstr "Para la peregrinación no hay ningún acuerdo de intercambio de datos independiente que consultar. Los dos recursos <a0>HajjConsent</a0> del peregrino son la política, y cada uno vincula a la parte que nombra:"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:15
 #, python-brace-format
 msgid "the governing policy: the pilgrim's consents, each by its {code0} code and CodeSystem version (for example {code1} and {code2} in this guide's examples, version 2.1.0);"
-msgstr ""
+msgstr "la política aplicable: los consentimientos del peregrino, cada uno por su código {code0} y la versión del CodeSystem (por ejemplo, {code1} y {code2} en los ejemplos de esta guía, versión 2.1.0);"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:7
 #, python-brace-format
 msgid "The host-use consent ({code0}, or the fictional {code1} of this guide's examples) governs the Host Country Ministry of Health's use of the IPS after it is received: for treatment during the pilgrimage and any follow-up care, as its consent text states."
-msgstr ""
+msgstr "El consentimiento de uso en el país anfitrión ({code0}, o el ficticio {code1} de los ejemplos de esta guía) rige el uso que el Ministerio de Salud del país anfitrión hace del IPS una vez recibido: para el tratamiento durante la peregrinación y cualquier atención de seguimiento, como indica el texto de su consentimiento."
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:6
 #, python-brace-format
 msgid "The origin-release consent (for example {code0}, or the fictional {code1} of this guide's examples) lets the Origin Country HIE release the IPS to the recipient named in {code2} (role {code3}, information recipient), for the purpose in {code4} ({code5}), during {code6}. The Origin Country HIE enforces this consent from its own Consent Registry (as recorded by the Record Consent transaction, [ITI-108]), not from the copy carried inside the IPS. The IPS copy is signed when the IPS is issued, so it cannot show a later withdrawal."
-msgstr ""
+msgstr "El consentimiento de entrega en origen (por ejemplo, {code0}, o el ficticio {code1} de los ejemplos de esta guía) permite al HIE del país de origen entregar el IPS al destinatario nombrado en {code2} (rol {code3}, destinatario de la información), para la finalidad indicada en {code4} ({code5}), durante {code6}. El HIE del país de origen aplica este consentimiento a partir de su propio Consent Registry (tal como lo registra la transacción Record Consent, [ITI-108]), no a partir de la copia incluida en el IPS. La copia del IPS se firma cuando se emite el IPS, por lo que no puede reflejar una retirada posterior."
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:21
 msgid "This guide uses no separate data sharing agreement for the pilgrimage, so the consents themselves are the policy the audit event cites. The Host Country EMR, as an ATNA Secure Node or Secure Application, should also audit what it receives."
-msgstr ""
+msgstr "Esta guía no utiliza ningún acuerdo de intercambio de datos independiente para la peregrinación, por lo que los propios consentimientos son la política que cita el evento de auditoría. La EMR del país anfitrión, como ATNA Secure Node o Secure Application, debería auditar también lo que recibe."
 
 #~ msgid "For the Hajj there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
 #~ msgstr "Para el Hajj no hay ningún acuerdo de intercambio de datos independiente que consultar. Los dos recursos <a0>HajjConsent</a0> del peregrino son la política, y cada uno vincula a la parte que nombra:"
