@@ -110,7 +110,7 @@ msgstr "<a0>Паломник</a0>"
 
 #: input/pagecontent/index.md:41
 msgid "61, from Tanavu, Onesa, going on pilgrimage for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone."
-msgstr ""
+msgstr "61 год, из Tanavu (Onesa), впервые отправляется в паломничество. Страдает диабетом 2-го типа и повышенным артериальным давлением; принимает инсулин и две таблетки в день; аллергия на пенициллин. Носит с собой один телефон."
 
 #: input/pagecontent/index.md:74
 msgid "About this implementation guide"
@@ -126,7 +126,7 @@ msgstr "Описание доступа с возвратом в страну п
 
 #: input/pagecontent/index.md:48
 msgid "And the systems: Kamal's national health wallet (<a0>Origin Country Wallet</a0>), Onesa's health information exchange (<a1>Origin Country HIE</a1>), the facility's EMR (<a2>Host Country EMR</a2>), and WHO GDHCN, the trust network both countries take part in."
-msgstr ""
+msgstr "А также системы: национальный кошелёк медицинских данных Kamal (<a0>Кошелёк страны происхождения</a0>), система обмена медицинской информацией Onesa (<a1>HIE страны происхождения</a1>), EMR учреждения (<a2>EMR принимающей страны</a2>) и GDHCN ВОЗ — сеть доверия, в которой участвуют обе страны."
 
 #: input/pagecontent/index.md:55
 msgid "Business processes for P0 (keys and terminologies), P2 (assembling the IPS) and P6 (break the glass)."
@@ -142,11 +142,11 @@ msgstr "Зависимости"
 
 #: input/pagecontent/index.md:95
 msgid "Disclaimer"
-msgstr ""
+msgstr "Оговорка об ограничении ответственности"
 
 #: input/pagecontent/index.md:44
 msgid "Doctor of the Onesan pilgrimage medical team, travelling with the pilgrims."
-msgstr ""
+msgstr "Врач медицинской группы паломников из Onesa, путешествующий вместе с паломниками."
 
 #: input/pagecontent/index.md:43
 msgid "Dr Aisyah"
@@ -162,11 +162,11 @@ msgstr "д-р Hafiz"
 
 #: input/pagecontent/index.md:35
 msgid "Each numbered flow in the figure names its moment above, and each moment has its own <a0>ArchiMate view</a0>."
-msgstr ""
+msgstr "Каждый пронумерованный поток на рисунке называет свой момент, описанный выше, и у каждого момента есть собственное <a0>представление ArchiMate</a0>."
 
 #: input/pagecontent/index.md:11
 msgid "Eight moments that matter"
-msgstr ""
+msgstr "Восемь важных моментов"
 
 #: input/pagecontent/index.md:46
 msgid "Emergency physician at the same facility."
@@ -175,7 +175,7 @@ msgstr "Врач неотложной помощи в том же учрежде
 #: input/pagecontent/index.md:23
 #, python-brace-format
 msgid "Every person in this story, and both countries, are fictional. Kamal comes from Onesa (code {code0}) and goes on pilgrimage in Taifafeki (code {code1}): two fictional countries shared with the <a0>SMART Trust demo</a0>, whose codes are ISO 3166-1 user-assigned codes, so they never name a real country. The steps follow this guide's real <a1>Malaysian reference implementation</a1>, Malaysia's Hajj Health Card, as a policy precedent."
-msgstr ""
+msgstr "Все люди в этой истории и обе страны вымышлены. Kamal родом из Onesa (код {code0}) и совершает паломничество в Taifafeki (код {code1}): это две вымышленные страны, общие с <a0>демонстрацией SMART Trust</a0>, коды которых являются пользовательскими кодами ISO 3166-1 и поэтому никогда не обозначают реальную страну. Шаги следуют реальной <a1>малайзийской эталонной реализации</a1> этого руководства — малайзийской карте здоровья для хаджа (Hajj Health Card) — как политическому прецеденту."
 
 #: input/pagecontent/index.md:59
 msgid "Example patients that are pilgrims: today's examples are a resident of the Netherlands."
@@ -183,7 +183,7 @@ msgstr "Примеры пациентов-паломников: в нынешн�
 
 #: input/pagecontent/index.md:43
 msgid "General practitioner in Tanavu, empanelled by the national pilgrimage authority for pre-pilgrimage health examinations."
-msgstr ""
+msgstr "Врач общей практики в Tanavu, включённый национальным органом по вопросам паломничества в список врачей для медицинских осмотров перед паломничеством."
 
 #: input/pagecontent/index.md:39
 msgid "Generic persona"
@@ -219,7 +219,7 @@ msgstr "Человек"
 
 #: input/pagecontent/index.md:45
 msgid "Registration nurse at a pilgrimage health facility in Nalemi."
-msgstr ""
+msgstr "Медсестра регистрации в медицинском учреждении для паломников в Nalemi."
 
 #: input/pagecontent/index.md:42
 msgid "Salmah"
@@ -231,7 +231,7 @@ msgstr "Резюме"
 
 #: input/pagecontent/index.md:16
 msgid "The <a0>user scenarios</a0> of this guide told as one pilgrim's story, step by step along the <a1>overview of key process flows</a1> (the numbered steps 1–5 and A–B of the figure below). Click a picture to walk through that moment in the <a2>journeys viewer</a2>, which names who takes part, what in this guide specifies it, and the policy question it raises."
-msgstr ""
+msgstr "<a0>Пользовательские сценарии</a0> этого руководства, изложенные как история одного паломника, шаг за шагом по <a1>обзору ключевых потоков процессов</a1> (пронумерованные шаги 1–5 и A–B на рисунке ниже). Нажмите на изображение, чтобы пройти этот момент в <a2>средстве просмотра путей</a2>, где указано, кто участвует, что в этом руководстве это определяет и какой вопрос политики это поднимает."
 
 #: input/pagecontent/index.md:60
 msgid "The data dictionary, decision logic, indicators and functional requirements, which are still placeholders."
@@ -243,7 +243,7 @@ msgstr "Люди"
 
 #: input/pagecontent/index.md:96
 msgid "The specification herewith documented is a demo working specification and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency and the official publication supersedes this draft. No liability can be inferred from the use or misuse of this specification or its consequences."
-msgstr ""
+msgstr "Документированная здесь спецификация является демонстрационной рабочей спецификацией и не может использоваться для каких-либо целей внедрения. Данный проект предоставляется без гарантии полноты или согласованности, и официальная публикация имеет преимущественную силу над этим проектом. Использование или неправильное использование данной спецификации или его последствия не влекут за собой никакой ответственности."
 
 #: input/pagecontent/index.md:56
 msgid "The two pilgrim forms named in P1, and a page for the pilgrim and counsellor actors: their actor files exist but no page includes them."
@@ -251,7 +251,7 @@ msgstr "Две формы паломника, упомянутые в P1, и с�
 
 #: input/pagecontent/index.md:3
 msgid "This Implementation Guide is intended to support the utilization of verifiable International Patient Summary (IPS) documents during pilgrimage, leveraging <a0>WHO Global Digital Health Certification Network (GDHCN)</a0> global public health infrastructure."
-msgstr ""
+msgstr "Настоящее руководство по внедрению предназначено для поддержки использования проверяемых документов Международной сводки о пациенте (IPS) во время паломничества с опорой на глобальную инфраструктуру общественного здравоохранения <a0>Глобальная сеть сертификации в области цифрового здравоохранения ВОЗ (GDHCN)</a0>."
 
 #: input/pagecontent/index.md:53
 msgid "What the story shows the guide still needs"

@@ -188,17 +188,17 @@ msgstr "да"
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:132
 #. Diagram element documentation
 msgid "Counselor from origin country supporting pilgrim during inital health screening"
-msgstr ""
+msgstr "Консультант из страны происхождения, оказывающий поддержку паломнику во время первичного медицинского скрининга"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:179
 #. Diagram label
 msgid "inform patient ineligible for pilgrimage"
-msgstr ""
+msgstr "сообщить пациенту, что он не допущен к паломничеству"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:114
 #. Diagram element documentation
 msgid "The pilgrim"
-msgstr ""
+msgstr "Паломник"
 
 #. Diagram element documentation
 #~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"

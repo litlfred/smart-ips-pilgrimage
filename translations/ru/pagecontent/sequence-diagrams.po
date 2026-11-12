@@ -37,7 +37,7 @@ msgstr "На этой странице приведены диаграммы п�
 
 #: input/pagecontent/sequence-diagrams.md:29
 msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between the Host and Origin countries"
-msgstr ""
+msgstr "Согласованный рабочий процесс IPS для «Клинического приёма в рамках незапланированной медицинской помощи» между принимающей страной и странами происхождения"
 
 #~ msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between KSA and Origin countries"
 #~ msgstr "Согласованный рабочий процесс IPS для «Клинического приёма в рамках незапланированной медицинской помощи» между KSA и странами происхождения"

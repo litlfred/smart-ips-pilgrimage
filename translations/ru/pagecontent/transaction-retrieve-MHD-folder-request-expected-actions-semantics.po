@@ -65,26 +65,26 @@ msgstr "Какое именно согласие представляет соб
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:5
 msgid "For the pilgrimage there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
-msgstr ""
+msgstr "Для паломничества отдельного соглашения об обмене данными, к которому следовало бы обращаться, нет. Политикой являются два ресурса <a0>HajjConsent</a0> паломника, и каждый из них обязывает указанную в нём сторону:"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:15
 #, python-brace-format
 msgid "the governing policy: the pilgrim's consents, each by its {code0} code and CodeSystem version (for example {code1} and {code2} in this guide's examples, version 2.1.0);"
-msgstr ""
+msgstr "применимую политику: согласия паломника, каждое — по его коду {code0} и версии CodeSystem (например, {code1} и {code2} в примерах этого руководства, версия 2.1.0);"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:7
 #, python-brace-format
 msgid "The host-use consent ({code0}, or the fictional {code1} of this guide's examples) governs the Host Country Ministry of Health's use of the IPS after it is received: for treatment during the pilgrimage and any follow-up care, as its consent text states."
-msgstr ""
+msgstr "Согласие на использование принимающей страной ({code0} или вымышленное {code1} из примеров этого руководства) регулирует использование IPS министерством здравоохранения принимающей страны после её получения: для лечения во время паломничества и любой последующей медицинской помощи, как указано в тексте согласия."
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:6
 #, python-brace-format
 msgid "The origin-release consent (for example {code0}, or the fictional {code1} of this guide's examples) lets the Origin Country HIE release the IPS to the recipient named in {code2} (role {code3}, information recipient), for the purpose in {code4} ({code5}), during {code6}. The Origin Country HIE enforces this consent from its own Consent Registry (as recorded by the Record Consent transaction, [ITI-108]), not from the copy carried inside the IPS. The IPS copy is signed when the IPS is issued, so it cannot show a later withdrawal."
-msgstr ""
+msgstr "Согласие на выдачу данных страной происхождения (например, {code0} или вымышленное {code1} из примеров этого руководства) позволяет HIE страны происхождения выдать IPS получателю, указанному в {code2} (роль {code3}, получатель информации), для цели, указанной в {code4} ({code5}), в течение {code6}. HIE страны происхождения применяет это согласие на основе собственного реестра согласий (в котором оно зарегистрировано транзакцией Record Consent, [ITI-108]), а не на основе копии, содержащейся в IPS. Копия в IPS подписывается при выпуске IPS и поэтому не может отражать последующий отзыв согласия."
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:21
 msgid "This guide uses no separate data sharing agreement for the pilgrimage, so the consents themselves are the policy the audit event cites. The Host Country EMR, as an ATNA Secure Node or Secure Application, should also audit what it receives."
-msgstr ""
+msgstr "В настоящем руководстве для паломничества не используется отдельное соглашение об обмене данными, поэтому политикой, на которую ссылается событие аудита, являются сами согласия. EMR принимающей страны как ATNA Secure Node или Secure Application также следует регистрировать в журнале аудита получаемые данные."
 
 #~ msgid "For the Hajj there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
 #~ msgstr "Для хаджа отдельного соглашения об обмене данными, к которому следовало бы обращаться, нет. Политикой являются два ресурса <a0>HajjConsent</a0> паломника, и каждый из них обязывает указанную в нём сторону:"
