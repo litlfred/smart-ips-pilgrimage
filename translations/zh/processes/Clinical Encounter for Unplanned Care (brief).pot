@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clinical Encounter for Unplanned Care (brief)\n"
-"POT-Creation-Date: 2026-11-07T08:55:16.795Z\n"
+"POT-Creation-Date: 2026-11-12T11:49:49.529Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:99
 #. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
 msgstr ""
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:183
@@ -126,7 +126,7 @@ msgstr ""
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:113
 #. Diagram element documentation
-msgid "The Hajj pilgrim"
+msgid "The pilgrim"
 msgstr ""
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:64

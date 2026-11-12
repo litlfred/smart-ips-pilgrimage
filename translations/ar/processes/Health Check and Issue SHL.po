@@ -50,11 +50,6 @@ msgstr "إرشاد المريض بشأن الموافقة والمحفظة ال�
 msgid "Counselor"
 msgstr "المستشار"
 
-#: input/business-processes/Health Check and Issue SHL.bpmn:60
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "مرشد من البلد الأم يدعم الحاج خلال الفحص الصحي الأولي"
-
 #: input/business-processes/Health Check and Issue SHL.bpmn:260
 #. Diagram label
 msgid "display consent form"
@@ -75,20 +70,10 @@ msgstr "عرض نموذج ضبط SHL"
 msgid "Documents the health check and SHL consent and issuance process"
 msgstr "يوثّق عملية الفحص الصحي والموافقة على SHL وإصداره"
 
-#: input/business-processes/Health Check and Issue SHL.bpmn:174
-#. Diagram label
-msgid "eligible for Hajj?"
-msgstr "مؤهَّل للحج؟"
-
 #: input/business-processes/Health Check and Issue SHL.bpmn:206
 #. Diagram label
 msgid "End"
 msgstr "النهاية"
-
-#: input/business-processes/Health Check and Issue SHL.bpmn:335
-#. Diagram label
-msgid "fill consent form for sharing IPS during Hajj on wallet"
-msgstr "ملء نموذج الموافقة على مشاركة IPS خلال الحج في المحفظة"
 
 #: input/business-processes/Health Check and Issue SHL.bpmn:302
 #. Diagram label
@@ -134,11 +119,6 @@ msgstr "الفحص الصحي وإصدار VHL، الموافقة عبر الم�
 #. Diagram label
 msgid "Human Actor"
 msgstr "جهة فاعلة بشرية"
-
-#: input/business-processes/Health Check and Issue SHL.bpmn:179
-#. Diagram label
-msgid "inform patient ineligible for Hajj"
-msgstr "إبلاغ المريض بعدم أهليته للحج"
 
 #: input/business-processes/Health Check and Issue SHL.bpmn:356
 #. Diagram label
@@ -265,11 +245,6 @@ msgstr "تخزين توجيهات الموافقة"
 msgid "System Actor"
 msgstr "جهة فاعلة نظامية"
 
-#: input/business-processes/Health Check and Issue SHL.bpmn:76
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "الحاج"
-
 #: input/business-processes/Health Check and Issue SHL.bpmn:114
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -299,3 +274,48 @@ msgstr "هذه هي معاملة تسجيل الموافقة في IHE PCF. ان�
 #. Diagram label
 msgid "yes"
 msgstr "نعم"
+
+#: input/business-processes/Health Check and Issue SHL.bpmn:64
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr ""
+
+#: input/business-processes/Health Check and Issue SHL.bpmn:178
+#. Diagram label
+msgid "eligible for pilgrimage?"
+msgstr ""
+
+#: input/business-processes/Health Check and Issue SHL.bpmn:339
+#. Diagram label
+msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
+msgstr ""
+
+#: input/business-processes/Health Check and Issue SHL.bpmn:183
+#. Diagram label
+msgid "inform patient ineligible for pilgrimage"
+msgstr ""
+
+#: input/business-processes/Health Check and Issue SHL.bpmn:80
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr ""
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "مرشد من البلد الأم يدعم الحاج خلال الفحص الصحي الأولي"
+
+#. Diagram label
+#~ msgid "eligible for Hajj?"
+#~ msgstr "مؤهَّل للحج؟"
+
+#. Diagram label
+#~ msgid "fill consent form for sharing IPS during Hajj on wallet"
+#~ msgstr "ملء نموذج الموافقة على مشاركة IPS خلال الحج في المحفظة"
+
+#. Diagram label
+#~ msgid "inform patient ineligible for Hajj"
+#~ msgstr "إبلاغ المريض بعدم أهليته للحج"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "الحاج"

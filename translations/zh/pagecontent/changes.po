@@ -24,5 +24,8 @@ msgid "v1.0.0 -  First stable release    First stable release"
 msgstr "v1.0.0 -  首个稳定版本    首个稳定版本"
 
 #: input/pagecontent/changes.md:11
-msgid "v2.0.0 -  Second stable release of IPS Pilgrimage for 2025 Hajj   Added IHE MHD as dependency to utilize more of MHD style manifests Updated Example Artifacts for Pilgrim Folder Added a Capability Statement for Host Country EMRs Page Content changes in following pages: index, dependencies Corrected Health Check and Counseling, Verbal Consent (brief) diagram All bpmn files for business processes available in GitHub"
-msgstr "v2.0.0 -  面向 2025 年朝觐（Hajj）的 IPS Pilgrimage 第二个稳定版本   添加 IHE MHD 作为依赖项，以更多地利用 MHD 风格的清单 更新了朝觐者文件夹的示例工件 添加了东道国 EMR 的能力声明（Capability Statement） 以下页面的内容变更：index、dependencies 更正了“健康检查和咨询，口头同意（简要）”图 业务流程的所有 bpmn 文件均可在 GitHub 上获取"
+msgid "v2.0.0 -  Second stable release of IPS Pilgrimage for the 2025 pilgrimage season   Added IHE MHD as dependency to utilize more of MHD style manifests Updated Example Artifacts for Pilgrim Folder Added a Capability Statement for Host Country EMRs Page Content changes in following pages: index, dependencies Corrected Health Check and Counseling, Verbal Consent (brief) diagram All bpmn files for business processes available in GitHub"
+msgstr ""
+
+#~ msgid "v2.0.0 -  Second stable release of IPS Pilgrimage for 2025 Hajj   Added IHE MHD as dependency to utilize more of MHD style manifests Updated Example Artifacts for Pilgrim Folder Added a Capability Statement for Host Country EMRs Page Content changes in following pages: index, dependencies Corrected Health Check and Counseling, Verbal Consent (brief) diagram All bpmn files for business processes available in GitHub"
+#~ msgstr "v2.0.0 -  面向 2025 年朝觐（Hajj）的 IPS Pilgrimage 第二个稳定版本   添加 IHE MHD 作为依赖项，以更多地利用 MHD 风格的清单 更新了朝觐者文件夹的示例工件 添加了东道国 EMR 的能力声明（Capability Statement） 以下页面的内容变更：index、dependencies 更正了“健康检查和咨询，口头同意（简要）”图 业务流程的所有 bpmn 文件均可在 GitHub 上获取"

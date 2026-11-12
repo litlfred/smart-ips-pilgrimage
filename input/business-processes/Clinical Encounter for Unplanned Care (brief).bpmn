@@ -96,7 +96,7 @@
         <bpmn:flowNodeRef>Activity_1n8jcmb</bpmn:flowNodeRef>
         <bpmn:childLaneSet id="LaneSet_0cqcpr9">
           <bpmn:lane id="Lane_1890tz9" partitionElementRef="host-health-worker" name="Host Country Health Worker">
-            <bpmn:documentation>Counselor from origin country supporting Hajj pilgrim during inital health screening</bpmn:documentation>
+            <bpmn:documentation>Counselor from origin country supporting pilgrim during inital health screening</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -110,7 +110,7 @@
             <bpmn:flowNodeRef>Activity_1n8jcmb</bpmn:flowNodeRef>
           </bpmn:lane>
           <bpmn:lane id="Lane_1aj6m0j" partitionElementRef="pilgrim" name="Pilgrim">
-            <bpmn:documentation>The Hajj pilgrim</bpmn:documentation>
+            <bpmn:documentation>The pilgrim</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />

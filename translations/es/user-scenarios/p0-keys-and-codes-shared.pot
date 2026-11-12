@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: p0-keys-and-codes-shared\n"
-"POT-Creation-Date: 2026-11-10T20:12:07.192Z\n"
+"POT-Creation-Date: 2026-11-12T11:57:11.962Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: user-scenarios/p0-keys-and-codes-shared.json:70
 msgctxt "step.illustration.alt"
-msgid "An Onesan government building and a Taifafeki ministry building far apart; a golden key travels from Onesa to a blue globe of linked dots between them, and code books to the Taifafeki side."
+msgid "Two cards far apart, the flag of Onesa (home country) and the flag of Taifafeki (host country), each with a health cross; a golden key travels from Onesa to a blue globe of linked dots between them, and code books to the Taifafeki side."
 msgstr ""
 
 #: user-scenarios/p0-keys-and-codes-shared.json:5

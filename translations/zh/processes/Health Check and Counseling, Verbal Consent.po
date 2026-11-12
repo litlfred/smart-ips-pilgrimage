@@ -40,11 +40,6 @@ msgstr "就同意和数字健康钱包为患者提供咨询"
 msgid "Counselor"
 msgstr "咨询师"
 
-#: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:128
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "在初次健康筛查期间为朝觐（Hajj）朝觐者提供支持的来源国咨询师"
-
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:205
 #. Diagram label
 msgid "display SHL"
@@ -94,11 +89,6 @@ msgstr "健康检查与 SHL 签发，钱包同意"
 #. Diagram label
 msgid "Human Actor"
 msgstr "人类参与者"
-
-#: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:175
-#. Diagram label
-msgid "inform patient ineligible for Hajj"
-msgstr "告知患者其不符合朝觐（Hajj）条件"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:286
 #. Diagram label
@@ -170,11 +160,6 @@ msgstr "开始"
 msgid "System Actor"
 msgstr "系统参与者"
 
-#: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:110
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "朝觐（Hajj）朝觐者"
-
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:74
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -199,3 +184,30 @@ msgstr "这是整体业务流程的文档 - 流程文档"
 #. Diagram label
 msgid "yes"
 msgstr "是"
+
+#: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:132
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr ""
+
+#: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:179
+#. Diagram label
+msgid "inform patient ineligible for pilgrimage"
+msgstr ""
+
+#: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:114
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr ""
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "在初次健康筛查期间为朝觐（Hajj）朝觐者提供支持的来源国咨询师"
+
+#. Diagram label
+#~ msgid "inform patient ineligible for Hajj"
+#~ msgstr "告知患者其不符合朝觐（Hajj）条件"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "朝觐（Hajj）朝觐者"

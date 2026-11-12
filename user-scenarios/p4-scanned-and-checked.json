@@ -101,7 +101,7 @@
         }
       ],
       "gaps": [
-        "Not yet consistent: the concepts page says the default passcode is the pilgrim's birth date; the Malaysian implementation sets one standard passcode for all its pilgrims for the season.",
+        "Not yet consistent: the concepts page says the default passcode is the pilgrim's birth date; the reference implementation sets one standard passcode for all its pilgrims for the season.",
         "The Clinical Encounter for Unplanned Care diagram draws no separate task for entering the passcode."
       ],
       "references": [
@@ -111,7 +111,7 @@
           "rel": "specified by"
         },
         {
-          "label": "Malaysian reference implementation: the receiving steps",
+          "label": "Reference implementation: the receiving steps",
           "href": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/reference-implementations-malaysia.html",
           "rel": "specified by"
         }

@@ -10,14 +10,14 @@ The model has one source for each thing it draws, and nothing is typed twice:
 - the people and systems are the roles in scenarios/roles.json (a person role
   is a BusinessRole, a system role an ApplicationComponent);
 - the journey moments are the user scenarios in user-scenarios/ (P0 to P7 as
-  BusinessProcess elements, part of "The pilgrim's Hajj", each triggering the
+  BusinessProcess elements, part of "The pilgrim's journey", each triggering the
   one it `follows`); each person or system a moment names (`personas`, mapped
   to roles through scenarios/actors/) is assigned to it or serves it;
 - the overview of key process flows is the figure input/images/workflow.png
   transcribed (FIGURE below): the two countries as Location elements, the
   numbered flows 1 to 5 and A to B as Flow relationships named as the figure
   prints them, and every box at the place the figure draws it, so the view
-  keeps the figure's layout (Home Country left, KSA right, the pilgrim at the
+  keeps the figure's layout (Home Country left, Host Country right, the pilgrim at the
   top between them, WHO GDHCN at the bottom).
 
 The version is the IG's (sushi-config.yaml `version:`), as cat-harness's
@@ -62,7 +62,7 @@ SYSTEMS = {
 # height). A box inside a country is placed inside that country's Location.
 COUNTRIES = {
     "home-country": ("Home Country", (10, 40, 550, 500)),
-    "ksa": ("KSA", (720, 40, 550, 500)),
+    "ksa": ("Host Country", (720, 40, 550, 500)),
 }
 # Mirrored about the pilgrim's centre line, as the original is, so that flows
 # 2 and 4, and A and B, run at the same angle (45 degrees).
@@ -164,7 +164,7 @@ def build():
     for step, a, b, text, moment, tx in FLOWS:
         props = {"step": step, "journeyMoment": IG + JOURNEYS + moment + "/"}
         if tx:
-            props["transaction"] = f"{IG}CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-{tx}"
+            props["transaction"] = f"{IG}artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-{tx}"
         if "IPS QR code" in text:
             props["carries"] = "IPS QR code"
         rels.append((f"flow-{step}", "Flow", a, b, f"{step}. {text}", f"Step {step} of the overview of key process flows.", props))
@@ -252,7 +252,7 @@ def views(els, rels, parts):
             jv.line(r[0], r[2], r[3])
     out = [
         (ov, "The overview of key process flows from the home page (input/images/workflow.png), with every box where the figure draws it: "
-             "Home Country on the left, KSA on the right, the pilgrim at the top between them and WHO GDHCN at the bottom. "
+             "Home Country on the left, Host Country on the right, the pilgrim at the top between them and WHO GDHCN at the bottom. "
              "Each numbered flow is named as the figure prints it and links its moment of the pilgrim's journey and its transaction."),
         (jv, "The pilgrim's journey, moment by moment (P0 to P7, user-scenarios/), each moment triggering the next. "
              "Each moment has a view of its own with the people assigned to it and the systems that serve it."),

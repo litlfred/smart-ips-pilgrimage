@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: p2-summary-signed\n"
-"POT-Creation-Date: 2026-11-10T20:12:07.194Z\n"
+"POT-Creation-Date: 2026-11-12T11:57:11.964Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:94
 msgctxt "step.references.label"
-msgid "Profile HajjIPS and the example My IPS; the folder example My Hajj Pilgrimage Minimal Folder"
+msgid "Profile HajjIPS and the example My IPS; the folder example My Pilgrimage Minimal Folder"
 msgstr ""
 
 #: user-scenarios/p2-summary-signed.json:89

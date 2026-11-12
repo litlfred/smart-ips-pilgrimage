@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-06T09:51:52.169Z\n"
+"POT-Creation-Date: 2026-11-12T11:49:49.507Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -23,5 +23,5 @@ msgid "v1.0.0 -  First stable release    First stable release"
 msgstr ""
 
 #: input/pagecontent/changes.md:11
-msgid "v2.0.0 -  Second stable release of IPS Pilgrimage for 2025 Hajj   Added IHE MHD as dependency to utilize more of MHD style manifests Updated Example Artifacts for Pilgrim Folder Added a Capability Statement for Host Country EMRs Page Content changes in following pages: index, dependencies Corrected Health Check and Counseling, Verbal Consent (brief) diagram All bpmn files for business processes available in GitHub"
+msgid "v2.0.0 -  Second stable release of IPS Pilgrimage for the 2025 pilgrimage season   Added IHE MHD as dependency to utilize more of MHD style manifests Updated Example Artifacts for Pilgrim Folder Added a Capability Statement for Host Country EMRs Page Content changes in following pages: index, dependencies Corrected Health Check and Counseling, Verbal Consent (brief) diagram All bpmn files for business processes available in GitHub"
 msgstr ""

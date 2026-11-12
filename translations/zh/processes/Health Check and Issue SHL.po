@@ -40,11 +40,6 @@ msgstr "就同意和数字健康钱包为患者提供咨询"
 msgid "Counselor"
 msgstr "咨询师"
 
-#: input/business-processes/Health Check and Issue SHL.bpmn:60
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "在初步健康筛查期间为朝觐（Hajj）朝觐者提供支持的来源国咨询师"
-
 #: input/business-processes/Health Check and Issue SHL.bpmn:260
 #. Diagram label
 msgid "display consent form"
@@ -65,20 +60,10 @@ msgstr "显示 SHL 配置表单"
 msgid "Documents the health check and SHL consent and issuance process"
 msgstr "记录健康检查以及 SHL 同意和签发流程"
 
-#: input/business-processes/Health Check and Issue SHL.bpmn:174
-#. Diagram label
-msgid "eligible for Hajj?"
-msgstr "是否符合朝觐（Hajj）条件？"
-
 #: input/business-processes/Health Check and Issue SHL.bpmn:206
 #. Diagram label
 msgid "End"
 msgstr "结束"
-
-#: input/business-processes/Health Check and Issue SHL.bpmn:335
-#. Diagram label
-msgid "fill consent form for sharing IPS during Hajj on wallet"
-msgstr "在钱包中填写朝觐（Hajj）期间共享 IPS 的同意书"
 
 #: input/business-processes/Health Check and Issue SHL.bpmn:302
 #. Diagram label
@@ -124,11 +109,6 @@ msgstr "健康检查与 VHL 签发，钱包同意"
 #. Diagram label
 msgid "Human Actor"
 msgstr "人类参与者"
-
-#: input/business-processes/Health Check and Issue SHL.bpmn:179
-#. Diagram label
-msgid "inform patient ineligible for Hajj"
-msgstr "告知患者不符合朝觐（Hajj）条件"
 
 #: input/business-processes/Health Check and Issue SHL.bpmn:356
 #. Diagram label
@@ -255,11 +235,6 @@ msgstr "存储同意指令"
 msgid "System Actor"
 msgstr "系统参与者"
 
-#: input/business-processes/Health Check and Issue SHL.bpmn:76
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "朝觐（Hajj）朝觐者"
-
 #: input/business-processes/Health Check and Issue SHL.bpmn:114
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -289,3 +264,48 @@ msgstr "这是 IHE PCF 记录同意事务，参见 https://profiles.ihe.net/ITI/
 #. Diagram label
 msgid "yes"
 msgstr "是"
+
+#: input/business-processes/Health Check and Issue SHL.bpmn:64
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr ""
+
+#: input/business-processes/Health Check and Issue SHL.bpmn:178
+#. Diagram label
+msgid "eligible for pilgrimage?"
+msgstr ""
+
+#: input/business-processes/Health Check and Issue SHL.bpmn:339
+#. Diagram label
+msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
+msgstr ""
+
+#: input/business-processes/Health Check and Issue SHL.bpmn:183
+#. Diagram label
+msgid "inform patient ineligible for pilgrimage"
+msgstr ""
+
+#: input/business-processes/Health Check and Issue SHL.bpmn:80
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr ""
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "在初步健康筛查期间为朝觐（Hajj）朝觐者提供支持的来源国咨询师"
+
+#. Diagram label
+#~ msgid "eligible for Hajj?"
+#~ msgstr "是否符合朝觐（Hajj）条件？"
+
+#. Diagram label
+#~ msgid "fill consent form for sharing IPS during Hajj on wallet"
+#~ msgstr "在钱包中填写朝觐（Hajj）期间共享 IPS 的同意书"
+
+#. Diagram label
+#~ msgid "inform patient ineligible for Hajj"
+#~ msgstr "告知患者不符合朝觐（Hajj）条件"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "朝觐（Hajj）朝觐者"

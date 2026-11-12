@@ -14,9 +14,9 @@
     "generator": "agent translation (ar team session)"
   },
   "coverage": {
-    "translated": 28,
-    "total": 28,
-    "pct": 100.0
+    "translated": 49,
+    "total": 62,
+    "pct": 79
   },
   "description": "Unofficial Arabic (Modern Standard Arabic, right-to-left) translation. Semantic verification is per block, in the translation-qa sidecars, where a verdict names the agent or person who reached it; the untainted round-trip verdict for this locale is recorded in the PO header."
 }

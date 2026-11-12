@@ -74,7 +74,7 @@
         <bpmn:flowNodeRef>Activity_0a2dk4l</bpmn:flowNodeRef>
         <bpmn:childLaneSet id="LaneSet_1fd86oz">
           <bpmn:lane id="Lane_15l2hl7" partitionElementRef="counsellor" name="Counselor">
-            <bpmn:documentation>Counselor from origin country supporting Hajj pilgrim during inital health screening</bpmn:documentation>
+            <bpmn:documentation>Counselor from origin country supporting pilgrim during inital health screening</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -90,7 +90,7 @@
             <bpmn:flowNodeRef>Activity_0a2dk4l</bpmn:flowNodeRef>
           </bpmn:lane>
           <bpmn:lane id="Lane_0g1cue8" partitionElementRef="pilgrim" name="Pilgrim">
-            <bpmn:documentation>The Hajj pilgrim</bpmn:documentation>
+            <bpmn:documentation>The pilgrim</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -159,7 +159,7 @@
       <bpmn:outgoing>Flow_04v5pie</bpmn:outgoing>
       <bpmn:outgoing>Flow_09o531n</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_1gkedet" name="inform patient ineligible for Hajj"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
+    <bpmn:task id="Activity_1gkedet" name="inform patient ineligible for pilgrimage"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_09o531n</bpmn:incoming>
       <bpmn:outgoing>Flow_00p5wv7</bpmn:outgoing>
     </bpmn:task>

@@ -21,7 +21,7 @@
     {
       "type": "qr",
       "mode": "scan",
-      "payload": "https://vhl.hie.example.my/manifest/kamal-hajj-2026?exp=1798761600#key=7c1e9a44b20f5d3e",
+      "payload": "https://vhl.hie.onesa.example/manifest/kamal-pilgrimage-2026?exp=1798761600#key=7c1e9a44b20f5d3e",
       "label": "Reading…",
       "badge": {
         "text": "Read",

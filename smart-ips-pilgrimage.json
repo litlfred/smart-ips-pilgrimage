@@ -113,7 +113,7 @@
       "graphTypologies": [
         "user-scenario"
       ],
-      "description": "The pilgrim's journey (input/pagecontent/pilgrim-journey.md) as user scenarios: the parent journey the-pilgrims-hajj and one sub-journey per moment P0 to P7, partOf the parent and following each other in order. Each step's picture is input/images/pilgrim/<p>.webp."
+      "description": "The pilgrim's journey (the home page, input/pagecontent/index.md) as user scenarios: the parent journey the-pilgrims-hajj and one sub-journey per moment P0 to P7, partOf the parent and following each other in order. Each step's picture is input/images/pilgrim/<p>.webp."
     },
     {
       "id": "code-lists",
@@ -148,7 +148,7 @@
       "graphTypologies": [
         "device-screen"
       ],
-      "description": "What each person sees on their own device at a step of the pilgrim's journeys, from the owner's illustrations: Kamal's consent and his signed QR code, the scanner and the facility screen at registration in Mina, Dr Faisal's tablet, Dr Hafiz's break-the-glass phone and Dr Aisyah's computer at home. device-screen nodes (the harness's kind), drawn by the journeys viewer in the workshop's Device Demo. Every person is fictional."
+      "description": "What each person sees on their own device at a step of the pilgrim's journeys, from the owner's illustrations: Kamal's consent and his signed QR code, the scanner and the facility screen at registration in Nalemi, Dr Faisal's tablet, Dr Hafiz's break-the-glass phone and Dr Aisyah's computer at home. device-screen nodes (the harness's kind), drawn by the journeys viewer in the workshop's Device Demo. Every person is fictional."
     },
     {
       "id": "smart-ips-pilgrimage-findings",

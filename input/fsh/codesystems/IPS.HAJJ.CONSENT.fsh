@@ -1,6 +1,6 @@
 CodeSystem: IPS.HAJJ.CONSENT
 Title:        "IPS.HAJJ.CONSENT CodeSystem"
-Description:  "CodeSystem for IPS.HAJJ.CONSENT CodeSystem for utilization of IPS during Hajj"
+Description:  "CodeSystem for IPS.HAJJ.CONSENT CodeSystem for utilization of IPS during the pilgrimage"
 
 * ^experimental = true
 * ^caseSensitive = false

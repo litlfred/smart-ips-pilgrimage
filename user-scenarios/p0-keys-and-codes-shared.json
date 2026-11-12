@@ -67,7 +67,7 @@
       ],
       "illustration": {
         "src": "input/images/pilgrim/p0.webp",
-        "alt": "An Onesan government building and a Taifafeki ministry building far apart; a golden key travels from Onesa to a blue globe of linked dots between them, and code books to the Taifafeki side.",
+        "alt": "Two cards far apart, the flag of Onesa (home country) and the flag of Taifafeki (host country), each with a health cross; a golden key travels from Onesa to a blue globe of linked dots between them, and code books to the Taifafeki side.",
         "prompt": "Two government buildings far apart: an Onesan government building with tiered roof lines on the left, a modern Taifafeki ministry building on the right. Between them floats a glowing globe network node representing WHO GDHCN, a simple blue globe with linked dots. From the Onesan building a golden key icon travels along a dotted arc to the globe, and a small stack of code-book icons travels to a second node marked with a book symbol. No people; calm and abstract; early-morning light."
       },
       "record": {
