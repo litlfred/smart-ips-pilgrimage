@@ -133,12 +133,12 @@ msgstr "محفظة بلد المنشأ"
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:109
 #. Diagram label
 msgid "Pilgrim"
-msgstr "الحاج"
+msgstr "الزائر"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:186
 #. Diagram label
 msgid "pilgrim provided consent to counselor?"
-msgstr "هل قدّم الحاج موافقته للمستشار؟"
+msgstr "هل قدّم الزائر موافقته للمستشار؟"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:237
 #. Diagram label
@@ -173,12 +173,12 @@ msgstr "جهة فاعلة نظامية"
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:74
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
-msgstr "المحفظة الصحية الرقمية لبلد منشأ الحاج"
+msgstr "المحفظة الصحية الرقمية لبلد منشأ الزائر"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:61
 #. Diagram element documentation
 msgid "The pilgrim's origin country's HIE or national system"
-msgstr "منصة HIE أو النظام الوطني لبلد منشأ الحاج"
+msgstr "منصة HIE أو النظام الوطني لبلد منشأ الزائر"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:16
 #. Diagram element documentation
@@ -198,17 +198,17 @@ msgstr "نعم"
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:132
 #. Diagram element documentation
 msgid "Counselor from origin country supporting pilgrim during inital health screening"
-msgstr ""
+msgstr "مستشار من بلد المنشأ يدعم الزائر خلال الفحص الصحي الأولي"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:179
 #. Diagram label
 msgid "inform patient ineligible for pilgrimage"
-msgstr ""
+msgstr "إبلاغ المريض بعدم أهليته للزيارة الدينية"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:114
 #. Diagram element documentation
 msgid "The pilgrim"
-msgstr ""
+msgstr "الزائر"
 
 #. Diagram element documentation
 #~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"

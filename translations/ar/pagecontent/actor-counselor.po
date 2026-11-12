@@ -27,4 +27,4 @@ msgstr ""
 
 #: input/pagecontent/actor-counselor.md:1
 msgid "Type Description Transactions participated in as source Transactions participated in as target Questionnaire participated in    Person Health worker or practitioner empanelled by the origin country National Pilgrimage Authority to conduct health assessments for pilgrims planning to go to a pilgrimage."
-msgstr "النوع الوصف المعاملات المشارَك فيها بوصفه مصدرًا المعاملات المشارَك فيها بوصفه هدفًا الاستبيانات المشارَك فيها    شخص عامل صحي أو ممارس معتمد لدى السلطة الوطنية للحج في البلد الأم لإجراء التقييمات الصحية للحجاج الذين يعتزمون أداء الحج."
+msgstr "النوع الوصف المعاملات المشارَك فيها بوصفه مصدرًا المعاملات المشارَك فيها بوصفه هدفًا الاستبيانات المشارَك فيها    شخص عامل صحي أو ممارس معتمد لدى السلطة الوطنية للزيارة الدينية في البلد الأم لإجراء التقييمات الصحية للزوار الذين يعتزمون أداء الزيارة الدينية."

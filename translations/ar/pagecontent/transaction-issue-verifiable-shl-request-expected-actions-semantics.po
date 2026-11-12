@@ -47,7 +47,7 @@ msgstr "إنشاء <a0>حمولة SHLink</a0>"
 
 #: input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md:6
 msgid "Establish a location that points to the document references within the folder for the pilgrim in the following syntax: \"{host}/List?_id={folder_id}&_include=List:item\" where 'folder_id' is a unique ID for the folder of health documents for the pilfrim. This shall be used as the Health Link URL within the VHL Payload"
-msgstr "إنشاء موقع يشير إلى مراجع المستندات داخل المجلد الخاص بالحاج وفق الصيغة التالية: «{host}/List?_id={folder_id}&_include=List:item» حيث يمثّل 'folder_id' معرّفًا فريدًا لمجلد المستندات الصحية الخاص بالحاج. ويجب استخدام ذلك بوصفه URL الرابط الصحي ضمن حمولة VHL"
+msgstr "إنشاء موقع يشير إلى مراجع المستندات داخل المجلد الخاص بالزائر وفق الصيغة التالية: «{host}/List?_id={folder_id}&_include=List:item» حيث يمثّل 'folder_id' معرّفًا فريدًا لمجلد المستندات الصحية الخاص بالزائر. ويجب استخدام ذلك بوصفه URL الرابط الصحي ضمن حمولة VHL"
 
 #: input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md:15
 msgid "Generate QR code"
@@ -83,4 +83,4 @@ msgstr "فيما يلي الإجراءات المتوقعة من <a0>HIE الب�
 
 #: input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md:2
 msgid "The Origin Country HIE creates a <a0>Folder</a0> for the pilgrim that includes the pilgrim's"
-msgstr "ينشئ HIE البلد الأم <a0>مجلدًا</a0> للحاج يتضمن ما يلي الخاص بالحاج:"
+msgstr "ينشئ HIE البلد الأم <a0>مجلدًا</a0> للزائر يتضمن ما يلي الخاص بالزائر:"

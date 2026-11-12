@@ -31,7 +31,7 @@ msgstr "حدث التدقيق"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:4
 msgid "Deciding the request: the pilgrim's consents are the policy"
-msgstr "البتّ في الطلب: موافقات الحاج هي السياسة"
+msgstr "البتّ في الطلب: موافقات الزائر هي السياسة"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:16
 #, python-brace-format
@@ -75,26 +75,26 @@ msgstr "تُحمَل هوية الموافقة التي يمثلها {code0}، �
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:5
 msgid "For the pilgrimage there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
-msgstr ""
+msgstr "بالنسبة إلى الزيارة الدينية، لا توجد اتفاقية منفصلة لمشاركة البيانات يُرجَع إليها. فمورِدا <a0>HajjConsent</a0> الخاصان بالزائر هما السياسة، وكلٌّ منهما يُلزم الطرف الذي يسمّيه:"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:15
 #, python-brace-format
 msgid "the governing policy: the pilgrim's consents, each by its {code0} code and CodeSystem version (for example {code1} and {code2} in this guide's examples, version 2.1.0);"
-msgstr ""
+msgstr "السياسة الحاكمة: موافقات الزائر، كلٌّ منها برمز {code0} الخاص بها وإصدار CodeSystem (على سبيل المثال {code1} و{code2} في أمثلة هذا الدليل، الإصدار 2.1.0)؛"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:7
 #, python-brace-format
 msgid "The host-use consent ({code0}, or the fictional {code1} of this guide's examples) governs the Host Country Ministry of Health's use of the IPS after it is received: for treatment during the pilgrimage and any follow-up care, as its consent text states."
-msgstr ""
+msgstr "تحكم موافقة الاستخدام في البلد المضيف ({code0}، أو {code1} الخيالية في أمثلة هذا الدليل) استخدامَ وزارة الصحة في البلد المضيف لـ IPS بعد استلامه: للعلاج خلال الزيارة الدينية وأي رعاية متابعة، كما ينص نص الموافقة."
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:6
 #, python-brace-format
 msgid "The origin-release consent (for example {code0}, or the fictional {code1} of this guide's examples) lets the Origin Country HIE release the IPS to the recipient named in {code2} (role {code3}, information recipient), for the purpose in {code4} ({code5}), during {code6}. The Origin Country HIE enforces this consent from its own Consent Registry (as recorded by the Record Consent transaction, [ITI-108]), not from the copy carried inside the IPS. The IPS copy is signed when the IPS is issued, so it cannot show a later withdrawal."
-msgstr ""
+msgstr "تتيح موافقة الإفراج في بلد المنشأ (على سبيل المثال {code0}، أو {code1} الخيالية في أمثلة هذا الدليل) لـ HIE بلد المنشأ الإفراج عن IPS للمتلقي المسمّى في {code2} (الدور {code3}، متلقي المعلومات)، للغرض الوارد في {code4} ({code5})، خلال {code6}. وتُنفِّذ HIE بلد المنشأ هذه الموافقة انطلاقًا من سجل الموافقات (Consent Registry) الخاص بها (كما سجّلته معاملة Record Consent، [ITI-108])، لا من النسخة المحمولة داخل IPS. فنسخة IPS تُوقَّع عند إصدار IPS، ولذلك لا يمكنها إظهار سحبٍ لاحق."
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:21
 msgid "This guide uses no separate data sharing agreement for the pilgrimage, so the consents themselves are the policy the audit event cites. The Host Country EMR, as an ATNA Secure Node or Secure Application, should also audit what it receives."
-msgstr ""
+msgstr "لا يستخدم هذا الدليل اتفاقية منفصلة لمشاركة البيانات للزيارة الدينية، ولذلك فإن الموافقات نفسها هي السياسة التي يستشهد بها حدث التدقيق. وينبغي لـ EMR البلد المضيف، بوصفه ATNA Secure Node أو Secure Application، أن يدقق أيضًا ما يستلمه."
 
 #~ msgid "For the Hajj there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
 #~ msgstr "بالنسبة إلى الحج، لا توجد اتفاقية منفصلة لمشاركة البيانات يُرجَع إليها. فمورِدا <a0>HajjConsent</a0> الخاصان بالحاج هما السياسة، وكلٌّ منهما يُلزم الطرف الذي يسمّيه:"
