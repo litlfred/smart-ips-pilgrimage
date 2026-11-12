@@ -10,8 +10,8 @@
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/HajjIPS",
   "schema:name": "HajjIPS",
-  "dcterms:title": "Bundle - IPS for Hajj",
-  "dcterms:description": "This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) FHIR Implementation Guide for the Hajj Pilgrimage.",
+  "dcterms:title": "Bundle - IPS for Pilgrimage",
+  "dcterms:description": "This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) FHIR Implementation Guide for Pilgrimage.",
   "schema:version": "2.1.0",
   "dcterms:type": "Structures: Resource Profiles",
   "schema:sameAs": {
@@ -31,7 +31,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "d640328236941983744148f066b29006f7e7710f"
+    "prov:used": "90093b139808b060e63cfec94920e46f0a1e8422"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

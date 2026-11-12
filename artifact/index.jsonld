@@ -687,7 +687,7 @@
       "@type": "fhir:CodeSystem",
       "dcterms:identifier": "CodeSystem/IPS.HAJJ.ACTOR",
       "dcterms:title": "IPS.HAJJ.ACTOR CodeSystem",
-      "dcterms:description": "CodeSystem for IPS.HAJJ.ACTOR CodeSystem for utilization of IPS during Hajj",
+      "dcterms:description": "CodeSystem for IPS.HAJJ.ACTOR CodeSystem for utilization of IPS during the pilgrimage",
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.ACTOR"
@@ -731,7 +731,7 @@
       "@type": "fhir:CodeSystem",
       "dcterms:identifier": "CodeSystem/IPS.HAJJ.CONSENT",
       "dcterms:title": "IPS.HAJJ.CONSENT CodeSystem",
-      "dcterms:description": "CodeSystem for IPS.HAJJ.CONSENT CodeSystem for utilization of IPS during Hajj",
+      "dcterms:description": "CodeSystem for IPS.HAJJ.CONSENT CodeSystem for utilization of IPS during the pilgrimage",
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT"
@@ -775,7 +775,7 @@
       "@type": "fhir:CodeSystem",
       "dcterms:identifier": "CodeSystem/IPS.HAJJ.TRANSACTION",
       "dcterms:title": "IPS.HAJJ.TRANSACTION CodeSystem",
-      "dcterms:description": "CodeSystem for IPS.HAJJ.TRANSACTION CodeSystem for utilization of IPS during Hajj",
+      "dcterms:description": "CodeSystem for IPS.HAJJ.TRANSACTION CodeSystem for utilization of IPS during the pilgrimage",
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.TRANSACTION"
@@ -1049,8 +1049,8 @@
       "@id": "StructureDefinition-HajjIPS.jsonld",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/HajjIPS",
-      "dcterms:title": "Bundle - IPS for Hajj",
-      "dcterms:description": "This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) FHIR Implementation Guide for the Hajj Pilgrimage.",
+      "dcterms:title": "Bundle - IPS for Pilgrimage",
+      "dcterms:description": "This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) FHIR Implementation Guide for Pilgrimage.",
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjIPS"
@@ -1060,8 +1060,8 @@
       "@id": "StructureDefinition-HajjIPSComposition.jsonld",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/HajjIPSComposition",
-      "dcterms:title": "Composition (IPS) for Hajj",
-      "dcterms:description": "Clinical document used to represent the International Patient Summary (IPS) data set for Hajj Pilgrimage",
+      "dcterms:title": "Composition (IPS) for Pilgrimage",
+      "dcterms:description": "Clinical document used to represent the International Patient Summary (IPS) data set for Pilgrimage",
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjIPSComposition"
@@ -1105,7 +1105,7 @@
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/IPS.HAJJ.ACTOR",
       "dcterms:title": "IPS.HAJJ.ACTOR ValueSet of actor",
-      "dcterms:description": "ValueSet of codes for actor for Hajj",
+      "dcterms:description": "ValueSet of codes for actor for the pilgrimage",
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.ACTOR"
@@ -1116,7 +1116,7 @@
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/IPS.HAJJ.ACTOR.SYSTEM",
       "dcterms:title": "IPS.HAJJ.ACTOR.SYSTEM ValueSet of actor",
-      "dcterms:description": "ValueSet of codes for system actors for Hajj",
+      "dcterms:description": "ValueSet of codes for system actors for the pilgrimage",
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.ACTOR.SYSTEM"
@@ -1127,7 +1127,7 @@
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/IPS.HAJJ.CONSENT",
       "dcterms:title": "IPS.HAJJ.CONSENT ValueSet of consent policies",
-      "dcterms:description": "ValueSet of codes for consent policies for Hajj pilgrims",
+      "dcterms:description": "ValueSet of codes for consent policies for pilgrims",
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.CONSENT"
@@ -1138,7 +1138,7 @@
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/IPS.HAJJ.TRANSACTION",
       "dcterms:title": "IPS.HAJJ.TRANSACTION ValueSet of transaction",
-      "dcterms:description": "ValueSet of codes for transaction for Hajj",
+      "dcterms:description": "ValueSet of codes for transaction for the pilgrimage",
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.TRANSACTION"

@@ -8,7 +8,7 @@
   "@type": "archimate:BusinessRole",
   "schema:identifier": "id-4f6f303b9e0a5620bf22b179e9e67a40",
   "schema:name": "Counsellor",
-  "schema:description": "The empanelled clinician at home who does the pre-Hajj health examination and counsels the pilgrim on consent and the wallet.",
+  "schema:description": "The empanelled clinician at home who does the pre-pilgrimage health examination and counsels the pilgrim on consent and the wallet.",
   "schema:category": "Business",
   "dcterms:isPartOf": "https://litlfred.github.io/smart-ips-pilgrimage/archimate/2.1.0.jsonld"
 }

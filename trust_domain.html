@@ -35,7 +35,7 @@
 <p>The technical specifications are captured in this FHIR Implementation Guide (IG). Please review the <a href="transactions.html">transactions</a> page for detailed specifications about the transactions defined by this IG.</p>
 
 <h3 id="policy">Policy</h3>
-<p>This Trust Domain enables data exchange mediated by the pilgrim, on the basis of the pilgrim’s consent. The consents are recorded in the <a href="artifact/CodeSystem-IPS.HAJJ.CONSENT.html">IPS.HAJJ.CONSENT CodeSystem</a>, and each <a href="artifact/StructureDefinition-HajjConsent.html">Hajj consent</a> in a pilgrim’s IPS names one of them in <code class="language-plaintext highlighter-rouge">Consent.policyRule</code>.</p>
+<p>This Trust Domain enables data exchange mediated by the pilgrim, on the basis of the pilgrim’s consent. The consents are recorded in the <a href="artifact/CodeSystem-IPS.HAJJ.CONSENT.html">IPS.HAJJ.CONSENT CodeSystem</a>, and each <a href="artifact/StructureDefinition-HajjConsent.html">pilgrimage consent</a> in a pilgrim’s IPS names one of them in <code class="language-plaintext highlighter-rouge">Consent.policyRule</code>.</p>
 
 <h4 id="terms-of-use">Terms of use</h4>
 
@@ -46,11 +46,11 @@
 <p>This guide follows the consent model of the <a href="http://smart.who.int/trust-phw/consent.html">GDHCN Trust Network: Personal Health Wallet</a> guide, which is built on IHE Privacy Consent on FHIR (PCF) 1.1.0:</p>
 
 <ul>
-  <li><strong>Explicit consent.</strong> The pilgrim agrees by their own act: on their wallet, or to the counsellor, who records it. Each <a href="artifact/StructureDefinition-HajjConsent.html">Hajj consent</a> is an explicit consent, an opt-in: its <code class="language-plaintext highlighter-rouge">Consent.category</code> includes the HL7 v3 ActConsentDirective code <code class="language-plaintext highlighter-rouge">OPTIN</code>. It names its <code class="language-plaintext highlighter-rouge">IPS.HAJJ.CONSENT</code> code and the code system version in <code class="language-plaintext highlighter-rouge">Consent.policyRule</code>, and its <code class="language-plaintext highlighter-rouge">source[x]</code> is the evidence: the consent text the pilgrim was shown, with their recorded act. The Personal Health Wallet guide’s process L (“Record Explicit Consent”) describes the steps. Both the verbal consent and the consent on the wallet in this guide’s business processes are explicit consents.</li>
-  <li><strong>Implied consent.</strong> The pilgrim does nothing, and the Trust Domain’s default policy applies (HL7 ActConsentDirective <code class="language-plaintext highlighter-rouge">IMPLIED</code>). This Trust Domain is opt-in: its default is the IHE PCF implicit policy <code class="language-plaintext highlighter-rouge">Policy-deny</code>. With no Hajj consent, the IPS is not shared.</li>
+  <li><strong>Explicit consent.</strong> The pilgrim agrees by their own act: on their wallet, or to the counsellor, who records it. Each <a href="artifact/StructureDefinition-HajjConsent.html">pilgrimage consent</a> is an explicit consent, an opt-in: its <code class="language-plaintext highlighter-rouge">Consent.category</code> includes the HL7 v3 ActConsentDirective code <code class="language-plaintext highlighter-rouge">OPTIN</code>. It names its <code class="language-plaintext highlighter-rouge">IPS.HAJJ.CONSENT</code> code and the code system version in <code class="language-plaintext highlighter-rouge">Consent.policyRule</code>, and its <code class="language-plaintext highlighter-rouge">source[x]</code> is the evidence: the consent text the pilgrim was shown, with their recorded act. The Personal Health Wallet guide’s process L (“Record Explicit Consent”) describes the steps. Both the verbal consent and the consent on the wallet in this guide’s business processes are explicit consents.</li>
+  <li><strong>Implied consent.</strong> The pilgrim does nothing, and the Trust Domain’s default policy applies (HL7 ActConsentDirective <code class="language-plaintext highlighter-rouge">IMPLIED</code>). This Trust Domain is opt-in: its default is the IHE PCF implicit policy <code class="language-plaintext highlighter-rouge">Policy-deny</code>. With no pilgrimage consent, the IPS is not shared.</li>
 </ul>
 
-<p><strong>Consent directives travel with the document.</strong> The pilgrim’s IPS (<a href="artifact/StructureDefinition-HajjIPS.html">HajjIPS</a>) carries the Hajj consents it is shared under, as consent entries, and lists them in its Advance Directives section. The Personal Health Wallet guide’s process M (“Add Consent Directives to a Shared or Issued Document”) describes the steps. The copy in the IPS is evidence for the receiver. The origin HIE enforces the copy in its own Consent Registry, because a signed IPS cannot show a later withdrawal.</p>
+<p><strong>Consent directives travel with the document.</strong> The pilgrim’s IPS (<a href="artifact/StructureDefinition-HajjIPS.html">HajjIPS</a>) carries the pilgrimage consents it is shared under, as consent entries, and lists them in its Advance Directives section. The Personal Health Wallet guide’s process M (“Add Consent Directives to a Shared or Issued Document”) describes the steps. The copy in the IPS is evidence for the receiver. The origin HIE enforces the copy in its own Consent Registry, because a signed IPS cannot show a later withdrawal.</p>
 
 <h4 id="naming-the-consent-a-vhl-receiver-acts-under">Naming the consent a VHL Receiver acts under</h4>
 
@@ -65,7 +65,7 @@
   </span><span class="nl">"credentialSubject"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
     </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://vhl-sharer.example.org/List?_id=abc123def456"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"manifest"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://vhl-sharer.example.org/List?_id=abc123def456"</span><span class="p">,</span><span class="w"> </span><span class="nl">"flag"</span><span class="p">:</span><span class="w"> </span><span class="s2">"LP"</span><span class="w"> </span><span class="p">},</span><span class="w">
-    </span><span class="nl">"recipient"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Ministry of Health, Taifafeki (fictional): Hajj facility"</span><span class="w">
+    </span><span class="nl">"recipient"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Ministry of Health, Taifafeki (fictional): pilgrimage facility"</span><span class="w">
   </span><span class="p">},</span><span class="w">
   </span><span class="nl">"termsOfUse"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
     </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://smart.who.int/trust/StructureDefinition/TrustDomainPolicy"</span><span class="p">,</span><span class="w">
@@ -79,7 +79,7 @@
 
 <ol>
   <li>checks that each named policy is in this ValueSet;</li>
-  <li>matches it against the <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> of the pilgrim’s Hajj consents (system and code);</li>
+  <li>matches it against the <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> of the pilgrim’s pilgrimage consents (system and code);</li>
   <li>decides as the <a href="http://smart.who.int/trust-phw/business-processes.html">GDHCN Trust Network: Personal Health Wallet</a> process I describes.</li>
 </ol>
 
@@ -95,7 +95,7 @@
 <link rel="stylesheet" href="assets/ig-pages.css">
 <footer id="ig-footer">
 <p class="ig-footer-nav"><a href="reference-implementations-malaysia.html">&lt;prev</a> | <a href="#">top</a> | <a href="downloads.html">next&gt;</a></p>
-<p class="ig-footer-band">IG © 2023+ <a href="http://who.int" rel="external">WHO</a>. Package <code>smart.who.int.ips-pilgrimage#2.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-11</p>
+<p class="ig-footer-band">IG © 2023+ <a href="http://who.int" rel="external">WHO</a>. Package <code>smart.who.int.ips-pilgrimage#2.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-12</p>
 <p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="qa.html">QA Report</a> | <a href="https://spdx.org/licenses/CC-BY-SA-3.0-IGO.html" rel="external">License</a></p>
 </footer>
 

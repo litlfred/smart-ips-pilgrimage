@@ -14,7 +14,7 @@
   "title" : "SMART Verifiable IPS for Pilgrimage",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-11T18:03:08+00:00",
+  "date" : "2026-11-12T12:49:41+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
@@ -597,8 +597,8 @@
       "reference" : {
         "reference" : "StructureDefinition/HajjIPS"
       },
-      "name" : "Bundle - IPS for Hajj",
-      "description" : "This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) FHIR Implementation Guide for the Hajj Pilgrimage.",
+      "name" : "Bundle - IPS for Pilgrimage",
+      "description" : "This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) FHIR Implementation Guide for Pilgrimage.",
       "exampleBoolean" : false
     },
     {
@@ -657,8 +657,8 @@
       "reference" : {
         "reference" : "StructureDefinition/HajjIPSComposition"
       },
-      "name" : "Composition (IPS) for Hajj",
-      "description" : "Clinical document used to represent the International Patient Summary (IPS) data set for Hajj Pilgrimage",
+      "name" : "Composition (IPS) for Pilgrimage",
+      "description" : "Clinical document used to represent the International Patient Summary (IPS) data set for Pilgrimage",
       "exampleBoolean" : false
     },
     {
@@ -790,7 +790,7 @@
         "reference" : "Bundle/PilgrimFolderSearchSetExtended"
       },
       "name" : "Example Folder for Pilgrim (Extended)",
-      "description" : "Example Hajj Pilgrimage Minimal Folder Search Set",
+      "description" : "Example Pilgrimage Minimal Folder Search Set",
       "exampleBoolean" : true
     },
     {
@@ -816,42 +816,6 @@
       "name" : "FHIR IPS JSON Signed",
       "description" : "Example of FHIR IPS Signed using DSGj for pilgrimage, as a document reference.",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Consent"
-      }],
-      "reference" : {
-        "reference" : "Consent/6ba64cfe-b224-4d40-87bf-4d8122e65e62"
-      },
-      "name" : "Hajj consent: the host Ministry of Health may use the IPS (CONSENT-XXR)",
-      "description" : "The second of the pilgrim's two Hajj consents. The pilgrim lets the host Ministry of Health use the IPS, for treatment, during the Hajj period and any follow-up care. This consent governs the host's use of the IPS after it is received.",
-      "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjConsent"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Consent"
-      }],
-      "reference" : {
-        "reference" : "Consent/c7781f44-6df8-4a8b-9e06-0b34263a47c6"
-      },
-      "name" : "Hajj consent: the origin country may release the IPS (CONSENT-XXK)",
-      "description" : "The first of the pilgrim's two Hajj consents. The pilgrim lets the origin country HIE release the IPS to the host Ministry of Health, as information recipient, for treatment, during the Hajj period. The origin HIE enforces this consent from its own Consent Registry.",
-      "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjConsent"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Composition"
-      }],
-      "reference" : {
-        "reference" : "Composition/ExampleComposition"
-      },
-      "name" : "Hajj IPS Composition",
-      "description" : "Hajj IPS Composition Example",
-      "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjIPSComposition"
     },
     {
       "extension" : [{
@@ -946,7 +910,7 @@
         "reference" : "CodeSystem/IPS.HAJJ.ACTOR"
       },
       "name" : "IPS.HAJJ.ACTOR CodeSystem",
-      "description" : "CodeSystem for IPS.HAJJ.ACTOR CodeSystem for utilization of IPS during Hajj",
+      "description" : "CodeSystem for IPS.HAJJ.ACTOR CodeSystem for utilization of IPS during the pilgrimage",
       "exampleBoolean" : false
     },
     {
@@ -958,7 +922,7 @@
         "reference" : "ValueSet/IPS.HAJJ.ACTOR"
       },
       "name" : "IPS.HAJJ.ACTOR ValueSet of actor",
-      "description" : "ValueSet of codes for actor for Hajj",
+      "description" : "ValueSet of codes for actor for the pilgrimage",
       "exampleBoolean" : false
     },
     {
@@ -982,7 +946,7 @@
         "reference" : "ValueSet/IPS.HAJJ.ACTOR.SYSTEM"
       },
       "name" : "IPS.HAJJ.ACTOR.SYSTEM ValueSet of actor",
-      "description" : "ValueSet of codes for system actors for Hajj",
+      "description" : "ValueSet of codes for system actors for the pilgrimage",
       "exampleBoolean" : false
     },
     {
@@ -1018,7 +982,7 @@
         "reference" : "CodeSystem/IPS.HAJJ.CONSENT"
       },
       "name" : "IPS.HAJJ.CONSENT CodeSystem",
-      "description" : "CodeSystem for IPS.HAJJ.CONSENT CodeSystem for utilization of IPS during Hajj",
+      "description" : "CodeSystem for IPS.HAJJ.CONSENT CodeSystem for utilization of IPS during the pilgrimage",
       "exampleBoolean" : false
     },
     {
@@ -1030,7 +994,7 @@
         "reference" : "ValueSet/IPS.HAJJ.CONSENT"
       },
       "name" : "IPS.HAJJ.CONSENT ValueSet of consent policies",
-      "description" : "ValueSet of codes for consent policies for Hajj pilgrims",
+      "description" : "ValueSet of codes for consent policies for pilgrims",
       "exampleBoolean" : false
     },
     {
@@ -1078,7 +1042,7 @@
         "reference" : "CodeSystem/IPS.HAJJ.TRANSACTION"
       },
       "name" : "IPS.HAJJ.TRANSACTION CodeSystem",
-      "description" : "CodeSystem for IPS.HAJJ.TRANSACTION CodeSystem for utilization of IPS during Hajj",
+      "description" : "CodeSystem for IPS.HAJJ.TRANSACTION CodeSystem for utilization of IPS during the pilgrimage",
       "exampleBoolean" : false
     },
     {
@@ -1090,7 +1054,7 @@
         "reference" : "ValueSet/IPS.HAJJ.TRANSACTION"
       },
       "name" : "IPS.HAJJ.TRANSACTION ValueSet of transaction",
-      "description" : "ValueSet of codes for transaction for Hajj",
+      "description" : "ValueSet of codes for transaction for the pilgrimage",
       "exampleBoolean" : false
     },
     {
@@ -1276,26 +1240,26 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "List"
-      }],
-      "reference" : {
-        "reference" : "List/PilgrimFolder"
-      },
-      "name" : "My Hajj Pilgrimage Minimal Folder",
-      "description" : "Folder for Pilgrim",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
         "reference" : "Bundle/MyIPS"
       },
       "name" : "My IPS",
-      "description" : "Hajj IPS Example",
+      "description" : "Pilgrimage IPS Example",
       "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjIPS"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "List"
+      }],
+      "reference" : {
+        "reference" : "List/PilgrimFolder"
+      },
+      "name" : "My Pilgrimage Minimal Folder",
+      "description" : "Folder for Pilgrim",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -1380,6 +1344,42 @@
       "name" : "Origin country HIE (example): VHL Sharer and Consent Registry custodian",
       "description" : "Fictional health information exchange of the pilgrim's origin country (the fictional Onesa in this example). It holds the pilgrim's consents and releases the IPS.",
       "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjOrganization"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Consent"
+      }],
+      "reference" : {
+        "reference" : "Consent/6ba64cfe-b224-4d40-87bf-4d8122e65e62"
+      },
+      "name" : "Pilgrimage consent: the host Ministry of Health may use the IPS (CONSENT-XXR)",
+      "description" : "The second of the pilgrim's two pilgrimage consents. The pilgrim lets the host Ministry of Health use the IPS, for treatment, during the pilgrimage period and any follow-up care. This consent governs the host's use of the IPS after it is received.",
+      "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjConsent"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Consent"
+      }],
+      "reference" : {
+        "reference" : "Consent/c7781f44-6df8-4a8b-9e06-0b34263a47c6"
+      },
+      "name" : "Pilgrimage consent: the origin country may release the IPS (CONSENT-XXK)",
+      "description" : "The first of the pilgrim's two pilgrimage consents. The pilgrim lets the origin country HIE release the IPS to the host Ministry of Health, as information recipient, for treatment, during the pilgrimage period. The origin HIE enforces this consent from its own Consent Registry.",
+      "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjConsent"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/ExampleComposition"
+      },
+      "name" : "Pilgrimage IPS Composition",
+      "description" : "Pilgrimage IPS Composition Example",
+      "exampleCanonical" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjIPSComposition"
     },
     {
       "extension" : [{

@@ -100,7 +100,7 @@
       "title": "IPS.HAJJ.ACTOR.SYSTEM ValueSet of actor",
       "status": "active",
       "experimental": true,
-      "description": "ValueSet of codes for system actors for Hajj",
+      "description": "ValueSet of codes for system actors for the pilgrimage",
       "compose": {
         "include": [
           {
@@ -130,7 +130,7 @@
   "name": "Questionnaire-ConnectathonSubmission",
   "title": "Connectathon Submission",
   "status": "draft",
-  "date": "2026-11-11T18:03:08+00:00",
+  "date": "2026-11-12T12:49:41+00:00",
   "publisher": "WHO",
   "contact": [
     {

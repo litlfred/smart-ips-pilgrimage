@@ -8,9 +8,9 @@
   "url" : "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjIPSComposition",
   "version" : "2.1.0",
   "name" : "HajjIPSComposition",
-  "title" : "Composition (IPS) for Hajj",
+  "title" : "Composition (IPS) for Pilgrimage",
   "status" : "draft",
-  "date" : "2026-11-11T18:03:08+00:00",
+  "date" : "2026-11-12T12:49:41+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
@@ -23,7 +23,7 @@
       "value" : "smart@who.int"
     }]
   }],
-  "description" : "Clinical document used to represent the International Patient Summary (IPS) data set for Hajj Pilgrimage",
+  "description" : "Clinical document used to represent the International Patient Summary (IPS) data set for Pilgrimage",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "workflow",

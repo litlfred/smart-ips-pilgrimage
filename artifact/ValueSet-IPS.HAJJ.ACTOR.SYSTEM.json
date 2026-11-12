@@ -11,7 +11,7 @@
   "dcterms:identifier": "ValueSet/IPS.HAJJ.ACTOR.SYSTEM",
   "schema:name": "IPS_HAJJ_ACTOR_SYSTEM",
   "dcterms:title": "IPS.HAJJ.ACTOR.SYSTEM ValueSet of actor",
-  "dcterms:description": "ValueSet of codes for system actors for Hajj",
+  "dcterms:description": "ValueSet of codes for system actors for the pilgrimage",
   "schema:version": "2.1.0",
   "dcterms:type": "Terminology: Value Sets",
   "schema:sameAs": {
@@ -31,7 +31,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "d640328236941983744148f066b29006f7e7710f"
+    "prov:used": "90093b139808b060e63cfec94920e46f0a1e8422"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

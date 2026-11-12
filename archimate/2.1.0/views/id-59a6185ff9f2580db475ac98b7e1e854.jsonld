@@ -8,7 +8,7 @@
   "@type": "archimate:Diagram",
   "schema:identifier": "id-59a6185ff9f2580db475ac98b7e1e854",
   "schema:name": "Overview of key process flows",
-  "schema:description": "The overview of key process flows from the home page (input/images/workflow.png), with every box where the figure draws it: Home Country on the left, KSA on the right, the pilgrim at the top between them and WHO GDHCN at the bottom. Each numbered flow is named as the figure prints it and links its moment of the pilgrim's journey and its transaction.",
+  "schema:description": "The overview of key process flows from the home page (input/images/workflow.png), with every box where the figure draws it: Home Country on the left, Host Country on the right, the pilgrim at the top between them and WHO GDHCN at the bottom. Each numbered flow is named as the figure prints it and links its moment of the pilgrim's journey and its transaction.",
   "schema:image": "https://litlfred.github.io/smart-ips-pilgrimage/archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg",
   "schema:about": [
     {

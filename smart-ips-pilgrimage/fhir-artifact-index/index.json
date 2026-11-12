@@ -8,8 +8,8 @@
   "source": {
     "kind": "output",
     "of": "output-ast",
-    "revision": "d640328236941983744148f066b29006f7e7710f",
-    "readAt": "2026-11-11"
+    "revision": "90093b139808b060e63cfec94920e46f0a1e8422",
+    "readAt": "2026-11-12"
   },
   "provenance": {},
   "sidecarApi": "present",
@@ -76,10 +76,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -137,10 +137,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -195,10 +195,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -257,10 +257,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -319,10 +319,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -381,10 +381,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -443,10 +443,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -505,10 +505,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -567,10 +567,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -629,10 +629,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -691,10 +691,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -753,10 +753,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -815,10 +815,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -877,10 +877,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -939,10 +939,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1001,10 +1001,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1063,10 +1063,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1125,10 +1125,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1187,10 +1187,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1249,10 +1249,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1311,10 +1311,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1373,10 +1373,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1385,7 +1385,7 @@
       "id": "IPS.HAJJ.ACTOR",
       "name": "IPS_HAJJ_ACTOR",
       "title": "IPS.HAJJ.ACTOR CodeSystem",
-      "description": "CodeSystem for IPS.HAJJ.ACTOR CodeSystem for utilization of IPS during Hajj",
+      "description": "CodeSystem for IPS.HAJJ.ACTOR CodeSystem for utilization of IPS during the pilgrimage",
       "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.ACTOR",
       "version": "2.1.0",
       "category": "Terminology: Code Systems",
@@ -1435,10 +1435,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1497,10 +1497,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1559,10 +1559,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1621,10 +1621,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1633,7 +1633,7 @@
       "id": "IPS.HAJJ.CONSENT",
       "name": "IPS_HAJJ_CONSENT",
       "title": "IPS.HAJJ.CONSENT CodeSystem",
-      "description": "CodeSystem for IPS.HAJJ.CONSENT CodeSystem for utilization of IPS during Hajj",
+      "description": "CodeSystem for IPS.HAJJ.CONSENT CodeSystem for utilization of IPS during the pilgrimage",
       "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.CONSENT",
       "version": "2.1.0",
       "category": "Terminology: Code Systems",
@@ -1683,10 +1683,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1745,10 +1745,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1807,10 +1807,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1869,10 +1869,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1881,7 +1881,7 @@
       "id": "IPS.HAJJ.TRANSACTION",
       "name": "IPS_HAJJ_TRANSACTION",
       "title": "IPS.HAJJ.TRANSACTION CodeSystem",
-      "description": "CodeSystem for IPS.HAJJ.TRANSACTION CodeSystem for utilization of IPS during Hajj",
+      "description": "CodeSystem for IPS.HAJJ.TRANSACTION CodeSystem for utilization of IPS during the pilgrimage",
       "canonical": "http://smart.who.int/ips-pilgrimage/CodeSystem/IPS.HAJJ.TRANSACTION",
       "version": "2.1.0",
       "category": "Terminology: Code Systems",
@@ -1931,10 +1931,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -1993,10 +1993,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2055,10 +2055,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2117,10 +2117,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2179,10 +2179,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2241,10 +2241,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2303,10 +2303,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2365,10 +2365,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2427,10 +2427,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2489,10 +2489,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2551,10 +2551,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2613,10 +2613,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2675,10 +2675,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2737,10 +2737,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2799,10 +2799,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2861,10 +2861,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2923,10 +2923,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -2985,10 +2985,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3047,10 +3047,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3109,10 +3109,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3171,10 +3171,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3233,10 +3233,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3294,10 +3294,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3366,10 +3366,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3438,10 +3438,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3499,10 +3499,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3560,10 +3560,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3621,10 +3621,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3682,10 +3682,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3743,10 +3743,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3804,10 +3804,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3863,10 +3863,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3922,10 +3922,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -3982,10 +3982,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4051,10 +4051,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4124,10 +4124,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4196,10 +4196,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4254,10 +4254,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4312,10 +4312,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4373,10 +4373,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4440,10 +4440,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4507,10 +4507,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4574,10 +4574,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4641,10 +4641,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4708,10 +4708,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4775,10 +4775,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4834,10 +4834,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4893,10 +4893,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -4955,10 +4955,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5017,10 +5017,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5075,10 +5075,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5133,10 +5133,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5198,10 +5198,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5260,10 +5260,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5322,10 +5322,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5384,10 +5384,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5395,8 +5395,8 @@
       "resourceType": "StructureDefinition",
       "id": "HajjIPS",
       "name": "HajjIPS",
-      "title": "Bundle - IPS for Hajj",
-      "description": "This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) FHIR Implementation Guide for the Hajj Pilgrimage.",
+      "title": "Bundle - IPS for Pilgrimage",
+      "description": "This profile represents the constraints applied to the Bundle resource by the International Patient Summary (IPS) FHIR Implementation Guide for Pilgrimage.",
       "canonical": "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjIPS",
       "version": "2.1.0",
       "category": "Structures: Resource Profiles",
@@ -5446,10 +5446,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5457,8 +5457,8 @@
       "resourceType": "StructureDefinition",
       "id": "HajjIPSComposition",
       "name": "HajjIPSComposition",
-      "title": "Composition (IPS) for Hajj",
-      "description": "Clinical document used to represent the International Patient Summary (IPS) data set for Hajj Pilgrimage",
+      "title": "Composition (IPS) for Pilgrimage",
+      "description": "Clinical document used to represent the International Patient Summary (IPS) data set for Pilgrimage",
       "canonical": "http://smart.who.int/ips-pilgrimage/StructureDefinition/HajjIPSComposition",
       "version": "2.1.0",
       "category": "Structures: Resource Profiles",
@@ -5508,10 +5508,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5570,10 +5570,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       }
     },
     {
@@ -5632,10 +5632,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       },
       "sidecars": {
         "displays": {
@@ -5716,10 +5716,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       },
       "sidecars": {
         "displays": {
@@ -5750,7 +5750,7 @@
       "id": "IPS.HAJJ.ACTOR",
       "name": "IPS_HAJJ_ACTOR",
       "title": "IPS.HAJJ.ACTOR ValueSet of actor",
-      "description": "ValueSet of codes for actor for Hajj",
+      "description": "ValueSet of codes for actor for the pilgrimage",
       "canonical": "http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.ACTOR",
       "version": "2.1.0",
       "category": "Terminology: Value Sets",
@@ -5800,10 +5800,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       },
       "sidecars": {
         "displays": {
@@ -5834,7 +5834,7 @@
       "id": "IPS.HAJJ.ACTOR.SYSTEM",
       "name": "IPS_HAJJ_ACTOR_SYSTEM",
       "title": "IPS.HAJJ.ACTOR.SYSTEM ValueSet of actor",
-      "description": "ValueSet of codes for system actors for Hajj",
+      "description": "ValueSet of codes for system actors for the pilgrimage",
       "canonical": "http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.ACTOR.SYSTEM",
       "version": "2.1.0",
       "category": "Terminology: Value Sets",
@@ -5884,10 +5884,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       },
       "sidecars": {
         "displays": {
@@ -5918,7 +5918,7 @@
       "id": "IPS.HAJJ.CONSENT",
       "name": "IPS_HAJJ_CONSENT",
       "title": "IPS.HAJJ.CONSENT ValueSet of consent policies",
-      "description": "ValueSet of codes for consent policies for Hajj pilgrims",
+      "description": "ValueSet of codes for consent policies for pilgrims",
       "canonical": "http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.CONSENT",
       "version": "2.1.0",
       "category": "Terminology: Value Sets",
@@ -5968,10 +5968,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       },
       "sidecars": {
         "displays": {
@@ -6002,7 +6002,7 @@
       "id": "IPS.HAJJ.TRANSACTION",
       "name": "IPS_HAJJ_TRANSACTION",
       "title": "IPS.HAJJ.TRANSACTION ValueSet of transaction",
-      "description": "ValueSet of codes for transaction for Hajj",
+      "description": "ValueSet of codes for transaction for the pilgrimage",
       "canonical": "http://smart.who.int/ips-pilgrimage/ValueSet/IPS.HAJJ.TRANSACTION",
       "version": "2.1.0",
       "category": "Terminology: Value Sets",
@@ -6052,10 +6052,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       },
       "sidecars": {
         "displays": {
@@ -6136,10 +6136,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       },
       "sidecars": {
         "displays": {
@@ -6220,10 +6220,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       },
       "sidecars": {
         "displays": {
@@ -6304,10 +6304,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "d640328236941983744148f066b29006f7e7710f",
-          "inputDigest": "e45a3d8b5e926c40d051bc6049c2a7c0c3e4f4a969171f350beca3afc35c26a0"
+          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
+          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
         },
-        "materializedAt": "2026-11-11T18:05:29.127918166Z"
+        "materializedAt": "2026-11-12T12:51:42.850291726Z"
       },
       "sidecars": {
         "displays": {
@@ -6336,7 +6336,7 @@
   "package": {
     "url": "https://litlfred.github.io/smart-ips-pilgrimage/package.tgz",
     "localPath": "fhir-artifact-index/package.tgz",
-    "bytes": 239035
+    "bytes": 239016
   },
   "fhirVersion": [
     "4.0.1"

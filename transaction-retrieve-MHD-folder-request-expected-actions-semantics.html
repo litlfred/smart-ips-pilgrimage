@@ -28,10 +28,10 @@
 </ul>
 
 <h5 id="deciding-the-request-the-pilgrims-consents-are-the-policy">Deciding the request: the pilgrim’s consents are the policy</h5>
-<p>For the Hajj there is no separate data sharing agreement to look up. The pilgrim’s two <a href="artifact/StructureDefinition-HajjConsent.html">HajjConsent</a> resources are the policy, and each one binds the party it names:</p>
+<p>For the pilgrimage there is no separate data sharing agreement to look up. The pilgrim’s two <a href="artifact/StructureDefinition-HajjConsent.html">HajjConsent</a> resources are the policy, and each one binds the party it names:</p>
 <ul>
   <li>The <strong>origin-release consent</strong> (for example <code class="language-plaintext highlighter-rouge">CONSENT-MYS</code>, or the fictional <code class="language-plaintext highlighter-rouge">CONSENT-XXK</code> of this guide’s examples) lets the Origin Country HIE release the IPS to the recipient named in <code class="language-plaintext highlighter-rouge">Consent.provision.actor</code> (role <code class="language-plaintext highlighter-rouge">IRCP</code>, information recipient), for the purpose in <code class="language-plaintext highlighter-rouge">Consent.provision.purpose</code> (<code class="language-plaintext highlighter-rouge">TREAT</code>), during <code class="language-plaintext highlighter-rouge">Consent.provision.period</code>. The Origin Country HIE enforces this consent from <strong>its own Consent Registry</strong> (as recorded by the Record Consent transaction, [ITI-108]), not from the copy carried inside the IPS. The IPS copy is signed when the IPS is issued, so it cannot show a later withdrawal.</li>
-  <li>The <strong>host-use consent</strong> (<code class="language-plaintext highlighter-rouge">CONSENT-KSA</code>, or the fictional <code class="language-plaintext highlighter-rouge">CONSENT-XXR</code> of this guide’s examples) governs the Host Country Ministry of Health’s use of the IPS <strong>after it is received</strong>: for treatment during the Hajj and any follow-up care, as its consent text states.</li>
+  <li>The <strong>host-use consent</strong> (<code class="language-plaintext highlighter-rouge">CONSENT-KSA</code>, or the fictional <code class="language-plaintext highlighter-rouge">CONSENT-XXR</code> of this guide’s examples) governs the Host Country Ministry of Health’s use of the IPS <strong>after it is received</strong>: for treatment during the pilgrimage and any follow-up care, as its consent text states.</li>
 </ul>
 
 <p>Which consent a <code class="language-plaintext highlighter-rouge">Consent</code> is, and the consent text the pilgrim was shown, are carried in <code class="language-plaintext highlighter-rouge">Consent.policyRule</code>: a code from the <a href="artifact/CodeSystem-IPS.HAJJ.CONSENT.html">IPS.HAJJ.CONSENT</a> CodeSystem, with <code class="language-plaintext highlighter-rouge">coding.version</code> set to the CodeSystem version.</p>
@@ -48,7 +48,7 @@
   <li>the documents released (the DocumentReferences returned), or the refusal.</li>
 </ul>
 
-<p>This guide uses no separate data sharing agreement for the Hajj, so the consents themselves are the policy the audit event cites. The Host Country EMR, as an ATNA Secure Node or Secure Application, should also audit what it receives.</p>
+<p>This guide uses no separate data sharing agreement for the pilgrimage, so the consents themselves are the policy the audit event cites. The Host Country EMR, as an ATNA Secure Node or Secure Application, should also audit what it receives.</p>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md">Edit this page on GitHub</a></p>
 <script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md", "lines": [{"t":"Deciding the request: the pilgrim's consents are the policy","l":4},{"t":"Audit event","l":13}]}</script>
@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="assets/ig-pages.css">
 <footer id="ig-footer">
 <p class="ig-footer-nav"><a href="#">top</a></p>
-<p class="ig-footer-band">IG © 2023+ <a href="http://who.int" rel="external">WHO</a>. Package <code>smart.who.int.ips-pilgrimage#2.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-11</p>
+<p class="ig-footer-band">IG © 2023+ <a href="http://who.int" rel="external">WHO</a>. Package <code>smart.who.int.ips-pilgrimage#2.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-12</p>
 <p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="qa.html">QA Report</a> | <a href="https://spdx.org/licenses/CC-BY-SA-3.0-IGO.html" rel="external">License</a></p>
 </footer>
 

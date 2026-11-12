@@ -28,7 +28,7 @@
   },
   {
    "id": "Activity_1ha3tyo",
-   "name": "inform patient ineligible for Hajj",
+   "name": "inform patient ineligible for pilgrimage",
    "left": 34.57,
    "top": 15.63,
    "box": {
@@ -194,7 +194,7 @@
   },
   "Activity_1ha3tyo": {
    "id": "Activity_1ha3tyo",
-   "name": "inform patient ineligible for Hajj",
+   "name": "inform patient ineligible for pilgrimage",
    "type": "bpmn:Task",
    "lane": "Human Actor",
    "skills": [

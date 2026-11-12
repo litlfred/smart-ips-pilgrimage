@@ -28,7 +28,7 @@
   },
   {
    "id": "Activity_1gkedet",
-   "name": "inform patient ineligible for Hajj",
+   "name": "inform patient ineligible for pilgrimage",
    "left": 38.17,
    "top": 20.67,
    "box": {
@@ -158,7 +158,7 @@
   },
   "Activity_1gkedet": {
    "id": "Activity_1gkedet",
-   "name": "inform patient ineligible for Hajj",
+   "name": "inform patient ineligible for pilgrimage",
    "type": "bpmn:Task",
    "lane": "Human Actor",
    "skills": [

@@ -28,7 +28,7 @@
   },
   {
    "id": "Activity_0tvtijk",
-   "name": "inform patient ineligible for Hajj",
+   "name": "inform patient ineligible for pilgrimage",
    "left": 29.86,
    "top": 20.67,
    "box": {
@@ -124,7 +124,7 @@
   },
   {
    "id": "Activity_19tvs6z",
-   "name": "fill consent form for sharing IPS during Hajj on wallet",
+   "name": "fill consent form for sharing IPS during the pilgrimage on wallet",
    "left": 80.61,
    "top": 56.11,
    "box": {
@@ -170,7 +170,7 @@
   },
   "Activity_0tvtijk": {
    "id": "Activity_0tvtijk",
-   "name": "inform patient ineligible for Hajj",
+   "name": "inform patient ineligible for pilgrimage",
    "type": "bpmn:Task",
    "lane": "Human Actor",
    "skills": [
@@ -250,7 +250,7 @@
   },
   "Activity_19tvs6z": {
    "id": "Activity_19tvs6z",
-   "name": "fill consent form for sharing IPS during Hajj on wallet",
+   "name": "fill consent form for sharing IPS during the pilgrimage on wallet",
    "type": "bpmn:UserTask",
    "lane": "Human Actor",
    "skills": [

@@ -10,8 +10,8 @@
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/HajjIPSComposition",
   "schema:name": "HajjIPSComposition",
-  "dcterms:title": "Composition (IPS) for Hajj",
-  "dcterms:description": "Clinical document used to represent the International Patient Summary (IPS) data set for Hajj Pilgrimage",
+  "dcterms:title": "Composition (IPS) for Pilgrimage",
+  "dcterms:description": "Clinical document used to represent the International Patient Summary (IPS) data set for Pilgrimage",
   "schema:version": "2.1.0",
   "dcterms:type": "Structures: Resource Profiles",
   "schema:sameAs": {
@@ -31,7 +31,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "d640328236941983744148f066b29006f7e7710f"
+    "prov:used": "90093b139808b060e63cfec94920e46f0a1e8422"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",
