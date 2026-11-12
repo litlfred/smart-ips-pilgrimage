@@ -60,7 +60,7 @@ msgstr "Afficher le contenu de l'IPS"
 
 #: input/pagecontent/test-cases.md:51
 msgid "Unplanned Clinical Encounter at Pilgrimage Health Facility"
-msgstr ""
+msgstr "Consultation clinique non planifiée dans un établissement de santé du pèlerinage"
 
 #~ msgid "Unplanned Clinical Encounter at Hajj Health Facility"
 #~ msgstr "Consultation clinique non planifiée dans un établissement de santé du Hajj"

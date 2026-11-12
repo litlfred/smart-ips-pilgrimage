@@ -108,7 +108,7 @@ msgstr "GDHCN de l'OMS"
 
 #: input/pagecontent/scenarios.md:1
 msgid "The scenarios below, told as one pilgrim's story: <a0>the home page</a0> follows a fictional Onesan pilgrim through every step of the key process flows, with the question each step raises."
-msgstr ""
+msgstr "Les scénarios ci-dessous, racontés comme l'histoire d'un pèlerin : <a0>la page d'accueil</a0> suit un pèlerin fictif d'Onesa à chaque étape des principaux flux de processus, avec la question que soulève chaque étape."
 
 #~ msgid "The scenarios below, told as one pilgrim's story: <a0>The Pilgrim's Journey</a0> follows a fictional Malaysian pilgrim through every step of the key process flows, with the question each step raises."
 #~ msgstr "Les scénarios ci-dessous, racontés comme l'histoire d'un pèlerin : <a0>The Pilgrim's Journey</a0> suit un pèlerin malaisien fictif à chaque étape des principaux flux de processus, avec la question que soulève chaque étape."
