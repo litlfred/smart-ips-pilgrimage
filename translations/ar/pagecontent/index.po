@@ -91,7 +91,7 @@ msgstr "لا يزال دليل التنفيذ هذا ومجموعة مكوّنا
 
 #: input/pagecontent/index.md:12
 msgid "This implementation guide includes a machine-readable representation of WHO guidelines for verifiable IPS during pilgrimage. It explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of IPS during pilgrimage usage scenario.  This Implementation Guide leverages the WHO Global Digital Health Certification Network (GDHCN)."
-msgstr "يتضمن دليل التنفيذ هذا تمثيلًا قابلًا للقراءة آليًا لإرشادات منظمة الصحة العالمية (WHO) بشأن ملخص IPS القابل للتحقق أثناء الحج. ويرمّز صراحةً منطقًا قابلًا للتشغيل البيني حاسوبيًا، بما في ذلك نماذج البيانات والمصطلحات وتعبيرات المنطق، بلغة قابلة للحوسبة لدعم تنفيذ سيناريو استخدام IPS أثناء الحج. ويستفيد دليل التنفيذ هذا من GDHCN ‏(الشبكة العالمية لإصدار الشهادات الصحية الرقمية) التابعة لمنظمة الصحة العالمية."
+msgstr "يتضمن دليل التنفيذ هذا تمثيلًا قابلًا للقراءة آليًا لإرشادات منظمة الصحة العالمية (WHO) بشأن ملخص IPS القابل للتحقق أثناء الزيارة الدينية. ويرمّز صراحةً منطقًا قابلًا للتشغيل البيني حاسوبيًا، بما في ذلك نماذج البيانات والمصطلحات وتعبيرات المنطق، بلغة قابلة للحوسبة لدعم تنفيذ سيناريو استخدام IPS أثناء الزيارة الدينية. ويستفيد دليل التنفيذ هذا من GDHCN ‏(الشبكة العالمية لإصدار الشهادات الصحية الرقمية) التابعة لمنظمة الصحة العالمية."
 
 #: input/pagecontent/index.md:29
 msgid "This implementation guide is broken into the following levels of <a0>knowledge representation</a0>:"
@@ -116,11 +116,11 @@ msgstr "<a0>العامل الصحي في البلد المضيف</a0>"
 
 #: input/pagecontent/index.md:41
 msgid "<a0>Pilgrim</a0>"
-msgstr "<a0>الحاج</a0>"
+msgstr "<a0>الزائر</a0>"
 
 #: input/pagecontent/index.md:41
 msgid "61, from Tanavu, Onesa, going on pilgrimage for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone."
-msgstr ""
+msgstr "61 عامًا، من Tanavu في Onesa، يؤدي الزيارة الدينية لأول مرة. مصاب بداء السكري من النوع 2 وارتفاع ضغط الدم؛ يتناول الإنسولين وقرصين يوميًا؛ لديه حساسية من البنسلين. يحمل هاتفًا واحدًا."
 
 #: input/pagecontent/index.md:74
 msgid "About this implementation guide"
@@ -136,7 +136,7 @@ msgstr "بيان لكيفية إعادة الوصول إلى البلد الأم
 
 #: input/pagecontent/index.md:48
 msgid "And the systems: Kamal's national health wallet (<a0>Origin Country Wallet</a0>), Onesa's health information exchange (<a1>Origin Country HIE</a1>), the facility's EMR (<a2>Host Country EMR</a2>), and WHO GDHCN, the trust network both countries take part in."
-msgstr ""
+msgstr "والأنظمة: المحفظة الصحية الوطنية الخاصة بـ Kamal ‏(<a0>محفظة البلد الأم</a0>)، وتبادل المعلومات الصحية في Onesa ‏(<a1>HIE البلد الأم</a1>)، والسجل الطبي الإلكتروني للمرفق (<a2>EMR البلد المضيف</a2>)، وGDHCN التابعة لمنظمة الصحة العالمية (WHO)، وهي شبكة الثقة التي يشارك فيها البلدان كلاهما."
 
 #: input/pagecontent/index.md:55
 msgid "Business processes for P0 (keys and terminologies), P2 (assembling the IPS) and P6 (break the glass)."
@@ -152,11 +152,11 @@ msgstr "التبعيات"
 
 #: input/pagecontent/index.md:95
 msgid "Disclaimer"
-msgstr ""
+msgstr "إخلاء المسؤولية"
 
 #: input/pagecontent/index.md:44
 msgid "Doctor of the Onesan pilgrimage medical team, travelling with the pilgrims."
-msgstr ""
+msgstr "طبيب في الفريق الطبي للزيارة الدينية من Onesa، يسافر مع الزوار."
 
 #: input/pagecontent/index.md:43
 msgid "Dr Aisyah"
@@ -172,11 +172,11 @@ msgstr "الدكتور Hafiz"
 
 #: input/pagecontent/index.md:35
 msgid "Each numbered flow in the figure names its moment above, and each moment has its own <a0>ArchiMate view</a0>."
-msgstr ""
+msgstr "كل تدفق مرقَّم في الشكل يحمل اسم اللحظة المقابلة له أعلاه، ولكل لحظة <a0>عرض ArchiMate</a0> خاص بها."
 
 #: input/pagecontent/index.md:11
 msgid "Eight moments that matter"
-msgstr ""
+msgstr "ثماني لحظات مهمة"
 
 #: input/pagecontent/index.md:46
 msgid "Emergency physician at the same facility."
@@ -185,15 +185,15 @@ msgstr "طبيب طوارئ في المرفق نفسه."
 #: input/pagecontent/index.md:23
 #, python-brace-format
 msgid "Every person in this story, and both countries, are fictional. Kamal comes from Onesa (code {code0}) and goes on pilgrimage in Taifafeki (code {code1}): two fictional countries shared with the <a0>SMART Trust demo</a0>, whose codes are ISO 3166-1 user-assigned codes, so they never name a real country. The steps follow this guide's real <a1>Malaysian reference implementation</a1>, Malaysia's Hajj Health Card, as a policy precedent."
-msgstr ""
+msgstr "كل شخص في هذه القصة، وكلا البلدين، من نسج الخيال. يأتي Kamal من Onesa (الرمز {code0}) ويؤدي الزيارة الدينية في Taifafeki (الرمز {code1}): وهما بلدان خياليان مشتركان مع <a0>عرض SMART Trust التوضيحي</a0>، ورمزاهما من رموز ISO 3166-1 المخصَّصة للمستخدمين، فلا يشيران أبدًا إلى بلد حقيقي. وتتبع الخطوات <a1>التنفيذ المرجعي الماليزي</a1> الحقيقي لهذا الدليل، أي بطاقة الحج الصحية في ماليزيا، بوصفه سابقةً في السياسات."
 
 #: input/pagecontent/index.md:59
 msgid "Example patients that are pilgrims: today's examples are a resident of the Netherlands."
-msgstr "أمثلة لمرضى من الحجاج: أمثلة اليوم لمقيم في هولندا."
+msgstr "أمثلة لمرضى من الزوار: أمثلة اليوم لمقيم في هولندا."
 
 #: input/pagecontent/index.md:43
 msgid "General practitioner in Tanavu, empanelled by the national pilgrimage authority for pre-pilgrimage health examinations."
-msgstr ""
+msgstr "طبيب عام في Tanavu، معتمَد من الهيئة الوطنية للزيارة الدينية لإجراء الفحوص الصحية السابقة للزيارة الدينية."
 
 #: input/pagecontent/index.md:39
 msgid "Generic persona"
@@ -229,7 +229,7 @@ msgstr "شخص"
 
 #: input/pagecontent/index.md:45
 msgid "Registration nurse at a pilgrimage health facility in Nalemi."
-msgstr ""
+msgstr "ممرضة تسجيل في مرفق صحي للزيارة الدينية في Nalemi."
 
 #: input/pagecontent/index.md:42
 msgid "Salmah"
@@ -241,7 +241,7 @@ msgstr "الملخص"
 
 #: input/pagecontent/index.md:16
 msgid "The <a0>user scenarios</a0> of this guide told as one pilgrim's story, step by step along the <a1>overview of key process flows</a1> (the numbered steps 1–5 and A–B of the figure below). Click a picture to walk through that moment in the <a2>journeys viewer</a2>, which names who takes part, what in this guide specifies it, and the policy question it raises."
-msgstr ""
+msgstr "<a0>سيناريوهات المستخدم</a0> في هذا الدليل مرويّةً بوصفها قصة زائر واحد، خطوةً بخطوة على امتداد <a1>نظرة عامة على تدفقات العمليات الرئيسية</a1> (الخطوات المرقَّمة 1–5 وA–B في الشكل أدناه). انقر على صورة لتتبّع تلك اللحظة في <a2>عارض الرحلات</a2>، الذي يسمّي المشاركين فيها، وما يحدّدها في هذا الدليل، وسؤال السياسات الذي تثيره."
 
 #: input/pagecontent/index.md:60
 msgid "The data dictionary, decision logic, indicators and functional requirements, which are still placeholders."
@@ -253,15 +253,15 @@ msgstr "الأشخاص"
 
 #: input/pagecontent/index.md:96
 msgid "The specification herewith documented is a demo working specification and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency and the official publication supersedes this draft. No liability can be inferred from the use or misuse of this specification or its consequences."
-msgstr ""
+msgstr "المواصفة الموثَّقة هنا مواصفة عمل تجريبية، ولا يجوز استخدامها لأي أغراض تنفيذية. وتُقدَّم هذه المسودة دون أي ضمان لاكتمالها أو اتساقها، ويحل النشر الرسمي محل هذه المسودة. ولا يمكن استنتاج أي مسؤولية من استخدام هذه المواصفة أو إساءة استخدامها أو من عواقب ذلك."
 
 #: input/pagecontent/index.md:56
 msgid "The two pilgrim forms named in P1, and a page for the pilgrim and counsellor actors: their actor files exist but no page includes them."
-msgstr "النموذجان الخاصان بالحاج المذكوران في P1، وصفحة لجهتَي الحاج والمستشار الفاعلتين: ملفاتهما موجودة لكن لا تتضمنها أي صفحة."
+msgstr "النموذجان الخاصان بالزائر المذكوران في P1، وصفحة لجهتَي الزائر والمستشار الفاعلتين: ملفاتهما موجودة لكن لا تتضمنها أي صفحة."
 
 #: input/pagecontent/index.md:3
 msgid "This Implementation Guide is intended to support the utilization of verifiable International Patient Summary (IPS) documents during pilgrimage, leveraging <a0>WHO Global Digital Health Certification Network (GDHCN)</a0> global public health infrastructure."
-msgstr ""
+msgstr "يهدف دليل التنفيذ هذا إلى دعم استخدام وثائق ملخص المريض الدولي (IPS) القابلة للتحقق أثناء الزيارة الدينية، بالاستفادة من البنية التحتية العالمية للصحة العامة <a0>GDHCN ‏(الشبكة العالمية لإصدار الشهادات الصحية الرقمية) التابعة لمنظمة الصحة العالمية (WHO)</a0>."
 
 #: input/pagecontent/index.md:53
 msgid "What the story shows the guide still needs"

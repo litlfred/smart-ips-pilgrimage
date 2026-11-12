@@ -93,7 +93,7 @@ msgstr "مغادرة العيادة"
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:109
 #. Diagram label
 msgid "Pilgrim"
-msgstr "الحاج"
+msgstr "الزائر"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:195
 #. Diagram label
@@ -133,7 +133,7 @@ msgstr "جهة فاعلة نظامية"
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:61
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
-msgstr "المحفظة الصحية الرقمية لبلد منشأ الحاج"
+msgstr "المحفظة الصحية الرقمية لبلد منشأ الزائر"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:16
 #. Diagram element documentation
@@ -163,12 +163,12 @@ msgstr "التحقق من توقيع رمز QR"
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:99
 #. Diagram element documentation
 msgid "Counselor from origin country supporting pilgrim during inital health screening"
-msgstr ""
+msgstr "مرشد من بلد المنشأ يدعم الزائر خلال الفحص الصحي الأولي"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:113
 #. Diagram element documentation
 msgid "The pilgrim"
-msgstr ""
+msgstr "الزائر"
 
 #. Diagram element documentation
 #~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"

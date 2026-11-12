@@ -31,7 +31,7 @@ msgstr "عمليات العمل"
 
 #: input/pagecontent/trust_domain_use_cases.md:1
 msgid "The Trust Domain for IPS Pilgrimage focuses on key business processes that are part of providing care for pilgrims during a pilgrimage."
-msgstr "يركّز نطاق الثقة الخاص بـ IPS للحج على عمليات العمل الرئيسية التي تشكّل جزءًا من تقديم الرعاية للحجاج أثناء رحلة الحج."
+msgstr "يركّز نطاق الثقة الخاص بـ IPS للزيارة الدينية على عمليات العمل الرئيسية التي تشكّل جزءًا من تقديم الرعاية للزوار أثناء الزيارة الدينية."
 
 #: input/pagecontent/trust_domain_use_cases.md:3
 msgid "The User scenarios and key business processes are captured in this specification document at the below links:"

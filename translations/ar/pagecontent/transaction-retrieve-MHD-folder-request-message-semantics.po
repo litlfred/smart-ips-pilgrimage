@@ -60,7 +60,7 @@ msgstr "يجب أن تكون دلالات رسالة طلب استرجاع مس�
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-message-semantics.md:8
 msgid "The message semantics shall follow a modified version of the <a0>ITI-67</a0> Find Document References response message and for a successful queries return a FHIR bundle that includes all documentReference available in the VHL folder for the pilgrim.  The modification of the ITI-67 transaction is that the Origin Country HIE shall respect the _include search parameter with value List:item as the URL generated in the VHL Payload is of  of the format:"
-msgstr "يجب أن تتبع دلالات الرسالة نسخةً معدَّلة من رسالة استجابة Find Document References في <a0>ITI-67</a0>، وأن تُعيد في حالة نجاح الاستعلامات FHIR bundle يتضمن جميع documentReference المتاحة في مجلد VHL الخاص بالحاج. ويتمثل تعديل معاملة ITI-67 في أنه يجب على HIE بلد المنشأ احترام معلمة البحث _include بالقيمة List:item، لأن URL المُنشأ في حمولة VHL يكون بالتنسيق:"
+msgstr "يجب أن تتبع دلالات الرسالة نسخةً معدَّلة من رسالة استجابة Find Document References في <a0>ITI-67</a0>، وأن تُعيد في حالة نجاح الاستعلامات FHIR bundle يتضمن جميع documentReference المتاحة في مجلد VHL الخاص بالزائر. ويتمثل تعديل معاملة ITI-67 في أنه يجب على HIE بلد المنشأ احترام معلمة البحث _include بالقيمة List:item، لأن URL المُنشأ في حمولة VHL يكون بالتنسيق:"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-message-semantics.md:13
 #, python-brace-format

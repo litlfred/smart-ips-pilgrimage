@@ -138,17 +138,17 @@ msgstr "محفظة البلد الأم"
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:102
 #. Diagram label
 msgid "Pilgrim"
-msgstr "الحاج"
+msgstr "الزائر"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:265
 #. Diagram label
 msgid "pilgrim confirmed consent in wallet?"
-msgstr "هل أكّد الحاج الموافقة في المحفظة؟"
+msgstr "هل أكّد الزائر الموافقة في المحفظة؟"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:246
 #. Diagram label
 msgid "pilgrim provided consent to counselor?"
-msgstr "هل قدّم الحاج الموافقة للمستشار؟"
+msgstr "هل قدّم الزائر الموافقة للمستشار؟"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:255
 #. Diagram label
@@ -223,12 +223,12 @@ msgstr "جهة فاعلة نظامية"
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:60
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
-msgstr "المحفظة الصحية الرقمية للبلد الأم للحاج"
+msgstr "المحفظة الصحية الرقمية للبلد الأم للزائر"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:44
 #. Diagram element documentation
 msgid "The pilgrim's origin country's HIE or national system"
-msgstr "HIE البلد الأم للحاج أو نظامه الوطني"
+msgstr "HIE البلد الأم للزائر أو نظامه الوطني"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:16
 #. Diagram element documentation
@@ -253,27 +253,27 @@ msgstr "نعم"
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:127
 #. Diagram element documentation
 msgid "Counselor from origin country supporting pilgrim during inital health screening"
-msgstr ""
+msgstr "مرشد من بلد المنشأ يدعم الزائر خلال الفحص الصحي الأولي"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:169
 #. Diagram label
 msgid "eligible for pilgrimage?"
-msgstr ""
+msgstr "مؤهَّل للزيارة الدينية؟"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:330
 #. Diagram label
 msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
-msgstr ""
+msgstr "ملء نموذج الموافقة على مشاركة IPS خلال الزيارة الدينية في المحفظة"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:174
 #. Diagram label
 msgid "inform patient ineligible for pilgrimage"
-msgstr ""
+msgstr "إبلاغ المريض بعدم أهليته للزيارة الدينية"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:107
 #. Diagram element documentation
 msgid "The pilgrim"
-msgstr ""
+msgstr "الزائر"
 
 #. Diagram element documentation
 #~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
