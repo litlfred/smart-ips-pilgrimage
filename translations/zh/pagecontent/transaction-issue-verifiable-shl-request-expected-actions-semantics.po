@@ -37,7 +37,7 @@ msgstr "构造<a0>SHLink 载荷</a0>"
 
 #: input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md:6
 msgid "Establish a location that points to the document references within the folder for the pilgrim in the following syntax: \"{host}/List?_id={folder_id}&_include=List:item\" where 'folder_id' is a unique ID for the folder of health documents for the pilfrim. This shall be used as the Health Link URL within the VHL Payload"
-msgstr "按以下语法建立一个指向朝觐者文件夹内文档引用的位置：\"{host}/List?_id={folder_id}&_include=List:item\"，其中 'folder_id' 是该朝觐者健康文档文件夹的唯一 ID。它应当（shall）用作 VHL 载荷中的健康链接 URL"
+msgstr "按以下语法建立一个指向朝圣者文件夹内文档引用的位置：\"{host}/List?_id={folder_id}&_include=List:item\"，其中 'folder_id' 是该朝圣者健康文档文件夹的唯一 ID。它应当（shall）用作 VHL 载荷中的健康链接 URL"
 
 #: input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md:15
 msgid "Generate QR code"
@@ -73,4 +73,4 @@ msgstr "以下是<a0>来源国 HIE</a0> 收到隐私配置后的预期操作："
 
 #: input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md:2
 msgid "The Origin Country HIE creates a <a0>Folder</a0> for the pilgrim that includes the pilgrim's"
-msgstr "来源国 HIE 为朝觐者创建一个<a0>文件夹</a0>，其中包括朝觐者的"
+msgstr "来源国 HIE 为朝圣者创建一个<a0>文件夹</a0>，其中包括朝圣者的"

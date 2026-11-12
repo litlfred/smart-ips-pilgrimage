@@ -58,97 +58,97 @@ msgstr "共享密钥和代码"
 #: user-scenarios/p0-keys-and-codes-shared.json:4
 msgctxt "title"
 msgid "P0 · Before the season — keys and codes are shared"
-msgstr "P0 · 朝觐季之前——共享密钥和代码"
+msgstr "P0 · 朝圣季之前——共享密钥和代码"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:5
 msgctxt "country"
 msgid "Onesa"
-msgstr ""
+msgstr "Onesa"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:5
 msgctxt "description"
 msgid "Onesa's HIE publishes the public keys it signs health documents with to the WHO GDHCN trust network, and shares the national code systems its IPS uses with the WHO Terminology Service. Nothing about Kamal yet: this is what lets a Taifafeki clinic trust and read an Onesan record months later. Step A of the overview of key process flows."
-msgstr ""
+msgstr "Onesa 的 HIE 将其用于签名健康文档的公钥发布到世卫组织（WHO）GDHCN 信任网络，并与世卫组织（WHO）术语服务共享其 IPS 所用的国家代码系统。此时尚不涉及 Kamal：正是这一步让 Taifafeki 的诊所在数月后能够信任并读取 Onesa 的记录。这是关键流程概览的步骤 A。"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:29
 msgctxt "scene.label"
 msgid "Onesa's signing keys"
-msgstr ""
+msgstr "Onesa 的签名密钥"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:91
 msgctxt "scene.label"
 msgid "Trusted abroad"
-msgstr ""
+msgstr "在境外获得信任"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:87
 msgctxt "scene.label"
 msgid "WHO GDHCN trust list"
-msgstr ""
+msgstr "世卫组织（WHO）GDHCN 信任列表"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:41
 msgctxt "step.experiences.doing"
 msgid "Lists Onesa's keys alongside those of every other participant, including Taifafeki."
-msgstr ""
+msgstr "将 Onesa 的密钥与包括 Taifafeki 在内的所有其他参与方的密钥一并列出。"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:48
 msgctxt "step.handoff.summary"
 msgid "Onesa's keys and code systems are known to the trust network"
-msgstr ""
+msgstr "信任网络已知晓 Onesa 的密钥和代码系统"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:29
 msgctxt "step.headline"
 msgid "Before anyone travels, Onesa's signing keys and code systems reach the trust network, so a Taifafeki clinic can trust and read an Onesan record months later."
-msgstr ""
+msgstr "在任何人出行之前，Onesa 的签名密钥和代码系统就已进入信任网络，因此 Taifafeki 的诊所在数月后能够信任并读取 Onesa 的记录。"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:5
 msgctxt "step.narrative"
 msgid "Onesa's HIE publishes the public keys it signs health documents with to the WHO GDHCN trust network, and shares the national code systems its IPS uses with the WHO Terminology Service. Nothing about Kamal yet: this is what lets a Taifafeki clinic trust and read an Onesan record months later. Step A of the overview of key process flows."
-msgstr ""
+msgstr "Onesa 的 HIE 将其用于签名健康文档的公钥发布到世卫组织（WHO）GDHCN 信任网络，并与世卫组织（WHO）术语服务共享其 IPS 所用的国家代码系统。此时尚不涉及 Kamal：正是这一步让 Taifafeki 的诊所在数月后能够信任并读取 Onesa 的记录。这是关键流程概览的步骤 A。"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:44
 msgctxt "step.painPoint"
 msgid "Without published keys, a Taifafeki clinic has no way to tell a genuine Onesan record from a forged one."
-msgstr ""
+msgstr "没有已发布的密钥，Taifafeki 的诊所就无法区分真实的 Onesa 记录和伪造的记录。"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:46
 msgctxt "step.policy"
 msgid "Which Onesan institution signs health documents on behalf of the health sector, and who in Taifafeki decides to accept that signature?"
-msgstr ""
+msgstr "由哪个 Onesa 机构代表卫生部门签名健康文档？在 Taifafeki 又由谁决定接受该签名？"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:75
 msgctxt "step.record.description"
 msgid "Kamal's record stays in Onesa's HIE; only keys and code systems are shared"
-msgstr ""
+msgstr "Kamal 的记录保留在 Onesa 的 HIE 中；只共享密钥和代码系统"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:5
 msgctxt "step.record.heldWhere"
 msgid "Onesa's HIE"
-msgstr ""
+msgstr "Onesa 的 HIE"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:11
 msgctxt "step.when"
 msgid "Before the pilgrimage season"
-msgstr ""
+msgstr "朝圣季之前"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:12
 msgctxt "step.where"
 msgid "Lomaru and WHO GDHCN"
-msgstr ""
+msgstr "Lomaru 和世卫组织（WHO）GDHCN"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:11
 msgctxt "when"
 msgid "Before the pilgrimage season"
-msgstr ""
+msgstr "朝圣季之前"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:12
 msgctxt "where"
 msgid "Lomaru and WHO GDHCN"
-msgstr ""
+msgstr "Lomaru 和世卫组织（WHO）GDHCN"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:70
 msgctxt "step.illustration.alt"
 msgid "Two cards far apart, the flag of Onesa (home country) and the flag of Taifafeki (host country), each with a health cross; a golden key travels from Onesa to a blue globe of linked dots between them, and code books to the Taifafeki side."
-msgstr ""
+msgstr "相隔很远的两张卡片，分别是 Onesa（本国）的国旗和 Taifafeki（东道国）的国旗，各带一个健康十字；一把金色钥匙从 Onesa 飞向两者之间一个由相连圆点构成的蓝色地球，代码手册则飞向 Taifafeki 一侧。"
 
 #~ msgctxt "country"
 #~ msgid "Malaysia"

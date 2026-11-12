@@ -61,7 +61,7 @@ msgstr "查看 IPS 内容"
 
 #: input/pagecontent/test-cases.md:51
 msgid "Unplanned Clinical Encounter at Pilgrimage Health Facility"
-msgstr ""
+msgstr "在朝圣医疗卫生机构的非计划临床就诊"
 
 #~ msgid "Unplanned Clinical Encounter at Hajj Health Facility"
 #~ msgstr "在朝觐（Hajj）医疗卫生机构的非计划临床就诊"

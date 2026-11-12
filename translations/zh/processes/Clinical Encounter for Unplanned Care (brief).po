@@ -83,7 +83,7 @@ msgstr "离开诊所"
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:109
 #. Diagram label
 msgid "Pilgrim"
-msgstr "朝觐者"
+msgstr "朝圣者"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:195
 #. Diagram label
@@ -123,7 +123,7 @@ msgstr "系统参与者"
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:61
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
-msgstr "朝觐者来源国的数字健康钱包"
+msgstr "朝圣者来源国的数字健康钱包"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:16
 #. Diagram element documentation
@@ -153,12 +153,12 @@ msgstr "验证 QR 码签名"
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:99
 #. Diagram element documentation
 msgid "Counselor from origin country supporting pilgrim during inital health screening"
-msgstr ""
+msgstr "来源国咨询师，在初次健康筛查期间为朝圣者提供支持"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:113
 #. Diagram element documentation
 msgid "The pilgrim"
-msgstr ""
+msgstr "朝圣者"
 
 #. Diagram element documentation
 #~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"

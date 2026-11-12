@@ -25,7 +25,7 @@ msgstr "建立安全连接"
 
 #: input/pagecontent/sequence-diagrams.md:11
 msgid "Overall Sequence Diagram for Religious Pilgrimage and IPS"
-msgstr "宗教朝觐与 IPS 的总体时序图"
+msgstr "宗教朝圣与 IPS 的总体时序图"
 
 #: input/pagecontent/sequence-diagrams.md:17
 msgid "Routine Synchronization"
@@ -37,7 +37,7 @@ msgstr "本页包含时序图，描述本实施指南中所述参与者与参与
 
 #: input/pagecontent/sequence-diagrams.md:29
 msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between the Host and Origin countries"
-msgstr ""
+msgstr "东道国与来源国之间就“非计划诊疗的临床接诊”商定的 IPS 工作流"
 
 #~ msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between KSA and Origin countries"
 #~ msgstr "KSA 与来源国之间就“非计划诊疗的临床接诊”商定的 IPS 工作流"
