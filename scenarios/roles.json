@@ -5,7 +5,7 @@
     {
       "id": "pilgrim",
       "title": "Pilgrim",
-      "description": "The person performing Hajj who holds the health wallet and decides who may see their patient summary.",
+      "description": "The person making the pilgrimage who holds the health wallet and decides who may see their patient summary.",
       "actorKinds": [
         "person"
       ],
@@ -29,7 +29,7 @@
     {
       "id": "counsellor",
       "title": "Counsellor",
-      "description": "The empanelled clinician at home who does the pre-Hajj health examination and counsels the pilgrim on consent and the wallet.",
+      "description": "The empanelled clinician at home who does the pre-pilgrimage health examination and counsels the pilgrim on consent and the wallet.",
       "actorKinds": [
         "person"
       ],
@@ -45,7 +45,7 @@
     {
       "id": "accompanying-clinician",
       "title": "Accompanying clinician from origin country",
-      "description": "A doctor of the home country's Hajj medical team, travelling with the pilgrims.",
+      "description": "A doctor of the home country's pilgrimage medical team, travelling with the pilgrims.",
       "actorKinds": [
         "person"
       ],

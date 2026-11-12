@@ -30,11 +30,6 @@ msgstr "到达东道国诊所"
 msgid "Clinical Encounter for Unplanned Care (brief)"
 msgstr "非计划诊疗的临床就诊（简版）"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:96
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "在初步健康筛查期间为朝觐（Hajj）朝觐者提供支持的来源国咨询师"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:180
 #. Diagram label
 msgid "display health document"
@@ -125,11 +120,6 @@ msgstr "开始"
 msgid "System Actor"
 msgstr "系统参与者"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:110
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "朝觐（Hajj）朝觐者"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:61
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -159,3 +149,21 @@ msgstr "验证健康文档（IPS）签名"
 #. Diagram label
 msgid "verify QR code signature"
 msgstr "验证 QR 码签名"
+
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:99
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr ""
+
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:113
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr ""
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "在初步健康筛查期间为朝觐（Hajj）朝觐者提供支持的来源国咨询师"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "朝觐（Hajj）朝觐者"

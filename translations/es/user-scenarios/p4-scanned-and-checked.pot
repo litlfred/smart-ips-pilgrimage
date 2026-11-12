@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: p4-scanned-and-checked\n"
-"POT-Creation-Date: 2026-11-10T20:12:07.196Z\n"
+"POT-Creation-Date: 2026-11-12T11:57:11.966Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -86,7 +86,7 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:104
 msgctxt "step.gaps"
-msgid "Not yet consistent: the concepts page says the default passcode is the pilgrim's birth date; the Malaysian implementation sets one standard passcode for all its pilgrims for the season."
+msgid "Not yet consistent: the concepts page says the default passcode is the pilgrim's birth date; the reference implementation sets one standard passcode for all its pilgrims for the season."
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:105
@@ -151,7 +151,7 @@ msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:114
 msgctxt "step.references.label"
-msgid "Malaysian reference implementation: the receiving steps"
+msgid "Reference implementation: the receiving steps"
 msgstr ""
 
 #: user-scenarios/p4-scanned-and-checked.json:4

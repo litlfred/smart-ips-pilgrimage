@@ -30,11 +30,6 @@ msgstr "Сканер штрихкодов"
 msgid "Clinical Encounter for Unplanned Care"
 msgstr "Клинический приём при незапланированной медицинской помощи"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care.bpmn:127
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "Консультант из страны происхождения, оказывающий поддержку паломнику, совершающему хадж, во время первичного медицинского скрининга"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care.bpmn:173
 #. Diagram label
 msgid "display health document"
@@ -155,11 +150,6 @@ msgstr "Начало"
 msgid "System Actor"
 msgstr "Системный актор"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care.bpmn:111
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "Паломник, совершающий хадж"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care.bpmn:65
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -194,3 +184,21 @@ msgstr "проверить подпись медицинского докуме�
 #. Diagram label
 msgid "verify QR code signature"
 msgstr "проверить подпись QR-кода"
+
+#: input/business-processes/Clinical Encounter for Unplanned Care.bpmn:132
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr ""
+
+#: input/business-processes/Clinical Encounter for Unplanned Care.bpmn:116
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr ""
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "Консультант из страны происхождения, оказывающий поддержку паломнику, совершающему хадж, во время первичного медицинского скрининга"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "Паломник, совершающий хадж"

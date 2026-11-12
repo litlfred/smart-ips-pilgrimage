@@ -25,10 +25,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 
-#: input/pagecontent/sequence-diagrams.md:29
-msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between KSA and Origin countries"
-msgstr "سير عمل IPS المتفق عليه لـ «اللقاء السريري للرعاية غير المخطط لها» بين KSA وبلدان المنشأ"
-
 #: input/pagecontent/sequence-diagrams.md:22
 msgid "Health Assessment, Consent Counselling,  and Issuance of Smart Health Link"
 msgstr "التقييم الصحي، والإرشاد بشأن الموافقة، وإصدار رابط صحي ذكي"
@@ -48,3 +44,10 @@ msgstr "المزامنة الروتينية"
 #: input/pagecontent/sequence-diagrams.md:1
 msgid "This page includes sequence diagrams that describe interactions between actors and participants described in this Implementation Guide."
 msgstr "تتضمن هذه الصفحة مخططات تسلسل تصف التفاعلات بين الجهات الفاعلة والمشاركين الموصوفين في دليل التنفيذ هذا."
+
+#: input/pagecontent/sequence-diagrams.md:29
+msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between the Host and Origin countries"
+msgstr ""
+
+#~ msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between KSA and Origin countries"
+#~ msgstr "سير عمل IPS المتفق عليه لـ «اللقاء السريري للرعاية غير المخطط لها» بين KSA وبلدان المنشأ"
