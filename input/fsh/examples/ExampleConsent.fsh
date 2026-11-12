@@ -1,4 +1,4 @@
-// Two Hajj consents of one fictional pilgrim (Martha, the subject of ExampleComposition).
+// Two pilgrimage consents of one fictional pilgrim (Martha, the subject of ExampleComposition).
 // All organization names, identifiers and URLs are fictional examples: the origin
 // country is Onesa (XXK) and the host is Taifafeki (XXR), the fictional countries
 // shared with smart-trust-demo. Their consent codes CONSENT-XXK and CONSENT-XXR are
@@ -35,8 +35,8 @@ Usage: #example
 
 Instance: ExampleConsent
 InstanceOf: HajjConsent
-Title: "Hajj consent: the origin country may release the IPS (CONSENT-XXK)"
-Description: "The first of the pilgrim's two Hajj consents. The pilgrim lets the origin country HIE release the IPS to the host Ministry of Health, as information recipient, for treatment, during the Hajj period. The origin HIE enforces this consent from its own Consent Registry."
+Title: "Pilgrimage consent: the origin country may release the IPS (CONSENT-XXK)"
+Description: "The first of the pilgrim's two pilgrimage consents. The pilgrim lets the origin country HIE release the IPS to the host Ministry of Health, as information recipient, for treatment, during the pilgrimage period. The origin HIE enforces this consent from its own Consent Registry."
 Usage: #example
 * id = "c7781f44-6df8-4a8b-9e06-0b34263a47c6"
 * status = #active
@@ -62,8 +62,8 @@ Usage: #example
 
 Instance: ExampleConsentXXR
 InstanceOf: HajjConsent
-Title: "Hajj consent: the host Ministry of Health may use the IPS (CONSENT-XXR)"
-Description: "The second of the pilgrim's two Hajj consents. The pilgrim lets the host Ministry of Health use the IPS, for treatment, during the Hajj period and any follow-up care. This consent governs the host's use of the IPS after it is received."
+Title: "Pilgrimage consent: the host Ministry of Health may use the IPS (CONSENT-XXR)"
+Description: "The second of the pilgrim's two pilgrimage consents. The pilgrim lets the host Ministry of Health use the IPS, for treatment, during the pilgrimage period and any follow-up care. This consent governs the host's use of the IPS after it is received."
 Usage: #example
 * id = "6ba64cfe-b224-4d40-87bf-4d8122e65e62"
 * status = #active

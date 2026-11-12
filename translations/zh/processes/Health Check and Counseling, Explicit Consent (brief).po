@@ -40,11 +40,6 @@ msgstr "就同意和数字健康钱包向患者提供咨询"
 msgid "Counselor"
 msgstr "咨询师"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:116
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "在初次健康筛查期间为朝觐（Hajj）朝觐者提供支持的来源国咨询师"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:229
 #. Diagram label
 msgid "display consent form"
@@ -70,11 +65,6 @@ msgstr "记录健康检查以及 SHL 同意和签发流程"
 msgid "End"
 msgstr "结束"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:215
-#. Diagram label
-msgid "fill consent form for sharing IPS during Hajj on wallet"
-msgstr "在钱包上填写朝觐（Hajj）期间共享 IPS 的同意表"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:15
 #. Diagram label
 msgid "Health Check and Counseling, Explicit Consent (brief)"
@@ -94,11 +84,6 @@ msgstr "健康检查和 SHL 签发，钱包同意"
 #. Diagram label
 msgid "Human Actor"
 msgstr "人类参与者"
-
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:163
-#. Diagram label
-msgid "inform patient ineligible for Hajj"
-msgstr "告知患者不符合朝觐（Hajj）资格"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:167
 #. Diagram label
@@ -155,11 +140,6 @@ msgstr "开始"
 msgid "System Actor"
 msgstr "系统参与者"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:97
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "朝觐（Hajj）朝觐者"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:59
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -179,3 +159,39 @@ msgstr "这是整体业务流程的文档——流程文档"
 #. Diagram label
 msgid "yes"
 msgstr "是"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:119
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr ""
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:218
+#. Diagram label
+msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
+msgstr ""
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:166
+#. Diagram label
+msgid "inform patient ineligible for pilgrimage"
+msgstr ""
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:100
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr ""
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "在初次健康筛查期间为朝觐（Hajj）朝觐者提供支持的来源国咨询师"
+
+#. Diagram label
+#~ msgid "fill consent form for sharing IPS during Hajj on wallet"
+#~ msgstr "在钱包上填写朝觐（Hajj）期间共享 IPS 的同意表"
+
+#. Diagram label
+#~ msgid "inform patient ineligible for Hajj"
+#~ msgstr "告知患者不符合朝觐（Hajj）资格"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "朝觐（Hajj）朝觐者"

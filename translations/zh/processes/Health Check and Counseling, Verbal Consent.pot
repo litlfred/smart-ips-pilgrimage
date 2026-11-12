@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Health Check and Counseling, Verbal Consent\n"
-"POT-Creation-Date: 2026-11-07T08:55:16.804Z\n"
+"POT-Creation-Date: 2026-11-12T11:49:49.536Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:132
 #. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
 msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:209
@@ -96,7 +96,7 @@ msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:179
 #. Diagram label
-msgid "inform patient ineligible for Hajj"
+msgid "inform patient ineligible for pilgrimage"
 msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:290
@@ -171,7 +171,7 @@ msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:114
 #. Diagram element documentation
-msgid "The Hajj pilgrim"
+msgid "The pilgrim"
 msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:78

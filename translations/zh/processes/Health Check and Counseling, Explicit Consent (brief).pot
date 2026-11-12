@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Health Check and Counseling, Explicit Consent (brief)\n"
-"POT-Creation-Date: 2026-11-07T08:55:16.798Z\n"
+"POT-Creation-Date: 2026-11-12T11:49:49.532Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:119
 #. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
 msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:232
@@ -71,7 +71,7 @@ msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:218
 #. Diagram label
-msgid "fill consent form for sharing IPS during Hajj on wallet"
+msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
 msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:18
@@ -96,7 +96,7 @@ msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:166
 #. Diagram label
-msgid "inform patient ineligible for Hajj"
+msgid "inform patient ineligible for pilgrimage"
 msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:170
@@ -156,7 +156,7 @@ msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:100
 #. Diagram element documentation
-msgid "The Hajj pilgrim"
+msgid "The pilgrim"
 msgstr ""
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:62

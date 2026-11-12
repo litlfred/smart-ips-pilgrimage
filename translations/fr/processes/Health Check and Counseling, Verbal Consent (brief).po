@@ -39,11 +39,6 @@ msgstr "Conseiller le patient sur le consentement et le portefeuille de santé n
 msgid "Counselor"
 msgstr "Conseiller"
 
-#: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:74
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "Conseiller du pays d’origine accompagnant le pèlerin du Hajj lors du dépistage sanitaire initial"
-
 #: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:208
 #. Diagram label
 msgid "display SHL"
@@ -83,11 +78,6 @@ msgstr "Bilan de santé et émission du SHL, consentement dans le portefeuille"
 #. Diagram label
 msgid "Human Actor"
 msgstr "Acteur humain"
-
-#: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:159
-#. Diagram label
-msgid "inform patient ineligible for Hajj"
-msgstr "informer le patient qu’il n’est pas admissible au Hajj"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:234
 #. Diagram label
@@ -154,11 +144,6 @@ msgstr "Début"
 msgid "System Actor"
 msgstr "Acteur système"
 
-#: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:90
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "Le pèlerin du Hajj"
-
 #: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:115
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -178,3 +163,30 @@ msgstr "Documentation du processus métier global - documentation du processus"
 #. Diagram label
 msgid "yes"
 msgstr "oui"
+
+#: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:77
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr ""
+
+#: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:162
+#. Diagram label
+msgid "inform patient ineligible for pilgrimage"
+msgstr ""
+
+#: input/business-processes/Health Check and Counseling, Verbal Consent (brief).bpmn:93
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr ""
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "Conseiller du pays d’origine accompagnant le pèlerin du Hajj lors du dépistage sanitaire initial"
+
+#. Diagram label
+#~ msgid "inform patient ineligible for Hajj"
+#~ msgstr "informer le patient qu’il n’est pas admissible au Hajj"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "Le pèlerin du Hajj"

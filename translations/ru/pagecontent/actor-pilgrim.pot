@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-06T09:51:52.161Z\n"
+"POT-Creation-Date: 2026-11-12T11:49:49.496Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -15,5 +15,5 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: input/pagecontent/actor-pilgrim.md:1
-msgid "Type Description Transactions participated in as source Transactions participated in as target Questionnaire participated in    Person Person undergoing a pilgrimage to a pilgrimage host country.  During an unplanned care encounter they would provide explicit consent to access a patient summary information to a Host Country Health Worker.  configure VHL privacy settings on wallet (shl-configure-privacy-settings) fill consent form for sharing IPS during Hajj on wallet (consent-wallet-questionnaire)"
+msgid "Type Description Transactions participated in as source Transactions participated in as target Questionnaire participated in    Person Person undergoing a pilgrimage to a pilgrimage host country.  During an unplanned care encounter they would provide explicit consent to access a patient summary information to a Host Country Health Worker.  configure VHL privacy settings on wallet (shl-configure-privacy-settings) fill consent form for sharing IPS during the pilgrimage on wallet (consent-wallet-questionnaire)"
 msgstr ""

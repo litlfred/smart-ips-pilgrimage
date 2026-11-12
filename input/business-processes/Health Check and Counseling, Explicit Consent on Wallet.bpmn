@@ -104,7 +104,7 @@
         <bpmn:flowNodeRef>consent-wallet-questionnaire</bpmn:flowNodeRef>
         <bpmn:childLaneSet id="LaneSet_0c6j9ft">
           <bpmn:lane id="Lane_pilgrim" partitionElementRef="pilgrim" name="Pilgrim">
-            <bpmn:documentation>The Hajj pilgrim</bpmn:documentation>
+            <bpmn:documentation>The pilgrim</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -124,7 +124,7 @@
             <bpmn:flowNodeRef>consent-wallet-questionnaire</bpmn:flowNodeRef>
           </bpmn:lane>
           <bpmn:lane id="counselor" partitionElementRef="counsellor" name="Counselor">
-            <bpmn:documentation>Counselor from origin country supporting Hajj pilgrim during inital health screening</bpmn:documentation>
+            <bpmn:documentation>Counselor from origin country supporting pilgrim during inital health screening</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -166,12 +166,12 @@
     <bpmn:startEvent id="start" name="Start">
       <bpmn:outgoing>Flow_19ry657</bpmn:outgoing>
     </bpmn:startEvent>
-    <bpmn:exclusiveGateway id="Gateway_0xwr9el" name="eligible for Hajj?">
+    <bpmn:exclusiveGateway id="Gateway_0xwr9el" name="eligible for pilgrimage?">
       <bpmn:incoming>Flow_0ztm52d</bpmn:incoming>
       <bpmn:outgoing>Flow_1fxg1pw</bpmn:outgoing>
       <bpmn:outgoing>Flow_1b64o6u</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_0gm5pkg" name="inform patient ineligible for Hajj"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
+    <bpmn:task id="Activity_0gm5pkg" name="inform patient ineligible for pilgrimage"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_1b64o6u</bpmn:incoming>
       <bpmn:outgoing>Flow_0bl66dk</bpmn:outgoing>
     </bpmn:task>
@@ -327,7 +327,7 @@
       <bpmn:incoming>Flow_05vjpyw</bpmn:incoming>
       <bpmn:outgoing>Flow_0le30id</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:userTask id="consent-wallet-questionnaire" name="fill consent form for sharing IPS during Hajj on wallet">
+    <bpmn:userTask id="consent-wallet-questionnaire" name="fill consent form for sharing IPS during the pilgrimage on wallet">
       <bpmn:extensionElements><bootstrap.processes:skill ref="holder-consent-to-share" />
         <zeebe:formDefinition formKey="consent-wallet-questionnaire" />
         <zeebe:properties>
