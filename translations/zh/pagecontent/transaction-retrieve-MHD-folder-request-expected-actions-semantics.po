@@ -21,7 +21,7 @@ msgstr "审计事件"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:4
 msgid "Deciding the request: the pilgrim's consents are the policy"
-msgstr "对请求作出决定：朝觐者的同意即为策略"
+msgstr "对请求作出决定：朝圣者的同意即为策略"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:16
 #, python-brace-format
@@ -65,26 +65,26 @@ msgstr "某个 {code0} 是哪一项同意，以及向朝觐者展示的同意文
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:5
 msgid "For the pilgrimage there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
-msgstr ""
+msgstr "朝圣没有需要另行查找的数据共享协议。朝圣者的两条 <a0>HajjConsent</a0> 资源即为策略，每一条都约束其所指名的一方："
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:15
 #, python-brace-format
 msgid "the governing policy: the pilgrim's consents, each by its {code0} code and CodeSystem version (for example {code1} and {code2} in this guide's examples, version 2.1.0);"
-msgstr ""
+msgstr "适用的策略：朝圣者的各项同意，每项以其 {code0} 代码和 CodeSystem 版本标识（例如本指南示例中的 {code1} 和 {code2}，版本 2.1.0）；"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:7
 #, python-brace-format
 msgid "The host-use consent ({code0}, or the fictional {code1} of this guide's examples) governs the Host Country Ministry of Health's use of the IPS after it is received: for treatment during the pilgrimage and any follow-up care, as its consent text states."
-msgstr ""
+msgstr "东道国使用同意（{code0}，或本指南示例中虚构的 {code1}）约束东道国卫生部在收到 IPS 后对其的使用：如其同意文本所述，用于朝圣期间的治疗及任何后续照护。"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:6
 #, python-brace-format
 msgid "The origin-release consent (for example {code0}, or the fictional {code1} of this guide's examples) lets the Origin Country HIE release the IPS to the recipient named in {code2} (role {code3}, information recipient), for the purpose in {code4} ({code5}), during {code6}. The Origin Country HIE enforces this consent from its own Consent Registry (as recorded by the Record Consent transaction, [ITI-108]), not from the copy carried inside the IPS. The IPS copy is signed when the IPS is issued, so it cannot show a later withdrawal."
-msgstr ""
+msgstr "来源方释放同意（例如 {code0}，或本指南示例中虚构的 {code1}）允许来源国 HIE 将 IPS 释放给 {code2} 中指名的接收方（角色 {code3}，信息接收方），用于 {code4} 中的目的（{code5}），期限为 {code6}。来源国 HIE 依据其自身同意登记系统（Consent Registry）中的记录（由记录同意事务 [ITI-108] 记录）执行该同意，而非依据 IPS 中携带的副本。IPS 中的副本在签发 IPS 时签名，因此无法反映之后的撤回。"
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:21
 msgid "This guide uses no separate data sharing agreement for the pilgrimage, so the consents themselves are the policy the audit event cites. The Host Country EMR, as an ATNA Secure Node or Secure Application, should also audit what it receives."
-msgstr ""
+msgstr "本指南不为朝圣使用单独的数据共享协议，因此审计事件所引用的策略就是这些同意本身。东道国 EMR 作为 ATNA 安全节点或安全应用，也宜对其接收的内容进行审计。"
 
 #~ msgid "For the Hajj there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
 #~ msgstr "朝觐（Hajj）没有需要另行查找的数据共享协议。朝觐者的两条 <a0>HajjConsent</a0> 资源即为策略，每一条都约束其所指名的一方："

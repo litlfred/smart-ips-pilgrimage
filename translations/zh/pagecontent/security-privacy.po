@@ -17,4 +17,4 @@ msgstr ""
 
 #: input/pagecontent/security-privacy.md:1
 msgid "This page will contain security and privacy considerations related to SMART IPS for Pilgrimage."
-msgstr "本页将包含与朝觐 SMART IPS（SMART IPS for Pilgrimage）相关的安全和隐私考虑。"
+msgstr "本页将包含与朝圣 SMART IPS（SMART IPS for Pilgrimage）相关的安全和隐私考虑。"

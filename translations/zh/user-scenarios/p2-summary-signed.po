@@ -73,7 +73,7 @@ msgstr "没有已签名的摘要，境外诊所只能依靠 Kamal 能记得和�
 #: user-scenarios/p2-summary-signed.json:59
 msgctxt "step.policy"
 msgid "What must the summary contain for a pilgrim — and who decides what is left out?"
-msgstr "朝觐者的摘要必须包含哪些内容——又由谁决定省略哪些内容？"
+msgstr "朝圣者的摘要必须包含哪些内容——又由谁决定省略哪些内容？"
 
 #: user-scenarios/p2-summary-signed.json:88
 msgctxt "step.references.label"
@@ -108,62 +108,62 @@ msgstr "出发前"
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "country"
 msgid "Onesa"
-msgstr ""
+msgstr "Onesa"
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "description"
 msgid "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows."
-msgstr ""
+msgstr "Onesa 的 HIE 根据 Kamal 的照护史汇编其国际患者摘要：他的疾病、药物和过敏情况。它为其签发一个可验证健康链接（Verifiable Health Link），用在 GDHCN 注册的密钥对其签名，并将 QR 码放入他的钱包。这是关键流程概览的步骤 2。"
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "scene.label"
 msgid "Onesa's HIE"
-msgstr ""
+msgstr "Onesa 的 HIE"
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "scene.label"
 msgid "QR code in his wallet"
-msgstr ""
+msgstr "他钱包中的 QR 码"
 
 #: user-scenarios/p2-summary-signed.json:118
 msgctxt "scene.label"
 msgid "Signed summary"
-msgstr ""
+msgstr "已签名的摘要"
 
 #: user-scenarios/p2-summary-signed.json:36
 msgctxt "step.headline"
 msgid "Onesa's HIE turns Kamal's care history into a signed patient summary and puts the link to it in his wallet as a QR code."
-msgstr ""
+msgstr "Onesa 的 HIE 将 Kamal 的照护史转化为已签名的患者摘要，并将指向它的链接以 QR 码形式放入他的钱包。"
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "step.narrative"
 msgid "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows."
-msgstr ""
+msgstr "Onesa 的 HIE 根据 Kamal 的照护史汇编其国际患者摘要：他的疾病、药物和过敏情况。它为其签发一个可验证健康链接（Verifiable Health Link），用在 GDHCN 注册的密钥对其签名，并将 QR 码放入他的钱包。这是关键流程概览的步骤 2。"
 
 #: user-scenarios/p2-summary-signed.json:106
 msgctxt "step.record.description"
 msgid "His IPS is signed and its QR code is in his wallet"
-msgstr ""
+msgstr "他的 IPS 已签名，其 QR 码已在他的钱包中"
 
 #: user-scenarios/p2-summary-signed.json:107
 msgctxt "step.record.heldWhere"
 msgid "Kamal's wallet (QR code); Onesa's HIE"
-msgstr ""
+msgstr "Kamal 的钱包（QR 码）；Onesa 的 HIE"
 
 #: user-scenarios/p2-summary-signed.json:14
 msgctxt "step.where"
 msgid "Onesa's HIE; Kamal's home"
-msgstr ""
+msgstr "Onesa 的 HIE；Kamal 的家"
 
 #: user-scenarios/p2-summary-signed.json:14
 msgctxt "where"
 msgid "Onesa's HIE; Kamal's home"
-msgstr ""
+msgstr "Onesa 的 HIE；Kamal 的家"
 
 #: user-scenarios/p2-summary-signed.json:94
 msgctxt "step.references.label"
 msgid "Profile HajjIPS and the example My IPS; the folder example My Pilgrimage Minimal Folder"
-msgstr ""
+msgstr "Profile HajjIPS 和示例 My IPS；文件夹示例 My Pilgrimage Minimal Folder"
 
 #~ msgctxt "country"
 #~ msgid "Malaysia"

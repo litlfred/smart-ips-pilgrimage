@@ -21,7 +21,7 @@ msgstr "业务流程"
 
 #: input/pagecontent/trust_domain_use_cases.md:1
 msgid "The Trust Domain for IPS Pilgrimage focuses on key business processes that are part of providing care for pilgrims during a pilgrimage."
-msgstr "朝觐 IPS 信任域聚焦于在朝觐期间为朝觐者提供医疗服务所涉及的关键业务流程。"
+msgstr "朝圣 IPS 信任域聚焦于在朝圣期间为朝圣者提供医疗服务所涉及的关键业务流程。"
 
 #: input/pagecontent/trust_domain_use_cases.md:3
 msgid "The User scenarios and key business processes are captured in this specification document at the below links:"

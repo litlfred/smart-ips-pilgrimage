@@ -123,12 +123,12 @@ msgstr "来源国钱包"
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:109
 #. Diagram label
 msgid "Pilgrim"
-msgstr "朝觐者"
+msgstr "朝圣者"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:186
 #. Diagram label
 msgid "pilgrim provided consent to counselor?"
-msgstr "朝觐者是否已向咨询师表示同意？"
+msgstr "朝圣者是否已向咨询师表示同意？"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:237
 #. Diagram label
@@ -163,12 +163,12 @@ msgstr "系统参与者"
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:74
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
-msgstr "朝觐者来源国的数字健康钱包"
+msgstr "朝圣者来源国的数字健康钱包"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:61
 #. Diagram element documentation
 msgid "The pilgrim's origin country's HIE or national system"
-msgstr "朝觐者来源国的 HIE 或国家系统"
+msgstr "朝圣者来源国的 HIE 或国家系统"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:16
 #. Diagram element documentation
@@ -188,17 +188,17 @@ msgstr "是"
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:132
 #. Diagram element documentation
 msgid "Counselor from origin country supporting pilgrim during inital health screening"
-msgstr ""
+msgstr "来源国咨询师，在初次健康筛查期间为朝圣者提供支持"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:179
 #. Diagram label
 msgid "inform patient ineligible for pilgrimage"
-msgstr ""
+msgstr "告知患者不符合朝圣条件"
 
 #: input/business-processes/Health Check and Counseling, Verbal Consent.bpmn:114
 #. Diagram element documentation
 msgid "The pilgrim"
-msgstr ""
+msgstr "朝圣者"
 
 #. Diagram element documentation
 #~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
