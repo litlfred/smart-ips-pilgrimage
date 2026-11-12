@@ -1,6 +1,6 @@
 {
   "$schema": "translation-node/v1",
-  "$comment": "Spanish translation of input/pagecontent/index.md. Agent translation, unofficial: no human has adjudicated it. Coverage 28/28.",
+  "$comment": "Spanish translation of input/pagecontent/index.md. Agent translation, unofficial: no human has adjudicated it. Coverage 49/62.",
   "label": "trans:es/pagecontent/index",
   "locale": "es",
   "sourceFile": "input/pagecontent/index.md",
@@ -18,8 +18,8 @@
     "generator": "agent translation (smart-ips-pilgrimage es session)"
   },
   "coverage": {
-    "translated": 28,
-    "total": 28,
-    "pct": 100
+    "translated": 49,
+    "total": 62,
+    "pct": 79
   }
 }

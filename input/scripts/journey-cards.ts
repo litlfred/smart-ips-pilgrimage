@@ -6,11 +6,10 @@
  * As smart-trust-demo lays out its "Four moments that matter": each card has
  * the moment's illustration (input/images/pilgrim/pN.webp), its title, when
  * and where, its headline (the scenario's first step), and links to walk
- * through it in the journeys viewer, to read it in the pilgrim's journey, and
- * to its ArchiMate view (archimate/build.py gives each moment's view the
+ * through it in the journeys viewer and to its ArchiMate view (archimate/build.py gives each moment's view the
  * moment's id as its slug).
  *
- * It also writes the journey page's hero, the story in one sentence, as the
+ * It also writes the home page's hero, the story in one sentence, as the
  * journeys viewer's overview draws it (VaxLink's layout), from the workshop's
  * `presentation` (workshops/pilgrim-policy-questions.workshop.json), with
  * buttons into that overview's walkthrough and journey map.
@@ -55,7 +54,7 @@ export function cards(): string {
       `<div style="font-weight:700;font-size:1.1em;margin-top:8px">${esc(rest.join(" · ") || m.title)}</div>`,
       `<div style="font-size:.8em;color:#64748b">${esc([m.when, m.where, label].filter(Boolean).join(" · "))}</div>`,
       `<p style="font-size:.9em;margin:6px 0">${esc(text)}</p>`,
-      `<div style="font-size:.85em"><a href="${walk}"><b>Walk through it</b></a> · <a href="pilgrim-journey.html">Story</a> · <a href="${VIEWS}/${m.id}/">ArchiMate view</a></div>`,
+      `<div style="font-size:.85em"><a href="${walk}"><b>Walk through it</b></a> · <a href="${VIEWS}/${m.id}/">ArchiMate view</a></div>`,
       "</div>",
     );
   }
