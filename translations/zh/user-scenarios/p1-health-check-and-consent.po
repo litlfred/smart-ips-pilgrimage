@@ -148,7 +148,7 @@ msgstr "如果没有在本国记录的同意，就不能在境外共享任何内
 #: user-scenarios/p1-health-check-and-consent.json:82
 msgctxt "step.policy"
 msgid "Is consent given once for the whole pilgrimage season, per facility, or per encounter — and can Kamal withdraw it while abroad?"
-msgstr "同意是针对整个朝圣季一次性给出，还是按机构、按就诊给出——Kamal 能否在境外撤回同意？"
+msgstr "同意是针对整个朝圣季一次性给出，还是按每个机构给出，或按每次就诊给出——Kamal 能否在境外撤回同意？"
 
 #: user-scenarios/p1-health-check-and-consent.json:140
 msgctxt "step.record.description"

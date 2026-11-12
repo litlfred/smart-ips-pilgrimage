@@ -89,7 +89,7 @@ msgstr "智能健康链接（SHL）"
 
 #: input/pagecontent/concepts.md:10
 msgid "The country from which the pilgrim originates or holds citizenship. This is significant in the context of healthcare as health information and preparatory measures might be initiated in the origin country before the pilgrimage."
-msgstr "朝圣者出身或持有其国籍的国家。这在医疗卫生背景下很重要，因为健康信息和准备措施可能在朝圣之前于来源国启动。"
+msgstr "朝圣者所来自或持有其国籍的国家。这在医疗卫生背景下很重要，因为健康信息和准备措施可能在朝圣之前于来源国启动。"
 
 #: input/pagecontent/concepts.md:42
 msgid "Verifiable International Patient Summary (Verifiable IPS)"

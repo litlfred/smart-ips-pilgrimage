@@ -110,7 +110,7 @@ msgstr "<a0>朝圣者</a0>"
 
 #: input/pagecontent/index.md:41
 msgid "61, from Tanavu, Onesa, going on pilgrimage for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone."
-msgstr "61 岁，来自 Onesa 的 Tanavu，首次参加朝圣。患有 2 型糖尿病和高血压；使用胰岛素，每天服用两种片剂；对青霉素过敏。随身携带一部手机。"
+msgstr "61 岁，来自 Onesa 的 Tanavu，首次参加朝圣。患有 2 型糖尿病和高血压；使用胰岛素，每天服用两片药；对青霉素过敏。随身携带一部手机。"
 
 #: input/pagecontent/index.md:74
 msgid "About this implementation guide"

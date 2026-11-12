@@ -25,4 +25,4 @@ msgstr "非功能性需求提供数字系统的一般属性和功能，以确保
 
 #: input/pagecontent/non-functional-requirements.md:1
 msgid "This page provides an overview of illustrative non-functional requirements that may be considered to kick-start the process of designing or adapting the patient mediated exchange of IPS during pilgrimage."
-msgstr "本页概述了一些说明性的非功能性需求，可供考虑用于启动朝圣期间由患者介导的 IPS 交换的设计或适配流程。"
+msgstr "本页概述了一些说明性的非功能性需求，可供考虑，用以启动设计或适配朝圣期间由患者介导的 IPS 交换的流程。"

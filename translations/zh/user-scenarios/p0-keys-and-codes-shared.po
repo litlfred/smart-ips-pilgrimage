@@ -113,7 +113,7 @@ msgstr "没有已发布的密钥，Taifafeki 的诊所就无法区分真实的 O
 #: user-scenarios/p0-keys-and-codes-shared.json:46
 msgctxt "step.policy"
 msgid "Which Onesan institution signs health documents on behalf of the health sector, and who in Taifafeki decides to accept that signature?"
-msgstr "由哪个 Onesa 机构代表卫生部门签名健康文档？在 Taifafeki 又由谁决定接受该签名？"
+msgstr "由哪个 Onesa 机构代表卫生领域签名健康文档？在 Taifafeki 又由谁决定接受该签名？"
 
 #: user-scenarios/p0-keys-and-codes-shared.json:75
 msgctxt "step.record.description"
