@@ -97,35 +97,35 @@ msgstr "Проверяемая Международная сводка о пац
 
 #: input/pagecontent/concepts.md:25
 msgid "A digital document that contains essential healthcare information about a patient, designed to support the continuity of care and patient safety. For pilgrims, the IPS includes basic demographics, medical history, medications, allergies, and other critical health information that can be shared across borders and healthcare systems."
-msgstr ""
+msgstr "Цифровой документ, содержащий важнейшую медицинскую информацию о пациенте и предназначенный для поддержки преемственности медицинской помощи и безопасности пациентов. Для паломников IPS включает основные демографические данные, анамнез, лекарственные препараты, аллергии и другую критически важную медицинскую информацию, которой можно обмениваться через границы и между системами здравоохранения."
 
 #: input/pagecontent/concepts.md:37
 msgid "A digital version of a patient's paper chart, used by healthcare providers for diagnosis and treatment. In the context of the pilgrimage, EMRs are used by host country medical facilities to manage pilgrim care."
-msgstr ""
+msgstr "Цифровая версия бумажной медицинской карты пациента, используемая поставщиками медицинских услуг для диагностики и лечения. В контексте паломничества EMR используются медицинскими учреждениями принимающей страны для организации помощи паломникам."
 
 #: input/pagecontent/concepts.md:19
 msgid "A healthcare professional responsible for the initial registration of pilgrims at pilgrimage health facilities. This includes collecting and verifying pilgrim information and initiating the health service process."
-msgstr ""
+msgstr "Медицинский специалист, отвечающий за первичную регистрацию паломников в медицинских учреждениях для паломников. Это включает сбор и проверку информации о паломнике и начало процесса оказания медицинских услуг."
 
 #: input/pagecontent/concepts.md:16
 msgid "A medical facility set up to cater specifically to the needs of pilgrims. These facilities can range from clinics to hospitals and are equipped to handle both routine health checks and emergency services."
-msgstr ""
+msgstr "Медицинское учреждение, созданное специально для удовлетворения потребностей паломников. Такие учреждения могут быть разными — от клиник до больниц — и оснащены для проведения как плановых медицинских осмотров, так и оказания экстренной помощи."
 
 #: input/pagecontent/concepts.md:7
 msgid "A person who undertakes the pilgrimage. In the context of the healthcare system, the pilgrim is the primary user, receiving healthcare services and interacting with various healthcare providers."
-msgstr ""
+msgstr "Лицо, совершающее паломничество. В контексте системы здравоохранения паломник является основным пользователем, получающим медицинские услуги и взаимодействующим с различными поставщиками медицинских услуг."
 
 #: input/pagecontent/concepts.md:15
 msgid "Pilgrimage Health Facility"
-msgstr ""
+msgstr "Медицинское учреждение для паломников"
 
 #: input/pagecontent/concepts.md:13
 msgid "The country hosting the pilgrimage, which in this guide's examples is the fictional Taifafeki. The host country provides healthcare and other services to pilgrims during their stay."
-msgstr ""
+msgstr "Страна, принимающая паломничество, которой в примерах этого руководства является вымышленная Taifafeki. Принимающая страна предоставляет паломникам медицинские и другие услуги во время их пребывания."
 
 #: input/pagecontent/concepts.md:40
 msgid "The electronic sharing of health information among different organizations. In the context of the pilgrimage, it refers to the system that allows origin countries and the host country to exchange pilgrim health information securely."
-msgstr ""
+msgstr "Электронный обмен медицинской информацией между различными организациями. В контексте паломничества это система, позволяющая странам происхождения и принимающей стране безопасно обмениваться медицинской информацией о паломниках."
 
 #~ msgid "A digital document that contains essential healthcare information about a patient, designed to support the continuity of care and patient safety. For Hajj pilgrims, the IPS includes basic demographics, medical history, medications, allergies, and other critical health information that can be shared across borders and healthcare systems."
 #~ msgstr "Цифровой документ, содержащий важнейшую медицинскую информацию о пациенте и предназначенный для поддержки преемственности медицинской помощи и безопасности пациентов. Для паломников хаджа IPS включает основные демографические данные, анамнез, лекарственные препараты, аллергии и другую критически важную медицинскую информацию, которой можно обмениваться через границы и между системами здравоохранения."

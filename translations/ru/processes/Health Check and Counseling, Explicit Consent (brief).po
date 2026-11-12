@@ -163,22 +163,22 @@ msgstr "да"
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:119
 #. Diagram element documentation
 msgid "Counselor from origin country supporting pilgrim during inital health screening"
-msgstr ""
+msgstr "Консультант из страны происхождения, оказывающий поддержку паломнику во время первичного медицинского скрининга"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:218
 #. Diagram label
 msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
-msgstr ""
+msgstr "заполнить в кошельке форму согласия на предоставление IPS во время паломничества"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:166
 #. Diagram label
 msgid "inform patient ineligible for pilgrimage"
-msgstr ""
+msgstr "сообщить пациенту, что он не допущен к паломничеству"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:100
 #. Diagram element documentation
 msgid "The pilgrim"
-msgstr ""
+msgstr "Паломник"
 
 #. Diagram element documentation
 #~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
