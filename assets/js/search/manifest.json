@@ -2,9 +2,9 @@
   "$schema": "folio-search-manifest/v1",
   "source": {
     "path": "assets/js/search-data.json",
-    "sha256": "5a34312e555b62a496ef117888953b617e16c974138bbf7187d42cb512a65cc6",
+    "sha256": "beba3599e9a56de36dc7b0f94cff4d7b11f8bd9062205ef97faf3c153603b32c",
     "entries": 547,
-    "bytes": 1023707
+    "bytes": 1029701
   },
   "scopes": [
     {
@@ -26,35 +26,35 @@
       "kind": "locale",
       "path": "assets/js/search/locale-ar.json",
       "entries": 60,
-      "bytes": 162509
+      "bytes": 164291
     },
     {
       "id": "locale-es",
       "kind": "locale",
       "path": "assets/js/search/locale-es.json",
       "entries": 60,
-      "bytes": 135115
+      "bytes": 135897
     },
     {
       "id": "locale-fr",
       "kind": "locale",
       "path": "assets/js/search/locale-fr.json",
       "entries": 60,
-      "bytes": 137012
+      "bytes": 137640
     },
     {
       "id": "locale-ru",
       "kind": "locale",
       "path": "assets/js/search/locale-ru.json",
       "entries": 60,
-      "bytes": 205019
+      "bytes": 207861
     },
     {
       "id": "locale-zh",
       "kind": "locale",
       "path": "assets/js/search/locale-zh.json",
       "entries": 60,
-      "bytes": 109799
+      "bytes": 109759
     }
   ],
   "remote": [

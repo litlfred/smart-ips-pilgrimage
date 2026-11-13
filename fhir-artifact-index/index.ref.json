@@ -1,7 +1,7 @@
 {
   "$schema": "fhir-artifact-index-ref/v1",
-  "index": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/76b15dc34fd8b6afe20a116d666fd0e4d3a92a50/fhir-artifact-index/index.json",
-  "base": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/76b15dc34fd8b6afe20a116d666fd0e4d3a92a50/",
+  "index": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/9580e0cce98a4876b75a02cf03c777314a24cfa3/fhir-artifact-index/index.json",
+  "base": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/9580e0cce98a4876b75a02cf03c777314a24cfa3/",
   "repository": "litlfred/smart-ips-pilgrimage",
-  "commit": "76b15dc34fd8b6afe20a116d666fd0e4d3a92a50"
+  "commit": "9580e0cce98a4876b75a02cf03c777314a24cfa3"
 }
