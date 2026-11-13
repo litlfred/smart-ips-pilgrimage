@@ -19,27 +19,27 @@ msgstr ""
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "country"
 msgid "Onesa"
-msgstr ""
+msgstr "Onesa"
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "description"
 msgid "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows."
-msgstr ""
+msgstr "Le HIE d'Onesa assemble le résumé international du patient de Kamal à partir de son historique de soins : ses affections, ses médicaments, son allergie. Il émet un lien de santé vérifiable vers ce résumé, le signe avec une clé enregistrée auprès du GDHCN, et place le code QR dans son portefeuille. Étape 2 de l'aperçu des principaux flux de processus."
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "scene.label"
 msgid "Onesa's HIE"
-msgstr ""
+msgstr "Le HIE d'Onesa"
 
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "scene.label"
 msgid "QR code in his wallet"
-msgstr ""
+msgstr "Le code QR dans son portefeuille"
 
 #: user-scenarios/p2-summary-signed.json:118
 msgctxt "scene.label"
 msgid "Signed summary"
-msgstr ""
+msgstr "Résumé signé"
 
 #: user-scenarios/p2-summary-signed.json:59
 msgctxt "step.enabler"
@@ -89,7 +89,7 @@ msgstr "Le code QR du VHL est dans le portefeuille de Kamal"
 #: user-scenarios/p2-summary-signed.json:36
 msgctxt "step.headline"
 msgid "Onesa's HIE turns Kamal's care history into a signed patient summary and puts the link to it in his wallet as a QR code."
-msgstr ""
+msgstr "Le HIE d'Onesa transforme l'historique de soins de Kamal en un résumé patient signé et place le lien vers celui-ci dans son portefeuille sous forme de code QR."
 
 #: user-scenarios/p2-summary-signed.json:101
 msgctxt "step.illustration.alt"
@@ -99,7 +99,7 @@ msgstr "Des icônes représentant ses affections, ses médicaments et son allerg
 #: user-scenarios/p2-summary-signed.json:5
 msgctxt "step.narrative"
 msgid "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows."
-msgstr ""
+msgstr "Le HIE d'Onesa assemble le résumé international du patient de Kamal à partir de son historique de soins : ses affections, ses médicaments, son allergie. Il émet un lien de santé vérifiable vers ce résumé, le signe avec une clé enregistrée auprès du GDHCN, et place le code QR dans son portefeuille. Étape 2 de l'aperçu des principaux flux de processus."
 
 #: user-scenarios/p2-summary-signed.json:58
 msgctxt "step.painPoint"
@@ -114,17 +114,17 @@ msgstr "Que doit contenir le résumé pour un pèlerin — et qui décide de ce 
 #: user-scenarios/p2-summary-signed.json:106
 msgctxt "step.record.description"
 msgid "His IPS is signed and its QR code is in his wallet"
-msgstr ""
+msgstr "Son IPS est signé et son code QR est dans son portefeuille"
 
 #: user-scenarios/p2-summary-signed.json:107
 msgctxt "step.record.heldWhere"
 msgid "Kamal's wallet (QR code); Onesa's HIE"
-msgstr ""
+msgstr "Le portefeuille de Kamal (code QR) ; le HIE d'Onesa"
 
 #: user-scenarios/p2-summary-signed.json:94
 msgctxt "step.references.label"
 msgid "Profile HajjIPS and the example My IPS; the folder example My Pilgrimage Minimal Folder"
-msgstr ""
+msgstr "Profil HajjIPS et l'exemple My IPS ; l'exemple de dossier My Pilgrimage Minimal Folder"
 
 #: user-scenarios/p2-summary-signed.json:89
 msgctxt "step.references.label"
@@ -149,7 +149,7 @@ msgstr "Avant le départ"
 #: user-scenarios/p2-summary-signed.json:14
 msgctxt "step.where"
 msgid "Onesa's HIE; Kamal's home"
-msgstr ""
+msgstr "Le HIE d'Onesa ; le domicile de Kamal"
 
 #: user-scenarios/p2-summary-signed.json:4
 msgctxt "title"
@@ -164,4 +164,4 @@ msgstr "Avant le départ"
 #: user-scenarios/p2-summary-signed.json:14
 msgctxt "where"
 msgid "Onesa's HIE; Kamal's home"
-msgstr ""
+msgstr "Le HIE d'Onesa ; le domicile de Kamal"
