@@ -38,9 +38,19 @@ jobs:
         run: bun input/scripts/translation-pot.ts --check
       - name: The navbar templates are current with sushi-config.yaml's menu
         run: bun input/scripts/navbar-pot.ts --check
+      - name: The home page's cards and story, in each language, are current with the scenarios and their catalogues
+        run: bun input/scripts/journey-cards.ts --check
+      - name: The overview figure, in each language, is current with its drawing and catalogues
+        run: bun input/scripts/workflow-figure.ts --check
       - name: The user-scenario templates are current with the scenarios
         run: bun cat-harness-tools/scripts/run-script.ts translate-user-scenarios:check --instance .
       - name: No translation is marked official
         run: bun cat-harness-tools/scripts/run-script.ts check:translation-officiality
+      - name: A glossary term used in its sense uses its fixed translation (translation:glossary:check)
+        # The layer gates run this only on the full tier, so a fast-tier PR
+        # could merge a catalogue that drops a fixed term (es/zh «IG», «QR»,
+        # 2026-11-13). An exception needs a verdict in
+        # translations/glossary-sense.json; uses pending adjudication fail nothing.
+        run: bun cat-harness-tools/scripts/run-script.ts translation:glossary:check --instance . --all-locales
       - name: How far each translation is behind its template (warns, never fails)
         run: bun input/scripts/po-status.ts --github

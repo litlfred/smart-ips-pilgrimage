@@ -1,4 +1,4 @@
-{% include journey-hero.html %}
+{% lang-fragment journey-hero.html %}
 
 This Implementation Guide is intended to support the utilization of verifiable International Patient Summary (IPS) documents during pilgrimage, leveraging [WHO Global Digital Health Certification Network (GDHCN)](https://www.who.int/initiatives/global-digital-health-certification-network) global public health infrastructure.
 
@@ -10,7 +10,7 @@ This implementation guide and set of artifacts are still undergoing development.
 <br clear="all"/>
 ### Eight moments that matter
 
-<div markdown="0">{% include journey-cards.html %}</div>
+<div markdown="0">{% lang-fragment journey-cards.html %}</div>
 <br clear="all"/>
 
 The [user scenarios](scenarios.html) of this guide told as one pilgrim's story,
@@ -30,9 +30,9 @@ The steps follow this guide's real
 Malaysia's Hajj Health Card, as a policy precedent.
 </div>
 
-<div style="width:100%" markdown="0">{% include workflow-figure.html %}</div>
+<div style="width:100%" markdown="0">{% lang-fragment workflow-figure.html %}</div>
 
-Each numbered flow in the figure names its moment above, and each moment has its own [ArchiMate view](en/smart-ips-pilgrimage/archimate/2.1.0/views/the-pilgrims-journey/).
+Each numbered flow in the figure names its moment above, and each moment has its own [ArchiMate view](en/smart-ips-pilgrimage/archimate/2.1.0/view/the-pilgrims-journey/).
 
 ### The people
 
