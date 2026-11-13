@@ -30,7 +30,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/9580e0cce98a4876b75a02cf03c777314a24cfa3/resources/ValueSet/Browser.json"
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/08917b187197f8e10e7ffd6d0235d5d729ffa470/resources/ValueSet/Browser.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "mirror"
@@ -39,7 +39,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "23944ceada81bda4cd8ff0aad2cc0fc7baed6c99"
+    "prov:used": "a7482ca9163a28f1ba9acc182cd59589e3cc43d7"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

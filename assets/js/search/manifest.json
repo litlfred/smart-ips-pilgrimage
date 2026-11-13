@@ -2,9 +2,9 @@
   "$schema": "folio-search-manifest/v1",
   "source": {
     "path": "assets/js/search-data.json",
-    "sha256": "9902f134ae762e6e9e17251dd45c57abbc8aa60f4a5afd8404087ff7a9c9b2c0",
+    "sha256": "92772577dbb660b0df8e00e05e3fc09139c12d8ff1ab05dd5fcea0a60c5f59c9",
     "entries": 547,
-    "bytes": 1029701
+    "bytes": 1029630
   },
   "scopes": [
     {
@@ -12,7 +12,7 @@
       "kind": "platform",
       "path": "assets/js/search/_platform.json",
       "entries": 84,
-      "bytes": 125074
+      "bytes": 125083
     },
     {
       "id": "cat-harness",
@@ -33,7 +33,7 @@
       "kind": "locale",
       "path": "assets/js/search/locale-es.json",
       "entries": 60,
-      "bytes": 135897
+      "bytes": 135867
     },
     {
       "id": "locale-fr",
@@ -54,7 +54,7 @@
       "kind": "locale",
       "path": "assets/js/search/locale-zh.json",
       "entries": 60,
-      "bytes": 109759
+      "bytes": 109709
     }
   ],
   "remote": [
