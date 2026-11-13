@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "419a8743eddc988fc079f54be3f371219b69d808",
+          "ref": "ec3d1cf7993b499e3362297f7fcbad2c79b66f80",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-12",
-              "ref": "419a8743eddc988fc079f54be3f371219b69d808",
-              "evidence": "litlfred, 2026-11-12: re-pin smart-ips-pilgrimage#66 to current mains; owner prioritised smart-trust(-*) PRs; Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
+              "on": "2026-11-13",
+              "ref": "ec3d1cf7993b499e3362297f7fcbad2c79b66f80",
+              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
             }
           }
         }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "f3bf0a902e5def280e049b76f94443d87dbb6db2",
+          "ref": "cf722fb3f8623aa92872129a1788aa992a887e3f",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -79,9 +79,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-12",
-              "ref": "f3bf0a902e5def280e049b76f94443d87dbb6db2",
-              "evidence": "litlfred, 2026-11-12: re-pin smart-ips-pilgrimage#66 to current mains; owner prioritised smart-trust(-*) PRs; Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
+              "on": "2026-11-13",
+              "ref": "cf722fb3f8623aa92872129a1788aa992a887e3f",
+              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "d14158f0d5f8b020cc51f02f150ef26c42e911a5",
+          "ref": "346a04c9e29b4f5c9d51e7720b2a3818d3ebd7f2",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -101,9 +101,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-12",
-              "ref": "d14158f0d5f8b020cc51f02f150ef26c42e911a5",
-              "evidence": "litlfred, 2026-11-12: re-pin smart-ips-pilgrimage#66 to current mains; owner prioritised smart-trust(-*) PRs; Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
+              "on": "2026-11-13",
+              "ref": "346a04c9e29b4f5c9d51e7720b2a3818d3ebd7f2",
+              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "4a1a1650bf6568865a9bcf9305f9e718a6adbc02",
+          "ref": "437eee5e87bd8f87334b06a4682d3e25c5953943",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-12",
-              "ref": "4a1a1650bf6568865a9bcf9305f9e718a6adbc02",
-              "evidence": "litlfred, 2026-11-12: re-pin smart-ips-pilgrimage#66 to current mains; owner prioritised smart-trust(-*) PRs; Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
+              "on": "2026-11-13",
+              "ref": "437eee5e87bd8f87334b06a4682d3e25c5953943",
+              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "3ce16b7bb32f2330f8f84e4a16d9a17d8d66f306",
+          "ref": "a107d8ef4947d6ebcc937312b0a6000e59743d1d",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-12",
-              "ref": "3ce16b7bb32f2330f8f84e4a16d9a17d8d66f306",
-              "evidence": "litlfred, 2026-11-12: re-pin smart-ips-pilgrimage#66 to current mains; owner prioritised smart-trust(-*) PRs; Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
+              "on": "2026-11-13",
+              "ref": "a107d8ef4947d6ebcc937312b0a6000e59743d1d",
+              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "1509dbb42ea29023870e51e8ade70704509d25d0",
+          "ref": "ed3c8eb404200c1d101c99893a67d22102815587",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-12",
-              "ref": "1509dbb42ea29023870e51e8ade70704509d25d0",
-              "evidence": "litlfred, 2026-11-12: re-pin smart-ips-pilgrimage#66 to current mains; owner prioritised smart-trust(-*) PRs; Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
+              "on": "2026-11-13",
+              "ref": "ed3c8eb404200c1d101c99893a67d22102815587",
+              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
             }
           }
         }
@@ -195,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "531a96d2adddec62c2363e125c19d6648a07fc11",
+          "ref": "17204fe9ed49e87b165bf0a8b626b6c69329a2a6",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -204,9 +204,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-12",
-              "ref": "531a96d2adddec62c2363e125c19d6648a07fc11",
-              "evidence": "litlfred, 2026-11-12: re-pin smart-ips-pilgrimage#66 to current mains; owner prioritised smart-trust(-*) PRs; Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
+              "on": "2026-11-13",
+              "ref": "17204fe9ed49e87b165bf0a8b626b6c69329a2a6",
+              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
             }
           }
         }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "b31c5346b0b2803354423511b6d18b599b7bdc41",
+          "ref": "0f88368db7560afac6d3e16fd905cbb974350f82",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -229,9 +229,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-12",
-              "ref": "b31c5346b0b2803354423511b6d18b599b7bdc41",
-              "evidence": "litlfred, 2026-11-12: re-pin smart-ips-pilgrimage#66 to current mains; owner prioritised smart-trust(-*) PRs; Q-CONSENT-1 A, merge window to ~21:05Z (Q-WIN-1 C). Coordinator session session_01EucfRpkvK7d4FJyuqypQzm."
+              "on": "2026-11-13",
+              "ref": "0f88368db7560afac6d3e16fd905cbb974350f82",
+              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
             }
           }
         }
@@ -242,7 +242,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-trust-tools",
-          "ref": "dd739aad2335a963fb0b85212ce8da5fc5d7dd3e",
+          "ref": "3275867e993ecf87ac132e93c1bb2f95613de5f5",
           "overrides": {
             "smart-trust-tools": {
               "whole": true
@@ -251,9 +251,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-11",
-              "ref": "dd739aad2335a963fb0b85212ce8da5fc5d7dd3e",
-              "evidence": "litlfred, 2026-11-11, cat-harness-tools#1879: chose option A (every harnessed repo publishes its site on push to main through the shared folio-site-publish.yml, which needs tools >= 625ac09a); re-pin moves every pinned harness to its main HEAD under the owner's freshness rule (cat-harness-tools#1881)"
+              "on": "2026-11-13",
+              "ref": "3275867e993ecf87ac132e93c1bb2f95613de5f5",
+              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
             }
           }
         }
