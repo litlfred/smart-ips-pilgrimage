@@ -32,7 +32,7 @@ Malaysia's Hajj Health Card, as a policy precedent.
 
 <div style="width:100%" markdown="0">{% include workflow-figure.html %}</div>
 
-Each numbered flow in the figure names its moment above, and each moment has its own [ArchiMate view](en/smart-ips-pilgrimage/archimate/2.1.0/views/the-pilgrims-journey/).
+Each numbered flow in the figure names its moment above, and each moment has its own [ArchiMate view](en/smart-ips-pilgrimage/archimate/2.1.0/view/the-pilgrims-journey/).
 
 ### The people
 
