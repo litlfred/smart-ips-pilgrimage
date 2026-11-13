@@ -323,6 +323,7 @@
         "input/system-requirements/",
         "input/testing/",
         "input/vocabulary/",
+        "translations/",
         "fsh-generated/",
         "_genonce.sh",
         "_genonce.bat",
