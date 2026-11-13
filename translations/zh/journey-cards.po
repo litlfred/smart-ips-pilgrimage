@@ -67,7 +67,7 @@ msgstr "朝圣季之前——共享密钥和代码"
 #: user-scenarios/p3-taken-ill-in-mina.json:16
 #. Moment p3: its card's one-line summary.
 msgid "Dizzy in the heat of Nalemi, Kamal is brought to the pilgrimage health facility by Salmah and shows his QR code at registration."
-msgstr "Kamal 在 Nalemi 的酷热中感到头晕，Salmah 将他送到朝圣医疗卫生机构，他在登记处出示了自己的二维码。"
+msgstr "Kamal 在 Nalemi 的酷热中感到头晕，Salmah 将他送到朝圣医疗卫生机构，他在登记处出示了自己的 QR 码。"
 
 #: user-scenarios/p5-record-read-and-treated.json:20
 #. Moment p5: its title on the home page's card.
@@ -117,7 +117,7 @@ msgstr "一位朝圣者和他身边的人，八个时刻，一个朝圣季。先
 #: user-scenarios/p2-summary-signed.json:12
 #. Moment p2: its card's one-line summary.
 msgid "Onesa's HIE turns Kamal's care history into a signed patient summary and puts the link to it in his wallet as a QR code."
-msgstr "Onesa 的 HIE 将 Kamal 的诊疗史转换为签名的患者摘要，并以二维码的形式将其链接放入他的钱包。"
+msgstr "Onesa 的 HIE 将 Kamal 的诊疗史转换为签名的患者摘要，并以 QR 码的形式将其链接放入他的钱包。"
 
 #: user-scenarios/p2-summary-signed.json:11
 #. Where the moment happens, on its card.
