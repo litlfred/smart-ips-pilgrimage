@@ -1,0 +1,17 @@
+{
+  "branch": "claude/translate-zh",
+  "sha": "0154539",
+  "built": "2026-11-13T18:26:19Z",
+  "pr": "n/a",
+  "prUrl": "https://github.com/litlfred/smart-ips-pilgrimage/pulls?q=head%3Aclaude%2Ftranslate-zh",
+  "branchUrl": "https://github.com/litlfred/smart-ips-pilgrimage/tree/claude/translate-zh",
+  "issue": null,
+  "issueUrl": null,
+  "runUrl": "https://github.com/litlfred/smart-ips-pilgrimage/commit/01545394595cbd348c83ddd0ef1a6739c9a54e2e",
+  "mainSite": "https://litlfred.github.io/smart-ips-pilgrimage/",
+  "beforeRef": "main",
+  "mainPagesKnown": true,
+  "newPages": [
+    "review/index.html"
+  ]
+}

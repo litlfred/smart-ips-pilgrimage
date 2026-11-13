@@ -1,0 +1,18 @@
+{
+  "$schema": "folio-site-build/v1",
+  "instance": "smart-ips-pilgrimage",
+  "platform": {
+    "commit": "d5b0550b29fdecdd5907eb15cba3cc4e48c782f9"
+  },
+  "source": {
+    "repo": "litlfred/smart-ips-pilgrimage",
+    "ref": "claude/translate-zh",
+    "commit": "01545394595cbd348c83ddd0ef1a6739c9a54e2e"
+  },
+  "builtAt": "2026-11-13T18:25:55.415Z",
+  "ast": {
+    "commit": "a7482ca9163a28f1ba9acc182cd59589e3cc43d7",
+    "verdict": "valid",
+    "kind": "full"
+  }
+}
