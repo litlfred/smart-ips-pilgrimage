@@ -112,7 +112,7 @@ msgstr "من دون ملخص موقَّع، لا يتوفر لدى عيادة ف
 #: user-scenarios/p2-summary-signed.json:60
 msgctxt "step.policy"
 msgid "What must the summary contain for a pilgrim — and who decides what is left out?"
-msgstr "ما الذي يجب أن يتضمنه الملخص بالنسبة إلى الحاج — ومَن يقرّر ما يُستبعَد منه؟"
+msgstr "ما الذي يجب أن يتضمنه الملخص بالنسبة إلى الزائر — ومَن يقرّر ما يُستبعَد منه؟"
 
 #: user-scenarios/p2-summary-signed.json:106
 msgctxt "step.record.description"

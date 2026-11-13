@@ -42,7 +42,7 @@ msgstr "التنفيذ المرجعي"
 #: user-scenarios/the-pilgrims-hajj.json:24
 msgctxt "references.label"
 msgid "The pilgrim's journey (guide page)"
-msgstr "رحلة الحاج (صفحة الدليل)"
+msgstr "رحلة الزائر (صفحة الدليل)"
 
 #: user-scenarios/the-pilgrims-hajj.json:32
 msgctxt "references.label"

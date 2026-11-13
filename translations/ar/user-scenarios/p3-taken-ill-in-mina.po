@@ -117,12 +117,12 @@ msgstr "في اليوم الثاني في Nalemi، وفي الحر، يشعر Ka
 #: user-scenarios/p3-taken-ill-in-mina.json:75
 msgctxt "step.painPoint"
 msgid "A pilgrim who is unwell, far from home, among millions, in a language that is not his own."
-msgstr "حاج متوعك، بعيد عن بلده، بين الملايين، وبلغة ليست لغته."
+msgstr "زائر متوعك، بعيد عن بلده، بين الملايين، وبلغة ليست لغته."
 
 #: user-scenarios/p3-taken-ill-in-mina.json:77
 msgctxt "step.policy"
 msgid "What should happen when a pilgrim arrives with no phone, a flat battery, or no QR code?"
-msgstr "ما الذي ينبغي أن يحدث عندما يصل الحاج من دون هاتف، أو ببطارية فارغة، أو من دون رمز QR؟"
+msgstr "ما الذي ينبغي أن يحدث عندما يصل الزائر من دون هاتف، أو ببطارية فارغة، أو من دون رمز QR؟"
 
 #: user-scenarios/p3-taken-ill-in-mina.json:111
 msgctxt "step.record.description"
