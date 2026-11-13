@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "ad79d892dd037d0999d8bea433075a920a2a7beb",
+          "ref": "24149be4a1b33a9a9aea09be362293f45333aff4",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "ad79d892dd037d0999d8bea433075a920a2a7beb",
-              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'merge when green and republish'. cat-harness-tools#2000: the scoped-site prune kept deleting BPMN diagrams whose names have spaces, commas or brackets, so this site's publish failed its link check."
+              "ref": "24149be4a1b33a9a9aea09be362293f45333aff4",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'merge when green and republish'. Freshness: moved to main while the cat-harness-tools#2000 re-pin was open."
             }
           }
         }
