@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ru" dir="/ru/">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<script type="application/json" id="fa-translation-meta">{"lang":"ru","translationStatus":"unverified","translationSource":"scenarios.html","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":["en","ar","es","fr","ru","zh"]}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Scenarios — SMART Verifiable IPS for Pilgrimage</title>
+<link rel="canonical" href="../ru/scenarios.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="SMART Verifiable IPS for Pilgrimage">
+<link rel="stylesheet" href="../assets/page-layout.css" data-fa-page-layout>
+<script src="../assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="../assets/ig-artifact.css">
+<link rel="stylesheet" href="../assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="../assets/navbar/row-2acuhncsmbg.js" defer></script><script src="../assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<link rel="stylesheet" href="../assets/css/navbar.css"><script src="../assets/navbar/rail-25hc74ko75k.js" defer></script><script src="../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../assets/css/navbar-row.css"><script src="../assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content=".."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root=".." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="..">{"data":"rail-25hc74ko75k","here":"/ru/scenarios.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../">SMART Verifiable IPS for Pilgrimage</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<p class="stu-note">Сценарии ниже, изложенные как история одного паломника: <a href="index.html">главная страница</a> прослеживает вымышленного паломника из Onesa через каждый шаг ключевых потоков процессов с вопросом, который поднимает каждый шаг.</p>
+
+<p>Пользовательские сценарии носят исключительно иллюстративный характер и призваны дать представление о типичном рабочем процессе.</p>
+
+<p>Как интерпретировать пользовательские сценарии</p>
+
+<p>Пользовательские сценарии могут быть полезными инструментами не только для лучшего понимания контекста, в котором будет работать цифровой инструмент, но и для получения представления о том, какие ключевые элементы данных необходимо записывать и учитывать в базе данных. Кроме того, контекст работы инструмента, раскрываемый пользовательскими сценариями, даёт представление о некоторых функциональных и нефункциональных требованиях, которым также должна отвечать система.</p>
+
+<p>В качестве примеров сценарии определяют: ключевые элементы данных, которые необходимо записывать и/или рассчитывать; логику поддержки принятия решений, которая может быть автоматизирована в системе; ключевые функциональные и нефункциональные требования, которые следует включить в систему, а также особенности, касающиеся подростков, которые следует учитывать.</p>
+
+<h3 id="публикация-национальных-открытых-ключей-для-проверки">Публикация национальных открытых ключей для проверки</h3>
+<p>Сервисы</p>
+<ul>
+  <li>Национальная HIE</li>
+  <li>GDHCN ВОЗ</li>
+</ul>
+
+<p>Описано в структуре <a href="https://smart.who.int/smart-trust">SMART Trust</a> GDHCN, согласно которой Участник GDHCN предоставляет Шлюзу сети доверия (TNG) GDHCN ВОЗ открытые ключи, которые могут использоваться для подписания медицинских документов, в частности <a href="https://build.fhir.org/ig/HL7/fhir-ips/">Международной сводки о пациенте (IPS)</a>. Домен доверия, который будет использоваться для этого набора сценариев, — ips-pilgrimage</p>
+
+<p>Этот процесс является как предварительным условием для пользовательских сценариев 3.0, 4.0 и 5.0, так и регулярным процессом, выполняемым всякий раз при обновлении соответствующего ключевого материала шифрования.</p>
+
+<h3 id="публикация-национальных-терминологий">Публикация национальных терминологий</h3>
+<p>Этот процесс предназначен для обмена национальными системами кодирования и наборами значений, которые используются в профиле IPS национальной HIE. По возможности следует использовать стандартизированные системы кодирования, однако признаётся, что национальные системы кодирования могут быть необходимы, в частности для кодирования терминологий лекарственных препаратов. Основная цель, по крайней мере на первых этапах обмена терминологиями, — не семантическая совместимость между национальной HIE и EMR принимающей страны, а поддержка медицинского работника принимающей страны при просмотре IPS.</p>
+
+<p>Эти терминологии следует передавать из национальной HIE в Терминологическую службу ВОЗ.</p>
+<ul>
+  <li>Профиль IHE <a href="https://profiles.ihe.net/ITI/SVCM/">Sharing Value Sets and Concept Maps (SVCM)</a> (рекомендуется)</li>
+  <li>Обмен табличными данными</li>
+</ul>
+
+<p>После передачи в Терминологическую службу ВОЗ эти терминологии следует сделать доступными для получения из EMR принимающей страны посредством профиля IHE SCVM.</p>
+
+<p>Этот процесс является как предварительным условием для пользовательских сценариев 3.0, 4.0 и 5.0, так и регулярным процессом, выполняемым всякий раз при обновлении соответствующих терминологий.</p>
+
+<h3 id="выпуск-медицинского-документа-в-стране-происхождения">Выпуск медицинского документа в стране происхождения</h3>
+<p>Это сценарий «этапа 1», в котором страна происхождения проводит оценку состояния здоровья паломника, получает согласие правомочных паломников и выдаёт QR-коды (Smart Health Link), содержащие их сводку о пациенте в виде IPS. QR-код может быть выдан в национальном медицинском кошельке или в виде напечатанного QR-кода.</p>
+
+<h3 id="клинический-приём-при-незапланированной-медицинской-помощи">Клинический приём при незапланированной медицинской помощи</h3>
+
+<p>Это сценарий «этапа 1», в котором паломнику в принимающей стране необходимо обратиться за помощью к медицинскому работнику принимающей страны. Паломник выступает посредником в обмене, показывая QR-код, выданный страной его происхождения. EMR принимающей страны использует QR-код для доступа к национальной IHE с целью получения сводки о пациенте (IPS).</p>
+
+<h3 id="клинический-приём-с-экстренным-доступом-разбить-стекло">Клинический приём с экстренным доступом («разбить стекло»)</h3>
+
+<p>Это сценарий «этапа 2», в котором паломник в принимающей стране находится без сознания и должен получить экстренную медицинскую помощь. Медицинский работник принимающей страны получает доступ к сводке о пациенте по регистрационному номеру паломника. До этого случая оказания экстренной помощи паломник должен был зарегистрировать своё согласие на предоставление доступа к своей записи либо через приложение национального медицинского кошелька, либо через национальный орган по делам паломничества.</p>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/scenarios.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/scenarios.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/scenarios.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/scenarios.md", "lines": [{"t":"Publication of National Public Keys for Verification","l":12},{"t":"Publication of National Terminologies","l":21},{"t":"Issuance of Health Document at Origin Country","l":33},{"t":"Clinical Encounter for Unplanned Care","l":37},{"t":"Break The Glass Clinical Encounter","l":42}]}</script>
+
+<script src="../assets/ig-source-links.js"></script>
+
+
+<script>(function(){
+var f=document.querySelector("#main-content .pt-diagram[data-panel]");
+if(!f||window.__igTaskPanel)return;
+var p=f.getAttribute("data-panel")||"";
+if(!/^[A-Za-z0-9._-][A-Za-z0-9._/-]*[.]tasks[.]json$/.test(p)||p.indexOf("//")>=0)return;
+window.__igTaskPanel=1;
+var dir=p.replace(/[^/]*$/,"");
+var l=document.createElement("link");l.rel="stylesheet";l.href=dir+"task-panel.css";document.head.appendChild(l);
+var s=document.createElement("script");s.src=dir+"task-panel.js";document.body.appendChild(s);
+})();</script>
+<script>(function(){
+var main=document.getElementById("main-content");
+if(!main||main.querySelector(".igi-contents"))return;
+var hs=Array.prototype.filter.call(main.querySelectorAll("h2"),function(h){return !h.closest(".igi-contents,#ig-footer,.ig-edit")&&h.textContent.trim();});
+if(hs.length<2)return;
+var used={};
+function slug(t){var b=t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"section",s=b,i=1;while(used[s]||document.getElementById(s))s=b+"-"+(++i);used[s]=1;return s;}
+var nav=document.createElement("nav");nav.className="igi-contents";nav.setAttribute("aria-label","Contents");
+var t=document.createElement("p");t.className="igi-contents-title";t.textContent="Contents";nav.appendChild(t);
+var ul=document.createElement("ul");
+hs.forEach(function(h){if(!h.id)h.id=slug(h.textContent);var li=document.createElement("li"),a=document.createElement("a");a.href="#"+h.id;
+var c=h.cloneNode(true);Array.prototype.forEach.call(c.querySelectorAll(".anchor-heading,.fa-sec-box,svg,button"),function(n){n.remove();});
+a.textContent=c.textContent.replace(/\s+/g," ").trim();li.appendChild(a);ul.appendChild(li);});
+nav.appendChild(ul);
+var h1=main.querySelector("h1");
+if(h1&&h1.parentNode===main)h1.insertAdjacentElement("afterend",nav);else main.insertBefore(nav,main.firstChild);
+})();</script>
+</main>
+
+</body>
+</html>

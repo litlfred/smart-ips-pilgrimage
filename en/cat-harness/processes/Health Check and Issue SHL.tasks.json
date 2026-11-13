@@ -5,10 +5,10 @@
   {
    "id": "Activity_1jht4ag",
    "name": "registration",
-   "left": 47.97,
+   "left": 48.62,
    "top": 60.32,
    "box": {
-    "left": 46.39,
+    "left": 47.02,
     "top": 62.49,
     "width": 0.61,
     "height": 0.95
@@ -17,10 +17,10 @@
   {
    "id": "Activity_1n6cwq1",
    "name": "arrive to clinic",
-   "left": 47.97,
+   "left": 48.62,
    "top": 68.58,
    "box": {
-    "left": 46.39,
+    "left": 47.02,
     "top": 70.75,
     "width": 0.61,
     "height": 0.95
@@ -29,10 +29,10 @@
   {
    "id": "Activity_0gm5pkg",
    "name": "inform patient ineligible for pilgrimage",
-   "left": 52.11,
+   "left": 52.81,
    "top": 60.32,
    "box": {
-    "left": 50.53,
+    "left": 51.21,
     "top": 62.49,
     "width": 0.61,
     "height": 0.95
@@ -41,10 +41,10 @@
   {
    "id": "display-shl",
    "name": "display SHL",
-   "left": 55.39,
+   "left": 56.14,
    "top": 82.41,
    "box": {
-    "left": 53.81,
+    "left": 54.54,
     "top": 84.58,
     "width": 0.61,
     "height": 0.95
@@ -53,10 +53,10 @@
   {
    "id": "generate-shl",
    "name": "generate Verifiable SHL",
-   "left": 55.39,
+   "left": 56.14,
    "top": 91.11,
    "box": {
-    "left": 53.81,
+    "left": 54.54,
     "top": 93.28,
     "width": 0.61,
     "height": 0.95
@@ -65,10 +65,10 @@
   {
    "id": "Activity_09jhr1u",
    "name": "leave clinic",
-   "left": 47.97,
+   "left": 48.62,
    "top": 75.3,
    "box": {
-    "left": 46.39,
+    "left": 47.02,
     "top": 77.47,
     "width": 0.61,
     "height": 0.95
@@ -77,10 +77,10 @@
   {
    "id": "Activity_0kvk608",
    "name": "display SHL configuration form",
-   "left": 66.99,
+   "left": 67.9,
    "top": 82.41,
    "box": {
-    "left": 65.42,
+    "left": 66.3,
     "top": 84.58,
     "width": 0.61,
     "height": 0.95
@@ -89,10 +89,10 @@
   {
    "id": "shl-config-send",
    "name": "process privacy configuration form for SHL",
-   "left": 62.71,
+   "left": 63.55,
    "top": 82.41,
    "box": {
-    "left": 61.13,
+    "left": 61.96,
     "top": 84.58,
     "width": 0.61,
     "height": 0.95
@@ -101,10 +101,10 @@
   {
    "id": "shl-config-receive",
    "name": "receive SHL privacy configuration",
-   "left": 62.71,
+   "left": 63.55,
    "top": 91.11,
    "box": {
-    "left": 61.13,
+    "left": 61.96,
     "top": 93.28,
     "width": 0.61,
     "height": 0.95
@@ -113,10 +113,10 @@
   {
    "id": "Activity_1i7ra1n",
    "name": "receive record consent response",
-   "left": 71.28,
+   "left": 72.25,
    "top": 82.41,
    "box": {
-    "left": 69.71,
+    "left": 70.65,
     "top": 84.58,
     "width": 0.61,
     "height": 0.95
@@ -125,10 +125,10 @@
   {
    "id": "Activity_04bcbu9",
    "name": "send record consent response",
-   "left": 71.28,
+   "left": 72.25,
    "top": 91.11,
    "box": {
-    "left": 69.71,
+    "left": 70.65,
     "top": 93.28,
     "width": 0.61,
     "height": 0.95
@@ -137,10 +137,10 @@
   {
    "id": "Activity_1snfpmi",
    "name": "Counsel patient on consent and digital health wallet",
-   "left": 82.89,
+   "left": 84.02,
    "top": 54.74,
    "box": {
-    "left": 81.31,
+    "left": 82.42,
     "top": 56.92,
     "width": 0.61,
     "height": 0.95
@@ -149,10 +149,10 @@
   {
    "id": "Activity_09oy5wb",
    "name": "display consent form",
-   "left": 93.99,
+   "left": 95.27,
    "top": 82.41,
    "box": {
-    "left": 92.42,
+    "left": 93.67,
     "top": 84.58,
     "width": 0.61,
     "height": 0.95
@@ -161,10 +161,10 @@
   {
    "id": "consent-wallet-send",
    "name": "send Consent",
-   "left": 79.11,
+   "left": 80.18,
    "top": 82.41,
    "box": {
-    "left": 77.53,
+    "left": 78.58,
     "top": 84.58,
     "width": 0.61,
     "height": 0.95
@@ -173,10 +173,10 @@
   {
    "id": "consent-wallet-receive",
    "name": "Receive consent",
-   "left": 79.11,
+   "left": 80.18,
    "top": 91.11,
    "box": {
-    "left": 77.53,
+    "left": 78.58,
     "top": 93.28,
     "width": 0.61,
     "height": 0.95
@@ -185,10 +185,10 @@
   {
    "id": "Activity_0ibmc50",
    "name": "store consent directives",
-   "left": 75.32,
+   "left": 76.34,
    "top": 91.11,
    "box": {
-    "left": 73.74,
+    "left": 74.74,
     "top": 93.28,
     "width": 0.61,
     "height": 0.95
@@ -197,10 +197,10 @@
   {
    "id": "Activity_1hhzmu2",
    "name": "generate SHL & configure access to IPS via SHL",
-   "left": 59.17,
+   "left": 59.97,
    "top": 91.11,
    "box": {
-    "left": 57.6,
+    "left": 58.38,
     "top": 93.28,
     "width": 0.61,
     "height": 0.95
@@ -209,10 +209,10 @@
   {
    "id": "Activity_1816554",
    "name": "Review SHL",
-   "left": 55.39,
+   "left": 56.14,
    "top": 73.32,
    "box": {
-    "left": 53.81,
+    "left": 54.54,
     "top": 75.49,
     "width": 0.61,
     "height": 0.95
@@ -221,10 +221,10 @@
   {
    "id": "shl-configure-privacy-settings",
    "name": "configure SHL privacy settings on wallet",
-   "left": 64.72,
+   "left": 65.6,
    "top": 73.32,
    "box": {
-    "left": 63.15,
+    "left": 64,
     "top": 75.49,
     "width": 0.61,
     "height": 0.95
@@ -233,10 +233,10 @@
   {
    "id": "Activity_0lhorix",
    "name": "login to wallet app",
-   "left": 93.99,
+   "left": 95.27,
    "top": 69.76,
    "box": {
-    "left": 92.42,
+    "left": 93.67,
     "top": 71.94,
     "width": 0.61,
     "height": 0.95
@@ -245,25 +245,29 @@
   {
    "id": "consent-wallet-questionnaire",
    "name": "fill consent form for sharing IPS during the pilgrimage on wallet",
-   "left": 89.96,
+   "left": 91.18,
    "top": 69.37,
    "box": {
-    "left": 88.38,
+    "left": 89.58,
     "top": 71.54,
     "width": 0.61,
     "height": 0.95
    }
   }
  ],
+ "processHref": "Health Check and Issue SHL.html",
  "tasks": {
   "Activity_1jht4ag": {
    "id": "Activity_1jht4ag",
    "name": "registration",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_1jht4ag",
    "lane": "Human Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-person",
    "skills": [
     {
-     "name": "complete-sdc-questionnaire"
+     "name": "complete-sdc-questionnaire",
+     "href": "../../../en/cat-harness/processes/skills/complete-sdc-questionnaire.html"
     }
    ],
    "binding": "unbound"
@@ -272,7 +276,9 @@
    "id": "Activity_1n6cwq1",
    "name": "arrive to clinic",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_1n6cwq1",
    "lane": "Human Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-person",
    "skills": [],
    "binding": "unbound"
   },
@@ -280,10 +286,13 @@
    "id": "Activity_0gm5pkg",
    "name": "inform patient ineligible for pilgrimage",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_0gm5pkg",
    "lane": "Human Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-person",
    "skills": [
     {
-     "name": "inform-client"
+     "name": "inform-client",
+     "href": "../../../en/cat-harness/processes/skills/inform-client.html"
     }
    ],
    "binding": "unbound"
@@ -292,7 +301,9 @@
    "id": "display-shl",
    "name": "display SHL",
    "type": "bpmn:ReceiveTask",
+   "stepHref": "Health Check and Issue SHL.html#step-display-shl",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [],
    "binding": "unbound"
   },
@@ -300,10 +311,13 @@
    "id": "generate-shl",
    "name": "generate Verifiable SHL",
    "type": "bpmn:SendTask",
+   "stepHref": "Health Check and Issue SHL.html#step-generate-shl",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [
     {
-     "name": "vhl-share"
+     "name": "vhl-share",
+     "href": "../../../en/cat-harness/processes/skills/vhl-share.html"
     }
    ],
    "binding": "unbound"
@@ -312,7 +326,9 @@
    "id": "Activity_09jhr1u",
    "name": "leave clinic",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_09jhr1u",
    "lane": "Human Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-person",
    "skills": [],
    "binding": "unbound"
   },
@@ -320,7 +336,9 @@
    "id": "Activity_0kvk608",
    "name": "display SHL configuration form",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_0kvk608",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [],
    "binding": "unbound"
   },
@@ -328,7 +346,9 @@
    "id": "shl-config-send",
    "name": "process privacy configuration form for SHL",
    "type": "bpmn:SendTask",
+   "stepHref": "Health Check and Issue SHL.html#step-shl-config-send",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [],
    "binding": "unbound"
   },
@@ -336,7 +356,9 @@
    "id": "shl-config-receive",
    "name": "receive SHL privacy configuration",
    "type": "bpmn:ReceiveTask",
+   "stepHref": "Health Check and Issue SHL.html#step-shl-config-receive",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [],
    "binding": "unbound"
   },
@@ -344,7 +366,9 @@
    "id": "Activity_1i7ra1n",
    "name": "receive record consent response",
    "type": "bpmn:ReceiveTask",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_1i7ra1n",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [],
    "binding": "unbound"
   },
@@ -352,7 +376,9 @@
    "id": "Activity_04bcbu9",
    "name": "send record consent response",
    "type": "bpmn:SendTask",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_04bcbu9",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [],
    "binding": "unbound"
   },
@@ -360,10 +386,13 @@
    "id": "Activity_1snfpmi",
    "name": "Counsel patient on consent and digital health wallet",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_1snfpmi",
    "lane": "Human Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-person",
    "skills": [
     {
-     "name": "inform-client"
+     "name": "inform-client",
+     "href": "../../../en/cat-harness/processes/skills/inform-client.html"
     }
    ],
    "binding": "unbound"
@@ -372,7 +401,9 @@
    "id": "Activity_09oy5wb",
    "name": "display consent form",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_09oy5wb",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [],
    "binding": "unbound"
   },
@@ -380,7 +411,9 @@
    "id": "consent-wallet-send",
    "name": "send Consent",
    "type": "bpmn:SendTask",
+   "stepHref": "Health Check and Issue SHL.html#step-consent-wallet-send",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [],
    "binding": "unbound"
   },
@@ -388,7 +421,9 @@
    "id": "consent-wallet-receive",
    "name": "Receive consent",
    "type": "bpmn:ReceiveTask",
+   "stepHref": "Health Check and Issue SHL.html#step-consent-wallet-receive",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [],
    "binding": "unbound"
   },
@@ -396,7 +431,9 @@
    "id": "Activity_0ibmc50",
    "name": "store consent directives",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_0ibmc50",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [],
    "binding": "unbound"
   },
@@ -404,10 +441,13 @@
    "id": "Activity_1hhzmu2",
    "name": "generate SHL & configure access to IPS via SHL",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_1hhzmu2",
    "lane": "System Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-system",
    "skills": [
     {
-     "name": "vhl-share"
+     "name": "vhl-share",
+     "href": "../../../en/cat-harness/processes/skills/vhl-share.html"
     }
    ],
    "binding": "unbound"
@@ -416,10 +456,13 @@
    "id": "Activity_1816554",
    "name": "Review SHL",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_1816554",
    "lane": "Human Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-person",
    "skills": [
     {
-     "name": "holder-consent-to-share"
+     "name": "holder-consent-to-share",
+     "href": "../../../en/cat-harness/processes/skills/holder-consent-to-share.html"
     }
    ],
    "binding": "unbound"
@@ -428,10 +471,13 @@
    "id": "shl-configure-privacy-settings",
    "name": "configure SHL privacy settings on wallet",
    "type": "bpmn:UserTask",
+   "stepHref": "Health Check and Issue SHL.html#step-shl-configure-privacy-settings",
    "lane": "Human Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-person",
    "skills": [
     {
-     "name": "holder-consent-to-share"
+     "name": "holder-consent-to-share",
+     "href": "../../../en/cat-harness/processes/skills/holder-consent-to-share.html"
     }
    ],
    "binding": "unbound"
@@ -440,7 +486,9 @@
    "id": "Activity_0lhorix",
    "name": "login to wallet app",
    "type": "bpmn:Task",
+   "stepHref": "Health Check and Issue SHL.html#step-Activity_0lhorix",
    "lane": "Human Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-person",
    "skills": [],
    "binding": "unbound"
   },
@@ -448,10 +496,13 @@
    "id": "consent-wallet-questionnaire",
    "name": "fill consent form for sharing IPS during the pilgrimage on wallet",
    "type": "bpmn:UserTask",
+   "stepHref": "Health Check and Issue SHL.html#step-consent-wallet-questionnaire",
    "lane": "Human Actor",
+   "laneHref": "Health Check and Issue SHL.html#lane-person",
    "skills": [
     {
-     "name": "holder-consent-to-share"
+     "name": "holder-consent-to-share",
+     "href": "../../../en/cat-harness/processes/skills/holder-consent-to-share.html"
     }
    ],
    "binding": "unbound"

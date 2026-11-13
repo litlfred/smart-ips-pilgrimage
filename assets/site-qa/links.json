@@ -1,0 +1,2715 @@
+{
+ "$schema": "site-link-report/v1",
+ "pages": 1061,
+ "unresolved": [],
+ "selfAddress": [
+  {
+   "page": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/index.html",
+   "href": "https://litlfred.github.io/smart-ips-pilgrimage/en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  }
+ ],
+ "content": [
+  {
+   "page": "actor-pilgrim.html",
+   "href": "Questionnaire-consent-wallet-questionnaire.html"
+  },
+  {
+   "page": "actor-pilgrim.html",
+   "href": "Questionnaire-shl-configure-privacy-settings.html"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-consent-wallet"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-get"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-sign"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-get"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-put"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-shl-get-manifest"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ar/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-ar.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-es.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-fr.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-ru.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-zh.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-ar.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-es.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-fr.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-ru.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-zh.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-ar.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-es.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-fr.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-ru.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-zh.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-ar.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-es.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-fr.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-ru.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-zh.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-ar.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-es.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-fr.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-ru.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-zh.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/ValueSet-Browser.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/ValueSet-DistributionModel.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.ACTOR.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.CONSENT.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.TRANSACTION.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/ValueSet-Language.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/ValueSet-LicensingModel.html"
+  },
+  {
+   "page": "ar/codings.html",
+   "href": "artifact/ValueSet-OperatingSystem.html"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-consent-wallet"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-get"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-sign"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-get"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-put"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-shl-get-manifest"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p1-health-check-and-consent/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p2-summary-signed/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p5-record-read-and-treated/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p6-break-the-glass/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p7-back-home/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/map/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/walkthrough/P0/"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "pilgrim/p0.webp"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "pilgrim/p1.webp"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "pilgrim/p2.webp"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "pilgrim/p3.webp"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "pilgrim/p4.webp"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "pilgrim/p5.webp"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "pilgrim/p6.webp"
+  },
+  {
+   "page": "ar/index.html",
+   "href": "pilgrim/p7.webp"
+  },
+  {
+   "page": "ar/reference-implementations-malaysia.html",
+   "href": "MySejahtera_qr.png"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "favicon.ico"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "main.dd0ec5f4ab3ef14c.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "polyfills.741ec81967e9c9c3.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "runtime.821ff28674267dd4.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "scripts.5c83cbb4dbb11a83.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "styles.29b9bdb6e634f66b.css"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "webcomponents/webcomponents-loader.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "favicon.ico"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "main.dd0ec5f4ab3ef14c.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "polyfills.741ec81967e9c9c3.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "runtime.821ff28674267dd4.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "scripts.5c83cbb4dbb11a83.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "styles.29b9bdb6e634f66b.css"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "webcomponents/webcomponents-loader.js"
+  },
+  {
+   "page": "business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-consent-wallet"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-get"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-sign"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-get"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-put"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-shl-get-manifest"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "es/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-ar.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-es.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-fr.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-ru.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-zh.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-ar.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-es.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-fr.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-ru.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-zh.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-ar.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-es.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-fr.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-ru.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-zh.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-ar.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-es.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-fr.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-ru.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-zh.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-ar.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-es.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-fr.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-ru.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-zh.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/ValueSet-Browser.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/ValueSet-DistributionModel.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.ACTOR.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.CONSENT.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.TRANSACTION.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/ValueSet-Language.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/ValueSet-LicensingModel.html"
+  },
+  {
+   "page": "es/codings.html",
+   "href": "artifact/ValueSet-OperatingSystem.html"
+  },
+  {
+   "page": "es/index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "es/index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "es/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-consent-wallet"
+  },
+  {
+   "page": "es/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-get"
+  },
+  {
+   "page": "es/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-sign"
+  },
+  {
+   "page": "es/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-get"
+  },
+  {
+   "page": "es/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-put"
+  },
+  {
+   "page": "es/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-shl-get-manifest"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p1-health-check-and-consent/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p2-summary-signed/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p4-scanned-and-checked/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p5-record-read-and-treated/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p6-break-the-glass/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p7-back-home/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/map/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/walkthrough/P0/"
+  },
+  {
+   "page": "es/index.html",
+   "href": "pilgrim/p0.webp"
+  },
+  {
+   "page": "es/index.html",
+   "href": "pilgrim/p1.webp"
+  },
+  {
+   "page": "es/index.html",
+   "href": "pilgrim/p2.webp"
+  },
+  {
+   "page": "es/index.html",
+   "href": "pilgrim/p3.webp"
+  },
+  {
+   "page": "es/index.html",
+   "href": "pilgrim/p4.webp"
+  },
+  {
+   "page": "es/index.html",
+   "href": "pilgrim/p5.webp"
+  },
+  {
+   "page": "es/index.html",
+   "href": "pilgrim/p6.webp"
+  },
+  {
+   "page": "es/index.html",
+   "href": "pilgrim/p7.webp"
+  },
+  {
+   "page": "es/reference-implementations-malaysia.html",
+   "href": "MySejahtera_qr.png"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-consent-wallet"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-get"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-sign"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-get"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-put"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-shl-get-manifest"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "fr/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-ar.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-es.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-fr.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-ru.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-zh.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-ar.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-es.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-fr.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-ru.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-zh.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-ar.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-es.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-fr.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-ru.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-zh.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-ar.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-es.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-fr.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-ru.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-zh.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-ar.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-es.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-fr.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-ru.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-zh.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/ValueSet-Browser.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/ValueSet-DistributionModel.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.ACTOR.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.CONSENT.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.TRANSACTION.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/ValueSet-Language.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/ValueSet-LicensingModel.html"
+  },
+  {
+   "page": "fr/codings.html",
+   "href": "artifact/ValueSet-OperatingSystem.html"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-consent-wallet"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-get"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-sign"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-get"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-put"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-shl-get-manifest"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p1-health-check-and-consent/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p2-summary-signed/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p4-scanned-and-checked/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p5-record-read-and-treated/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p6-break-the-glass/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p7-back-home/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/map/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/walkthrough/P0/"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "pilgrim/p0.webp"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "pilgrim/p1.webp"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "pilgrim/p2.webp"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "pilgrim/p3.webp"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "pilgrim/p4.webp"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "pilgrim/p5.webp"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "pilgrim/p6.webp"
+  },
+  {
+   "page": "fr/index.html",
+   "href": "pilgrim/p7.webp"
+  },
+  {
+   "page": "fr/reference-implementations-malaysia.html",
+   "href": "MySejahtera_qr.png"
+  },
+  {
+   "page": "index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-consent-wallet"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-get"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-sign"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-get"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-put"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-shl-get-manifest"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ru/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-ar.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-es.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-fr.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-ru.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-zh.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-ar.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-es.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-fr.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-ru.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-zh.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-ar.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-es.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-fr.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-ru.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-zh.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-ar.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-es.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-fr.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-ru.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-zh.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-ar.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-es.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-fr.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-ru.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-zh.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/ValueSet-Browser.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/ValueSet-DistributionModel.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.ACTOR.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.CONSENT.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.TRANSACTION.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/ValueSet-Language.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/ValueSet-LicensingModel.html"
+  },
+  {
+   "page": "ru/codings.html",
+   "href": "artifact/ValueSet-OperatingSystem.html"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-consent-wallet"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-get"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-sign"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-get"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-put"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-shl-get-manifest"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p1-health-check-and-consent/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p2-summary-signed/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p5-record-read-and-treated/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p6-break-the-glass/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p7-back-home/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/map/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/walkthrough/P0/"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "pilgrim/p0.webp"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "pilgrim/p1.webp"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "pilgrim/p2.webp"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "pilgrim/p3.webp"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "pilgrim/p4.webp"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "pilgrim/p5.webp"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "pilgrim/p6.webp"
+  },
+  {
+   "page": "ru/index.html",
+   "href": "pilgrim/p7.webp"
+  },
+  {
+   "page": "ru/reference-implementations-malaysia.html",
+   "href": "MySejahtera_qr.png"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-consent-wallet"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-get"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-sign"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-get"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-put"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-shl-get-manifest"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "zh/business-processes.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-ar.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-es.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-fr.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-ru.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs-zh.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-BrowserCs.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-ar.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-es.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-fr.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-ru.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs-zh.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-DistributionModelCs.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.ACTOR.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.CONSENT.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-ar.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-es.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-fr.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-ru.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs-zh.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LanguageCs.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-ar.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-es.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-fr.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-ru.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs-zh.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-LicensingModelCs.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-ar.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-es.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-fr.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-ru.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs-zh.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/CodeSystem-OperatingSystemCs.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/ValueSet-Browser.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/ValueSet-DistributionModel.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.ACTOR.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.CONSENT.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/ValueSet-IPS.HAJJ.TRANSACTION.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/ValueSet-Language.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/ValueSet-LicensingModel.html"
+  },
+  {
+   "page": "zh/codings.html",
+   "href": "artifact/ValueSet-OperatingSystem.html"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-consent-wallet"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-get"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-doc-sign"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-get"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-keys-put"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html#IPS.HAJJ.TRANSACTION-shl-get-manifest"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p1-health-check-and-consent/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p2-summary-signed/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p4-scanned-and-checked/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p5-record-read-and-treated/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p6-break-the-glass/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p7-back-home/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/map/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/walkthrough/P0/"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "pilgrim/p0.webp"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "pilgrim/p1.webp"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "pilgrim/p2.webp"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "pilgrim/p3.webp"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "pilgrim/p4.webp"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "pilgrim/p5.webp"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "pilgrim/p6.webp"
+  },
+  {
+   "page": "zh/index.html",
+   "href": "pilgrim/p7.webp"
+  },
+  {
+   "page": "zh/reference-implementations-malaysia.html",
+   "href": "MySejahtera_qr.png"
+  }
+ ],
+ "diagrams": 36,
+ "inDiagrams": []
+}

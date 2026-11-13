@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr" dir="/fr/">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<script type="application/json" id="fa-translation-meta">{"lang":"fr","translationStatus":"unverified","translationSource":"concepts.html","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":["en","ar","es","fr","ru","zh"]}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concepts — SMART Verifiable IPS for Pilgrimage</title>
+<link rel="canonical" href="../fr/concepts.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="SMART Verifiable IPS for Pilgrimage">
+<link rel="stylesheet" href="../assets/page-layout.css" data-fa-page-layout>
+<script src="../assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="../assets/ig-artifact.css">
+<link rel="stylesheet" href="../assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="../assets/navbar/row-2acuhncsmbg.js" defer></script><script src="../assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<link rel="stylesheet" href="../assets/css/navbar.css"><script src="../assets/navbar/rail-25hc74ko75k.js" defer></script><script src="../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../assets/css/navbar-row.css"><script src="../assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content=".."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root=".." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="..">{"data":"rail-25hc74ko75k","here":"/fr/concepts.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../">SMART Verifiable IPS for Pilgrimage</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<p>Les concepts clés et les abréviations sont décrits ici. D’autres termes sont définis dans le glossaire et la liste des abréviations du <a href="https://worldhealthorganization.github.io/ddcc/concepts.html">guide d’implémentation FHIR de l’OMS sur la documentation numérique des certificats COVID-19</a>.</p>
+
+<h1 id="concepts-clés-et-définitions">Concepts clés et définitions</h1>
+
+<h3 id="pèlerin">Pèlerin</h3>
+<ul>
+  <li>Personne qui accomplit le pèlerinage. Dans le contexte du système de santé, le pèlerin est l’utilisateur principal : il reçoit des services de santé et interagit avec différents prestataires de soins de santé.</li>
+</ul>
+
+<h3 id="pays-dorigine">Pays d’origine</h3>
+<ul>
+  <li>Pays dont le pèlerin est originaire ou dont il a la nationalité. Cela est important dans le contexte des soins de santé, car les informations de santé et les mesures préparatoires peuvent être lancées dans le pays d’origine avant le pèlerinage.</li>
+</ul>
+
+<h3 id="pays-daccueil">Pays d’accueil</h3>
+<ul>
+  <li>Pays qui accueille le pèlerinage, à savoir, dans les exemples de ce guide, le pays fictif Taifafeki. Le pays d’accueil fournit des soins de santé et d’autres services aux pèlerins pendant leur séjour.</li>
+</ul>
+
+<h3 id="établissement-de-santé-du-pèlerinage">Établissement de santé du pèlerinage</h3>
+<ul>
+  <li>Établissement médical mis en place spécifiquement pour répondre aux besoins des pèlerins. Ces établissements vont des cliniques aux hôpitaux et sont équipés pour assurer à la fois les bilans de santé courants et les services d’urgence.</li>
+</ul>
+
+<h3 id="infirmier-chargé-de-lenregistrement">Infirmier chargé de l’enregistrement</h3>
+<ul>
+  <li>Professionnel de santé chargé de l’enregistrement initial des pèlerins dans les établissements de santé du pèlerinage. Cela comprend la collecte et la vérification des informations sur le pèlerin et le lancement du processus de prestation de services de santé.</li>
+</ul>
+
+<h3 id="clinicien">Clinicien</h3>
+<ul>
+  <li>Professionnel médical, tel qu’un médecin ou un infirmier, qui dispense des soins cliniques au pèlerin. Les cliniciens utilisent les informations de santé du pèlerin, consultées via le système de santé, pour proposer des traitements médicaux appropriés.</li>
+</ul>
+
+<h3 id="résumé-international-du-patient-ips">Résumé international du patient (IPS)</h3>
+<ul>
+  <li>Document numérique contenant les informations de santé essentielles d’un patient, conçu pour favoriser la continuité des soins et la sécurité des patients. Pour les pèlerins, l’IPS comprend les données démographiques de base, les antécédents médicaux, les médicaments, les allergies et d’autres informations de santé essentielles pouvant être partagées au-delà des frontières et entre systèmes de santé.</li>
+</ul>
+
+<h3 id="code-qr">Code QR</h3>
+<ul>
+  <li>Étiquette optique lisible par machine contenant des informations sur l’élément auquel elle est apposée. Dans ce contexte, elle contient des données chiffrées qui permettent aux prestataires de soins de santé d’accéder à l’IPS d’un pèlerin lorsqu’elle est scannée.</li>
+</ul>
+
+<h3 id="smart-health-link-shl"><strong>Smart Health Link (SHL)</strong></h3>
+<ul>
+  <li>Un Smart Health Link est un lien spécial qui donne un accès limité dans le temps, protégé par mot de passe et restreint par des moyens cryptographiques à un certificat de santé ou à un document.</li>
+</ul>
+
+<h3 id="pin-numéro-didentification-personnel">PIN (numéro d’identification personnel)</h3>
+<ul>
+  <li>Dispositif de sécurité qui ajoute un niveau de protection supplémentaire aux informations de santé du pèlerin. Le PIN par défaut est souvent la date de naissance du pèlerin ; il est utilisé conjointement avec le code QR pour accéder à l’IPS.</li>
+</ul>
+
+<h3 id="dme-dossier-médical-électronique">DME (dossier médical électronique)</h3>
+<ul>
+  <li>Version numérique du dossier papier d’un patient, utilisée par les prestataires de soins de santé pour le diagnostic et le traitement. Dans le contexte du pèlerinage, les DME sont utilisés par les établissements médicaux du pays d’accueil pour gérer la prise en charge des pèlerins.</li>
+</ul>
+
+<h3 id="hie-échange-dinformations-de-santé">HIE (échange d’informations de santé)</h3>
+<ul>
+  <li>Partage électronique d’informations de santé entre différentes organisations. Dans le contexte du pèlerinage, il désigne le système qui permet aux pays d’origine et au pays d’accueil d’échanger de manière sécurisée les informations de santé des pèlerins.</li>
+</ul>
+
+<h3 id="résumé-international-du-patient-vérifiable-ips-vérifiable">Résumé international du patient vérifiable (IPS vérifiable)</h3>
+<ul>
+  <li>Document IPS accompagné d’une signature numérique permettant de vérifier la provenance de l’IPS au sein d’un réseau de confiance.</li>
+</ul>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/concepts.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/concepts.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/concepts.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/concepts.md", "lines": [{"t":"Key Concepts and Definitions","l":4},{"t":"Pilgrim","l":6},{"t":"Origin Country","l":9},{"t":"Host Country","l":12},{"t":"Pilgrimage Health Facility","l":15},{"t":"Registration Nurse","l":18},{"t":"Clinician","l":21},{"t":"International Patient Summary (IPS)","l":24},{"t":"QR Code","l":27},{"t":"Smart Health Link (SHL)","l":30},{"t":"PIN (Personal Identification Number)","l":33},{"t":"EMR (Electronic Medical Record)","l":36},{"t":"HIE (Health Information Exchange)","l":39},{"t":"Verifiable International Patient Summary (Verifiable IPS)","l":42}]}</script>
+
+<script src="../assets/ig-source-links.js"></script>
+
+
+<script>(function(){
+var f=document.querySelector("#main-content .pt-diagram[data-panel]");
+if(!f||window.__igTaskPanel)return;
+var p=f.getAttribute("data-panel")||"";
+if(!/^[A-Za-z0-9._-][A-Za-z0-9._/-]*[.]tasks[.]json$/.test(p)||p.indexOf("//")>=0)return;
+window.__igTaskPanel=1;
+var dir=p.replace(/[^/]*$/,"");
+var l=document.createElement("link");l.rel="stylesheet";l.href=dir+"task-panel.css";document.head.appendChild(l);
+var s=document.createElement("script");s.src=dir+"task-panel.js";document.body.appendChild(s);
+})();</script>
+<script>(function(){
+var main=document.getElementById("main-content");
+if(!main||main.querySelector(".igi-contents"))return;
+var hs=Array.prototype.filter.call(main.querySelectorAll("h2"),function(h){return !h.closest(".igi-contents,#ig-footer,.ig-edit")&&h.textContent.trim();});
+if(hs.length<2)return;
+var used={};
+function slug(t){var b=t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"section",s=b,i=1;while(used[s]||document.getElementById(s))s=b+"-"+(++i);used[s]=1;return s;}
+var nav=document.createElement("nav");nav.className="igi-contents";nav.setAttribute("aria-label","Contents");
+var t=document.createElement("p");t.className="igi-contents-title";t.textContent="Contents";nav.appendChild(t);
+var ul=document.createElement("ul");
+hs.forEach(function(h){if(!h.id)h.id=slug(h.textContent);var li=document.createElement("li"),a=document.createElement("a");a.href="#"+h.id;
+var c=h.cloneNode(true);Array.prototype.forEach.call(c.querySelectorAll(".anchor-heading,.fa-sec-box,svg,button"),function(n){n.remove();});
+a.textContent=c.textContent.replace(/\s+/g," ").trim();li.appendChild(a);ul.appendChild(li);});
+nav.appendChild(ul);
+var h1=main.querySelector("h1");
+if(h1&&h1.parentNode===main)h1.insertAdjacentElement("afterend",nav);else main.insertBefore(nav,main.firstChild);
+})();</script>
+</main>
+
+</body>
+</html>

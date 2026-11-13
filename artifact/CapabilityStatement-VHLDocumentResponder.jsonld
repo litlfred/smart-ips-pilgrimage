@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "CapabilityStatement-VHLDocumentResponder.jsonld",
+  "@id": "CapabilityStatement-VHLDocumentResponder",
   "@type": "fhir:CapabilityStatement",
   "dcterms:identifier": "CapabilityStatement/VHLDocumentResponder",
   "schema:name": "VHL DocumentResponder",
@@ -22,16 +22,24 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "../ast-data/resources/CapabilityStatement/VHLDocumentResponder--3db5faf0.json"
+        "@id": "../CapabilityStatement-VHLDocumentResponder.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/47ebcb0c17e78684d892e5815ff424bb17b58520/resources/CapabilityStatement/VHLDocumentResponder.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
     }
   ],
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "90093b139808b060e63cfec94920e46f0a1e8422"
+    "prov:used": "47372c0ad541fa81518d30f0f446a219d45894e9"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

@@ -1,0 +1,7 @@
+{
+  "$schema": "fhir-artifact-index-ref/v1",
+  "index": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/47ebcb0c17e78684d892e5815ff424bb17b58520/fhir-artifact-index/index.json",
+  "base": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/47ebcb0c17e78684d892e5815ff424bb17b58520/",
+  "repository": "litlfred/smart-ips-pilgrimage",
+  "commit": "47ebcb0c17e78684d892e5815ff424bb17b58520"
+}

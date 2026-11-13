@@ -8,8 +8,8 @@
   "source": {
     "kind": "output",
     "of": "output-ast",
-    "revision": "90093b139808b060e63cfec94920e46f0a1e8422",
-    "readAt": "2026-11-12"
+    "revision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+    "readAt": "2026-11-13"
   },
   "provenance": {},
   "sidecarApi": "present",
@@ -34,23 +34,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.html",
           "local": "fsh-generated/resources/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.json"
         },
-        "localPath": "output-ast/resources/AllergyIntolerance/72884cad-ebe6-4f43-a51a-2f978275f131--0518761b.json",
+        "localPath": "output-ast/resources/AllergyIntolerance/72884cad-ebe6-4f43-a51a-2f978275f131.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -76,10 +70,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -95,23 +89,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-MyIPS.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-MyIPS.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-MyIPS.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-MyIPS.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Bundle-MyIPS.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-MyIPS.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Bundle-MyIPS.html",
           "local": "fsh-generated/resources/Bundle-MyIPS.json"
         },
-        "localPath": "output-ast/resources/Bundle/MyIPS--2cb6b497.json",
+        "localPath": "output-ast/resources/Bundle/MyIPS.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -137,10 +125,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -153,23 +141,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-PilgrimFolderSearchSetExtended.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-PilgrimFolderSearchSetExtended.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-PilgrimFolderSearchSetExtended.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-PilgrimFolderSearchSetExtended.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Bundle-PilgrimFolderSearchSetExtended.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-PilgrimFolderSearchSetExtended.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Bundle-PilgrimFolderSearchSetExtended.html",
           "local": "fsh-generated/resources/Bundle-PilgrimFolderSearchSetExtended.json"
         },
-        "localPath": "output-ast/resources/Bundle/PilgrimFolderSearchSetExtended--22f368e2.json",
+        "localPath": "output-ast/resources/Bundle/PilgrimFolderSearchSetExtended.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -195,10 +177,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -215,23 +197,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CapabilityStatement-VHLDocumentResponder.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CapabilityStatement-VHLDocumentResponder.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CapabilityStatement-VHLDocumentResponder.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CapabilityStatement-VHLDocumentResponder.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CapabilityStatement-VHLDocumentResponder.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CapabilityStatement-VHLDocumentResponder.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CapabilityStatement-VHLDocumentResponder.html",
           "local": "fsh-generated/resources/CapabilityStatement-VHLDocumentResponder.json"
         },
-        "localPath": "output-ast/resources/CapabilityStatement/VHLDocumentResponder--3db5faf0.json",
+        "localPath": "output-ast/resources/CapabilityStatement/VHLDocumentResponder.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -257,10 +233,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -277,23 +253,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/BrowserCs--957bf9c6.json",
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -319,10 +289,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -339,23 +309,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ar.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs-ar.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/BrowserCs-ar--81420d4d.json",
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs-ar.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -381,10 +345,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -401,23 +365,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-es.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs-es.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/BrowserCs-es--1ade785e.json",
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs-es.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -443,10 +401,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -463,23 +421,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-fr.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs-fr.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/BrowserCs-fr--d32ee508.json",
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs-fr.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -505,10 +457,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -525,23 +477,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ru.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs-ru.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/BrowserCs-ru--39a0d861.json",
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs-ru.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -567,10 +513,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -587,23 +533,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-zh.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs-zh.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/BrowserCs-zh--32e404db.json",
+        "localPath": "output-ast/resources/CodeSystem/BrowserCs-zh.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -629,10 +569,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -649,23 +589,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs--14897780.json",
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -691,10 +625,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -711,23 +645,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ar.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-ar.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-ar--b732fd44.json",
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-ar.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -753,10 +681,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -773,23 +701,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-es.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-es.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-es--5dfbebab.json",
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-es.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -815,10 +737,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -835,23 +757,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-fr.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-fr.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-fr--f9db17e2.json",
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-fr.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -877,10 +793,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -897,23 +813,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ru.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-ru.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-ru--ca64b2d7.json",
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-ru.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -939,10 +849,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -959,23 +869,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-zh.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-zh.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-zh--ff0918d0.json",
+        "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-zh.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1001,10 +905,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1021,23 +925,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-ACTOR-es.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-ACTOR-es--96a17c18.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-ACTOR-es.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1063,10 +961,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1083,23 +981,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-ACTOR-ru.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-ACTOR-ru--94070864.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-ACTOR-ru.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1125,10 +1017,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1145,23 +1037,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-CONSENT-es.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-CONSENT-es--84180777.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-CONSENT-es.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1187,10 +1073,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1207,23 +1093,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-CONSENT-ru.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-CONSENT-ru--bc80eb42.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-CONSENT-ru.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1249,10 +1129,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1269,23 +1149,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-TRANSACTION-es.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-TRANSACTION-es--7a857a72.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-TRANSACTION-es.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1311,10 +1185,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1331,23 +1205,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-TRANSACTION-ru.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-TRANSACTION-ru--31f863b0.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-TRANSACTION-ru.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1373,10 +1241,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1393,23 +1261,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR--50a24aa4.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1435,10 +1297,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1455,23 +1317,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR-ar.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-ar--362026c2.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-ar.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1497,10 +1353,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1517,23 +1373,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR-fr.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-fr--92ccc1da.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-fr.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1559,10 +1409,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1579,23 +1429,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR-zh.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-zh--19b5ae66.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-zh.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1621,10 +1465,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1641,23 +1485,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT--962aeb51.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1683,10 +1521,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1703,23 +1541,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT-ar.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-ar--e3c29c50.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-ar.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1745,10 +1577,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1765,23 +1597,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT-fr.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-fr--6c161ff4.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-fr.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1807,10 +1633,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1827,23 +1653,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT-zh.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-zh--89f1a368.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-zh.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1869,10 +1689,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1889,23 +1709,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION--e83b9360.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1931,10 +1745,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -1951,23 +1765,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION-ar.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-ar--c54510e8.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-ar.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -1993,10 +1801,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2013,23 +1821,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION-fr.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-fr--8b6a0dbb.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-fr.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2055,10 +1857,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2075,23 +1877,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION-zh.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-zh--a662cbc4.json",
+        "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-zh.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2117,10 +1913,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2137,23 +1933,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LanguageCs--5d16baf8.json",
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2179,10 +1969,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2199,23 +1989,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ar.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs-ar.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LanguageCs-ar--85cfaaeb.json",
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs-ar.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2241,10 +2025,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2261,23 +2045,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-es.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs-es.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LanguageCs-es--fb61d92e.json",
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs-es.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2303,10 +2081,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2323,23 +2101,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-fr.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs-fr.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LanguageCs-fr--95c32d8d.json",
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs-fr.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2365,10 +2137,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2385,23 +2157,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ru.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs-ru.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LanguageCs-ru--335a06a4.json",
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs-ru.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2427,10 +2193,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2447,23 +2213,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-zh.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs-zh.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LanguageCs-zh--7e1aca7e.json",
+        "localPath": "output-ast/resources/CodeSystem/LanguageCs-zh.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2489,10 +2249,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2509,23 +2269,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs--f7ed1406.json",
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2551,10 +2305,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2571,23 +2325,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ar.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-ar.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-ar--e2242885.json",
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-ar.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2613,10 +2361,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2633,23 +2381,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-es.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-es.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-es--0b2a0387.json",
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-es.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2675,10 +2417,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2695,23 +2437,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-fr.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-fr.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-fr--9adc3821.json",
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-fr.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2737,10 +2473,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2757,23 +2493,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ru.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-ru.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-ru--5bcbd415.json",
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-ru.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2799,10 +2529,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2819,23 +2549,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-zh.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-zh.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-zh--f4ea15c3.json",
+        "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-zh.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2861,10 +2585,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2881,23 +2605,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs--7a1ecd54.json",
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2923,10 +2641,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -2943,23 +2661,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ar.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-ar.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-ar--7b6cea42.json",
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-ar.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -2985,10 +2697,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3005,23 +2717,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-es.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-es.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-es--031f6c41.json",
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-es.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3047,10 +2753,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3067,23 +2773,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-fr.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-fr.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-fr--18e24c85.json",
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-fr.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3109,10 +2809,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3129,23 +2829,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ru.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-ru.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-ru--d53b77df.json",
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-ru.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3171,10 +2865,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3191,23 +2885,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-zh.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-zh.json"
         },
-        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-zh--824ff269.json",
+        "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-zh.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3233,10 +2921,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3252,23 +2940,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Composition-ExampleComposition.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Composition-ExampleComposition.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Composition-ExampleComposition.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Composition-ExampleComposition.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Composition-ExampleComposition.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Composition-ExampleComposition.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Composition-ExampleComposition.html",
           "local": "fsh-generated/resources/Composition-ExampleComposition.json"
         },
-        "localPath": "output-ast/resources/Composition/ExampleComposition--5db7d069.json",
+        "localPath": "output-ast/resources/Composition/ExampleComposition.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3294,10 +2976,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3324,23 +3006,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.html",
           "local": "fsh-generated/resources/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.json"
         },
-        "localPath": "output-ast/resources/Condition/c4597aa2-688a-401b-a658-70acc6de28c5--98c5069c.json",
+        "localPath": "output-ast/resources/Condition/c4597aa2-688a-401b-a658-70acc6de28c5.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3366,10 +3042,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3396,23 +3072,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.html",
           "local": "fsh-generated/resources/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.json"
         },
-        "localPath": "output-ast/resources/Condition/c64139e7-f02d-409c-bf34-75e8bf23bc89--8ef00774.json",
+        "localPath": "output-ast/resources/Condition/c64139e7-f02d-409c-bf34-75e8bf23bc89.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3438,10 +3108,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3457,23 +3127,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.html",
           "local": "fsh-generated/resources/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.json"
         },
-        "localPath": "output-ast/resources/Consent/6ba64cfe-b224-4d40-87bf-4d8122e65e62--8f924448.json",
+        "localPath": "output-ast/resources/Consent/6ba64cfe-b224-4d40-87bf-4d8122e65e62.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3499,10 +3163,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3518,23 +3182,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.html",
           "local": "fsh-generated/resources/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.json"
         },
-        "localPath": "output-ast/resources/Consent/c7781f44-6df8-4a8b-9e06-0b34263a47c6--7cca50dc.json",
+        "localPath": "output-ast/resources/Consent/c7781f44-6df8-4a8b-9e06-0b34263a47c6.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3560,10 +3218,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3579,23 +3237,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSDocumentReference.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSDocumentReference.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSDocumentReference.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSDocumentReference.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSDocumentReference.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSDocumentReference.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSDocumentReference.html",
           "local": "fsh-generated/resources/DocumentReference-FHIRIPSDocumentReference.json"
         },
-        "localPath": "output-ast/resources/DocumentReference/FHIRIPSDocumentReference--b26cd6ff.json",
+        "localPath": "output-ast/resources/DocumentReference/FHIRIPSDocumentReference.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3621,10 +3273,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3640,23 +3292,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSSignedDocumentReference.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSSignedDocumentReference.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSSignedDocumentReference.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSSignedDocumentReference.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSSignedDocumentReference.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSSignedDocumentReference.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSSignedDocumentReference.html",
           "local": "fsh-generated/resources/DocumentReference-FHIRIPSSignedDocumentReference.json"
         },
-        "localPath": "output-ast/resources/DocumentReference/FHIRIPSSignedDocumentReference--ff4dccc5.json",
+        "localPath": "output-ast/resources/DocumentReference/FHIRIPSSignedDocumentReference.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3682,10 +3328,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3701,23 +3347,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSPDFDocumentReference.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSPDFDocumentReference.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSPDFDocumentReference.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSPDFDocumentReference.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSPDFDocumentReference.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSPDFDocumentReference.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSPDFDocumentReference.html",
           "local": "fsh-generated/resources/DocumentReference-IPSPDFDocumentReference.json"
         },
-        "localPath": "output-ast/resources/DocumentReference/IPSPDFDocumentReference--d4ce40a8.json",
+        "localPath": "output-ast/resources/DocumentReference/IPSPDFDocumentReference.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3743,10 +3383,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3762,23 +3402,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSSignedPDFDocumentReference.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSSignedPDFDocumentReference.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSSignedPDFDocumentReference.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSSignedPDFDocumentReference.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSSignedPDFDocumentReference.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSSignedPDFDocumentReference.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSSignedPDFDocumentReference.html",
           "local": "fsh-generated/resources/DocumentReference-IPSSignedPDFDocumentReference.json"
         },
-        "localPath": "output-ast/resources/DocumentReference/IPSSignedPDFDocumentReference--bbdbbbcc.json",
+        "localPath": "output-ast/resources/DocumentReference/IPSSignedPDFDocumentReference.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3804,10 +3438,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3821,23 +3455,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference.html",
           "local": "fsh-generated/resources/DocumentReference-ex-documentreference.json"
         },
-        "localPath": "output-ast/resources/DocumentReference/ex-documentreference--a110bca8.json",
+        "localPath": "output-ast/resources/DocumentReference/ex-documentreference.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3863,10 +3491,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3880,23 +3508,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference1.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference1.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference1.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference1.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference1.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference1.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference1.html",
           "local": "fsh-generated/resources/DocumentReference-ex-documentreference1.json"
         },
-        "localPath": "output-ast/resources/DocumentReference/ex-documentreference1--aff2be47.json",
+        "localPath": "output-ast/resources/DocumentReference/ex-documentreference1.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3922,10 +3544,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -3944,19 +3566,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/ImplementationGuide-smart.who.int.ips-pilgrimage.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ImplementationGuide-smart.who.int.ips-pilgrimage.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ImplementationGuide-smart.who.int.ips-pilgrimage.ttl"
+        "html": {
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ImplementationGuide-smart.who.int.ips-pilgrimage.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ImplementationGuide-smart.who.int.ips-pilgrimage.html",
           "local": "fsh-generated/resources/ImplementationGuide-smart.who.int.ips-pilgrimage.json"
         },
-        "localPath": "output-ast/resources/ImplementationGuide/smart.who.int.ips-pilgrimage--0cb4d632.json",
+        "localPath": "output-ast/resources/ImplementationGuide/smart.who.int.ips-pilgrimage.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -3982,10 +3602,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4009,23 +3629,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/List-PilgrimFolder.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/List-PilgrimFolder.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/List-PilgrimFolder.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/List-PilgrimFolder.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/List-PilgrimFolder.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/List-PilgrimFolder.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/List-PilgrimFolder.html",
           "local": "fsh-generated/resources/List-PilgrimFolder.json"
         },
-        "localPath": "output-ast/resources/List/PilgrimFolder--e8fb74af.json",
+        "localPath": "output-ast/resources/List/PilgrimFolder.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4051,10 +3665,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4082,23 +3696,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-8adc0999-9468-4ac9-9557-680fa133d625.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-8adc0999-9468-4ac9-9557-680fa133d625.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-8adc0999-9468-4ac9-9557-680fa133d625.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-8adc0999-9468-4ac9-9557-680fa133d625.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Medication-8adc0999-9468-4ac9-9557-680fa133d625.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-8adc0999-9468-4ac9-9557-680fa133d625.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Medication-8adc0999-9468-4ac9-9557-680fa133d625.html",
           "local": "fsh-generated/resources/Medication-8adc0999-9468-4ac9-9557-680fa133d625.json"
         },
-        "localPath": "output-ast/resources/Medication/8adc0999-9468-4ac9-9557-680fa133d625--b7492710.json",
+        "localPath": "output-ast/resources/Medication/8adc0999-9468-4ac9-9557-680fa133d625.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4124,10 +3732,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4154,23 +3762,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.html",
           "local": "fsh-generated/resources/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.json"
         },
-        "localPath": "output-ast/resources/Medication/976d0804-cae0-45ae-afe3-a19f3ceba6bb--d24988ac.json",
+        "localPath": "output-ast/resources/Medication/976d0804-cae0-45ae-afe3-a19f3ceba6bb.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4196,10 +3798,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4212,23 +3814,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.html",
           "local": "fsh-generated/resources/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.json"
         },
-        "localPath": "output-ast/resources/MedicationStatement/47524493-846a-4a26-bae2-4ab03e60f02d--6b7ad251.json",
+        "localPath": "output-ast/resources/MedicationStatement/47524493-846a-4a26-bae2-4ab03e60f02d.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4254,10 +3850,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4270,23 +3866,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.html",
           "local": "fsh-generated/resources/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.json"
         },
-        "localPath": "output-ast/resources/MedicationStatement/c220e36c-eb67-4fc4-9ba1-2fabc52acec5--b51869da.json",
+        "localPath": "output-ast/resources/MedicationStatement/c220e36c-eb67-4fc4-9ba1-2fabc52acec5.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4312,10 +3902,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4331,23 +3921,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.html",
           "local": "fsh-generated/resources/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.json"
         },
-        "localPath": "output-ast/resources/Observation/2639657a-c19a-48e2-82cc-471e13b8ad93--16999f26.json",
+        "localPath": "output-ast/resources/Observation/2639657a-c19a-48e2-82cc-471e13b8ad93.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4373,10 +3957,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4398,23 +3982,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.html",
           "local": "fsh-generated/resources/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.json"
         },
-        "localPath": "output-ast/resources/Observation/26bee0a9-5997-4557-ab9d-c6adbb05b571--709b6a46.json",
+        "localPath": "output-ast/resources/Observation/26bee0a9-5997-4557-ab9d-c6adbb05b571.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4440,10 +4018,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4465,23 +4043,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.html",
           "local": "fsh-generated/resources/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.json"
         },
-        "localPath": "output-ast/resources/Observation/6e39ccf3-f997-4a2b-8f28-b4b71c778c79--4e69d891.json",
+        "localPath": "output-ast/resources/Observation/6e39ccf3-f997-4a2b-8f28-b4b71c778c79.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4507,10 +4079,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4532,23 +4104,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.html",
           "local": "fsh-generated/resources/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.json"
         },
-        "localPath": "output-ast/resources/Observation/a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3--466d8655.json",
+        "localPath": "output-ast/resources/Observation/a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4574,10 +4140,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4599,23 +4165,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.html",
           "local": "fsh-generated/resources/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.json"
         },
-        "localPath": "output-ast/resources/Observation/aa11a2be-3e36-4be7-b58a-6fc3dace2740--abb84152.json",
+        "localPath": "output-ast/resources/Observation/aa11a2be-3e36-4be7-b58a-6fc3dace2740.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4641,10 +4201,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4666,23 +4226,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-b4916505-a06b-460c-9be8-011609282456.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-b4916505-a06b-460c-9be8-011609282456.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-b4916505-a06b-460c-9be8-011609282456.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-b4916505-a06b-460c-9be8-011609282456.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-b4916505-a06b-460c-9be8-011609282456.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-b4916505-a06b-460c-9be8-011609282456.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-b4916505-a06b-460c-9be8-011609282456.html",
           "local": "fsh-generated/resources/Observation-b4916505-a06b-460c-9be8-011609282456.json"
         },
-        "localPath": "output-ast/resources/Observation/b4916505-a06b-460c-9be8-011609282456--047c9f76.json",
+        "localPath": "output-ast/resources/Observation/b4916505-a06b-460c-9be8-011609282456.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4708,10 +4262,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4733,23 +4287,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.html",
           "local": "fsh-generated/resources/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.json"
         },
-        "localPath": "output-ast/resources/Observation/cc354e00-a419-47ea-8b6c-1768b2a01645--c5f1a2ec.json",
+        "localPath": "output-ast/resources/Observation/cc354e00-a419-47ea-8b6c-1768b2a01645.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4775,10 +4323,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4792,23 +4340,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.html",
           "local": "fsh-generated/resources/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.json"
         },
-        "localPath": "output-ast/resources/Organization/45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6--1bf2b6c9.json",
+        "localPath": "output-ast/resources/Organization/45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4834,10 +4376,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4851,23 +4393,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.html",
           "local": "fsh-generated/resources/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.json"
         },
-        "localPath": "output-ast/resources/Organization/890751f4-2924-4636-bab7-efffc7f3cf14--290e1c62.json",
+        "localPath": "output-ast/resources/Organization/890751f4-2924-4636-bab7-efffc7f3cf14.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4893,10 +4429,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4913,23 +4449,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleHostMoH.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleHostMoH.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleHostMoH.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleHostMoH.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleHostMoH.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleHostMoH.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleHostMoH.html",
           "local": "fsh-generated/resources/Organization-ExampleHostMoH.json"
         },
-        "localPath": "output-ast/resources/Organization/ExampleHostMoH--fe92a799.json",
+        "localPath": "output-ast/resources/Organization/ExampleHostMoH.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -4955,10 +4485,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -4975,23 +4505,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleOriginHIE.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleOriginHIE.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleOriginHIE.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleOriginHIE.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleOriginHIE.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleOriginHIE.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleOriginHIE.html",
           "local": "fsh-generated/resources/Organization-ExampleOriginHIE.json"
         },
-        "localPath": "output-ast/resources/Organization/ExampleOriginHIE--3269fd50.json",
+        "localPath": "output-ast/resources/Organization/ExampleOriginHIE.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5017,10 +4541,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -5033,23 +4557,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.html",
           "local": "fsh-generated/resources/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.json"
         },
-        "localPath": "output-ast/resources/Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e7--b925aa2b.json",
+        "localPath": "output-ast/resources/Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e7.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5075,10 +4593,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -5091,23 +4609,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.html",
           "local": "fsh-generated/resources/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.json"
         },
-        "localPath": "output-ast/resources/Practitioner/1c616b24-3895-48c4-9a02-9a64110351ee--29a001ef.json",
+        "localPath": "output-ast/resources/Practitioner/1c616b24-3895-48c4-9a02-9a64110351ee.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5133,10 +4645,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -5156,23 +4668,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/Questionnaire-Questionnaire-ConnectathonSubmission.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Questionnaire-Questionnaire-ConnectathonSubmission.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Questionnaire-Questionnaire-ConnectathonSubmission.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Questionnaire-Questionnaire-ConnectathonSubmission.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Questionnaire-Questionnaire-ConnectathonSubmission.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/Questionnaire-Questionnaire-ConnectathonSubmission.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Questionnaire-Questionnaire-ConnectathonSubmission.html",
           "local": "fsh-generated/resources/Questionnaire-Questionnaire-ConnectathonSubmission.json"
         },
-        "localPath": "output-ast/resources/Questionnaire/Questionnaire-ConnectathonSubmission--033502d7.json",
+        "localPath": "output-ast/resources/Questionnaire/Questionnaire-ConnectathonSubmission.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5198,10 +4704,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -5218,23 +4724,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentPeriod.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentPeriod.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentPeriod.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentPeriod.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentPeriod.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentPeriod.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentPeriod.html",
           "local": "fsh-generated/resources/StructureDefinition-ConsentPeriod.json"
         },
-        "localPath": "output-ast/resources/StructureDefinition/ConsentPeriod--b8ea0cc9.json",
+        "localPath": "output-ast/resources/StructureDefinition/ConsentPeriod.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5260,10 +4760,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -5280,23 +4780,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentVerifiedBy.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentVerifiedBy.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentVerifiedBy.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentVerifiedBy.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentVerifiedBy.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentVerifiedBy.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentVerifiedBy.html",
           "local": "fsh-generated/resources/StructureDefinition-ConsentVerifiedBy.json"
         },
-        "localPath": "output-ast/resources/StructureDefinition/ConsentVerifiedBy--e1278d7a.json",
+        "localPath": "output-ast/resources/StructureDefinition/ConsentVerifiedBy.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5322,10 +4816,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -5342,23 +4836,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjConsent.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjConsent.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjConsent.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjConsent.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjConsent.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjConsent.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjConsent.html",
           "local": "fsh-generated/resources/StructureDefinition-HajjConsent.json"
         },
-        "localPath": "output-ast/resources/StructureDefinition/HajjConsent--638db4fa.json",
+        "localPath": "output-ast/resources/StructureDefinition/HajjConsent.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5384,10 +4872,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -5404,23 +4892,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPS.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPS.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPS.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPS.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPS.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPS.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPS.html",
           "local": "fsh-generated/resources/StructureDefinition-HajjIPS.json"
         },
-        "localPath": "output-ast/resources/StructureDefinition/HajjIPS--244f781d.json",
+        "localPath": "output-ast/resources/StructureDefinition/HajjIPS.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5446,10 +4928,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -5466,23 +4948,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPSComposition.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPSComposition.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPSComposition.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPSComposition.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPSComposition.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPSComposition.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPSComposition.html",
           "local": "fsh-generated/resources/StructureDefinition-HajjIPSComposition.json"
         },
-        "localPath": "output-ast/resources/StructureDefinition/HajjIPSComposition--c17d1c71.json",
+        "localPath": "output-ast/resources/StructureDefinition/HajjIPSComposition.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5508,10 +4984,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -5528,23 +5004,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjOrganization.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjOrganization.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjOrganization.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjOrganization.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjOrganization.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjOrganization.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjOrganization.html",
           "local": "fsh-generated/resources/StructureDefinition-HajjOrganization.json"
         },
-        "localPath": "output-ast/resources/StructureDefinition/HajjOrganization--28288bf1.json",
+        "localPath": "output-ast/resources/StructureDefinition/HajjOrganization.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5570,10 +5040,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       }
     },
     {
@@ -5590,23 +5060,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Browser.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Browser.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Browser.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Browser.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-Browser.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Browser.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-Browser.html",
           "local": "fsh-generated/resources/ValueSet-Browser.json"
         },
-        "localPath": "output-ast/resources/ValueSet/Browser--0c4d6fda.json",
+        "localPath": "output-ast/resources/ValueSet/Browser.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5632,10 +5096,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       },
       "sidecars": {
         "displays": {
@@ -5674,23 +5138,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-DistributionModel.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-DistributionModel.html",
           "local": "fsh-generated/resources/ValueSet-DistributionModel.json"
         },
-        "localPath": "output-ast/resources/ValueSet/DistributionModel--f9dff366.json",
+        "localPath": "output-ast/resources/ValueSet/DistributionModel.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5716,10 +5174,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       },
       "sidecars": {
         "displays": {
@@ -5758,23 +5216,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.html",
           "local": "fsh-generated/resources/ValueSet-IPS.HAJJ.ACTOR.json"
         },
-        "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.ACTOR--980ac916.json",
+        "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.ACTOR.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5800,10 +5252,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       },
       "sidecars": {
         "displays": {
@@ -5842,23 +5294,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html",
           "local": "fsh-generated/resources/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.json"
         },
-        "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.ACTOR.SYSTEM--ae720843.json",
+        "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.ACTOR.SYSTEM.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5884,10 +5330,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       },
       "sidecars": {
         "displays": {
@@ -5926,23 +5372,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.CONSENT.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.CONSENT.html",
           "local": "fsh-generated/resources/ValueSet-IPS.HAJJ.CONSENT.json"
         },
-        "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.CONSENT--1cfeff33.json",
+        "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.CONSENT.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -5968,10 +5408,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       },
       "sidecars": {
         "displays": {
@@ -6010,23 +5450,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.TRANSACTION.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.TRANSACTION.html",
           "local": "fsh-generated/resources/ValueSet-IPS.HAJJ.TRANSACTION.json"
         },
-        "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.TRANSACTION--e73549da.json",
+        "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.TRANSACTION.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -6052,10 +5486,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       },
       "sidecars": {
         "displays": {
@@ -6094,23 +5528,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Language.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Language.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Language.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Language.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-Language.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Language.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-Language.html",
           "local": "fsh-generated/resources/ValueSet-Language.json"
         },
-        "localPath": "output-ast/resources/ValueSet/Language--7d833d21.json",
+        "localPath": "output-ast/resources/ValueSet/Language.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -6136,10 +5564,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       },
       "sidecars": {
         "displays": {
@@ -6178,23 +5606,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-LicensingModel.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-LicensingModel.html",
           "local": "fsh-generated/resources/ValueSet-LicensingModel.json"
         },
-        "localPath": "output-ast/resources/ValueSet/LicensingModel--8801bf6d.json",
+        "localPath": "output-ast/resources/ValueSet/LicensingModel.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -6220,10 +5642,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       },
       "sidecars": {
         "displays": {
@@ -6262,23 +5684,17 @@
         "json": {
           "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.json"
         },
-        "xml": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.xml"
-        },
-        "ttl": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.ttl"
-        },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.html"
+          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-OperatingSystem.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.html",
+          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-OperatingSystem.html",
           "local": "fsh-generated/resources/ValueSet-OperatingSystem.json"
         },
-        "localPath": "output-ast/resources/ValueSet/OperatingSystem--cd37b5fd.json",
+        "localPath": "output-ast/resources/ValueSet/OperatingSystem.json",
         "gates": {
           "size": {
             "verdict": "unknown",
@@ -6304,10 +5720,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "90093b139808b060e63cfec94920e46f0a1e8422",
-          "inputDigest": "5e42c1eec6032f904a67e9fe18b55897cef4c1aec5d4779b90ea967abf2f4ee3"
+          "sourceRevision": "47372c0ad541fa81518d30f0f446a219d45894e9",
+          "inputDigest": "7bcacfca529d8e44c4d94d0e996f20f0d111dd262942978cb6ef7d92ff935ca4"
         },
-        "materializedAt": "2026-11-12T12:51:42.850291726Z"
+        "materializedAt": "2026-11-13T07:47:17.304140675Z"
       },
       "sidecars": {
         "displays": {
@@ -6336,7 +5752,7 @@
   "package": {
     "url": "https://litlfred.github.io/smart-ips-pilgrimage/package.tgz",
     "localPath": "fhir-artifact-index/package.tgz",
-    "bytes": 239016
+    "bytes": 239014
   },
   "fhirVersion": [
     "4.0.1"
