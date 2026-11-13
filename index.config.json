@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "ec3d1cf7993b499e3362297f7fcbad2c79b66f80",
+          "ref": "5b702b9cfd89c3edfc4e4306bf31e2415a89294e",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -43,8 +43,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "ec3d1cf7993b499e3362297f7fcbad2c79b66f80",
-              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Also brings fhir-harness past #382, so this site publishes its translated pages."
+              "ref": "5b702b9cfd89c3edfc4e4306bf31e2415a89294e",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge all and republish' (top bar and home cards in the page's language: cat-harness-tools#2008, cat-harness#1293, fhir-harness#403, smart-ips-pilgrimage#83); freshness rule moves every harness to its current main."
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "d983238a48b267985b42c55dfc94b2a16a3109cf",
+          "ref": "b721f0ffcfeecdfe86850b4f0f307936581cff9a",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -102,8 +102,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "d983238a48b267985b42c55dfc94b2a16a3109cf",
-              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Also brings fhir-harness past #382, so this site publishes its translated pages."
+              "ref": "b721f0ffcfeecdfe86850b4f0f307936581cff9a",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge all and republish' (top bar and home cards in the page's language: cat-harness-tools#2008, cat-harness#1293, fhir-harness#403, smart-ips-pilgrimage#83); freshness rule moves every harness to its current main."
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "7c65ffe6b61dcadf7209db0fcb79df9f0a328c4a",
+          "ref": "88d2589b98ae644111f955894e6daec8304a4f69",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -130,8 +130,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "7c65ffe6b61dcadf7209db0fcb79df9f0a328c4a",
-              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'merge when green and republish'. Freshness: moved to main while the cat-harness-tools#2000 re-pin was open."
+              "ref": "88d2589b98ae644111f955894e6daec8304a4f69",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge all and republish' (top bar and home cards in the page's language: cat-harness-tools#2008, cat-harness#1293, fhir-harness#403, smart-ips-pilgrimage#83); freshness rule moves every harness to its current main."
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "76683b48e15a5c0edf6a56efa670efdc1eebf50d",
+          "ref": "ec52cd5d3e7f34386f421c4bc6bc2637db344224",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,8 +158,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "76683b48e15a5c0edf6a56efa670efdc1eebf50d",
-              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'merge when green and republish'. Freshness: moved to main while the cat-harness-tools#2000 re-pin was open."
+              "ref": "ec52cd5d3e7f34386f421c4bc6bc2637db344224",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge all and republish' (top bar and home cards in the page's language: cat-harness-tools#2008, cat-harness#1293, fhir-harness#403, smart-ips-pilgrimage#83); freshness rule moves every harness to its current main."
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "d8502b1ad11ed7dc4269941f269f66f5006a803f",
+          "ref": "d5b0550b29fdecdd5907eb15cba3cc4e48c782f9",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "d8502b1ad11ed7dc4269941f269f66f5006a803f",
-              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'merge when green and republish'. Freshness: moved to main while the cat-harness-tools#2000 re-pin was open."
+              "ref": "d5b0550b29fdecdd5907eb15cba3cc4e48c782f9",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge all and republish' (top bar and home cards in the page's language: cat-harness-tools#2008, cat-harness#1293, fhir-harness#403, smart-ips-pilgrimage#83); freshness rule moves every harness to its current main."
             }
           }
         }
