@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "437eee5e87bd8f87334b06a4682d3e25c5953943",
+          "ref": "b0a2389d744bd92d905078ba8ffd6c77bcf31769",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -130,8 +130,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "437eee5e87bd8f87334b06a4682d3e25c5953943",
-              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Also brings fhir-harness past #382, so this site publishes its translated pages."
+              "ref": "b0a2389d744bd92d905078ba8ffd6c77bcf31769",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Freshness: folio-assistant-core moved to main while this re-pin was open."
             }
           }
         }

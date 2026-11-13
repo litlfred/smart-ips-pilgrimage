@@ -19,7 +19,7 @@
     {
       "harness": "folio-assistant-core",
       "repository": "litlfred/folio-assistant-core",
-      "ref": "437eee5e87bd8f87334b06a4682d3e25c5953943"
+      "ref": "b0a2389d744bd92d905078ba8ffd6c77bcf31769"
     },
     {
       "harness": "cat-harness",
@@ -208,7 +208,7 @@
     {
       "instance": "folio-assistant-core",
       "repository": "litlfred/folio-assistant-core",
-      "sha": "437eee5e87bd8f87334b06a4682d3e25c5953943",
+      "sha": "b0a2389d744bd92d905078ba8ffd6c77bcf31769",
       "upstreamRoot": "",
       "path": "folio-assistant-core",
       "via": "folio-assistant-core",
@@ -222,7 +222,7 @@
           "id": "*",
           "path": "folio-assistant-core",
           "upstreamPath": ".",
-          "treeDigest": "55e364c13887de6e74bdc8ca4c5e0ca86878426dc0fa792168bf4e3a7c69ac13",
+          "treeDigest": "9196a4cac18a8a0400abcb30f89724367123507b9466bbd4c03968eee73779ad",
           "files": 1592,
           "except": [
             "board",
@@ -236,7 +236,7 @@
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-13",
-        "ref": "437eee5e87bd8f87334b06a4682d3e25c5953943",
+        "ref": "b0a2389d744bd92d905078ba8ffd6c77bcf31769",
         "approver": "declared"
       }
     },
