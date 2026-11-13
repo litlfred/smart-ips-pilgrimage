@@ -7610,8 +7610,48 @@
       "source" : "input/pagecontent/indices.md",
       "resources" : []
     },
+    "journey-cards-ar.html" : {
+      "source" : "input/includes/journey-cards-ar.html",
+      "resources" : []
+    },
+    "journey-cards-es.html" : {
+      "source" : "input/includes/journey-cards-es.html",
+      "resources" : []
+    },
+    "journey-cards-fr.html" : {
+      "source" : "input/includes/journey-cards-fr.html",
+      "resources" : []
+    },
+    "journey-cards-ru.html" : {
+      "source" : "input/includes/journey-cards-ru.html",
+      "resources" : []
+    },
+    "journey-cards-zh.html" : {
+      "source" : "input/includes/journey-cards-zh.html",
+      "resources" : []
+    },
     "journey-cards.html" : {
       "source" : "input/includes/journey-cards.html",
+      "resources" : []
+    },
+    "journey-hero-ar.html" : {
+      "source" : "input/includes/journey-hero-ar.html",
+      "resources" : []
+    },
+    "journey-hero-es.html" : {
+      "source" : "input/includes/journey-hero-es.html",
+      "resources" : []
+    },
+    "journey-hero-fr.html" : {
+      "source" : "input/includes/journey-hero-fr.html",
+      "resources" : []
+    },
+    "journey-hero-ru.html" : {
+      "source" : "input/includes/journey-hero-ru.html",
+      "resources" : []
+    },
+    "journey-hero-zh.html" : {
+      "source" : "input/includes/journey-hero-zh.html",
       "resources" : []
     },
     "journey-hero.html" : {
