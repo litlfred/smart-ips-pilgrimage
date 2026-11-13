@@ -10,7 +10,7 @@
  * (cat-harness-tools `scripts/lib/navbar-strings.ts`). So this template holds:
  * - the guide's title and every group and entry of `sushi-config.yaml`
  *   `menu:`, which are the rail's page labels;
- * - "Table of Contents", the entry the IG build adds for `toc.html`;
+ * - "Table of Contents" and "Releases", the entries the IG build adds;
  * - the rail's own words ("Pages", "Folders", …), from the platform's one list
  *   (`railChromePotEntries`), never typed here.
  *
@@ -56,6 +56,7 @@ export function entries(): PotEntry[] {
   return [
     ...menuEntries(readFileSync(join(ROOT, SUSHI), "utf8")),
     { source: "IG build", line: 1, msgid: "Table of Contents", kind: "ui-string", comment: "Navbar entry for toc.html, which the IG build adds." },
+    { source: "IG build", line: 2, msgid: "Releases", kind: "ui-string", comment: "Navbar entry for the guide's release history, which the IG build adds." },
     ...railChromePotEntries(),
   ];
 }

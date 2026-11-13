@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-ips-pilgrimage\n"
-"POT-Creation-Date: 2026-11-13T07:00:28.524Z\n"
+"POT-Creation-Date: 2026-11-13T07:04:51.822Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -157,6 +157,11 @@ msgstr ""
 #: sushi-config.yaml:129
 #. Navbar entry for reference-implementations.html (sushi-config.yaml menu).
 msgid "Reference Implementations"
+msgstr ""
+
+#: IG build:2
+#. Navbar entry for the guide's release history, which the IG build adds.
+msgid "Releases"
 msgstr ""
 
 #: sushi-config.yaml:126

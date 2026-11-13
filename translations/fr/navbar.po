@@ -185,6 +185,11 @@ msgstr "Résumé"
 msgid "System Actors"
 msgstr "Acteurs système"
 
+#: IG build:2
+#. Navbar entry for the guide's release history, which the IG build adds.
+msgid "Releases"
+msgstr "Versions"
+
 #: IG build:1
 #. Navbar entry for toc.html, which the IG build adds.
 msgid "Table of Contents"
