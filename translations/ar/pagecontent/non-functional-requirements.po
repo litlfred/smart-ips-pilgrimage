@@ -35,4 +35,4 @@ msgstr "توفر المتطلبات غير الوظيفية السمات وال�
 
 #: input/pagecontent/non-functional-requirements.md:1
 msgid "This page provides an overview of illustrative non-functional requirements that may be considered to kick-start the process of designing or adapting the patient mediated exchange of IPS during pilgrimage."
-msgstr "تقدّم هذه الصفحة نظرة عامة على متطلبات غير وظيفية توضيحية يمكن النظر فيها لإطلاق عملية تصميم التبادل الذي يتوسط فيه المريض لـ IPS أثناء الحج أو تكييفه."
+msgstr "تقدّم هذه الصفحة نظرة عامة على متطلبات غير وظيفية توضيحية يمكن النظر فيها لإطلاق عملية تصميم التبادل الذي يتوسط فيه المريض لـ IPS أثناء الزيارة الدينية أو تكييفه."

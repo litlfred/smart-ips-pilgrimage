@@ -35,7 +35,7 @@ msgstr "بدء اتصال آمن"
 
 #: input/pagecontent/sequence-diagrams.md:11
 msgid "Overall Sequence Diagram for Religious Pilgrimage and IPS"
-msgstr "مخطط التسلسل الإجمالي للحج الديني وIPS"
+msgstr "مخطط التسلسل الإجمالي للزيارة الدينية وIPS"
 
 #: input/pagecontent/sequence-diagrams.md:17
 msgid "Routine Synchronization"
@@ -47,7 +47,7 @@ msgstr "تتضمن هذه الصفحة مخططات تسلسل تصف التفا
 
 #: input/pagecontent/sequence-diagrams.md:29
 msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between the Host and Origin countries"
-msgstr ""
+msgstr "سير عمل IPS المتفق عليه لـ «اللقاء السريري للرعاية غير المخطط لها» بين البلد المضيف وبلدان المنشأ"
 
 #~ msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between KSA and Origin countries"
 #~ msgstr "سير عمل IPS المتفق عليه لـ «اللقاء السريري للرعاية غير المخطط لها» بين KSA وبلدان المنشأ"

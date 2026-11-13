@@ -267,27 +267,27 @@ msgstr "oui"
 #: input/business-processes/Health Check and Issue SHL.bpmn:64
 #. Diagram element documentation
 msgid "Counselor from origin country supporting pilgrim during inital health screening"
-msgstr ""
+msgstr "Conseiller du pays d'origine accompagnant le pèlerin lors du dépistage sanitaire initial"
 
 #: input/business-processes/Health Check and Issue SHL.bpmn:178
 #. Diagram label
 msgid "eligible for pilgrimage?"
-msgstr ""
+msgstr "admissible au pèlerinage ?"
 
 #: input/business-processes/Health Check and Issue SHL.bpmn:339
 #. Diagram label
 msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
-msgstr ""
+msgstr "remplir dans le portefeuille le formulaire de consentement au partage de l'IPS pendant le pèlerinage"
 
 #: input/business-processes/Health Check and Issue SHL.bpmn:183
 #. Diagram label
 msgid "inform patient ineligible for pilgrimage"
-msgstr ""
+msgstr "informer le patient qu'il n'est pas admissible au pèlerinage"
 
 #: input/business-processes/Health Check and Issue SHL.bpmn:80
 #. Diagram element documentation
 msgid "The pilgrim"
-msgstr ""
+msgstr "Le pèlerin"
 
 #. Diagram element documentation
 #~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"

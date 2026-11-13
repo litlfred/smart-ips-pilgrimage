@@ -50,7 +50,7 @@ msgstr "检索 VHL 文件夹文档请求的消息语义应当是一个按 <a0>SM
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-message-semantics.md:8
 msgid "The message semantics shall follow a modified version of the <a0>ITI-67</a0> Find Document References response message and for a successful queries return a FHIR bundle that includes all documentReference available in the VHL folder for the pilgrim.  The modification of the ITI-67 transaction is that the Origin Country HIE shall respect the _include search parameter with value List:item as the URL generated in the VHL Payload is of  of the format:"
-msgstr "消息语义应当遵循 <a0>ITI-67</a0> 查找文档引用（Find Document References）响应消息的修改版本，对于成功的查询，返回一个 FHIR bundle，其中包含该朝觐者 VHL 文件夹中所有可用的 documentReference。对 ITI-67 事务的修改在于：来源国 HIE 应当遵从值为 List:item 的 _include 搜索参数，因为 VHL 载荷中生成的 URL 格式为："
+msgstr "消息语义应当遵循 <a0>ITI-67</a0> 查找文档引用（Find Document References）响应消息的修改版本，对于成功的查询，返回一个 FHIR bundle，其中包含该朝圣者 VHL 文件夹中所有可用的 documentReference。对 ITI-67 事务的修改在于：来源国 HIE 应当遵从值为 List:item 的 _include 搜索参数，因为 VHL 载荷中生成的 URL 格式为："
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-message-semantics.md:13
 #, python-brace-format

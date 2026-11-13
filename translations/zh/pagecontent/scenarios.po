@@ -77,15 +77,15 @@ msgstr "这些术语宜从国家 HIE 共享到世卫组织（WHO）术语服务�
 
 #: input/pagecontent/scenarios.md:39
 msgid "This is a \"Phase 1\" scenario in which a Pilgrim in a Host Country has need to seek care from a Host Country Health Worker. The pilgrim mediates exchange by showing the QR code issued by their Origin Country.  The Host Country EMR uses the QR code to access the National IHE to retrieve the patient summary (IPS)."
-msgstr "这是一个“第 1 阶段”场景：东道国的朝觐者需要向东道国卫生工作者寻求照护。朝觐者通过出示其来源国签发的 QR 码来居中进行交换。  东道国 EMR 使用该 QR 码访问国家 IHE，以检索患者摘要（IPS）。"
+msgstr "这是一个“第 1 阶段”场景：东道国的朝圣者需要向东道国卫生工作者寻求照护。朝圣者通过出示其来源国签发的 QR 码来居中进行交换。  东道国 EMR 使用该 QR 码访问国家 IHE，以检索患者摘要（IPS）。"
 
 #: input/pagecontent/scenarios.md:34
 msgid "This is a \"Phase 1\" scenario in which the Origin Country conducts a health assessment for the Pilgrim, obtains consent for eligible pilgrims and issues QR Codes (Smart Health Link) that embeds their patient summary as a IPS. The QR code might be issues on a national health wallet or printed QR code."
-msgstr "这是一个“第 1 阶段”场景：来源国为朝觐者开展健康评估，为符合条件的朝觐者获取同意，并签发嵌入其患者摘要（作为 IPS）的 QR 码（智能健康链接）。QR 码可能签发在国家健康钱包上，也可能是打印的 QR 码。"
+msgstr "这是一个“第 1 阶段”场景：来源国为朝圣者开展健康评估，为符合条件的朝圣者获取同意，并签发嵌入其患者摘要（作为 IPS）的 QR 码（智能健康链接）。QR 码可能签发在国家健康钱包上，也可能是打印的 QR 码。"
 
 #: input/pagecontent/scenarios.md:44
 msgid "This is a \"Phase 2\" scenario in which a Pilgrim in a Host Country is not conscious and must receive emergency care.  The Host Country Health Worker accesses the patient summary via the Pilgrimage Registration Number.   Prior to this emergency care encounter, the Pilgrim would have registered their consent to provide access to their record either through the National Health Wallet App or through the National Pilgrimage Authority."
-msgstr "这是一个“第 2 阶段”场景：东道国的朝觐者失去意识，必须接受急诊照护。  东道国卫生工作者通过朝觐登记号访问患者摘要。   在此次急诊照护就诊之前，朝觐者应已通过国家健康钱包应用或国家朝觐管理机构登记了其允许访问其记录的同意。"
+msgstr "这是一个“第 2 阶段”场景：东道国的朝圣者失去意识，必须接受急诊照护。  东道国卫生工作者通过朝圣登记号访问患者摘要。   在此次急诊照护就诊之前，朝圣者应已通过国家健康钱包应用或国家朝圣管理机构登记了其允许访问其记录的同意。"
 
 #: input/pagecontent/scenarios.md:22
 msgid "This process for sharing National Code Systems and Value Sets that are utilized in a National HIE's profile of the IPS.  Standardized code systems should be utilized wherever possible but this recognizes that National Code Systems may be necessary, particularly for coding of medication terminologies.  The primary goal, at least in the first phases of sharing the terminologies is not semantic interoperability between a National HIE and Host Country EMR, rather it is  to support the Host Country Health Worker to review the IPS."
@@ -109,7 +109,7 @@ msgstr "世卫组织（WHO）GDHCN"
 
 #: input/pagecontent/scenarios.md:1
 msgid "The scenarios below, told as one pilgrim's story: <a0>the home page</a0> follows a fictional Onesan pilgrim through every step of the key process flows, with the question each step raises."
-msgstr ""
+msgstr "以下场景以一位朝圣者的故事讲述：<a0>首页</a0>跟随一位虚构的 Onesa 朝圣者走过关键流程的每一步，以及每一步所引出的问题。"
 
 #~ msgid "The scenarios below, told as one pilgrim's story: <a0>The Pilgrim's Journey</a0> follows a fictional Malaysian pilgrim through every step of the key process flows, with the question each step raises."
 #~ msgstr "以下场景以一位朝觐者的故事讲述：<a0>朝觐者之旅</a0>跟随一位虚构的马来西亚朝觐者走过关键流程的每一步，以及每一步所引出的问题。"
