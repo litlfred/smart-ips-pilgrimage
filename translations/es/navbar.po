@@ -108,7 +108,7 @@ msgstr "Personas (perfiles) genéricas"
 #: cat-harness-tools/scripts/lib/navbar-strings.ts:4
 #. Navbar section heading: the harnesses (layers) the site is built on.
 msgid "Harnesses"
-msgstr "Arneses"
+msgstr "Marcos (harnesses)"
 
 #: sushi-config.yaml:102
 #. Navbar group (sushi-config.yaml menu).

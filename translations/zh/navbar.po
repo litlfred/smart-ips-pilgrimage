@@ -23,7 +23,7 @@ msgstr "面向国家使用的指南适配"
 #: sushi-config.yaml:134
 #. Navbar entry for artifacts.html (sushi-config.yaml menu).
 msgid "Artifact Index"
-msgstr "工件索引"
+msgstr "制品索引"
 
 #: sushi-config.yaml:106
 #. Navbar entry for en/folio-assistant-core/bibliography/ (sushi-config.yaml menu).
