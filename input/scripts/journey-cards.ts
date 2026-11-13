@@ -38,7 +38,7 @@ const HERO = join(ROOT, "input/includes/journey-hero.html");
 const WORKSHOP = "pilgrim-policy-questions";
 const VIEWER = "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage";
 const VERSION = /^version:\s*(\S+)/m.exec(readFileSync(join(ROOT, "sushi-config.yaml"), "utf8"))![1];
-const VIEWS = `en/smart-ips-pilgrimage/archimate/${VERSION}/views`;
+const VIEWS = `en/smart-ips-pilgrimage/archimate/${VERSION}/view`;
 const LOCALES = ["ar", "es", "fr", "ru", "zh"];
 
 /** The page's language: a string to its translation (English when none), and the path up to the site root. */
@@ -180,6 +180,8 @@ function emit(path: string, want: string, check: boolean, same: (a: string, b: s
     console.log(`${rel}: current`);
     return true;
   }
+  // A template whose only change would be its timestamp is left as it is.
+  if (existsSync(path) && same(readFileSync(path, "utf8"), want)) return true;
   mkdirSync(join(path, ".."), { recursive: true });
   writeFileSync(path, want);
   console.log(`${rel}: written`);
