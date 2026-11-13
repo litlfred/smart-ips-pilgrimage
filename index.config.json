@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "b0a2389d744bd92d905078ba8ffd6c77bcf31769",
+          "ref": "7c65ffe6b61dcadf7209db0fcb79df9f0a328c4a",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -130,8 +130,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "b0a2389d744bd92d905078ba8ffd6c77bcf31769",
-              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Freshness: folio-assistant-core moved to main while this re-pin was open."
+              "ref": "7c65ffe6b61dcadf7209db0fcb79df9f0a328c4a",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'merge when green and republish'. Freshness: moved to main while the cat-harness-tools#2000 re-pin was open."
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "24149be4a1b33a9a9aea09be362293f45333aff4",
+          "ref": "d8502b1ad11ed7dc4269941f269f66f5006a803f",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,7 +183,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "24149be4a1b33a9a9aea09be362293f45333aff4",
+              "ref": "d8502b1ad11ed7dc4269941f269f66f5006a803f",
               "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'merge when green and republish'. Freshness: moved to main while the cat-harness-tools#2000 re-pin was open."
             }
           }
