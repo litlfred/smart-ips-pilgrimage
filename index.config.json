@@ -44,7 +44,7 @@
               "by": "litlfred",
               "on": "2026-11-13",
               "ref": "ec3d1cf7993b499e3362297f7fcbad2c79b66f80",
-              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Also brings fhir-harness past #382, so this site publishes its translated pages."
             }
           }
         }
@@ -81,7 +81,7 @@
               "by": "litlfred",
               "on": "2026-11-13",
               "ref": "cf722fb3f8623aa92872129a1788aa992a887e3f",
-              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Also brings fhir-harness past #382, so this site publishes its translated pages."
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "346a04c9e29b4f5c9d51e7720b2a3818d3ebd7f2",
+          "ref": "d983238a48b267985b42c55dfc94b2a16a3109cf",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -102,8 +102,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "346a04c9e29b4f5c9d51e7720b2a3818d3ebd7f2",
-              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
+              "ref": "d983238a48b267985b42c55dfc94b2a16a3109cf",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Also brings fhir-harness past #382, so this site publishes its translated pages."
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "437eee5e87bd8f87334b06a4682d3e25c5953943",
+          "ref": "b0a2389d744bd92d905078ba8ffd6c77bcf31769",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -130,8 +130,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "437eee5e87bd8f87334b06a4682d3e25c5953943",
-              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
+              "ref": "b0a2389d744bd92d905078ba8ffd6c77bcf31769",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Freshness: folio-assistant-core moved to main while this re-pin was open."
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "a107d8ef4947d6ebcc937312b0a6000e59743d1d",
+          "ref": "4de2e3b1409781f3c069bc14eac1c0bd65b52740",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,8 +158,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "a107d8ef4947d6ebcc937312b0a6000e59743d1d",
-              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
+              "ref": "4de2e3b1409781f3c069bc14eac1c0bd65b52740",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Follow-up fix: the rail's strings load from the site's root (cat-harness-tools#1989, cat-harness#1289)."
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "ed3c8eb404200c1d101c99893a67d22102815587",
+          "ref": "76c7d4ac263517d0ba87e346f953a9a106b78b0a",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "ed3c8eb404200c1d101c99893a67d22102815587",
-              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
+              "ref": "76c7d4ac263517d0ba87e346f953a9a106b78b0a",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Follow-up fix: the rail's strings load from the site's root (cat-harness-tools#1989, cat-harness#1289)."
             }
           }
         }
@@ -206,7 +206,7 @@
               "by": "litlfred",
               "on": "2026-11-13",
               "ref": "17204fe9ed49e87b165bf0a8b626b6c69329a2a6",
-              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Also brings fhir-harness past #382, so this site publishes its translated pages."
             }
           }
         }
@@ -231,7 +231,7 @@
               "by": "litlfred",
               "on": "2026-11-13",
               "ref": "0f88368db7560afac6d3e16fd905cbb974350f82",
-              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Also brings fhir-harness past #382, so this site publishes its translated pages."
             }
           }
         }
@@ -253,7 +253,7 @@
               "by": "litlfred",
               "on": "2026-11-13",
               "ref": "3275867e993ecf87ac132e93c1bb2f95613de5f5",
-              "evidence": "Owner litlfred, 2026-11-13: 'release 66' (lifts Q-PHW-60-GATES B); re-pin to folio-assistant#3103's cascade set plus smart-trust-tools 3275867 (smart-trust-tools#64), Q-CONSENT-1 A."
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Also brings fhir-harness past #382, so this site publishes its translated pages."
             }
           }
         }
@@ -270,10 +270,7 @@
   ],
   "site": {
     "landing": "smart-base",
-    "agentRun": true,
-    "publishAfter": [
-      "ig-ast-refresh.yml"
-    ]
+    "agentRun": true
   },
   "mountApprovers": [
     "litlfred"
@@ -326,6 +323,8 @@
         "input/system-requirements/",
         "input/testing/",
         "input/vocabulary/",
+        "translations/",
+        "qa/ig-content-qa.json",
         "fsh-generated/",
         "_genonce.sh",
         "_genonce.bat",
@@ -335,8 +334,7 @@
         "_updatePublisher.bat",
         "publication-request.json",
         "transform_bpmn.xsl",
-        "local-template/",
-        "qa/ig-content-qa.json"
+        "local-template/"
       ]
     }
   }
