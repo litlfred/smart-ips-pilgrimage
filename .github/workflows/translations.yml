@@ -40,6 +40,8 @@ jobs:
         run: bun input/scripts/navbar-pot.ts --check
       - name: The home page's cards and story, in each language, are current with the scenarios and their catalogues
         run: bun input/scripts/journey-cards.ts --check
+      - name: The overview figure, in each language, is current with its drawing and catalogues
+        run: bun input/scripts/workflow-figure.ts --check
       - name: The user-scenario templates are current with the scenarios
         run: bun cat-harness-tools/scripts/run-script.ts translate-user-scenarios:check --instance .
       - name: No translation is marked official

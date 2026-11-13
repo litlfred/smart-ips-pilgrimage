@@ -30,7 +30,7 @@ The steps follow this guide's real
 Malaysia's Hajj Health Card, as a policy precedent.
 </div>
 
-<div style="width:100%" markdown="0">{% include workflow-figure.html %}</div>
+<div style="width:100%" markdown="0">{% lang-fragment workflow-figure.html %}</div>
 
 Each numbered flow in the figure names its moment above, and each moment has its own [ArchiMate view](en/smart-ips-pilgrimage/archimate/2.1.0/view/the-pilgrims-journey/).
 
