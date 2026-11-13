@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: p1-health-check-and-consent\n"
-"POT-Creation-Date: 2026-11-07T21:56:11.610Z\n"
+"POT-Creation-Date: 2026-11-10T20:12:07.193Z\n"
 "PO-Revision-Date: 2026-11-07\n"
 "Last-Translator: agent (unofficial, no human sign-off)\n"
 "Language: fr\n"
@@ -18,115 +18,140 @@ msgstr ""
 
 #: user-scenarios/p1-health-check-and-consent.json:17
 msgctxt "country"
-msgid "Malaysia"
-msgstr "Malaisie"
+msgid "Onesa"
+msgstr ""
 
 #: user-scenarios/p1-health-check-and-consent.json:5
 msgctxt "description"
-msgid "Three months before Hajj, Kamal has the mandatory pre-Hajj health examination with Dr Aisyah. He is fit to travel. She explains what the Hajj Health Record is, who can see it, and for how long. Kamal agrees on his wallet to share his patient summary with Saudi health workers during Hajj, and sets how the link to it is protected. Step 1 of the overview of key process flows."
-msgstr "Trois mois avant le Hajj, Kamal passe l'examen de santé obligatoire préalable au Hajj avec le Dr Aisyah. Il est apte à voyager. Elle lui explique ce qu'est le dossier de santé du Hajj, qui peut le consulter et pendant combien de temps. Kamal accepte, sur son portefeuille, de partager son résumé de patient avec les agents de santé saoudiens pendant le Hajj, et définit la manière dont le lien vers ce résumé est protégé. Étape 1 de l'aperçu des principaux flux de processus."
+msgid "Three months before the pilgrimage, Kamal has the mandatory pre-pilgrimage health examination with Dr Aisyah. He is fit to travel. She explains what the Pilgrimage Health Record is, who can see it, and for how long. Kamal agrees on his wallet to share his patient summary with Taifafeki health workers during the pilgrimage, and sets how the link to it is protected. Step 1 of the overview of key process flows."
+msgstr ""
 
-#: user-scenarios/p1-health-check-and-consent.json:80
+#: user-scenarios/p1-health-check-and-consent.json:156
+msgctxt "scene.label"
+msgid "Consent in his wallet"
+msgstr ""
+
+#: user-scenarios/p1-health-check-and-consent.json:152
+msgctxt "scene.label"
+msgid "Kamal agrees to share"
+msgstr ""
+
+#: user-scenarios/p1-health-check-and-consent.json:148
+msgctxt "scene.label"
+msgid "Pre-pilgrimage check, Dr Aisyah"
+msgstr ""
+
+#: user-scenarios/p1-health-check-and-consent.json:81
 msgctxt "step.enabler"
 msgid "Consent is given with a clinician who can explain it, and confirmed by the pilgrim on his own phone."
 msgstr "Le consentement est donné auprès d'un clinicien capable de l'expliquer, et confirmé par le pèlerin sur son propre téléphone."
 
-#: user-scenarios/p1-health-check-and-consent.json:60
+#: user-scenarios/p1-health-check-and-consent.json:61
 msgctxt "step.experiences.doing"
 msgid "Examines Kamal, finds him fit to travel, and explains what the record is, who can see it and for how long."
 msgstr "Examine Kamal, le déclare apte à voyager, et explique ce qu'est le dossier, qui peut le consulter et pendant combien de temps."
 
-#: user-scenarios/p1-health-check-and-consent.json:54
+#: user-scenarios/p1-health-check-and-consent.json:55
 msgctxt "step.experiences.doing"
-msgid "Has his health examination, listens to Dr Aisyah, and confirms on his wallet that Saudi health workers may see his summary during Hajj; sets how the link is protected."
-msgstr "Passe son examen de santé, écoute le Dr Aisyah et confirme sur son portefeuille que les agents de santé saoudiens peuvent consulter son résumé pendant le Hajj ; définit la manière dont le lien est protégé."
+msgid "Has his health examination, listens to Dr Aisyah, and confirms on his wallet that Taifafeki health workers may see his summary during the pilgrimage; sets how the link is protected."
+msgstr ""
 
-#: user-scenarios/p1-health-check-and-consent.json:76
+#: user-scenarios/p1-health-check-and-consent.json:77
 msgctxt "step.experiences.doing"
 msgid "Records the consent directive."
 msgstr "Enregistre la directive de consentement."
 
-#: user-scenarios/p1-health-check-and-consent.json:72
+#: user-scenarios/p1-health-check-and-consent.json:73
 msgctxt "step.experiences.doing"
 msgid "Shows the consent form and the link's privacy settings, and sends the consent to the HIE."
 msgstr "Affiche le formulaire de consentement et les paramètres de confidentialité du lien, et envoie le consentement à la HIE."
 
-#: user-scenarios/p1-health-check-and-consent.json:66
+#: user-scenarios/p1-health-check-and-consent.json:67
 msgctxt "step.experiences.doing"
 msgid "Sits with him and listens."
 msgstr "S'assoit à ses côtés et écoute."
 
-#: user-scenarios/p1-health-check-and-consent.json:61
+#: user-scenarios/p1-health-check-and-consent.json:62
 msgctxt "step.experiences.feeling"
 msgid "“He understood what he agreed to. That is what matters.”"
 msgstr "« Il a compris ce qu'il a accepté. C'est ce qui compte. »"
 
-#: user-scenarios/p1-health-check-and-consent.json:67
+#: user-scenarios/p1-health-check-and-consent.json:68
 msgctxt "step.experiences.feeling"
 msgid "“One less thing to worry about.”"
 msgstr "« Un souci de moins. »"
 
-#: user-scenarios/p1-health-check-and-consent.json:55
+#: user-scenarios/p1-health-check-and-consent.json:56
 msgctxt "step.experiences.feeling"
 msgid "“So the doctors there will know about my insulin. Good.”"
 msgstr "« Ainsi, les médecins là-bas sauront pour mon insuline. Tant mieux. »"
 
-#: user-scenarios/p1-health-check-and-consent.json:113
+#: user-scenarios/p1-health-check-and-consent.json:114
 msgctxt "step.gaps"
 msgid "The two forms the pilgrim fills in, consent-wallet-questionnaire and shl-configure-privacy-settings, are named in the processes but not defined."
 msgstr "Les deux formulaires que remplit le pèlerin, consent-wallet-questionnaire et shl-configure-privacy-settings, sont nommés dans les processus mais ne sont pas définis."
 
-#: user-scenarios/p1-health-check-and-consent.json:86
+#: user-scenarios/p1-health-check-and-consent.json:87
 msgctxt "step.handoff.carrier"
 msgid "Wallet to HIE"
 msgstr "Du portefeuille à la HIE"
 
-#: user-scenarios/p1-health-check-and-consent.json:87
+#: user-scenarios/p1-health-check-and-consent.json:88
 msgctxt "step.handoff.payload"
 msgid "Consent directive (HajjConsent)"
 msgstr "Directive de consentement (HajjConsent)"
 
-#: user-scenarios/p1-health-check-and-consent.json:83
+#: user-scenarios/p1-health-check-and-consent.json:84
 msgctxt "step.handoff.summary"
 msgid "Kamal's consent is recorded at home"
 msgstr "Le consentement de Kamal est enregistré dans son pays"
 
-#: user-scenarios/p1-health-check-and-consent.json:45
+#: user-scenarios/p1-health-check-and-consent.json:46
 msgctxt "step.headline"
-msgid "Kamal is found fit to travel, hears who can see his Hajj Health Record and for how long, and agrees on his wallet to share it."
-msgstr "Kamal est déclaré apte à voyager, apprend qui peut consulter son dossier de santé du Hajj et pendant combien de temps, et accepte sur son portefeuille de le partager."
+msgid "Kamal is found fit to travel, hears who can see his Pilgrimage Health Record and for how long, and agrees on his wallet to share it."
+msgstr ""
 
-#: user-scenarios/p1-health-check-and-consent.json:134
+#: user-scenarios/p1-health-check-and-consent.json:135
 msgctxt "step.illustration.alt"
-msgid "In a Kuala Terengganu clinic, Dr Aisyah explains a consent card with a shield and a calendar to Kamal, in a batik shirt, who holds his phone with a padlock and a tick; Salmah sits beside him."
-msgstr "Dans une clinique de Kuala Terengganu, le Dr Aisyah explique une carte de consentement ornée d'un bouclier et d'un calendrier à Kamal, en chemise batik, qui tient son téléphone affichant un cadenas et une coche ; Salmah est assise à côté de lui."
+msgid "In a Tanavu clinic, Dr Aisyah explains a consent card with a shield and a calendar to Kamal, in a batik shirt, who holds his phone with a padlock and a tick; Salmah sits beside him."
+msgstr ""
 
 #: user-scenarios/p1-health-check-and-consent.json:5
 msgctxt "step.narrative"
-msgid "Three months before Hajj, Kamal has the mandatory pre-Hajj health examination with Dr Aisyah. He is fit to travel. She explains what the Hajj Health Record is, who can see it, and for how long. Kamal agrees on his wallet to share his patient summary with Saudi health workers during Hajj, and sets how the link to it is protected. Step 1 of the overview of key process flows."
-msgstr "Trois mois avant le Hajj, Kamal passe l'examen de santé obligatoire préalable au Hajj avec le Dr Aisyah. Il est apte à voyager. Elle lui explique ce qu'est le dossier de santé du Hajj, qui peut le consulter et pendant combien de temps. Kamal accepte, sur son portefeuille, de partager son résumé de patient avec les agents de santé saoudiens pendant le Hajj, et définit la manière dont le lien vers ce résumé est protégé. Étape 1 de l'aperçu des principaux flux de processus."
+msgid "Three months before the pilgrimage, Kamal has the mandatory pre-pilgrimage health examination with Dr Aisyah. He is fit to travel. She explains what the Pilgrimage Health Record is, who can see it, and for how long. Kamal agrees on his wallet to share his patient summary with Taifafeki health workers during the pilgrimage, and sets how the link to it is protected. Step 1 of the overview of key process flows."
+msgstr ""
 
-#: user-scenarios/p1-health-check-and-consent.json:79
+#: user-scenarios/p1-health-check-and-consent.json:80
 msgctxt "step.painPoint"
-msgid "Without consent recorded at home, nothing may be shared abroad, and the clinic in Mina starts from nothing."
-msgstr "Sans consentement enregistré dans le pays d'origine, rien ne peut être partagé à l'étranger, et la clinique de Mina part de zéro."
+msgid "Without consent recorded at home, nothing may be shared abroad, and the clinic in Nalemi starts from nothing."
+msgstr ""
 
-#: user-scenarios/p1-health-check-and-consent.json:81
+#: user-scenarios/p1-health-check-and-consent.json:82
 msgctxt "step.policy"
-msgid "Is consent given once for the whole Hajj season, per facility, or per encounter — and can Kamal withdraw it while abroad?"
-msgstr "Le consentement est-il donné une fois pour toute la saison du Hajj, par établissement ou par consultation — et Kamal peut-il le retirer lorsqu'il est à l'étranger ?"
+msgid "Is consent given once for the whole pilgrimage season, per facility, or per encounter — and can Kamal withdraw it while abroad?"
+msgstr ""
 
-#: user-scenarios/p1-health-check-and-consent.json:117
+#: user-scenarios/p1-health-check-and-consent.json:140
+msgctxt "step.record.description"
+msgid "His consent to share his summary for the pilgrimage is recorded"
+msgstr ""
+
+#: user-scenarios/p1-health-check-and-consent.json:141
+msgctxt "step.record.heldWhere"
+msgid "Onesa's HIE; Kamal's wallet"
+msgstr ""
+
+#: user-scenarios/p1-health-check-and-consent.json:118
 msgctxt "step.references.label"
 msgid "Business processes: Health Check and Counseling, Explicit Consent on Wallet; Verbal Consent"
 msgstr "Processus métier : Health Check and Counseling, Explicit Consent on Wallet ; Verbal Consent"
 
-#: user-scenarios/p1-health-check-and-consent.json:127
+#: user-scenarios/p1-health-check-and-consent.json:128
 msgctxt "step.references.label"
-msgid "Profile HajjConsent and its examples CONSENT-MYS and CONSENT-KSA"
-msgstr "Profil HajjConsent et ses exemples CONSENT-MYS et CONSENT-KSA"
+msgid "Profile HajjConsent and its examples CONSENT-XXK and CONSENT-XXR"
+msgstr ""
 
-#: user-scenarios/p1-health-check-and-consent.json:122
+#: user-scenarios/p1-health-check-and-consent.json:123
 msgctxt "step.references.label"
 msgid "Transaction: record consent from wallet"
 msgstr "Transaction : enregistrer le consentement depuis le portefeuille"
@@ -136,20 +161,20 @@ msgctxt "step.title"
 msgid "The health check and the choice to share"
 msgstr "Le bilan de santé et le choix de partager"
 
-#: user-scenarios/p1-health-check-and-consent.json:48
+#: user-scenarios/p1-health-check-and-consent.json:49
 msgctxt "step.touchpoint"
-msgid "Pre-Hajj health examination; consent on the wallet"
-msgstr "Examen de santé préalable au Hajj ; consentement sur le portefeuille"
+msgid "Pre-pilgrimage health examination; consent on the wallet"
+msgstr ""
 
 #: user-scenarios/p1-health-check-and-consent.json:5
 msgctxt "step.when"
-msgid "Three months before Hajj"
-msgstr "Trois mois avant le Hajj"
+msgid "Three months before the pilgrimage"
+msgstr ""
 
 #: user-scenarios/p1-health-check-and-consent.json:16
 msgctxt "step.where"
-msgid "A GP clinic in Kuala Terengganu"
-msgstr "Un cabinet de médecine générale à Kuala Terengganu"
+msgid "A GP clinic in Tanavu"
+msgstr ""
 
 #: user-scenarios/p1-health-check-and-consent.json:4
 msgctxt "title"
@@ -158,10 +183,10 @@ msgstr "P1 · Le bilan de santé et le choix de partager"
 
 #: user-scenarios/p1-health-check-and-consent.json:5
 msgctxt "when"
-msgid "Three months before Hajj"
-msgstr "Trois mois avant le Hajj"
+msgid "Three months before the pilgrimage"
+msgstr ""
 
 #: user-scenarios/p1-health-check-and-consent.json:16
 msgctxt "where"
-msgid "A GP clinic in Kuala Terengganu"
-msgstr "Un cabinet de médecine générale à Kuala Terengganu"
+msgid "A GP clinic in Tanavu"
+msgstr ""
