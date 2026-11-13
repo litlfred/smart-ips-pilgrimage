@@ -1,4 +1,4 @@
-{% include journey-hero.html %}
+{% lang-fragment journey-hero.html %}
 
 This Implementation Guide is intended to support the utilization of verifiable International Patient Summary (IPS) documents during pilgrimage, leveraging [WHO Global Digital Health Certification Network (GDHCN)](https://www.who.int/initiatives/global-digital-health-certification-network) global public health infrastructure.
 
@@ -10,7 +10,7 @@ This implementation guide and set of artifacts are still undergoing development.
 <br clear="all"/>
 ### Eight moments that matter
 
-<div markdown="0">{% include journey-cards.html %}</div>
+<div markdown="0">{% lang-fragment journey-cards.html %}</div>
 <br clear="all"/>
 
 The [user scenarios](scenarios.html) of this guide told as one pilgrim's story,
