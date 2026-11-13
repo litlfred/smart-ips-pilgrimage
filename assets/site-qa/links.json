@@ -1,6 +1,6 @@
 {
  "$schema": "site-link-report/v1",
- "pages": 1061,
+ "pages": 1057,
  "unresolved": [],
  "selfAddress": [
   {
@@ -367,67 +367,11 @@
   },
   {
    "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p1-health-check-and-consent/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p2-summary-signed/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p4-scanned-and-checked/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p5-record-read-and-treated/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p6-break-the-glass/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p7-back-home/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "ar/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
   },
   {
    "page": "ar/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
   },
   {
    "page": "ar/index.html",
@@ -443,22 +387,6 @@
   },
   {
    "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
-  },
-  {
-   "page": "ar/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
   },
   {
@@ -468,74 +396,6 @@
   {
    "page": "ar/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/map/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/walkthrough/P0/"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "pilgrim/p0.webp"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "pilgrim/p1.webp"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "pilgrim/p2.webp"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "pilgrim/p3.webp"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "pilgrim/p4.webp"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "pilgrim/p5.webp"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "pilgrim/p6.webp"
-  },
-  {
-   "page": "ar/index.html",
-   "href": "pilgrim/p7.webp"
   },
   {
    "page": "ar/reference-implementations-malaysia.html",
@@ -955,67 +815,11 @@
   },
   {
    "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p1-health-check-and-consent/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p2-summary-signed/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p4-scanned-and-checked/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p5-record-read-and-treated/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p6-break-the-glass/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p7-back-home/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "es/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
   },
   {
    "page": "es/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
   },
   {
    "page": "es/index.html",
@@ -1031,22 +835,6 @@
   },
   {
    "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
-  },
-  {
-   "page": "es/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
   },
   {
@@ -1056,74 +844,6 @@
   {
    "page": "es/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/map/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/walkthrough/P0/"
-  },
-  {
-   "page": "es/index.html",
-   "href": "pilgrim/p0.webp"
-  },
-  {
-   "page": "es/index.html",
-   "href": "pilgrim/p1.webp"
-  },
-  {
-   "page": "es/index.html",
-   "href": "pilgrim/p2.webp"
-  },
-  {
-   "page": "es/index.html",
-   "href": "pilgrim/p3.webp"
-  },
-  {
-   "page": "es/index.html",
-   "href": "pilgrim/p4.webp"
-  },
-  {
-   "page": "es/index.html",
-   "href": "pilgrim/p5.webp"
-  },
-  {
-   "page": "es/index.html",
-   "href": "pilgrim/p6.webp"
-  },
-  {
-   "page": "es/index.html",
-   "href": "pilgrim/p7.webp"
   },
   {
    "page": "es/reference-implementations-malaysia.html",
@@ -1479,67 +1199,11 @@
   },
   {
    "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p1-health-check-and-consent/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p2-summary-signed/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p4-scanned-and-checked/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p5-record-read-and-treated/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p6-break-the-glass/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p7-back-home/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "fr/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
   },
   {
    "page": "fr/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
   },
   {
    "page": "fr/index.html",
@@ -1555,22 +1219,6 @@
   },
   {
    "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
-  },
-  {
-   "page": "fr/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
   },
   {
@@ -1580,74 +1228,6 @@
   {
    "page": "fr/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/map/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/walkthrough/P0/"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "pilgrim/p0.webp"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "pilgrim/p1.webp"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "pilgrim/p2.webp"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "pilgrim/p3.webp"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "pilgrim/p4.webp"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "pilgrim/p5.webp"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "pilgrim/p6.webp"
-  },
-  {
-   "page": "fr/index.html",
-   "href": "pilgrim/p7.webp"
   },
   {
    "page": "fr/reference-implementations-malaysia.html",
@@ -2011,67 +1591,11 @@
   },
   {
    "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p1-health-check-and-consent/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p2-summary-signed/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p4-scanned-and-checked/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p5-record-read-and-treated/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p6-break-the-glass/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p7-back-home/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "ru/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
   },
   {
    "page": "ru/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
   },
   {
    "page": "ru/index.html",
@@ -2087,22 +1611,6 @@
   },
   {
    "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
-  },
-  {
-   "page": "ru/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
   },
   {
@@ -2112,74 +1620,6 @@
   {
    "page": "ru/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/map/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/walkthrough/P0/"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "pilgrim/p0.webp"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "pilgrim/p1.webp"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "pilgrim/p2.webp"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "pilgrim/p3.webp"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "pilgrim/p4.webp"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "pilgrim/p5.webp"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "pilgrim/p6.webp"
-  },
-  {
-   "page": "ru/index.html",
-   "href": "pilgrim/p7.webp"
   },
   {
    "page": "ru/reference-implementations-malaysia.html",
@@ -2535,67 +1975,11 @@
   },
   {
    "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p1-health-check-and-consent/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p2-summary-signed/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p4-scanned-and-checked/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p5-record-read-and-treated/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p6-break-the-glass/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/p7-back-home/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
-  },
-  {
-   "page": "zh/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p0-keys-and-codes-shared/"
   },
   {
    "page": "zh/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p1-health-check-and-consent/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p2-summary-signed/"
   },
   {
    "page": "zh/index.html",
@@ -2611,22 +1995,6 @@
   },
   {
    "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p3-taken-ill-in-mina/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
-  },
-  {
-   "page": "zh/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p4-scanned-and-checked/"
   },
   {
@@ -2636,74 +2004,6 @@
   {
    "page": "zh/index.html",
    "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p5-record-read-and-treated/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p6-break-the-glass/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/p7-back-home/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/map/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/walkthrough/P0/"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "pilgrim/p0.webp"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "pilgrim/p1.webp"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "pilgrim/p2.webp"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "pilgrim/p3.webp"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "pilgrim/p4.webp"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "pilgrim/p5.webp"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "pilgrim/p6.webp"
-  },
-  {
-   "page": "zh/index.html",
-   "href": "pilgrim/p7.webp"
   },
   {
    "page": "zh/reference-implementations-malaysia.html",

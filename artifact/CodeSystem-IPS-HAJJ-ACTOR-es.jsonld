@@ -30,7 +30,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/47ebcb0c17e78684d892e5815ff424bb17b58520/resources/CodeSystem/IPS-HAJJ-ACTOR-es.json"
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/98d5cef7fa0dd60b9d066c1d201e59eec9da10f1/resources/CodeSystem/IPS-HAJJ-ACTOR-es.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "mirror"
@@ -39,7 +39,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "47372c0ad541fa81518d30f0f446a219d45894e9"
+    "prov:used": "f8c1de435129d48d23e1f403883d9606f85f4480"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

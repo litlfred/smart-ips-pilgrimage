@@ -158,8 +158,7 @@
    "laneHref": "Health Check and Counseling, Explicit Consent (brief).html#lane-Lane_04aqo2l",
    "skills": [
     {
-     "name": "complete-sdc-questionnaire",
-     "href": "../../../en/cat-harness/processes/skills/complete-sdc-questionnaire.html"
+     "name": "complete-sdc-questionnaire"
     }
    ],
    "binding": "unbound"
@@ -183,8 +182,7 @@
    "laneHref": "Health Check and Counseling, Explicit Consent (brief).html#lane-Lane_04aqo2l",
    "skills": [
     {
-     "name": "inform-client",
-     "href": "../../../en/cat-harness/processes/skills/inform-client.html"
+     "name": "inform-client"
     }
    ],
    "binding": "unbound"
@@ -268,8 +266,7 @@
    "laneHref": "Health Check and Counseling, Explicit Consent (brief).html#lane-Lane_04aqo2l",
    "skills": [
     {
-     "name": "inform-client",
-     "href": "../../../en/cat-harness/processes/skills/inform-client.html"
+     "name": "inform-client"
     }
    ],
    "binding": "unbound"
