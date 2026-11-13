@@ -47,7 +47,7 @@ msgstr "فحص ما قبل الزيارة الدينية، د. Aisyah"
 #: user-scenarios/p1-health-check-and-consent.json:81
 msgctxt "step.enabler"
 msgid "Consent is given with a clinician who can explain it, and confirmed by the pilgrim on his own phone."
-msgstr "تُمنح الموافقة بحضور ممارس سريري قادر على شرحها، ويؤكدها الحاج على هاتفه الخاص."
+msgstr "تُمنح الموافقة بحضور ممارس سريري قادر على شرحها، ويؤكدها الزائر على هاتفه الخاص."
 
 #: user-scenarios/p1-health-check-and-consent.json:61
 msgctxt "step.experiences.doing"

@@ -47,7 +47,7 @@ msgstr "تزكية د. Hafiz"
 #: user-scenarios/p6-break-the-glass.json:80
 msgctxt "step.enabler"
 msgid "The pilgrim can opt in to break-the-glass access on his wallet; his country's medical team can identify him."
-msgstr "يمكن للحاج أن يشترك اختياريًا في الوصول بكسر الزجاج عبر محفظته؛ ويمكن للفريق الطبي لبلده التعرّف على هويته."
+msgstr "يمكن للزائر أن يشترك اختياريًا في الوصول بكسر الزجاج عبر محفظته؛ ويمكن للفريق الطبي لبلده التعرّف على هويته."
 
 #: user-scenarios/p6-break-the-glass.json:55
 msgctxt "step.experiences.doing"
@@ -102,7 +102,7 @@ msgstr "الوصول في حالات الطوارئ إلى IPS"
 #: user-scenarios/p6-break-the-glass.json:83
 msgctxt "step.handoff.summary"
 msgid "The summary is reached without the pilgrim's phone"
-msgstr "يُوصَل إلى الملخص من دون هاتف الحاج"
+msgstr "يُوصَل إلى الملخص من دون هاتف الزائر"
 
 #: user-scenarios/p6-break-the-glass.json:46
 msgctxt "step.headline"
@@ -122,12 +122,12 @@ msgstr "في يوم Toreva ينهار Kamal ويُحضَر فاقدًا للوع
 #: user-scenarios/p6-break-the-glass.json:79
 msgctxt "step.painPoint"
 msgid "An unconscious pilgrim cannot show a QR code or say a passcode, and his wife is not there."
-msgstr "لا يستطيع الحاج الفاقد للوعي أن يُبرز رمز QR أو أن يقول رمز المرور، وزوجته ليست هناك."
+msgstr "لا يستطيع الزائر الفاقد للوعي أن يُبرز رمز QR أو أن يقول رمز المرور، وزوجته ليست هناك."
 
 #: user-scenarios/p6-break-the-glass.json:81
 msgctxt "step.policy"
 msgid "Who may open an unconscious pilgrim's record, on what legal basis, and how is it accounted for afterwards?"
-msgstr "مَن يجوز له فتح سجل حاج فاقد للوعي، وعلى أي أساس قانوني، وكيف يُحاسَب على ذلك لاحقًا؟"
+msgstr "مَن يجوز له فتح سجل زائر فاقد للوعي، وعلى أي أساس قانوني، وكيف يُحاسَب على ذلك لاحقًا؟"
 
 #: user-scenarios/p6-break-the-glass.json:112
 msgctxt "step.record.description"

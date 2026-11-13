@@ -137,7 +137,7 @@ msgstr "من دون التحقق من التوقيع، لا تستطيع الع�
 #: user-scenarios/p4-scanned-and-checked.json:82
 msgctxt "step.policy"
 msgid "What protection should the passcode give — and is a passcode shared by every pilgrim of a country a passcode at all?"
-msgstr "ما الحماية التي ينبغي أن يوفرها رمز المرور — وهل رمز المرور الذي يتشاركه جميع حجاج بلد ما يُعدّ رمز مرور أصلًا؟"
+msgstr "ما الحماية التي ينبغي أن يوفرها رمز المرور — وهل رمز المرور الذي يتشاركه جميع زوار بلد ما يُعدّ رمز مرور أصلًا؟"
 
 #: user-scenarios/p4-scanned-and-checked.json:126
 msgctxt "step.record.description"
