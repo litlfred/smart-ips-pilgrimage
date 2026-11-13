@@ -324,6 +324,7 @@
         "input/testing/",
         "input/vocabulary/",
         "translations/",
+        "qa/ig-content-qa.json",
         "fsh-generated/",
         "_genonce.sh",
         "_genonce.bat",
