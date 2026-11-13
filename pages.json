@@ -7846,8 +7846,48 @@
       "source" : "input/pagecontent/trust_domain_use_cases.md",
       "resources" : []
     },
+    "workflow-figure-ar.html" : {
+      "source" : "input/includes/workflow-figure-ar.html",
+      "resources" : []
+    },
+    "workflow-figure-es.html" : {
+      "source" : "input/includes/workflow-figure-es.html",
+      "resources" : []
+    },
+    "workflow-figure-fr.html" : {
+      "source" : "input/includes/workflow-figure-fr.html",
+      "resources" : []
+    },
+    "workflow-figure-ru.html" : {
+      "source" : "input/includes/workflow-figure-ru.html",
+      "resources" : []
+    },
+    "workflow-figure-zh.html" : {
+      "source" : "input/includes/workflow-figure-zh.html",
+      "resources" : []
+    },
     "workflow-figure.html" : {
       "source" : "input/includes/workflow-figure.html",
+      "resources" : []
+    },
+    "workflow-pretty-ar.svg" : {
+      "source" : "input/includes/workflow-pretty-ar.svg",
+      "resources" : []
+    },
+    "workflow-pretty-es.svg" : {
+      "source" : "input/includes/workflow-pretty-es.svg",
+      "resources" : []
+    },
+    "workflow-pretty-fr.svg" : {
+      "source" : "input/includes/workflow-pretty-fr.svg",
+      "resources" : []
+    },
+    "workflow-pretty-ru.svg" : {
+      "source" : "input/includes/workflow-pretty-ru.svg",
+      "resources" : []
+    },
+    "workflow-pretty-zh.svg" : {
+      "source" : "input/includes/workflow-pretty-zh.svg",
       "resources" : []
     },
     "workflow-pretty.svg" : {
