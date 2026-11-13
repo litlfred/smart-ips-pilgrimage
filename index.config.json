@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "76c7d4ac263517d0ba87e346f953a9a106b78b0a",
+          "ref": "ad79d892dd037d0999d8bea433075a920a2a7beb",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-13",
-              "ref": "76c7d4ac263517d0ba87e346f953a9a106b78b0a",
-              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'Merge + re-pin (Recommended)' and 'merge when green and republish' (the RTL navbar and translated navbar labels: cat-harness-tools#1982, #1984; cat-harness#1284, #1285); freshness rule (2026-11-12) moves every harness to its current main. Follow-up fix: the rail's strings load from the site's root (cat-harness-tools#1989, cat-harness#1289)."
+              "ref": "ad79d892dd037d0999d8bea433075a920a2a7beb",
+              "evidence": "owner in Claude Code session https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ, 2026-11-13: 'merge when green and republish'. cat-harness-tools#2000: the scoped-site prune kept deleting BPMN diagrams whose names have spaces, commas or brackets, so this site's publish failed its link check."
             }
           }
         }
