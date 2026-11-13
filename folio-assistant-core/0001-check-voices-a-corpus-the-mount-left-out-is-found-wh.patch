@@ -1,0 +1,98 @@
+From e0fd8cd9e69be0cd0840b31b8c9a63ea64aa6e42 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Fri, 13 Nov 2026 09:10:39 +0000
+Subject: [PATCH] check:voices: a corpus the mount left out is found whichever
+ root switched it off
+
+libraryLeftOutByMount asked optInDirectoriesForGraph for the library's
+opt-in corpus with the default switches. Since cat-harness-tools#1967
+(card Q-OPTIN-DIRS A) resolution follows the MOUNTING root, and a root
+that switches cat-harness.library off resolves no such directory at all.
+So the helper found nothing to ask the lock about, and check:voices
+reported every citation of cat-harness's corpus as 'declares no library
+graph' (82 findings in smart-ips-pilgrimage#66's gates).
+
+It now lists every opt-in corpus the layer declares ("all") and lets the
+lock decide, as before. A corpus the mount took and is missing, and one
+with no lock, are still findings. New case switchedOffAndLeftOutIsNotMounted
+fails before and passes after; check:voices exits 0 in a tree composed
+from #66's lock.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01EucfRmaYQQrwnsT3uqd74C
+---
+ schemas/library-ref.test.ts | 15 +++++++++++++--
+ schemas/library-ref.ts      | 10 +++++++---
+ 2 files changed, 20 insertions(+), 5 deletions(-)
+
+diff --git a/schemas/library-ref.test.ts b/schemas/library-ref.test.ts
+index 2a3b45e7..a3c79adf 100644
+--- a/schemas/library-ref.test.ts
++++ b/schemas/library-ref.test.ts
+@@ -399,7 +399,7 @@ describe("a corpus in an opt-in group the mount left out is not checked here", (
+   // the group on for itself. Its always-on voices cite that corpus, and
+   // check:voices reported each citation as "declares no `library` graph": a
+   // wrong fact about a group the mount deliberately did not take.
+-  function optInLayer(withCorpus: boolean): string {
++  function optInLayer(withCorpus: boolean, switchedOn = true): string {
+     const root = mkdtempSync(join(tmpdir(), "libopt-"));
+     mkdirSync(join(root, "library"), { recursive: true });
+     if (withCorpus) mkdirSync(join(root, "library", "corpus"), { recursive: true });
+@@ -414,7 +414,7 @@ describe("a corpus in an opt-in group the mount left out is not checked here", (
+       root,
+       JSON.stringify({
+         name: "x",
+-        enableSubgraphs: ["x.library"],
++        enableSubgraphs: switchedOn ? ["x.library"] : [],
+         directories: [{ id: "library-graph", path: "library/", graphTypologies: ["cat-harness"] }],
+       }),
+     );
+@@ -436,6 +436,17 @@ describe("a corpus in an opt-in group the mount left out is not checked here", (
+     rmSync(root, { recursive: true, force: true });
+   });
+ 
++  it("switchedOffAndLeftOutIsNotMounted", () => {
++    // Resolution follows the MOUNTING root (cat-harness-tools#1967): where it
++    // switches the group off, the corpus is not listed among the resolved
++    // directories at all. The lock's answer still decides, as it does when the
++    // layer switches the group on for itself (smart-ips-pilgrimage#66).
++    const root = optInLayer(false, false);
++    expect(libraryLeftOutByMount(root, leftOut)).toEqual({ dir: resolve(root, "library", "corpus"), lock: "index.lock.json" });
++    expect(libraryLeftOutByMount(root, taken)).toBeUndefined();
++    rmSync(root, { recursive: true, force: true });
++  });
++
+   it("takenByTheMountAndGoneIsStillAFinding", () => {
+     // The case the third state must not swallow: the lock says the mount took
+     // the corpus, and it is not there.
+diff --git a/schemas/library-ref.ts b/schemas/library-ref.ts
+index fae06719..1a289a9b 100644
+--- a/schemas/library-ref.ts
++++ b/schemas/library-ref.ts
+@@ -202,8 +202,8 @@ export function libraryDirOf(instanceRoot: string): string | undefined {
+  */
+ /**
+  * The layer's corpus directory when it is an opt-in sub-graph that this
+- * checkout's mount chose NOT to take: declared, switched on by the layer for
+- * itself, absent on disk, and absent because the lock left it out. Any other
++ * checkout's mount chose NOT to take: declared, absent on disk, and absent
++ * because the lock left it out. Any other
+  * absence answers `undefined`, so it stays a finding.
+  *
+  * `mountChoice` is {@link mountChoiceOf} unless a test supplies the lock's
+@@ -215,7 +215,11 @@ export function libraryLeftOutByMount(
+ ): { dir: string; lock: string } | undefined {
+   let optIn: string[];
+   try {
+-    optIn = optInDirectoriesForGraph(instanceRoot, "library");
++    // Every opt-in corpus the layer declares, whichever root switched it on or
++    // off: resolution now follows the MOUNTING root (cat-harness-tools#1967,
++    // card Q-OPTIN-DIRS A), which lists a switched-off group not at all, so
++    // the default would hide exactly the directory this asks the lock about.
++    optIn = optInDirectoriesForGraph(instanceRoot, "library", "all");
+   } catch {
+     return undefined;
+   }
+-- 
+2.43.0
+

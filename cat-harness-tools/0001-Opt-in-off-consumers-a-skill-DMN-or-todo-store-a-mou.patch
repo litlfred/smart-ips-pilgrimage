@@ -1,0 +1,748 @@
+From f07fb492612b80c9773d61c7b3c3e5c55b147de0 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Fri, 13 Nov 2026 09:10:24 +0000
+Subject: [PATCH] Opt-in-off consumers: a skill, DMN or todo store a mount left
+ out is not judged here
+
+In a root that mounts cat-harness without its opt-in groups (sdlc,
+work-plan, editorial, kg-ops, platform-ui: smart-ips-pilgrimage#66's
+lock), five gates failed on content absent by consent, not by defect
+(owner cards Q-OPTIN-DIRS A and Q-SKILL-TOOL-LINK B: a target in a
+switched-off group is judged where the group is on):
+
+- scripts/lib/switched-off-skills.ts (new): switchedOffSkillHomes and
+  judgeSkillRef, moved from check-tools.ts (re-exported there, its
+  messages unchanged), so check:tools, check:workflow-refs and kg:audit
+  answer one skill name the same way. A group the mount LEFT OUT is no
+  longer unknowable: the layer's committed skill index (SKILLS.md, else
+  the AGENTS.md region), which readme:sync writes with every opt-in group
+  marked and the layer's own CI keeps current, names its skills, so they
+  are HELD there by name for any referring layer. A left-out group the
+  index does not list keeps the narrower own-layer pass.
+- check:workflow-refs: 70 refs (todo-manager, bean-coordination,
+  rendered-impact, ...) from fhir-harness, folio-assistant-core and
+  smart-trust-tools diagrams into cat-harness's left-out groups are
+  reported as not judged here instead of DANGLING.
+- kg:audit role-skills-resolve: the same for a role's skills.
+- kg:audit test-plan-resolves: an exit DMN in a left-out group
+  (sdlc/processes/decisions/test-certification.dmn) is not judged
+  (dmnRefSwitchedOff); a missing one in a group switched on still is.
+- readme:sync skills:index: a left-out group's sections are kept verbatim
+  from the committed index, in place, so the layer's SKILLS.md and
+  AGENTS.md no longer read stale in a mount (and kind:register:check,
+  which runs readme:sync:check, passes).
+- state:visualizer: a published todos projection whose store is
+  determined absent (StoreAbsentError, smart-ips-pilgrimage#13) renders a
+  page saying so instead of crashing the run; any other failure to
+  resolve the store still throws.
+
+Verified in a tree composed from smart-ips-pilgrimage#66's lock
+(mount-from-lock, state:mount): state:visualizer:check (with a todos
+projection), check:workflow-refs, readme:sync:check, kg:audit:check,
+kind:register:check and check:tools all exit 0, where the first five
+exited 1 before. Six new cases in optin-mounting-root.test.ts (15 pass);
+tsc --noEmit clean; the other touched suites fail the same way with and
+without this change in a mount (environment), and one more passes.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01EucfRmaYQQrwnsT3uqd74C
+---
+ pipeline/readme-sections.ts                  |  60 ++++++-
+ scripts/check-tools.ts                       |  82 ++-------
+ scripts/check-workflow-refs.ts               |  30 +++-
+ scripts/kg-audit.ts                          |  12 +-
+ scripts/lib/switched-off-skills.ts           | 172 +++++++++++++++++++
+ scripts/state-visualizer.ts                  |  36 +++-
+ scripts/test-plan-audit.ts                   |  29 +++-
+ scripts/tests/kg/optin-mounting-root.test.ts |  68 ++++++++
+ 8 files changed, 410 insertions(+), 79 deletions(-)
+ create mode 100644 scripts/lib/switched-off-skills.ts
+
+diff --git a/pipeline/readme-sections.ts b/pipeline/readme-sections.ts
+index 2fa8a022..3aac42c1 100644
+--- a/pipeline/readme-sections.ts
++++ b/pipeline/readme-sections.ts
+@@ -74,7 +74,8 @@ import { AGENT_INSTRUCTIONS_ROLE, assetRolePurpose, INSTANCE_README_ROLE, declar
+ import { generatedBanner } from "@litlfred/bootstrap-tools/scripts/generated-by.ts";
+ import { frontMatter, nodeSummary } from "../scripts/front-matter.ts";
+ import { isSkillMd, skillMdDirs } from "../scripts/known-skills.ts";
+-import { groupOf, optInRootsOf } from "../schemas/kg/opt-in-roots.ts";
++import { groupOf, optInRootsOf, switchedOffGroups } from "../schemas/kg/opt-in-roots.ts";
++import { committedSkillIndex, type CommittedSkillPackage } from "../scripts/lib/switched-off-skills.ts";
+ import { filesSection, processesSection, rolesSection } from "@litlfred/bootstrap-tools/scripts/readme-graph-sections.ts";
+ 
+ // ── Section contract ────────────────────────────────────────────────────────
+@@ -1027,7 +1028,62 @@ export function ownSkillIndex(root: string): { packages: { dir: string; rows: st
+     total += rows.length;
+     packages.push(optIn === undefined ? { dir, rows } : { dir, rows, optIn });
+   }
+-  return { packages, total, notes };
++  // A group the mounting root switched off and the mount LEFT OUT has no files
++  // here, so the list cannot be regenerated for it — and dropping it would
++  // call the layer's own index stale for a part only consent removed. Its
++  // sections are kept verbatim from the committed index, which the layer's
++  // own CI regenerates with every group on (card Q-OPTIN-DIRS A).
++  let leftOut: Set<string>;
++  try {
++    leftOut = new Set(switchedOffGroups(root).leftOut.map((g) => g.id));
++  } catch {
++    leftOut = new Set();
++  }
++  if (leftOut.size === 0) return { packages, total, notes };
++  const committed = committedSkillIndex(root);
++  const carried = committed.filter((p) => p.optIn !== undefined && leftOut.has(p.optIn));
++  if (carried.length === 0) return { packages, total, notes };
++  const merged = mergeCarriedPackages(packages, committed, (p) => p.optIn !== undefined && leftOut.has(p.optIn));
++  const kept = carried.reduce((n, p) => n + p.rows.length, 0);
++  notes.push(`${kept} skill(s) in ${carried.length} director(ies) of opt-in sub-graph(s) the mount left out (${[...new Set(carried.map((p) => p.optIn))].join(", ")}) kept from the committed index`);
++  return { packages: merged, total: total + kept, notes };
++}
++
++/**
++ * The regenerated packages with the committed ones `carry` selects put back
++ * where the committed index had them; a regenerated directory the committed
++ * index does not know stays after the one it followed.
++ */
++export function mergeCarriedPackages(
++  regen: readonly { dir: string; rows: string[]; optIn?: string }[],
++  committed: readonly CommittedSkillPackage[],
++  carry: (p: CommittedSkillPackage) => boolean,
++): { dir: string; rows: string[]; optIn?: string }[] {
++  const byDir = new Map(regen.map((p) => [p.dir, p]));
++  const known = new Set(committed.map((p) => p.dir));
++  const out: { dir: string; rows: string[]; optIn?: string }[] = [];
++  const used = new Set<string>();
++  let ri = 0;
++  for (const c of committed) {
++    if (carry(c)) {
++      if (!byDir.has(c.dir)) out.push(c.optIn === undefined ? { dir: c.dir, rows: [...c.rows] } : { dir: c.dir, rows: [...c.rows], optIn: c.optIn });
++      continue;
++    }
++    const r = byDir.get(c.dir);
++    if (r === undefined || used.has(r.dir)) continue;
++    for (; ri < regen.length && regen[ri] !== r; ri++) {
++      const q = regen[ri]!;
++      if (!known.has(q.dir) && !used.has(q.dir)) {
++        out.push(q);
++        used.add(q.dir);
++      }
++    }
++    out.push(r);
++    used.add(r.dir);
++    ri++;
++  }
++  for (const q of regen) if (!used.has(q.dir)) out.push(q);
++  return out;
+ }
+ 
+ const INDEX_FOOTER =
+diff --git a/scripts/check-tools.ts b/scripts/check-tools.ts
+index cd2c6545..f70a0e8e 100644
+--- a/scripts/check-tools.ts
++++ b/scripts/check-tools.ts
+@@ -19,7 +19,7 @@
+  * @module scripts/check-tools
+  * @covers tools, skills
+  */
+-import { existsSync, readdirSync, readFileSync } from "node:fs";
++import { existsSync, readFileSync } from "node:fs";
+ import { join, relative, resolve } from "node:path";
+ 
+ import { tools, toolsOf } from "../tools/discover.js";
+@@ -27,11 +27,9 @@ import { TOOL_TYPES, isInjectionSafe, toolTypeNameOf } from "../schemas/tools/to
+ import { alternativesWithoutSelection, danglingRemedies, networkToolsWithoutRemedies } from "../schemas/tools/tool.js";
+ import { toJsonSchema } from "../schemas/kg/to-json-schema.js";
+ import { contractFile, skillContracts } from "./skill-contracts.js";
+-import { corpusScopeFor, isSkillMd, knownSkills as knownSkillsIn, workflowFiles } from "./known-skills.js";
+-import { defaultEnabledSubgraphs, instanceDirectoryForGraph, instanceRootsIn, nestedDirectories, readDeclaration, siblingScopeFor } from "../schemas/kg/cat-harness.js";
+-import { optInRootsOf } from "../schemas/kg/opt-in-roots.js";
+-import { isSubgraphEnabled } from "../schemas/kg/opt-in-subgraphs.js";
+-import { leftOutByMount } from "../schemas/kg/remote-mount.js";
++import { corpusScopeFor, knownSkills as knownSkillsIn, workflowFiles } from "./known-skills.js";
++import { instanceDirectoryForGraph, instanceRootsIn, nestedDirectories, readDeclaration, siblingScopeFor } from "../schemas/kg/cat-harness.js";
++import { judgeSkillRef, switchedOffSkillHomes } from "./lib/switched-off-skills.ts";
+ import { inlineToolDeclarations } from "../schemas/tools/tool-folders.js";
+ import { resolveImplementingPath } from "../schemas/kg/harness-config.js";
+ import type { ToolDefinition } from "../schemas/tools/tool.js";
+@@ -208,7 +206,7 @@ export function unresolvedPaths(
+  *
+  *  - **36 non-skills admitted.** `skills/memory/` then held agent-memory nodes,
+  *    every one a `.md` in a declared directory and none an instruction body.
+- *    {@link isSkillMd} excludes them by their `$schema:` line; a directory
++ *    `isSkillMd` excludes them by their `$schema:` line; a directory
+  *    scan cannot. So `satisfies: ["the-complement"]` would have RESOLVED —
+  *    a Tool claiming to implement a memory entry, checked and passed.
+  *  - **2 real skills missed.** `bootstrap/skills/` holds its skills DIRECTLY
+@@ -477,75 +475,21 @@ export function inlineToolFindings(
+ }
+ 
+ /**
+- * What the root that mounted each layer switched off, as far as a check can
+- * see it (owner, 2026-11-12, card Q-SKILL-TOOL-LINK B: a Tool keeps its
+- * `satisfies`, and a target in a switched-off group is not judged here).
+- *
+- * - `held`: skill name → the switched-off groups holding it, for a group
+- *   still on disk (a mount that predates `except`, or a checkout's own).
+- * - `leftOut`: layer root → its switched-off groups the mount LEFT OUT
+- *   (`leftOutByMount`). Their skills cannot be listed: nothing is on disk.
++ * What the root that mounted each layer switched off (owner, 2026-11-12, card
++ * Q-SKILL-TOOL-LINK B). Shared with `check:workflow-refs` and `kg:audit`, so
++ * the three judge a skill name the same way: see `lib/switched-off-skills.ts`.
+  */
+-export function switchedOffSkillHomes(layers: readonly string[]): { held: Map<string, string[]>; leftOut: Map<string, string[]> } {
+-  const held = new Map<string, string[]>();
+-  const leftOut = new Map<string, string[]>();
+-  const walk = (dir: string, group: string): void => {
+-    let entries;
+-    try {
+-      entries = readdirSync(dir, { withFileTypes: true });
+-    } catch {
+-      return;
+-    }
+-    for (const e of entries) {
+-      const p = join(dir, e.name);
+-      if (e.isDirectory()) walk(p, group);
+-      else if (e.name.endsWith(".md") && isSkillMd(p)) {
+-        const name = e.name.slice(0, -3);
+-        held.set(name, [...new Set([...(held.get(name) ?? []), group])]);
+-      }
+-    }
+-  };
+-  for (const layer of layers) {
+-    let enabled;
+-    try {
+-      enabled = defaultEnabledSubgraphs(layer);
+-    } catch {
+-      continue; // an unreadable declaration is `check:harness-dirs`' finding
+-    }
+-    for (const g of optInRootsOf(layer)) {
+-      if (isSubgraphEnabled(enabled, g.id)) continue;
+-      if (existsSync(g.abs)) walk(g.abs, g.id);
+-      else if (leftOutByMount(layer, g.abs)) leftOut.set(layer, [...(leftOut.get(layer) ?? []), g.id]);
+-    }
+-  }
+-  return { held, leftOut };
+-}
++export { switchedOffSkillHomes };
+ 
+-/**
+- * Whether a `satisfies` target no visible layer holds is a defect HERE.
+- *
+- * - Held in a group the mounting root switched off: not judged — absent by
+- *   consent, judged where the group is switched on.
+- * - The Tool's OWN layer has switched-off groups the mount left out: not
+- *   judged — the skill may be in one, and nothing here can say. The layer
+- *   that declares the Tool judges it in its own checkout, where those groups
+- *   are on. A Tool of any OTHER layer gets no such pass: a consumer's own
+- *   Tool naming a skill it has switched off is a real dangling edge.
+- * - Otherwise: dangling. A target in a group the root switched ON and that
+- *   is missing, and a name no layer declares, both land here.
+- */
++/** Whether a `satisfies` target no visible layer holds is a defect HERE: `judgeSkillRef`, worded for a Tool. */
+ export function judgeSatisfiesTarget(
+   skill: string,
+   toolLayer: string | undefined,
+   off: { held: ReadonlyMap<string, readonly string[]>; leftOut: ReadonlyMap<string, readonly string[]> },
+ ): { groups: string[]; reason: string } | undefined {
+-  const held = off.held.get(skill);
+-  if (held !== undefined) return { groups: [...held], reason: "held in an opt-in sub-graph the mounting root switched off" };
+-  const unseen = toolLayer === undefined ? undefined : off.leftOut.get(toolLayer);
+-  if (unseen !== undefined && unseen.length > 0) {
+-    return { groups: [...unseen], reason: "not visible here: the Tool's own layer has opt-in sub-graphs the mount left out, and the skill may be in one; judged where they are switched on" };
+-  }
+-  return undefined;
++  const why = judgeSkillRef(skill, toolLayer, off);
++  if (why === undefined || off.held.has(skill)) return why;
++  return { ...why, reason: "not visible here: the Tool's own layer has opt-in sub-graphs the mount left out, and the skill may be in one; judged where they are switched on" };
+ }
+ 
+ export function checkTools(instance?: string): ToolCheck {
+diff --git a/scripts/check-workflow-refs.ts b/scripts/check-workflow-refs.ts
+index fb26aaf4..e4ab1c72 100644
+--- a/scripts/check-workflow-refs.ts
++++ b/scripts/check-workflow-refs.ts
+@@ -17,10 +17,11 @@
+ import { HARNESS_ROOT } from "./lib/roots.ts";
+ import { existsSync } from "node:fs";
+ import { workflowFiles, corpusScopeFor } from "./known-skills.js";
+-import { join, relative } from "node:path";
++import { join, relative, resolve, sep } from "node:path";
+ import { loadProcessModel, isActivity, processDiagrams } from "../src/workflow/process-model.js";
+ import { knownSkills } from "./known-skills.js";
+-import { repoRootFor } from "../schemas/kg/cat-harness.js";
++import { instanceRootsIn, repoRootFor, siblingScopeFor } from "../schemas/kg/cat-harness.js";
++import { judgeSkillRef, switchedOffSkillHomes } from "./lib/switched-off-skills.ts";
+ import { beanCallFindings, noteTakers, type DiagramFacts } from "./check-bean-lifecycle-calls.ts";
+ 
+ interface Dangling { file: string; node: string; ref: string }
+@@ -73,6 +74,10 @@ function emptyInstances(): string[] {
+ }
+ 
+ const dangling: Dangling[] = [];
++/** Refs no visible layer holds, before {@link judgeSkillRef} splits them into dangling and not judged here. */
++const unresolved: Array<Dangling & { abs: string }> = [];
++/** Refs to a skill in an opt-in sub-graph the mounting root switched off (card Q-SKILL-TOOL-LINK B): judged where it is on. */
++const notJudged: Array<Dangling & { groups: string[]; reason: string }> = [];
+ const coverage: Coverage[] = [];
+ 
+ /**
+@@ -156,7 +161,7 @@ for (const file of files) {
+     const refs = node.skills ?? [];
+     if (refs.length === 0) uncovered.push(node.id);
+     for (const ref of refs) {
+-      if (!skills.has(ref)) dangling.push({ file: relative(INSTANCE_ROOT, file), node: node.id, ref });
++      if (!skills.has(ref)) unresolved.push({ abs: file, file: relative(INSTANCE_ROOT, file), node: node.id, ref });
+     }
+   }
+   coverage.push({
+@@ -196,6 +201,20 @@ for (const file of files) {
+ }
+ }
+ 
++// The same split `check:tools` makes for a `satisfies` target, from the same
++// resolver, so the two cannot disagree about one skill name.
++if (unresolved.length > 0) {
++  const layers = [...new Set([resolve(INSTANCE_ROOT), ...instanceRootsIn(siblingScopeFor(INSTANCE_ROOT)).map((r) => resolve(r))])];
++  const layerOf = (abs: string): string | undefined =>
++    layers.filter((l) => abs === l || abs.startsWith(l + sep)).sort((a, b) => b.length - a.length)[0];
++  const off = switchedOffSkillHomes(layers);
++  for (const { abs, ...d } of unresolved) {
++    const why = judgeSkillRef(d.ref, layerOf(resolve(abs)), off);
++    if (why === undefined) dangling.push(d);
++    else notJudged.push({ ...d, ...why });
++  }
++}
++
+ console.log(`Workflow skill refs  (${knownCount} skills known across ${INSTANCES.length} instances, ${fileCount} diagrams)\n`);
+ 
+ // The vacuity report, ABOVE the findings rather than below them: a layer
+@@ -221,6 +240,11 @@ for (const c of coverage) {
+   console.log(`  ${mark} ${c.file.padEnd(38)} ${String(c.covered).padStart(2)}/${String(c.total).padEnd(2)}  ${pct}%`);
+ }
+ 
++if (notJudged.length) {
++  console.log(`\n· ${notJudged.length} ref(s) not judged here — the skill is in an opt-in sub-graph the mounting root switched off (judged where it is switched on):`);
++  for (const d of notJudged) console.log(`  · ${d.file} · ${d.node} → "${d.ref}" (${d.groups.join(", ")})`);
++}
++
+ if (dangling.length) {
+   console.log("\nDANGLING — the ref names no skill in this repository:");
+   for (const d of dangling) {
+diff --git a/scripts/kg-audit.ts b/scripts/kg-audit.ts
+index e31d369d..d98f5675 100644
+--- a/scripts/kg-audit.ts
++++ b/scripts/kg-audit.ts
+@@ -85,6 +85,7 @@ import { auditFolioBlocks } from "./block-reference-resolver.js";
+ // `Dirent` for the orphan-sidecar sweep (bean `3jj9`), which walks the
+ // results tree with `withFileTypes` to tell a directory from a file.
+ import { withPriorAdversarialReviews } from "./lib/kg-qa-carry.ts";
++import { judgeSkillRef, switchedOffSkillHomes } from "./lib/switched-off-skills.ts";
+ import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, writeFileSync, writeSync } from "node:fs";
+ import { basename, dirname, join, relative, resolve } from "node:path";
+ 
+@@ -1567,9 +1568,18 @@ function auditRoles(
+   const skillEdges = skillEdgeIndex([root, ...orderedDependencies(root).map((d) => d.rootPath)]);
+   const anyActorDeclaresRoles = actors.some((a) => (a.roles ?? []).length > 0);
+ 
++  // A skill in an opt-in sub-graph the mounting root switched off is not
++  // judged here (card Q-SKILL-TOOL-LINK B): the same resolver `check:tools`
++  // and `check:workflow-refs` ask, over the same layers `skillEdges` reads.
++  let off: ReturnType<typeof switchedOffSkillHomes> | undefined;
++  const switchedOff = (s: string): boolean => {
++    off ??= switchedOffSkillHomes([root, ...orderedDependencies(root).map((d) => d.rootPath)]);
++    return judgeSkillRef(s, root, off) !== undefined;
++  };
++
+   return graph.roles.filter((r) => subjects.has(r.id)).map((r) => {
+     const badSkills = r.skills
+-      .filter((s) => !resolvableSkills.has(s))
++      .filter((s) => !resolvableSkills.has(s) && !switchedOff(s))
+       .map((s) => ({
+         where: s,
+         detail: `role "${r.id}" carries skill "${s}", which resolves to no skill in this instance or anything it \`needs\`.`,
+diff --git a/scripts/lib/switched-off-skills.ts b/scripts/lib/switched-off-skills.ts
+new file mode 100644
+index 00000000..f85ce56e
+--- /dev/null
++++ b/scripts/lib/switched-off-skills.ts
+@@ -0,0 +1,172 @@
++/**
++ * Where a skill a check cannot find lives, when the root that mounted its
++ * layer switched that part of the layer off (owner, 2026-11-12, cards
++ * Q-OPTIN-DIRS A and Q-SKILL-TOOL-LINK B: a target in a switched-off group is
++ * not judged here; it is judged where the group is switched on).
++ *
++ * @module scripts/lib/switched-off-skills
++ * @graphNode none — a resolver shared by the checks that follow skill names
++ *
++ * One answer for every check that follows a skill name across layers —
++ * `check:tools` (`satisfies`), `check:workflow-refs` (`<…:skill ref>` in a
++ * diagram) and `kg:audit` (`role-skills-resolve`) — so the three cannot
++ * disagree about the same name.
++ *
++ * ## A group the mount LEFT OUT is not unknowable
++ *
++ * A mount that switches a group off leaves its files out, so its skills
++ * cannot be listed from disk. They can be listed from the layer's committed
++ * skill index: `readme:sync` writes every skill of every opt-in group into
++ * `SKILLS.md` (or the `skills:index` region of `AGENTS.md`) under a heading
++ * marked `(opt-in \`<layer>.<group>\`)`, and `readme:sync:check` keeps it
++ * current in the layer's own CI, where every group is on. So a name that the
++ * layer's committed index places in a group the mount left out is HELD there,
++ * by name, exactly as a group still on disk is — not a guess. Only a left-out
++ * group the index does not list stays unknowable, and keeps the narrower pass
++ * {@link judgeSkillRef} gives the layer's own refs.
++ */
++import { existsSync, readdirSync, readFileSync } from "node:fs";
++import { join } from "node:path";
++
++import { defaultEnabledSubgraphs } from "../../schemas/kg/cat-harness.js";
++import { optInRootsOf } from "../../schemas/kg/opt-in-roots.js";
++import { isSubgraphEnabled } from "../../schemas/kg/opt-in-subgraphs.js";
++import { leftOutByMount } from "../../schemas/kg/remote-mount.js";
++import { isSkillMd } from "../known-skills.js";
++
++/** One directory's section of a committed skill index. */
++export interface CommittedSkillPackage {
++  /** The directory, relative to the layer root, without its trailing slash. */
++  dir: string;
++  /** The table rows, verbatim. */
++  rows: string[];
++  /** `<layer>.<group>` for a directory inside an opt-in sub-graph. */
++  optIn?: string;
++}
++
++const PACKAGE_HEADING = /^\*\*`([^`]+)\/`\*\* \((\d+)\)(?: \(opt-in `([^`]+)`\))?\s*$/;
++const ROW_NAME = /^\|\s*(?:\[)?`([^`]+)`/;
++
++/**
++ * The sections of a committed full skill index (`renderFullSkillIndex`'s
++ * shape) in `text`, in order. A section whose row count does not match its
++ * heading is dropped: a hand-edited index is not a record to trust.
++ */
++export function parseSkillIndex(text: string): CommittedSkillPackage[] {
++  const lines = text.split("\n");
++  const out: CommittedSkillPackage[] = [];
++  for (let i = 0; i < lines.length; i++) {
++    const m = PACKAGE_HEADING.exec(lines[i]!);
++    if (!m) continue;
++    const rows: string[] = [];
++    let j = i + 1;
++    while (j < lines.length && !lines[j]!.startsWith("|")) j++;
++    j += 2; // the header row and its delimiter
++    for (; j < lines.length && lines[j]!.startsWith("|"); j++) rows.push(lines[j]!);
++    if (rows.length !== Number(m[2])) continue;
++    out.push(m[3] === undefined ? { dir: m[1]!, rows } : { dir: m[1]!, rows, optIn: m[3] });
++    i = j - 1;
++  }
++  return out;
++}
++
++/** The skill name a row of the index lists. */
++export function skillOfRow(row: string): string | undefined {
++  return ROW_NAME.exec(row)?.[1];
++}
++
++/** The layer's committed skill index: `SKILLS.md`, else the `AGENTS.md` region. Empty when it has none. */
++export function committedSkillIndex(layer: string): CommittedSkillPackage[] {
++  for (const f of ["SKILLS.md", "AGENTS.md"]) {
++    const p = join(layer, f);
++    if (!existsSync(p)) continue;
++    const found = parseSkillIndex(readFileSync(p, "utf-8"));
++    if (found.length > 0) return found;
++  }
++  return [];
++}
++
++/**
++ * What the root that mounted each layer switched off, as far as a check can
++ * see it.
++ *
++ * - `held`: skill name → the switched-off groups holding it — read from disk
++ *   for a group still there, and from the layer's committed skill index for
++ *   a group the mount left out.
++ * - `leftOut`: layer root → its switched-off groups the mount LEFT OUT whose
++ *   skills no committed index lists. Their skills cannot be named here.
++ */
++export function switchedOffSkillHomes(layers: readonly string[]): { held: Map<string, string[]>; leftOut: Map<string, string[]> } {
++  const held = new Map<string, string[]>();
++  const leftOut = new Map<string, string[]>();
++  const hold = (name: string, group: string): void => {
++    held.set(name, [...new Set([...(held.get(name) ?? []), group])]);
++  };
++  const walk = (dir: string, group: string): void => {
++    let entries;
++    try {
++      entries = readdirSync(dir, { withFileTypes: true });
++    } catch {
++      return;
++    }
++    for (const e of entries) {
++      const p = join(dir, e.name);
++      if (e.isDirectory()) walk(p, group);
++      else if (e.name.endsWith(".md") && isSkillMd(p)) hold(e.name.slice(0, -3), group);
++    }
++  };
++  for (const layer of layers) {
++    let enabled;
++    try {
++      enabled = defaultEnabledSubgraphs(layer);
++    } catch {
++      continue; // an unreadable declaration is `check:harness-dirs`' finding
++    }
++    let index: CommittedSkillPackage[] | undefined;
++    for (const g of optInRootsOf(layer)) {
++      if (isSubgraphEnabled(enabled, g.id)) continue;
++      if (existsSync(g.abs)) {
++        walk(g.abs, g.id);
++        continue;
++      }
++      if (!leftOutByMount(layer, g.abs)) continue;
++      index ??= committedSkillIndex(layer);
++      const listed = index.filter((p) => p.optIn === g.id);
++      if (listed.length === 0) {
++        leftOut.set(layer, [...(leftOut.get(layer) ?? []), g.id]);
++        continue;
++      }
++      for (const p of listed) for (const r of p.rows) {
++        const name = skillOfRow(r);
++        if (name !== undefined) hold(name, g.id);
++      }
++    }
++  }
++  return { held, leftOut };
++}
++
++/**
++ * Whether a skill name no visible layer holds is a defect HERE.
++ *
++ * - Held in a group the mounting root switched off (on disk, or listed by its
++ *   layer's committed index): not judged — absent by consent, judged where
++ *   the group is switched on.
++ * - The referring layer's OWN left-out groups are unlisted: not judged — the
++ *   skill may be in one, and nothing here can say. Any OTHER layer gets no
++ *   such pass from them.
++ * - Otherwise: dangling. A target in a group the root switched ON that is
++ *   missing, and a name no layer declares, both land here.
++ */
++export function judgeSkillRef(
++  skill: string,
++  refLayer: string | undefined,
++  off: { held: ReadonlyMap<string, readonly string[]>; leftOut: ReadonlyMap<string, readonly string[]> },
++): { groups: string[]; reason: string } | undefined {
++  const held = off.held.get(skill);
++  if (held !== undefined) return { groups: [...held], reason: "held in an opt-in sub-graph the mounting root switched off" };
++  const unseen = refLayer === undefined ? undefined : off.leftOut.get(refLayer);
++  if (unseen !== undefined && unseen.length > 0) {
++    return { groups: [...unseen], reason: "not visible here: the referring layer has opt-in sub-graphs the mount left out, and the skill may be in one; judged where they are switched on" };
++  }
++  return undefined;
++}
+diff --git a/scripts/state-visualizer.ts b/scripts/state-visualizer.ts
+index 65dde104..29deb820 100644
+--- a/scripts/state-visualizer.ts
++++ b/scripts/state-visualizer.ts
+@@ -115,6 +115,7 @@ import { SweepMarkSchema } from "../schemas/sdlc/sweep-mark.ts";
+ import { BoardSchema } from "../schemas/ui/board.ts";
+ import { BOARD_POSITIONS_FILE, BoardPositionsSchema, positionsOn } from "../schemas/ui/board-positions.ts";
+ import { parseTodoFile, readTodos, TODO_ROOT } from "./todos.ts";
++import { StoreAbsentError } from "./lib/bean-store-absent.ts";
+ import {
+   beanPositions,
+   beansNamedBy,
+@@ -793,7 +794,25 @@ function dashboardPage(g: StateGraph, graphs: StateGraph[]): string {
+     });
+   }
+ 
+-  if (tag === TODO_INDEX_SCHEMA) return todoBoardPage(g, TODO_ROOT());
++  if (tag === TODO_INDEX_SCHEMA) {
++    // A published projection whose store this checkout does not hold — a
++    // mount that switched the todo store off, smart-ips-pilgrimage#66 — is a
++    // board this run cannot draw, not a failure of the run: the projection is
++    // linked, and the board is drawn where the store is.
++    const store = todoStoreHere();
++    if ("absent" in store) {
++      return page({
++        title: `${g.id} — state`,
++        body:
++          head +
++          `<p class="sv-sub">A projection is published at <a href="${src}">${esc(src)}</a>, and the ` +
++          `todo store it is built from is <strong>absent from this checkout</strong>: ${esc(store.absent)}. ` +
++          `The board is drawn where the store is.</p>` +
++          registry(graphs, g.id),
++      });
++    }
++    return todoBoardPage(g, store.root);
++  }
+ 
+   return beansBoardPage(g, graphs, src);
+ }
+@@ -2740,6 +2759,21 @@ function readViewTodos(): TodoLike[] {
+   }
+ }
+ 
++/**
++ * The todo store's root, or why it is absent from this checkout. Only a
++ * DETERMINED absence (`StoreAbsentError`, smart-ips-pilgrimage#13) is
++ * answered; any other failure to resolve it still throws.
++ */
++function todoStoreHere(): { root: string } | { absent: string } {
++  try {
++    return { root: TODO_ROOT() };
++  } catch (e) {
++    const cause = e instanceof StoreAbsentError ? e : (e as { cause?: unknown })?.cause;
++    if (cause instanceof StoreAbsentError) return { absent: cause.reason };
++    throw e;
++  }
++}
++
+ let processFiles: Map<string, string> | undefined;
+ /** Process id → the `.bpmn` declaring it, over every layer in the checkout; built once. */
+ function processFileOf(processId: string): string | undefined {
+diff --git a/scripts/test-plan-audit.ts b/scripts/test-plan-audit.ts
+index 68f214aa..15eec5f9 100644
+--- a/scripts/test-plan-audit.ts
++++ b/scripts/test-plan-audit.ts
+@@ -29,7 +29,8 @@
+  * @module scripts/test-plan-audit
+  */
+ import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
+-import { join, relative, resolve } from "node:path";
++import { join, relative, resolve, sep } from "node:path";
++import { switchedOffGroups } from "../schemas/kg/opt-in-roots.js";
+ import type { KgCriterionEntry, KgFinding } from "../schemas/sdlc/kg-qa.js";
+ import { TestPlanSchema, TEST_PLAN_SCHEMA_ID, isTestPlanSchemaId, type TestPlan } from "../schemas/sdlc/test-plan.js";
+ import { TestRunSchema, UNKNOWN_HASH, type SutRef } from "../schemas/sdlc/test-run.js";
+@@ -97,6 +98,28 @@ export function dmnRefResolves(ref: string, bases: readonly string[]): boolean {
+   return false;
+ }
+ 
++/**
++ * Whether `ref`'s file lies in an opt-in sub-graph that the root which mounted
++ * a base switched off and the mount left out: absent by consent, so the ref is
++ * not judged here (card Q-SKILL-TOOL-LINK B), only where the group is on. A
++ * file in a group the root switched ON that is missing is still a finding.
++ */
++export function dmnRefSwitchedOff(ref: string, bases: readonly string[]): boolean {
++  const [file] = ref.split("#");
++  if (!file) return false;
++  for (const b of bases) {
++    const p = resolve(b, file);
++    let leftOut;
++    try {
++      leftOut = switchedOffGroups(b).leftOut;
++    } catch {
++      continue; // an unreadable declaration is `check:harness-dirs`' finding
++    }
++    if (leftOut.some((g) => p === g.abs || p.startsWith(g.abs + sep))) return true;
++  }
++  return false;
++}
++
+ function readJson(path: string): { ok: true; value: unknown } | { ok: false; error: string } {
+   try {
+     return { ok: true, value: JSON.parse(readFileSync(path, "utf-8")) };
+@@ -142,7 +165,7 @@ export function auditTestPlans(input: TestPlanAuditInput): Record<TestPlanCriter
+       continue;
+     }
+     plans.set(plan.id, plan);
+-    if (!dmnRefResolves(plan.exitCriteria.decision, bases)) {
++    if (!dmnRefResolves(plan.exitCriteria.decision, bases) && !dmnRefSwitchedOff(plan.exitCriteria.decision, bases)) {
+       resolves.push({
+         where: rel(f),
+         detail: `exitCriteria \`${plan.exitCriteria.decision}\` does not resolve to a decision — the certifier would have no rule to apply.`,
+@@ -307,7 +330,7 @@ export function auditTestPlanExitCriteria(input: TestPlanExitCriteriaAuditInput)
+       continue;
+     }
+     const plan = parsed.data;
+-    if (!dmnRefResolves(plan.exitCriteria.decision, bases)) {
++    if (!dmnRefResolves(plan.exitCriteria.decision, bases) && !dmnRefSwitchedOff(plan.exitCriteria.decision, bases)) {
+       findings.push({
+         where: rel(f),
+         detail: `exitCriteria \`${plan.exitCriteria.decision}\` does not resolve to an existing .dmn file and decision.`,
+diff --git a/scripts/tests/kg/optin-mounting-root.test.ts b/scripts/tests/kg/optin-mounting-root.test.ts
+index 5efbc7cf..1b52912a 100644
+--- a/scripts/tests/kg/optin-mounting-root.test.ts
++++ b/scripts/tests/kg/optin-mounting-root.test.ts
+@@ -18,6 +18,9 @@ import { join } from "node:path";
+ import { defaultEnabledSubgraphs, resolveDirectories } from "../../../schemas/kg/cat-harness.js";
+ import { WHOLE_INSTANCE_ID } from "../../../schemas/kg/remote-mount.js";
+ import { judgeSatisfiesTarget, switchedOffSkillHomes } from "../../check-tools.ts";
++import { judgeSkillRef, parseSkillIndex } from "../../lib/switched-off-skills.ts";
++import { mergeCarriedPackages } from "../../../pipeline/readme-sections.ts";
++import { dmnRefSwitchedOff } from "../../test-plan-audit.ts";
+ import { knownSkills, workflowFiles } from "../../known-skills.js";
+ import { writeDeclaration } from "../../../test/support/instance-fixture.js";
+ 
+@@ -169,3 +172,68 @@ describe("check:tools: a `satisfies` target in a group the mounting root switche
+     expect(judgeSatisfiesTarget("no-such-skill", up, off)).toBeUndefined();
+   });
+ });
++
++describe("a left-out group's skills are named by the layer's committed index (smart-ips-pilgrimage#66)", () => {
++  // `readme:sync` lists every skill of every opt-in group in SKILLS.md, under
++  // a heading marked `(opt-in \`<layer>.<group>\`)`, and the layer's own CI
++  // keeps it current with every group on. A mount that leaves the group out
++  // still carries that file, so the names are known, not guessed.
++  const section = (dir: string, group: string, names: readonly string[]): string =>
++    [`**\`${dir}/\`** (${names.length}) (opt-in \`${group}\`)`, "", "| Skill | What it is for |", "|---|---|", ...names.map((n) => `| \`${n}\` | for ${n} |`), ""].join("\n");
++  const index = (up: string, ...sections: string[]): void => writeFileSync(join(up, "SKILLS.md"), ["_n skills_", "", ...sections].join("\n"));
++
++  test("a name the index lists in a left-out group is held there, whichever layer refers to it", () => {
++    const up = consumer([]);
++    index(up, section("ops", "up.ops", ["ops-skill"]), section("extra", "up.extra", ["extra-skill"]));
++    const off = switchedOffSkillHomes([up]);
++    expect(off.leftOut.size).toBe(0);
++    expect(judgeSkillRef("ops-skill", "/elsewhere", off)?.groups).toEqual(["up.ops"]);
++    expect(judgeSkillRef("no-such-skill", "/elsewhere", off)).toBeUndefined();
++  });
++
++  test("a left-out group the index does not list keeps the narrower pass: the layer's own refs only", () => {
++    const up = consumer([]);
++    index(up, section("ops", "up.ops", ["ops-skill"]));
++    const off = switchedOffSkillHomes([up]);
++    expect(off.leftOut.get(up)).toEqual(["up.extra"]);
++    expect(judgeSkillRef("extra-skill", "/elsewhere", off)).toBeUndefined();
++    expect(judgeSkillRef("extra-skill", up, off)?.groups).toEqual(["up.extra"]);
++  });
++
++  test("a group the mounting root switched ON that is missing is not excused by the index", () => {
++    const up = consumer(["extra"]);
++    rmSync(join(up, "extra"), { recursive: true, force: true });
++    index(up, section("extra", "up.extra", ["extra-skill"]));
++    const off = switchedOffSkillHomes([up]);
++    expect(off.held.has("extra-skill")).toBe(false);
++    expect(judgeSkillRef("extra-skill", "/elsewhere", off)).toBeUndefined();
++  });
++
++  test("a section whose rows disagree with its count is not a record", () => {
++    const text = ["**`ops/`** (2) (opt-in `up.ops`)", "", "| Skill | What it is for |", "|---|---|", "| `a` | x |", ""].join("\n");
++    expect(parseSkillIndex(text)).toEqual([]);
++    expect(parseSkillIndex(section("ops", "up.ops", ["a", "b"]))).toEqual([{ dir: "ops", rows: ["| `a` | for a |", "| `b` | for b |"], optIn: "up.ops" }]);
++  });
++
++  test("readme:sync keeps a left-out group's sections where the committed index had them", () => {
++    const regen = [{ dir: "skills/a", rows: ["| a |"] }, { dir: "skills/new", rows: ["| n |"] }, { dir: "skills/z", rows: ["| z |"] }];
++    const committed = [
++      { dir: "skills/a", rows: ["| a |"] },
++      { dir: "ops", rows: ["| o |"], optIn: "up.ops" },
++      { dir: "skills/z", rows: ["| z-old |"] },
++    ];
++    const merged = mergeCarriedPackages(regen, committed, (p) => p.optIn === "up.ops");
++    expect(merged.map((p) => p.dir)).toEqual(["skills/a", "ops", "skills/new", "skills/z"]);
++    // Only the carried group is taken from the committed index; the rest is regenerated.
++    expect(merged.find((p) => p.dir === "skills/z")?.rows).toEqual(["| z |"]);
++  });
++
++  test("a test plan's exit DMN in a left-out group is not judged; one in a switched-on group is", () => {
++    const off = consumer([]);
++    expect(dmnRefSwitchedOff("ops/decisions/exit.dmn#Decision_Exit", [off])).toBe(true);
++    expect(dmnRefSwitchedOff("skills/exit.dmn#Decision_Exit", [off])).toBe(false);
++    const on = consumer(["ops"]);
++    rmSync(join(on, "ops"), { recursive: true, force: true });
++    expect(dmnRefSwitchedOff("ops/decisions/exit.dmn#Decision_Exit", [on])).toBe(false);
++  });
++});
+-- 
+2.43.0
+
