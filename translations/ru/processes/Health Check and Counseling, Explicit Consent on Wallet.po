@@ -40,11 +40,6 @@ msgstr "Проконсультировать пациента о согласи�
 msgid "Counselor"
 msgstr "Консультант"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:123
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "Консультант из страны происхождения, оказывающий поддержку паломнику, совершающему хадж, во время первичного медицинского скрининга"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:251
 #. Diagram label
 msgid "display consent form"
@@ -65,20 +60,10 @@ msgstr "отобразить форму настройки SHL"
 msgid "Documents the health check and SHL consent and issuance process"
 msgstr "Описывает процесс медицинского осмотра, получения согласия и выдачи SHL"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:165
-#. Diagram label
-msgid "eligible for Hajj?"
-msgstr "допущен к хаджу?"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:197
 #. Diagram label
 msgid "End"
 msgstr "Конец"
-
-#: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:326
-#. Diagram label
-msgid "fill consent form for sharing IPS during Hajj on wallet"
-msgstr "заполнить в кошельке форму согласия на предоставление IPS во время хаджа"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:293
 #. Diagram label
@@ -109,11 +94,6 @@ msgstr "Медицинский осмотр и выдача SHL, согласи�
 #. Diagram label
 msgid "Human Actor"
 msgstr "Актор-человек"
-
-#: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:170
-#. Diagram label
-msgid "inform patient ineligible for Hajj"
-msgstr "сообщить пациенту, что он не допущен к хаджу"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:354
 #. Diagram label
@@ -230,11 +210,6 @@ msgstr "сохранить распоряжения о согласии"
 msgid "System Actor"
 msgstr "Системный актор"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:103
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "Паломник, совершающий хадж"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:60
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -264,3 +239,48 @@ msgstr "Это транзакция записи согласия IHE PCF. См.
 #. Diagram label
 msgid "yes"
 msgstr "да"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:127
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr "Консультант из страны происхождения, оказывающий поддержку паломнику во время первичного медицинского скрининга"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:169
+#. Diagram label
+msgid "eligible for pilgrimage?"
+msgstr "допущен к паломничеству?"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:330
+#. Diagram label
+msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
+msgstr "заполнить в кошельке форму согласия на предоставление IPS во время паломничества"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:174
+#. Diagram label
+msgid "inform patient ineligible for pilgrimage"
+msgstr "сообщить пациенту, что он не допущен к паломничеству"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent on Wallet.bpmn:107
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr "Паломник"
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "Консультант из страны происхождения, оказывающий поддержку паломнику, совершающему хадж, во время первичного медицинского скрининга"
+
+#. Diagram label
+#~ msgid "eligible for Hajj?"
+#~ msgstr "допущен к хаджу?"
+
+#. Diagram label
+#~ msgid "fill consent form for sharing IPS during Hajj on wallet"
+#~ msgstr "заполнить в кошельке форму согласия на предоставление IPS во время хаджа"
+
+#. Diagram label
+#~ msgid "inform patient ineligible for Hajj"
+#~ msgstr "сообщить пациенту, что он не допущен к хаджу"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "Паломник, совершающий хадж"

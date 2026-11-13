@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-06T09:51:52.196Z\n"
+"POT-Creation-Date: 2026-11-12T11:49:49.521Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -47,7 +47,7 @@ msgid "This page will include test cases developed for the test scenarios, trans
 msgstr ""
 
 #: input/pagecontent/test-cases.md:51
-msgid "Unplanned Clinical Encounter at Hajj Health Facility"
+msgid "Unplanned Clinical Encounter at Pilgrimage Health Facility"
 msgstr ""
 
 #: input/pagecontent/test-cases.md:124

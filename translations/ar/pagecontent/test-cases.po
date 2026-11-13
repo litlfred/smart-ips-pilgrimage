@@ -57,10 +57,6 @@ msgstr "لا يُقصد باستخدام عناصر الاختبار في دلي
 msgid "This page will include test cases developed for the test scenarios, transactions and actors included in this implementation guide. See <a0>Testing</a0> for additional testing artifacts."
 msgstr "ستتضمن هذه الصفحة حالات الاختبار المُعدّة لسيناريوهات الاختبار والمعاملات والجهات الفاعلة المشمولة في دليل التنفيذ هذا. انظر <a0>الاختبار</a0> للاطلاع على عناصر اختبار إضافية."
 
-#: input/pagecontent/test-cases.md:51
-msgid "Unplanned Clinical Encounter at Hajj Health Facility"
-msgstr "لقاء سريري غير مخطط له في المرفق الصحي للحج"
-
 #: input/pagecontent/test-cases.md:124
 msgid "Validate retrieved IPS content"
 msgstr "التحقق من صحة محتوى IPS المسترجَع"
@@ -72,3 +68,10 @@ msgstr "التحقق من التوقيع على حمولة CWT باستخدام 
 #: input/pagecontent/test-cases.md:144
 msgid "View IPS content"
 msgstr "عرض محتوى IPS"
+
+#: input/pagecontent/test-cases.md:51
+msgid "Unplanned Clinical Encounter at Pilgrimage Health Facility"
+msgstr "لقاء سريري غير مخطط له في المرفق الصحي للزيارة الدينية"
+
+#~ msgid "Unplanned Clinical Encounter at Hajj Health Facility"
+#~ msgstr "لقاء سريري غير مخطط له في المرفق الصحي للحج"

@@ -47,10 +47,6 @@ msgstr "Артефакты тестирования в этом руководс
 msgid "This page will include test cases developed for the test scenarios, transactions and actors included in this implementation guide. See <a0>Testing</a0> for additional testing artifacts."
 msgstr "На этой странице будут приведены тестовые случаи, разработанные для тестовых сценариев, транзакций и акторов, включённых в это руководство по внедрению. Дополнительные артефакты тестирования см. в разделе <a0>Тестирование</a0>."
 
-#: input/pagecontent/test-cases.md:51
-msgid "Unplanned Clinical Encounter at Hajj Health Facility"
-msgstr "Незапланированный клинический приём в медицинском учреждении во время хаджа"
-
 #: input/pagecontent/test-cases.md:124
 msgid "Validate retrieved IPS content"
 msgstr "Валидация полученного содержимого IPS"
@@ -62,3 +58,10 @@ msgstr "Проверка подписи полезной нагрузки CWT с
 #: input/pagecontent/test-cases.md:144
 msgid "View IPS content"
 msgstr "Просмотр содержимого IPS"
+
+#: input/pagecontent/test-cases.md:51
+msgid "Unplanned Clinical Encounter at Pilgrimage Health Facility"
+msgstr "Незапланированный клинический приём в медицинском учреждении для паломников"
+
+#~ msgid "Unplanned Clinical Encounter at Hajj Health Facility"
+#~ msgstr "Незапланированный клинический приём в медицинском учреждении во время хаджа"

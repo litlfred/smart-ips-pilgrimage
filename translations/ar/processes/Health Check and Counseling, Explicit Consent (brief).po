@@ -50,11 +50,6 @@ msgstr "إرشاد المريض بشأن الموافقة والمحفظة ال�
 msgid "Counselor"
 msgstr "المستشار"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:116
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "مرشد من البلد الأم يدعم الحاج خلال الفحص الصحي الأولي"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:229
 #. Diagram label
 msgid "display consent form"
@@ -80,11 +75,6 @@ msgstr "يوثّق عملية الفحص الصحي والموافقة على SH
 msgid "End"
 msgstr "النهاية"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:215
-#. Diagram label
-msgid "fill consent form for sharing IPS during Hajj on wallet"
-msgstr "ملء نموذج الموافقة على مشاركة IPS خلال الحج في المحفظة"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:15
 #. Diagram label
 msgid "Health Check and Counseling, Explicit Consent (brief)"
@@ -104,11 +94,6 @@ msgstr "الفحص الصحي وإصدار SHL، الموافقة عبر الم�
 #. Diagram label
 msgid "Human Actor"
 msgstr "جهة فاعلة بشرية"
-
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:163
-#. Diagram label
-msgid "inform patient ineligible for Hajj"
-msgstr "إبلاغ المريض بعدم أهليته للحج"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:167
 #. Diagram label
@@ -133,12 +118,12 @@ msgstr "محفظة البلد الأم"
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:96
 #. Diagram label
 msgid "Pilgrim"
-msgstr "الحاج"
+msgstr "الزائر"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:210
 #. Diagram label
 msgid "pilgrim provided consent to counselor?"
-msgstr "هل قدّم الحاج الموافقة للمستشار؟"
+msgstr "هل قدّم الزائر الموافقة للمستشار؟"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:233
 #. Diagram label
@@ -165,15 +150,10 @@ msgstr "البداية"
 msgid "System Actor"
 msgstr "جهة فاعلة نظامية"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:97
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "الحاج"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:59
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
-msgstr "المحفظة الصحية الرقمية للبلد الأم للحاج"
+msgstr "المحفظة الصحية الرقمية للبلد الأم للزائر"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:16
 #. Diagram element documentation
@@ -189,3 +169,39 @@ msgstr "هذا هو توثيق عملية العمل الشاملة - توثيق
 #. Diagram label
 msgid "yes"
 msgstr "نعم"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:119
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr "مرشد من بلد المنشأ يدعم الزائر خلال الفحص الصحي الأولي"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:218
+#. Diagram label
+msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
+msgstr "ملء نموذج الموافقة على مشاركة IPS خلال الزيارة الدينية في المحفظة"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:166
+#. Diagram label
+msgid "inform patient ineligible for pilgrimage"
+msgstr "إبلاغ المريض بعدم أهليته للزيارة الدينية"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:100
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr "الزائر"
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "مرشد من البلد الأم يدعم الحاج خلال الفحص الصحي الأولي"
+
+#. Diagram label
+#~ msgid "fill consent form for sharing IPS during Hajj on wallet"
+#~ msgstr "ملء نموذج الموافقة على مشاركة IPS خلال الحج في المحفظة"
+
+#. Diagram label
+#~ msgid "inform patient ineligible for Hajj"
+#~ msgstr "إبلاغ المريض بعدم أهليته للحج"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "الحاج"

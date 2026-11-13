@@ -47,10 +47,6 @@ msgstr "本实施指南中的测试工件并非用于判定正式一致性，也
 msgid "This page will include test cases developed for the test scenarios, transactions and actors included in this implementation guide. See <a0>Testing</a0> for additional testing artifacts."
 msgstr "本页将包含为本实施指南所含测试场景、事务和参与者开发的测试用例。其他测试工件见<a0>测试</a0>。"
 
-#: input/pagecontent/test-cases.md:51
-msgid "Unplanned Clinical Encounter at Hajj Health Facility"
-msgstr "在朝觐（Hajj）医疗卫生机构的非计划临床就诊"
-
 #: input/pagecontent/test-cases.md:124
 msgid "Validate retrieved IPS content"
 msgstr "校验检索到的 IPS 内容"
@@ -62,3 +58,10 @@ msgstr "使用 Kid 验证 CWT 载荷上的签名"
 #: input/pagecontent/test-cases.md:144
 msgid "View IPS content"
 msgstr "查看 IPS 内容"
+
+#: input/pagecontent/test-cases.md:51
+msgid "Unplanned Clinical Encounter at Pilgrimage Health Facility"
+msgstr "在朝圣医疗卫生机构的非计划临床就诊"
+
+#~ msgid "Unplanned Clinical Encounter at Hajj Health Facility"
+#~ msgstr "在朝觐（Hajj）医疗卫生机构的非计划临床就诊"

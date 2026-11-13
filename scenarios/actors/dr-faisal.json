@@ -1,8 +1,8 @@
 {
   "id": "dr-faisal",
-  "title": "Dr Faisal (emergency physician, Mina)",
+  "title": "Dr Faisal (emergency physician, Nalemi)",
   "kind": "person",
-  "description": "Persona: an emergency physician at the same Hajj health facility in Mina; a Host Country Health Worker. Fictional.",
+  "description": "Persona: an emergency physician at the same pilgrimage health facility in Nalemi; a Host Country Health Worker. Fictional.",
   "roles": [
     "host-health-worker"
   ],
@@ -11,7 +11,7 @@
     "persona": {
       "name": "Dr Faisal",
       "role": "Emergency physician",
-      "country": "Kingdom of Saudi Arabia",
+      "country": "Taifafeki",
       "goal": "Treat safely, knowing the pilgrim's medicines and allergies.",
       "needs": [
         "The patient's medicines and allergies before he treats",

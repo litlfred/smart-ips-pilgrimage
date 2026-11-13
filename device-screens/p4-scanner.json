@@ -15,13 +15,13 @@
     {
       "type": "header",
       "app": "Registration scanner",
-      "subtitle": "Hajj health facility, Mina",
+      "subtitle": "Pilgrimage health facility, Nalemi",
       "icon": "scan"
     },
     {
       "type": "qr",
       "mode": "scan",
-      "payload": "https://vhl.hie.example.my/manifest/kamal-hajj-2026?exp=1798761600#key=7c1e9a44b20f5d3e",
+      "payload": "https://vhl.hie.onesa.example/manifest/kamal-pilgrimage-2026?exp=1798761600#key=7c1e9a44b20f5d3e",
       "label": "Reading…",
       "badge": {
         "text": "Read",
@@ -33,7 +33,7 @@
       "type": "statusBadge",
       "status": "info",
       "text": "Verifiable Health Link read",
-      "detail": "Issued in Malaysia. Sent to the EMR to check its signature."
+      "detail": "Issued in Onesa. Sent to the EMR to check its signature."
     }
   ]
 }

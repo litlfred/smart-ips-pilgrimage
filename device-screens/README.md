@@ -7,7 +7,7 @@ generated: "scripts/subgraph-readmes.ts of the bootstrap toolset (https://github
 
 # device-screens
 
-What each person sees on their own device at a step of the pilgrim's journeys, from the owner's illustrations: Kamal's consent and his signed QR code, the scanner and the facility screen at registration in Mina, Dr Faisal's tablet, Dr Hafiz's break-the-glass phone and Dr Aisyah's computer at home. device-screen nodes (the harness's kind), drawn by the journeys viewer in the workshop's Device Demo. Every person is fictional.
+What each person sees on their own device at a step of the pilgrim's journeys, from the owner's illustrations: Kamal's consent and his signed QR code, the scanner and the facility screen at registration in Nalemi, Dr Faisal's tablet, Dr Hafiz's break-the-glass phone and Dr Aisyah's computer at home. device-screen nodes (the harness's kind), drawn by the journeys viewer in the workshop's Device Demo. Every person is fictional.
 
 Part of [SMART Verifiable IPS for Pilgrimage](../README.md) 2.1.0, declared as `device-screens`, holding `device-screen`.
 
@@ -19,7 +19,7 @@ Part of [SMART Verifiable IPS for Pilgrimage](../README.md) 2.1.0, declared as `
 | [`p4-emr.json`](p4-emr.json) | Passcode entered, signature verified |  |
 | [`p4-phone.json`](p4-phone.json) | Kamal shows his code |  |
 | [`p4-scanner.json`](p4-scanner.json) | Nurse Reem scans the code |  |
-| [`p5.json`](p5.json) | Dr Faisal reads the record kept in Malaysia |  |
+| [`p5.json`](p5.json) | Dr Faisal reads the record kept in Onesa |  |
 | [`p6.json`](p6.json) | Break the glass: only a registration number |  |
 | [`p7.json`](p7.json) | Back home: no record of the care abroad |  |
 

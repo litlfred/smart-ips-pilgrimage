@@ -2,7 +2,7 @@
   "$schema": "device-screen/0.1.0",
   "id": "P4-phone",
   "title": "Kamal shows his code",
-  "description": "Kamal's phone at the registration desk in Mina: the code, and nothing else.",
+  "description": "Kamal's phone at the registration desk in Nalemi: the code, and nothing else.",
   "device": "phone",
   "owner": "kamal",
   "steps": [
@@ -15,17 +15,17 @@
     {
       "type": "header",
       "app": "National health wallet",
-      "subtitle": "Kamal • Hajj Health Record",
+      "subtitle": "Kamal • Pilgrimage Health Record",
       "icon": "phone",
       "brand": "#0d9488"
     },
     {
       "type": "qr",
-      "title": "Hajj Health Record",
+      "title": "Pilgrimage Health Record",
       "holder": "Kamal",
-      "payload": "https://vhl.hie.example.my/manifest/kamal-hajj-2026?exp=1798761600#key=7c1e9a44b20f5d3e",
+      "payload": "https://vhl.hie.onesa.example/manifest/kamal-pilgrimage-2026?exp=1798761600#key=7c1e9a44b20f5d3e",
       "badge": {
-        "text": "Signed by Malaysia • GDHCN",
+        "text": "Signed by Onesa • GDHCN",
         "tone": "success",
         "icon": "shield-check"
       },

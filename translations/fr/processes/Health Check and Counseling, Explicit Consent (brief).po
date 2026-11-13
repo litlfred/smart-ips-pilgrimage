@@ -39,11 +39,6 @@ msgstr "Conseiller le patient sur le consentement et le portefeuille de santé n
 msgid "Counselor"
 msgstr "Conseiller"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:116
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "Conseiller du pays d'origine accompagnant le pèlerin du Hajj lors du dépistage sanitaire initial"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:229
 #. Diagram label
 msgid "display consent form"
@@ -69,11 +64,6 @@ msgstr "Documente le processus de bilan de santé, de consentement et de délivr
 msgid "End"
 msgstr "Fin"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:215
-#. Diagram label
-msgid "fill consent form for sharing IPS during Hajj on wallet"
-msgstr "remplir dans le portefeuille le formulaire de consentement au partage de l'IPS pendant le Hajj"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:15
 #. Diagram label
 msgid "Health Check and Counseling, Explicit Consent (brief)"
@@ -93,11 +83,6 @@ msgstr "Bilan de santé et délivrance du SHL, consentement dans le portefeuille
 #. Diagram label
 msgid "Human Actor"
 msgstr "Acteur humain"
-
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:163
-#. Diagram label
-msgid "inform patient ineligible for Hajj"
-msgstr "informer le patient qu'il n'est pas admissible au Hajj"
 
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:167
 #. Diagram label
@@ -154,11 +139,6 @@ msgstr "Début"
 msgid "System Actor"
 msgstr "Acteur système"
 
-#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:97
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "Le pèlerin du Hajj"
-
 #: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:59
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -178,3 +158,39 @@ msgstr "Ceci est la documentation du processus métier global - documentation du
 #. Diagram label
 msgid "yes"
 msgstr "oui"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:119
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr "Conseiller du pays d'origine accompagnant le pèlerin lors du dépistage sanitaire initial"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:218
+#. Diagram label
+msgid "fill consent form for sharing IPS during the pilgrimage on wallet"
+msgstr "remplir dans le portefeuille le formulaire de consentement au partage de l'IPS pendant le pèlerinage"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:166
+#. Diagram label
+msgid "inform patient ineligible for pilgrimage"
+msgstr "informer le patient qu'il n'est pas admissible au pèlerinage"
+
+#: input/business-processes/Health Check and Counseling, Explicit Consent (brief).bpmn:100
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr "Le pèlerin"
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "Conseiller du pays d'origine accompagnant le pèlerin du Hajj lors du dépistage sanitaire initial"
+
+#. Diagram label
+#~ msgid "fill consent form for sharing IPS during Hajj on wallet"
+#~ msgstr "remplir dans le portefeuille le formulaire de consentement au partage de l'IPS pendant le Hajj"
+
+#. Diagram label
+#~ msgid "inform patient ineligible for Hajj"
+#~ msgstr "informer le patient qu'il n'est pas admissible au Hajj"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "Le pèlerin du Hajj"

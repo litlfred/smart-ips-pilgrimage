@@ -40,11 +40,6 @@ msgstr "الوصول إلى العيادة في البلد المضيف"
 msgid "Clinical Encounter for Unplanned Care (brief)"
 msgstr "لقاء سريري لرعاية غير مخطَّط لها (مختصر)"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:96
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "مرشد من بلد المنشأ يدعم الحاج خلال الفحص الصحي الأولي"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:180
 #. Diagram label
 msgid "display health document"
@@ -98,7 +93,7 @@ msgstr "مغادرة العيادة"
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:109
 #. Diagram label
 msgid "Pilgrim"
-msgstr "الحاج"
+msgstr "الزائر"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:195
 #. Diagram label
@@ -135,15 +130,10 @@ msgstr "البداية"
 msgid "System Actor"
 msgstr "جهة فاعلة نظامية"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:110
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "الحاج"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:61
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
-msgstr "المحفظة الصحية الرقمية لبلد منشأ الحاج"
+msgstr "المحفظة الصحية الرقمية لبلد منشأ الزائر"
 
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:16
 #. Diagram element documentation
@@ -169,3 +159,21 @@ msgstr "التحقق من توقيع الوثيقة الصحية (IPS)"
 #. Diagram label
 msgid "verify QR code signature"
 msgstr "التحقق من توقيع رمز QR"
+
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:99
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr "مرشد من بلد المنشأ يدعم الزائر خلال الفحص الصحي الأولي"
+
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:113
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr "الزائر"
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "مرشد من بلد المنشأ يدعم الحاج خلال الفحص الصحي الأولي"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "الحاج"

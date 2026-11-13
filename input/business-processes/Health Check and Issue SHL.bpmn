@@ -61,7 +61,7 @@
         <bpmn:flowNodeRef>consent-wallet-questionnaire</bpmn:flowNodeRef>
         <bpmn:childLaneSet id="LaneSet_0c6j9ft">
           <bpmn:lane id="counselor" partitionElementRef="counsellor" name="Counselor">
-            <bpmn:documentation>Counselor from origin country supporting Hajj pilgrim during inital health screening</bpmn:documentation>
+            <bpmn:documentation>Counselor from origin country supporting pilgrim during inital health screening</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -77,7 +77,7 @@
             <bpmn:flowNodeRef>Gateway_176634l</bpmn:flowNodeRef>
           </bpmn:lane>
           <bpmn:lane id="Lane_pilgrim" partitionElementRef="pilgrim" name="Pilgrim">
-            <bpmn:documentation>The Hajj pilgrim</bpmn:documentation>
+            <bpmn:documentation>The pilgrim</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -175,12 +175,12 @@
     <bpmn:startEvent id="start" name="Start">
       <bpmn:outgoing>Flow_19ry657</bpmn:outgoing>
     </bpmn:startEvent>
-    <bpmn:exclusiveGateway id="Gateway_0xwr9el" name="eligible for Hajj?">
+    <bpmn:exclusiveGateway id="Gateway_0xwr9el" name="eligible for pilgrimage?">
       <bpmn:incoming>Flow_0ztm52d</bpmn:incoming>
       <bpmn:outgoing>Flow_1fxg1pw</bpmn:outgoing>
       <bpmn:outgoing>Flow_1b64o6u</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_0gm5pkg" name="inform patient ineligible for Hajj"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
+    <bpmn:task id="Activity_0gm5pkg" name="inform patient ineligible for pilgrimage"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_1b64o6u</bpmn:incoming>
       <bpmn:outgoing>Flow_0bl66dk</bpmn:outgoing>
     </bpmn:task>
@@ -336,7 +336,7 @@
       <bpmn:incoming>Flow_05vjpyw</bpmn:incoming>
       <bpmn:outgoing>Flow_0le30id</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:userTask id="consent-wallet-questionnaire" name="fill consent form for sharing IPS during Hajj on wallet">
+    <bpmn:userTask id="consent-wallet-questionnaire" name="fill consent form for sharing IPS during the pilgrimage on wallet">
       <bpmn:extensionElements><bootstrap.processes:skill ref="holder-consent-to-share" />
         <zeebe:formDefinition formKey="consent-wallet-questionnaire" />
         <zeebe:properties>
@@ -480,7 +480,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
         <bpmn:flowNodeRef>Activity_0owttys</bpmn:flowNodeRef>
         <bpmn:childLaneSet id="LaneSet_1updfdp">
           <bpmn:lane id="Lane_00bxgz7" partitionElementRef="counsellor" name="Counselor">
-            <bpmn:documentation>Counselor from origin country supporting Hajj pilgrim during inital health screening</bpmn:documentation>
+            <bpmn:documentation>Counselor from origin country supporting pilgrim during inital health screening</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -496,7 +496,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
             <bpmn:flowNodeRef>Activity_0m8ec66</bpmn:flowNodeRef>
           </bpmn:lane>
           <bpmn:lane id="Lane_06ajvfm" partitionElementRef="pilgrim" name="Pilgrim">
-            <bpmn:documentation>The Hajj pilgrim</bpmn:documentation>
+            <bpmn:documentation>The pilgrim</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -576,12 +576,12 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
     <bpmn:startEvent id="Event_0c1l34u" name="Start">
       <bpmn:outgoing>Flow_045bq7d</bpmn:outgoing>
     </bpmn:startEvent>
-    <bpmn:exclusiveGateway id="Gateway_104bqnx" name="eligible for Hajj?">
+    <bpmn:exclusiveGateway id="Gateway_104bqnx" name="eligible for pilgrimage?">
       <bpmn:incoming>Flow_0wh9mtk</bpmn:incoming>
       <bpmn:outgoing>Flow_1xml6e9</bpmn:outgoing>
       <bpmn:outgoing>Flow_0hbodqn</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_1ha3tyo" name="inform patient ineligible for Hajj"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
+    <bpmn:task id="Activity_1ha3tyo" name="inform patient ineligible for pilgrimage"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_0hbodqn</bpmn:incoming>
       <bpmn:outgoing>Flow_19iz91t</bpmn:outgoing>
     </bpmn:task>
@@ -743,7 +743,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
         <bpmn:flowNodeRef>Activity_0a2dk4l</bpmn:flowNodeRef>
         <bpmn:childLaneSet id="LaneSet_1fd86oz">
           <bpmn:lane id="Lane_15l2hl7" partitionElementRef="counsellor" name="Counselor">
-            <bpmn:documentation>Counselor from origin country supporting Hajj pilgrim during inital health screening</bpmn:documentation>
+            <bpmn:documentation>Counselor from origin country supporting pilgrim during inital health screening</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -759,7 +759,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
             <bpmn:flowNodeRef>Activity_0a2dk4l</bpmn:flowNodeRef>
           </bpmn:lane>
           <bpmn:lane id="Lane_0g1cue8" partitionElementRef="pilgrim" name="Pilgrim">
-            <bpmn:documentation>The Hajj pilgrim</bpmn:documentation>
+            <bpmn:documentation>The pilgrim</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -828,7 +828,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
       <bpmn:outgoing>Flow_04v5pie</bpmn:outgoing>
       <bpmn:outgoing>Flow_09o531n</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_1gkedet" name="inform patient ineligible for Hajj"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
+    <bpmn:task id="Activity_1gkedet" name="inform patient ineligible for pilgrimage"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_09o531n</bpmn:incoming>
       <bpmn:outgoing>Flow_00p5wv7</bpmn:outgoing>
     </bpmn:task>
@@ -944,7 +944,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
         <bpmn:flowNodeRef>Activity_19tvs6z</bpmn:flowNodeRef>
         <bpmn:childLaneSet id="LaneSet_0cqcpr9">
           <bpmn:lane id="Lane_1890tz9" partitionElementRef="counsellor" name="Counselor">
-            <bpmn:documentation>Counselor from origin country supporting Hajj pilgrim during inital health screening</bpmn:documentation>
+            <bpmn:documentation>Counselor from origin country supporting pilgrim during inital health screening</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -960,7 +960,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
             <bpmn:flowNodeRef>Gateway_0rolb55</bpmn:flowNodeRef>
           </bpmn:lane>
           <bpmn:lane id="Lane_1aj6m0j" partitionElementRef="pilgrim" name="Pilgrim">
-            <bpmn:documentation>The Hajj pilgrim</bpmn:documentation>
+            <bpmn:documentation>The pilgrim</bpmn:documentation>
             <bpmn:extensionElements>
               <zeebe:properties>
                 <zeebe:property name="ig-actor-type" value="person" />
@@ -1027,12 +1027,12 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
     <bpmn:startEvent id="Event_1grma6k" name="Start">
       <bpmn:outgoing>Flow_1q2l8ls</bpmn:outgoing>
     </bpmn:startEvent>
-    <bpmn:exclusiveGateway id="Gateway_124ugq4" name="eligible for Hajj?">
+    <bpmn:exclusiveGateway id="Gateway_124ugq4" name="eligible for pilgrimage?">
       <bpmn:incoming>Flow_0buxzjq</bpmn:incoming>
       <bpmn:outgoing>Flow_0p3uod0</bpmn:outgoing>
       <bpmn:outgoing>Flow_0cwsf95</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Activity_0tvtijk" name="inform patient ineligible for Hajj"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
+    <bpmn:task id="Activity_0tvtijk" name="inform patient ineligible for pilgrimage"><bpmn:extensionElements><bootstrap.processes:skill ref="inform-client" /></bpmn:extensionElements>
       <bpmn:incoming>Flow_0cwsf95</bpmn:incoming>
       <bpmn:outgoing>Flow_0ckiv0q</bpmn:outgoing>
     </bpmn:task>
@@ -1084,7 +1084,7 @@ https://profiles.ihe.net/ITI/PCF/CapabilityStatement-IHE.PCF.consentRegistry.htm
       <bpmn:outgoing>Flow_12ytlvd</bpmn:outgoing>
       <bpmn:outgoing>Flow_0p4ephb</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:userTask id="Activity_19tvs6z" name="fill consent form for sharing IPS during Hajj on wallet">
+    <bpmn:userTask id="Activity_19tvs6z" name="fill consent form for sharing IPS during the pilgrimage on wallet">
       <bpmn:extensionElements><bootstrap.processes:skill ref="holder-consent-to-share" />
         <zeebe:properties>
           <zeebe:property name="ig-code" value="consent-wallet-questionnaire" />

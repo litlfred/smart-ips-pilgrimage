@@ -29,11 +29,6 @@ msgstr "llegar a la clínica en el país anfitrión"
 msgid "Clinical Encounter for Unplanned Care (brief)"
 msgstr "Encuentro clínico para atención no programada (resumen)"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:96
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "Asesor del país de origen que apoya al peregrino del Hajj durante el control de salud inicial"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:180
 #. Diagram label
 msgid "display health document"
@@ -124,11 +119,6 @@ msgstr "Inicio"
 msgid "System Actor"
 msgstr "Actor del sistema"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:110
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "El peregrino del Hajj"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:61
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -158,3 +148,21 @@ msgstr "verificar la firma del documento de salud (IPS)"
 #. Diagram label
 msgid "verify QR code signature"
 msgstr "verificar la firma del código QR"
+
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:99
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr "Asesor del país de origen que apoya al peregrino durante el control de salud inicial"
+
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:113
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr "El peregrino"
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "Asesor del país de origen que apoya al peregrino del Hajj durante el control de salud inicial"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "El peregrino del Hajj"

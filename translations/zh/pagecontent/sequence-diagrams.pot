@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-06T09:51:52.195Z\n"
+"POT-Creation-Date: 2026-11-12T11:49:49.520Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: input/pagecontent/sequence-diagrams.md:29
-msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between KSA and Origin countries"
+msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between the Host and Origin countries"
 msgstr ""
 
 #: input/pagecontent/sequence-diagrams.md:22

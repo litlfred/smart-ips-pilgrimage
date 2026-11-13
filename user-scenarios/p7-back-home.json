@@ -2,7 +2,7 @@
   "$schema": "user-scenario/0.2.0",
   "id": "p7-back-home",
   "title": "P7 · Back home",
-  "description": "Kamal comes home. His GP in Kuala Terengganu does not know he was treated in Mina. After the story this guide tells.",
+  "description": "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi. After the story this guide tells.",
   "personas": [
     "kamal",
     "dr-aisyah",
@@ -11,27 +11,28 @@
   "partOf": "the-pilgrims-hajj",
   "follows": "p6-break-the-glass",
   "when": "After the season",
-  "where": "A GP clinic in Kuala Terengganu",
-  "country": "Malaysia",
+  "where": "A GP clinic in Tanavu",
+  "country": "Onesa",
+  "trustLadder": "record-trust",
   "illustrationStyle": {
     "prompt": "Warm, flat digital illustration with soft shading and clean outlines, friendly and respectful, in the style of a public-health storybook. Wide banner, aspect ratio 11:4. Bright natural daylight, soft pastel palette with clear colour accents. Faces in gentle three-quarter view with expressive, kind features. Technology shown as simple, oversized icons: a phone with a QR code, a shield with a check mark, a small speech bubble with a symbol. No readable text, no logos, no real brands, no flags with text. All people are fictional.",
     "cast": [
       {
         "actor": "kamal",
-        "description": "Malaysian man, 61, slim, short grey hair, kind face. Batik shirt in Malaysia. In KSA, white two-piece ihram (unstitched towelling cloth, right shoulder bare when in ihram), a small waist pouch and one phone."
+        "description": "Onesan man, 61, slim, short grey hair, kind face. Batik shirt in Onesa. In Taifafeki, two white pilgrim's garments (unstitched towelling cloth, right shoulder bare when in pilgrim's dress), a small waist pouch and one phone."
       },
       {
         "actor": "salmah",
-        "description": "His wife, about 58. White modest Hajj outfit and white telekung-style hijab in KSA; pastel baju kurung and tudung in Malaysia."
+        "description": "His wife, about 58. White modest pilgrimage outfit and white telekung-style hijab in Taifafeki; pastel baju kurung and tudung in Onesa."
       },
       {
         "actor": "dr-aisyah",
-        "description": "Malaysian GP, late 30s, tudung, white coat."
+        "description": "Onesan GP, late 30s, tudung, white coat."
       }
     ],
     "notes": [
-      "Ihram (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
-      "Keep the Kaaba and other holy sites far in the background or out of frame.",
+      "Pilgrim's white garments (two white unstitched sheets) is for men only; women wear ordinary modest clothing, usually white, face and hands uncovered.",
+      "Keep the shrine and other holy sites far in the background or out of frame.",
       "Keep medical signs text-free so generators don't invent wrong Arabic.",
       "The picture carries no text: the step title and the caption are page text."
     ]
@@ -40,17 +41,17 @@
     {
       "id": "P7",
       "title": "Back home",
-      "headline": "Kamal is home and well, but his GP does not know he was treated in Mina.",
+      "headline": "Kamal is home and well, but his GP does not know he was treated in Nalemi.",
       "when": "After the season",
-      "where": "A GP clinic in Kuala Terengganu",
+      "where": "A GP clinic in Tanavu",
       "touchpoint": "GP follow-up",
-      "narrative": "Kamal comes home. His GP in Kuala Terengganu does not know he was treated in Mina. After the story this guide tells.",
+      "narrative": "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi. After the story this guide tells.",
       "lead": "dr-aisyah",
       "experiences": [
         {
           "actor": "dr-aisyah",
-          "doing": "Sees Kamal back home, with nothing in her record of his care in KSA.",
-          "feeling": "“Treated in Mina? Nothing came back to me.”",
+          "doing": "Sees Kamal back home, with nothing in her record of his care in Taifafeki.",
+          "feeling": "“Treated in Nalemi? Nothing came back to me.”",
           "emotion": -1
         },
         {
@@ -70,13 +71,32 @@
       "enabler": "Nothing yet: the guide does not specify a return path.",
       "policy": "Should the host country send a summary of care back to the home country — and with whose consent?",
       "gaps": [
-        "Nothing returns the record of care in KSA, or a log of who opened his summary, to Malaysia."
+        "Nothing returns the record of care in Taifafeki, or a log of who opened his summary, to Onesa."
       ],
       "illustration": {
         "src": "input/images/pilgrim/p7.webp",
-        "alt": "Back in Kuala Terengganu, Kamal in a white kopiah and Salmah sit with Dr Aisyah, who looks at her computer with a question mark: the record of his care in Saudi Arabia has not come home.",
-        "prompt": "Kuala Terengganu: Kamal, healthy, in batik with a white kopiah, sits with Dr Aisyah in her clinic, Salmah beside him. Dr Aisyah looks at her computer with a gentle question-mark bubble: she doesn't know what happened in KSA. To the side, a faint dotted arc from a small Saudi building icon toward the clinic fades out halfway with a gap. Warm but slightly unresolved."
+        "alt": "Back in Tanavu, Kamal in a white kopiah and Salmah sit with Dr Aisyah, who looks at her computer with a question mark: the record of his care in Taifafeki has not come home.",
+        "prompt": "Tanavu: Kamal, healthy, in batik with a white kopiah, sits with Dr Aisyah in her clinic, Salmah beside him. Dr Aisyah looks at her computer with a gentle question-mark bubble: she doesn't know what happened in Taifafeki. To the side, a faint dotted arc from a small Taifafeki building icon toward the clinic fades out halfway with a gap. Warm but slightly unresolved."
+      },
+      "record": {
+        "state": "read-and-used",
+        "description": "Home again; his GP does not yet know he was treated",
+        "heldWhere": "Onesa's HIE"
       }
+    }
+  ],
+  "scene": [
+    {
+      "icon": "plane",
+      "label": "Flies home"
+    },
+    {
+      "icon": "home",
+      "label": "Back in Tanavu"
+    },
+    {
+      "icon": "clinic",
+      "label": "GP not told"
     }
   ]
 }

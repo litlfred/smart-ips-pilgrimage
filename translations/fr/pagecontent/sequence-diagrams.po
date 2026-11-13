@@ -14,10 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/pagecontent/sequence-diagrams.md:29
-msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between KSA and Origin countries"
-msgstr "Flux de travail IPS convenu pour la « Consultation clinique pour soins non planifiés » entre la KSA et les pays d'origine"
-
 #: input/pagecontent/sequence-diagrams.md:22
 msgid "Health Assessment, Consent Counselling,  and Issuance of Smart Health Link"
 msgstr "Évaluation de santé, conseil sur le consentement et émission du SMART Health Link"
@@ -37,3 +33,10 @@ msgstr "Synchronisation de routine"
 #: input/pagecontent/sequence-diagrams.md:1
 msgid "This page includes sequence diagrams that describe interactions between actors and participants described in this Implementation Guide."
 msgstr "Cette page présente des diagrammes de séquence qui décrivent les interactions entre les acteurs et les participants décrits dans ce guide d'implémentation."
+
+#: input/pagecontent/sequence-diagrams.md:29
+msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between the Host and Origin countries"
+msgstr "Flux de travail IPS convenu pour la « Consultation clinique pour soins non planifiés » entre le pays d'accueil et les pays d'origine"
+
+#~ msgid "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between KSA and Origin countries"
+#~ msgstr "Flux de travail IPS convenu pour la « Consultation clinique pour soins non planifiés » entre la KSA et les pays d'origine"

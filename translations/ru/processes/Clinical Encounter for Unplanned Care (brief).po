@@ -30,11 +30,6 @@ msgstr "прибыть в клинику в принимающей стране"
 msgid "Clinical Encounter for Unplanned Care (brief)"
 msgstr "Клинический приём при незапланированной медицинской помощи (кратко)"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:96
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "Консультант из страны происхождения, оказывающий поддержку паломнику, совершающему хадж, во время первичного медицинского скрининга"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:180
 #. Diagram label
 msgid "display health document"
@@ -125,11 +120,6 @@ msgstr "Начало"
 msgid "System Actor"
 msgstr "Системный актор"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:110
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "Паломник, совершающий хадж"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:61
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -159,3 +149,21 @@ msgstr "проверить подпись медицинского докуме�
 #. Diagram label
 msgid "verify QR code signature"
 msgstr "проверить подпись QR-кода"
+
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:99
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr "Консультант из страны происхождения, оказывающий поддержку паломнику во время первичного медицинского скрининга"
+
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:113
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr "Паломник"
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "Консультант из страны происхождения, оказывающий поддержку паломнику, совершающему хадж, во время первичного медицинского скрининга"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "Паломник, совершающий хадж"

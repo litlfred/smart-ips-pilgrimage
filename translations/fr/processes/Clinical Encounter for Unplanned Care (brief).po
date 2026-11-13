@@ -29,11 +29,6 @@ msgstr "arriver à la clinique dans le pays d'accueil"
 msgid "Clinical Encounter for Unplanned Care (brief)"
 msgstr "Consultation clinique pour soins non planifiés (version abrégée)"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:96
-#. Diagram element documentation
-msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
-msgstr "Conseiller du pays d'origine accompagnant le pèlerin du Hajj lors du dépistage sanitaire initial"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:180
 #. Diagram label
 msgid "display health document"
@@ -124,11 +119,6 @@ msgstr "Début"
 msgid "System Actor"
 msgstr "Acteur système"
 
-#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:110
-#. Diagram element documentation
-msgid "The Hajj pilgrim"
-msgstr "Le pèlerin du Hajj"
-
 #: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:61
 #. Diagram element documentation
 msgid "The pilgrim's origin country's digital health wallet"
@@ -158,3 +148,21 @@ msgstr "vérifier la signature du document de santé (IPS)"
 #. Diagram label
 msgid "verify QR code signature"
 msgstr "vérifier la signature du code QR"
+
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:99
+#. Diagram element documentation
+msgid "Counselor from origin country supporting pilgrim during inital health screening"
+msgstr "Conseiller du pays d'origine accompagnant le pèlerin lors du dépistage sanitaire initial"
+
+#: input/business-processes/Clinical Encounter for Unplanned Care (brief).bpmn:113
+#. Diagram element documentation
+msgid "The pilgrim"
+msgstr "Le pèlerin"
+
+#. Diagram element documentation
+#~ msgid "Counselor from origin country supporting Hajj pilgrim during inital health screening"
+#~ msgstr "Conseiller du pays d'origine accompagnant le pèlerin du Hajj lors du dépistage sanitaire initial"
+
+#. Diagram element documentation
+#~ msgid "The Hajj pilgrim"
+#~ msgstr "Le pèlerin du Hajj"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust\n"
-"POT-Creation-Date: 2026-11-06T09:51:52.207Z\n"
+"POT-Creation-Date: 2026-11-12T11:49:49.523Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -23,7 +23,7 @@ msgid "Deciding the request: the pilgrim's consents are the policy"
 msgstr ""
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:5
-msgid "For the Hajj there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
+msgid "For the pilgrimage there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:"
 msgstr ""
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:16
@@ -37,7 +37,7 @@ msgstr ""
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:15
 #, python-brace-format
-msgid "the governing policy: the pilgrim's consents, each by its {code0} code and CodeSystem version (for example {code1} and {code2}, version 2.1.0);"
+msgid "the governing policy: the pilgrim's consents, each by its {code0} code and CodeSystem version (for example {code1} and {code2} in this guide's examples, version 2.1.0);"
 msgstr ""
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:11
@@ -47,7 +47,7 @@ msgstr ""
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:7
 #, python-brace-format
-msgid "The host-use consent ({code0}) governs the Host Country Ministry of Health's use of the IPS after it is received: for treatment during the Hajj and any follow-up care, as its consent text states."
+msgid "The host-use consent ({code0}, or the fictional {code1} of this guide's examples) governs the Host Country Ministry of Health's use of the IPS after it is received: for treatment during the pilgrimage and any follow-up care, as its consent text states."
 msgstr ""
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:14
@@ -56,7 +56,7 @@ msgstr ""
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:6
 #, python-brace-format
-msgid "The origin-release consent (for example {code0}) lets the Origin Country HIE release the IPS to the recipient named in {code1} (role {code2}, information recipient), for the purpose in {code3} ({code4}), during {code5}. The Origin Country HIE enforces this consent from its own Consent Registry (as recorded by the Record Consent transaction, [ITI-108]), not from the copy carried inside the IPS. The IPS copy is signed when the IPS is issued, so it cannot show a later withdrawal."
+msgid "The origin-release consent (for example {code0}, or the fictional {code1} of this guide's examples) lets the Origin Country HIE release the IPS to the recipient named in {code2} (role {code3}, information recipient), for the purpose in {code4} ({code5}), during {code6}. The Origin Country HIE enforces this consent from its own Consent Registry (as recorded by the Record Consent transaction, [ITI-108]), not from the copy carried inside the IPS. The IPS copy is signed when the IPS is issued, so it cannot show a later withdrawal."
 msgstr ""
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:18
@@ -77,7 +77,7 @@ msgid "The recipient OCHIE checks if the VHL request is valid and responds with 
 msgstr ""
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:21
-msgid "This guide uses no separate data sharing agreement for the Hajj, so the consents themselves are the policy the audit event cites. The Host Country EMR, as an ATNA Secure Node or Secure Application, should also audit what it receives."
+msgid "This guide uses no separate data sharing agreement for the pilgrimage, so the consents themselves are the policy the audit event cites. The Host Country EMR, as an ATNA Secure Node or Secure Application, should also audit what it receives."
 msgstr ""
 
 #: input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md:9

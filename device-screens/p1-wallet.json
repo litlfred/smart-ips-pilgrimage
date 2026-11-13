@@ -15,17 +15,17 @@
     {
       "type": "header",
       "app": "National health wallet",
-      "subtitle": "Kamal • Hajj Health Record",
+      "subtitle": "Kamal • Pilgrimage Health Record",
       "icon": "phone",
       "brand": "#0d9488"
     },
     {
       "type": "consent",
-      "title": "Share my Hajj Health Record",
+      "title": "Share my Pilgrimage Health Record",
       "icon": "lock",
-      "who": "Saudi health workers who treat me during Hajj",
+      "who": "Taifafeki health workers who treat me during the pilgrimage",
       "what": "My patient summary: conditions, medicines, allergy",
-      "until": "The end of the Hajj season",
+      "until": "The end of the pilgrimage season",
       "granted": true
     },
     {
@@ -39,7 +39,7 @@
       "type": "statusBadge",
       "status": "verified",
       "text": "Consent recorded",
-      "detail": "Sent to Malaysia's health information exchange. You can withdraw it in the wallet."
+      "detail": "Sent to Onesa's health information exchange. You can withdraw it in the wallet."
     },
     {
       "type": "actions",

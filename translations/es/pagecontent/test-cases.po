@@ -46,10 +46,6 @@ msgstr "Los artefactos de prueba de esta guía de implementación no están dest
 msgid "This page will include test cases developed for the test scenarios, transactions and actors included in this implementation guide. See <a0>Testing</a0> for additional testing artifacts."
 msgstr "Esta página incluirá los casos de prueba elaborados para los escenarios de prueba, las transacciones y los actores incluidos en esta guía de implementación. Véase <a0>Pruebas</a0> para consultar otros artefactos de prueba."
 
-#: input/pagecontent/test-cases.md:51
-msgid "Unplanned Clinical Encounter at Hajj Health Facility"
-msgstr "Encuentro clínico no programado en un establecimiento de salud del Hajj"
-
 #: input/pagecontent/test-cases.md:124
 msgid "Validate retrieved IPS content"
 msgstr "Validar el contenido del IPS recuperado"
@@ -61,3 +57,10 @@ msgstr "Verificar la firma de la carga útil del CWT usando el Kid"
 #: input/pagecontent/test-cases.md:144
 msgid "View IPS content"
 msgstr "Ver el contenido del IPS"
+
+#: input/pagecontent/test-cases.md:51
+msgid "Unplanned Clinical Encounter at Pilgrimage Health Facility"
+msgstr "Encuentro clínico no programado en un establecimiento de salud de la peregrinación"
+
+#~ msgid "Unplanned Clinical Encounter at Hajj Health Facility"
+#~ msgstr "Encuentro clínico no programado en un establecimiento de salud del Hajj"
