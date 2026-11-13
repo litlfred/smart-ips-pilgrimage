@@ -2,12 +2,7 @@
  "$schema": "site-link-report/v1",
  "pages": 1057,
  "unresolved": [],
- "selfAddress": [
-  {
-   "page": "en/smart-ips-pilgrimage/journeys/smart-ips-pilgrimage/workshops/pilgrim-policy-questions/overview/index.html",
-   "href": "https://litlfred.github.io/smart-ips-pilgrimage/en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
-  }
- ],
+ "selfAddress": [],
  "content": [
   {
    "page": "actor-pilgrim.html",
@@ -19,11 +14,11 @@
   },
   {
    "page": "ar/business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "ar/business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "ar/business-processes.html",
@@ -51,15 +46,15 @@
   },
   {
    "page": "ar/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ar/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ar/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ar/business-processes.html",
@@ -323,11 +318,11 @@
   },
   {
    "page": "ar/index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "ar/index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "ar/index.html",
@@ -355,15 +350,15 @@
   },
   {
    "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ar/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ar/index.html",
@@ -458,20 +453,12 @@
    "href": "webcomponents/webcomponents-loader.js"
   },
   {
-   "page": "business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
-  },
-  {
-   "page": "business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "page": "es/business-processes.html",
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "es/business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
-  },
-  {
-   "page": "es/business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "es/business-processes.html",
@@ -499,15 +486,15 @@
   },
   {
    "page": "es/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "es/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "es/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "es/business-processes.html",
@@ -771,11 +758,11 @@
   },
   {
    "page": "es/index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "es/index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "es/index.html",
@@ -803,15 +790,15 @@
   },
   {
    "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "es/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "es/index.html",
@@ -851,11 +838,11 @@
   },
   {
    "page": "fr/business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "fr/business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "fr/business-processes.html",
@@ -883,15 +870,15 @@
   },
   {
    "page": "fr/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "fr/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "fr/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "fr/business-processes.html",
@@ -1155,11 +1142,11 @@
   },
   {
    "page": "fr/index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "fr/index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "fr/index.html",
@@ -1187,15 +1174,15 @@
   },
   {
    "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "fr/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "fr/index.html",
@@ -1234,20 +1221,12 @@
    "href": "MySejahtera_qr.png"
   },
   {
-   "page": "index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
-  },
-  {
-   "page": "index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "page": "ru/business-processes.html",
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "ru/business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
-  },
-  {
-   "page": "ru/business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "ru/business-processes.html",
@@ -1275,15 +1254,15 @@
   },
   {
    "page": "ru/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ru/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ru/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ru/business-processes.html",
@@ -1547,11 +1526,11 @@
   },
   {
    "page": "ru/index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "ru/index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "ru/index.html",
@@ -1579,15 +1558,15 @@
   },
   {
    "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ru/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "ru/index.html",
@@ -1627,11 +1606,11 @@
   },
   {
    "page": "zh/business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "zh/business-processes.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "zh/business-processes.html",
@@ -1659,15 +1638,15 @@
   },
   {
    "page": "zh/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "zh/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "zh/business-processes.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "zh/business-processes.html",
@@ -1931,11 +1910,11 @@
   },
   {
    "page": "zh/index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "zh/index.html",
-   "href": "archimate/2.1.0/views/id-59a6185ff9f2580db475ac98b7e1e854.svg"
+   "href": "archimate/2.1.0/view/id-59a6185ff9f2580db475ac98b7e1e854.svg"
   },
   {
    "page": "zh/index.html",
@@ -1963,15 +1942,15 @@
   },
   {
    "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "zh/index.html",
-   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/views/overview-of-key-process-flows/"
+   "href": "en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/"
   },
   {
    "page": "zh/index.html",

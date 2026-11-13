@@ -3,18 +3,23 @@
   "repository": "litlfred/smart-ips-pilgrimage",
   "versions": [
     {
+      "commit": "76b15dc34fd8b6afe20a116d666fd0e4d3a92a50",
+      "date": "2026-11-13T15:41:11+00:00",
+      "src": "8e697f976"
+    },
+    {
       "commit": "98d5cef7fa0dd60b9d066c1d201e59eec9da10f1",
-      "date": "2026-11-13T15:15:15Z",
+      "date": "2026-11-13T15:15:15+00:00",
       "src": "f8c1de435"
     },
     {
       "commit": "47ebcb0c17e78684d892e5815ff424bb17b58520",
-      "date": "2026-11-13T07:47:30Z",
+      "date": "2026-11-13T07:47:30+00:00",
       "src": "47372c0ad"
     },
     {
       "commit": "20f4ed46a2a53b3868f751ed610ef50feb78a79f",
-      "date": "2026-11-12T12:51:47Z",
+      "date": "2026-11-12T12:51:47+00:00",
       "src": "90093b139"
     }
   ]

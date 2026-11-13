@@ -1,17 +1,17 @@
 {
   "$schema": "ig-content-qa-verdict/v1",
   "items": 3237,
-  "contentDigest": "sha256:47669054bdace0b7aadd70711e43c2ba16298c9388202e7bf5bf78d3f60439f0",
+  "contentDigest": "sha256:461bde67a6c259ae4473dbaeeacfca5d53261d4cd3e5d489e438560f069e8b84",
   "patternHits": [],
-  "reviewedDigest": "sha256:47669054bdace0b7aadd70711e43c2ba16298c9388202e7bf5bf78d3f60439f0",
+  "reviewedDigest": "sha256:461bde67a6c259ae4473dbaeeacfca5d53261d4cd3e5d489e438560f069e8b84",
   "reviewer": {
     "kind": "agent",
     "name": "claude-code",
     "session": "https://claude.ai/code/session_01EucfRpPqZBRX3HohW44aeQ"
   },
-  "reviewedAt": "2026-11-13T15:22:44.926Z",
+  "reviewedAt": "2026-11-13T15:45:10.783Z",
   "ok": true,
   "state": "reviewed",
   "openFindings": [],
-  "said": "3237 text(s) reviewed by agent claude-code at 2026-11-13T15:22:44.926Z; no pattern hit, no open finding"
+  "said": "3237 text(s) reviewed by agent claude-code at 2026-11-13T15:45:10.783Z; no pattern hit, no open finding"
 }

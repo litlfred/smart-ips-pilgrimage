@@ -24,7 +24,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/98d5cef7fa0dd60b9d066c1d201e59eec9da10f1/resources/MedicationStatement/c220e36c-eb67-4fc4-9ba1-2fabc52acec5.json"
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-ips-pilgrimage/76b15dc34fd8b6afe20a116d666fd0e4d3a92a50/resources/MedicationStatement/c220e36c-eb67-4fc4-9ba1-2fabc52acec5.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "mirror"
@@ -33,7 +33,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "f8c1de435129d48d23e1f403883d9606f85f4480"
+    "prov:used": "8e697f97611e76c12efb340baf30eeb16ff8aeb7"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",
