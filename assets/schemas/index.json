@@ -3240,6 +3240,14 @@
       "isTest": false
     },
     {
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "instance": "fhir-harness",
+      "name": "fhir-core",
+      "graphNode": "schema",
+      "summary": "fhir-core.ts — the FHIR core specification's StructureDefinitions, one graph",
+      "isTest": false
+    },
+    {
       "module": "fhir-harness/schemas/ig-annexes.ts",
       "instance": "fhir-harness",
       "name": "ig-annexes",
@@ -102368,6 +102376,726 @@
       "exported": true
     },
     {
+      "id": "fhir-harness/schemas/fhir-core.ts#CoreDefinition",
+      "name": "CoreDefinition",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "type-alias",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "typescript",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#CoreDefinitionSchema",
+      "name": "CoreDefinitionSchema",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-object",
+      "doc": "One StructureDefinition read from the package, keyed by its canonical URL.",
+      "fields": [
+        {
+          "name": "url",
+          "type": "z.string().startsWith(CORE_SD_BASE)",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          }
+        },
+        {
+          "name": "id",
+          "type": "z.string().regex(/^[A-Za-z0-9\\-.]{1,64}$/)",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          }
+        },
+        {
+          "name": "name",
+          "type": "z.string().min(1)",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          }
+        },
+        {
+          "name": "version",
+          "type": "StableVersion",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "doc": "The SD's own `version`, which is the release's FHIR version."
+        },
+        {
+          "name": "kind",
+          "type": "SdKindSchema",
+          "optional": false,
+          "array": false,
+          "card": "1..1"
+        },
+        {
+          "name": "type",
+          "type": "z.string().min(1)",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          }
+        },
+        {
+          "name": "abstract",
+          "type": "z.boolean()",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "boolean",
+          "links": {
+            "boolean": "https://zod.dev/api#booleans"
+          }
+        },
+        {
+          "name": "derivation",
+          "type": "z.literal(\"specialization\").optional()",
+          "optional": true,
+          "array": false,
+          "card": "0..1",
+          "utype": "\"specialization\"",
+          "doc": "Absent on a root type: `Element` and `Resource` in R4/R4B, `Base` in R5."
+        },
+        {
+          "name": "baseDefinition",
+          "type": "z.string().startsWith(CORE_SD_BASE).optional()",
+          "optional": true,
+          "array": false,
+          "card": "0..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          }
+        },
+        {
+          "name": "file",
+          "type": "z.string().regex(/^StructureDefinition-[A-Za-z0-9\\-.]+\\.json$/)",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          },
+          "doc": "The materialised file, relative to the release directory."
+        },
+        {
+          "name": "sha256",
+          "type": "Sha256Hex",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "doc": "sha256 of the file's bytes, which are the package's bytes."
+        }
+      ],
+      "extendsNames": [],
+      "values": [],
+      "refs": [
+        "fhir-harness/schemas/fhir-core.ts#SdKindSchema",
+        "fhir-harness/schemas/fhir-core.ts#Sha256Hex",
+        "fhir-harness/schemas/fhir-core.ts#StableVersion"
+      ],
+      "unresolved": [],
+      "external": [
+        "CORE_SD_BASE",
+        "z"
+      ],
+      "source": "zod",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#CountsSchema",
+      "name": "CountsSchema",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-object",
+      "fields": [
+        {
+          "name": "primitive-type",
+          "type": "z.number().int().nonnegative()",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "number",
+          "links": {
+            "number": "https://zod.dev/api#numbers"
+          }
+        },
+        {
+          "name": "complex-type",
+          "type": "z.number().int().nonnegative()",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "number",
+          "links": {
+            "number": "https://zod.dev/api#numbers"
+          }
+        },
+        {
+          "name": "resource",
+          "type": "z.number().int().nonnegative()",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "number",
+          "links": {
+            "number": "https://zod.dev/api#numbers"
+          }
+        },
+        {
+          "name": "excluded",
+          "type": "z.number().int().nonnegative()",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "number",
+          "links": {
+            "number": "https://zod.dev/api#numbers"
+          },
+          "doc": "StructureDefinitions in the package the selection left out (profiles, extensions, logical models)."
+        }
+      ],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [
+        "z"
+      ],
+      "source": "zod",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCorePackage",
+      "name": "FhirCorePackage",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "type-alias",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "typescript",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema",
+      "name": "FhirCorePackageSchema",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-object",
+      "doc": "Where one release is read from, and what its tarball's bytes must hash to.",
+      "fields": [
+        {
+          "name": "name",
+          "type": "z.string().regex(/^hl7\\.fhir\\.r[0-9]+b?\\.core$/, \"an hl7.fhir.<release>.core package\")",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          }
+        },
+        {
+          "name": "version",
+          "type": "StableVersion",
+          "optional": false,
+          "array": false,
+          "card": "1..1"
+        },
+        {
+          "name": "tarball",
+          "type": "z.string().regex(/^https:\\/\\/packages\\.fhir\\.org\\/hl7\\.fhir\\.r[0-9]+b?\\.core\\/\\d+\\.\\d+\\.\\d+$/)",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          },
+          "doc": "packages.fhir.org's URL for the exact version."
+        },
+        {
+          "name": "shasum",
+          "type": "Sha1Hex",
+          "optional": false,
+          "array": false,
+          "card": "1..1"
+        },
+        {
+          "name": "integrity",
+          "type": "Sha512Integrity",
+          "optional": false,
+          "array": false,
+          "card": "1..1"
+        }
+      ],
+      "extendsNames": [],
+      "values": [],
+      "refs": [
+        "fhir-harness/schemas/fhir-core.ts#Sha1Hex",
+        "fhir-harness/schemas/fhir-core.ts#Sha512Integrity",
+        "fhir-harness/schemas/fhir-core.ts#StableVersion"
+      ],
+      "unresolved": [],
+      "external": [
+        "z"
+      ],
+      "source": "zod",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCorePin",
+      "name": "FhirCorePin",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "type-alias",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "typescript",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCorePins",
+      "name": "FhirCorePins",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "type-alias",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "typescript",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCorePinSchema",
+      "name": "FhirCorePinSchema",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-object",
+      "fields": [
+        {
+          "name": "release",
+          "type": "FhirReleaseSchema",
+          "optional": false,
+          "array": false,
+          "card": "1..1"
+        },
+        {
+          "name": "fhirVersion",
+          "type": "StableVersion",
+          "optional": false,
+          "array": false,
+          "card": "1..1"
+        },
+        {
+          "name": "package",
+          "type": "FhirCorePackageSchema",
+          "optional": false,
+          "array": false,
+          "card": "1..1"
+        }
+      ],
+      "extendsNames": [],
+      "values": [],
+      "refs": [
+        "fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema",
+        "fhir-harness/schemas/fhir-core.ts#FhirReleaseSchema",
+        "fhir-harness/schemas/fhir-core.ts#StableVersion"
+      ],
+      "unresolved": [],
+      "external": [],
+      "source": "zod",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCorePinsObject",
+      "name": "FhirCorePinsObject",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-object",
+      "fields": [
+        {
+          "name": "$schema",
+          "type": "z.literal(FHIR_CORE_PINS_TAG)",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "FHIR_CORE_PINS_TAG"
+        },
+        {
+          "name": "registry",
+          "type": "z.literal(\"https://packages.fhir.org\")",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "\"https://packages.fhir.org\""
+        },
+        {
+          "name": "note",
+          "type": "z.string().min(1)",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          },
+          "doc": "What a reviewer needs to re-check the pins by hand."
+        },
+        {
+          "name": "releases",
+          "type": "z.array(FhirCorePinSchema).min(1)",
+          "optional": false,
+          "array": true,
+          "card": "1..*",
+          "utype": "FhirCorePinSchema[]"
+        }
+      ],
+      "extendsNames": [],
+      "values": [],
+      "refs": [
+        "fhir-harness/schemas/fhir-core.ts#FhirCorePinSchema"
+      ],
+      "unresolved": [],
+      "external": [
+        "FHIR_CORE_PINS_TAG",
+        "z"
+      ],
+      "source": "zod",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCorePinsSchema",
+      "name": "FhirCorePinsSchema",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-object",
+      "fields": [],
+      "extendsNames": [
+        "FhirCorePinsObject"
+      ],
+      "values": [],
+      "refs": [
+        "fhir-harness/schemas/fhir-core.ts#FhirCorePinsObject"
+      ],
+      "unresolved": [],
+      "external": [],
+      "source": "zod",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCoreRead",
+      "name": "FhirCoreRead",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "type-alias",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "typescript",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseManifest",
+      "name": "FhirCoreReleaseManifest",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "type-alias",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "typescript",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject",
+      "name": "FhirCoreReleaseObject",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-object",
+      "doc": "One object rather than a discriminated union, so the node kind can be made",
+      "fields": [
+        {
+          "name": "$schema",
+          "type": "z.literal(FHIR_CORE_RELEASE_TAG)",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "FHIR_CORE_RELEASE_TAG"
+        },
+        {
+          "name": "release",
+          "type": "FhirReleaseSchema",
+          "optional": false,
+          "array": false,
+          "card": "1..1"
+        },
+        {
+          "name": "fhirVersion",
+          "type": "StableVersion",
+          "optional": false,
+          "array": false,
+          "card": "1..1"
+        },
+        {
+          "name": "package",
+          "type": "FhirCorePackageSchema",
+          "optional": false,
+          "array": false,
+          "card": "1..1"
+        },
+        {
+          "name": "selection",
+          "type": "z.string().min(1)",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          },
+          "doc": "The rule {@link isCoreDefinition} applies, in words."
+        },
+        {
+          "name": "status",
+          "type": "z.enum([\"read\", \"unread\"])",
+          "optional": false,
+          "array": false,
+          "card": "1..1",
+          "utype": "enum",
+          "links": {
+            "enum": "https://zod.dev/api#enums"
+          }
+        },
+        {
+          "name": "reason",
+          "type": "z.string().min(1).optional()",
+          "optional": true,
+          "array": false,
+          "card": "0..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          },
+          "doc": "`unread` only: why the package could not be read."
+        },
+        {
+          "name": "counts",
+          "type": "CountsSchema.optional()",
+          "optional": true,
+          "array": false,
+          "card": "0..1",
+          "utype": "CountsSchema",
+          "doc": "`read` only."
+        },
+        {
+          "name": "definitions",
+          "type": "z.array(CoreDefinitionSchema).min(1).optional()",
+          "optional": true,
+          "array": true,
+          "card": "0..*",
+          "utype": "CoreDefinitionSchema[]",
+          "doc": "`read` only, and never empty. An `unread` release has NO `definitions`: unread is not empty."
+        }
+      ],
+      "extendsNames": [],
+      "values": [],
+      "refs": [
+        "fhir-harness/schemas/fhir-core.ts#CoreDefinitionSchema",
+        "fhir-harness/schemas/fhir-core.ts#CountsSchema",
+        "fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema",
+        "fhir-harness/schemas/fhir-core.ts#FhirReleaseSchema",
+        "fhir-harness/schemas/fhir-core.ts#StableVersion"
+      ],
+      "unresolved": [],
+      "external": [
+        "FHIR_CORE_RELEASE_TAG",
+        "z"
+      ],
+      "source": "zod",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseSchema",
+      "name": "FhirCoreReleaseSchema",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-object",
+      "fields": [],
+      "extendsNames": [
+        "FhirCoreReleaseObject"
+      ],
+      "values": [],
+      "refs": [
+        "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject"
+      ],
+      "unresolved": [],
+      "external": [],
+      "source": "zod",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirCoreUnread",
+      "name": "FhirCoreUnread",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "type-alias",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "typescript",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirRelease",
+      "name": "FhirRelease",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "type-alias",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "typescript",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#FhirReleaseSchema",
+      "name": "FhirReleaseSchema",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-enum",
+      "doc": "The stable releases, and the directory each is kept in.",
+      "fields": [],
+      "extendsNames": [],
+      "values": [
+        "R4",
+        "R4B",
+        "R5"
+      ],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "zod",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#ReleaseHead",
+      "name": "ReleaseHead",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "type-alias",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "typescript",
+      "exported": false
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#SdKindSchema",
+      "name": "SdKindSchema",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-enum",
+      "fields": [],
+      "extendsNames": [],
+      "values": [
+        "primitive-type",
+        "complex-type",
+        "resource"
+      ],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "zod",
+      "exported": true
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#Sha1Hex",
+      "name": "Sha1Hex",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-scalar",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "zod",
+      "exported": false
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#Sha256Hex",
+      "name": "Sha256Hex",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-scalar",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "zod",
+      "exported": false
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#Sha512Integrity",
+      "name": "Sha512Integrity",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-scalar",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "zod",
+      "exported": false
+    },
+    {
+      "id": "fhir-harness/schemas/fhir-core.ts#StableVersion",
+      "name": "StableVersion",
+      "module": "fhir-harness/schemas/fhir-core.ts",
+      "kind": "zod-scalar",
+      "doc": "A stable FHIR version: three numbers, no ballot or snapshot suffix.",
+      "fields": [],
+      "extendsNames": [],
+      "values": [],
+      "refs": [],
+      "unresolved": [],
+      "external": [],
+      "source": "zod",
+      "exported": false
+    },
+    {
       "id": "fhir-harness/schemas/ig-annexes.ts#IgAnnexes",
       "name": "IgAnnexes",
       "module": "fhir-harness/schemas/ig-annexes.ts",
@@ -113827,6 +114555,15 @@
             "string": "https://zod.dev/api#strings"
           },
           "doc": "A note for the editors, not part of the meaning (`skos:editorialNote`):"
+        },
+        {
+          "name": "example",
+          "type": "LangTextSchema.optional()",
+          "optional": true,
+          "array": false,
+          "card": "0..1",
+          "utype": "LangTextSchema",
+          "doc": "An instance of the concept (`skos:example`), such as \"The Client"
         },
         {
           "name": "broader",
@@ -138599,6 +139336,142 @@
       "array": false
     },
     {
+      "from": "fhir-harness/schemas/fhir-core.ts#CoreDefinitionSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#SdKindSchema",
+      "via": "kind",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#CoreDefinitionSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#Sha256Hex",
+      "via": "sha256",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#CoreDefinitionSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#StableVersion",
+      "via": "version",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#Sha1Hex",
+      "via": "shasum",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#Sha512Integrity",
+      "via": "integrity",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#StableVersion",
+      "via": "version",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCorePinSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema",
+      "via": "package",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCorePinSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#FhirReleaseSchema",
+      "via": "release",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCorePinSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#StableVersion",
+      "via": "fhirVersion",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCorePinsObject",
+      "to": "fhir-harness/schemas/fhir-core.ts#FhirCorePinSchema",
+      "via": "releases",
+      "kind": "field",
+      "optional": false,
+      "array": true
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCorePinsSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#FhirCorePinsObject",
+      "via": "",
+      "kind": "extends",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject",
+      "to": "fhir-harness/schemas/fhir-core.ts#CoreDefinitionSchema",
+      "via": "definitions",
+      "kind": "field",
+      "optional": true,
+      "array": true
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject",
+      "to": "fhir-harness/schemas/fhir-core.ts#CountsSchema",
+      "via": "counts",
+      "kind": "field",
+      "optional": true,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject",
+      "to": "fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema",
+      "via": "package",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject",
+      "to": "fhir-harness/schemas/fhir-core.ts#FhirReleaseSchema",
+      "via": "release",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject",
+      "to": "fhir-harness/schemas/fhir-core.ts#StableVersion",
+      "via": "fhirVersion",
+      "kind": "field",
+      "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseSchema",
+      "to": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject",
+      "via": "",
+      "kind": "extends",
+      "optional": false,
+      "array": false
+    },
+    {
       "from": "fhir-harness/schemas/ig-annexes.ts#IgAnnexesSchema",
       "to": "fhir-harness/schemas/ig-annexes.ts#IgAnnexRecordSchema",
       "via": "annexes",
@@ -139690,6 +140563,14 @@
       "from": "folio-assistant-core/schemas/glossary.ts#TermSchema",
       "to": "folio-assistant-core/schemas/glossary.ts#LangTextSchema",
       "via": "definition",
+      "kind": "field",
+      "optional": true,
+      "array": false
+    },
+    {
+      "from": "folio-assistant-core/schemas/glossary.ts#TermSchema",
+      "to": "folio-assistant-core/schemas/glossary.ts#LangTextSchema",
+      "via": "example",
       "kind": "field",
       "optional": true,
       "array": false
@@ -140976,7 +141857,8 @@
     }
   ],
   "unread": [
-    "smart-base/fhir-artifact-index: index.json absent (built at publish)"
+    "smart-base/fhir-artifact-index: index.json absent (built at publish)",
+    "fhir-harness/fhir-core/r4: 8 referenced definition(s) not materialised (run fhir-core:materialise)"
   ],
   "nodeKinds": [
     {
@@ -141461,6 +142343,30 @@
       "typologies": [
         "fhir-artifact-index"
       ]
+    },
+    {
+      "id": "folio-fhir-core-pins",
+      "source": "node-kind",
+      "instance": "fhir-harness",
+      "parents": [],
+      "subclasses": [],
+      "typologies": [
+        "fhir-core-definitions"
+      ],
+      "page": "en/fhir-harness/folio-fhir-core-pins/",
+      "note": "fhir-harness/schemas/fhir-core.ts#FhirCorePinsKind — an export this reader does not model as a declaration"
+    },
+    {
+      "id": "folio-fhir-core-release",
+      "source": "node-kind",
+      "instance": "fhir-harness",
+      "parents": [],
+      "subclasses": [],
+      "typologies": [
+        "fhir-core-definitions"
+      ],
+      "page": "en/fhir-harness/folio-fhir-core-release/",
+      "note": "fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseKind — an export this reader does not model as a declaration"
     },
     {
       "id": "folio-figure-descriptions/v1",
