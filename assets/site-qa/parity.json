@@ -4,44 +4,6 @@
  "shortfall": [],
  "droppedByRuling": [],
  "current": {
-  "pages": 9140,
-  "counts": {
-   "siteNav": 0,
-   "search": 8719,
-   "navbarRow": 633,
-   "rail": 8686,
-   "translationMeta": 8719
-  },
-  "dirs": [
-   "ar",
-   "archimate",
-   "artifact",
-   "assets",
-   "cat-harness",
-   "en",
-   "es",
-   "fhir-artifact-index",
-   "fr",
-   "id-lookup",
-   "openapi",
-   "pilgrim",
-   "questionnaires",
-   "ru",
-   "smart-base",
-   "smart-ips-pilgrimage",
-   "zh"
-  ],
-  "index": [
-   "search",
-   "navbarRow",
-   "rail",
-   "translationMeta"
-  ],
-  "stamp": {
-   "present": true
-  }
- },
- "candidate": {
   "pages": 9149,
   "counts": {
    "siteNav": 0,
@@ -79,15 +41,53 @@
    "present": true
   }
  },
+ "candidate": {
+  "pages": 9167,
+  "counts": {
+   "siteNav": 0,
+   "search": 8746,
+   "navbarRow": 633,
+   "rail": 8713,
+   "translationMeta": 8746
+  },
+  "dirs": [
+   "ar",
+   "archimate",
+   "artifact",
+   "assets",
+   "cat-harness",
+   "en",
+   "es",
+   "fhir-artifact-index",
+   "fr",
+   "id-lookup",
+   "openapi",
+   "pilgrim",
+   "questionnaires",
+   "ru",
+   "smart-base",
+   "smart-ips-pilgrimage",
+   "zh"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
  "baseline": {
   "features": {
-   "pages": 9149,
+   "pages": 9167,
    "counts": {
     "siteNav": 0,
-    "search": 8728,
+    "search": 8746,
     "navbarRow": 633,
-    "rail": 8695,
-    "translationMeta": 8728
+    "rail": 8713,
+    "translationMeta": 8746
    },
    "dirs": [
     "ar",
@@ -118,6 +118,6 @@
     "present": true
    }
   },
-  "from": "8cff1f38dd1f"
+  "from": "db4fded10570"
  }
 }
