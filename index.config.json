@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "30e5c16942555e537dcf9611e7229e3a89196f75",
+          "ref": "dfabd22d6798c65917d720072af95bcaa0fce465",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,13 +42,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "30e5c16942555e537dcf9611e7229e3a89196f75",
-              "evidence": "standing consent by litlfred given 2026-11-12: follow `main` (green commits only) — litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml).",
-              "standing": {
-                "follows": "main",
-                "consentAt": "2026-11-12",
-                "require": "green"
-              }
+              "ref": "dfabd22d6798c65917d720072af95bcaa0fce465",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             },
             "standing": {
               "follows": "main",
@@ -66,7 +61,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "6ae868df1e15b9be6d3721bda5c9d071bb9ea000",
+          "ref": "1ae63149a4389ccaaeefd0d981a05d408163e04e",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -91,13 +86,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "6ae868df1e15b9be6d3721bda5c9d071bb9ea000",
-              "evidence": "standing consent by litlfred given 2026-11-12: follow `main` (green commits only) — litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml).",
-              "standing": {
-                "follows": "main",
-                "consentAt": "2026-11-12",
-                "require": "green"
-              }
+              "ref": "1ae63149a4389ccaaeefd0d981a05d408163e04e",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             },
             "standing": {
               "follows": "main",
@@ -115,7 +105,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "ab3ef64d309d7103e239baddbde5a050ef58976e",
+          "ref": "42d8cdb385e34c5bca7b46a0955d8295f1eb1455",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -125,13 +115,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "ab3ef64d309d7103e239baddbde5a050ef58976e",
-              "evidence": "standing consent by litlfred given 2026-11-12: follow `main` (green commits only) — litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml).",
-              "standing": {
-                "follows": "main",
-                "consentAt": "2026-11-12",
-                "require": "green"
-              }
+              "ref": "42d8cdb385e34c5bca7b46a0955d8295f1eb1455",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             },
             "standing": {
               "follows": "main",
@@ -149,7 +134,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "b90a5b9f59dc487109ec50c4e97a620e3e669e9d",
+          "ref": "f72b6cde165d99285bc8f9746b1d70393e758705",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -165,13 +150,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "b90a5b9f59dc487109ec50c4e97a620e3e669e9d",
-              "evidence": "standing consent by litlfred given 2026-11-12: follow `main` (green commits only) — litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml).",
-              "standing": {
-                "follows": "main",
-                "consentAt": "2026-11-12",
-                "require": "green"
-              }
+              "ref": "f72b6cde165d99285bc8f9746b1d70393e758705",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             },
             "standing": {
               "follows": "main",
@@ -189,7 +169,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "78f1f0291e8b2a1aae4fde2cfee80b97848b9538",
+          "ref": "562a227fd8e7f49d7a0350cdf3c2aea6af29afba",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -205,13 +185,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "78f1f0291e8b2a1aae4fde2cfee80b97848b9538",
-              "evidence": "standing consent by litlfred given 2026-11-12: follow `main` (green commits only) — litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml).",
-              "standing": {
-                "follows": "main",
-                "consentAt": "2026-11-12",
-                "require": "green"
-              }
+              "ref": "562a227fd8e7f49d7a0350cdf3c2aea6af29afba",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             },
             "standing": {
               "follows": "main",
@@ -229,7 +204,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "7db626b4abfeefe66751c51e0fb8d5b6cb922435",
+          "ref": "6d272fac1ea08f5d22d3fd68bf84baaf8f73b83a",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -242,13 +217,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "7db626b4abfeefe66751c51e0fb8d5b6cb922435",
-              "evidence": "standing consent by litlfred given 2026-11-12: follow `main` (green commits only) — litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml).",
-              "standing": {
-                "follows": "main",
-                "consentAt": "2026-11-12",
-                "require": "green"
-              }
+              "ref": "6d272fac1ea08f5d22d3fd68bf84baaf8f73b83a",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             },
             "standing": {
               "follows": "main",
@@ -337,7 +307,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-trust-tools",
-          "ref": "5143e093f774235a40fcef0592c7d0828e0b895c",
+          "ref": "17ac0a3f481186b9aeb224ce64af0960f0496e84",
           "overrides": {
             "smart-trust-tools": {
               "whole": true
@@ -347,13 +317,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "5143e093f774235a40fcef0592c7d0828e0b895c",
-              "evidence": "standing consent by litlfred given 2026-11-12: follow `main` (green commits only) — litlfred, 2026-11-12 09:07Z, project thread 'Nest bibliography entries under Bibliography' (Q-BIBNAV-2): 'B' = re-pin now and switch on standing re-pin so platform fixes reach the site by themselves (cat-harness-tools standing-repin.yml).",
-              "standing": {
-                "follows": "main",
-                "consentAt": "2026-11-12",
-                "require": "green"
-              }
+              "ref": "17ac0a3f481186b9aeb224ce64af0960f0496e84",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             },
             "standing": {
               "follows": "main",
