@@ -1,0 +1,184 @@
+{
+  "$schema": "folio-index-config/v1",
+  "_comment": "smart-trust-tools takes the smart-hiv shape, as litlfred/smart-trust does: this file pins the layers it needs (fhir-harness and everything below it) and declares the site agent-run. The mounts are laid down from index.lock.json and gitignored.",
+  "instances": [
+    {
+      "name": "fhir-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/fhir-harness",
+          "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
+          "overrides": {
+            "fhir-harness": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
+              "evidence": "Owner litlfred, 2026-11-15: re-pin every layer to main for opt-in collab groups (g1oc), Claude Code session https://claude.ai/code/session_01E667391F74184786BF4B9D"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "folio-assistant-core",
+      "source": {
+        "remote": {
+          "repository": "litlfred/folio-assistant-core",
+          "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
+          "overrides": {
+            "folio-assistant-core": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
+              "evidence": "Owner litlfred, 2026-11-15: re-pin every layer to main for opt-in collab groups (g1oc), Claude Code session https://claude.ai/code/session_01E667391F74184786BF4B9D"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness",
+          "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
+          "overrides": {
+            "cat-harness": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
+              "evidence": "Owner litlfred, 2026-11-15: re-pin every layer to main for opt-in collab groups (g1oc), Claude Code session https://claude.ai/code/session_01E667391F74184786BF4B9D"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness-tools",
+          "ref": "3f6222dd638b4a3ffebc1ffe7d6037f28c2925cd",
+          "overrides": {
+            "cat-harness-tools": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "3f6222dd638b4a3ffebc1ffe7d6037f28c2925cd",
+              "evidence": "Owner litlfred, 2026-11-15: re-pin every layer to main for opt-in collab groups (g1oc), Claude Code session https://claude.ai/code/session_01E667391F74184786BF4B9D"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap",
+          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+          "overrides": {
+            "bootstrap": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+              "evidence": "Owner litlfred, 2026-11-15: re-pin every layer to main for opt-in collab groups (g1oc), Claude Code session https://claude.ai/code/session_01E667391F74184786BF4B9D"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap-tools",
+          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+          "overrides": {
+            "bootstrap-tools": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-11-15",
+              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+              "evidence": "Owner litlfred, 2026-11-15: re-pin every layer to main for opt-in collab groups (g1oc), Claude Code session https://claude.ai/code/session_01E667391F74184786BF4B9D"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "smart-trust-tools",
+      "source": {
+        "local": {
+          "at": "."
+        }
+      },
+      "site": {
+        "build": {
+          "home": "docs/index.md",
+          "pre": [
+            "check:req-nodes",
+            "site:fhir-validate"
+          ],
+          "sourceSteps": [
+            "site:docs"
+          ],
+          "siteSteps": [
+            "site:viewers"
+          ],
+          "profile": "folio"
+        }
+      }
+    }
+  ],
+  "site": {
+    "landing": "smart-trust-tools",
+    "agentRun": true
+  }
+}
