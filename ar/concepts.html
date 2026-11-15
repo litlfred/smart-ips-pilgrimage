@@ -21,76 +21,81 @@
 
 <div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
 <main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="ar" dir="rtl"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>ترجمة آلية — لم يراجعها أي شخص</strong></p><p class="ig-tr-notice__body">تُرجمت هذه الصفحة آليًا. لم يراجع أي شخص هذه الترجمة أو يعتمدها، وقد تحتوي على أخطاء. الصفحة بلغة المصدر هي النص المرجعي. <a class="ig-tr-notice__source" href="../concepts.html">اقرأ النص الأصلي (بالإنجليزية)</a></p></div><div class="ig-tr-notice__lang" lang="en" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Machine translation — not reviewed by a person</strong></p><p class="ig-tr-notice__body">This page was translated automatically. No person has reviewed or adjudicated this translation, and it may contain errors. The source-language page is the authoritative text. <a class="ig-tr-notice__source" href="../concepts.html">Read the original (English)</a></p></div></div>
 <p><span hidden="" data-fa-figure-images="ig"></span></p>
 
-<p>تُوصَف هنا المفاهيم والاختصارات الرئيسية. وتَرِد مصطلحات إضافية في مسرد المصطلحات وقائمة الاختصارات في <a href="https://worldhealthorganization.github.io/ddcc/concepts.html">دليل تنفيذ FHIR للتوثيق الرقمي لشهادات COVID-19 الصادر عن منظمة الصحة العالمية (WHO)</a>.</p>
+<div class="ig-tr-unreviewed" data-tr-catalogue="concepts" data-tr-label="لم يراجعه أي شخص">
 
-<h1 id="المفاهيم-والتعريفات-الرئيسية">المفاهيم والتعريفات الرئيسية</h1>
+  <p>تُوصَف هنا المفاهيم والاختصارات الرئيسية. وتَرِد مصطلحات إضافية في مسرد المصطلحات وقائمة الاختصارات في <a href="https://worldhealthorganization.github.io/ddcc/concepts.html">دليل تنفيذ FHIR للتوثيق الرقمي لشهادات COVID-19 الصادر عن منظمة الصحة العالمية (WHO)</a>.</p>
 
-<h3 id="الزائر">الزائر</h3>
-<ul>
-  <li>شخص يؤدي الزيارة الدينية. وفي سياق نظام الرعاية الصحية، يُعدّ الزائر المستخدم الرئيسي، إذ يتلقى خدمات الرعاية الصحية ويتفاعل مع مختلف مقدمي الرعاية الصحية.</li>
-</ul>
+  <h1 id="section">المفاهيم والتعريفات الرئيسية</h1>
 
-<h3 id="البلد-الأم">البلد الأم</h3>
-<ul>
-  <li>البلد الذي يأتي منه الزائر أو يحمل جنسيته. ولهذا أهمية في سياق الرعاية الصحية، إذ قد تبدأ المعلومات الصحية والتدابير التحضيرية في البلد الأم قبل الزيارة الدينية.</li>
-</ul>
+  <h3 id="section-1">الزائر</h3>
+  <ul>
+    <li>شخص يؤدي الزيارة الدينية. وفي سياق نظام الرعاية الصحية، يُعدّ الزائر المستخدم الرئيسي، إذ يتلقى خدمات الرعاية الصحية ويتفاعل مع مختلف مقدمي الرعاية الصحية.</li>
+  </ul>
 
-<h3 id="البلد-المضيف">البلد المضيف</h3>
-<ul>
-  <li>البلد الذي يستضيف الزيارة الدينية، وهو في أمثلة هذا الدليل البلد الخيالي Taifafeki. ويقدّم البلد المضيف الرعاية الصحية وغيرها من الخدمات للزوار أثناء إقامتهم.</li>
-</ul>
+  <h3 id="section-2">البلد الأم</h3>
+  <ul>
+    <li>البلد الذي يأتي منه الزائر أو يحمل جنسيته. ولهذا أهمية في سياق الرعاية الصحية، إذ قد تبدأ المعلومات الصحية والتدابير التحضيرية في البلد الأم قبل الزيارة الدينية.</li>
+  </ul>
 
-<h3 id="المرفق-الصحي-للزيارة-الدينية">المرفق الصحي للزيارة الدينية</h3>
-<ul>
-  <li>مرفق طبي أُنشئ خصيصًا لتلبية احتياجات الزوار. وتتراوح هذه المرافق بين العيادات والمستشفيات، وهي مجهّزة للتعامل مع الفحوص الصحية الروتينية وخدمات الطوارئ على حد سواء.</li>
-</ul>
+  <h3 id="section-3">البلد المضيف</h3>
+  <ul>
+    <li>البلد الذي يستضيف الزيارة الدينية، وهو في أمثلة هذا الدليل البلد الخيالي Taifafeki. ويقدّم البلد المضيف الرعاية الصحية وغيرها من الخدمات للزوار أثناء إقامتهم.</li>
+  </ul>
 
-<h3 id="ممرض-التسجيل">ممرض التسجيل</h3>
-<ul>
-  <li>مهني رعاية صحية مسؤول عن التسجيل الأولي للزوار في المرافق الصحية للزيارة الدينية. ويشمل ذلك جمع معلومات الزوار والتحقق منها وبدء عملية الخدمة الصحية.</li>
-</ul>
+  <h3 id="section-4">المرفق الصحي للزيارة الدينية</h3>
+  <ul>
+    <li>مرفق طبي أُنشئ خصيصًا لتلبية احتياجات الزوار. وتتراوح هذه المرافق بين العيادات والمستشفيات، وهي مجهّزة للتعامل مع الفحوص الصحية الروتينية وخدمات الطوارئ على حد سواء.</li>
+  </ul>
 
-<h3 id="الممارس-السريري">الممارس السريري</h3>
-<ul>
-  <li>مهني طبي، كالطبيب أو الممرض، يقدّم الرعاية السريرية للزائر. ويستخدم الممارسون السريريون المعلومات الصحية للزائر، التي يُوصَل إليها عبر نظام الرعاية الصحية، لتقديم العلاجات الطبية المناسبة.</li>
-</ul>
+  <h3 id="section-5">ممرض التسجيل</h3>
+  <ul>
+    <li>مهني رعاية صحية مسؤول عن التسجيل الأولي للزوار في المرافق الصحية للزيارة الدينية. ويشمل ذلك جمع معلومات الزوار والتحقق منها وبدء عملية الخدمة الصحية.</li>
+  </ul>
 
-<h3 id="ملخص-المريض-الدولي-ips">ملخص المريض الدولي (IPS)</h3>
-<ul>
-  <li>مستند رقمي يتضمن المعلومات الصحية الأساسية عن المريض، صُمِّم لدعم استمرارية الرعاية وسلامة المرضى. وبالنسبة إلى الزوار، يتضمن IPS البيانات الديموغرافية الأساسية والتاريخ الطبي والأدوية والحساسيات وغيرها من المعلومات الصحية الحرجة التي يمكن مشاركتها عبر الحدود وبين أنظمة الرعاية الصحية.</li>
-</ul>
+  <h3 id="section-6">الممارس السريري</h3>
+  <ul>
+    <li>مهني طبي، كالطبيب أو الممرض، يقدّم الرعاية السريرية للزائر. ويستخدم الممارسون السريريون المعلومات الصحية للزائر، التي يُوصَل إليها عبر نظام الرعاية الصحية، لتقديم العلاجات الطبية المناسبة.</li>
+  </ul>
 
-<h3 id="رمز-qr">رمز QR</h3>
-<ul>
-  <li>ملصق بصري مقروء آليًا يتضمن معلومات عن العنصر المُلحَق به. وفي هذا السياق، يحمل بيانات مشفّرة تتيح لمقدمي الرعاية الصحية الوصول إلى IPS الخاص بالزائر عند مسحه.</li>
-</ul>
+  <h3 id="ips">ملخص المريض الدولي (IPS)</h3>
+  <ul>
+    <li>مستند رقمي يتضمن المعلومات الصحية الأساسية عن المريض، صُمِّم لدعم استمرارية الرعاية وسلامة المرضى. وبالنسبة إلى الزوار، يتضمن IPS البيانات الديموغرافية الأساسية والتاريخ الطبي والأدوية والحساسيات وغيرها من المعلومات الصحية الحرجة التي يمكن مشاركتها عبر الحدود وبين أنظمة الرعاية الصحية.</li>
+  </ul>
 
-<h3 id="رابط-smart-الصحي-shl">رابط SMART الصحي (SHL)</h3>
-<ul>
-  <li>رابط SMART الصحي هو رابط خاص يتيح وصولًا محدودًا زمنيًا ومقيَّدًا بكلمة مرور وبالتشفير إلى شهادة صحية أو مستند صحي.</li>
-</ul>
+  <h3 id="qr">رمز QR</h3>
+  <ul>
+    <li>ملصق بصري مقروء آليًا يتضمن معلومات عن العنصر المُلحَق به. وفي هذا السياق، يحمل بيانات مشفّرة تتيح لمقدمي الرعاية الصحية الوصول إلى IPS الخاص بالزائر عند مسحه.</li>
+  </ul>
 
-<h3 id="رقم-التعريف-الشخصي-pin">رقم التعريف الشخصي (PIN)</h3>
-<ul>
-  <li>ميزة أمنية تضيف طبقة حماية إضافية إلى المعلومات الصحية للزائر. وغالبًا ما يكون PIN الافتراضي هو تاريخ ميلاد الزائر، ويُستخدم مع رمز QR للوصول إلى IPS.</li>
-</ul>
+  <h3 id="smart--shl">رابط SMART الصحي (SHL)</h3>
+  <ul>
+    <li>رابط SMART الصحي هو رابط خاص يتيح وصولًا محدودًا زمنيًا ومقيَّدًا بكلمة مرور وبالتشفير إلى شهادة صحية أو مستند صحي.</li>
+  </ul>
 
-<h3 id="السجل-الطبي-الإلكتروني-emr">السجل الطبي الإلكتروني (EMR)</h3>
-<ul>
-  <li>نسخة رقمية من الملف الورقي للمريض، يستخدمها مقدمو الرعاية الصحية في التشخيص والعلاج. وفي سياق الزيارة الدينية، تستخدم المرافق الطبية في البلد المضيف سجلات EMRs لإدارة رعاية الزوار.</li>
-</ul>
+  <h3 id="pin">رقم التعريف الشخصي (PIN)</h3>
+  <ul>
+    <li>ميزة أمنية تضيف طبقة حماية إضافية إلى المعلومات الصحية للزائر. وغالبًا ما يكون PIN الافتراضي هو تاريخ ميلاد الزائر، ويُستخدم مع رمز QR للوصول إلى IPS.</li>
+  </ul>
 
-<h3 id="تبادل-المعلومات-الصحية-hie">تبادل المعلومات الصحية (HIE)</h3>
-<ul>
-  <li>المشاركة الإلكترونية للمعلومات الصحية بين مختلف المؤسسات. وفي سياق الزيارة الدينية، يشير إلى النظام الذي يتيح للبلدان الأم والبلد المضيف تبادل المعلومات الصحية للزوار بصورة آمنة.</li>
-</ul>
+  <h3 id="emr">السجل الطبي الإلكتروني (EMR)</h3>
+  <ul>
+    <li>نسخة رقمية من الملف الورقي للمريض، يستخدمها مقدمو الرعاية الصحية في التشخيص والعلاج. وفي سياق الزيارة الدينية، تستخدم المرافق الطبية في البلد المضيف سجلات EMRs لإدارة رعاية الزوار.</li>
+  </ul>
 
-<h3 id="ملخص-المريض-الدولي-القابل-للتحقق-verifiable-ips">ملخص المريض الدولي القابل للتحقق (Verifiable IPS)</h3>
-<ul>
-  <li>مستند IPS مقرون بتوقيع رقمي يمكن استخدامه للتحقق من مصدر IPS ضمن شبكة الثقة.</li>
-</ul>
+  <h3 id="hie">تبادل المعلومات الصحية (HIE)</h3>
+  <ul>
+    <li>المشاركة الإلكترونية للمعلومات الصحية بين مختلف المؤسسات. وفي سياق الزيارة الدينية، يشير إلى النظام الذي يتيح للبلدان الأم والبلد المضيف تبادل المعلومات الصحية للزوار بصورة آمنة.</li>
+  </ul>
+
+  <h3 id="verifiable-ips">ملخص المريض الدولي القابل للتحقق (Verifiable IPS)</h3>
+  <ul>
+    <li>مستند IPS مقرون بتوقيع رقمي يمكن استخدامه للتحقق من مصدر IPS ضمن شبكة الثقة.</li>
+  </ul>
+
+</div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/concepts.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/concepts.md">Edit this page on GitHub</a></p>
 <script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/concepts.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/concepts.md", "lines": [{"t":"Key Concepts and Definitions","l":4},{"t":"Pilgrim","l":6},{"t":"Origin Country","l":9},{"t":"Host Country","l":12},{"t":"Pilgrimage Health Facility","l":15},{"t":"Registration Nurse","l":18},{"t":"Clinician","l":21},{"t":"International Patient Summary (IPS)","l":24},{"t":"QR Code","l":27},{"t":"Smart Health Link (SHL)","l":30},{"t":"PIN (Personal Identification Number)","l":33},{"t":"EMR (Electronic Medical Record)","l":36},{"t":"HIE (Health Information Exchange)","l":39},{"t":"Verifiable International Patient Summary (Verifiable IPS)","l":42}]}</script>

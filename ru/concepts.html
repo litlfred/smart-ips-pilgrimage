@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru" dir="/ru/">
+<html lang="ru" dir="ltr">
 <head>
 <script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
 
@@ -21,76 +21,81 @@
 
 <div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
 <main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="ru" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Машинный перевод — не проверен человеком</strong></p><p class="ig-tr-notice__body">Эта страница переведена автоматически. Ни один человек не проверял и не утверждал этот перевод, поэтому он может содержать ошибки. Авторитетной является только страница на языке оригинала. <a class="ig-tr-notice__source" href="../concepts.html">Читать оригинал (английский)</a></p></div><div class="ig-tr-notice__lang" lang="en" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Machine translation — not reviewed by a person</strong></p><p class="ig-tr-notice__body">This page was translated automatically. No person has reviewed or adjudicated this translation, and it may contain errors. The source-language page is the authoritative text. <a class="ig-tr-notice__source" href="../concepts.html">Read the original (English)</a></p></div></div>
 <p><span hidden="" data-fa-figure-images="ig"></span></p>
 
-<p>Здесь описаны ключевые концепции и сокращения. Дополнительные термины определены в глоссарии и списке сокращений в <a href="https://worldhealthorganization.github.io/ddcc/concepts.html">руководстве по внедрению FHIR ВОЗ «Цифровая документация сертификатов COVID-19» (WHO Digital Documentation of COVID-19 Certificates FHIR Implementation Guide)</a>.</p>
+<div class="ig-tr-unreviewed" data-tr-catalogue="concepts" data-tr-label="Не проверено человеком">
 
-<h1 id="ключевые-концепции-и-определения">Ключевые концепции и определения</h1>
+  <p>Здесь описаны ключевые концепции и сокращения. Дополнительные термины определены в глоссарии и списке сокращений в <a href="https://worldhealthorganization.github.io/ddcc/concepts.html">руководстве по внедрению FHIR ВОЗ «Цифровая документация сертификатов COVID-19» (WHO Digital Documentation of COVID-19 Certificates FHIR Implementation Guide)</a>.</p>
 
-<h3 id="паломник">Паломник</h3>
-<ul>
-  <li>Лицо, совершающее паломничество. В контексте системы здравоохранения паломник является основным пользователем, получающим медицинские услуги и взаимодействующим с различными поставщиками медицинских услуг.</li>
-</ul>
+  <h1 id="section">Ключевые концепции и определения</h1>
 
-<h3 id="страна-происхождения">Страна происхождения</h3>
-<ul>
-  <li>Страна, из которой происходит паломник или гражданство которой он имеет. Это важно в контексте здравоохранения, поскольку сбор медицинской информации и подготовительные меры могут быть начаты в стране происхождения до паломничества.</li>
-</ul>
+  <h3 id="section-1">Паломник</h3>
+  <ul>
+    <li>Лицо, совершающее паломничество. В контексте системы здравоохранения паломник является основным пользователем, получающим медицинские услуги и взаимодействующим с различными поставщиками медицинских услуг.</li>
+  </ul>
 
-<h3 id="принимающая-страна">Принимающая страна</h3>
-<ul>
-  <li>Страна, принимающая паломничество, которой в примерах этого руководства является вымышленная Taifafeki. Принимающая страна предоставляет паломникам медицинские и другие услуги во время их пребывания.</li>
-</ul>
+  <h3 id="section-2">Страна происхождения</h3>
+  <ul>
+    <li>Страна, из которой происходит паломник или гражданство которой он имеет. Это важно в контексте здравоохранения, поскольку сбор медицинской информации и подготовительные меры могут быть начаты в стране происхождения до паломничества.</li>
+  </ul>
 
-<h3 id="медицинское-учреждение-для-паломников">Медицинское учреждение для паломников</h3>
-<ul>
-  <li>Медицинское учреждение, созданное специально для удовлетворения потребностей паломников. Такие учреждения могут быть разными — от клиник до больниц — и оснащены для проведения как плановых медицинских осмотров, так и оказания экстренной помощи.</li>
-</ul>
+  <h3 id="section-3">Принимающая страна</h3>
+  <ul>
+    <li>Страна, принимающая паломничество, которой в примерах этого руководства является вымышленная Taifafeki. Принимающая страна предоставляет паломникам медицинские и другие услуги во время их пребывания.</li>
+  </ul>
 
-<h3 id="регистрационная-медсестра">Регистрационная медсестра</h3>
-<ul>
-  <li>Медицинский специалист, отвечающий за первичную регистрацию паломников в медицинских учреждениях для паломников. Это включает сбор и проверку информации о паломнике и начало процесса оказания медицинских услуг.</li>
-</ul>
+  <h3 id="section-4">Медицинское учреждение для паломников</h3>
+  <ul>
+    <li>Медицинское учреждение, созданное специально для удовлетворения потребностей паломников. Такие учреждения могут быть разными — от клиник до больниц — и оснащены для проведения как плановых медицинских осмотров, так и оказания экстренной помощи.</li>
+  </ul>
 
-<h3 id="клиницист">Клиницист</h3>
-<ul>
-  <li>Медицинский специалист, например врач или медсестра, оказывающий паломнику клиническую помощь. Клиницисты используют медицинскую информацию паломника, полученную через систему здравоохранения, для назначения надлежащего лечения.</li>
-</ul>
+  <h3 id="section-5">Регистрационная медсестра</h3>
+  <ul>
+    <li>Медицинский специалист, отвечающий за первичную регистрацию паломников в медицинских учреждениях для паломников. Это включает сбор и проверку информации о паломнике и начало процесса оказания медицинских услуг.</li>
+  </ul>
 
-<h3 id="международная-сводка-о-пациенте-ips">Международная сводка о пациенте (IPS)</h3>
-<ul>
-  <li>Цифровой документ, содержащий важнейшую медицинскую информацию о пациенте и предназначенный для поддержки преемственности медицинской помощи и безопасности пациентов. Для паломников IPS включает основные демографические данные, анамнез, лекарственные препараты, аллергии и другую критически важную медицинскую информацию, которой можно обмениваться через границы и между системами здравоохранения.</li>
-</ul>
+  <h3 id="section-6">Клиницист</h3>
+  <ul>
+    <li>Медицинский специалист, например врач или медсестра, оказывающий паломнику клиническую помощь. Клиницисты используют медицинскую информацию паломника, полученную через систему здравоохранения, для назначения надлежащего лечения.</li>
+  </ul>
 
-<h3 id="qr-код">QR-код</h3>
-<ul>
-  <li>Машиночитаемая оптическая метка, содержащая информацию о предмете, к которому она прикреплена. В данном контексте она содержит зашифрованные данные, которые при сканировании позволяют поставщикам медицинских услуг получить доступ к IPS паломника.</li>
-</ul>
+  <h3 id="ips">Международная сводка о пациенте (IPS)</h3>
+  <ul>
+    <li>Цифровой документ, содержащий важнейшую медицинскую информацию о пациенте и предназначенный для поддержки преемственности медицинской помощи и безопасности пациентов. Для паломников IPS включает основные демографические данные, анамнез, лекарственные препараты, аллергии и другую критически важную медицинскую информацию, которой можно обмениваться через границы и между системами здравоохранения.</li>
+  </ul>
 
-<h3 id="smart-health-link-shl"><strong>Smart Health Link (SHL)</strong></h3>
-<ul>
-  <li>Smart Health Link — это специальная ссылка, обеспечивающая ограниченный по времени, защищённый паролем и криптографически ограниченный доступ к сертификату о состоянии здоровья или документу.</li>
-</ul>
+  <h3 id="qr-">QR-код</h3>
+  <ul>
+    <li>Машиночитаемая оптическая метка, содержащая информацию о предмете, к которому она прикреплена. В данном контексте она содержит зашифрованные данные, которые при сканировании позволяют поставщикам медицинских услуг получить доступ к IPS паломника.</li>
+  </ul>
 
-<h3 id="pin-персональный-идентификационный-номер">PIN (персональный идентификационный номер)</h3>
-<ul>
-  <li>Функция безопасности, обеспечивающая дополнительный уровень защиты медицинской информации паломника. PIN по умолчанию часто является датой рождения паломника и используется вместе с QR-кодом для доступа к IPS.</li>
-</ul>
+  <h3 id="smart-health-link-shl"><strong>Smart Health Link (SHL)</strong></h3>
+  <ul>
+    <li>Smart Health Link — это специальная ссылка, обеспечивающая ограниченный по времени, защищённый паролем и криптографически ограниченный доступ к сертификату о состоянии здоровья или документу.</li>
+  </ul>
 
-<h3 id="emr-электронная-медицинская-запись">EMR (электронная медицинская запись)</h3>
-<ul>
-  <li>Цифровая версия бумажной медицинской карты пациента, используемая поставщиками медицинских услуг для диагностики и лечения. В контексте паломничества EMR используются медицинскими учреждениями принимающей страны для организации помощи паломникам.</li>
-</ul>
+  <h3 id="pin---">PIN (персональный идентификационный номер)</h3>
+  <ul>
+    <li>Функция безопасности, обеспечивающая дополнительный уровень защиты медицинской информации паломника. PIN по умолчанию часто является датой рождения паломника и используется вместе с QR-кодом для доступа к IPS.</li>
+  </ul>
 
-<h3 id="hie-обмен-медицинской-информацией">HIE (обмен медицинской информацией)</h3>
-<ul>
-  <li>Электронный обмен медицинской информацией между различными организациями. В контексте паломничества это система, позволяющая странам происхождения и принимающей стране безопасно обмениваться медицинской информацией о паломниках.</li>
-</ul>
+  <h3 id="emr---">EMR (электронная медицинская запись)</h3>
+  <ul>
+    <li>Цифровая версия бумажной медицинской карты пациента, используемая поставщиками медицинских услуг для диагностики и лечения. В контексте паломничества EMR используются медицинскими учреждениями принимающей страны для организации помощи паломникам.</li>
+  </ul>
 
-<h3 id="проверяемая-международная-сводка-о-пациенте-проверяемая-ips">Проверяемая Международная сводка о пациенте (проверяемая IPS)</h3>
-<ul>
-  <li>Документ IPS вместе с цифровой подписью, которую можно использовать для проверки происхождения IPS в пределах Сети доверия.</li>
-</ul>
+  <h3 id="hie---">HIE (обмен медицинской информацией)</h3>
+  <ul>
+    <li>Электронный обмен медицинской информацией между различными организациями. В контексте паломничества это система, позволяющая странам происхождения и принимающей стране безопасно обмениваться медицинской информацией о паломниках.</li>
+  </ul>
+
+  <h3 id="ips-1">Проверяемая Международная сводка о пациенте (проверяемая IPS)</h3>
+  <ul>
+    <li>Документ IPS вместе с цифровой подписью, которую можно использовать для проверки происхождения IPS в пределах Сети доверия.</li>
+  </ul>
+
+</div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/concepts.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/concepts.md">Edit this page on GitHub</a></p>
 <script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/concepts.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/concepts.md", "lines": [{"t":"Key Concepts and Definitions","l":4},{"t":"Pilgrim","l":6},{"t":"Origin Country","l":9},{"t":"Host Country","l":12},{"t":"Pilgrimage Health Facility","l":15},{"t":"Registration Nurse","l":18},{"t":"Clinician","l":21},{"t":"International Patient Summary (IPS)","l":24},{"t":"QR Code","l":27},{"t":"Smart Health Link (SHL)","l":30},{"t":"PIN (Personal Identification Number)","l":33},{"t":"EMR (Electronic Medical Record)","l":36},{"t":"HIE (Health Information Exchange)","l":39},{"t":"Verifiable International Patient Summary (Verifiable IPS)","l":42}]}</script>

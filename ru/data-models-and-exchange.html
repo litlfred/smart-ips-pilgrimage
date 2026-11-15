@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru" dir="/ru/">
+<html lang="ru" dir="ltr">
 <head>
 <script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
 
@@ -21,36 +21,41 @@
 
 <div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
 <main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="ru" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Машинный перевод — не проверен человеком</strong></p><p class="ig-tr-notice__body">Эта страница переведена автоматически. Ни один человек не проверял и не утверждал этот перевод, поэтому он может содержать ошибки. Авторитетной является только страница на языке оригинала. <a class="ig-tr-notice__source" href="../data-models-and-exchange.html">Читать оригинал (английский)</a></p></div><div class="ig-tr-notice__lang" lang="en" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Machine translation — not reviewed by a person</strong></p><p class="ig-tr-notice__body">This page was translated automatically. No person has reviewed or adjudicated this translation, and it may contain errors. The source-language page is the authoritative text. <a class="ig-tr-notice__source" href="../data-models-and-exchange.html">Read the original (English)</a></p></div></div>
 <p><span hidden="" data-fa-figure-images="ig"></span></p>
 
-<p>Этот раздел содержит модели данных и протоколы обмена данными с определением акторов и транзакций. Он является частью машиночитаемого представления знаний уровня L3.</p>
+<div class="ig-tr-unreviewed" data-tr-catalogue="data-models-and-exchange" data-tr-label="Не проверено человеком">
 
-<p>Страницы, включённые в этот раздел, описаны ниже.</p>
+  <p>Этот раздел содержит модели данных и протоколы обмена данными с определением акторов и транзакций. Он является частью машиночитаемого представления знаний уровня L3.</p>
 
-<ul>
-  <li><a href="system-actors.html">Акторы</a> — перечень и описание программных или человеческих субъектов, взаимодействующих с системой, полученные на основе бизнес-требований, определённых на уровне L2.</li>
-  <li><a href="sequence-diagrams.html">Диаграммы последовательности</a> — диаграммы последовательности, отображающие взаимодействия между системными акторами в порядке их выполнения, полученные на основе бизнес-процессов уровня L2.</li>
-  <li><a href="transactions.html">Транзакции</a> — определённый перечень системных транзакций на атомарном уровне для каждого актора с описанием, описаниями возможностей (capability statements), определениями структур, опросниками, пакетами документов и композициями. Может также содержать ссылки на транзакции в других руководствах по внедрению.</li>
-  <li><a href="indicators-measures.html">Индикаторы и показатели</a> — тематический перечень индикаторов, определённых в руководстве по внедрению, со ссылками на руководящие документы уровней L1 и L2.</li>
-</ul>
+  <p>Страницы, включённые в этот раздел, описаны ниже.</p>
 
-<h3 id="проектная-документация--проект-">Проектная документация -ПРОЕКТ-</h3>
-<p>В приведённой ниже документации подробно описано, как использовать этот IG для исполнения логики принятия решений, а также необходимые для этого ресурсы, включая PlanDefinitions, ActivityDefinitions, ValueSets и Libraries.</p>
+  <ul>
+    <li><a href="system-actors.html">Акторы</a> — перечень и описание программных или человеческих субъектов, взаимодействующих с системой, полученные на основе бизнес-требований, определённых на уровне L2.</li>
+    <li><a href="sequence-diagrams.html">Диаграммы последовательности</a> — диаграммы последовательности, отображающие взаимодействия между системными акторами в порядке их выполнения, полученные на основе бизнес-процессов уровня L2.</li>
+    <li><a href="transactions.html">Транзакции</a> — определённый перечень системных транзакций на атомарном уровне для каждого актора с описанием, описаниями возможностей (capability statements), определениями структур, опросниками, пакетами документов и композициями. Может также содержать ссылки на транзакции в других руководствах по внедрению.</li>
+    <li><a href="indicators-measures.html">Индикаторы и показатели</a> — тематический перечень индикаторов, определённых в руководстве по внедрению, со ссылками на руководящие документы уровней L1 и L2.</li>
+  </ul>
 
-<h4 id="plandefinitions">PlanDefinitions</h4>
+  <h3 id="section">Проектная документация -ПРОЕКТ-</h3>
+  <p>В приведённой ниже документации подробно описано, как использовать этот IG для исполнения логики принятия решений, а также необходимые для этого ресурсы, включая PlanDefinitions, ActivityDefinitions, ValueSets и Libraries.</p>
 
-<p>Эти ресурсы PlanDefinitions можно найти в <a href="../artifacts.html">указателе артефактов</a></p>
+  <h4 id="plandefinitions">PlanDefinitions</h4>
 
-<h4 id="activitydefinitions">ActivityDefinitions</h4>
-<p>Для представления действий, которые необходимо выполнить, настоящее руководство по внедрению следует шаблонам рабочих процессов, установленным базовой спецификацией FHIR. Каждый антиген, представленный в виде PlanDefinition, обрабатывается для получения ресурсов ActivityDefinitions, соответствующих руководству по внедрению FHIR Clinical Practice Guidelines <a href="http://hl7.org/fhir/uv/cpg/profiles.html#activity-profiles">CPG-ActivityProfiles</a>.</p>
+  <p>Эти ресурсы PlanDefinitions можно найти в <a href="../artifacts.html">указателе артефактов</a></p>
 
-<h4 id="fhir-library">FHIR Library</h4>
-<p>FHIR Library содержит закодированную в base64 библиотеку CQL, которая представляет логику принятия решений в виде ряда логических условий. Каждый ресурс PlanDefinition и Measure ссылается на ресурс Library, на основе которого может приниматься каждое решение, и указывает, какое выражение CQL используется для инициирования решения в PlanDefinition или откуда извлекаются данные для создания MeasureReport в Measure соответственно.</p>
+  <h4 id="activitydefinitions">ActivityDefinitions</h4>
+  <p>Для представления действий, которые необходимо выполнить, настоящее руководство по внедрению следует шаблонам рабочих процессов, установленным базовой спецификацией FHIR. Каждый антиген, представленный в виде PlanDefinition, обрабатывается для получения ресурсов ActivityDefinitions, соответствующих руководству по внедрению FHIR Clinical Practice Guidelines <a href="http://hl7.org/fhir/uv/cpg/profiles.html#activity-profiles">CPG-ActivityProfiles</a>.</p>
 
-<h4 id="valuesets">ValueSets</h4>
-<p>Многие наборы значений (ValueSets), используемые в этом IG, взяты из <a href="https://hl7.org/fhir/uv/cpg/">CPG on FHIR</a> и <a href="https://hl7.org/fhir/uv/ips/">IPS</a>. Ряд наборов ValueSets сгенерирован на основе пользовательских сценариев, подробно описанных в этом IG.</p>
+  <h4 id="fhir-library">FHIR Library</h4>
+  <p>FHIR Library содержит закодированную в base64 библиотеку CQL, которая представляет логику принятия решений в виде ряда логических условий. Каждый ресурс PlanDefinition и Measure ссылается на ресурс Library, на основе которого может приниматься каждое решение, и указывает, какое выражение CQL используется для инициирования решения в PlanDefinition или откуда извлекаются данные для создания MeasureReport в Measure соответственно.</p>
 
-<p>Из этого формата есть одно исключение — библиотеки вакцин, которые устанавливают соответствие кодов между различными системами, включая SNOMED GPS и ATC ВОЗ, чтобы разработчики могли искать любую вакцину, которая может быть применима для их пользователя. Подробнее этот подход описан ниже.</p>
+  <h4 id="valuesets">ValueSets</h4>
+  <p>Многие наборы значений (ValueSets), используемые в этом IG, взяты из <a href="https://hl7.org/fhir/uv/cpg/">CPG on FHIR</a> и <a href="https://hl7.org/fhir/uv/ips/">IPS</a>. Ряд наборов ValueSets сгенерирован на основе пользовательских сценариев, подробно описанных в этом IG.</p>
+
+  <p>Из этого формата есть одно исключение — библиотеки вакцин, которые устанавливают соответствие кодов между различными системами, включая SNOMED GPS и ATC ВОЗ, чтобы разработчики могли искать любую вакцину, которая может быть применима для их пользователя. Подробнее этот подход описан ниже.</p>
+
+</div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/data-models-and-exchange.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/data-models-and-exchange.md">Edit this page on GitHub</a></p>
 <script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/data-models-and-exchange.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/data-models-and-exchange.md", "lines": [{"t":"Design Documentation -DRAFT-","l":10},{"t":"PlanDefinitions","l":13},{"t":"ActivityDefinitions","l":17},{"t":"FHIR Library","l":22},{"t":"ValueSets","l":25}]}</script>

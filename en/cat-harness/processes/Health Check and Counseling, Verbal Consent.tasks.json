@@ -182,7 +182,8 @@
    "laneHref": "Health Check and Counseling, Verbal Consent.html#lane-Lane_0jni0i2",
    "skills": [
     {
-     "name": "complete-sdc-questionnaire"
+     "name": "complete-sdc-questionnaire",
+     "href": "../../../en/cat-harness/processes/skills/complete-sdc-questionnaire.html"
     }
    ],
    "binding": "unbound"
@@ -206,7 +207,8 @@
    "laneHref": "Health Check and Counseling, Verbal Consent.html#lane-Lane_0jni0i2",
    "skills": [
     {
-     "name": "inform-client"
+     "name": "inform-client",
+     "href": "../../../en/cat-harness/processes/skills/inform-client.html"
     }
    ],
    "binding": "unbound"
@@ -230,7 +232,8 @@
    "laneHref": "Health Check and Counseling, Verbal Consent.html#lane-Lane_0jni0i2",
    "skills": [
     {
-     "name": "inform-client"
+     "name": "inform-client",
+     "href": "../../../en/cat-harness/processes/skills/inform-client.html"
     }
    ],
    "binding": "unbound"

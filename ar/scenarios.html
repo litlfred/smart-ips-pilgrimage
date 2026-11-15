@@ -21,52 +21,57 @@
 
 <div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
 <main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="ar" dir="rtl"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>ترجمة آلية — لم يراجعها أي شخص</strong></p><p class="ig-tr-notice__body">تُرجمت هذه الصفحة آليًا. لم يراجع أي شخص هذه الترجمة أو يعتمدها، وقد تحتوي على أخطاء. الصفحة بلغة المصدر هي النص المرجعي. <a class="ig-tr-notice__source" href="../scenarios.html">اقرأ النص الأصلي (بالإنجليزية)</a></p></div><div class="ig-tr-notice__lang" lang="en" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Machine translation — not reviewed by a person</strong></p><p class="ig-tr-notice__body">This page was translated automatically. No person has reviewed or adjudicated this translation, and it may contain errors. The source-language page is the authoritative text. <a class="ig-tr-notice__source" href="../scenarios.html">Read the original (English)</a></p></div></div>
 <p><span hidden="" data-fa-figure-images="ig"></span></p>
 
-<p class="stu-note">السيناريوهات أدناه مرويّةً بوصفها قصة زائر واحد: تتبع <a href="index.html">الصفحة الرئيسية</a> زائرًا خياليًا من Onesa عبر كل خطوة من تدفقات العمليات الرئيسية، مع السؤال الذي تثيره كل خطوة.</p>
+<div class="ig-tr-unreviewed" data-tr-catalogue="scenarios" data-tr-label="لم يراجعه أي شخص">
 
-<p>سيناريوهات المستخدم توضيحية فقط، ويُقصد بها إعطاء فكرة عن سير عمل نموذجي.</p>
+  <p class="stu-note">السيناريوهات أدناه مرويّةً بوصفها قصة زائر واحد: تتبع <a href="index.html">الصفحة الرئيسية</a> زائرًا خياليًا من Onesa عبر كل خطوة من تدفقات العمليات الرئيسية، مع السؤال الذي تثيره كل خطوة.</p>
 
-<p>كيفية تفسير سيناريوهات المستخدم</p>
+  <p>سيناريوهات المستخدم توضيحية فقط، ويُقصد بها إعطاء فكرة عن سير عمل نموذجي.</p>
 
-<p>يمكن أن تكون سيناريوهات المستخدم أدوات مفيدة لا لفهم السياق الذي ستعمل فيه الأداة الرقمية فهمًا أفضل فحسب، بل أيضًا لاستخلاص بعض الرؤى بشأن عناصر البيانات الرئيسية التي يلزم تسجيلها ومراعاتها في قاعدة البيانات. وفضلًا عن ذلك، فإن السياق الذي ستعمل فيه الأداة، كما تُبرزه سيناريوهات المستخدم، يقدّم رؤى بشأن بعض المتطلبات الوظيفية وغير الوظيفية التي سيحتاج إليها النظام أيضًا.</p>
+  <p>كيفية تفسير سيناريوهات المستخدم</p>
 
-<p>على سبيل المثال، تحدد السيناريوهات: عناصر البيانات الرئيسية التي يلزم تسجيلها و/أو حسابها؛ ومنطق دعم القرار الذي يمكن أتمتته في النظام؛ والمتطلبات الوظيفية وغير الوظيفية الرئيسية التي ينبغي تضمينها في النظام؛ والاعتبارات الخاصة بالمراهقين التي ينبغي مراعاتها.</p>
+  <p>يمكن أن تكون سيناريوهات المستخدم أدوات مفيدة لا لفهم السياق الذي ستعمل فيه الأداة الرقمية فهمًا أفضل فحسب، بل أيضًا لاستخلاص بعض الرؤى بشأن عناصر البيانات الرئيسية التي يلزم تسجيلها ومراعاتها في قاعدة البيانات. وفضلًا عن ذلك، فإن السياق الذي ستعمل فيه الأداة، كما تُبرزه سيناريوهات المستخدم، يقدّم رؤى بشأن بعض المتطلبات الوظيفية وغير الوظيفية التي سيحتاج إليها النظام أيضًا.</p>
 
-<h3 id="نشر-المفاتيح-العمومية-الوطنية-لأغراض-التحقق">نشر المفاتيح العمومية الوطنية لأغراض التحقق</h3>
-<p>الخدمات</p>
-<ul>
-  <li>منصة HIE الوطنية</li>
-  <li>GDHCN التابعة لمنظمة الصحة العالمية (WHO)</li>
-</ul>
+  <p>على سبيل المثال، تحدد السيناريوهات: عناصر البيانات الرئيسية التي يلزم تسجيلها و/أو حسابها؛ ومنطق دعم القرار الذي يمكن أتمتته في النظام؛ والمتطلبات الوظيفية وغير الوظيفية الرئيسية التي ينبغي تضمينها في النظام؛ والاعتبارات الخاصة بالمراهقين التي ينبغي مراعاتها.</p>
 
-<p>موصوف في إطار <a href="https://smart.who.int/smart-trust">SMART Trust</a> التابع لـ GDHCN، حيث يقدّم مشارك في GDHCN مفاتيح عمومية إلى بوابة شبكة الثقة GDHCN التابعة لمنظمة الصحة العالمية (WHO) يمكن استخدامها لتوقيع المستندات الصحية، ولا سيما <a href="https://build.fhir.org/ig/HL7/fhir-ips/">ملخص المريض الدولي (IPS)</a>. ونطاق الثقة الذي سيُستخدم لهذه المجموعة من السيناريوهات هو ips-pilgrimage</p>
+  <h3 id="section">نشر المفاتيح العمومية الوطنية لأغراض التحقق</h3>
+  <p>الخدمات</p>
+  <ul>
+    <li>منصة HIE الوطنية</li>
+    <li>GDHCN التابعة لمنظمة الصحة العالمية (WHO)</li>
+  </ul>
 
-<p>هذه العملية شرط مسبق لسيناريوهات المستخدم 3.0 و4.0 و5.0، وهي كذلك عملية روتينية في أي وقت تُحدَّث فيه مواد مفاتيح التشفير ذات الصلة.</p>
+  <p>موصوف في إطار <a href="https://smart.who.int/smart-trust">SMART Trust</a> التابع لـ GDHCN، حيث يقدّم مشارك في GDHCN مفاتيح عمومية إلى بوابة شبكة الثقة GDHCN التابعة لمنظمة الصحة العالمية (WHO) يمكن استخدامها لتوقيع المستندات الصحية، ولا سيما <a href="https://build.fhir.org/ig/HL7/fhir-ips/">ملخص المريض الدولي (IPS)</a>. ونطاق الثقة الذي سيُستخدم لهذه المجموعة من السيناريوهات هو ips-pilgrimage</p>
 
-<h3 id="نشر-المصطلحات-الوطنية">نشر المصطلحات الوطنية</h3>
-<p>هذه العملية مخصصة لمشاركة أنظمة الترميز ومجموعات القيم الوطنية المستخدمة في ملف تعريف IPS لدى منصة HIE وطنية. وينبغي استخدام أنظمة الترميز الموحدة حيثما أمكن، غير أن هذا يقرّ بأن أنظمة الترميز الوطنية قد تكون ضرورية، ولا سيما لترميز مصطلحات الأدوية. والهدف الأساسي، على الأقل في المراحل الأولى من مشاركة المصطلحات، ليس قابلية التشغيل البيني الدلالية بين منصة HIE وطنية وEMR البلد المضيف، بل دعم العامل الصحي في البلد المضيف في مراجعة IPS.</p>
+  <p>هذه العملية شرط مسبق لسيناريوهات المستخدم 3.0 و4.0 و5.0، وهي كذلك عملية روتينية في أي وقت تُحدَّث فيه مواد مفاتيح التشفير ذات الصلة.</p>
 
-<p>ينبغي مشاركة هذه المصطلحات من منصة HIE الوطنية مع خدمة المصطلحات التابعة لمنظمة الصحة العالمية (WHO).</p>
-<ul>
-  <li>ملف تعريف IHE <a href="https://profiles.ihe.net/ITI/SVCM/">مشاركة مجموعات القيم وخرائط المفاهيم (SVCM)</a> (موصى به)</li>
-  <li>مشاركة البيانات الجدولية</li>
-</ul>
+  <h3 id="section-1">نشر المصطلحات الوطنية</h3>
+  <p>هذه العملية مخصصة لمشاركة أنظمة الترميز ومجموعات القيم الوطنية المستخدمة في ملف تعريف IPS لدى منصة HIE وطنية. وينبغي استخدام أنظمة الترميز الموحدة حيثما أمكن، غير أن هذا يقرّ بأن أنظمة الترميز الوطنية قد تكون ضرورية، ولا سيما لترميز مصطلحات الأدوية. والهدف الأساسي، على الأقل في المراحل الأولى من مشاركة المصطلحات، ليس قابلية التشغيل البيني الدلالية بين منصة HIE وطنية وEMR البلد المضيف، بل دعم العامل الصحي في البلد المضيف في مراجعة IPS.</p>
 
-<p>بعد مشاركة هذه المصطلحات مع خدمة المصطلحات التابعة لمنظمة الصحة العالمية (WHO)، ينبغي أن يكون من الممكن استرجاعها من EMR البلد المضيف عبر ملف تعريف IHE SCVM.</p>
+  <p>ينبغي مشاركة هذه المصطلحات من منصة HIE الوطنية مع خدمة المصطلحات التابعة لمنظمة الصحة العالمية (WHO).</p>
+  <ul>
+    <li>ملف تعريف IHE <a href="https://profiles.ihe.net/ITI/SVCM/">مشاركة مجموعات القيم وخرائط المفاهيم (SVCM)</a> (موصى به)</li>
+    <li>مشاركة البيانات الجدولية</li>
+  </ul>
 
-<p>هذه العملية شرط مسبق لسيناريوهات المستخدم 3.0 و4.0 و5.0، وهي كذلك عملية روتينية في أي وقت تُحدَّث فيه المصطلحات ذات الصلة.</p>
+  <p>بعد مشاركة هذه المصطلحات مع خدمة المصطلحات التابعة لمنظمة الصحة العالمية (WHO)، ينبغي أن يكون من الممكن استرجاعها من EMR البلد المضيف عبر ملف تعريف IHE SCVM.</p>
 
-<h3 id="إصدار-المستند-الصحي-في-بلد-المنشأ">إصدار المستند الصحي في بلد المنشأ</h3>
-<p>هذا سيناريو من «المرحلة 1» يُجري فيه بلد المنشأ تقييمًا صحيًا للزائر، ويحصل على موافقة الزوار المؤهَّلين، ويُصدر رموز QR (رابط صحي ذكي) تتضمن ملخص المريض الخاص بهم في صورة IPS. وقد يُصدَر رمز QR في محفظة صحية وطنية أو رمزَ QR مطبوعًا.</p>
+  <p>هذه العملية شرط مسبق لسيناريوهات المستخدم 3.0 و4.0 و5.0، وهي كذلك عملية روتينية في أي وقت تُحدَّث فيه المصطلحات ذات الصلة.</p>
 
-<h3 id="اللقاء-السريري-للرعاية-غير-المخطط-لها">اللقاء السريري للرعاية غير المخطط لها</h3>
+  <h3 id="section-2">إصدار المستند الصحي في بلد المنشأ</h3>
+  <p>هذا سيناريو من «المرحلة 1» يُجري فيه بلد المنشأ تقييمًا صحيًا للزائر، ويحصل على موافقة الزوار المؤهَّلين، ويُصدر رموز QR (رابط صحي ذكي) تتضمن ملخص المريض الخاص بهم في صورة IPS. وقد يُصدَر رمز QR في محفظة صحية وطنية أو رمزَ QR مطبوعًا.</p>
 
-<p>هذا سيناريو من «المرحلة 1» يحتاج فيه زائر في البلد المضيف إلى طلب الرعاية من عامل صحي في البلد المضيف. ويتوسط الزائر في التبادل بإبراز رمز QR الصادر عن بلد منشئه. ويستخدم EMR البلد المضيف رمز QR للوصول إلى IHE الوطني لاسترجاع ملخص المريض (IPS).</p>
+  <h3 id="section-3">اللقاء السريري للرعاية غير المخطط لها</h3>
 
-<h3 id="اللقاء-السريري-بكسر-الزجاج">اللقاء السريري بكسر الزجاج</h3>
+  <p>هذا سيناريو من «المرحلة 1» يحتاج فيه زائر في البلد المضيف إلى طلب الرعاية من عامل صحي في البلد المضيف. ويتوسط الزائر في التبادل بإبراز رمز QR الصادر عن بلد منشئه. ويستخدم EMR البلد المضيف رمز QR للوصول إلى IHE الوطني لاسترجاع ملخص المريض (IPS).</p>
 
-<p>هذا سيناريو من «المرحلة 2» يكون فيه زائر في البلد المضيف فاقدًا للوعي ويجب أن يتلقى رعاية طارئة. ويصل العامل الصحي في البلد المضيف إلى ملخص المريض عبر رقم تسجيل الزيارة الدينية. وقبل لقاء الرعاية الطارئة هذا، يكون الزائر قد سجّل موافقته على إتاحة الوصول إلى سجله إما عبر تطبيق المحفظة الصحية الوطنية أو عبر الهيئة الوطنية للزيارة الدينية.</p>
+  <h3 id="section-4">اللقاء السريري بكسر الزجاج</h3>
+
+  <p>هذا سيناريو من «المرحلة 2» يكون فيه زائر في البلد المضيف فاقدًا للوعي ويجب أن يتلقى رعاية طارئة. ويصل العامل الصحي في البلد المضيف إلى ملخص المريض عبر رقم تسجيل الزيارة الدينية. وقبل لقاء الرعاية الطارئة هذا، يكون الزائر قد سجّل موافقته على إتاحة الوصول إلى سجله إما عبر تطبيق المحفظة الصحية الوطنية أو عبر الهيئة الوطنية للزيارة الدينية.</p>
+
+</div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/scenarios.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/scenarios.md">Edit this page on GitHub</a></p>
 <script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/scenarios.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/scenarios.md", "lines": [{"t":"Publication of National Public Keys for Verification","l":12},{"t":"Publication of National Terminologies","l":21},{"t":"Issuance of Health Document at Origin Country","l":33},{"t":"Clinical Encounter for Unplanned Care","l":37},{"t":"Break The Glass Clinical Encounter","l":42}]}</script>

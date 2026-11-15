@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh" dir="/zh/">
+<html lang="zh" dir="ltr">
 <head>
 <script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
 
@@ -21,35 +21,40 @@
 
 <div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
 <main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="zh" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>机器翻译——未经人工审校</strong></p><p class="ig-tr-notice__body">本页面为自动翻译。尚无任何人审校或裁定此译文，可能存在错误。以源语言页面为准。 <a class="ig-tr-notice__source" href="../transaction-retrieve-MHD-folder-request-expected-actions-semantics.html">阅读原文（英文）</a></p></div><div class="ig-tr-notice__lang" lang="en" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Machine translation — not reviewed by a person</strong></p><p class="ig-tr-notice__body">This page was translated automatically. No person has reviewed or adjudicated this translation, and it may contain errors. The source-language page is the authoritative text. <a class="ig-tr-notice__source" href="../transaction-retrieve-MHD-folder-request-expected-actions-semantics.html">Read the original (English)</a></p></div></div>
 <p><span hidden="" data-fa-figure-images="ig"></span></p>
 
-<ul>
-  <li>接收方 OCHIE 检查 VHL 请求是否有效，并以 FHIR bundle JSON 形式返回 documentReference。</li>
-  <li>接收方 OCHIE 充当 VHL 文档响应方（VHL Document Responder），必须符合 <a href="../artifact/CapabilityStatement-VHLDocumentResponder.html">VHL Document Responder</a> 的能力声明</li>
-</ul>
+<div class="ig-tr-unreviewed" data-tr-catalogue="transaction-retrieve-MHD-folder-request-expected-actions-semantics" data-tr-label="未经人工审校">
 
-<h5 id="对请求作出决定朝圣者的同意即为策略">对请求作出决定：朝圣者的同意即为策略</h5>
-<p>朝圣没有需要另行查找的数据共享协议。朝圣者的两条 <a href="../artifact/StructureDefinition-HajjConsent.html">HajjConsent</a> 资源即为策略，每一条都约束其所指名的一方：</p>
-<ul>
-  <li>来源方释放同意（例如 <code class="language-plaintext highlighter-rouge">CONSENT-MYS</code>，或本指南示例中虚构的 <code class="language-plaintext highlighter-rouge">CONSENT-XXK</code>）允许来源国 HIE 将 IPS 释放给 <code class="language-plaintext highlighter-rouge">Consent.provision.actor</code> 中指名的接收方（角色 <code class="language-plaintext highlighter-rouge">IRCP</code>，信息接收方），用于 <code class="language-plaintext highlighter-rouge">Consent.provision.purpose</code> 中的目的（<code class="language-plaintext highlighter-rouge">TREAT</code>），期限为 <code class="language-plaintext highlighter-rouge">Consent.provision.period</code>。来源国 HIE 依据其自身同意登记系统（Consent Registry）中的记录（由记录同意事务 [ITI-108] 记录）执行该同意，而非依据 IPS 中携带的副本。IPS 中的副本在签发 IPS 时签名，因此无法反映之后的撤回。</li>
-  <li>东道国使用同意（<code class="language-plaintext highlighter-rouge">CONSENT-KSA</code>，或本指南示例中虚构的 <code class="language-plaintext highlighter-rouge">CONSENT-XXR</code>）约束东道国卫生部在收到 IPS 后对其的使用：如其同意文本所述，用于朝圣期间的治疗及任何后续照护。</li>
-</ul>
+  <ul>
+    <li>接收方 OCHIE 检查 VHL 请求是否有效，并以 FHIR bundle JSON 形式返回 documentReference。</li>
+    <li>接收方 OCHIE 充当 VHL 文档响应方（VHL Document Responder），必须符合 <a href="../artifact/CapabilityStatement-VHLDocumentResponder.html">VHL Document Responder</a> 的能力声明</li>
+  </ul>
 
-<p>某个 <code class="language-plaintext highlighter-rouge">Consent</code> 是哪一项同意，以及向朝觐者展示的同意文本，均承载于 <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> 中：取自 <a href="../artifact/CodeSystem-IPS.HAJJ.CONSENT.html">IPS.HAJJ.CONSENT</a> CodeSystem 的代码，并将 <code class="language-plaintext highlighter-rouge">coding.version</code> 设置为该 CodeSystem 的版本。</p>
+  <h5 id="section">对请求作出决定：朝圣者的同意即为策略</h5>
+  <p>朝圣没有需要另行查找的数据共享协议。朝圣者的两条 <a href="../artifact/StructureDefinition-HajjConsent.html">HajjConsent</a> 资源即为策略，每一条都约束其所指名的一方：</p>
+  <ul>
+    <li>来源方释放同意（例如 <code class="language-plaintext highlighter-rouge">CONSENT-MYS</code>，或本指南示例中虚构的 <code class="language-plaintext highlighter-rouge">CONSENT-XXK</code>）允许来源国 HIE 将 IPS 释放给 <code class="language-plaintext highlighter-rouge">Consent.provision.actor</code> 中指名的接收方（角色 <code class="language-plaintext highlighter-rouge">IRCP</code>，信息接收方），用于 <code class="language-plaintext highlighter-rouge">Consent.provision.purpose</code> 中的目的（<code class="language-plaintext highlighter-rouge">TREAT</code>），期限为 <code class="language-plaintext highlighter-rouge">Consent.provision.period</code>。来源国 HIE 依据其自身同意登记系统（Consent Registry）中的记录（由记录同意事务 [ITI-108] 记录）执行该同意，而非依据 IPS 中携带的副本。IPS 中的副本在签发 IPS 时签名，因此无法反映之后的撤回。</li>
+    <li>东道国使用同意（<code class="language-plaintext highlighter-rouge">CONSENT-KSA</code>，或本指南示例中虚构的 <code class="language-plaintext highlighter-rouge">CONSENT-XXR</code>）约束东道国卫生部在收到 IPS 后对其的使用：如其同意文本所述，用于朝圣期间的治疗及任何后续照护。</li>
+  </ul>
 
-<p>东道国 EMR 通过在 <code class="language-plaintext highlighter-rouge">ips-pilgrimage</code> 信任域中的信任来识别（参见消息语义中的认证说明）。仅当通行码有效、VHL 未过期、来源方释放同意在其登记系统中处于有效状态、经验证的接收方与 <code class="language-plaintext highlighter-rouge">Consent.provision.actor</code> 匹配、目的为治疗且请求处于 <code class="language-plaintext highlighter-rouge">Consent.provision.period</code> 范围内时，来源国 HIE 才释放文档。若其中任何一项无法确认，则不允许该请求。</p>
+  <p>某个 <code class="language-plaintext highlighter-rouge">Consent</code> 是哪一项同意，以及向朝觐者展示的同意文本，均承载于 <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> 中：取自 <a href="../artifact/CodeSystem-IPS.HAJJ.CONSENT.html">IPS.HAJJ.CONSENT</a> CodeSystem 的代码，并将 <code class="language-plaintext highlighter-rouge">coding.version</code> 设置为该 CodeSystem 的版本。</p>
 
-<h5 id="审计事件">审计事件</h5>
-<p>来源国 HIE 对每个请求都使用记录审计事件 [ITI-20] 记录一条审计事件，无论文档被释放还是被拒绝。VHL 第 1 卷 §1:XX.3 要求 VHL 共享方和 VHL 接收方与 ATNA 安全节点（Secure Node）或安全应用（Secure Application）组合，ITI-YY5 §2:3.YY5.5.6 规定两者都宜（SHOULD）记录文档访问请求、所用认证方法、接收方身份、VHL 文件夹 ID 和授权决定。在本指南中，来源国 HIE 记录的审计事件还应当引用：</p>
-<ul>
-  <li>适用的策略：朝圣者的各项同意，每项以其 <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> 代码和 CodeSystem 版本标识（例如本指南示例中的 <code class="language-plaintext highlighter-rouge">CONSENT-XXK</code> 和 <code class="language-plaintext highlighter-rouge">CONSENT-XXR</code>，版本 2.1.0）；</li>
-  <li>为作出决定而从同意登记系统（Consent Registry）读取的每条 Consent 的 <code class="language-plaintext highlighter-rouge">id</code> 和 <code class="language-plaintext highlighter-rouge">meta.versionId</code>；</li>
-  <li>接收方，以所用的 VHL 认证选项所识别的身份为准；</li>
-  <li>使用目的（<code class="language-plaintext highlighter-rouge">TREAT</code>）；</li>
-  <li>所释放的文档（返回的 DocumentReference），或拒绝结果。</li>
-</ul>
+  <p>东道国 EMR 通过在 <code class="language-plaintext highlighter-rouge">ips-pilgrimage</code> 信任域中的信任来识别（参见消息语义中的认证说明）。仅当通行码有效、VHL 未过期、来源方释放同意在其登记系统中处于有效状态、经验证的接收方与 <code class="language-plaintext highlighter-rouge">Consent.provision.actor</code> 匹配、目的为治疗且请求处于 <code class="language-plaintext highlighter-rouge">Consent.provision.period</code> 范围内时，来源国 HIE 才释放文档。若其中任何一项无法确认，则不允许该请求。</p>
 
-<p>本指南不为朝圣使用单独的数据共享协议，因此审计事件所引用的策略就是这些同意本身。东道国 EMR 作为 ATNA 安全节点或安全应用，也宜对其接收的内容进行审计。</p>
+  <h5 id="section-1">审计事件</h5>
+  <p>来源国 HIE 对每个请求都使用记录审计事件 [ITI-20] 记录一条审计事件，无论文档被释放还是被拒绝。VHL 第 1 卷 §1:XX.3 要求 VHL 共享方和 VHL 接收方与 ATNA 安全节点（Secure Node）或安全应用（Secure Application）组合，ITI-YY5 §2:3.YY5.5.6 规定两者都宜（SHOULD）记录文档访问请求、所用认证方法、接收方身份、VHL 文件夹 ID 和授权决定。在本指南中，来源国 HIE 记录的审计事件还应当引用：</p>
+  <ul>
+    <li>适用的策略：朝圣者的各项同意，每项以其 <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> 代码和 CodeSystem 版本标识（例如本指南示例中的 <code class="language-plaintext highlighter-rouge">CONSENT-XXK</code> 和 <code class="language-plaintext highlighter-rouge">CONSENT-XXR</code>，版本 2.1.0）；</li>
+    <li>为作出决定而从同意登记系统（Consent Registry）读取的每条 Consent 的 <code class="language-plaintext highlighter-rouge">id</code> 和 <code class="language-plaintext highlighter-rouge">meta.versionId</code>；</li>
+    <li>接收方，以所用的 VHL 认证选项所识别的身份为准；</li>
+    <li>使用目的（<code class="language-plaintext highlighter-rouge">TREAT</code>）；</li>
+    <li>所释放的文档（返回的 DocumentReference），或拒绝结果。</li>
+  </ul>
+
+  <p>本指南不为朝圣使用单独的数据共享协议，因此审计事件所引用的策略就是这些同意本身。东道国 EMR 作为 ATNA 安全节点或安全应用，也宜对其接收的内容进行审计。</p>
+
+</div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md">Edit this page on GitHub</a></p>
 <script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md", "lines": [{"t":"Deciding the request: the pilgrim's consents are the policy","l":4},{"t":"Audit event","l":13}]}</script>

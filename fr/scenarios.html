@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" dir="/fr/">
+<html lang="fr" dir="ltr">
 <head>
 <script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
 
@@ -21,52 +21,57 @@
 
 <div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
 <main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="fr" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Traduction automatique — non relue par une personne</strong></p><p class="ig-tr-notice__body">Cette page a été traduite automatiquement. Aucune personne n’a relu ni validé cette traduction, qui peut contenir des erreurs. Seule la page dans la langue source fait foi. <a class="ig-tr-notice__source" href="../scenarios.html">Lire l’original (anglais)</a></p></div><div class="ig-tr-notice__lang" lang="en" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Machine translation — not reviewed by a person</strong></p><p class="ig-tr-notice__body">This page was translated automatically. No person has reviewed or adjudicated this translation, and it may contain errors. The source-language page is the authoritative text. <a class="ig-tr-notice__source" href="../scenarios.html">Read the original (English)</a></p></div></div>
 <p><span hidden="" data-fa-figure-images="ig"></span></p>
 
-<p class="stu-note">Les scénarios ci-dessous, racontés comme l’histoire d’un pèlerin : <a href="index.html">la page d’accueil</a> suit un pèlerin fictif d’Onesa à chaque étape des principaux flux de processus, avec la question que soulève chaque étape.</p>
+<div class="ig-tr-unreviewed" data-tr-catalogue="scenarios" data-tr-label="Non relu par une personne">
 
-<p>Les scénarios d’utilisation sont uniquement illustratifs et visent à donner une idée d’un flux de travail type.</p>
+  <p class="stu-note">Les scénarios ci-dessous, racontés comme l’histoire d’un pèlerin : <a href="index.html">la page d’accueil</a> suit un pèlerin fictif d’Onesa à chaque étape des principaux flux de processus, avec la question que soulève chaque étape.</p>
 
-<p>Comment interpréter les scénarios d’utilisation</p>
+  <p>Les scénarios d’utilisation sont uniquement illustratifs et visent à donner une idée d’un flux de travail type.</p>
 
-<p>Les scénarios d’utilisation peuvent être des outils utiles non seulement pour mieux comprendre le contexte dans lequel un outil numérique fonctionnerait, mais aussi pour obtenir des indications sur les principaux éléments de données qu’il faudrait enregistrer et prendre en compte dans la base de données. En outre, le contexte dans lequel l’outil fonctionnerait, éclairé par les scénarios d’utilisation, donne un aperçu de certaines exigences fonctionnelles et non fonctionnelles auxquelles le système devrait également répondre.</p>
+  <p>Comment interpréter les scénarios d’utilisation</p>
 
-<p>À titre d’exemple, les scénarios identifient : les principaux éléments de données qui doivent être enregistrés et/ou calculés ; la logique d’aide à la décision qui peut être automatisée dans le système ; les principales exigences fonctionnelles et non fonctionnelles qui devraient être incluses dans le système ; et les considérations propres aux adolescents dont il convient de tenir compte.</p>
+  <p>Les scénarios d’utilisation peuvent être des outils utiles non seulement pour mieux comprendre le contexte dans lequel un outil numérique fonctionnerait, mais aussi pour obtenir des indications sur les principaux éléments de données qu’il faudrait enregistrer et prendre en compte dans la base de données. En outre, le contexte dans lequel l’outil fonctionnerait, éclairé par les scénarios d’utilisation, donne un aperçu de certaines exigences fonctionnelles et non fonctionnelles auxquelles le système devrait également répondre.</p>
 
-<h3 id="publication-des-clés-publiques-nationales-pour-la-vérification">Publication des clés publiques nationales pour la vérification</h3>
-<p><strong>Services</strong></p>
-<ul>
-  <li>HIE national</li>
-  <li>GDHCN de l’OMS</li>
-</ul>
+  <p>À titre d’exemple, les scénarios identifient : les principaux éléments de données qui doivent être enregistrés et/ou calculés ; la logique d’aide à la décision qui peut être automatisée dans le système ; les principales exigences fonctionnelles et non fonctionnelles qui devraient être incluses dans le système ; et les considérations propres aux adolescents dont il convient de tenir compte.</p>
 
-<p>Décrit dans le cadre <a href="https://smart.who.int/smart-trust">SMART Trust</a> du GDHCN, selon lequel un participant au GDHCN fournit à la passerelle du réseau de confiance du GDHCN de l’OMS des clés publiques pouvant être utilisées pour signer des documents de santé, en particulier le <a href="https://build.fhir.org/ig/HL7/fhir-ips/">résumé international du patient (IPS)</a>.  Le domaine de confiance qui sera utilisé pour cet ensemble de scénarios est ips-pilgrimage</p>
+  <h3 id="publication-des-cls-publiques-nationales-pour-la-vrification">Publication des clés publiques nationales pour la vérification</h3>
+  <p><strong>Services</strong></p>
+  <ul>
+    <li>HIE national</li>
+    <li>GDHCN de l’OMS</li>
+  </ul>
 
-<p>Ce processus est à la fois une condition préalable aux scénarios d’utilisation 3.0, 4.0 et 5.0 et un processus de routine à tout moment où le matériel de clés de chiffrement pertinent est mis à jour.</p>
+  <p>Décrit dans le cadre <a href="https://smart.who.int/smart-trust">SMART Trust</a> du GDHCN, selon lequel un participant au GDHCN fournit à la passerelle du réseau de confiance du GDHCN de l’OMS des clés publiques pouvant être utilisées pour signer des documents de santé, en particulier le <a href="https://build.fhir.org/ig/HL7/fhir-ips/">résumé international du patient (IPS)</a>.  Le domaine de confiance qui sera utilisé pour cet ensemble de scénarios est ips-pilgrimage</p>
 
-<h3 id="publication-des-terminologies-nationales">Publication des terminologies nationales</h3>
-<p>Ce processus permet de partager les systèmes de codes et jeux de valeurs nationaux utilisés dans le profil de l’IPS d’un HIE national.  Des systèmes de codes normalisés devraient être utilisés dans la mesure du possible, mais il est reconnu que des systèmes de codes nationaux peuvent être nécessaires, en particulier pour le codage des terminologies relatives aux médicaments.  L’objectif principal, du moins dans les premières phases du partage des terminologies, n’est pas l’interopérabilité sémantique entre un HIE national et le DME du pays d’accueil, mais plutôt d’aider l’agent de santé du pays d’accueil à examiner l’IPS.</p>
+  <p>Ce processus est à la fois une condition préalable aux scénarios d’utilisation 3.0, 4.0 et 5.0 et un processus de routine à tout moment où le matériel de clés de chiffrement pertinent est mis à jour.</p>
 
-<p>Ces terminologies devraient être partagées par le HIE national avec le service terminologique de l’OMS.</p>
-<ul>
-  <li>Profil IHE <a href="https://profiles.ihe.net/ITI/SVCM/">Sharing Value Sets and Concept Maps (SVCM)</a> (recommandé)</li>
-  <li>Partage de données tabulaires</li>
-</ul>
+  <h3 id="publication-des-terminologies-nationales">Publication des terminologies nationales</h3>
+  <p>Ce processus permet de partager les systèmes de codes et jeux de valeurs nationaux utilisés dans le profil de l’IPS d’un HIE national.  Des systèmes de codes normalisés devraient être utilisés dans la mesure du possible, mais il est reconnu que des systèmes de codes nationaux peuvent être nécessaires, en particulier pour le codage des terminologies relatives aux médicaments.  L’objectif principal, du moins dans les premières phases du partage des terminologies, n’est pas l’interopérabilité sémantique entre un HIE national et le DME du pays d’accueil, mais plutôt d’aider l’agent de santé du pays d’accueil à examiner l’IPS.</p>
 
-<p>Une fois partagées avec le service terminologique de l’OMS, ces terminologies devraient pouvoir être récupérées depuis le DME du pays d’accueil au moyen du profil IHE SCVM.</p>
+  <p>Ces terminologies devraient être partagées par le HIE national avec le service terminologique de l’OMS.</p>
+  <ul>
+    <li>Profil IHE <a href="https://profiles.ihe.net/ITI/SVCM/">Sharing Value Sets and Concept Maps (SVCM)</a> (recommandé)</li>
+    <li>Partage de données tabulaires</li>
+  </ul>
 
-<p>Ce processus est à la fois une condition préalable aux scénarios d’utilisation 3.0, 4.0 et 5.0 et un processus de routine à tout moment où les terminologies pertinentes sont mises à jour.</p>
+  <p>Une fois partagées avec le service terminologique de l’OMS, ces terminologies devraient pouvoir être récupérées depuis le DME du pays d’accueil au moyen du profil IHE SCVM.</p>
 
-<h3 id="délivrance-du-document-de-santé-dans-le-pays-dorigine">Délivrance du document de santé dans le pays d’origine</h3>
-<p>Il s’agit d’un scénario de « phase 1 » dans lequel le pays d’origine réalise une évaluation de santé du pèlerin, obtient le consentement des pèlerins admissibles et délivre des codes QR (Smart Health Link) qui intègrent leur résumé du patient sous forme d’IPS. Le code QR pourrait être délivré dans un portefeuille de santé national ou sous forme de code QR imprimé.</p>
+  <p>Ce processus est à la fois une condition préalable aux scénarios d’utilisation 3.0, 4.0 et 5.0 et un processus de routine à tout moment où les terminologies pertinentes sont mises à jour.</p>
 
-<h3 id="consultation-clinique-pour-des-soins-non-planifiés">Consultation clinique pour des soins non planifiés</h3>
+  <h3 id="dlivrance-du-document-de-sant-dans-le-pays-dorigine">Délivrance du document de santé dans le pays d’origine</h3>
+  <p>Il s’agit d’un scénario de « phase 1 » dans lequel le pays d’origine réalise une évaluation de santé du pèlerin, obtient le consentement des pèlerins admissibles et délivre des codes QR (Smart Health Link) qui intègrent leur résumé du patient sous forme d’IPS. Le code QR pourrait être délivré dans un portefeuille de santé national ou sous forme de code QR imprimé.</p>
 
-<p>Il s’agit d’un scénario de « phase 1 » dans lequel un pèlerin se trouvant dans un pays d’accueil doit se faire soigner par un agent de santé du pays d’accueil. Le pèlerin sert d’intermédiaire à l’échange en présentant le code QR délivré par son pays d’origine.  Le DME du pays d’accueil utilise le code QR pour accéder à l’IHE national afin de récupérer le résumé du patient (IPS).</p>
+  <h3 id="consultation-clinique-pour-des-soins-non-planifis">Consultation clinique pour des soins non planifiés</h3>
 
-<h3 id="consultation-clinique--bris-de-glace-">Consultation clinique « bris de glace »</h3>
+  <p>Il s’agit d’un scénario de « phase 1 » dans lequel un pèlerin se trouvant dans un pays d’accueil doit se faire soigner par un agent de santé du pays d’accueil. Le pèlerin sert d’intermédiaire à l’échange en présentant le code QR délivré par son pays d’origine.  Le DME du pays d’accueil utilise le code QR pour accéder à l’IHE national afin de récupérer le résumé du patient (IPS).</p>
 
-<p>Il s’agit d’un scénario de « phase 2 » dans lequel un pèlerin se trouvant dans un pays d’accueil est inconscient et doit recevoir des soins d’urgence.  L’agent de santé du pays d’accueil accède au résumé du patient au moyen du numéro d’enregistrement de pèlerinage.   Avant cette consultation de soins d’urgence, le pèlerin aurait enregistré son consentement à l’accès à son dossier, soit par l’intermédiaire de l’application nationale de portefeuille de santé, soit par l’intermédiaire de l’autorité nationale du pèlerinage.</p>
+  <h3 id="consultation-clinique--bris-de-glace-">Consultation clinique « bris de glace »</h3>
+
+  <p>Il s’agit d’un scénario de « phase 2 » dans lequel un pèlerin se trouvant dans un pays d’accueil est inconscient et doit recevoir des soins d’urgence.  L’agent de santé du pays d’accueil accède au résumé du patient au moyen du numéro d’enregistrement de pèlerinage.   Avant cette consultation de soins d’urgence, le pèlerin aurait enregistré son consentement à l’accès à son dossier, soit par l’intermédiaire de l’application nationale de portefeuille de santé, soit par l’intermédiaire de l’autorité nationale du pèlerinage.</p>
+
+</div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/scenarios.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/scenarios.md">Edit this page on GitHub</a></p>
 <script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/scenarios.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/scenarios.md", "lines": [{"t":"Publication of National Public Keys for Verification","l":12},{"t":"Publication of National Terminologies","l":21},{"t":"Issuance of Health Document at Origin Country","l":33},{"t":"Clinical Encounter for Unplanned Care","l":37},{"t":"Break The Glass Clinical Encounter","l":42}]}</script>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" dir="/fr/">
+<html lang="fr" dir="ltr">
 <head>
 <script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
 
@@ -21,191 +21,268 @@
 
 <div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
 <main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="fr" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Traduction automatique — non relue par une personne</strong></p><p class="ig-tr-notice__body">Cette page a été traduite automatiquement. Aucune personne n’a relu ni validé cette traduction, qui peut contenir des erreurs. Seule la page dans la langue source fait foi. <a class="ig-tr-notice__source" href="../transactions.html">Lire l’original (anglais)</a></p></div><div class="ig-tr-notice__lang" lang="en" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Machine translation — not reviewed by a person</strong></p><p class="ig-tr-notice__body">This page was translated automatically. No person has reviewed or adjudicated this translation, and it may contain errors. The source-language page is the authoritative text. <a class="ig-tr-notice__source" href="../transactions.html">Read the original (English)</a></p></div></div>
 <p><span hidden="" data-fa-figure-images="ig"></span></p>
 
-<p>Voici les transactions définies pour ips-pilgrimage</p>
+<div class="ig-tr-unreviewed" data-tr-catalogue="transactions" data-tr-label="Non relu par une personne">
 
-<h3 id="record-consent-request">record consent from wallet - request</h3>
+  <p>Voici les transactions définies pour ips-pilgrimage</p>
 
-<p>La transaction Record Consent Request Event est lancée par une solution de santé du pays d’origine auprès du HIE du pays d’origine. Cette transaction doit suivre la transaction IHE PCF d’enregistrement du consentement (ITI-108). Le portefeuille de santé du pays d’origine joue le rôle d’acteur Consent Record et le HIE du pays d’origine joue le rôle d’acteur Consent Registry.</p>
+  <h3 id="record-consent-request">record consent from wallet - request</h3>
 
-<figure>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-record-consent-request-preamble" data-tr-label="Non relu par une personne">
+
+    <p>La transaction Record Consent Request Event est lancée par une solution de santé du pays d’origine auprès du HIE du pays d’origine. Cette transaction doit suivre la transaction IHE PCF d’enregistrement du consentement (ITI-108). Le portefeuille de santé du pays d’origine joue le rôle d’acteur Consent Record et le HIE du pays d’origine joue le rôle d’acteur Consent Registry.</p>
+
+    <figure>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" data-diagram-type="SEQUENCE" style="width:524px;height:234px;" width="524px" height="234px" viewBox="0 0 524 234" zoomAndPan="magnify" preserveAspectRatio="none" contentStyleType="text/css"><?plantuml 1.2026.9?><defs /><g font-family="sans-serif" lengthAdjust="spacing"><g class="participant-lifeline" data-qualified-name="HW" data-entity-uid="part1" id="part1-lifeline" data-source-line="5"><g><title>Origin Country</title><rect x="64.691" y="57.594" width="8" height="118.398" fill="#000" fill-opacity="0" /><line x1="68.191" y1="57.594" x2="68.191" y2="175.992" style="stroke:#107050;stroke-width:0.5;stroke-dasharray:5,5;" /></g></g><g class="participant-lifeline" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-lifeline" data-source-line="6"><g><title>Origin Country</title><rect x="312.459" y="57.594" width="8" height="118.398" fill="#000" fill-opacity="0" /><line x1="315.959" y1="57.594" x2="315.959" y2="175.992" style="stroke:#107050;stroke-width:0.5;stroke-dasharray:5,5;" /></g></g><g class="participant participant-head" data-qualified-name="HW" data-entity-uid="part1" id="part1-head" data-source-line="5"><rect x="10" y="10" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="17" y="29.995" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="20.828" y="46.292" fill="#000" font-size="14" textLength="94.726" font-family="Roboto Condensed">Health Wallet</text></g><g class="participant participant-head" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-head" data-source-line="6"><rect x="257.769" y="10" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="264.769" y="29.995" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="304.208" y="46.292" fill="#000" font-size="14" textLength="23.502" font-family="Roboto Condensed">HIE</text></g><g class="participant participant-tail" data-qualified-name="HW" data-entity-uid="part1" id="part1-tail" data-source-line="5"><rect x="10" y="175.992" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="17" y="195.987" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="20.828" y="212.284" fill="#000" font-size="14" textLength="94.726" font-family="Roboto Condensed">Health Wallet</text></g><g class="participant participant-tail" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-tail" data-source-line="6"><rect x="257.769" y="175.992" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="264.769" y="195.987" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="304.208" y="212.284" fill="#000" font-size="14" textLength="23.502" font-family="Roboto Condensed">HIE</text></g><g class="message" data-entity-1="part1" data-entity-2="part2" id="msg1" data-source-line="9"><polygon points="303.959,82.727,313.959,86.727,303.959,90.727,307.959,86.727" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><line x1="68.191" y1="86.727" x2="309.959" y2="86.727" style="stroke:#107050;stroke-width:1;" /><text x="75.191" y="81.661" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">01:</text><text x="102.48" y="81.661" fill="#000" font-size="13" textLength="186.85" font-family="Roboto Condensed">send consent record request</text></g><g class="message" data-entity-1="part2" data-entity-2="part2" id="msg2" data-source-line="10"><line x1="315.959" y1="115.859" x2="357.959" y2="115.859" style="stroke:#107050;stroke-width:1;" /><line x1="357.959" y1="115.859" x2="357.959" y2="128.859" style="stroke:#107050;stroke-width:1;" /><line x1="316.959" y1="128.859" x2="357.959" y2="128.859" style="stroke:#107050;stroke-width:1;" /><polygon points="326.959,124.859,316.959,128.859,326.959,132.859,322.959,128.859" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><text x="322.959" y="110.793" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">02:</text><text x="350.249" y="110.793" fill="#000" font-size="13" textLength="156.406" font-family="Roboto Condensed">store consent directives</text></g><g class="message" data-entity-1="part2" data-entity-2="part1" id="msg3" data-source-line="11"><polygon points="79.191,153.992,69.191,157.992,79.191,161.992,75.191,157.992" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><line x1="73.191" y1="157.992" x2="314.959" y2="157.992" style="stroke:#107050;stroke-width:1;" /><text x="85.191" y="152.926" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">03:</text><text x="112.48" y="152.926" fill="#000" font-size="13" textLength="196.479" font-family="Roboto Condensed">send consent record response</text></g><?plantuml-src XSmn3u8m40NWlR_Yx2uo4y92J71YP74fzAANb2ksLnF-lLKITJ5ExtBvtjiHJovPXE8GPNLOK9gTKcenGMYYnR20xWDTYA7rYIMiP-xGEBd2O9n3qM0YTCEVnkduSdsRBsMIU4xpY05qFJPbMTM7iT5ATGFicmr11H7PmkGvfq30oGURuvOmYjhCDnOVyAqjPIzqn_YHUVpNPboU7_K0?></g></svg>
 </figure>
-<h4 id="événements-déclencheurs">Événements déclencheurs</h4>
-<ul>
-  <li>Une nouvelle directive de consentement a été enregistrée par un portefeuille de santé numérique.
-    <h4 id="sémantique-des-messages">Sémantique des messages</h4>
-    <h5 id="sémantique-des-messages--requête">Sémantique des messages : requête</h5>
-  </li>
-  <li>
-    <p>La sémantique des messages de la requête d’enregistrement du consentement utilise une ressource FHIR Consent envoyée par une requête HTTP PUT ou POST.</p>
-  </li>
-  <li>
-    <p>Voir <a href="https://profiles.ihe.net/ITI/PCF/ITI-108.html">https://profiles.ihe.net/ITI/PCF/ITI-108.html</a> pour plus de détails.</p>
-  </li>
-  <li>Plus précisément,
+
+  </div>
+  <h4 id="vnements-dclencheurs">Événements déclencheurs</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-record-consent-request-trigger-events" data-tr-label="Non relu par une personne">
+
     <ul>
-      <li>Access Consent - Create (ITI-108)</li>
-      <li>Access Consent - Update (ITI-108)</li>
+      <li>Une nouvelle directive de consentement a été enregistrée par un portefeuille de santé numérique.</li>
     </ul>
-  </li>
-</ul>
 
-<h5 id="sémantique-des-messages--réponse">Sémantique des messages : réponse</h5>
-<ul>
-  <li>Voir les sections Create et Update de ITI 108. Le succès ou l’échec de l’interaction de création/mise à jour est indiqué par le code de réponse HTTP (par exemple 400, 200, etc.).
-    <h4 id="actions-attendues">Actions attendues</h4>
-  </li>
-  <li>Le consentement est stocké dans le registre des consentements. Veuillez consulter ici les déclarations de capacité de l’acteur Consent Registry</li>
-</ul>
+  </div>
+  <h4 id="smantique-des-messages">Sémantique des messages</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-record-consent-request-message-semantics" data-tr-label="Non relu par une personne">
 
-<h3 id="issue-vhl-request">issue VHL - request</h3>
-
-<p>La transaction issue VHL Request Event est lancée par un portefeuille de santé du pays d’origine auprès du HIE du pays d’origine.</p>
-
-<figure>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" data-diagram-type="SEQUENCE" style="width:569px;height:234px;" width="569px" height="234px" viewBox="0 0 569 234" zoomAndPan="magnify" preserveAspectRatio="none" contentStyleType="text/css"><?plantuml 1.2026.9?><defs /><g font-family="sans-serif" lengthAdjust="spacing"><g class="participant-lifeline" data-qualified-name="HW" data-entity-uid="part1" id="part1-lifeline--2" data-source-line="5"><g><title>Origin Country</title><rect x="64.691" y="57.594" width="8" height="118.398" fill="#000" fill-opacity="0" /><line x1="68.191" y1="57.594" x2="68.191" y2="175.992" style="stroke:#107050;stroke-width:0.5;stroke-dasharray:5,5;" /></g></g><g class="participant-lifeline" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-lifeline--2" data-source-line="6"><g><title>Origin Country</title><rect x="278.277" y="57.594" width="8" height="118.398" fill="#000" fill-opacity="0" /><line x1="281.777" y1="57.594" x2="281.777" y2="175.992" style="stroke:#107050;stroke-width:0.5;stroke-dasharray:5,5;" /></g></g><g class="participant participant-head" data-qualified-name="HW" data-entity-uid="part1" id="part1-head--2" data-source-line="5"><rect x="10" y="10" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="17" y="29.995" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="20.828" y="46.292" fill="#000" font-size="14" textLength="94.726" font-family="Roboto Condensed">Health Wallet</text></g><g class="participant participant-head" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-head--2" data-source-line="6"><rect x="223.586" y="10" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="230.586" y="29.995" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="270.026" y="46.292" fill="#000" font-size="14" textLength="23.502" font-family="Roboto Condensed">HIE</text></g><g class="participant participant-tail" data-qualified-name="HW" data-entity-uid="part1" id="part1-tail--2" data-source-line="5"><rect x="10" y="175.992" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="17" y="195.987" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="20.828" y="212.284" fill="#000" font-size="14" textLength="94.726" font-family="Roboto Condensed">Health Wallet</text></g><g class="participant participant-tail" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-tail--2" data-source-line="6"><rect x="223.586" y="175.992" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="230.586" y="195.987" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="270.026" y="212.284" fill="#000" font-size="14" textLength="23.502" font-family="Roboto Condensed">HIE</text></g><g class="message" data-entity-1="part1" data-entity-2="part2" id="msg1--2" data-source-line="9"><polygon points="269.777,82.727,279.777,86.727,269.777,90.727,273.777,86.727" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><line x1="68.191" y1="86.727" x2="275.777" y2="86.727" style="stroke:#107050;stroke-width:1;" /><text x="75.191" y="81.661" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">01:</text><text x="102.48" y="81.661" fill="#000" font-size="13" textLength="152.667" font-family="Roboto Condensed">send issue VHL request</text></g><g class="message" data-entity-1="part2" data-entity-2="part2" id="msg2--2" data-source-line="10"><line x1="281.777" y1="115.859" x2="323.777" y2="115.859" style="stroke:#107050;stroke-width:1;" /><line x1="323.777" y1="115.859" x2="323.777" y2="128.859" style="stroke:#107050;stroke-width:1;" /><line x1="282.777" y1="128.859" x2="323.777" y2="128.859" style="stroke:#107050;stroke-width:1;" /><polygon points="292.777,124.859,282.777,128.859,292.777,132.859,288.777,128.859" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><text x="288.777" y="110.793" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">02:</text><text x="316.067" y="110.793" fill="#000" font-size="13" textLength="235.066" font-family="Roboto Condensed">generate HCERT containing the VHL</text></g><g class="message" data-entity-1="part2" data-entity-2="part1" id="msg3--2" data-source-line="11"><polygon points="79.191,153.992,69.191,157.992,79.191,161.992,75.191,157.992" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><line x1="73.191" y1="157.992" x2="280.777" y2="157.992" style="stroke:#107050;stroke-width:1;" /><text x="85.191" y="152.926" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">03:</text><text x="112.48" y="152.926" fill="#000" font-size="13" textLength="162.297" font-family="Roboto Condensed">send issue VHL response</text></g><?plantuml-src XOsn2eD044Jx-ugDVTHQn4Q42mI446AJvjH55yxLtEqL_dr4YwG8f1kOzsPEn9qDFKASU5ajnXGcgvHQZ1FgQ34i4DME1c8evy3YrYThD5P6Q8orA14O3xhvOrogdQlBBIaJPEOmjUWWojiYJRCyQOj8ATt0kJWWoC0Zzq3U1uI7leB3Lq0lwgY_k04PdH44NLQtEtGpYo4c7a36NVqesy6FNR_Cx56z0G00?></g></svg>
-</figure>
-<h4 id="événements-déclencheurs-1">Événements déclencheurs</h4>
-<ul>
-  <li>La transaction de requête de délivrance du VHL est déclenchée lorsqu’un formulaire de configuration de la confidentialité, comprenant des paramètres de divulgation et de limite de durée, a été enregistré par un portefeuille de santé numérique.
-    <h4 id="sémantique-des-messages-1">Sémantique des messages</h4>
-    <h5 id="sémantique-des-messages--requête-1">Sémantique des messages – requête</h5>
-  </li>
-  <li>La sémantique des messages de la requête issue VHL doit inclure les paramètres nécessaires à la construction d’une <a href="https://build.fhir.org/ig/HL7/smart-health-cards-and-links/links-specification.html#construct-a-smart-health-link-payload">SMART Health Link Payload</a>, à savoir
+    <h5 id="smantique-des-messages--requte">Sémantique des messages : requête</h5>
     <ul>
-      <li>indicateur de code d’accès</li>
-      <li>délai d’expiration</li>
-    </ul>
-  </li>
-</ul>
-
-<h5 id="sémantique-des-messages--réponse-1">Sémantique des messages – réponse</h5>
-<ul>
-  <li>La réponse à la requête issue VHL doit inclure un CWT sérialisé sous la forme d’une image de code QR, comme spécifié dans la section Expected Actions.
-    <h4 id="actions-attendues-1">Actions attendues</h4>
-    <p>Les actions attendues du <a href="system-actors.html#ochie">HIE du pays d’origine</a> une fois qu’il reçoit la configuration de confidentialité sont les suivantes :</p>
-  </li>
-  <li>Le HIE du pays d’origine crée pour le pèlerin un <a href="https://profiles.ihe.net/ITI/MHD/StructureDefinition-IHE.MHD.Minimal.Folder.html">dossier</a> qui comprend, pour le pèlerin :
-    <ul>
-      <li>Document IPS en FHIR, en PDF ou les deux</li>
-      <li>Document IPS signé sous forme d’objet JSON JWS DSG pour chaque document inclus dans le dossier</li>
-    </ul>
-  </li>
-  <li>Les <a href="https://build.fhir.org/ig/HL7/smart-health-cards-and-links/links-specification.html">spécifications SHL</a> doivent être suivies pour créer un SMART Health Link qui est ensuite encapsulé dans une <a href="https://www.smart.who.int/trust/StructureDefinition-Hcert.html">structure HCERT</a> et partagé sous forme de <a href="https://www.smart.who.int/trust/StructureDefinition-CWT.html">structure CWT</a>, selon les étapes ci-dessous :
-    <ul>
-      <li>Établir un emplacement qui pointe vers les références de documents dans le dossier du pèlerin selon la syntaxe suivante : “{host}/List?_id={folder_id}&amp;_include=List:item”, où ‘folder_id’ est un identifiant unique du dossier de documents de santé du pèlerin. Cet emplacement doit être utilisé comme URL du lien de santé dans la charge utile VHL</li>
-      <li>Construire la <a href="https://smart.who.int/trust/StructureDefinition-SmartHealthLinkPayload.html">charge utile SHLink</a>
+      <li>
+        <p>La sémantique des messages de la requête d’enregistrement du consentement utilise une ressource FHIR Consent envoyée par une requête HTTP PUT ou POST.</p>
+      </li>
+      <li>
+        <p>Voir <a href="https://profiles.ihe.net/ITI/PCF/ITI-108.html">https://profiles.ihe.net/ITI/PCF/ITI-108.html</a> pour plus de détails.</p>
+      </li>
+      <li>
+        <p>Plus précisément,</p>
         <ul>
-          <li>Minifiée</li>
-          <li>Encodé en Base64url</li>
-          <li>Préfixée par shlink:/</li>
+          <li>Access Consent - Create (ITI-108)</li>
+          <li>Access Consent - Update (ITI-108)</li>
         </ul>
       </li>
-      <li>Construire le HCERT contenant le SHL généré à l’étape précédente</li>
-      <li>Construire la charge utile COSE comprenant le HCERT et la signer avec la clé privée au moyen du Kid</li>
-      <li>Construire le CWT avec l’en-tête, la charge utile et la signature</li>
-      <li>Sérialiser le CWT et utiliser Base64</li>
-      <li>Générer le code QR</li>
     </ul>
-  </li>
-</ul>
 
-<h3 id="retrieve-VHL-manifest-request">retrieve VHL folder docs - request</h3>
+    <h5 id="smantique-des-messages--rponse">Sémantique des messages : réponse</h5>
+    <ul>
+      <li>Voir les sections Create et Update de ITI 108. Le succès ou l’échec de l’interaction de création/mise à jour est indiqué par le code de réponse HTTP (par exemple 400, 200, etc.).</li>
+    </ul>
 
-<p>La transaction Retrieve VHL folder docs Request Event est initiée par le DME du pays d’accueil auprès de la HIE du pays d’origine.</p>
+  </div>
+  <h4 id="actions-attendues">Actions attendues</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-record-consent-request-expected-actions-semantics" data-tr-label="Non relu par une personne">
 
-<figure>
+    <ul>
+      <li>Le consentement est stocké dans le registre des consentements. Veuillez consulter ici les déclarations de capacité de l’acteur Consent Registry</li>
+    </ul>
+
+  </div>
+
+  <h3 id="issue-vhl-request">issue VHL - request</h3>
+
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-issue-verifiable-shl-request-preamble" data-tr-label="Non relu par une personne">
+
+    <p>La transaction issue VHL Request Event est lancée par un portefeuille de santé du pays d’origine auprès du HIE du pays d’origine.</p>
+
+    <figure>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" data-diagram-type="SEQUENCE" style="width:569px;height:234px;" width="569px" height="234px" viewBox="0 0 569 234" zoomAndPan="magnify" preserveAspectRatio="none" contentStyleType="text/css"><?plantuml 1.2026.9?><defs /><g font-family="sans-serif" lengthAdjust="spacing"><g class="participant-lifeline" data-qualified-name="HW" data-entity-uid="part1" id="part1-lifeline--2" data-source-line="5"><g><title>Origin Country</title><rect x="64.691" y="57.594" width="8" height="118.398" fill="#000" fill-opacity="0" /><line x1="68.191" y1="57.594" x2="68.191" y2="175.992" style="stroke:#107050;stroke-width:0.5;stroke-dasharray:5,5;" /></g></g><g class="participant-lifeline" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-lifeline--2" data-source-line="6"><g><title>Origin Country</title><rect x="278.277" y="57.594" width="8" height="118.398" fill="#000" fill-opacity="0" /><line x1="281.777" y1="57.594" x2="281.777" y2="175.992" style="stroke:#107050;stroke-width:0.5;stroke-dasharray:5,5;" /></g></g><g class="participant participant-head" data-qualified-name="HW" data-entity-uid="part1" id="part1-head--2" data-source-line="5"><rect x="10" y="10" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="17" y="29.995" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="20.828" y="46.292" fill="#000" font-size="14" textLength="94.726" font-family="Roboto Condensed">Health Wallet</text></g><g class="participant participant-head" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-head--2" data-source-line="6"><rect x="223.586" y="10" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="230.586" y="29.995" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="270.026" y="46.292" fill="#000" font-size="14" textLength="23.502" font-family="Roboto Condensed">HIE</text></g><g class="participant participant-tail" data-qualified-name="HW" data-entity-uid="part1" id="part1-tail--2" data-source-line="5"><rect x="10" y="175.992" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="17" y="195.987" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="20.828" y="212.284" fill="#000" font-size="14" textLength="94.726" font-family="Roboto Condensed">Health Wallet</text></g><g class="participant participant-tail" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-tail--2" data-source-line="6"><rect x="223.586" y="175.992" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="230.586" y="195.987" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="270.026" y="212.284" fill="#000" font-size="14" textLength="23.502" font-family="Roboto Condensed">HIE</text></g><g class="message" data-entity-1="part1" data-entity-2="part2" id="msg1--2" data-source-line="9"><polygon points="269.777,82.727,279.777,86.727,269.777,90.727,273.777,86.727" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><line x1="68.191" y1="86.727" x2="275.777" y2="86.727" style="stroke:#107050;stroke-width:1;" /><text x="75.191" y="81.661" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">01:</text><text x="102.48" y="81.661" fill="#000" font-size="13" textLength="152.667" font-family="Roboto Condensed">send issue VHL request</text></g><g class="message" data-entity-1="part2" data-entity-2="part2" id="msg2--2" data-source-line="10"><line x1="281.777" y1="115.859" x2="323.777" y2="115.859" style="stroke:#107050;stroke-width:1;" /><line x1="323.777" y1="115.859" x2="323.777" y2="128.859" style="stroke:#107050;stroke-width:1;" /><line x1="282.777" y1="128.859" x2="323.777" y2="128.859" style="stroke:#107050;stroke-width:1;" /><polygon points="292.777,124.859,282.777,128.859,292.777,132.859,288.777,128.859" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><text x="288.777" y="110.793" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">02:</text><text x="316.067" y="110.793" fill="#000" font-size="13" textLength="235.066" font-family="Roboto Condensed">generate HCERT containing the VHL</text></g><g class="message" data-entity-1="part2" data-entity-2="part1" id="msg3--2" data-source-line="11"><polygon points="79.191,153.992,69.191,157.992,79.191,161.992,75.191,157.992" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><line x1="73.191" y1="157.992" x2="280.777" y2="157.992" style="stroke:#107050;stroke-width:1;" /><text x="85.191" y="152.926" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">03:</text><text x="112.48" y="152.926" fill="#000" font-size="13" textLength="162.297" font-family="Roboto Condensed">send issue VHL response</text></g><?plantuml-src XOsn2eD044Jx-ugDVTHQn4Q42mI446AJvjH55yxLtEqL_dr4YwG8f1kOzsPEn9qDFKASU5ajnXGcgvHQZ1FgQ34i4DME1c8evy3YrYThD5P6Q8orA14O3xhvOrogdQlBBIaJPEOmjUWWojiYJRCyQOj8ATt0kJWWoC0Zzq3U1uI7leB3Lq0lwgY_k04PdH44NLQtEtGpYo4c7a36NVqesy6FNR_Cx56z0G00?></g></svg>
+</figure>
+
+  </div>
+  <h4 id="vnements-dclencheurs-1">Événements déclencheurs</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-issue-verifiable-shl-request-trigger-events" data-tr-label="Non relu par une personne">
+
+    <ul>
+      <li>La transaction de requête de délivrance du VHL est déclenchée lorsqu’un formulaire de configuration de la confidentialité, comprenant des paramètres de divulgation et de limite de durée, a été enregistré par un portefeuille de santé numérique.</li>
+    </ul>
+
+  </div>
+  <h4 id="smantique-des-messages-1">Sémantique des messages</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-issue-verifiable-shl-request-message-semantics" data-tr-label="Non relu par une personne">
+
+    <h5 id="smantique-des-messages--requte-1">Sémantique des messages – requête</h5>
+    <ul>
+      <li>La sémantique des messages de la requête issue VHL doit inclure les paramètres nécessaires à la construction d’une <a href="https://build.fhir.org/ig/HL7/smart-health-cards-and-links/links-specification.html#construct-a-smart-health-link-payload">SMART Health Link Payload</a>, à savoir
+        <ul>
+          <li>indicateur de code d’accès</li>
+          <li>délai d’expiration</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h5 id="smantique-des-messages--rponse-1">Sémantique des messages – réponse</h5>
+    <ul>
+      <li>La réponse à la requête issue VHL doit inclure un CWT sérialisé sous la forme d’une image de code QR, comme spécifié dans la section Expected Actions.</li>
+    </ul>
+
+  </div>
+  <h4 id="actions-attendues-1">Actions attendues</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-issue-verifiable-shl-request-expected-actions-semantics" data-tr-label="Non relu par une personne">
+
+    <p>Les actions attendues du <a href="system-actors.html#ochie">HIE du pays d’origine</a> une fois qu’il reçoit la configuration de confidentialité sont les suivantes :</p>
+    <ul>
+      <li>Le HIE du pays d’origine crée pour le pèlerin un <a href="https://profiles.ihe.net/ITI/MHD/StructureDefinition-IHE.MHD.Minimal.Folder.html">dossier</a> qui comprend, pour le pèlerin :
+        <ul>
+          <li>Document IPS en FHIR, en PDF ou les deux</li>
+          <li>Document IPS signé sous forme d’objet JSON JWS DSG pour chaque document inclus dans le dossier</li>
+        </ul>
+      </li>
+      <li>Les <a href="https://build.fhir.org/ig/HL7/smart-health-cards-and-links/links-specification.html">spécifications SHL</a> doivent être suivies pour créer un SMART Health Link qui est ensuite encapsulé dans une <a href="https://www.smart.who.int/trust/StructureDefinition-Hcert.html">structure HCERT</a> et partagé sous forme de <a href="https://www.smart.who.int/trust/StructureDefinition-CWT.html">structure CWT</a>, selon les étapes ci-dessous :
+        <ul>
+          <li>Établir un emplacement qui pointe vers les références de documents dans le dossier du pèlerin selon la syntaxe suivante : “{host}/List?_id={folder_id}&amp;_include=List:item”, où ‘folder_id’ est un identifiant unique du dossier de documents de santé du pèlerin. Cet emplacement doit être utilisé comme URL du lien de santé dans la charge utile VHL</li>
+          <li>Construire la <a href="https://smart.who.int/trust/StructureDefinition-SmartHealthLinkPayload.html">charge utile SHLink</a>
+            <ul>
+              <li>Minifiée</li>
+              <li>Encodé en Base64url</li>
+              <li>Préfixée par shlink:/</li>
+            </ul>
+          </li>
+          <li>Construire le HCERT contenant le SHL généré à l’étape précédente</li>
+          <li>Construire la charge utile COSE comprenant le HCERT et la signer avec la clé privée au moyen du Kid</li>
+          <li>Construire le CWT avec l’en-tête, la charge utile et la signature</li>
+          <li>Sérialiser le CWT et utiliser Base64</li>
+          <li>Générer le code QR</li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+
+  <h3 id="retrieve-VHL-manifest-request">retrieve VHL folder docs - request</h3>
+
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-retrieve-MHD-folder-request-preamble" data-tr-label="Non relu par une personne">
+
+    <p>La transaction Retrieve VHL folder docs Request Event est initiée par le DME du pays d’accueil auprès de la HIE du pays d’origine.</p>
+
+    <figure>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" data-diagram-type="SEQUENCE" style="width:443px;height:192px;" width="443px" height="192px" viewBox="0 0 443 192" zoomAndPan="magnify" preserveAspectRatio="none" contentStyleType="text/css"><?plantuml 1.2026.9?><defs /><g font-family="sans-serif" lengthAdjust="spacing"><g class="participant-lifeline" data-qualified-name="HCEMR" data-entity-uid="part1" id="part1-lifeline--3" data-source-line="5"><g><title>Host Country</title><rect x="59.472" y="57.594" width="8" height="76.266" fill="#000" fill-opacity="0" /><line x1="62.972" y1="57.594" x2="62.972" y2="133.859" style="stroke:#107050;stroke-width:0.5;stroke-dasharray:5,5;" /></g></g><g class="participant-lifeline" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-lifeline--3" data-source-line="6"><g><title>Origin Country</title><rect x="370.583" y="57.594" width="8" height="76.266" fill="#000" fill-opacity="0" /><line x1="374.083" y1="57.594" x2="374.083" y2="133.859" style="stroke:#107050;stroke-width:0.5;stroke-dasharray:5,5;" /></g></g><g class="participant participant-head" data-qualified-name="HCEMR" data-entity-uid="part1" id="part1-head--3" data-source-line="5"><rect x="10" y="10" width="105.943" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="17" y="29.995" fill="#000" font-size="14" textLength="91.943" font-family="Roboto Condensed">Host Country</text><text x="47.646" y="46.292" fill="#000" font-size="14" textLength="30.652" font-family="Roboto Condensed">EMR</text></g><g class="participant participant-head" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-head--3" data-source-line="6"><rect x="315.893" y="10" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="322.893" y="29.995" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="362.333" y="46.292" fill="#000" font-size="14" textLength="23.502" font-family="Roboto Condensed">HIE</text></g><g class="participant participant-tail" data-qualified-name="HCEMR" data-entity-uid="part1" id="part1-tail--3" data-source-line="5"><rect x="10" y="133.859" width="105.943" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="17" y="153.854" fill="#000" font-size="14" textLength="91.943" font-family="Roboto Condensed">Host Country</text><text x="47.646" y="170.151" fill="#000" font-size="14" textLength="30.652" font-family="Roboto Condensed">EMR</text></g><g class="participant participant-tail" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-tail--3" data-source-line="6"><rect x="315.893" y="133.859" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="322.893" y="153.854" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="362.333" y="170.151" fill="#000" font-size="14" textLength="23.502" font-family="Roboto Condensed">HIE</text></g><g class="message" data-entity-1="part1" data-entity-2="part2" id="msg1--3" data-source-line="9"><polygon points="362.083,82.727,372.083,86.727,362.083,90.727,366.083,86.727" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><line x1="62.972" y1="86.727" x2="368.083" y2="86.727" style="stroke:#107050;stroke-width:1;" /><text x="69.972" y="81.661" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">01:</text><text x="97.261" y="81.661" fill="#000" font-size="13" textLength="216.182" font-family="Roboto Condensed">retrieve MHD folder docs request</text></g><g class="message" data-entity-1="part2" data-entity-2="part1" id="msg2--3" data-source-line="10"><polygon points="73.972,111.859,63.972,115.859,73.972,119.859,69.972,115.859" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><line x1="67.972" y1="115.859" x2="373.083" y2="115.859" style="stroke:#107050;stroke-width:1;" /><text x="79.972" y="110.793" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">02:</text><text x="107.261" y="110.793" fill="#000" font-size="13" textLength="259.822" font-family="Roboto Condensed">send MHD folder docs request response</text></g><?plantuml-src TSmn2uCm40NW_Nx5DNlLMSJ52kaWGkSkqLnB82OsbnJyzmqwb0wTxi7xtfsCcstIX4N9SRDKcBHO05XLY6Osgt8HXVGSiVF9nR3TNJ_S12f6sUNq2yTWdiPzgRpsEnsxd42bw5rQ9WeecgcjgheffrO0x9_mt1uEQmmKWw4tuI0l-F1MvudsC-VYbOWZ730lZccDJ4x_q_dowXqJV000?></g></svg>
 </figure>
-<h4 id="événements-déclencheurs-2">Événements déclencheurs</h4>
-<ul>
-  <li>La transaction retrieve VHL folder docs request est lancée lorsque le DME du pays d’accueil a extrait une charge utile VHL d’un code QR scanné et que le CWT déchiffré a produit une charge utile HCERT encapsulant la charge utile VHL.
-    <h4 id="sémantique-des-messages-2">Sémantique des messages</h4>
-    <h5 id="sémantique-des-messages--requête-2">Sémantique des messages – requête</h5>
-  </li>
-  <li>La sémantique des messages de la requête retrieve VHL folder docs doit être une requête POST telle que spécifiée par <a href="https://build.fhir.org/ig/HL7/smart-health-cards-and-links/links-specification.html#smart-health-link-manifest-request">SMART Health Link Manifest Request</a>, accompagnée du code d’accès fourni dans le corps de la requête.</li>
-</ul>
 
-<h5 id="sémantique-des-messages--réponse-2">Sémantique des messages – réponse</h5>
-<ul>
-  <li>La sémantique des messages doit suivre une version modifiée du message de réponse Find Document References <a href="https://profiles.ihe.net/ITI/MHD/ITI-67.html#2367422-message-semantics">ITI-67</a> et, pour une requête réussie, renvoyer un bundle FHIR qui inclut toutes les documentReference disponibles dans le dossier VHL du pèlerin. La modification de la transaction ITI-67 consiste en ce que la HIE du pays d’origine doit respecter le paramètre de recherche _include avec la valeur List:item, car l’URL générée dans la charge utile VHL est au format :
-    <blockquote>
-      <p>{host}/List?_id={folder_id}&amp;_include=List:item”</p>
-    </blockquote>
-  </li>
-</ul>
+  </div>
+  <h4 id="vnements-dclencheurs-2">Événements déclencheurs</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-retrieve-MHD-folder-request-trigger-events" data-tr-label="Non relu par une personne">
 
-<h5 id="authentification-du-dme-du-pays-daccueil">Authentification du DME du pays d’accueil</h5>
-<p>La requête retrieve VHL folder docs correspond à la transaction IHE Verifiable Health Link (VHL) Retrieve Manifest [ITI-YY5]. Le VHL est cité ici dans sa version <a href="https://profiles.ihe.net/ITI/VHL/1.0.0-comment/">1.0.0-comment</a>, qui est un ballot de commentaires publics, et non une publication finale ou d’implémentation à l’essai ; son texte et ses numéros de section peuvent changer. Les sections citées ci-dessous ont été lues dans la source IHE/ITI.VHL (commit <code class="language-plaintext highlighter-rouge">48201473</code>), et non dans les pages publiées du ballot.</p>
+    <ul>
+      <li>La transaction retrieve VHL folder docs request est lancée lorsque le DME du pays d’accueil a extrait une charge utile VHL d’un code QR scanné et que le CWT déchiffré a produit une charge utile HCERT encapsulant la charge utile VHL.</li>
+    </ul>
 
-<p>Le VHL [ITI-YY5] nomme trois options par lesquelles le VHL Receiver (ici, le DME du pays d’accueil) s’authentifie auprès du VHL Sharer (ici, la HIE du pays d’origine) :</p>
-<ul>
-  <li>HTTP Message Signatures (RFC 9421), ITI-YY5 §2:3.YY5.4.1.3 ;</li>
-  <li>Option OAuth with SSRAA, utilisant le guide d’implémentation <a href="http://hl7.org/fhir/us/udap-security/">HL7 Security for Scalable Registration, Authentication, and Authorization (SSRAA)</a>, le profil HL7 FHIR d’UDAP, ITI-YY5 §2:3.YY5.4.1.4 ;</li>
-  <li>Option Verifiable Credential, ITI-YY5 §2:3.YY5.4.1.5.</li>
-</ul>
+  </div>
+  <h4 id="smantique-des-messages-2">Sémantique des messages</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-retrieve-MHD-folder-request-message-semantics" data-tr-label="Non relu par une personne">
 
-<p>Ce guide montre actuellement le DME du pays d’accueil s’authentifiant auprès de la HIE du pays d’origine avec l’authentification de nœud mTLS ([ITI-19]) (voir le diagramme de séquence de la consultation pour soins non planifiés). L’authentification de nœud mTLS ne fait pas partie des trois options d’authentification VHL. Le VHL exige néanmoins un transport sécurisé : ITI-YY5 §2:3.YY5.5.1 exige la conformité au profil IHE ATNA pour la sécurité du transport, et le volume 1 du VHL, §1:XX.3, exige que le VHL Receiver et le VHL Sharer soient groupés avec un ATNA Secure Node ou Secure Application. Un canal TLS reste donc attendu, mais à lui seul il ne satisfait à aucune des options d’authentification VHL.</p>
+    <h5 id="smantique-des-messages--requte-2">Sémantique des messages – requête</h5>
+    <ul>
+      <li>La sémantique des messages de la requête retrieve VHL folder docs doit être une requête POST telle que spécifiée par <a href="https://build.fhir.org/ig/HL7/smart-health-cards-and-links/links-specification.html#smart-health-link-manifest-request">SMART Health Link Manifest Request</a>, accompagnée du code d’accès fourni dans le corps de la requête.</li>
+    </ul>
 
-<p>Il est recommandé que le DME du pays d’accueil s’authentifie avec l’option OAuth with SSRAA. Comme l’approche mTLS actuelle, elle repose sur des certificats X.509 : la chaîne du certificat du DME du pays d’accueil remonte à une ancre acceptée dans le domaine de confiance <code class="language-plaintext highlighter-rouge">ips-pilgrimage</code>, de sorte que la HIE du pays d’origine identifie le destinataire par cette confiance, et non en consultant un accord distinct. Dans le cadre de cette option, la découverte et l’enregistrement SSRAA sont effectués avant la demande d’un jeton d’accès (ITI-YY5 §2:3.YY5.4.1.4). La manière dont le certificat ou la clé du DME du pays d’accueil est publié dans le domaine de confiance <code class="language-plaintext highlighter-rouge">ips-pilgrimage</code> n’est pas encore spécifiée par ce guide.</p>
-<h4 id="actions-attendues-2">Actions attendues</h4>
-<ul>
-  <li>L’OCHIE destinataire vérifie si la requête VHL est valide et répond avec la documentReference sous la forme d’un bundle FHIR en JSON.</li>
-  <li>L’OCHIE destinataire agit en tant que VHL Document Responder et doit se conformer à la déclaration de capacités du <a href="../artifact/CapabilityStatement-VHLDocumentResponder.html">VHL Document Responder</a></li>
-</ul>
+    <h5 id="smantique-des-messages--rponse-2">Sémantique des messages – réponse</h5>
+    <ul>
+      <li>La sémantique des messages doit suivre une version modifiée du message de réponse Find Document References <a href="https://profiles.ihe.net/ITI/MHD/ITI-67.html#2367422-message-semantics">ITI-67</a> et, pour une requête réussie, renvoyer un bundle FHIR qui inclut toutes les documentReference disponibles dans le dossier VHL du pèlerin. La modification de la transaction ITI-67 consiste en ce que la HIE du pays d’origine doit respecter le paramètre de recherche _include avec la valeur List:item, car l’URL générée dans la charge utile VHL est au format :
+        <blockquote>
+          <p>{host}/List?_id={folder_id}&amp;_include=List:item”</p>
+        </blockquote>
+      </li>
+    </ul>
 
-<h5 id="décider-de-la-requête--les-consentements-du-pèlerin-constituent-la-politique">Décider de la requête : les consentements du pèlerin constituent la politique</h5>
-<p>Pour le pèlerinage, il n’existe pas d’accord de partage de données distinct à consulter. Les deux ressources <a href="../artifact/StructureDefinition-HajjConsent.html">HajjConsent</a> du pèlerin constituent la politique, et chacune engage la partie qu’elle nomme :</p>
-<ul>
-  <li>Le consentement à la communication par le pays d’origine (par exemple <code class="language-plaintext highlighter-rouge">CONSENT-MYS</code>, ou le <code class="language-plaintext highlighter-rouge">CONSENT-XXK</code> fictif des exemples de ce guide) permet à la HIE du pays d’origine de communiquer l’IPS au destinataire nommé dans <code class="language-plaintext highlighter-rouge">Consent.provision.actor</code> (rôle <code class="language-plaintext highlighter-rouge">IRCP</code>, destinataire de l’information), pour la finalité indiquée dans <code class="language-plaintext highlighter-rouge">Consent.provision.purpose</code> (<code class="language-plaintext highlighter-rouge">TREAT</code>), pendant <code class="language-plaintext highlighter-rouge">Consent.provision.period</code>. La HIE du pays d’origine applique ce consentement à partir de son propre Consent Registry (tel qu’enregistré par la transaction Record Consent, [ITI-108]), et non à partir de la copie contenue dans l’IPS. La copie dans l’IPS est signée lors de l’émission de l’IPS ; elle ne peut donc pas faire apparaître un retrait ultérieur.</li>
-  <li>Le consentement à l’utilisation par le pays d’accueil (<code class="language-plaintext highlighter-rouge">CONSENT-KSA</code>, ou le <code class="language-plaintext highlighter-rouge">CONSENT-XXR</code> fictif des exemples de ce guide) régit l’utilisation de l’IPS par le ministère de la Santé du pays d’accueil après sa réception : pour le traitement pendant le pèlerinage et tout suivi des soins, comme l’indique le texte de ce consentement.</li>
-</ul>
+    <h5 id="authentification-du-dme-du-pays-daccueil">Authentification du DME du pays d’accueil</h5>
+    <p>La requête retrieve VHL folder docs correspond à la transaction IHE Verifiable Health Link (VHL) Retrieve Manifest [ITI-YY5]. Le VHL est cité ici dans sa version <a href="https://profiles.ihe.net/ITI/VHL/1.0.0-comment/">1.0.0-comment</a>, qui est un ballot de commentaires publics, et non une publication finale ou d’implémentation à l’essai ; son texte et ses numéros de section peuvent changer. Les sections citées ci-dessous ont été lues dans la source IHE/ITI.VHL (commit <code class="language-plaintext highlighter-rouge">48201473</code>), et non dans les pages publiées du ballot.</p>
 
-<p>Le type de consentement que représente un <code class="language-plaintext highlighter-rouge">Consent</code>, et le texte du consentement présenté au pèlerin, figurent dans <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> : un code du CodeSystem <a href="../artifact/CodeSystem-IPS.HAJJ.CONSENT.html">IPS.HAJJ.CONSENT</a>, avec <code class="language-plaintext highlighter-rouge">coding.version</code> défini sur la version du CodeSystem.</p>
+    <p>Le VHL [ITI-YY5] nomme trois options par lesquelles le VHL Receiver (ici, le DME du pays d’accueil) s’authentifie auprès du VHL Sharer (ici, la HIE du pays d’origine) :</p>
+    <ul>
+      <li>HTTP Message Signatures (RFC 9421), ITI-YY5 §2:3.YY5.4.1.3 ;</li>
+      <li>Option OAuth with SSRAA, utilisant le guide d’implémentation <a href="http://hl7.org/fhir/us/udap-security/">HL7 Security for Scalable Registration, Authentication, and Authorization (SSRAA)</a>, le profil HL7 FHIR d’UDAP, ITI-YY5 §2:3.YY5.4.1.4 ;</li>
+      <li>Option Verifiable Credential, ITI-YY5 §2:3.YY5.4.1.5.</li>
+    </ul>
 
-<p>Le DME du pays d’accueil est identifié par la confiance dans le domaine de confiance <code class="language-plaintext highlighter-rouge">ips-pilgrimage</code> (voir la note sur l’authentification dans la sémantique des messages). La HIE du pays d’origine ne communique les documents que lorsque le code d’accès est valide, que le VHL n’a pas expiré, que le consentement à la communication par le pays d’origine est actif dans son registre, que le destinataire vérifié correspond à <code class="language-plaintext highlighter-rouge">Consent.provision.actor</code>, que la finalité est le traitement et que la requête s’inscrit dans <code class="language-plaintext highlighter-rouge">Consent.provision.period</code>. Si l’une de ces conditions ne peut être établie, la requête n’est pas autorisée.</p>
+    <p>Ce guide montre actuellement le DME du pays d’accueil s’authentifiant auprès de la HIE du pays d’origine avec l’authentification de nœud mTLS ([ITI-19]) (voir le diagramme de séquence de la consultation pour soins non planifiés). L’authentification de nœud mTLS ne fait pas partie des trois options d’authentification VHL. Le VHL exige néanmoins un transport sécurisé : ITI-YY5 §2:3.YY5.5.1 exige la conformité au profil IHE ATNA pour la sécurité du transport, et le volume 1 du VHL, §1:XX.3, exige que le VHL Receiver et le VHL Sharer soient groupés avec un ATNA Secure Node ou Secure Application. Un canal TLS reste donc attendu, mais à lui seul il ne satisfait à aucune des options d’authentification VHL.</p>
 
-<h5 id="événement-daudit">Événement d’audit</h5>
-<p>La HIE du pays d’origine enregistre un événement d’audit avec Record Audit Event [ITI-20] pour chaque requête, que les documents soient communiqués ou refusés. Le volume 1 du VHL, §1:XX.3, exige que le VHL Sharer et le VHL Receiver soient groupés avec un ATNA Secure Node ou Secure Application, et ITI-YY5 §2:3.YY5.5.6 indique que tous deux DEVRAIENT journaliser les requêtes d’accès aux documents, la méthode d’authentification utilisée, l’identité du destinataire, l’identifiant du dossier VHL et la décision d’autorisation. Dans ce guide, l’événement d’audit enregistré par la HIE du pays d’origine doit également citer :</p>
-<ul>
-  <li>la politique applicable : les consentements du pèlerin, chacun par son code <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> et la version du CodeSystem (par exemple <code class="language-plaintext highlighter-rouge">CONSENT-XXK</code> et <code class="language-plaintext highlighter-rouge">CONSENT-XXR</code> dans les exemples de ce guide, version 2.1.0) ;</li>
-  <li>les <code class="language-plaintext highlighter-rouge">id</code> et <code class="language-plaintext highlighter-rouge">meta.versionId</code> de chaque Consent lus dans le Consent Registry pour la décision ;</li>
-  <li>le destinataire, tel qu’identifié par l’option d’authentification VHL utilisée ;</li>
-  <li>la finalité d’utilisation (<code class="language-plaintext highlighter-rouge">TREAT</code>) ;</li>
-  <li>les documents communiqués (les DocumentReferences renvoyées), ou le refus.</li>
-</ul>
+    <p>Il est recommandé que le DME du pays d’accueil s’authentifie avec l’option OAuth with SSRAA. Comme l’approche mTLS actuelle, elle repose sur des certificats X.509 : la chaîne du certificat du DME du pays d’accueil remonte à une ancre acceptée dans le domaine de confiance <code class="language-plaintext highlighter-rouge">ips-pilgrimage</code>, de sorte que la HIE du pays d’origine identifie le destinataire par cette confiance, et non en consultant un accord distinct. Dans le cadre de cette option, la découverte et l’enregistrement SSRAA sont effectués avant la demande d’un jeton d’accès (ITI-YY5 §2:3.YY5.4.1.4). La manière dont le certificat ou la clé du DME du pays d’accueil est publié dans le domaine de confiance <code class="language-plaintext highlighter-rouge">ips-pilgrimage</code> n’est pas encore spécifiée par ce guide.</p>
 
-<p>Ce guide n’utilise pas d’accord de partage de données distinct pour le pèlerinage ; les consentements eux-mêmes constituent donc la politique que cite l’événement d’audit. Le DME du pays d’accueil, en tant qu’ATNA Secure Node ou Secure Application, devrait également auditer ce qu’il reçoit.</p>
+  </div>
+  <h4 id="actions-attendues-2">Actions attendues</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-retrieve-MHD-folder-request-expected-actions-semantics" data-tr-label="Non relu par une personne">
 
-<h3 id="retrieve-IPS-request">retrieve IPS - request</h3>
+    <ul>
+      <li>L’OCHIE destinataire vérifie si la requête VHL est valide et répond avec la documentReference sous la forme d’un bundle FHIR en JSON.</li>
+      <li>L’OCHIE destinataire agit en tant que VHL Document Responder et doit se conformer à la déclaration de capacités du <a href="../artifact/CapabilityStatement-VHLDocumentResponder.html">VHL Document Responder</a></li>
+    </ul>
 
-<p>La transaction Retrieve IPS Request Event est initiée par le DME du pays d’accueil auprès du HIE du pays d’origine.</p>
+    <h5 id="dcider-de-la-requte--les-consentements-du-plerin-constituent-la-politique">Décider de la requête : les consentements du pèlerin constituent la politique</h5>
+    <p>Pour le pèlerinage, il n’existe pas d’accord de partage de données distinct à consulter. Les deux ressources <a href="../artifact/StructureDefinition-HajjConsent.html">HajjConsent</a> du pèlerin constituent la politique, et chacune engage la partie qu’elle nomme :</p>
+    <ul>
+      <li>Le consentement à la communication par le pays d’origine (par exemple <code class="language-plaintext highlighter-rouge">CONSENT-MYS</code>, ou le <code class="language-plaintext highlighter-rouge">CONSENT-XXK</code> fictif des exemples de ce guide) permet à la HIE du pays d’origine de communiquer l’IPS au destinataire nommé dans <code class="language-plaintext highlighter-rouge">Consent.provision.actor</code> (rôle <code class="language-plaintext highlighter-rouge">IRCP</code>, destinataire de l’information), pour la finalité indiquée dans <code class="language-plaintext highlighter-rouge">Consent.provision.purpose</code> (<code class="language-plaintext highlighter-rouge">TREAT</code>), pendant <code class="language-plaintext highlighter-rouge">Consent.provision.period</code>. La HIE du pays d’origine applique ce consentement à partir de son propre Consent Registry (tel qu’enregistré par la transaction Record Consent, [ITI-108]), et non à partir de la copie contenue dans l’IPS. La copie dans l’IPS est signée lors de l’émission de l’IPS ; elle ne peut donc pas faire apparaître un retrait ultérieur.</li>
+      <li>Le consentement à l’utilisation par le pays d’accueil (<code class="language-plaintext highlighter-rouge">CONSENT-KSA</code>, ou le <code class="language-plaintext highlighter-rouge">CONSENT-XXR</code> fictif des exemples de ce guide) régit l’utilisation de l’IPS par le ministère de la Santé du pays d’accueil après sa réception : pour le traitement pendant le pèlerinage et tout suivi des soins, comme l’indique le texte de ce consentement.</li>
+    </ul>
 
-<figure>
+    <p>Le type de consentement que représente un <code class="language-plaintext highlighter-rouge">Consent</code>, et le texte du consentement présenté au pèlerin, figurent dans <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> : un code du CodeSystem <a href="../artifact/CodeSystem-IPS.HAJJ.CONSENT.html">IPS.HAJJ.CONSENT</a>, avec <code class="language-plaintext highlighter-rouge">coding.version</code> défini sur la version du CodeSystem.</p>
+
+    <p>Le DME du pays d’accueil est identifié par la confiance dans le domaine de confiance <code class="language-plaintext highlighter-rouge">ips-pilgrimage</code> (voir la note sur l’authentification dans la sémantique des messages). La HIE du pays d’origine ne communique les documents que lorsque le code d’accès est valide, que le VHL n’a pas expiré, que le consentement à la communication par le pays d’origine est actif dans son registre, que le destinataire vérifié correspond à <code class="language-plaintext highlighter-rouge">Consent.provision.actor</code>, que la finalité est le traitement et que la requête s’inscrit dans <code class="language-plaintext highlighter-rouge">Consent.provision.period</code>. Si l’une de ces conditions ne peut être établie, la requête n’est pas autorisée.</p>
+
+    <h5 id="vnement-daudit">Événement d’audit</h5>
+    <p>La HIE du pays d’origine enregistre un événement d’audit avec Record Audit Event [ITI-20] pour chaque requête, que les documents soient communiqués ou refusés. Le volume 1 du VHL, §1:XX.3, exige que le VHL Sharer et le VHL Receiver soient groupés avec un ATNA Secure Node ou Secure Application, et ITI-YY5 §2:3.YY5.5.6 indique que tous deux DEVRAIENT journaliser les requêtes d’accès aux documents, la méthode d’authentification utilisée, l’identité du destinataire, l’identifiant du dossier VHL et la décision d’autorisation. Dans ce guide, l’événement d’audit enregistré par la HIE du pays d’origine doit également citer :</p>
+    <ul>
+      <li>la politique applicable : les consentements du pèlerin, chacun par son code <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> et la version du CodeSystem (par exemple <code class="language-plaintext highlighter-rouge">CONSENT-XXK</code> et <code class="language-plaintext highlighter-rouge">CONSENT-XXR</code> dans les exemples de ce guide, version 2.1.0) ;</li>
+      <li>les <code class="language-plaintext highlighter-rouge">id</code> et <code class="language-plaintext highlighter-rouge">meta.versionId</code> de chaque Consent lus dans le Consent Registry pour la décision ;</li>
+      <li>le destinataire, tel qu’identifié par l’option d’authentification VHL utilisée ;</li>
+      <li>la finalité d’utilisation (<code class="language-plaintext highlighter-rouge">TREAT</code>) ;</li>
+      <li>les documents communiqués (les DocumentReferences renvoyées), ou le refus.</li>
+    </ul>
+
+    <p>Ce guide n’utilise pas d’accord de partage de données distinct pour le pèlerinage ; les consentements eux-mêmes constituent donc la politique que cite l’événement d’audit. Le DME du pays d’accueil, en tant qu’ATNA Secure Node ou Secure Application, devrait également auditer ce qu’il reçoit.</p>
+
+  </div>
+
+  <h3 id="retrieve-IPS-request">retrieve IPS - request</h3>
+
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-retrieve-IPS-request-preamble" data-tr-label="Non relu par une personne">
+
+    <p>La transaction Retrieve IPS Request Event est initiée par le DME du pays d’accueil auprès du HIE du pays d’origine.</p>
+
+    <figure>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" data-diagram-type="SEQUENCE" style="width:356px;height:192px;" width="356px" height="192px" viewBox="0 0 356 192" zoomAndPan="magnify" preserveAspectRatio="none" contentStyleType="text/css"><?plantuml 1.2026.9?><defs /><g font-family="sans-serif" lengthAdjust="spacing"><g class="participant-lifeline" data-qualified-name="HCEMR" data-entity-uid="part1" id="part1-lifeline--4" data-source-line="5"><g><title>Host Country</title><rect x="59.472" y="57.594" width="8" height="76.266" fill="#000" fill-opacity="0" /><line x1="62.972" y1="57.594" x2="62.972" y2="133.859" style="stroke:#107050;stroke-width:0.5;stroke-dasharray:5,5;" /></g></g><g class="participant-lifeline" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-lifeline--4" data-source-line="6"><g><title>Origin Country</title><rect x="283.379" y="57.594" width="8" height="76.266" fill="#000" fill-opacity="0" /><line x1="286.879" y1="57.594" x2="286.879" y2="133.859" style="stroke:#107050;stroke-width:0.5;stroke-dasharray:5,5;" /></g></g><g class="participant participant-head" data-qualified-name="HCEMR" data-entity-uid="part1" id="part1-head--4" data-source-line="5"><rect x="10" y="10" width="105.943" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="17" y="29.995" fill="#000" font-size="14" textLength="91.943" font-family="Roboto Condensed">Host Country</text><text x="47.646" y="46.292" fill="#000" font-size="14" textLength="30.652" font-family="Roboto Condensed">EMR</text></g><g class="participant participant-head" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-head--4" data-source-line="6"><rect x="228.688" y="10" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="235.688" y="29.995" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="275.128" y="46.292" fill="#000" font-size="14" textLength="23.502" font-family="Roboto Condensed">HIE</text></g><g class="participant participant-tail" data-qualified-name="HCEMR" data-entity-uid="part1" id="part1-tail--4" data-source-line="5"><rect x="10" y="133.859" width="105.943" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="17" y="153.854" fill="#000" font-size="14" textLength="91.943" font-family="Roboto Condensed">Host Country</text><text x="47.646" y="170.151" fill="#000" font-size="14" textLength="30.652" font-family="Roboto Condensed">EMR</text></g><g class="participant participant-tail" data-qualified-name="OCHIE" data-entity-uid="part2" id="part2-tail--4" data-source-line="6"><rect x="228.688" y="133.859" width="116.382" height="46.594" fill="#FFF" style="stroke:#107050;stroke-width:0.5;" rx="4.5" ry="4.5" /><text x="235.688" y="153.854" fill="#000" font-size="14" textLength="102.382" font-family="Roboto Condensed">Origin Country</text><text x="275.128" y="170.151" fill="#000" font-size="14" textLength="23.502" font-family="Roboto Condensed">HIE</text></g><g class="message" data-entity-1="part1" data-entity-2="part2" id="msg1--4" data-source-line="9"><polygon points="274.879,82.727,284.879,86.727,274.879,90.727,278.879,86.727" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><line x1="62.972" y1="86.727" x2="280.879" y2="86.727" style="stroke:#107050;stroke-width:1;" /><text x="69.972" y="81.661" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">01:</text><text x="97.261" y="81.661" fill="#000" font-size="13" textLength="128.978" font-family="Roboto Condensed">retrieve IPS request</text></g><g class="message" data-entity-1="part2" data-entity-2="part1" id="msg2--4" data-source-line="10"><polygon points="73.972,111.859,63.972,115.859,73.972,119.859,69.972,115.859" fill="#107050" style="stroke:#107050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;" /><line x1="67.972" y1="115.859" x2="285.879" y2="115.859" style="stroke:#107050;stroke-width:1;" /><text x="79.972" y="110.793" fill="#000" font-size="13" textLength="23.29" font-weight="700" font-family="Roboto Condensed">02:</text><text x="107.261" y="110.793" fill="#000" font-size="13" textLength="172.618" font-family="Roboto Condensed">send IPS request response</text></g><?plantuml-src LSmn2uCm40NW_Nx5DNlLMSH511sAfLsxH3rAG2zfSYduxnjqQ3lTUxoFEncUbZWJPdcGRQ7Cn7K10AUzcCaupOAgiq6miP75RmzkBpU5Ec3NfFGF1s-UXh-qwzkT3arAeADOZkj87bKrraLHLlbOAu3z4vxhms69diGRUXFsrtighqX1u1YJEdY9WNZ-5Ua6PpaGV000?></g></svg>
 </figure>
-<h4 id="événements-déclencheurs-3">Événements déclencheurs</h4>
-<ul>
-  <li>La transaction de requête de récupération de l’IPS est déclenchée lorsque le DME du pays d’accueil a extrait le bundle de DocumentReference du dossier VHL et demande alors la récupération de l’IPS au format JSON.
-    <h4 id="sémantique-des-messages-3">Sémantique des messages</h4>
-    <h5 id="sémantique-des-messages--requête-3">Sémantique des messages : requête</h5>
-  </li>
-  <li>La sémantique des messages de la requête de récupération de l’IPS doit être une requête GET portant sur l’IPS au format JSON.
-    <ul>
-      <li>Le DME du pays d’accueil doit agir en tant que Document Consumer et suivre <a href="https://profiles.ihe.net/ITI/MHD/ITI-68.html">ITI-68</a>.</li>
-    </ul>
-  </li>
-</ul>
 
-<h5 id="sémantique-des-messages--réponse-3">Sémantique des messages : réponse</h5>
-<ul>
-  <li>La sémantique des messages de la réponse à la requête de récupération de l’IPS doit envoyer l’IPS sous forme de fichier JSON.
-    <h4 id="actions-attendues-3">Actions attendues</h4>
-  </li>
-  <li>Le destinataire OCHIE répond avec l’IPS au format JSON.</li>
-</ul>
+  </div>
+  <h4 id="vnements-dclencheurs-3">Événements déclencheurs</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-retrieve-IPS-request-trigger-events" data-tr-label="Non relu par une personne">
+
+    <ul>
+      <li>La transaction de requête de récupération de l’IPS est déclenchée lorsque le DME du pays d’accueil a extrait le bundle de DocumentReference du dossier VHL et demande alors la récupération de l’IPS au format JSON.</li>
+    </ul>
+
+  </div>
+  <h4 id="smantique-des-messages-3">Sémantique des messages</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-retrieve-IPS-request-message-semantics" data-tr-label="Non relu par une personne">
+
+    <h5 id="smantique-des-messages--requte-3">Sémantique des messages : requête</h5>
+    <ul>
+      <li>La sémantique des messages de la requête de récupération de l’IPS doit être une requête GET portant sur l’IPS au format JSON.
+        <ul>
+          <li>Le DME du pays d’accueil doit agir en tant que Document Consumer et suivre <a href="https://profiles.ihe.net/ITI/MHD/ITI-68.html">ITI-68</a>.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h5 id="smantique-des-messages--rponse-3">Sémantique des messages : réponse</h5>
+    <ul>
+      <li>La sémantique des messages de la réponse à la requête de récupération de l’IPS doit envoyer l’IPS sous forme de fichier JSON.</li>
+    </ul>
+
+  </div>
+  <h4 id="actions-attendues-3">Actions attendues</h4>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="transaction-retrieve-IPS-request-expected-actions-semantics" data-tr-label="Non relu par une personne">
+
+    <ul>
+      <li>Le destinataire OCHIE répond avec l’IPS au format JSON.</li>
+    </ul>
+
+  </div>
+
+</div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/transactions.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/transactions.md">Edit this page on GitHub</a></p>
 <script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transactions.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/transactions.md", "lines": [{"t":"record consent from wallet - request","l":4},{"t":"Trigger Events","l":7},{"t":"Message Semantics","l":9},{"t":"Message Semantics Request","l":3,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-record-consent-request-message-semantics.md"},{"t":"Message Semantics Response","l":13,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-record-consent-request-message-semantics.md"},{"t":"Expected Actions","l":11},{"t":"issue VHL - request","l":16},{"t":"Trigger Events","l":19},{"t":"Message Semantics","l":21},{"t":"Message Semantics Request","l":4,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-issue-verifiable-shl-request-message-semantics.md"},{"t":"Message Semantics Response","l":10,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-issue-verifiable-shl-request-message-semantics.md"},{"t":"Expected Actions","l":23},{"t":"retrieve VHL folder docs - request","l":27},{"t":"Trigger Events","l":30},{"t":"Message Semantics","l":32},{"t":"Message Semantics Request","l":3,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-retrieve-MHD-folder-request-message-semantics.md"},{"t":"Message Semantics Response","l":7,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-retrieve-MHD-folder-request-message-semantics.md"},{"t":"Authentication of the Host Country EMR","l":12,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-retrieve-MHD-folder-request-message-semantics.md"},{"t":"Expected Actions","l":34},{"t":"Deciding the request: the pilgrim's consents are the policy","l":4,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"},{"t":"Audit event","l":13,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"},{"t":"retrieve IPS - request","l":37},{"t":"Trigger Events","l":40},{"t":"Message Semantics","l":42},{"t":"Message Semantics Request","l":3,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-retrieve-IPS-request-message-semantics.md"},{"t":"Message Semantics Response","l":7,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/transaction-retrieve-IPS-request-message-semantics.md"},{"t":"Expected Actions","l":44}]}</script>

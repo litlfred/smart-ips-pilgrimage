@@ -21,43 +21,56 @@
 
 <div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
 <main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="ar" dir="rtl"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>ترجمة آلية — لم يراجعها أي شخص</strong></p><p class="ig-tr-notice__body">تُرجمت هذه الصفحة آليًا. لم يراجع أي شخص هذه الترجمة أو يعتمدها، وقد تحتوي على أخطاء. الصفحة بلغة المصدر هي النص المرجعي. <a class="ig-tr-notice__source" href="../trust_domain.html">اقرأ النص الأصلي (بالإنجليزية)</a></p></div><div class="ig-tr-notice__lang" lang="en" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Machine translation — not reviewed by a person</strong></p><p class="ig-tr-notice__body">This page was translated automatically. No person has reviewed or adjudicated this translation, and it may contain errors. The source-language page is the authoritative text. <a class="ig-tr-notice__source" href="../trust_domain.html">Read the original (English)</a></p></div></div>
 <p><span hidden="" data-fa-figure-images="ig"></span></p>
 
-<h3 id="حالات-الاستخدام">حالات الاستخدام</h3>
-<p>يركّز نطاق الثقة الخاص بـ IPS للزيارة الدينية على عمليات العمل الرئيسية التي تشكّل جزءًا من تقديم الرعاية للزوار أثناء الزيارة الدينية.</p>
+<div class="ig-tr-unreviewed" data-tr-catalogue="trust_domain" data-tr-label="لم يراجعه أي شخص">
 
-<p>سيناريوهات المستخدم وعمليات العمل الرئيسية موثَّقة في وثيقة المواصفة هذه عبر الروابط أدناه:</p>
-<ul>
-  <li>سيناريوهات المستخدم</li>
-  <li>عمليات العمل</li>
-</ul>
+  <h3 id="section">حالات الاستخدام</h3>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="trust_domain_use_cases" data-tr-label="لم يراجعه أي شخص">
 
-<h3 id="المعايير-التقنية">المعايير التقنية</h3>
-<p>المواصفات التقنية مدرجة في دليل تنفيذ FHIR هذا (IG). يُرجى مراجعة صفحة المعاملات للاطلاع على المواصفات التفصيلية للمعاملات التي يحددها هذا IG.</p>
+    <p>يركّز نطاق الثقة الخاص بـ IPS للزيارة الدينية على عمليات العمل الرئيسية التي تشكّل جزءًا من تقديم الرعاية للزوار أثناء الزيارة الدينية.</p>
 
-<h3 id="السياسة">السياسة</h3>
-<p>يتيح نطاق الثقة هذا تبادل البيانات بوساطة الزائر، على أساس موافقته. وتُسجَّل الموافقات في <a href="../artifact/CodeSystem-IPS.HAJJ.CONSENT.html">CodeSystem IPS.HAJJ.CONSENT</a>، وكل <a href="../artifact/StructureDefinition-HajjConsent.html">موافقة للزيارة الدينية</a> في IPS الخاص بالزائر تسمّي إحداها في <code class="language-plaintext highlighter-rouge">Consent.policyRule</code>.</p>
+    <p>سيناريوهات المستخدم وعمليات العمل الرئيسية موثَّقة في وثيقة المواصفة هذه عبر الروابط أدناه:</p>
+    <ul>
+      <li>سيناريوهات المستخدم</li>
+      <li>عمليات العمل</li>
+    </ul>
 
-<h4 id="شروط-الاستخدام">شروط الاستخدام</h4>
+  </div>
 
-<p>تمثل <a href="../artifact/ValueSet-IPS.HAJJ.CONSENT.html">ValueSet IPS.HAJJ.CONSENT</a> شروط الاستخدام لنطاق الثقة هذا: أي السياسات التي يجوز للمشارك أن يعلن أنه يعمل بموجبها. وهي مسجّلة في <a href="http://smart.who.int/trust/Binary-TrustDomain-IPS-PILGRIMAGE.html">نطاق الثقة IPS-PILGRIMAGE</a> ضمن GDHCN Trust IG. ولا يتضمن الإطار الإداري والتشغيلي لـ GDHCN 1.2 بعدُ ملحقًا لنطاق الثقة هذا، ولذلك صيغ هذا السجل استنادًا إلى هذا IG.</p>
+  <h3 id="section-1">المعايير التقنية</h3>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="trust_domain_specifications" data-tr-label="لم يراجعه أي شخص">
 
-<h4 id="الموافقة-الصريحة-والموافقة-الضمنية">الموافقة الصريحة والموافقة الضمنية</h4>
+    <p>المواصفات التقنية مدرجة في دليل تنفيذ FHIR هذا (IG). يُرجى مراجعة صفحة المعاملات للاطلاع على المواصفات التفصيلية للمعاملات التي يحددها هذا IG.</p>
 
-<p>يتّبع هذا الدليل نموذج الموافقة الوارد في دليل <a href="http://smart.who.int/trust-phw/consent.html">GDHCN Trust Network: Personal Health Wallet</a>، المبني على IHE Privacy Consent on FHIR (PCF) 1.1.0:</p>
+  </div>
 
-<ul>
-  <li>الموافقة الصريحة. يوافق الزائر بفعلٍ منه: على محفظته، أو أمام المستشار الذي يسجّلها. وكل <a href="../artifact/StructureDefinition-HajjConsent.html">موافقة للزيارة الدينية</a> هي موافقة صريحة، أي اشتراك اختياري (opt-in): إذ يتضمّن <code class="language-plaintext highlighter-rouge">Consent.category</code> الخاص بها رمز HL7 v3 ActConsentDirective ‏<code class="language-plaintext highlighter-rouge">OPTIN</code>. وتُسمّي رمز <code class="language-plaintext highlighter-rouge">IPS.HAJJ.CONSENT</code> الخاص بها وإصدار نظام الرموز في <code class="language-plaintext highlighter-rouge">Consent.policyRule</code>، ويكون <code class="language-plaintext highlighter-rouge">source[x]</code> الخاص بها هو البيّنة: نص الموافقة الذي عُرض على الزائر، مع الفعل المسجَّل منه. وتصف العمليةُ L في دليل Personal Health Wallet («Record Explicit Consent») الخطوات. وكلٌّ من الموافقة الشفهية والموافقة على المحفظة في عمليات العمل الواردة في هذا الدليل موافقةٌ صريحة.</li>
-  <li>الموافقة الضمنية. لا يفعل الزائر شيئًا، فتُطبَّق السياسة الافتراضية لنطاق الثقة (HL7 ActConsentDirective ‏<code class="language-plaintext highlighter-rouge">IMPLIED</code>). ونطاق الثقة هذا قائم على الاشتراك الاختياري (opt-in): فسياسته الافتراضية هي السياسة الضمنية في IHE PCF ‏<code class="language-plaintext highlighter-rouge">Policy-deny</code>. ومن دون موافقة للزيارة الدينية، لا يُشارَك ملخص IPS.</li>
-</ul>
+  <h3 id="section-2">السياسة</h3>
+  <div class="ig-tr-unreviewed" data-tr-catalogue="trust_domain_policy" data-tr-label="لم يراجعه أي شخص">
 
-<p>تنتقل توجيهات الموافقة مع المستند. فملخص IPS الخاص بالزائر (<a href="../artifact/StructureDefinition-HajjIPS.html">HajjIPS</a>) يحمل موافقات الزيارة الدينية التي يُشارَك بموجبها، بوصفها مُدخلات موافقة، ويُدرجها في قسم التوجيهات المسبقة (Advance Directives). وتصف العمليةُ M في دليل Personal Health Wallet («Add Consent Directives to a Shared or Issued Document») الخطوات. والنسخة الموجودة في ملخص IPS بيّنةٌ للجهة المُستقبِلة. أما منصة HIE في بلد المنشأ فتُنفِّذ النسخةَ المحفوظة في سجل الموافقات الخاص بها، لأن ملخص IPS الموقَّع لا يمكنه أن يُظهر سحبًا لاحقًا للموافقة.</p>
+    <p>يتيح نطاق الثقة هذا تبادل البيانات بوساطة الزائر، على أساس موافقته. وتُسجَّل الموافقات في <a href="../artifact/CodeSystem-IPS.HAJJ.CONSENT.html">CodeSystem IPS.HAJJ.CONSENT</a>، وكل <a href="../artifact/StructureDefinition-HajjConsent.html">موافقة للزيارة الدينية</a> في IPS الخاص بالزائر تسمّي إحداها في <code class="language-plaintext highlighter-rouge">Consent.policyRule</code>.</p>
 
-<h4 id="تسمية-الموافقة-التي-تعمل-الجهة-المُستقبِلة-في-vhl-بموجبها">تسمية الموافقة التي تعمل الجهة المُستقبِلة في VHL بموجبها</h4>
+    <h4 id="section-3">شروط الاستخدام</h4>
 
-<p>بموجب خيار Verifiable Credential في IHE ITI VHL (ITI-YY5)، تسترجع الجهة المُستقبِلة في VHL البيان باستخدام بيانات اعتماد تُصدرها بنفسها. ويمكنها أن تسمّي سياسة الموافقة التي تعمل بموجبها في <code class="language-plaintext highlighter-rouge">termsOfUse</code> الخاص ببيانات الاعتماد تلك وفق W3C VC 2.0، بإدخال واحد من <a href="http://smart.who.int/trust/StructureDefinition-TrustDomainPolicy.html">سياسة نطاق الثقة</a> لكل سياسة:</p>
+    <p>تمثل <a href="../artifact/ValueSet-IPS.HAJJ.CONSENT.html">ValueSet IPS.HAJJ.CONSENT</a> شروط الاستخدام لنطاق الثقة هذا: أي السياسات التي يجوز للمشارك أن يعلن أنه يعمل بموجبها. وهي مسجّلة في <a href="http://smart.who.int/trust/Binary-TrustDomain-IPS-PILGRIMAGE.html">نطاق الثقة IPS-PILGRIMAGE</a> ضمن GDHCN Trust IG. ولا يتضمن الإطار الإداري والتشغيلي لـ GDHCN 1.2 بعدُ ملحقًا لنطاق الثقة هذا، ولذلك صيغ هذا السجل استنادًا إلى هذا IG.</p>
 
-<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    <h4 id="section-4">الموافقة الصريحة والموافقة الضمنية</h4>
+
+    <p>يتّبع هذا الدليل نموذج الموافقة الوارد في دليل <a href="http://smart.who.int/trust-phw/consent.html">GDHCN Trust Network: Personal Health Wallet</a>، المبني على IHE Privacy Consent on FHIR (PCF) 1.1.0:</p>
+
+    <ul>
+      <li>الموافقة الصريحة. يوافق الزائر بفعلٍ منه: على محفظته، أو أمام المستشار الذي يسجّلها. وكل <a href="../artifact/StructureDefinition-HajjConsent.html">موافقة للزيارة الدينية</a> هي موافقة صريحة، أي اشتراك اختياري (opt-in): إذ يتضمّن <code class="language-plaintext highlighter-rouge">Consent.category</code> الخاص بها رمز HL7 v3 ActConsentDirective ‏<code class="language-plaintext highlighter-rouge">OPTIN</code>. وتُسمّي رمز <code class="language-plaintext highlighter-rouge">IPS.HAJJ.CONSENT</code> الخاص بها وإصدار نظام الرموز في <code class="language-plaintext highlighter-rouge">Consent.policyRule</code>، ويكون <code class="language-plaintext highlighter-rouge">source[x]</code> الخاص بها هو البيّنة: نص الموافقة الذي عُرض على الزائر، مع الفعل المسجَّل منه. وتصف العمليةُ L في دليل Personal Health Wallet («Record Explicit Consent») الخطوات. وكلٌّ من الموافقة الشفهية والموافقة على المحفظة في عمليات العمل الواردة في هذا الدليل موافقةٌ صريحة.</li>
+      <li>الموافقة الضمنية. لا يفعل الزائر شيئًا، فتُطبَّق السياسة الافتراضية لنطاق الثقة (HL7 ActConsentDirective ‏<code class="language-plaintext highlighter-rouge">IMPLIED</code>). ونطاق الثقة هذا قائم على الاشتراك الاختياري (opt-in): فسياسته الافتراضية هي السياسة الضمنية في IHE PCF ‏<code class="language-plaintext highlighter-rouge">Policy-deny</code>. ومن دون موافقة للزيارة الدينية، لا يُشارَك ملخص IPS.</li>
+    </ul>
+
+    <p>تنتقل توجيهات الموافقة مع المستند. فملخص IPS الخاص بالزائر (<a href="../artifact/StructureDefinition-HajjIPS.html">HajjIPS</a>) يحمل موافقات الزيارة الدينية التي يُشارَك بموجبها، بوصفها مُدخلات موافقة، ويُدرجها في قسم التوجيهات المسبقة (Advance Directives). وتصف العمليةُ M في دليل Personal Health Wallet («Add Consent Directives to a Shared or Issued Document») الخطوات. والنسخة الموجودة في ملخص IPS بيّنةٌ للجهة المُستقبِلة. أما منصة HIE في بلد المنشأ فتُنفِّذ النسخةَ المحفوظة في سجل الموافقات الخاص بها، لأن ملخص IPS الموقَّع لا يمكنه أن يُظهر سحبًا لاحقًا للموافقة.</p>
+
+    <h4 id="vhl-">تسمية الموافقة التي تعمل الجهة المُستقبِلة في VHL بموجبها</h4>
+
+    <p>بموجب خيار Verifiable Credential في IHE ITI VHL (ITI-YY5)، تسترجع الجهة المُستقبِلة في VHL البيان باستخدام بيانات اعتماد تُصدرها بنفسها. ويمكنها أن تسمّي سياسة الموافقة التي تعمل بموجبها في <code class="language-plaintext highlighter-rouge">termsOfUse</code> الخاص ببيانات الاعتماد تلك وفق W3C VC 2.0، بإدخال واحد من <a href="http://smart.who.int/trust/StructureDefinition-TrustDomainPolicy.html">سياسة نطاق الثقة</a> لكل سياسة:</p>
+
+    <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"https://www.w3.org/ns/credentials/v2"</span><span class="p">],</span><span class="w">
   </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"VerifiableCredential"</span><span class="p">,</span><span class="w"> </span><span class="s2">"VHLManifestCredential"</span><span class="p">],</span><span class="w">
   </span><span class="nl">"issuer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"did:web:vhl-receiver.example.org"</span><span class="p">,</span><span class="w">
@@ -74,17 +87,21 @@
   </span><span class="p">}],</span><span class="w">
   </span><span class="nl">"proof"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DataIntegrityProof"</span><span class="p">,</span><span class="w"> </span><span class="nl">"cryptosuite"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ecdsa-rdfc-2019"</span><span class="p">,</span><span class="w"> </span><span class="nl">"proofPurpose"</span><span class="p">:</span><span class="w"> </span><span class="s2">"assertionMethod"</span><span class="p">,</span><span class="w"> </span><span class="nl">"verificationMethod"</span><span class="p">:</span><span class="w"> </span><span class="s2">"did:web:vhl-receiver.example.org#key-1"</span><span class="p">,</span><span class="w"> </span><span class="nl">"proofValue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"z…"</span><span class="w"> </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div>
+</span></code></pre></div>    </div>
 
-<p>ثم تقوم الجهة المُشارِكة في VHL بما يلي:</p>
+    <p>ثم تقوم الجهة المُشارِكة في VHL بما يلي:</p>
 
-<ol>
-  <li>تتحقق من أن كل سياسة مسمّاة موجودة في ValueSet هذه؛</li>
-  <li>تطابقها مع <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> في موافقات الزيارة الدينية الخاصة بالزائر (النظام والرمز)؛</li>
-  <li>تقرر وفق ما تصفه العملية I من <a href="http://smart.who.int/trust-phw/business-processes.html">شبكة الثقة التابعة لـ GDHCN: المحفظة الصحية الشخصية</a>.</li>
-</ol>
+    <ol>
+      <li>تتحقق من أن كل سياسة مسمّاة موجودة في ValueSet هذه؛</li>
+      <li>تطابقها مع <code class="language-plaintext highlighter-rouge">Consent.policyRule</code> في موافقات الزيارة الدينية الخاصة بالزائر (النظام والرمز)؛</li>
+      <li>تقرر وفق ما تصفه العملية I من <a href="http://smart.who.int/trust-phw/business-processes.html">شبكة الثقة التابعة لـ GDHCN: المحفظة الصحية الشخصية</a>.</li>
+    </ol>
 
-<p>تسمية سياسة ما لا تؤدي إلا إلى تضييق نطاق الموافقات المنطبقة، ولا تتجاوز أبدًا أي حظر. ويُبتّ في بيانات الاعتماد التي لا تحتوي على <code class="language-plaintext highlighter-rouge">termsOfUse</code> استنادًا إلى جميع موافقات الزائر المنطبقة.</p>
+    <p>تسمية سياسة ما لا تؤدي إلا إلى تضييق نطاق الموافقات المنطبقة، ولا تتجاوز أبدًا أي حظر. ويُبتّ في بيانات الاعتماد التي لا تحتوي على <code class="language-plaintext highlighter-rouge">termsOfUse</code> استنادًا إلى جميع موافقات الزائر المنطبقة.</p>
+
+  </div>
+
+</div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/trust_domain.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/trust_domain.md">Edit this page on GitHub</a></p>
 <script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/trust_domain.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/trust_domain.md", "lines": [{"t":"Use Cases","l":1},{"t":"Technical Standards","l":4},{"t":"Policy","l":7},{"t":"Terms of use","l":3,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/trust_domain_policy.md"},{"t":"Explicit and implied consent","l":7,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/trust_domain_policy.md"},{"t":"Naming the consent a VHL Receiver acts under","l":16,"b":"https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/trust_domain_policy.md"}]}</script>

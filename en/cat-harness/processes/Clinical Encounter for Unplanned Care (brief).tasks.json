@@ -170,7 +170,8 @@
    "laneHref": "Clinical Encounter for Unplanned Care (brief).html#lane-Lane_04aqo2l",
    "skills": [
     {
-     "name": "complete-sdc-questionnaire"
+     "name": "complete-sdc-questionnaire",
+     "href": "../../../en/cat-harness/processes/skills/complete-sdc-questionnaire.html"
     }
    ],
    "binding": "unbound"

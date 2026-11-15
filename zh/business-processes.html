@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh" dir="/zh/">
+<html lang="zh" dir="ltr">
 <head>
 <script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
 
@@ -21,18 +21,21 @@
 
 <div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Verifiable IPS for Pilgrimage menu"><a class="ig-topbar-home" href="../index.html">SMART Verifiable IPS for Pilgrimage</a><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li><li><a href="../dependencies.html">Dependencies</a></li><li><a href="https://litlfred.github.io/folio-assistant/en/folio-assistant-core/bibliography/">Bibliography</a></li><li><a href="../adapting.html">Adapting Guidelines for Country use</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../concepts.html">Concepts</a></li><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicator and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li><li><a href="../non-functional-requirements.html">Non-functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li><li><a href="../sequence-diagrams.html">Sequence Diagrams</a></li><li><a href="../transactions.html">Transactions</a></li><li><a href="../indicators-measures.html">Indicators and Measures</a></li><li><a href="../codings.html">Codings</a></li></ul></details><details class="ig-topbar-group"><summary>Deployment</summary><ul><li><a href="../security-privacy.html">Security and Privacy Considerations</a></li><li><a href="../testing.html">Testing</a></li><li><a href="../test-data.html">Test Data</a></li><li><a href="../reference-implementations.html">Reference Implementations</a></li><li><a href="../trust_domain.html">Trust Domains</a></li><li><a href="../downloads.html">Downloads</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li><li><a href="../maps.html">Mappings</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Verifiable IPS for Pilgrimage</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div>
 <main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="zh" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>机器翻译——未经人工审校</strong></p><p class="ig-tr-notice__body">本页面为自动翻译。尚无任何人审校或裁定此译文，可能存在错误。以源语言页面为准。 <a class="ig-tr-notice__source" href="../business-processes.html">阅读原文（英文）</a></p></div><div class="ig-tr-notice__lang" lang="en" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Machine translation — not reviewed by a person</strong></p><p class="ig-tr-notice__body">This page was translated automatically. No person has reviewed or adjudicated this translation, and it may contain errors. The source-language page is the authoritative text. <a class="ig-tr-notice__source" href="../business-processes.html">Read the original (English)</a></p></div></div>
 <p><span hidden="" data-fa-figure-images="ig"></span></p>
 
-<p>本页描述业务流程。</p>
+<div class="ig-tr-unreviewed" data-tr-catalogue="business-processes" data-tr-label="未经人工审校">
 
-<p>业务流程（或称流程）是为实现卫生规划领域目标而共同执行的一组相关活动或任务，例如登记、咨询、转诊。工作流是对业务流程中所执行活动（任务、事件、交互）进展的可视化表示。工作流为所绘制的业务流程提供一个“故事”，用于加强用户、利益相关方和工程师之间的沟通与协作。</p>
+  <p>本页描述业务流程。</p>
 
-<p>朝圣 IPS 信任域聚焦于在朝圣期间为朝圣者提供医疗服务所涉及的关键业务流程。</p>
+  <p>业务流程（或称流程）是为实现卫生规划领域目标而共同执行的一组相关活动或任务，例如登记、咨询、转诊。工作流是对业务流程中所执行活动（任务、事件、交互）进展的可视化表示。工作流为所绘制的业务流程提供一个“故事”，用于加强用户、利益相关方和工程师之间的沟通与协作。</p>
 
-<h3 id="关键流程概览">关键流程概览</h3>
-<p>此处的图从高层次展示了关键流程，这些流程将作为各项业务流程进一步详细描述。</p>
+  <p>朝圣 IPS 信任域聚焦于在朝圣期间为朝圣者提供医疗服务所涉及的关键业务流程。</p>
 
-<div> 
+  <h3 id="section">关键流程概览</h3>
+  <p>此处的图从高层次展示了关键流程，这些流程将作为各项业务流程进一步详细描述。</p>
+
+  <div> 
     <div style="width:85%"><!-- Translated (zh) by input/scripts/workflow-figure.ts from workflow-figure.html; do not edit.
  The overview of key process flows, two ways, with a toggle. Both are drawn from the ArchiMate view "Overview of key process flows"
      (archimate/2.1.0/smart-ips-pilgrimage.archimate, id-59a6185ff9f2580db475ac98b7e1e854, built by archimate/build.py in the layout of
@@ -99,47 +102,49 @@
 </figure>
 </div>
   </div>
-<p><br /></p>
+  <p><br /></p>
 
-<h3 id="关键业务流程概览">关键业务流程概览</h3>
+  <h3 id="section-1">关键业务流程概览</h3>
 
-<p>下表描述了所含流程的工作流。</p>
+  <p>下表描述了所含流程的工作流。</p>
 
-<h1 id="流程名称-流程-id-人物画像-目标------标题--在整个-dak-中用于引用该流程的-id--为完成该流程而进行交互的个人--对该流程所要实现目标的具体陈述----10-发布用于验证的国家公钥--ipspilgrimage10--who-gdhcn-国家-hie-东道国电子病历emr--分发用于验证患者记录的密钥---20-发布国家术语--ipspilgrimage20--who-ts国家-hie东道国-emr东道国-hie--分发在-ips-国家规范中使用的国家术语例如医疗产品----30-在来源国签发健康文档-ipspilgrimage30-朝圣者咨询师健康钱包应用国家-hie-为一次非计划临床接诊检索朝圣者的患者摘要---40-非计划诊疗的临床接诊-ipspilgrimage40-东道国卫生工作者朝圣者东道国-emr国家-hie-为一次非计划临床接诊检索朝圣者的患者摘要---50-紧急破例break-the-glass临床接诊不在第-1-阶段范围内--ipspilgrimage50-国家朝圣管理机构东道国卫生工作者朝圣者东道国-emr国家-hie-为一次紧急非计划临床接诊检索朝圣者的患者摘要---60-朝圣结束后为调查检索-ips不在范围内-ipspilgrimage60-国家朝圣管理机构东道国-emr-在朝圣结束后检索朝圣者的患者摘要用于调查法律事务">流程名称 流程 ID 人物画像 目标      标题  在整个 DAK 中用于引用该流程的 ID  为完成该流程而进行交互的个人  对该流程所要实现目标的具体陈述    1.0 发布用于验证的国家公钥  IPS.PILGRIMAGE.1.0  WHO GDHCN 国家 HIE 东道国电子病历（EMR）  分发用于验证患者记录的密钥   2.0 发布国家术语  IPS.PILGRIMAGE.2.0  WHO TS国家 HIE东道国 EMR东道国 HIE  分发在 IPS 国家规范中使用的国家术语（例如医疗产品）    3.0 在来源国签发健康文档 IPS.PILGRIMAGE.3.0 朝圣者咨询师健康钱包应用国家 HIE 为一次非计划临床接诊检索朝圣者的患者摘要   4.0 非计划诊疗的临床接诊 IPS.PILGRIMAGE.4.0 东道国卫生工作者朝圣者东道国 EMR国家 HIE 为一次非计划临床接诊检索朝圣者的患者摘要   5.0 紧急破例（Break The Glass）临床接诊（不在第 1 阶段范围内）  IPS.PILGRIMAGE.5.0 国家朝圣管理机构东道国卫生工作者朝圣者东道国 EMR国家 HIE 为一次紧急非计划临床接诊检索朝圣者的患者摘要   6.0 朝圣结束后为调查检索 IPS（不在范围内） IPS.PILGRIMAGE.6.0 国家朝圣管理机构东道国 EMR 在朝圣结束后检索朝圣者的患者摘要，用于调查法律事务</h1>
+  <h1 id="id-----------dak--id--------10---ipspilgrimage10--who-gdhcn--hie-emr-----20---ipspilgrimage20--who-ts-hie-emr-hie---ips-----30--ipspilgrimage30--hie----40--ipspilgrimage40--emr-hie----50-break-the-glass-1---ipspilgrimage50--emr-hie----60--ips-ipspilgrimage60--emr-">流程名称 流程 ID 人物画像 目标      标题  在整个 DAK 中用于引用该流程的 ID  为完成该流程而进行交互的个人  对该流程所要实现目标的具体陈述    1.0 发布用于验证的国家公钥  IPS.PILGRIMAGE.1.0  WHO GDHCN 国家 HIE 东道国电子病历（EMR）  分发用于验证患者记录的密钥   2.0 发布国家术语  IPS.PILGRIMAGE.2.0  WHO TS国家 HIE东道国 EMR东道国 HIE  分发在 IPS 国家规范中使用的国家术语（例如医疗产品）    3.0 在来源国签发健康文档 IPS.PILGRIMAGE.3.0 朝圣者咨询师健康钱包应用国家 HIE 为一次非计划临床接诊检索朝圣者的患者摘要   4.0 非计划诊疗的临床接诊 IPS.PILGRIMAGE.4.0 东道国卫生工作者朝圣者东道国 EMR国家 HIE 为一次非计划临床接诊检索朝圣者的患者摘要   5.0 紧急破例（Break The Glass）临床接诊（不在第 1 阶段范围内）  IPS.PILGRIMAGE.5.0 国家朝圣管理机构东道国卫生工作者朝圣者东道国 EMR国家 HIE 为一次紧急非计划临床接诊检索朝圣者的患者摘要   6.0 朝圣结束后为调查检索 IPS（不在范围内） IPS.PILGRIMAGE.6.0 国家朝圣管理机构东道国 EMR 在朝圣结束后检索朝圣者的患者摘要，用于调查法律事务</h1>
 
-<h3 id="工作流">工作流</h3>
-<p>下面的工作流描绘的是在不同情境中经过概括的流程，可能无法反映不同环境之间的差异和细微区别。工作流的简洁性可能无法充分展示实际中可能出现的非线性步骤。</p>
+  <h3 id="section-2">工作流</h3>
+  <p>下面的工作流描绘的是在不同情境中经过概括的流程，可能无法反映不同环境之间的差异和细微区别。工作流的简洁性可能无法充分展示实际中可能出现的非线性步骤。</p>
 
-<p><br clear="all" /></p>
+  <p><br clear="all" /></p>
 
-<h4 id="发布用于验证的国家公钥">发布用于验证的国家公钥</h4>
+  <h4 id="section-3">发布用于验证的国家公钥</h4>
 
-<p>待办（TO DO）：插入图</p>
+  <p>待办（TO DO）：插入图</p>
 
-<h4 id="发布国家术语">发布国家术语</h4>
+  <h4 id="section-4">发布国家术语</h4>
 
-<p>待办（TO DO）：插入图</p>
+  <p>待办（TO DO）：插入图</p>
 
-<h4 id="在来源国签发健康文档">在来源国签发健康文档</h4>
+  <h4 id="section-5">在来源国签发健康文档</h4>
 
-<h5 id="健康检查与咨询口头同意简版">健康检查与咨询，口头同意（简版）</h5>
-<div> 
+  <h5 id="section-6">健康检查与咨询，口头同意（简版）</h5>
+  <div> 
   <img src="../Health Check and Counseling, Verbal Consent (brief).png" alt="Health Check and Counseling, Verbal Consent (brief)" style="width:85%" />
   </div>
-<p><br /></p>
+  <p><br /></p>
 
-<h5 id="健康检查与咨询明示同意简版">健康检查与咨询，明示同意（简版）</h5>
-<div> 
+  <h5 id="section-7">健康检查与咨询，明示同意（简版）</h5>
+  <div> 
   <img src="../Health Check and Counseling, Explicit Consent (brief).png" alt="Health Check and Counseling, Explicit Consent (brief)" style="width:85%" />
   </div>
-<p><br /></p>
+  <p><br /></p>
 
-<h4 id="非计划诊疗的临床接诊">非计划诊疗的临床接诊</h4>
+  <h4 id="section-8">非计划诊疗的临床接诊</h4>
 
-<div> 
+  <div> 
 <img src="../Clinical Encounter for Unplanned Care.png" alt="Clinical Encounter for Unplanned Care" style="width:85%" />
   </div>
-<p><br /></p>
+  <p><br /></p>
+
+</div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/business-processes.md" data-repo="litlfred/smart-ips-pilgrimage" href="https://github.com/litlfred/smart-ips-pilgrimage/edit/main/input/pagecontent/business-processes.md">Edit this page on GitHub</a></p>
 <script type="application/json" id="ig-source-lines">{"blob": "https://github.com/litlfred/smart-ips-pilgrimage/blob/main/input/pagecontent/business-processes.md", "repo": "litlfred/smart-ips-pilgrimage", "branch": "main", "path": "input/pagecontent/business-processes.md", "lines": [{"t":"Overview of key process flows","l":14},{"t":"Overview of Key Business Processes","l":22},{"t":"Workflows","l":96},{"t":"Publication of National Public Keys for Verification","l":101},{"t":"Publication of National Terminologies","l":110},{"t":"Issuance of Health Document at Origin Country","l":118},{"t":"Health Check and Counseling, Verbal Consent (brief)","l":120},{"t":"Health Check and Counseling, Explicit Consent (brief)","l":126},{"t":"Clinical Encounter for Unplanned Care","l":132}]}</script>
