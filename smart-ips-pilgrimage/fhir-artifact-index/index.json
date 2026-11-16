@@ -4,6 +4,7 @@
   "title": "smart.who.int.ips-pilgrimage — artefact index (from the IG Publisher AST cache)",
   "packageId": "smart.who.int.ips-pilgrimage",
   "version": "2.1.0",
+  "status": "draft",
   "canonicalBase": "http://smart.who.int/ips-pilgrimage",
   "source": {
     "kind": "output",

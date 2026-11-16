@@ -4,44 +4,6 @@
  "shortfall": [],
  "droppedByRuling": [],
  "current": {
-  "pages": 9149,
-  "counts": {
-   "siteNav": 0,
-   "search": 8728,
-   "navbarRow": 633,
-   "rail": 8695,
-   "translationMeta": 8728
-  },
-  "dirs": [
-   "ar",
-   "archimate",
-   "artifact",
-   "assets",
-   "cat-harness",
-   "en",
-   "es",
-   "fhir-artifact-index",
-   "fr",
-   "id-lookup",
-   "openapi",
-   "pilgrim",
-   "questionnaires",
-   "ru",
-   "smart-base",
-   "smart-ips-pilgrimage",
-   "zh"
-  ],
-  "index": [
-   "search",
-   "navbarRow",
-   "rail",
-   "translationMeta"
-  ],
-  "stamp": {
-   "present": true
-  }
- },
- "candidate": {
   "pages": 9167,
   "counts": {
    "siteNav": 0,
@@ -79,15 +41,54 @@
    "present": true
   }
  },
+ "candidate": {
+  "pages": 2065,
+  "counts": {
+   "siteNav": 0,
+   "search": 1633,
+   "navbarRow": 644,
+   "rail": 1600,
+   "translationMeta": 1633
+  },
+  "dirs": [
+   "ar",
+   "archimate",
+   "artifact",
+   "assets",
+   "cat-harness",
+   "en",
+   "es",
+   "fhir-artifact-index",
+   "folio-assistant-core",
+   "fr",
+   "id-lookup",
+   "openapi",
+   "pilgrim",
+   "questionnaires",
+   "ru",
+   "smart-base",
+   "smart-ips-pilgrimage",
+   "zh"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
  "baseline": {
   "features": {
-   "pages": 9167,
+   "pages": 2065,
    "counts": {
     "siteNav": 0,
-    "search": 8746,
-    "navbarRow": 633,
-    "rail": 8713,
-    "translationMeta": 8746
+    "search": 1633,
+    "navbarRow": 644,
+    "rail": 1600,
+    "translationMeta": 1633
    },
    "dirs": [
     "ar",
@@ -98,6 +99,7 @@
     "en",
     "es",
     "fhir-artifact-index",
+    "folio-assistant-core",
     "fr",
     "id-lookup",
     "openapi",
@@ -118,6 +120,6 @@
     "present": true
    }
   },
-  "from": "db4fded10570"
+  "from": "f4054823ed07"
  }
 }
