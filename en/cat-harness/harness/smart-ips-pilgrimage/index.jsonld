@@ -7,7 +7,7 @@
   "@type": "WebPage",
   "name": "SMART Verifiable IPS for Pilgrimage on SMART Verifiable IPS for Pilgrimage",
   "about": {
-    "@id": "https://litlfred.github.io/smart-ips-pilgrimage/",
+    "@id": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/",
     "@type": "SoftwareSourceCode",
     "identifier": "smart-ips-pilgrimage",
     "name": "SMART Verifiable IPS for Pilgrimage",
@@ -28,8 +28,8 @@
     "name": "SMART Verifiable IPS for Pilgrimage"
   },
   "significantLink": [
-    "https://github.com/litlfred/smart-ips-pilgrimage/tree/23a0bd376fa9bb496ba79dd670724ab9f8530dcf",
-    "https://github.com/litlfred/smart-ips-pilgrimage/blob/23a0bd376fa9bb496ba79dd670724ab9f8530dcf/README.md",
-    "https://github.com/litlfred/smart-ips-pilgrimage/blob/23a0bd376fa9bb496ba79dd670724ab9f8530dcf/AGENTS.md"
+    "https://github.com/litlfred/smart-ips-pilgrimage/tree/5d46d8be4affe99e8e77a6e3d9a6294cd13ac034",
+    "https://github.com/litlfred/smart-ips-pilgrimage/blob/5d46d8be4affe99e8e77a6e3d9a6294cd13ac034/README.md",
+    "https://github.com/litlfred/smart-ips-pilgrimage/blob/5d46d8be4affe99e8e77a6e3d9a6294cd13ac034/AGENTS.md"
   ]
 }

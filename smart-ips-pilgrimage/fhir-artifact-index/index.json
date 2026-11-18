@@ -33,16 +33,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.html",
           "local": "fsh-generated/resources/AllergyIntolerance-72884cad-ebe6-4f43-a51a-2f978275f131.json"
         },
         "localPath": "output-ast/resources/AllergyIntolerance/72884cad-ebe6-4f43-a51a-2f978275f131.json",
@@ -88,16 +88,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-MyIPS.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Bundle-MyIPS.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Bundle-MyIPS.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Bundle-MyIPS.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Bundle-MyIPS.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Bundle-MyIPS.html",
           "local": "fsh-generated/resources/Bundle-MyIPS.json"
         },
         "localPath": "output-ast/resources/Bundle/MyIPS.json",
@@ -140,16 +140,16 @@
       "category": "Other",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Bundle-PilgrimFolderSearchSetExtended.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Bundle-PilgrimFolderSearchSetExtended.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Bundle-PilgrimFolderSearchSetExtended.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Bundle-PilgrimFolderSearchSetExtended.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Bundle-PilgrimFolderSearchSetExtended.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Bundle-PilgrimFolderSearchSetExtended.html",
           "local": "fsh-generated/resources/Bundle-PilgrimFolderSearchSetExtended.json"
         },
         "localPath": "output-ast/resources/Bundle/PilgrimFolderSearchSetExtended.json",
@@ -196,16 +196,16 @@
       "category": "Behavior: Capability Statements",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CapabilityStatement-VHLDocumentResponder.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CapabilityStatement-VHLDocumentResponder.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CapabilityStatement-VHLDocumentResponder.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CapabilityStatement-VHLDocumentResponder.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CapabilityStatement-VHLDocumentResponder.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CapabilityStatement-VHLDocumentResponder.html",
           "local": "fsh-generated/resources/CapabilityStatement-VHLDocumentResponder.json"
         },
         "localPath": "output-ast/resources/CapabilityStatement/VHLDocumentResponder.json",
@@ -252,16 +252,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs.json"
         },
         "localPath": "output-ast/resources/CodeSystem/BrowserCs.json",
@@ -308,16 +308,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ar.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ar.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ar.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ar.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs-ar.json"
         },
         "localPath": "output-ast/resources/CodeSystem/BrowserCs-ar.json",
@@ -364,16 +364,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-es.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-es.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-es.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-es.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs-es.json"
         },
         "localPath": "output-ast/resources/CodeSystem/BrowserCs-es.json",
@@ -420,16 +420,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-fr.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-fr.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-fr.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-fr.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs-fr.json"
         },
         "localPath": "output-ast/resources/CodeSystem/BrowserCs-fr.json",
@@ -476,16 +476,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-ru.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ru.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ru.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-ru.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs-ru.json"
         },
         "localPath": "output-ast/resources/CodeSystem/BrowserCs-ru.json",
@@ -532,16 +532,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-BrowserCs-zh.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-zh.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-zh.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-BrowserCs-zh.html",
           "local": "fsh-generated/resources/CodeSystem-BrowserCs-zh.json"
         },
         "localPath": "output-ast/resources/CodeSystem/BrowserCs-zh.json",
@@ -588,16 +588,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs.json"
         },
         "localPath": "output-ast/resources/CodeSystem/DistributionModelCs.json",
@@ -644,16 +644,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ar.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ar.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ar.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ar.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-ar.json"
         },
         "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-ar.json",
@@ -700,16 +700,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-es.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-es.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-es.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-es.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-es.json"
         },
         "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-es.json",
@@ -756,16 +756,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-fr.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-fr.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-fr.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-fr.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-fr.json"
         },
         "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-fr.json",
@@ -812,16 +812,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-ru.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ru.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ru.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-ru.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-ru.json"
         },
         "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-ru.json",
@@ -868,16 +868,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-DistributionModelCs-zh.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-zh.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-zh.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-DistributionModelCs-zh.html",
           "local": "fsh-generated/resources/CodeSystem-DistributionModelCs-zh.json"
         },
         "localPath": "output-ast/resources/CodeSystem/DistributionModelCs-zh.json",
@@ -924,16 +924,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-es.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-es.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-ACTOR-es.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-ACTOR-es.json",
@@ -980,16 +980,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-ACTOR-ru.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-ACTOR-ru.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-ACTOR-ru.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-ACTOR-ru.json",
@@ -1036,16 +1036,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-es.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-es.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-CONSENT-es.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-CONSENT-es.json",
@@ -1092,16 +1092,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-CONSENT-ru.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-CONSENT-ru.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-CONSENT-ru.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-CONSENT-ru.json",
@@ -1148,16 +1148,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-es.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-es.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-TRANSACTION-es.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-TRANSACTION-es.json",
@@ -1204,16 +1204,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS-HAJJ-TRANSACTION-ru.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS-HAJJ-TRANSACTION-ru.html",
           "local": "fsh-generated/resources/CodeSystem-IPS-HAJJ-TRANSACTION-ru.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS-HAJJ-TRANSACTION-ru.json",
@@ -1260,16 +1260,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR.json",
@@ -1316,16 +1316,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-ar.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-ar.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR-ar.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-ar.json",
@@ -1372,16 +1372,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-fr.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-fr.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR-fr.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-fr.json",
@@ -1428,16 +1428,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.ACTOR-zh.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.ACTOR-zh.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.ACTOR-zh.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.ACTOR-zh.json",
@@ -1484,16 +1484,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT.json",
@@ -1540,16 +1540,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-ar.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-ar.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT-ar.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-ar.json",
@@ -1596,16 +1596,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-fr.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-fr.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT-fr.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-fr.json",
@@ -1652,16 +1652,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.CONSENT-zh.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.CONSENT-zh.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.CONSENT-zh.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.CONSENT-zh.json",
@@ -1708,16 +1708,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION.json",
@@ -1764,16 +1764,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-ar.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-ar.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION-ar.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-ar.json",
@@ -1820,16 +1820,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-fr.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-fr.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION-fr.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-fr.json",
@@ -1876,16 +1876,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-IPS.HAJJ.TRANSACTION-zh.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-IPS.HAJJ.TRANSACTION-zh.html",
           "local": "fsh-generated/resources/CodeSystem-IPS.HAJJ.TRANSACTION-zh.json"
         },
         "localPath": "output-ast/resources/CodeSystem/IPS.HAJJ.TRANSACTION-zh.json",
@@ -1932,16 +1932,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LanguageCs.json",
@@ -1988,16 +1988,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ar.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ar.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ar.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ar.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs-ar.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LanguageCs-ar.json",
@@ -2044,16 +2044,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-es.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-es.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-es.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-es.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs-es.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LanguageCs-es.json",
@@ -2100,16 +2100,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-fr.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-fr.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-fr.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-fr.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs-fr.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LanguageCs-fr.json",
@@ -2156,16 +2156,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-ru.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ru.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ru.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-ru.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs-ru.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LanguageCs-ru.json",
@@ -2212,16 +2212,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LanguageCs-zh.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-zh.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-zh.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LanguageCs-zh.html",
           "local": "fsh-generated/resources/CodeSystem-LanguageCs-zh.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LanguageCs-zh.json",
@@ -2268,16 +2268,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LicensingModelCs.json",
@@ -2324,16 +2324,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ar.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ar.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ar.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ar.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-ar.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-ar.json",
@@ -2380,16 +2380,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-es.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-es.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-es.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-es.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-es.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-es.json",
@@ -2436,16 +2436,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-fr.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-fr.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-fr.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-fr.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-fr.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-fr.json",
@@ -2492,16 +2492,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-ru.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ru.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ru.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-ru.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-ru.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-ru.json",
@@ -2548,16 +2548,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-LicensingModelCs-zh.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-zh.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-zh.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-LicensingModelCs-zh.html",
           "local": "fsh-generated/resources/CodeSystem-LicensingModelCs-zh.json"
         },
         "localPath": "output-ast/resources/CodeSystem/LicensingModelCs-zh.json",
@@ -2604,16 +2604,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs.json"
         },
         "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs.json",
@@ -2660,16 +2660,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ar.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ar.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ar.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ar.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ar.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-ar.json"
         },
         "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-ar.json",
@@ -2716,16 +2716,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-es.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-es.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-es.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-es.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-es.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-es.json"
         },
         "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-es.json",
@@ -2772,16 +2772,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-fr.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-fr.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-fr.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-fr.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-fr.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-fr.json"
         },
         "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-fr.json",
@@ -2828,16 +2828,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-ru.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ru.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ru.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ru.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-ru.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-ru.json"
         },
         "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-ru.json",
@@ -2884,16 +2884,16 @@
       "category": "Terminology: Code Systems",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/CodeSystem-OperatingSystemCs-zh.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-zh.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-zh.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-zh.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/CodeSystem-OperatingSystemCs-zh.html",
           "local": "fsh-generated/resources/CodeSystem-OperatingSystemCs-zh.json"
         },
         "localPath": "output-ast/resources/CodeSystem/OperatingSystemCs-zh.json",
@@ -2939,16 +2939,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Composition-ExampleComposition.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Composition-ExampleComposition.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Composition-ExampleComposition.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Composition-ExampleComposition.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Composition-ExampleComposition.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Composition-ExampleComposition.html",
           "local": "fsh-generated/resources/Composition-ExampleComposition.json"
         },
         "localPath": "output-ast/resources/Composition/ExampleComposition.json",
@@ -3005,16 +3005,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.html",
           "local": "fsh-generated/resources/Condition-c4597aa2-688a-401b-a658-70acc6de28c5.json"
         },
         "localPath": "output-ast/resources/Condition/c4597aa2-688a-401b-a658-70acc6de28c5.json",
@@ -3071,16 +3071,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.html",
           "local": "fsh-generated/resources/Condition-c64139e7-f02d-409c-bf34-75e8bf23bc89.json"
         },
         "localPath": "output-ast/resources/Condition/c64139e7-f02d-409c-bf34-75e8bf23bc89.json",
@@ -3126,16 +3126,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.html",
           "local": "fsh-generated/resources/Consent-6ba64cfe-b224-4d40-87bf-4d8122e65e62.json"
         },
         "localPath": "output-ast/resources/Consent/6ba64cfe-b224-4d40-87bf-4d8122e65e62.json",
@@ -3181,16 +3181,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.html",
           "local": "fsh-generated/resources/Consent-c7781f44-6df8-4a8b-9e06-0b34263a47c6.json"
         },
         "localPath": "output-ast/resources/Consent/c7781f44-6df8-4a8b-9e06-0b34263a47c6.json",
@@ -3236,16 +3236,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSDocumentReference.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSDocumentReference.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSDocumentReference.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSDocumentReference.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSDocumentReference.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSDocumentReference.html",
           "local": "fsh-generated/resources/DocumentReference-FHIRIPSDocumentReference.json"
         },
         "localPath": "output-ast/resources/DocumentReference/FHIRIPSDocumentReference.json",
@@ -3291,16 +3291,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSSignedDocumentReference.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/DocumentReference-FHIRIPSSignedDocumentReference.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSSignedDocumentReference.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSSignedDocumentReference.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSSignedDocumentReference.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-FHIRIPSSignedDocumentReference.html",
           "local": "fsh-generated/resources/DocumentReference-FHIRIPSSignedDocumentReference.json"
         },
         "localPath": "output-ast/resources/DocumentReference/FHIRIPSSignedDocumentReference.json",
@@ -3346,16 +3346,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSPDFDocumentReference.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/DocumentReference-IPSPDFDocumentReference.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSPDFDocumentReference.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSPDFDocumentReference.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSPDFDocumentReference.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSPDFDocumentReference.html",
           "local": "fsh-generated/resources/DocumentReference-IPSPDFDocumentReference.json"
         },
         "localPath": "output-ast/resources/DocumentReference/IPSPDFDocumentReference.json",
@@ -3401,16 +3401,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-IPSSignedPDFDocumentReference.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/DocumentReference-IPSSignedPDFDocumentReference.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSSignedPDFDocumentReference.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSSignedPDFDocumentReference.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSSignedPDFDocumentReference.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-IPSSignedPDFDocumentReference.html",
           "local": "fsh-generated/resources/DocumentReference-IPSSignedPDFDocumentReference.json"
         },
         "localPath": "output-ast/resources/DocumentReference/IPSSignedPDFDocumentReference.json",
@@ -3454,16 +3454,16 @@
       "category": "Other",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference.html",
           "local": "fsh-generated/resources/DocumentReference-ex-documentreference.json"
         },
         "localPath": "output-ast/resources/DocumentReference/ex-documentreference.json",
@@ -3507,16 +3507,16 @@
       "category": "Other",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference1.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/DocumentReference-ex-documentreference1.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference1.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference1.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference1.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/DocumentReference-ex-documentreference1.html",
           "local": "fsh-generated/resources/DocumentReference-ex-documentreference1.json"
         },
         "localPath": "output-ast/resources/DocumentReference/ex-documentreference1.json",
@@ -3565,16 +3565,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ImplementationGuide-smart.who.int.ips-pilgrimage.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ImplementationGuide-smart.who.int.ips-pilgrimage.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ImplementationGuide-smart.who.int.ips-pilgrimage.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ImplementationGuide-smart.who.int.ips-pilgrimage.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ImplementationGuide-smart.who.int.ips-pilgrimage.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ImplementationGuide-smart.who.int.ips-pilgrimage.html",
           "local": "fsh-generated/resources/ImplementationGuide-smart.who.int.ips-pilgrimage.json"
         },
         "localPath": "output-ast/resources/ImplementationGuide/smart.who.int.ips-pilgrimage.json",
@@ -3628,16 +3628,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/List-PilgrimFolder.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/List-PilgrimFolder.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/List-PilgrimFolder.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/List-PilgrimFolder.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/List-PilgrimFolder.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/List-PilgrimFolder.html",
           "local": "fsh-generated/resources/List-PilgrimFolder.json"
         },
         "localPath": "output-ast/resources/List/PilgrimFolder.json",
@@ -3695,16 +3695,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-8adc0999-9468-4ac9-9557-680fa133d625.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Medication-8adc0999-9468-4ac9-9557-680fa133d625.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Medication-8adc0999-9468-4ac9-9557-680fa133d625.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Medication-8adc0999-9468-4ac9-9557-680fa133d625.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Medication-8adc0999-9468-4ac9-9557-680fa133d625.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Medication-8adc0999-9468-4ac9-9557-680fa133d625.html",
           "local": "fsh-generated/resources/Medication-8adc0999-9468-4ac9-9557-680fa133d625.json"
         },
         "localPath": "output-ast/resources/Medication/8adc0999-9468-4ac9-9557-680fa133d625.json",
@@ -3761,16 +3761,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.html",
           "local": "fsh-generated/resources/Medication-976d0804-cae0-45ae-afe3-a19f3ceba6bb.json"
         },
         "localPath": "output-ast/resources/Medication/976d0804-cae0-45ae-afe3-a19f3ceba6bb.json",
@@ -3813,16 +3813,16 @@
       "category": "Other",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.html",
           "local": "fsh-generated/resources/MedicationStatement-47524493-846a-4a26-bae2-4ab03e60f02d.json"
         },
         "localPath": "output-ast/resources/MedicationStatement/47524493-846a-4a26-bae2-4ab03e60f02d.json",
@@ -3865,16 +3865,16 @@
       "category": "Other",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.html",
           "local": "fsh-generated/resources/MedicationStatement-c220e36c-eb67-4fc4-9ba1-2fabc52acec5.json"
         },
         "localPath": "output-ast/resources/MedicationStatement/c220e36c-eb67-4fc4-9ba1-2fabc52acec5.json",
@@ -3920,16 +3920,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.html",
           "local": "fsh-generated/resources/Observation-2639657a-c19a-48e2-82cc-471e13b8ad93.json"
         },
         "localPath": "output-ast/resources/Observation/2639657a-c19a-48e2-82cc-471e13b8ad93.json",
@@ -3981,16 +3981,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.html",
           "local": "fsh-generated/resources/Observation-26bee0a9-5997-4557-ab9d-c6adbb05b571.json"
         },
         "localPath": "output-ast/resources/Observation/26bee0a9-5997-4557-ab9d-c6adbb05b571.json",
@@ -4042,16 +4042,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.html",
           "local": "fsh-generated/resources/Observation-6e39ccf3-f997-4a2b-8f28-b4b71c778c79.json"
         },
         "localPath": "output-ast/resources/Observation/6e39ccf3-f997-4a2b-8f28-b4b71c778c79.json",
@@ -4103,16 +4103,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.html",
           "local": "fsh-generated/resources/Observation-a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.json"
         },
         "localPath": "output-ast/resources/Observation/a6a5a1d5-c896-4c7e-b922-888fcc7e6ae3.json",
@@ -4164,16 +4164,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.html",
           "local": "fsh-generated/resources/Observation-aa11a2be-3e36-4be7-b58a-6fc3dace2740.json"
         },
         "localPath": "output-ast/resources/Observation/aa11a2be-3e36-4be7-b58a-6fc3dace2740.json",
@@ -4225,16 +4225,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-b4916505-a06b-460c-9be8-011609282456.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Observation-b4916505-a06b-460c-9be8-011609282456.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-b4916505-a06b-460c-9be8-011609282456.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-b4916505-a06b-460c-9be8-011609282456.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-b4916505-a06b-460c-9be8-011609282456.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-b4916505-a06b-460c-9be8-011609282456.html",
           "local": "fsh-generated/resources/Observation-b4916505-a06b-460c-9be8-011609282456.json"
         },
         "localPath": "output-ast/resources/Observation/b4916505-a06b-460c-9be8-011609282456.json",
@@ -4286,16 +4286,16 @@
       },
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.html",
           "local": "fsh-generated/resources/Observation-cc354e00-a419-47ea-8b6c-1768b2a01645.json"
         },
         "localPath": "output-ast/resources/Observation/cc354e00-a419-47ea-8b6c-1768b2a01645.json",
@@ -4339,16 +4339,16 @@
       "category": "Other",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.html",
           "local": "fsh-generated/resources/Organization-45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.json"
         },
         "localPath": "output-ast/resources/Organization/45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd6.json",
@@ -4392,16 +4392,16 @@
       "category": "Other",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.html",
           "local": "fsh-generated/resources/Organization-890751f4-2924-4636-bab7-efffc7f3cf14.json"
         },
         "localPath": "output-ast/resources/Organization/890751f4-2924-4636-bab7-efffc7f3cf14.json",
@@ -4448,16 +4448,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleHostMoH.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Organization-ExampleHostMoH.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleHostMoH.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleHostMoH.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleHostMoH.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleHostMoH.html",
           "local": "fsh-generated/resources/Organization-ExampleHostMoH.json"
         },
         "localPath": "output-ast/resources/Organization/ExampleHostMoH.json",
@@ -4504,16 +4504,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Organization-ExampleOriginHIE.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Organization-ExampleOriginHIE.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleOriginHIE.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleOriginHIE.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleOriginHIE.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Organization-ExampleOriginHIE.html",
           "local": "fsh-generated/resources/Organization-ExampleOriginHIE.json"
         },
         "localPath": "output-ast/resources/Organization/ExampleOriginHIE.json",
@@ -4556,16 +4556,16 @@
       "category": "Other",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.html",
           "local": "fsh-generated/resources/Patient-2b90dd2b-2dab-4c75-9bb9-a355e07401e7.json"
         },
         "localPath": "output-ast/resources/Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e7.json",
@@ -4608,16 +4608,16 @@
       "category": "Other",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.html",
           "local": "fsh-generated/resources/Practitioner-1c616b24-3895-48c4-9a02-9a64110351ee.json"
         },
         "localPath": "output-ast/resources/Practitioner/1c616b24-3895-48c4-9a02-9a64110351ee.json",
@@ -4667,16 +4667,16 @@
       ],
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/Questionnaire-Questionnaire-ConnectathonSubmission.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/Questionnaire-Questionnaire-ConnectathonSubmission.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Questionnaire-Questionnaire-ConnectathonSubmission.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Questionnaire-Questionnaire-ConnectathonSubmission.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/Questionnaire-Questionnaire-ConnectathonSubmission.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/Questionnaire-Questionnaire-ConnectathonSubmission.html",
           "local": "fsh-generated/resources/Questionnaire-Questionnaire-ConnectathonSubmission.json"
         },
         "localPath": "output-ast/resources/Questionnaire/Questionnaire-ConnectathonSubmission.json",
@@ -4723,16 +4723,16 @@
       "category": "Structures: Extension Definitions",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentPeriod.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentPeriod.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentPeriod.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentPeriod.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentPeriod.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentPeriod.html",
           "local": "fsh-generated/resources/StructureDefinition-ConsentPeriod.json"
         },
         "localPath": "output-ast/resources/StructureDefinition/ConsentPeriod.json",
@@ -4779,16 +4779,16 @@
       "category": "Structures: Extension Definitions",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentVerifiedBy.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/StructureDefinition-ConsentVerifiedBy.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentVerifiedBy.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentVerifiedBy.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentVerifiedBy.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-ConsentVerifiedBy.html",
           "local": "fsh-generated/resources/StructureDefinition-ConsentVerifiedBy.json"
         },
         "localPath": "output-ast/resources/StructureDefinition/ConsentVerifiedBy.json",
@@ -4835,16 +4835,16 @@
       "category": "Structures: Resource Profiles",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjConsent.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/StructureDefinition-HajjConsent.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjConsent.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjConsent.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjConsent.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjConsent.html",
           "local": "fsh-generated/resources/StructureDefinition-HajjConsent.json"
         },
         "localPath": "output-ast/resources/StructureDefinition/HajjConsent.json",
@@ -4891,16 +4891,16 @@
       "category": "Structures: Resource Profiles",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPS.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPS.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPS.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPS.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPS.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPS.html",
           "local": "fsh-generated/resources/StructureDefinition-HajjIPS.json"
         },
         "localPath": "output-ast/resources/StructureDefinition/HajjIPS.json",
@@ -4947,16 +4947,16 @@
       "category": "Structures: Resource Profiles",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPSComposition.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/StructureDefinition-HajjIPSComposition.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPSComposition.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPSComposition.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPSComposition.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjIPSComposition.html",
           "local": "fsh-generated/resources/StructureDefinition-HajjIPSComposition.json"
         },
         "localPath": "output-ast/resources/StructureDefinition/HajjIPSComposition.json",
@@ -5003,16 +5003,16 @@
       "category": "Structures: Resource Profiles",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/StructureDefinition-HajjOrganization.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/StructureDefinition-HajjOrganization.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjOrganization.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjOrganization.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjOrganization.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/StructureDefinition-HajjOrganization.html",
           "local": "fsh-generated/resources/StructureDefinition-HajjOrganization.json"
         },
         "localPath": "output-ast/resources/StructureDefinition/HajjOrganization.json",
@@ -5059,16 +5059,16 @@
       "category": "Terminology: Value Sets",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Browser.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-Browser.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-Browser.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-Browser.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-Browser.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-Browser.html",
           "local": "fsh-generated/resources/ValueSet-Browser.json"
         },
         "localPath": "output-ast/resources/ValueSet/Browser.json",
@@ -5104,22 +5104,22 @@
       },
       "sidecars": {
         "displays": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Browser.displays.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-Browser.displays.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-Browser.displays.json",
           "bytes": 1777
         },
         "jsonld": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Browser.jsonld",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-Browser.jsonld",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-Browser.jsonld",
           "bytes": 1125
         },
         "openapi": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Browser.openapi.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-Browser.openapi.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-Browser.openapi.json",
           "bytes": 2565
         },
         "schema": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Browser.schema.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-Browser.schema.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-Browser.schema.json",
           "bytes": 1441
         }
@@ -5137,16 +5137,16 @@
       "category": "Terminology: Value Sets",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-DistributionModel.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-DistributionModel.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-DistributionModel.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-DistributionModel.html",
           "local": "fsh-generated/resources/ValueSet-DistributionModel.json"
         },
         "localPath": "output-ast/resources/ValueSet/DistributionModel.json",
@@ -5182,22 +5182,22 @@
       },
       "sidecars": {
         "displays": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.displays.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.displays.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-DistributionModel.displays.json",
           "bytes": 1671
         },
         "jsonld": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.jsonld",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.jsonld",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-DistributionModel.jsonld",
           "bytes": 962
         },
         "openapi": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.openapi.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.openapi.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-DistributionModel.openapi.json",
           "bytes": 2650
         },
         "schema": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.schema.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-DistributionModel.schema.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-DistributionModel.schema.json",
           "bytes": 1462
         }
@@ -5215,16 +5215,16 @@
       "category": "Terminology: Value Sets",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.html",
           "local": "fsh-generated/resources/ValueSet-IPS.HAJJ.ACTOR.json"
         },
         "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.ACTOR.json",
@@ -5260,22 +5260,22 @@
       },
       "sidecars": {
         "displays": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.displays.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.displays.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.ACTOR.displays.json",
           "bytes": 1852
         },
         "jsonld": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.jsonld",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.jsonld",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.ACTOR.jsonld",
           "bytes": 1155
         },
         "openapi": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.openapi.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.openapi.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.ACTOR.openapi.json",
           "bytes": 2746
         },
         "schema": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.schema.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.schema.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.ACTOR.schema.json",
           "bytes": 1530
         }
@@ -5293,16 +5293,16 @@
       "category": "Terminology: Value Sets",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.html",
           "local": "fsh-generated/resources/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.json"
         },
         "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.ACTOR.SYSTEM.json",
@@ -5338,22 +5338,22 @@
       },
       "sidecars": {
         "displays": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.displays.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.displays.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.displays.json",
           "bytes": 1789
         },
         "jsonld": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.jsonld",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.jsonld",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.jsonld",
           "bytes": 1048
         },
         "openapi": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.openapi.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.openapi.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.openapi.json",
           "bytes": 2802
         },
         "schema": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.schema.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.schema.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.ACTOR.SYSTEM.schema.json",
           "bytes": 1542
         }
@@ -5371,16 +5371,16 @@
       "category": "Terminology: Value Sets",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.CONSENT.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.CONSENT.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.CONSENT.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.CONSENT.html",
           "local": "fsh-generated/resources/ValueSet-IPS.HAJJ.CONSENT.json"
         },
         "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.CONSENT.json",
@@ -5416,22 +5416,22 @@
       },
       "sidecars": {
         "displays": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.displays.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.displays.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.CONSENT.displays.json",
           "bytes": 2001
         },
         "jsonld": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.jsonld",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.jsonld",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.CONSENT.jsonld",
           "bytes": 1280
         },
         "openapi": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.openapi.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.openapi.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.CONSENT.openapi.json",
           "bytes": 2865
         },
         "schema": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.schema.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.CONSENT.schema.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.CONSENT.schema.json",
           "bytes": 1611
         }
@@ -5449,16 +5449,16 @@
       "category": "Terminology: Value Sets",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.TRANSACTION.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.TRANSACTION.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.TRANSACTION.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-IPS.HAJJ.TRANSACTION.html",
           "local": "fsh-generated/resources/ValueSet-IPS.HAJJ.TRANSACTION.json"
         },
         "localPath": "output-ast/resources/ValueSet/IPS.HAJJ.TRANSACTION.json",
@@ -5494,22 +5494,22 @@
       },
       "sidecars": {
         "displays": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.displays.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.displays.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.TRANSACTION.displays.json",
           "bytes": 2190
         },
         "jsonld": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.jsonld",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.jsonld",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.TRANSACTION.jsonld",
           "bytes": 1520
         },
         "openapi": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.openapi.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.openapi.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.TRANSACTION.openapi.json",
           "bytes": 2996
         },
         "schema": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.schema.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-IPS.HAJJ.TRANSACTION.schema.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-IPS.HAJJ.TRANSACTION.schema.json",
           "bytes": 1702
         }
@@ -5527,16 +5527,16 @@
       "category": "Terminology: Value Sets",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Language.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-Language.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-Language.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-Language.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-Language.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-Language.html",
           "local": "fsh-generated/resources/ValueSet-Language.json"
         },
         "localPath": "output-ast/resources/ValueSet/Language.json",
@@ -5572,22 +5572,22 @@
       },
       "sidecars": {
         "displays": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Language.displays.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-Language.displays.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-Language.displays.json",
           "bytes": 1797
         },
         "jsonld": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Language.jsonld",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-Language.jsonld",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-Language.jsonld",
           "bytes": 1159
         },
         "openapi": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Language.openapi.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-Language.openapi.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-Language.openapi.json",
           "bytes": 2591
         },
         "schema": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-Language.schema.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-Language.schema.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-Language.schema.json",
           "bytes": 1453
         }
@@ -5605,16 +5605,16 @@
       "category": "Terminology: Value Sets",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-LicensingModel.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-LicensingModel.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-LicensingModel.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-LicensingModel.html",
           "local": "fsh-generated/resources/ValueSet-LicensingModel.json"
         },
         "localPath": "output-ast/resources/ValueSet/LicensingModel.json",
@@ -5650,22 +5650,22 @@
       },
       "sidecars": {
         "displays": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.displays.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.displays.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-LicensingModel.displays.json",
           "bytes": 1617
         },
         "jsonld": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.jsonld",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.jsonld",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-LicensingModel.jsonld",
           "bytes": 896
         },
         "openapi": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.openapi.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.openapi.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-LicensingModel.openapi.json",
           "bytes": 2579
         },
         "schema": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.schema.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-LicensingModel.schema.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-LicensingModel.schema.json",
           "bytes": 1421
         }
@@ -5683,16 +5683,16 @@
       "category": "Terminology: Value Sets",
       "published": {
         "json": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.json"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.json"
         },
         "html": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-OperatingSystem.html"
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-OperatingSystem.html"
         }
       },
       "materialization": {
         "state": "materialized",
         "provenance": {
-          "upstream": "https://litlfred.github.io/smart-ips-pilgrimage/artifact/ValueSet-OperatingSystem.html",
+          "upstream": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/artifact/ValueSet-OperatingSystem.html",
           "local": "fsh-generated/resources/ValueSet-OperatingSystem.json"
         },
         "localPath": "output-ast/resources/ValueSet/OperatingSystem.json",
@@ -5728,22 +5728,22 @@
       },
       "sidecars": {
         "displays": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.displays.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.displays.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-OperatingSystem.displays.json",
           "bytes": 1721
         },
         "jsonld": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.jsonld",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.jsonld",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-OperatingSystem.jsonld",
           "bytes": 1044
         },
         "openapi": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.openapi.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.openapi.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-OperatingSystem.openapi.json",
           "bytes": 2651
         },
         "schema": {
-          "url": "https://litlfred.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.schema.json",
+          "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ValueSet-OperatingSystem.schema.json",
           "localPath": "fhir-artifact-index/sidecars/ValueSet-OperatingSystem.schema.json",
           "bytes": 1467
         }
@@ -5751,7 +5751,7 @@
     }
   ],
   "package": {
-    "url": "https://litlfred.github.io/smart-ips-pilgrimage/package.tgz",
+    "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/package.tgz",
     "localPath": "fhir-artifact-index/package.tgz",
     "bytes": 238930
   },
@@ -5759,7 +5759,7 @@
     "4.0.1"
   ],
   "igApiHub": {
-    "url": "https://litlfred.github.io/smart-ips-pilgrimage/ig-api.html",
+    "url": "https://worldhealthorganization.github.io/smart-ips-pilgrimage/ig-api.html",
     "placeholder": "<!-- DAK_API_CONTENT -->",
     "label": "DAK API"
   }
