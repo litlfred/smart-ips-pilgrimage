@@ -1,0 +1,211 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-retrieve-IPS-request-message-semantics",
+ "hashes": {
+  "ar": "4b6d037bd6da4f95",
+  "es": "bca9db16006ff4ef",
+  "fr": "f37e72637c9b323e",
+  "ru": "5498d66515105033",
+  "zh": "aff598bcc0770b22"
+ },
+ "strings": [
+  {
+   "msgid": "Message Semantics Request",
+   "hash": "6599bbc2f6aa3a09",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-IPS-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "دلالات الرسالة: الطلب",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Semántica del mensaje de solicitud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sémantique des messages : requête",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщения: запрос",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "消息语义：请求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Message Semantics Response",
+   "hash": "f4895c0190d30675",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-IPS-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "دلالات الرسالة: الاستجابة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Semántica del mensaje de respuesta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sémantique des messages : réponse",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщения: ответ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "消息语义：响应",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Host Country EMR shall act as a Document Consumer and follow <a0>ITI-68</a0>.",
+   "hash": "a3015381f815a00a",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-IPS-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجب أن يعمل السجل الطبي الإلكتروني (EMR) في البلد المضيف بوصفه مستهلكًا للوثائق (Document Consumer) وأن يتّبع <a0>ITI-68</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El EMR del país anfitrión deberá actuar como Document Consumer y seguir <a0>ITI-68</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le DME du pays d'accueil doit agir en tant que Document Consumer et suivre <a0>ITI-68</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR принимающей страны должна выступать в роли потребителя документов (Document Consumer) и следовать <a0>ITI-68</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国 EMR 应当（shall）充当文档消费者（Document Consumer），并遵循<a0>ITI-68</a0>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The message semantics for retrieve IPS Request shall be a GET request for the IPS json.",
+   "hash": "803a32b5707f9604",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-IPS-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجب أن تكون دلالات رسالة طلب استرجاع IPS طلبَ GET للحصول على IPS بصيغة json.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La semántica del mensaje de la solicitud de obtención del IPS deberá ser una solicitud GET del JSON del IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La sémantique des messages de la requête de récupération de l'IPS doit être une requête GET portant sur l'IPS au format JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщения запроса на получение IPS должна представлять собой GET-запрос IPS в формате JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索 IPS 请求的消息语义应当（shall）是获取 IPS json 的 GET 请求。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The message semantics for retrieve IPS Request-response shall send the IPS as a Json file.",
+   "hash": "d9b771bd5da262c4",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-IPS-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجب أن تُرسِل دلالات رسالة الاستجابة لطلب استرجاع IPS ملخصَ IPS في صورة ملف Json.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La semántica del mensaje de respuesta a la solicitud de obtención del IPS deberá enviar el IPS como un archivo JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La sémantique des messages de la réponse à la requête de récupération de l'IPS doit envoyer l'IPS sous forme de fichier JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщения ответа на запрос на получение IPS предусматривает передачу IPS в виде файла JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索 IPS 请求-响应的消息语义应当（shall）以 Json 文件形式发送 IPS。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

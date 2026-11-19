@@ -1,0 +1,679 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/business-processes",
+ "hashes": {
+  "ar": "b9f2f14a0f9bb73e",
+  "es": "34f9c79330d22c98",
+  "fr": "5698f478e073770a",
+  "ru": "6eb47223de313396",
+  "zh": "f9fb06f596131767"
+ },
+ "strings": [
+  {
+   "msgid": "# Process Name Process ID Personas Objectives      Title  ID used to reference this process throughout the DAK  Individuals interacting to complete the process  A concrete statement describing what the process seeks to achieve    1.0 Publication of National Public Keys for Verification  IPS.PILGRIMAGE.1.0  WHO GDHCN National HIE Host Country EMR  Distribute keys used to verify patient records   2.0 Publication of National Terminologies  IPS.PILGRIMAGE.2.0  WHO TSNational HIEHost Country EMRHost Country HIE  Distribute national terminologies (e.g. medical products) used in national profiles of the IPS    3.0 Issuance of Health Document at Origin Country IPS.PILGRIMAGE.3.0 PilgrimCounselorHealth Wallet AppNational HIE Retrieve a Pilgrim's patient summary for a unplanned clinical encounter   4.0 Clinical Encounter for Unplanned Care IPS.PILGRIMAGE.4.0 Host Country Health workerPilgrimHost Country EMRNational HIE Retrieve a Pilgrim's patient summary for a unplanned clinical encounter   5.0 Break The Glass Clinical Encounter (not in scope for phase 1)  IPS.PILGRIMAGE.5.0 National Pilgrimage AuthorityHost Country Health WorkerPilgrimHost Country EMRNational HIE Retrieve a Pilgrim's patient summary for an emergency unplanned clinical encounter   6.0 Retrieve IPS post the pilgrimage for Investigation (not in scope) IPS.PILGRIMAGE.6.0 National Pilgrimage AuthorityHost Country EMR Retrieve a Pilgrim's patient summary post the pilgrimage for investigating legal matters",
+   "hash": "54c94fb40558e80a",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "# اسم العملية معرّف العملية الشخصيات الافتراضية الأهداف      العنوان  المعرّف المستخدم للإشارة إلى هذه العملية في جميع أنحاء DAK  الأفراد المتفاعلون لإتمام العملية  بيان محدد يصف ما تسعى العملية إلى تحقيقه    1.0 نشر المفاتيح العمومية الوطنية لأغراض التحقق  IPS.PILGRIMAGE.1.0  GDHCN التابعة لمنظمة الصحة العالمية (WHO)، HIE الوطني، EMR البلد المضيف  توزيع المفاتيح المستخدمة للتحقق من سجلات المرضى   2.0 نشر المصطلحات الوطنية  IPS.PILGRIMAGE.2.0  TS التابعة لمنظمة الصحة العالمية (WHO)، HIE الوطني، EMR البلد المضيف، HIE البلد المضيف  توزيع المصطلحات الوطنية (مثل المنتجات الطبية) المستخدمة في الملفات التعريفية الوطنية لـ IPS    3.0 إصدار المستند الصحي في البلد الأم IPS.PILGRIMAGE.3.0 الزائر، المستشار، تطبيق المحفظة الصحية، HIE الوطني استرجاع ملخص المريض الخاص بالزائر للقاء سريري غير مخطط له   4.0 لقاء سريري لرعاية غير مخطط لها IPS.PILGRIMAGE.4.0 العامل الصحي في البلد المضيف، الزائر، EMR البلد المضيف، HIE الوطني استرجاع ملخص المريض الخاص بالزائر للقاء سريري غير مخطط له   5.0 لقاء سريري في حالة كسر الزجاج (خارج نطاق المرحلة 1)  IPS.PILGRIMAGE.5.0 السلطة الوطنية للزيارة الدينية، العامل الصحي في البلد المضيف، الزائر، EMR البلد المضيف، HIE الوطني استرجاع ملخص المريض الخاص بالزائر للقاء سريري طارئ غير مخطط له   6.0 استرجاع IPS بعد الزيارة الدينية لأغراض التحقيق (خارج النطاق) IPS.PILGRIMAGE.6.0 السلطة الوطنية للزيارة الدينية، EMR البلد المضيف استرجاع ملخص المريض الخاص بالزائر بعد الزيارة الدينية للتحقيق في المسائل القانونية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "# Nombre del proceso ID del proceso Personas (perfiles) Objetivos      Título  ID utilizado para hacer referencia a este proceso en todo el DAK  Personas que interactúan para completar el proceso  Enunciado concreto que describe lo que el proceso pretende lograr    1.0 Publicación de las claves públicas nacionales para la verificación  IPS.PILGRIMAGE.1.0  GDHCN de la OMS HIE nacional EMR del país anfitrión  Distribuir las claves utilizadas para verificar los registros de pacientes   2.0 Publicación de las terminologías nacionales  IPS.PILGRIMAGE.2.0  TS de la OMSHIE nacionalEMR del país anfitriónHIE del país anfitrión  Distribuir las terminologías nacionales (p. ej., productos médicos) utilizadas en los perfiles nacionales del IPS    3.0 Emisión del documento de salud en el país de origen IPS.PILGRIMAGE.3.0 PeregrinoAsesorAplicación de billetera sanitariaHIE nacional Recuperar el resumen del paciente de un peregrino para un encuentro clínico no programado   4.0 Encuentro clínico para atención no programada IPS.PILGRIMAGE.4.0 Trabajador de salud del país anfitriónPeregrinoEMR del país anfitriónHIE nacional Recuperar el resumen del paciente de un peregrino para un encuentro clínico no programado   5.0 Encuentro clínico de acceso de emergencia («romper el cristal») (fuera del alcance de la fase 1)  IPS.PILGRIMAGE.5.0 Autoridad Nacional de PeregrinaciónTrabajador de salud del país anfitriónPeregrinoEMR del país anfitriónHIE nacional Recuperar el resumen del paciente de un peregrino para un encuentro clínico no programado de urgencia   6.0 Recuperar el IPS tras la peregrinación con fines de investigación (fuera del alcance) IPS.PILGRIMAGE.6.0 Autoridad Nacional de PeregrinaciónEMR del país anfitrión Recuperar el resumen del paciente de un peregrino tras la peregrinación para investigar asuntos jurídicos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "# Nom du processus ID du processus Personas Objectifs      Titre  ID utilisé pour désigner ce processus dans l'ensemble du DAK  Personnes interagissant pour réaliser le processus  Énoncé concret de ce que le processus cherche à accomplir    1.0 Publication des clés publiques nationales pour la vérification  IPS.PILGRIMAGE.1.0  GDHCN de l'OMS HIE national DME du pays d'accueil  Distribuer les clés utilisées pour vérifier les dossiers des patients   2.0 Publication des terminologies nationales  IPS.PILGRIMAGE.2.0  WHO TSHIE nationalDME du pays d'accueilHIE du pays d'accueil  Distribuer les terminologies nationales (par exemple produits médicaux) utilisées dans les profils nationaux de l'IPS    3.0 Délivrance du document de santé dans le pays d'origine IPS.PILGRIMAGE.3.0 PèlerinConseillerApplication de portefeuille de santéHIE national Récupérer le résumé du patient d'un pèlerin pour une consultation clinique non planifiée   4.0 Consultation clinique pour des soins non planifiés IPS.PILGRIMAGE.4.0 Agent de santé du pays d'accueilPèlerinDME du pays d'accueilHIE national Récupérer le résumé du patient d'un pèlerin pour une consultation clinique non planifiée   5.0 Consultation clinique « bris de glace » (hors du champ de la phase 1)  IPS.PILGRIMAGE.5.0 Autorité nationale du pèlerinageAgent de santé du pays d'accueilPèlerinDME du pays d'accueilHIE national Récupérer le résumé du patient d'un pèlerin pour une consultation clinique d'urgence non planifiée   6.0 Récupération de l'IPS après le pèlerinage à des fins d'enquête (hors champ) IPS.PILGRIMAGE.6.0 Autorité nationale du pèlerinageDME du pays d'accueil Récupérer le résumé du patient d'un pèlerin après le pèlerinage pour enquêter sur des questions juridiques",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "# Название процесса Идентификатор процесса Персоны Цели      Название  Идентификатор, используемый для ссылки на этот процесс во всём DAK  Лица, взаимодействующие для выполнения процесса  Конкретное описание того, чего стремится достичь процесс    1.0 Публикация национальных открытых ключей для проверки  IPS.PILGRIMAGE.1.0  GDHCN ВОЗ, национальная HIE, EMR принимающей страны  Распространение ключей, используемых для проверки медицинских записей пациентов   2.0 Публикация национальных терминологий  IPS.PILGRIMAGE.2.0  TS ВОЗ, национальная HIE, EMR принимающей страны, HIE принимающей страны  Распространение национальных терминологий (например, лекарственных средств), используемых в национальных профилях IPS    3.0 Выдача медицинского документа в стране происхождения IPS.PILGRIMAGE.3.0 Паломник, консультант, приложение-кошелёк медицинских данных, национальная HIE Получение сводки о пациенте-паломнике для незапланированного клинического приёма   4.0 Клинический приём в рамках незапланированной медицинской помощи IPS.PILGRIMAGE.4.0 Медицинский работник принимающей страны, паломник, EMR принимающей страны, национальная HIE Получение сводки о пациенте-паломнике для незапланированного клинического приёма   5.0 Экстренный доступ («разбить стекло») при клиническом приёме (не входит в объём этапа 1)  IPS.PILGRIMAGE.5.0 Национальный орган по вопросам паломничества, медицинский работник принимающей страны, паломник, EMR принимающей страны, национальная HIE Получение сводки о пациенте-паломнике для экстренного незапланированного клинического приёма   6.0 Получение IPS после паломничества для расследования (не входит в объём) IPS.PILGRIMAGE.6.0 Национальный орган по вопросам паломничества, EMR принимающей страны Получение сводки о пациенте-паломнике после паломничества для расследования правовых вопросов",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "# 流程名称 流程 ID 人物画像 目标      标题  在整个 DAK 中用于引用该流程的 ID  为完成该流程而进行交互的个人  对该流程所要实现目标的具体陈述    1.0 发布用于验证的国家公钥  IPS.PILGRIMAGE.1.0  WHO GDHCN 国家 HIE 东道国电子病历（EMR）  分发用于验证患者记录的密钥   2.0 发布国家术语  IPS.PILGRIMAGE.2.0  WHO TS国家 HIE东道国 EMR东道国 HIE  分发在 IPS 国家规范中使用的国家术语（例如医疗产品）    3.0 在来源国签发健康文档 IPS.PILGRIMAGE.3.0 朝圣者咨询师健康钱包应用国家 HIE 为一次非计划临床接诊检索朝圣者的患者摘要   4.0 非计划诊疗的临床接诊 IPS.PILGRIMAGE.4.0 东道国卫生工作者朝圣者东道国 EMR国家 HIE 为一次非计划临床接诊检索朝圣者的患者摘要   5.0 紧急破例（Break The Glass）临床接诊（不在第 1 阶段范围内）  IPS.PILGRIMAGE.5.0 国家朝圣管理机构东道国卫生工作者朝圣者东道国 EMR国家 HIE 为一次紧急非计划临床接诊检索朝圣者的患者摘要   6.0 朝圣结束后为调查检索 IPS（不在范围内） IPS.PILGRIMAGE.6.0 国家朝圣管理机构东道国 EMR 在朝圣结束后检索朝圣者的患者摘要，用于调查法律事务",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A business process, or process, is a set of related activities or tasks performed together to achieve the objectives of the health programme area, such as registration, counselling, referrals. Workflows are a visual representation of the progression of activities (tasks, events, interactions) that are performed within the business process. The workflow provides a “story” for the business process being diagrammed and is used to enhance communication and collaboration among users, stakeholders and engineers.",
+   "hash": "a3ba27c77371f17a",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عملية العمل، أو العملية، هي مجموعة من الأنشطة أو المهام المترابطة التي تُنفَّذ معًا لتحقيق أهداف مجال البرنامج الصحي، مثل التسجيل والإرشاد والإحالات. وسير العمل تمثيل مرئي لتسلسل الأنشطة (المهام والأحداث والتفاعلات) التي تُنفَّذ ضمن عملية العمل. ويقدّم سير العمل «قصة» لعملية العمل الممثَّلة في المخطط، ويُستخدم لتعزيز التواصل والتعاون بين المستخدمين وأصحاب المصلحة والمهندسين.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un proceso de negocio, o proceso, es un conjunto de actividades o tareas relacionadas que se realizan conjuntamente para alcanzar los objetivos del área del programa de salud, como el registro, el asesoramiento o las derivaciones. Los flujos de trabajo son una representación visual de la progresión de las actividades (tareas, eventos, interacciones) que se realizan dentro del proceso de negocio. El flujo de trabajo proporciona una “historia” del proceso de negocio representado en el diagrama y se utiliza para mejorar la comunicación y la colaboración entre usuarios, partes interesadas e ingenieros.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un processus métier, ou processus, est un ensemble d'activités ou de tâches liées, réalisées ensemble pour atteindre les objectifs du domaine de programme de santé, telles que l'enregistrement, le conseil ou les orientations. Les flux de travail sont une représentation visuelle de la progression des activités (tâches, événements, interactions) réalisées dans le cadre du processus métier. Le flux de travail fournit une « histoire » du processus métier représenté et sert à améliorer la communication et la collaboration entre les utilisateurs, les parties prenantes et les ingénieurs.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Бизнес-процесс, или процесс, — это совокупность взаимосвязанных действий или задач, выполняемых совместно для достижения целей в соответствующей области программы здравоохранения, например регистрация, консультирование, направления. Рабочие процессы — это визуальное представление последовательности действий (задач, событий, взаимодействий), выполняемых в рамках бизнес-процесса. Рабочий процесс представляет собой «историю» отображаемого на диаграмме бизнес-процесса и используется для улучшения коммуникации и сотрудничества между пользователями, заинтересованными сторонами и инженерами.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "业务流程（或称流程）是为实现卫生规划领域目标而共同执行的一组相关活动或任务，例如登记、咨询、转诊。工作流是对业务流程中所执行活动（任务、事件、交互）进展的可视化表示。工作流为所绘制的业务流程提供一个“故事”，用于加强用户、利益相关方和工程师之间的沟通与协作。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Clinical Encounter for Unplanned Care",
+   "hash": "8693552a186bc01d",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لقاء سريري لرعاية غير مخطط لها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Encuentro clínico para atención no programada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Consultation clinique pour des soins non planifiés",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клинический приём в рамках незапланированной медицинской помощи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "非计划诊疗的临床接诊",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Health Check and Counseling, Explicit Consent (brief)",
+   "hash": "7660fd4d12d59a33",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي والإرشاد، موافقة صريحة (موجز)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Control de salud y asesoramiento, consentimiento explícito (resumido)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bilan de santé et conseil, consentement explicite (abrégé)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр и консультирование, явное согласие (кратко)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康检查与咨询，明示同意（简版）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Health Check and Counseling, Verbal Consent (brief)",
+   "hash": "d56654c521add0f9",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي والإرشاد، موافقة شفهية (موجز)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Control de salud y asesoramiento, consentimiento verbal (resumido)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bilan de santé et conseil, consentement verbal (abrégé)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр и консультирование, устное согласие (кратко)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康检查与咨询，口头同意（简版）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Issuance of Health Document at Origin Country",
+   "hash": "61f2e1882b6a36b8",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إصدار المستند الصحي في البلد الأم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Emisión del documento de salud en el país de origen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Délivrance du document de santé dans le pays d'origine",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Выдача медицинского документа в стране происхождения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在来源国签发健康文档",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Overview of Key Business Processes",
+   "hash": "c9326f6e17e0aa5c",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظرة عامة على عمليات العمل الرئيسية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Panorama general de los procesos de negocio clave",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aperçu des principaux processus métier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обзор ключевых бизнес-процессов",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关键业务流程概览",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Overview of key process flows",
+   "hash": "e3aeb1e121b66bbd",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظرة عامة على مسارات العمليات الرئيسية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Panorama general de los flujos de proceso clave",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aperçu des principaux flux de processus",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обзор ключевых потоков процессов",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关键流程概览",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Publication of National Public Keys for Verification",
+   "hash": "1059340d2128d9ad",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نشر المفاتيح العمومية الوطنية لأغراض التحقق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Publicación de las claves públicas nacionales para la verificación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Publication des clés publiques nationales pour la vérification",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Публикация национальных открытых ключей для проверки",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "发布用于验证的国家公钥",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Publication of National Terminologies",
+   "hash": "4b52c6b5a6fced5b",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نشر المصطلحات الوطنية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Publicación de las terminologías nacionales",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Publication des terminologies nationales",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Публикация национальных терминологий",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "发布国家术语",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The diagram here denotes the key process flows at a high level, which are further described in details as various business processes.",
+   "hash": "73189d45af86e9b5",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يبيّن المخطط هنا مسارات العمليات الرئيسية على مستوى عالٍ، وتُوصَف بمزيد من التفصيل في صورة عمليات عمل مختلفة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El diagrama que figura aquí representa a alto nivel los flujos de proceso clave, que se describen con más detalle como distintos procesos de negocio.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le diagramme ci-contre présente à haut niveau les principaux flux de processus, qui sont décrits plus en détail sous forme de différents processus métier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На приведённой здесь диаграмме в общем виде показаны ключевые потоки процессов, которые далее подробно описаны в виде отдельных бизнес-процессов.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "此处的图从高层次展示了关键流程，这些流程将作为各项业务流程进一步详细描述。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The following table describes the workflows of the included processes.",
+   "hash": "b44f23b10ce424be",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يصف الجدول التالي سير العمل الخاص بالعمليات المشمولة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En el cuadro siguiente se describen los flujos de trabajo de los procesos incluidos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le tableau suivant décrit les flux de travail des processus inclus.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В следующей таблице описаны рабочие процессы включённых процессов.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "下表描述了所含流程的工作流。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Trust Domain for IPS Pilgrimage focuses on key business processes that are part of providing care for pilgrims during a pilgrimage.",
+   "hash": "afaab48e9e978c62",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يركّز نطاق الثقة الخاص بـ IPS للزيارة الدينية على عمليات العمل الرئيسية التي تُعدّ جزءًا من تقديم الرعاية للزوار خلال الزيارة الدينية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El Ámbito de confianza de IPS Pilgrimage se centra en los procesos de negocio clave que forman parte de la atención a los peregrinos durante una peregrinación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le domaine de confiance d'IPS Pilgrimage porte sur les principaux processus métier qui font partie de la prestation de soins aux pèlerins pendant un pèlerinage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Домен доверия для IPS в целях паломничества охватывает ключевые бизнес-процессы, связанные с оказанием медицинской помощи паломникам во время паломничества.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣 IPS 信任域聚焦于在朝圣期间为朝圣者提供医疗服务所涉及的关键业务流程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The workflows that follow depict processes that have been generalized across different contexts and may not reflect the variability and nuances across different settings. The simplicity of the workflow may not adequately illustrate the nonlinear steps that may occur.",
+   "hash": "20a39d7b97b03b4b",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تصوّر مسارات العمل التالية عمليات جرى تعميمها عبر سياقات مختلفة، وقد لا تعكس التباين والفروق الدقيقة بين البيئات المختلفة. وقد لا تُبيّن بساطة سير العمل على نحو كافٍ الخطوات غير الخطية التي قد تحدث.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los flujos de trabajo que siguen representan procesos que se han generalizado para distintos contextos y pueden no reflejar la variabilidad y los matices de los distintos entornos. La sencillez del flujo de trabajo puede no ilustrar adecuadamente los pasos no lineales que pueden producirse.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les flux de travail qui suivent représentent des processus généralisés à différents contextes et peuvent ne pas refléter la variabilité et les nuances entre les différents contextes. La simplicité du flux de travail peut ne pas illustrer de manière adéquate les étapes non linéaires susceptibles de se produire.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Приведённые ниже рабочие процессы отображают процессы, обобщённые для различных контекстов, и могут не отражать вариативность и особенности различных условий. Простота рабочего процесса может не позволять в полной мере отразить возможные нелинейные шаги.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "下面的工作流描绘的是在不同情境中经过概括的流程，可能无法反映不同环境之间的差异和细微区别。工作流的简洁性可能无法充分展示实际中可能出现的非线性步骤。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This page describes the business processes.",
+   "hash": "08c10e9aaf739584",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تصف هذه الصفحة عمليات العمل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En esta página se describen los procesos de negocio.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page décrit les processus métier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице описаны бизнес-процессы.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页描述业务流程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TO DO: Insert diagram",
+   "hash": "aa4e6d459f256c99",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قيد الإنجاز: إدراج المخطط",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "PENDIENTE: insertar el diagrama",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "À FAIRE : insérer le diagramme",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "СДЕЛАТЬ: вставить диаграмму",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "待办（TO DO）：插入图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Workflows",
+   "hash": "4c9628eee33c5272",
+   "sources": [
+    "input/pagecontent/business-processes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسارات العمل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Flujos de trabajo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Flux de travail",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Рабочие процессы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "工作流",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

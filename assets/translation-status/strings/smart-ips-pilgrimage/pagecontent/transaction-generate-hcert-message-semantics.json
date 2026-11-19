@@ -1,0 +1,406 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-generate-hcert-message-semantics",
+ "hashes": {
+  "ar": "d9c611a4f5c9c5e3",
+  "es": "dd8700e6d583bc1c",
+  "fr": "c9a70eb632988cbd",
+  "ru": "cc48e9ee678e9426",
+  "zh": "e536e2bdc8d4a334"
+ },
+ "strings": [
+  {
+   "msgid": "Base64urlencoded",
+   "hash": "33af29af882e0a11",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مرمَّز بـ Base64url",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Codificado en Base64url",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Encodé en Base64url",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кодирование Base64url",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Base64url 编码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Build CWT with header payload and signature",
+   "hash": "951fb0119a05990d",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بناء CWT بالترويسة والحمولة والتوقيع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Construir el CWT con el encabezado, la carga útil y la firma",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Construire le CWT avec l'en-tête, la charge utile et la signature",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сформировать CWT с заголовком, полезной нагрузкой и подписью",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "使用头部、载荷和签名构建 CWT",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Build HCERT containing SHL",
+   "hash": "ab8c8c783dcbf16c",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بناء HCERT يحتوي على SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Construir el HCERT que contiene el SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Construire le HCERT contenant le SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сформировать HCERT, содержащий SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "构建包含 SHL 的 HCERT",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Build VHL manifest json that points to signed pdf content",
+   "hash": "a5a6f37b88fe8ef7",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بناء JSON بيان VHL الذي يشير إلى محتوى PDF موقَّع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Construir el JSON del manifiesto del VHL que apunta al contenido PDF firmado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Construire le manifeste JSON du VHL qui pointe vers le contenu PDF signé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сформировать JSON-манифест VHL, указывающий на подписанное содержимое в формате PDF",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "构建指向已签名 pdf 内容的 VHL 清单 json",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Construct VHLink Payload",
+   "hash": "5efe2267f4959e9d",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء حمولة VHLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Construir la carga útil del VHLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Construire la charge utile du VHLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сформировать полезную нагрузку VHLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "构造 VHLink 载荷",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Generate VHL",
+   "hash": "85064fb72fb6b8d0",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Generar el VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Générer le VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сгенерировать VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "生成 VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Generate VHLink  URL for Manifest",
+   "hash": "8616f01ff2435ed7",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء عنوان URL لـ VHLink للبيان",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Generar la URL del VHLink  para el manifiesto",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Générer l'URL du VHLink pour le manifeste",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сгенерировать URL VHLink для манифеста",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "生成清单的 VHLink URL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Minified",
+   "hash": "a3d85ae7a0d83ae9",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مُصغَّر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Minificado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Minifié",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Минификация",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "最小化",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Prefixed with shlink:/",
+   "hash": "10178988c78bd177",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسبوق بالبادئة shlink:/",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Con el prefijo shlink:/",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Préfixé par shlink:/",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавление префикса shlink:/",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "加上前缀 shlink:/",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The <a0>SHL specifications</a0>shall be followed to create a <a1>HCERT</a1> within a <a2>CWT structure</a2>.",
+   "hash": "6c7cd8f66e7b6f1e",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجب اتباع <a0>مواصفات SHL</a0> لإنشاء <a1>HCERT</a1> ضمن <a2>بنية CWT</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se deberán seguir las <a0>especificaciones del SHL</a0>para crear un <a1>HCERT</a1> dentro de una <a2>estructura CWT</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les <a0>spécifications SHL</a0> doivent être suivies pour créer un <a1>HCERT</a1> au sein d'une <a2>structure CWT</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для создания <a1>HCERT</a1> в <a2>структуре CWT</a2> следует руководствоваться <a0>спецификациями SHL</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "应当（shall）遵循<a0>SHL 规范</a0>，在<a2>CWT 结构</a2>中创建<a1>HCERT</a1>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

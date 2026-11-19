@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/trust_domain_specifications",
+ "hashes": {
+  "ar": "b5b368c553b5ecc7",
+  "es": "04202f78084ea118",
+  "fr": "5b2bde0b78a598c0",
+  "ru": "01a0ac4abc09177e",
+  "zh": "ce041018553510e9"
+ },
+ "strings": [
+  {
+   "msgid": "The technical specifications are captured in this FHIR Implementation Guide (IG). Please review the transactions page for detailed specifications about the transactions defined by this IG.",
+   "hash": "88f9748e7dd0538b",
+   "sources": [
+    "input/pagecontent/trust_domain_specifications.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المواصفات التقنية مدرجة في دليل تنفيذ FHIR هذا (IG). يُرجى مراجعة صفحة المعاملات للاطلاع على المواصفات التفصيلية للمعاملات التي يحددها هذا IG.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las especificaciones técnicas se recogen en esta guía de implementación (IG) de FHIR. Consulte la página de transacciones para ver las especificaciones detalladas de las transacciones definidas por esta IG.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les spécifications techniques sont consignées dans ce guide d’implémentation (IG) FHIR. Veuillez consulter la page des transactions pour connaître les spécifications détaillées des transactions définies par cet IG.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Технические спецификации приведены в этом руководстве по внедрению FHIR (IG). Подробные спецификации транзакций, определённых в этом IG, см. на странице транзакций.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "技术规范收录于本 FHIR 实施指南（IG）中。有关本 IG 所定义事务的详细规范，请查阅事务页面。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

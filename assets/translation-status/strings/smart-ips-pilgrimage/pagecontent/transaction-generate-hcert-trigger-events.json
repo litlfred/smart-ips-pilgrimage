@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-generate-hcert-trigger-events",
+ "hashes": {
+  "ar": "18beec2945c9a2d7",
+  "es": "67cb72446750377a",
+  "fr": "7e7d516661231d18",
+  "ru": "ec1c17b1a173f9bf",
+  "zh": "b1e703b77465bf60"
+ },
+ "strings": [
+  {
+   "msgid": "The generate HCERT containing the VHL may be initiated by an Issue VHL request",
+   "hash": "08c9081b1ff451be",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-trigger-events.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجوز أن يبدأ إنشاء HCERT المتضمنة لـ VHL بطلب Issue VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La generación del HCERT que contiene el VHL puede iniciarse mediante una solicitud Issue VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La génération du HCERT contenant le VHL peut être déclenchée par une requête Issue VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Генерация HCERT, содержащего VHL, может быть инициирована запросом на выпуск VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "生成包含 VHL 的 HCERT 的操作可以由签发 VHL 请求发起",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

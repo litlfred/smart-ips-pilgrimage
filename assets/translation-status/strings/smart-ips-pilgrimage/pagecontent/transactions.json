@@ -1,0 +1,328 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transactions",
+ "hashes": {
+  "ar": "a173a6fbd0d3e2fb",
+  "es": "5cf53e61f439765b",
+  "fr": "76ccef8b42ba1e55",
+  "ru": "bad665020f341ca0",
+  "zh": "ecbf9ed342f8f01a"
+ },
+ "strings": [
+  {
+   "msgid": "Expected Actions",
+   "hash": "d7e345d4aeb6c4f1",
+   "sources": [
+    "input/pagecontent/transactions.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإجراءات المتوقعة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Acciones previstas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Actions attendues",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ожидаемые действия",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "预期操作",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "issue VHL - request {#issue-vhl-request}",
+   "hash": "aca74e597c29a4be",
+   "sources": [
+    "input/pagecontent/transactions.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إصدار VHL - طلب {#issue-vhl-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "emitir el VHL - solicitud {#issue-vhl-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "issue VHL - request {#issue-vhl-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "выпуск VHL — запрос {#issue-vhl-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发 VHL - 请求 {#issue-vhl-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Message Semantics",
+   "hash": "b5d5674ecd2a4dc1",
+   "sources": [
+    "input/pagecontent/transactions.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "دلالات الرسالة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Semántica del mensaje",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sémantique des messages",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщений",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "消息语义",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "record consent from wallet - request {#record-consent-request}",
+   "hash": "8b0f193f748fcf99",
+   "sources": [
+    "input/pagecontent/transactions.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسجيل الموافقة من المحفظة - طلب {#record-consent-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "registrar el consentimiento desde la billetera - solicitud {#record-consent-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "record consent from wallet - request {#record-consent-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "запись согласия из кошелька — запрос {#record-consent-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录来自钱包的同意 - 请求 {#record-consent-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "retrieve IPS - request {#retrieve-IPS-request}",
+   "hash": "fc5cfa8c690ef146",
+   "sources": [
+    "input/pagecontent/transactions.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استرجاع IPS - طلب {#retrieve-IPS-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "recuperar el IPS - solicitud {#retrieve-IPS-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "retrieve IPS - request {#retrieve-IPS-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "получение IPS — запрос {#retrieve-IPS-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索 IPS - 请求 {#retrieve-IPS-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "retrieve VHL folder docs - request {#retrieve-VHL-manifest-request}",
+   "hash": "82c98a02c77129c8",
+   "sources": [
+    "input/pagecontent/transactions.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استرجاع مستندات مجلد VHL - طلب {#retrieve-VHL-manifest-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "recuperar los documentos de la carpeta del VHL - solicitud {#retrieve-VHL-manifest-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "retrieve VHL folder docs - request {#retrieve-VHL-manifest-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "получение документов папки VHL — запрос {#retrieve-VHL-manifest-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索 VHL 文件夹文档 - 请求 {#retrieve-VHL-manifest-request}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "These are the transactions defined for ips-pilgrimage",
+   "hash": "6371f194e5d6c1fb",
+   "sources": [
+    "input/pagecontent/transactions.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذه هي المعاملات المعرَّفة لـ ips-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estas son las transacciones definidas para ips-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Voici les transactions définies pour ips-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это транзакции, определённые для ips-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "以下是为 ips-pilgrimage 定义的事务",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Trigger Events",
+   "hash": "dce9543846c76a62",
+   "sources": [
+    "input/pagecontent/transactions.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأحداث المُطلِقة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Eventos desencadenantes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Événements déclencheurs",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Инициирующие события",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "触发事件",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

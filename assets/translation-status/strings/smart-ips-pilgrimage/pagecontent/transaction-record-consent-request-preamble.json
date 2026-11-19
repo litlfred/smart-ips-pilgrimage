@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-record-consent-request-preamble",
+ "hashes": {
+  "ar": "3825020ec01d6f0a",
+  "es": "260bd589d9b79cd8",
+  "fr": "2e6781f98e0bd70d",
+  "ru": "7f0ec9044d047db2",
+  "zh": "6bd60535074303c2"
+ },
+ "strings": [
+  {
+   "msgid": "The Record Consent Request Event transaction is initiated by a Origin Country Health Solution against the Origin Country HIE. This transaction shall follow the IHE PCF record consent (ITI-108) transaction. The Origin Country Health Wallet acts as the Consent Record actor role and the Origin Country HIE acts as the Consent Registry actor role.",
+   "hash": "073db34dd677f3ba",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-preamble.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبدأ معاملة Record Consent Request Event من حلٍّ صحي في بلد المنشأ موجَّهةً إلى HIE بلد المنشأ. ويجب أن تتبع هذه المعاملة معاملة تسجيل الموافقة IHE PCF (ITI-108). وتؤدي المحفظة الصحية لبلد المنشأ دور الجهة الفاعلة Consent Record، وتؤدي HIE بلد المنشأ دور الجهة الفاعلة Consent Registry.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La transacción Record Consent Request Event la inicia una solución de salud del país de origen ante el HIE del país de origen. Esta transacción deberá seguir la transacción de registro de consentimiento de IHE PCF (ITI-108). La billetera sanitaria del país de origen desempeña el rol de actor Consent Record y el HIE del país de origen desempeña el rol de actor Consent Registry.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La transaction Record Consent Request Event est lancée par une solution de santé du pays d’origine auprès du HIE du pays d’origine. Cette transaction doit suivre la transaction IHE PCF d’enregistrement du consentement (ITI-108). Le portefeuille de santé du pays d’origine joue le rôle d’acteur Consent Record et le HIE du pays d’origine joue le rôle d’acteur Consent Registry.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция «Запрос на регистрацию согласия» инициируется решением в области здравоохранения страны происхождения в адрес HIE страны происхождения. Эта транзакция должна соответствовать транзакции регистрации согласия IHE PCF (ITI-108). Кошелёк здоровья страны происхождения выполняет роль актора «Регистратор согласия» (Consent Record), а HIE страны происхождения — роль актора «Реестр согласий» (Consent Registry).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录同意请求事件事务由来源国卫生解决方案向来源国 HIE 发起。该事务应当遵循 IHE PCF 记录同意（ITI-108）事务。来源国健康钱包承担同意记录（Consent Record）参与者角色，来源国 HIE 承担同意登记系统（Consent Registry）参与者角色。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

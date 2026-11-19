@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-generate-hcert-preamble",
+ "hashes": {
+  "ar": "6ffbabfe784fe346",
+  "es": "2272193303bc5de0",
+  "fr": "0f40bd8f314c1840",
+  "ru": "a3476c155458b8d8",
+  "zh": "c5752f2ec6ecdb36"
+ },
+ "strings": [
+  {
+   "msgid": "The Generate HCERT containing the VHL transaction is initiated by a Origin Country HIE.",
+   "hash": "caf9b83010a1c8d8",
+   "sources": [
+    "input/pagecontent/transaction-generate-hcert-preamble.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يبدأ HIE البلد الأم معاملة توليد HCERT المتضمن لـ VHL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La transacción de generación del HCERT que contiene el VHL la inicia un HIE del país de origen.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La transaction Generate HCERT containing the VHL est lancée par un HIE du pays d’origine.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция «Сгенерировать HCERT, содержащий VHL» инициируется HIE страны происхождения.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“生成包含 VHL 的 HCERT”事务由来源国 HIE 发起。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

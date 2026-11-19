@@ -1,0 +1,1336 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "user-scenarios/p6-break-the-glass",
+ "hashes": {
+  "ar": "411ef34b2c0274b4",
+  "es": "ff913906880880ff",
+  "fr": "59b1fa715098b94d",
+  "ru": "4220eb344c1c5870",
+  "zh": "211a9b525bf49a73"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Taifafeki",
+   "hash": "1df520ff29829dcf",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "On the day of Toreva Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Onesan medical team gives his pilgrimage registration number, and the facility reaches his summary through it. Described in this guide's user scenarios as a Phase 2 scenario.",
+   "hash": "66ae7e88a61b9acc",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في يوم Toreva ينهار Kamal ويُحضَر فاقدًا للوعي. ولم تكن Salmah معه. فيقدّم د. Hafiz من الفريق الطبي الخاص بـ Onesa رقم تسجيله في الزيارة الدينية، ويصل المرفق الصحي إلى ملخصه من خلاله. موصوف في سيناريوهات المستخدم في هذا الدليل بوصفه سيناريو من المرحلة 2.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El día de Toreva, Kamal se desploma y lo traen inconsciente. Salmah no está con él. El Dr. Hafiz, del equipo médico de Onesa, facilita su número de registro de la peregrinación, y el centro accede a su resumen a través de ese número. Los escenarios de usuario de esta guía lo describen como escenario de fase 2.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le jour de Toreva, Kamal s'effondre et est amené inconscient. Salmah n'est pas avec lui. Le Dr Hafiz, de l'équipe médicale d'Onesa, donne son numéro d'inscription au pèlerinage, et l'établissement accède à son résumé grâce à ce numéro. Décrit dans les scénarios utilisateur de ce guide comme un scénario de phase 2.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В день Toreva Kamal теряет сознание, и его доставляют в учреждение без сознания. Salmah с ним нет. Д-р Hafiz из медицинской бригады Onesa сообщает его регистрационный номер паломника, и по нему учреждение получает доступ к его сводке. В пользовательских сценариях этого руководства описано как сценарий этапа 2.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Toreva 之日，Kamal 晕倒，被送来时已失去意识。Salmah 不在他身边。Onesa 医疗队的 Dr Hafiz 提供了他的朝圣登记号，机构借此获取了他的摘要。本指南的用户场景将其描述为第 2 阶段场景。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Break the glass",
+   "hash": "8531ed70f675f86e",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كسر الزجاج",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Romper el cristal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bris de glace",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "экстренный доступ (break the glass)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "紧急破例访问",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Collapsed at Toreva",
+   "hash": "855ce7c75fda891e",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الانهيار في Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Desplomado en Toreva",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Effondré à Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "потеря сознания в Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Toreva 晕倒",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Dr Hafiz vouches",
+   "hash": "c98e0ef701dd5829",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تزكية د. Hafiz",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El Dr. Hafiz responde por él",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le Dr Hafiz se porte garant",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "д-р Hafiz ручается",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Dr Hafiz 作证",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "The pilgrim can opt in to break-the-glass access on his wallet; his country's medical team can identify him.",
+   "hash": "6cc6248ffb59ee15",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يمكن للزائر أن يشترك اختياريًا في الوصول بكسر الزجاج عبر محفظته؛ ويمكن للفريق الطبي لبلده التعرّف على هويته.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El peregrino puede aceptar en su billetera el acceso de emergencia («romper el cristal»); el equipo médico de su país puede identificarlo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le pèlerin peut choisir, dans son portefeuille, d'autoriser l'accès par bris de glace ; l'équipe médicale de son pays peut l'identifier.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник может дать в своём кошельке согласие на экстренный доступ (break the glass); медицинская бригада его страны может установить его личность.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者可以在钱包上选择加入紧急破例访问；其本国的医疗队可以确认他的身份。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Collapses on the day of Toreva and is brought in unconscious.",
+   "hash": "e7975cf81a54861e",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ينهار في يوم Toreva ويُحضَر فاقدًا للوعي.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se desploma el día de Toreva y lo traen inconsciente.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "S'effondre le jour de Toreva et est amené inconscient.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Теряет сознание в день Toreva, и его доставляют без сознания.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Toreva 之日晕倒，被送来时已失去意识。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Identifies Kamal and gives his pilgrimage registration number to the facility.",
+   "hash": "bbedc9e73e5da069",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتعرّف على Kamal ويقدّم رقم تسجيله في الزيارة الدينية إلى المرفق الصحي.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Identifica a Kamal y facilita su número de registro de la peregrinación al centro.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Identifie Kamal et donne son numéro d'inscription au pèlerinage à l'établissement.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Устанавливает личность Kamal и сообщает учреждению его регистрационный номер паломника.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "确认 Kamal 的身份，并向机构提供他的朝圣登记号。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Looks up the summary by the pilgrimage registration number.",
+   "hash": "472d145a3d6aff7f",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يبحث عن الملخص باستخدام رقم التسجيل في الزيارة الدينية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Busca el resumen por el número de registro de la peregrinación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Recherche le résumé à l'aide du numéro d'inscription au pèlerinage.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Находит сводку по регистрационному номеру паломника.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "按朝圣登记号查找摘要。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Reaches Kamal's summary through the registration number and treats him.",
+   "hash": "7990e96dddcd9bfb",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يصل إلى ملخص Kamal من خلال رقم التسجيل ويعالجه.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Accede al resumen de Kamal a través del número de registro y lo trata.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Accède au résumé de Kamal grâce au numéro d'inscription et le soigne.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получает доступ к сводке Kamal по регистрационному номеру и лечит его.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通过登记号获取 Kamal 的摘要并为他治疗。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Releases the summary for emergency access, if Kamal opted in.",
+   "hash": "4c631dacff5a4b13",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتيح الملخص للوصول في حالات الطوارئ، إذا كان Kamal قد اشترك اختياريًا.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Libera el resumen para el acceso de emergencia, si Kamal lo aceptó.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Met le résumé à disposition pour un accès d'urgence, si Kamal l'a accepté.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Открывает сводку для экстренного доступа, если Kamal дал на это согласие.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "如果 Kamal 已选择加入，则发布摘要供紧急访问。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“He is one of ours. Here is his number.”",
+   "hash": "6c14d2767d024ef0",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«إنه واحد منا. هذا رقمه.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Es uno de los nuestros. Aquí está su número».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« C'est l'un des nôtres. Voici son numéro. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Он один из наших. Вот его номер».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“他是我们的人。这是他的号码。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Without this I would be treating blind.”",
+   "hash": "8883f74ae8fe61b5",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«من دون هذا سأعالجه وأنا لا أرى شيئًا.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Sin esto, lo estaría tratando a ciegas».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Sans cela, je soignerais à l'aveugle. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Без этого я лечил бы вслепую».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“没有这个，我就是在盲目治疗。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.gaps",
+   "msgid": "No business process, transaction or consent profile for emergency access.",
+   "hash": "913855d142a08058",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا توجد عملية عمل أو معاملة أو ملف تعريف للموافقة على الوصول في حالات الطوارئ.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No hay ningún proceso de negocio, transacción ni perfil de consentimiento para el acceso de emergencia.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucun processus métier, aucune transaction ni aucun profil de consentement pour l'accès d'urgence.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Нет бизнес-процесса, транзакции или профиля согласия для экстренного доступа.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚无用于紧急访问的业务流程、事务或同意 Profile。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "Pilgrimage registration number",
+   "hash": "6a95a7258713759a",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رقم التسجيل في الزيارة الدينية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Número de registro de la peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Numéro d'inscription au pèlerinage",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "регистрационный номер паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣登记号",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "Emergency access to the IPS",
+   "hash": "756442da406868a4",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الوصول في حالات الطوارئ إلى IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Acceso de emergencia al IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Accès d'urgence à l'IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "экстренный доступ к IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对 IPS 的紧急访问",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "The summary is reached without the pilgrim's phone",
+   "hash": "7b918abc8f00b51e",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُوصَل إلى الملخص من دون هاتف الزائر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se accede al resumen sin el teléfono del peregrino",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le résumé est consulté sans le téléphone du pèlerin",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доступ к сводке получен без телефона паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "无需朝圣者的手机即可获取摘要",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "Kamal is brought in unconscious with no one to show his code; Dr Hafiz gives his pilgrimage registration number and the facility reaches his summary through it.",
+   "hash": "6ec3bf56dde17f81",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُحضَر Kamal فاقدًا للوعي ولا أحد يُظهر رمزه؛ فيقدّم الدكتور Hafiz رقم تسجيله في الزيارة الدينية، ويصل المرفق إلى ملخصه من خلاله.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal llega inconsciente y nadie puede mostrar su código; el Dr. Hafiz da su número de registro de peregrinación y el establecimiento accede a su resumen a través de él.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal arrive inconscient et personne ne peut présenter son code ; le Dr Hafiz donne son numéro d'inscription au pèlerinage, grâce auquel l'établissement accède à son résumé.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal доставляют без сознания, и показать его код некому; д-р Hafiz сообщает его регистрационный номер паломника, и по нему учреждение получает доступ к его сводке.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 被送来时已失去意识，没有人能出示他的码；Dr Hafiz 提供了他的朝圣登记号，机构借此获取了他的摘要。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.illustration.alt",
+   "msgid": "At dusk on the plain of Toreva, Kamal lies unconscious on a stretcher; Dr Hafiz of the Onesan medical team hands Dr Faisal a phone with his registration number, under a broken-glass emergency sign and an open padlock.",
+   "hash": "363c5b3a5efc50f5",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عند الغسق في سهل Toreva، يرقد Kamal فاقدًا للوعي على نقالة؛ ويناول د. Hafiz من الفريق الطبي الخاص بـ Onesa الدكتورَ Faisal هاتفًا عليه رقم تسجيله، تحت لافتة طوارئ عليها زجاج مكسور وقفل مفتوح.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Al anochecer en la llanura de Toreva, Kamal yace inconsciente en una camilla; el Dr. Hafiz, del equipo médico de Onesa, entrega al Dr. Faisal un teléfono con su número de registro, bajo un cartel de emergencia con un cristal roto y un candado abierto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Au crépuscule, dans la plaine de Toreva, Kamal est allongé, inconscient, sur une civière ; le Dr Hafiz, de l'équipe médicale d'Onesa, tend au Dr Faisal un téléphone affichant son numéro d'inscription, sous un panneau d'urgence à vitre brisée et un cadenas ouvert.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В сумерках на равнине Toreva Kamal лежит без сознания на носилках; д-р Hafiz из медицинской бригады Onesa передаёт д-ру Faisal телефон с регистрационным номером Kamal — под знаком экстренной ситуации с разбитым стеклом и открытым замком.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "黄昏时分的 Toreva 平原上，Kamal 失去意识躺在担架上；Onesa 医疗队的 Dr Hafiz 将显示他登记号的手机递给 Dr Faisal，上方是破碎玻璃的紧急标志和一把打开的挂锁。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "On the day of Toreva Kamal collapses and is brought in unconscious. Salmah is not with him. Dr Hafiz of the Onesan medical team gives his pilgrimage registration number, and the facility reaches his summary through it. Described in this guide's user scenarios as a Phase 2 scenario.",
+   "hash": "a27842944e5a8031",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في يوم Toreva ينهار Kamal ويُحضَر فاقدًا للوعي. ولم تكن Salmah معه. فيقدّم د. Hafiz من الفريق الطبي الخاص بـ Onesa رقم تسجيله في الزيارة الدينية، ويصل المرفق الصحي إلى ملخصه من خلاله. موصوف في سيناريوهات المستخدم في هذا الدليل بوصفه سيناريو من المرحلة 2.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El día de Toreva, Kamal se desploma y lo traen inconsciente. Salmah no está con él. El Dr. Hafiz, del equipo médico de Onesa, facilita su número de registro de la peregrinación, y el centro accede a su resumen a través de ese número. Los escenarios de usuario de esta guía lo describen como escenario de fase 2.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le jour de Toreva, Kamal s'effondre et est amené inconscient. Salmah n'est pas avec lui. Le Dr Hafiz, de l'équipe médicale d'Onesa, donne son numéro d'inscription au pèlerinage, et l'établissement accède à son résumé grâce à ce numéro. Décrit dans les scénarios utilisateur de ce guide comme un scénario de phase 2.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В день Toreva Kamal теряет сознание, и его доставляют в учреждение без сознания. Salmah с ним нет. Д-р Hafiz из медицинской бригады Onesa сообщает его регистрационный номер паломника, и по нему учреждение получает доступ к его сводке. В пользовательских сценариях этого руководства описано как сценарий этапа 2.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Toreva 之日，Kamal 晕倒，被送来时已失去意识。Salmah 不在他身边。Onesa 医疗队的 Dr Hafiz 提供了他的朝圣登记号，机构借此获取了他的摘要。本指南的用户场景将其描述为第 2 阶段场景。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "An unconscious pilgrim cannot show a QR code or say a passcode, and his wife is not there.",
+   "hash": "bfbc4a756491da0a",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يستطيع الزائر الفاقد للوعي أن يُبرز رمز QR أو أن يقول رمز المرور، وزوجته ليست هناك.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un peregrino inconsciente no puede mostrar un código QR ni decir un código de acceso, y su esposa no está presente.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un pèlerin inconscient ne peut ni présenter un code QR ni donner un code d'accès, et son épouse n'est pas là.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник без сознания не может показать QR-код или назвать код доступа, а его жены рядом нет.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "失去意识的朝圣者无法出示 QR 码或说出通行码，而他的妻子也不在场。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Who may open an unconscious pilgrim's record, on what legal basis, and how is it accounted for afterwards?",
+   "hash": "73ce4dfa30be8588",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مَن يجوز له فتح سجل زائر فاقد للوعي، وعلى أي أساس قانوني، وكيف يُحاسَب على ذلك لاحقًا؟",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿Quién puede abrir el registro de un peregrino inconsciente, con qué base jurídica y cómo se rinde cuentas de ello después?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Qui peut ouvrir le dossier d'un pèlerin inconscient, sur quelle base juridique, et comment en rend-on compte ensuite ?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кто может открыть запись паломника, находящегося без сознания, на каком правовом основании и как это впоследствии учитывается?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "谁可以打开失去意识的朝圣者的记录？依据什么法律基础？事后如何问责？",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "Reached without his phone, through his pilgrimage registration",
+   "hash": "979895715b7616ed",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُوصَل إليه من دون هاتفه، عبر تسجيله في الزيارة الدينية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se accede a él sin su teléfono, mediante su registro de la peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Accessible sans son téléphone, grâce à son inscription au pèlerinage",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доступ получен без его телефона, через его регистрацию паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "无需他的手机，通过他的朝圣登记获取",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "Onesa's HIE; the Toreva health tent",
+   "hash": "b7881820b130056d",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "HIE الخاص بـ Onesa؛ الخيمة الصحية في Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE de Onesa; la carpa sanitaria de Toreva",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa ; la tente sanitaire de Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa; медицинская палатка в Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE；Toreva 的医疗帐篷",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "Origin Country Wallet: opt in or out of break-the-glass access",
+   "hash": "e735f1d31249fb2a",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "محفظة البلد الأم: الاشتراك الاختياري في الوصول بكسر الزجاج أو الانسحاب منه",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Billetera del país de origen: aceptar o rechazar el acceso de emergencia («romper el cristal»)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portefeuille du pays d'origine : accepter ou refuser l'accès par bris de glace",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кошелёк страны происхождения: согласие на экстренный доступ (break the glass) или отказ от него",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国钱包：选择加入或退出紧急破例访问",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "User scenarios: Phase 2, break the glass",
+   "hash": "2699c7877c963e48",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريوهات المستخدم: المرحلة 2، كسر الزجاج",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenarios de usuario: fase 2, romper el cristal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénarios utilisateur : phase 2, bris de glace",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии: этап 2, экстренный доступ (break the glass)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户场景：第 2 阶段，紧急破例访问",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "When he cannot show the code",
+   "hash": "bdbf47574e7925f6",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حين لا يستطيع إبراز الرمز",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cuando no puede mostrar el código",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lorsqu'il ne peut pas présenter le code",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Когда он не может показать код",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "当他无法出示该码时",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "Pilgrimage registration number; emergency access",
+   "hash": "9cbb1cd938776040",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رقم التسجيل في الزيارة الدينية؛ الوصول في حالات الطوارئ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Número de registro de la peregrinación; acceso de emergencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Numéro d'inscription au pèlerinage ; accès d'urgence",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "регистрационный номер паломника; экстренный доступ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣登记号；紧急访问",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.when",
+   "msgid": "The day of Toreva",
+   "hash": "6a8a3b191f13af00",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يوم Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El día de Toreva",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le jour de Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "День Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Toreva 之日",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "A health tent at Toreva",
+   "hash": "e36684f341a27651",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خيمة صحية في Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una carpa sanitaria en Toreva",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une tente sanitaire à Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинская палатка в Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Toreva 的一顶医疗帐篷",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "P6 · When he cannot show the code (break the glass)",
+   "hash": "79259600061da760",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "P6 · حين لا يستطيع إبراز الرمز (كسر الزجاج)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "P6 · Cuando no puede mostrar el código (romper el cristal)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "P6 · Lorsqu'il ne peut pas présenter le code (bris de glace)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "P6 · Когда он не может показать код (экстренный доступ, «разбить стекло»)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "P6 · 当他无法出示该码时（紧急破例访问）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "The day of Toreva",
+   "hash": "b1f82e746b5fbca7",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يوم Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El día de Toreva",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le jour de Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "День Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Toreva 之日",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "A health tent at Toreva",
+   "hash": "1410fd15cc9ad74f",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خيمة صحية في Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una carpa sanitaria en Toreva",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une tente sanitaire à Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинская палатка в Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Toreva 的一顶医疗帐篷",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

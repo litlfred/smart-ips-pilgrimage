@@ -1,0 +1,679 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/testing",
+ "hashes": {
+  "ar": "3049f27652c87a70",
+  "es": "a284d6a086670ff5",
+  "fr": "8740f86d1f47653a",
+  "ru": "756819fc0515d6f5",
+  "zh": "dca14a0c18b9b5a8"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>Docker</a0> installed locally",
+   "hash": "bb60bc34f5d149b9",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تثبيت <a0>Docker</a0> محليًا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Docker</a0> instalado localmente",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Docker</a0> installé localement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "локально установленный <a0>Docker</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本地已安装 <a0>Docker</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "As FHIR resources in this ImplementationGuide - these are used in the test cases",
+   "hash": "588a49be5b165fab",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بوصفها موارد FHIR في دليل التنفيذ هذا - وهي مستخدمة في حالات الاختبار",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Como recursos FHIR en esta ImplementationGuide - se utilizan en los casos de prueba",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sous forme de ressources FHIR dans ce guide d'implémentation : elles sont utilisées dans les cas de test",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "в виде ресурсов FHIR в этом руководстве по внедрению (ImplementationGuide) — они используются в тестовых сценариях",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "作为本实施指南中的 FHIR 资源——这些资源用于测试用例",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "From a pool of test data available from a package",
+   "hash": "8e61c10900753d18",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من مجموعة بيانات اختبار متاحة في حزمة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "A partir de un conjunto de datos de prueba disponible en un paquete",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "À partir d'un ensemble de données de test disponible dans un package",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "из набора тестовых данных, доступного в пакете",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "从某个软件包中提供的测试数据池中获取",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "From that same folder, run {code0}",
+   "hash": "9ff399e23821fdbc",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من المجلد نفسه، شغّل {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Desde esa misma carpeta, ejecute {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Depuis ce même dossier, exécutez {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Из той же папки выполните {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在同一文件夹中运行 {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Git clone or download the sandbox  to a local folder",
+   "hash": "d0da751a6f0ffd3e",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "انسخ بيئة الاختبار المعزولة (sandbox) باستخدام Git أو نزّلها إلى مجلد محلي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Clone con Git o descargue el entorno de pruebas (sandbox) en una carpeta local",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clonez avec Git ou téléchargez le bac à sable dans un dossier local",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клонируйте с помощью Git или загрузите песочницу в локальную папку",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通过 Git 克隆或下载沙盒到本地文件夹",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "in Gherkin language or a dialect like Karate with a FHIR DSL",
+   "hash": "f724bd97aba3e15d",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بلغة Gherkin أو بلهجة مثل Karate مع FHIR DSL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "en lenguaje Gherkin o en un dialecto como Karate con un DSL de FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "en langage Gherkin ou dans un dialecte tel que Karate avec un DSL FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "на языке Gherkin или на диалекте, например Karate, с DSL для FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "使用 Gherkin 语言或带有 FHIR DSL 的方言（如 Karate）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Instructions",
+   "hash": "95d935f1baa01dfc",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التعليمات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Instrucciones",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Instructions",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Инструкции",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "说明",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Navigate to http://localhost:8080",
+   "hash": "e3b636faa259374b",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "انتقل إلى http://localhost:8080",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Vaya a http://localhost:8080",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Accédez à http://localhost:8080",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Перейдите по адресу http://localhost:8080",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "访问 http://localhost:8080",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Prerequisites",
+   "hash": "e960c945bb9274bf",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات المسبقة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos previos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Prérequis",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предварительные требования",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "前提条件",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "See <a0>Test Data</a0>.",
+   "hash": "78b08708f27c0871",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "انظر <a0>بيانات الاختبار</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Véase <a0>Datos de prueba</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Voir <a0>Données de test</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "См. <a0>Тестовые данные</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "参见<a0>测试数据</a0>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Testing of this specification is done by running the test cases defined in <a0>Test Cases</a0>. These test cases are expressed",
+   "hash": "deafe80366a29ad4",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُختبر هذا التوصيف بتشغيل حالات الاختبار المحددة في <a0>حالات الاختبار</a0>. وحالات الاختبار هذه معبَّر عنها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las pruebas de esta especificación se realizan ejecutando los casos de prueba definidos en <a0>Casos de prueba</a0>. Estos casos de prueba se expresan",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les tests de cette spécification sont effectués en exécutant les cas de test définis dans <a0>Cas de test</a0>. Ces cas de test sont exprimés",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Тестирование этой спецификации осуществляется путём выполнения тестовых сценариев, определённых в разделе <a0>Тестовые сценарии</a0>. Эти тестовые сценарии выражены",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本规范的测试通过运行<a0>测试用例</a0>中定义的测试用例来进行。这些测试用例的表达方式为",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Testing platforms",
+   "hash": "185d5bffa842054b",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منصات الاختبار",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Plataformas de pruebas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Plateformes de test",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Платформы для тестирования",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "测试平台",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The test data is available in 3 ways:",
+   "hash": "98d96eb980007686",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتوفر بيانات الاختبار بـ 3 طرق:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los datos de prueba están disponibles de 3 maneras:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les données de test sont disponibles de 3 manières :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Тестовые данные доступны 3 способами:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "测试数据通过 3 种方式提供：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The testing artifacts in this implementation guide are not intended to be used to determine formal conformance, nor are they intended to be authoritative or comprehensive.",
+   "hash": "7d95c904399cee90",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يُقصد بمصنوعات الاختبار في دليل التنفيذ هذا أن تُستخدم لتحديد المطابقة الرسمية، ولا يُقصد بها أن تكون مرجعية أو شاملة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los artefactos de prueba de esta guía de implementación no están concebidos para determinar la conformidad formal, ni pretenden ser autorizados ni exhaustivos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les artefacts de test de ce guide d'implémentation ne sont pas destinés à être utilisés pour déterminer la conformité formelle, et ne se veulent ni faisant autorité ni exhaustifs.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Тестовые артефакты в этом руководстве по внедрению не предназначены для определения формального соответствия и не претендуют на авторитетность или исчерпывающий характер.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南中的测试工件并非用于判定正式符合性，也不具有权威性或完整性。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "There is a quick setup of a working server, for testing the specification in a known configuration.",
+   "hash": "d14b5134ac07a8e5",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتوفر إعداد سريع لخادم عامل، لاختبار التوصيف في تكوين معروف.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Existe una configuración rápida de un servidor operativo para probar la especificación en una configuración conocida.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une configuration rapide d'un serveur fonctionnel est proposée pour tester la spécification dans une configuration connue.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предусмотрена быстрая настройка рабочего сервера для тестирования спецификации в известной конфигурации.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "提供了一个可快速搭建的可用服务器，用于在已知配置下测试本规范。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "using TestScripts",
+   "hash": "e1f16b1af55c73b1",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "باستخدام TestScripts",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "mediante TestScripts",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "au moyen de TestScripts",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "с использованием TestScripts",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "使用 TestScripts",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "With test data definitions (templates or input for data generation tooling) - will be used in the data generation tooling",
+   "hash": "3341d2d0be7c7e0b",
+   "sources": [
+    "input/pagecontent/testing.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مع تعريفات بيانات الاختبار (قوالب أو مدخلات لأدوات توليد البيانات) - ستُستخدم في أدوات توليد البيانات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Con definiciones de datos de prueba (plantillas o entradas para las herramientas de generación de datos) - se utilizarán en las herramientas de generación de datos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avec des définitions de données de test (modèles ou entrées pour les outils de génération de données) : elles seront utilisées dans les outils de génération de données",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "в виде определений тестовых данных (шаблонов или входных данных для инструментов генерации данных) — они будут использоваться в инструментах генерации данных",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "附带测试数据定义（模板或数据生成工具的输入）——将用于数据生成工具",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

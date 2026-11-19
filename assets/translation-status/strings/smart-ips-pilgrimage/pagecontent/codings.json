@@ -1,0 +1,172 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/codings",
+ "hashes": {
+  "ar": "5c6aeb7dce271d89",
+  "es": "de27274e2c0ef86f",
+  "fr": "79759678bdfe6905",
+  "ru": "882fd9908fcd715e",
+  "zh": "c8c8f4ce958f24e8"
+ },
+ "strings": [
+  {
+   "msgid": "CodeSystems",
+   "hash": "f950b183f6e2cfd2",
+   "sources": [
+    "input/pagecontent/codings.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظم الترميز (CodeSystems)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "CodeSystems",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "CodeSystems",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Системы кодов (CodeSystems)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "代码系统（CodeSystems）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Note that the terminologies included in this implementation guide will need to be updated, because the ideal mechanism for distribution (as an expression) is not currently supported by the content logical definition constructs available in the FHIR ValueSet resource and all known implementations of it. Before use in a production environment, ensure you have the latest value sets based on the definitions for each value set (as defined in the inclusion/exclusion criteria for each one).",
+   "hash": "fb4cc0039791710a",
+   "sources": [
+    "input/pagecontent/codings.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تجدر الإشارة إلى أن المصطلحات المُدرَجة في دليل التنفيذ هذا ستحتاج إلى تحديث، لأن الآلية المثلى للتوزيع (في صورة تعبير) غير مدعومة حاليًا في بُنى التعريف المنطقي للمحتوى المتاحة في مورد ValueSet في FHIR وفي جميع تطبيقاته المعروفة. وقبل الاستخدام في بيئة إنتاج، تأكَّد من حصولك على أحدث مجموعات القيم استنادًا إلى تعريف كل مجموعة قيم (على النحو المحدَّد في معايير الإدراج/الاستبعاد لكل منها).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tenga en cuenta que las terminologías incluidas en esta guía de implementación tendrán que actualizarse, ya que el mecanismo ideal de distribución (como expresión) no está admitido actualmente por las estructuras de definición lógica del contenido disponibles en el recurso ValueSet de FHIR ni por ninguna de sus implementaciones conocidas. Antes de utilizarlas en un entorno de producción, asegúrese de disponer de los conjuntos de valores más recientes basados en las definiciones de cada conjunto de valores (según los criterios de inclusión y exclusión definidos para cada uno).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Notez que les terminologies incluses dans ce guide d’implémentation devront être mises à jour, car le mécanisme de distribution idéal (sous forme d’expression) n’est pas actuellement pris en charge par les constructions de définition logique du contenu disponibles dans la ressource FHIR ValueSet ni par aucune de ses implémentations connues. Avant toute utilisation dans un environnement de production, assurez-vous de disposer des jeux de valeurs les plus récents fondés sur les définitions de chaque jeu de valeurs (telles que définies dans les critères d’inclusion/exclusion de chacun).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обратите внимание, что терминологии, включённые в это руководство по внедрению, потребуют обновления, поскольку идеальный механизм распространения (в виде выражения) в настоящее время не поддерживается конструкциями логического определения содержимого, доступными в ресурсе FHIR ValueSet, и всеми известными его реализациями. Перед использованием в производственной среде убедитесь, что у вас есть актуальные наборы значений, основанные на определениях каждого набора значений (как указано в критериях включения/исключения для каждого из них).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "请注意，本实施指南中包含的术语需要更新，因为理想的分发机制（作为表达式）目前不受 FHIR ValueSet 资源中可用的内容逻辑定义构造及其所有已知实现的支持。在生产环境中使用之前，请确保根据每个值集的定义（即各自的纳入/排除标准中所定义的）获得最新的值集。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The following terminology artifacts are included for this implementation guide:",
+   "hash": "e8851f803b17e784",
+   "sources": [
+    "input/pagecontent/codings.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مكوّنات المصطلحات التالية مُدرَجة في دليل التنفيذ هذا:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En esta guía de implementación se incluyen los siguientes artefactos de terminología:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les artefacts terminologiques suivants sont inclus dans ce guide d’implémentation :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В это руководство по внедрению включены следующие терминологические артефакты:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南包含以下术语工件：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "ValueSets",
+   "hash": "14131a5b99ad0162",
+   "sources": [
+    "input/pagecontent/codings.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مجموعات القيم (ValueSets)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "ValueSets",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "ValueSets",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Наборы значений (ValueSets)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "值集（ValueSets）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

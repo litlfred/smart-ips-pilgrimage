@@ -1,0 +1,133 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/functional-requirements",
+ "hashes": {
+  "ar": "5123837c547d1176",
+  "es": "e13f692af42ccdbb",
+  "fr": "445938de20e79243",
+  "ru": "4bdf4dc1d4f2cece",
+  "zh": "70fdfa2c34f4b9fa"
+ },
+ "strings": [
+  {
+   "msgid": "Functional requirements describe the capabilities the system must have in order to meet the end-users’ needs and achieve tasks within the business process.",
+   "hash": "99d2066dbad9adab",
+   "sources": [
+    "input/pagecontent/functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تصف المتطلبات الوظيفية القدرات التي يجب أن يمتلكها النظام لتلبية احتياجات المستخدمين النهائيين وإنجاز المهام ضمن عملية العمل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los requisitos funcionales describen las capacidades que debe tener el sistema para satisfacer las necesidades de los usuarios finales y llevar a cabo las tareas del proceso de negocio.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les exigences fonctionnelles décrivent les capacités dont le système doit disposer pour répondre aux besoins des utilisateurs finaux et accomplir les tâches du processus métier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Функциональные требования описывают возможности, которыми должна обладать система, чтобы удовлетворять потребности конечных пользователей и выполнять задачи в рамках бизнес-процесса.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "功能性需求描述系统为满足最终用户需求并完成业务流程中的任务所必须具备的能力。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "No requirements have been defined yet for IPS-pilgrimage",
+   "hash": "6c993045b92cbc52",
+   "sources": [
+    "input/pagecontent/functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لم تُحدَّد أي متطلبات بعد لـ IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aún no se han definido requisitos para IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucune exigence n'a encore été définie pour IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для IPS-pilgrimage требования пока не определены",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚未为 IPS-pilgrimage 定义任何需求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This page provides an overview of illustrative functional requirements that may be considered to kick-start the process of designing or adapting the information systems.",
+   "hash": "28cc54bc5f3005fb",
+   "sources": [
+    "input/pagecontent/functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تقدّم هذه الصفحة نظرة عامة على متطلبات وظيفية توضيحية يمكن النظر فيها لإطلاق عملية تصميم نظم المعلومات أو تكييفها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta página ofrece una visión general de requisitos funcionales ilustrativos que pueden tenerse en cuenta para iniciar el proceso de diseño o adaptación de los sistemas de información.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page donne un aperçu d'exigences fonctionnelles illustratives qui peuvent être envisagées pour amorcer le processus de conception ou d'adaptation des systèmes d'information.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице представлен обзор иллюстративных функциональных требований, которые могут быть рассмотрены для начала процесса проектирования или адаптации информационных систем.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页概述了一些示例性的功能性需求，可供在着手设计或调整信息系统时参考。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

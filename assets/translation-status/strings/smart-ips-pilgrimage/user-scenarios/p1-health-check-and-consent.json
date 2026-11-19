@@ -1,0 +1,1416 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "user-scenarios/p1-health-check-and-consent",
+ "hashes": {
+  "ar": "fc3e0f499e9b18b2",
+  "es": "44621e92c65234f9",
+  "fr": "f41ba165a23b8c70",
+  "ru": "e8404ebda2def59e",
+  "zh": "147223c871d14abc"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Onesa",
+   "hash": "1cccc8eebd0e2356",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "Three months before the pilgrimage, Kamal has the mandatory pre-pilgrimage health examination with Dr Aisyah. He is fit to travel. She explains what the Pilgrimage Health Record is, who can see it, and for how long. Kamal agrees on his wallet to share his patient summary with Taifafeki health workers during the pilgrimage, and sets how the link to it is protected. Step 1 of the overview of key process flows.",
+   "hash": "730b8cfbdda4fdda",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل الزيارة الدينية بثلاثة أشهر، يخضع Kamal للفحص الصحي الإلزامي السابق للزيارة الدينية لدى د. Aisyah. وهو لائق للسفر. وتشرح له ما سجل الزيارة الدينية الصحي، ومن يمكنه الاطلاع عليه، ولأي مدة. ويوافق Kamal في محفظته على مشاركة ملخص المريض الخاص به مع العاملين الصحيين في Taifafeki خلال الزيارة الدينية، ويضبط كيفية حماية الرابط المؤدي إليه. الخطوة 1 من النظرة العامة على تدفقات العمليات الرئيسية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tres meses antes de la peregrinación, Kamal se somete con la Dra. Aisyah al examen de salud obligatorio previo a la peregrinación. Está en condiciones de viajar. Ella le explica qué es el Registro de Salud de Peregrinación, quién puede verlo y durante cuánto tiempo. Kamal acepta en su billetera compartir su resumen del paciente con los trabajadores de salud de Taifafeki durante la peregrinación, y configura cómo se protege el enlace a ese resumen. Paso 1 de la visión general de los flujos de procesos clave.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Trois mois avant le pèlerinage, Kamal passe l'examen de santé obligatoire préalable au pèlerinage avec le Dr Aisyah. Il est apte à voyager. Elle lui explique ce qu'est le Dossier de santé du pèlerinage, qui peut le consulter et pendant combien de temps. Kamal accepte, sur son portefeuille, de partager son résumé de patient avec les agents de santé de Taifafeki pendant le pèlerinage, et définit la manière dont le lien vers ce résumé est protégé. Étape 1 de l'aperçu des principaux flux de processus.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "За три месяца до паломничества Kamal проходит у д-ра Aisyah обязательный медицинский осмотр перед паломничеством. Он годен к поездке. Она объясняет, что такое медицинская запись паломника, кто может её видеть и как долго. Kamal соглашается в своём кошельке предоставить свою сводку о пациенте медицинским работникам Taifafeki на время паломничества и задаёт, как защищена ссылка на неё. Шаг 1 обзора ключевых потоков процессов.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣前三个月，Kamal 由 Dr Aisyah 进行强制性的朝圣前健康检查。他适合出行。她解释了朝圣健康记录是什么、谁可以查看以及可查看多久。Kamal 在钱包上同意在朝圣期间与 Taifafeki 卫生工作者共享其患者摘要，并设置了指向该摘要的链接的保护方式。这是关键流程概览的步骤 1。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Consent in his wallet",
+   "hash": "0e9137687b35f65b",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الموافقة في محفظته",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Consentimiento en su billetera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le consentement dans son portefeuille",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласие в его кошельке",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "钱包中的同意",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Kamal agrees to share",
+   "hash": "caff6c4f8e073e41",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "موافقة Kamal على المشاركة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal acepta compartir",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal accepte de partager",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal соглашается предоставить данные",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 同意共享",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Pre-pilgrimage check, Dr Aisyah",
+   "hash": "9ea0c04ac0067419",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "فحص ما قبل الزيارة الدينية، د. Aisyah",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Examen previo a la peregrinación, Dra. Aisyah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Examen préalable au pèlerinage, Dr Aisyah",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Осмотр перед паломничеством, д-р Aisyah",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣前检查，Dr Aisyah",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "Consent is given with a clinician who can explain it, and confirmed by the pilgrim on his own phone.",
+   "hash": "b1adcce22c42980d",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُمنح الموافقة بحضور ممارس سريري قادر على شرحها، ويؤكدها الزائر على هاتفه الخاص.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El consentimiento se otorga ante un médico que puede explicarlo, y el peregrino lo confirma en su propio teléfono.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le consentement est donné auprès d'un clinicien capable de l'expliquer, et confirmé par le pèlerin sur son propre téléphone.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласие даётся в присутствии клинициста, который может его разъяснить, и подтверждается паломником на его собственном телефоне.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "同意是在能够解释它的临床医生陪同下作出的，并由朝圣者在自己的手机上确认。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Examines Kamal, finds him fit to travel, and explains what the record is, who can see it and for how long.",
+   "hash": "2d62cc5760e76c5a",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تفحص Kamal، وتجده لائقًا للسفر، وتشرح ما السجل، ومن يمكنه الاطلاع عليه، ولأي مدة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Examina a Kamal, determina que está en condiciones de viajar y le explica qué es el registro, quién puede verlo y durante cuánto tiempo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Examine Kamal, le déclare apte à voyager, et explique ce qu'est le dossier, qui peut le consulter et pendant combien de temps.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Осматривает Kamal, признаёт его годным к поездке и объясняет, что представляет собой эта запись, кто может её видеть и как долго.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "为 Kamal 做检查，确认他适合出行，并解释该记录是什么、谁可以查看以及可查看多久。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Has his health examination, listens to Dr Aisyah, and confirms on his wallet that Taifafeki health workers may see his summary during the pilgrimage; sets how the link is protected.",
+   "hash": "30123fe17d51bf16",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يخضع لفحصه الصحي، ويستمع إلى د. Aisyah، ويؤكد في محفظته أنه يجوز للعاملين الصحيين في Taifafeki الاطلاع على ملخصه خلال الزيارة الدينية؛ ويضبط كيفية حماية الرابط.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se somete al examen de salud, escucha a la Dra. Aisyah y confirma en su billetera que los trabajadores de salud de Taifafeki pueden ver su resumen durante la peregrinación; configura cómo se protege el enlace.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Passe son examen de santé, écoute le Dr Aisyah et confirme sur son portefeuille que les agents de santé de Taifafeki peuvent consulter son résumé pendant le pèlerinage ; définit la manière dont le lien est protégé.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проходит медицинский осмотр, слушает д-ра Aisyah и подтверждает в своём кошельке, что медицинские работники Taifafeki могут видеть его сводку во время паломничества; задаёт, как защищена ссылка.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接受健康检查，听 Dr Aisyah 讲解，并在钱包上确认朝圣期间 Taifafeki 卫生工作者可以查看他的摘要；设置链接的保护方式。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Records the consent directive.",
+   "hash": "f260c61bee924177",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يسجّل توجيه الموافقة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registra la directiva de consentimiento.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistre la directive de consentement.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Регистрирует распоряжение о согласии.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录同意指令。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Shows the consent form and the link's privacy settings, and sends the consent to the HIE.",
+   "hash": "7e5c462e30b57fd8",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يعرض نموذج الموافقة وإعدادات خصوصية الرابط، ويرسل الموافقة إلى HIE.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Muestra el formulario de consentimiento y los ajustes de privacidad del enlace, y envía el consentimiento al HIE.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Affiche le formulaire de consentement et les paramètres de confidentialité du lien, et envoie le consentement à la HIE.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Показывает форму согласия и параметры конфиденциальности ссылки и отправляет согласие в HIE.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "显示同意表单和链接的隐私设置，并将同意发送给 HIE。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Sits with him and listens.",
+   "hash": "7f216bc08fc6e8ed",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تجلس معه وتستمع.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se sienta a su lado y escucha.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "S'assoit à ses côtés et écoute.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сидит рядом с ним и слушает.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "坐在他身旁倾听。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“He understood what he agreed to. That is what matters.”",
+   "hash": "2db4f3e0e9947f14",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«لقد فهم ما وافق عليه. وهذا هو المهم.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Ha entendido lo que ha aceptado. Eso es lo que importa».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Il a compris ce qu'il a accepté. C'est ce qui compte. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Он понял, на что дал согласие. Именно это важно.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“他理解了自己同意的内容。这才是最重要的。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“One less thing to worry about.”",
+   "hash": "6cdff614f5f7066a",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«همٌّ أقلّ يشغل البال.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Una preocupación menos».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Un souci de moins. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Одной заботой меньше.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“少了一件要操心的事。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“So the doctors there will know about my insulin. Good.”",
+   "hash": "d7bd6f22d70446b2",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«إذن سيعرف الأطباء هناك أمر الإنسولين الذي أتناوله. جيد.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Así los médicos de allí sabrán lo de mi insulina. Bien».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Ainsi, les médecins là-bas sauront pour mon insuline. Tant mieux. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Значит, врачи там будут знать про мой инсулин. Хорошо.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“这样那里的医生就会知道我用胰岛素。很好。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.gaps",
+   "msgid": "The two forms the pilgrim fills in, consent-wallet-questionnaire and shl-configure-privacy-settings, are named in the processes but not defined.",
+   "hash": "1f4de36793213d97",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النموذجان اللذان يملؤهما الحاج، consent-wallet-questionnaire و shl-configure-privacy-settings، مذكوران بالاسم في العمليات لكنهما غير معرَّفين.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los dos formularios que rellena el peregrino, consent-wallet-questionnaire y shl-configure-privacy-settings, se nombran en los procesos pero no están definidos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les deux formulaires que remplit le pèlerin, consent-wallet-questionnaire et shl-configure-privacy-settings, sont nommés dans les processus mais ne sont pas définis.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Две формы, которые заполняет паломник, consent-wallet-questionnaire и shl-configure-privacy-settings, названы в процессах, но не определены.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者填写的两张表单 consent-wallet-questionnaire 和 shl-configure-privacy-settings 在流程中被提及，但尚未定义。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "Wallet to HIE",
+   "hash": "b0216b6cb29ee3bf",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من المحفظة إلى HIE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De la billetera al HIE",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Du portefeuille à la HIE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Из кошелька в HIE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "钱包到 HIE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "Consent directive (HajjConsent)",
+   "hash": "d14784affea4e254",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "توجيه الموافقة (HajjConsent)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Directiva de consentimiento (HajjConsent)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Directive de consentement (HajjConsent)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Распоряжение о согласии (HajjConsent)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "同意指令（HajjConsent）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "Kamal's consent is recorded at home",
+   "hash": "cc86f8087d77d7cc",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُسجَّل موافقة Kamal في البلد الأم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El consentimiento de Kamal queda registrado en su país",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le consentement de Kamal est enregistré dans son pays",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласие Kamal зарегистрировано в стране происхождения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 的同意已在本国记录",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "Kamal is found fit to travel, hears who can see his Pilgrimage Health Record and for how long, and agrees on his wallet to share it.",
+   "hash": "c2835d94d1359ac2",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُعَدّ Kamal لائقًا للسفر، ويُبلَّغ بمن يمكنه الاطلاع على سجله الصحي للزيارة الدينية ولأي مدة، ويوافق في محفظته على مشاركته.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal es declarado apto para viajar, se le explica quién puede ver su Registro de Salud de Peregrinación y durante cuánto tiempo, y acepta compartirlo en su billetera.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal est jugé apte au voyage, apprend qui peut consulter son Dossier de santé du pèlerinage et pendant combien de temps, et accepte dans son portefeuille de le partager.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal признают годным к поездке; ему объясняют, кто и как долго сможет видеть его медицинскую запись паломника, и он соглашается в своём кошельке поделиться ею.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 被确认适合出行，了解了谁可以查看他的朝圣健康记录以及可查看多久，并在钱包上同意共享。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.illustration.alt",
+   "msgid": "In a Tanavu clinic, Dr Aisyah explains a consent card with a shield and a calendar to Kamal, in a batik shirt, who holds his phone with a padlock and a tick; Salmah sits beside him.",
+   "hash": "f1e57d47c4aa41b0",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في عيادة في Tanavu، تشرح د. Aisyah لـ Kamal، الذي يرتدي قميص باتيك، بطاقة موافقة عليها درع وتقويم، وهو يمسك هاتفه وعليه قفل وعلامة صح؛ وتجلس Salmah بجانبه.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En una clínica de Tanavu, la Dra. Aisyah explica una tarjeta de consentimiento con un escudo y un calendario a Kamal, con camisa de batik, que sostiene su teléfono con un candado y una marca de verificación; Salmah está sentada a su lado.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans une clinique de Tanavu, le Dr Aisyah explique une carte de consentement ornée d'un bouclier et d'un calendrier à Kamal, en chemise batik, qui tient son téléphone affichant un cadenas et une coche ; Salmah est assise à côté de lui.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В клинике в Tanavu д-р Aisyah объясняет карточку согласия со щитом и календарём Kamal в рубашке из батика, который держит телефон с замком и галочкой; рядом с ним сидит Salmah.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Tanavu 的一家诊所里，Dr Aisyah 向身穿蜡染衬衫的 Kamal 讲解一张带有盾牌和日历的同意卡片，Kamal 手持显示挂锁和对勾的手机；Salmah 坐在他身旁。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "Three months before the pilgrimage, Kamal has the mandatory pre-pilgrimage health examination with Dr Aisyah. He is fit to travel. She explains what the Pilgrimage Health Record is, who can see it, and for how long. Kamal agrees on his wallet to share his patient summary with Taifafeki health workers during the pilgrimage, and sets how the link to it is protected. Step 1 of the overview of key process flows.",
+   "hash": "76a86205bf4456e2",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل الزيارة الدينية بثلاثة أشهر، يخضع Kamal للفحص الصحي الإلزامي السابق للزيارة الدينية لدى د. Aisyah. وهو لائق للسفر. وتشرح له ما سجل الزيارة الدينية الصحي، ومن يمكنه الاطلاع عليه، ولأي مدة. ويوافق Kamal في محفظته على مشاركة ملخص المريض الخاص به مع العاملين الصحيين في Taifafeki خلال الزيارة الدينية، ويضبط كيفية حماية الرابط المؤدي إليه. الخطوة 1 من النظرة العامة على تدفقات العمليات الرئيسية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tres meses antes de la peregrinación, Kamal se somete con la Dra. Aisyah al examen de salud obligatorio previo a la peregrinación. Está en condiciones de viajar. Ella le explica qué es el Registro de Salud de Peregrinación, quién puede verlo y durante cuánto tiempo. Kamal acepta en su billetera compartir su resumen del paciente con los trabajadores de salud de Taifafeki durante la peregrinación, y configura cómo se protege el enlace a ese resumen. Paso 1 de la visión general de los flujos de procesos clave.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Trois mois avant le pèlerinage, Kamal passe l'examen de santé obligatoire préalable au pèlerinage avec le Dr Aisyah. Il est apte à voyager. Elle lui explique ce qu'est le Dossier de santé du pèlerinage, qui peut le consulter et pendant combien de temps. Kamal accepte, sur son portefeuille, de partager son résumé de patient avec les agents de santé de Taifafeki pendant le pèlerinage, et définit la manière dont le lien vers ce résumé est protégé. Étape 1 de l'aperçu des principaux flux de processus.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "За три месяца до паломничества Kamal проходит у д-ра Aisyah обязательный медицинский осмотр перед паломничеством. Он годен к поездке. Она объясняет, что такое медицинская запись паломника, кто может её видеть и как долго. Kamal соглашается в своём кошельке предоставить свою сводку о пациенте медицинским работникам Taifafeki на время паломничества и задаёт, как защищена ссылка на неё. Шаг 1 обзора ключевых потоков процессов.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣前三个月，Kamal 由 Dr Aisyah 进行强制性的朝圣前健康检查。他适合出行。她解释了朝圣健康记录是什么、谁可以查看以及可查看多久。Kamal 在钱包上同意在朝圣期间与 Taifafeki 卫生工作者共享其患者摘要，并设置了指向该摘要的链接的保护方式。这是关键流程概览的步骤 1。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "Without consent recorded at home, nothing may be shared abroad, and the clinic in Nalemi starts from nothing.",
+   "hash": "712c37131b4745a4",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من دون موافقة مسجَّلة في البلد الأم، لا يجوز مشاركة أي شيء في الخارج، وتبدأ العيادة في Nalemi من لا شيء.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin un consentimiento registrado en su país, no se puede compartir nada en el extranjero, y la clínica de Nalemi parte de cero.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sans consentement enregistré dans le pays d'origine, rien ne peut être partagé à l'étranger, et la clinique de Nalemi part de zéro.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Если согласие не зарегистрировано в стране происхождения, за границей ничего нельзя передавать, и клиника в Nalemi начинает с нуля.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "如果没有在本国记录的同意，就不能在境外共享任何内容，Nalemi 的诊所只能从零开始。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Is consent given once for the whole pilgrimage season, per facility, or per encounter — and can Kamal withdraw it while abroad?",
+   "hash": "272786af75a81d5b",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هل تُمنح الموافقة مرة واحدة لموسم الزيارة الدينية بأكمله، أم لكل مرفق، أم لكل لقاء — وهل يمكن لـ Kamal سحبها وهو في الخارج؟",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿Se otorga el consentimiento una sola vez para toda la temporada de peregrinación, por centro o por encuentro — y puede Kamal retirarlo mientras está en el extranjero?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le consentement est-il donné une fois pour toute la saison du pèlerinage, par établissement ou par consultation — et Kamal peut-il le retirer lorsqu'il est à l'étranger ?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Даётся ли согласие один раз на весь сезон паломничества, для каждого учреждения или для каждого обращения — и может ли Kamal отозвать его, находясь за границей?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "同意是针对整个朝圣季一次性给出，还是按每个机构给出，或按每次就诊给出——Kamal 能否在境外撤回同意？",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "His consent to share his summary for the pilgrimage is recorded",
+   "hash": "a063d11a270c2673",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُسجَّل موافقته على مشاركة ملخصه لأغراض الزيارة الدينية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Queda registrado su consentimiento para compartir su resumen durante la peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Son consentement au partage de son résumé pour le pèlerinage est enregistré",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его согласие на предоставление сводки на время паломничества зарегистрировано",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "他为朝圣共享其摘要的同意已被记录",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "Onesa's HIE; Kamal's wallet",
+   "hash": "22b5d1d4bed6bf9c",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منصة HIE في Onesa؛ محفظة Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE de Onesa; la billetera de Kamal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa ; le portefeuille de Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa; кошелёк Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE；Kamal 的钱包",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "Business processes: Health Check and Counseling, Explicit Consent on Wallet; Verbal Consent",
+   "hash": "1757f5a9dbf15c80",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عمليات العمل: الفحص الصحي والإرشاد، الموافقة الصريحة عبر المحفظة؛ الموافقة الشفهية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Procesos de negocio: Control de salud y asesoramiento, consentimiento explícito en la billetera; consentimiento verbal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Processus métier : Health Check and Counseling, Explicit Consent on Wallet ; Verbal Consent",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Бизнес-процессы: Медицинский осмотр и консультирование, явное согласие в кошельке; устное согласие",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "业务流程：健康检查与咨询，在钱包中明示同意；口头同意",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "Profile HajjConsent and its examples CONSENT-XXK and CONSENT-XXR",
+   "hash": "ff5988b81f43114f",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملف التعريف HajjConsent ومثالاه CONSENT-XXK وCONSENT-XXR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Perfil HajjConsent y sus ejemplos CONSENT-XXK y CONSENT-XXR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Profil HajjConsent et ses exemples CONSENT-XXK et CONSENT-XXR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Профиль HajjConsent и его примеры CONSENT-XXK и CONSENT-XXR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Profile HajjConsent 及其示例 CONSENT-XXK 和 CONSENT-XXR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "Transaction: record consent from wallet",
+   "hash": "d538dec13c436e26",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المعاملة: تسجيل الموافقة من المحفظة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transacción: registrar el consentimiento desde la billetera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transaction : enregistrer le consentement depuis le portefeuille",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция: запись согласия из кошелька",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "事务：从钱包记录同意",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "The health check and the choice to share",
+   "hash": "3c2c62a04ee536e9",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي وقرار المشاركة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El control de salud y la decisión de compartir",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le bilan de santé et le choix de partager",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр и решение поделиться данными",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康检查与共享的选择",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "Pre-pilgrimage health examination; consent on the wallet",
+   "hash": "dff917a8e6e00652",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي السابق للزيارة الدينية؛ الموافقة في المحفظة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Examen de salud previo a la peregrinación; consentimiento en la billetera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Examen de santé préalable au pèlerinage ; consentement sur le portefeuille",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр перед паломничеством; согласие в кошельке",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣前健康检查；在钱包上同意",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.when",
+   "msgid": "Three months before the pilgrimage",
+   "hash": "22cc29c042e611f4",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل الزيارة الدينية بثلاثة أشهر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tres meses antes de la peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Trois mois avant le pèlerinage",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "За три месяца до паломничества",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣前三个月",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "A GP clinic in Tanavu",
+   "hash": "598c6b1664673628",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عيادة طبيب عام في Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una consulta de medicina general en Tanavu",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un cabinet de médecine générale à Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кабинет врача общей практики в Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Tanavu 的一家全科（GP）诊所",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "P1 · The health check and the choice to share",
+   "hash": "eca526476d5224f3",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "P1 · الفحص الصحي وخيار المشاركة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "P1 · El control de salud y la decisión de compartir",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "P1 · Le bilan de santé et le choix de partager",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "P1 · Медицинский осмотр и решение поделиться данными",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "P1 · 健康检查与共享的选择",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "Three months before the pilgrimage",
+   "hash": "945ea041d42318f6",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل الزيارة الدينية بثلاثة أشهر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tres meses antes de la peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Trois mois avant le pèlerinage",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "За три месяца до паломничества",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣前三个月",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "A GP clinic in Tanavu",
+   "hash": "c4705415985b591a",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عيادة طبيب عام في Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una consulta de medicina general en Tanavu",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un cabinet de médecine générale à Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кабинет врача общей практики в Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Tanavu 的一家全科（GP）诊所",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/maps",
+ "hashes": {
+  "ar": "91fbf0094081d062",
+  "es": "976d1c01365689be",
+  "fr": "b3e0b116e84a6e30",
+  "ru": "335c282062cfb68a",
+  "zh": "e4be63644453f223"
+ },
+ "strings": [
+  {
+   "msgid": "Mappings",
+   "hash": "8f5585224c32234d",
+   "sources": [
+    "input/pagecontent/maps.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التعيينات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Correspondencias",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Correspondances",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сопоставления",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "映射",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

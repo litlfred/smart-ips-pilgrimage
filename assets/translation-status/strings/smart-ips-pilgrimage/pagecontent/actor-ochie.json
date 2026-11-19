@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/actor-ochie",
+ "hashes": {
+  "ar": "7052031efbbb7207",
+  "es": "3ce32acfa0e1ec8c",
+  "fr": "5b2fd9caa26e2aba",
+  "ru": "58061b8ed87dfed3",
+  "zh": "563d9cc8ef7386bc"
+ },
+ "strings": [
+  {
+   "msgid": "Description Health information exchange of origin country of a Pilgrim.  Responsible for providing standardized patient summary information for a Pilgrim and making that accessible to the Pilgrim as part of a patient-mediated exchange data exchange and consent approach.   Transactions participated in as target  The Origin Country HIE participates in the following transactions:  record consent from wallet - request (record-consent-request) issue VHL request (issue-shl-request) retrieve VHL Manifest request retrieve IPS request",
+   "hash": "4a2727ff5708ad92",
+   "sources": [
+    "input/pagecontent/actor-ochie.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الوصف تبادل المعلومات الصحية في بلد منشأ الزائر.  وهو مسؤول عن توفير معلومات موحَّدة لملخص المريض الخاص بالزائر وإتاحتها للزائر في إطار نهج لتبادل البيانات والموافقة بوساطة المريض.   المعاملات التي يشارك فيها بوصفه هدفًا  يشارك نظام HIE في بلد المنشأ في المعاملات التالية:  تسجيل الموافقة من المحفظة - طلب (record-consent-request) طلب إصدار VHL ‏(issue-shl-request) طلب استرجاع بيان VHL طلب استرجاع IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Descripción Intercambio de información de salud del país de origen de un peregrino.  Responsable de proporcionar información normalizada del resumen del paciente de un peregrino y de ponerla a disposición del peregrino como parte de un enfoque de intercambio de datos y consentimiento mediado por el paciente.   Transacciones en las que participa como destino  El HIE del país de origen participa en las transacciones siguientes:  registrar el consentimiento desde la billetera - solicitud (record-consent-request) solicitud de emisión del VHL (issue-shl-request) solicitud de recuperación del manifiesto del VHL solicitud de recuperación del IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Description Échange d’informations de santé du pays d’origine d’un pèlerin.  Chargé de fournir des informations normalisées de résumé du patient pour un pèlerin et de les rendre accessibles au pèlerin dans le cadre d’une approche d’échange de données et de consentement à médiation par le patient.   Transactions auxquelles il participe en tant que cible  Le HIE du pays d’origine participe aux transactions suivantes :  record consent from wallet - request (record-consent-request) issue VHL request (issue-shl-request) retrieve VHL Manifest request retrieve IPS request",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Описание Система обмена медицинской информацией (HIE) страны происхождения паломника.  Отвечает за предоставление стандартизированной информации сводки о пациенте для паломника и обеспечение её доступности для паломника в рамках подхода к обмену данными и получению согласия при посредничестве пациента.   Транзакции, в которых участвует в качестве получателя  HIE страны происхождения участвует в следующих транзакциях:  запись согласия из кошелька — запрос (record-consent-request) запрос на выпуск VHL (issue-shl-request) запрос на получение манифеста VHL запрос на получение IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "描述 朝圣者来源国的健康信息交换（HIE）。负责为朝圣者提供标准化的患者摘要信息，并作为患者介导的数据交换和同意方式的一部分，使朝圣者能够访问这些信息。 作为目标参与的事务 来源国 HIE 参与以下事务： 记录来自钱包的同意 - 请求（record-consent-request） 签发 VHL 请求（issue-shl-request） 检索 VHL 清单请求 检索 IPS 请求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

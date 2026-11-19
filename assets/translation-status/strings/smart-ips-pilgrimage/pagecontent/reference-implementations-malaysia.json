@@ -1,0 +1,2317 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/reference-implementations-malaysia",
+ "hashes": {
+  "ar": "a7bcda43dd3b4d59",
+  "es": "578883d9f51c9530",
+  "fr": "ef620f271e5626c9",
+  "ru": "bcbd13d920ad1819",
+  "zh": "8715d37efb6c6ac7"
+ },
+ "strings": [
+  {
+   "msgid": "a. A standard passcode is set for all Malaysian IPS for this year’s Hajj",
+   "hash": "4283a7c7f212e1f4",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. تُعيَّن رمز مرور موحَّد لجميع ملخصات المرضى الدولية (IPS) الماليزية لحج هذا العام",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. Se establece un código de acceso estándar para todos los IPS de Malasia para el Hajj de este año",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Un code d’accès standard est défini pour tous les IPS malaisiens pour le Hajj de cette année",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. Для всех малайзийских IPS на хадж этого года устанавливается стандартный код доступа",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 为今年朝觐（Hajj）的所有马来西亚 IPS 设置统一的标准通行码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. COSE message is extracted from the CWT. b. COSE signature is verified using Malaysia’s public key from the GDHCN public registry. Malaysia’s country code is “MY”",
+   "hash": "14266a8f81381450",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. تُستخرَج رسالة COSE من رمز CWT. ب. يُتحقَّق من توقيع COSE باستخدام المفتاح العمومي لماليزيا من السجل العمومي لـ GDHCN. ورمز البلد لماليزيا هو «MY»",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. El mensaje COSE se extrae del CWT. b. La firma COSE se verifica con la clave pública de Malasia obtenida del registro público de la GDHCN. El código de país de Malasia es “MY”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Le message COSE est extrait du CWT. b. La signature COSE est vérifiée à l’aide de la clé publique de la Malaisie issue du registre public du GDHCN. Le code de pays de la Malaisie est « MY »",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. Сообщение COSE извлекается из CWT. b. Подпись COSE проверяется с помощью открытого ключа Малайзии из публичного реестра GDHCN. Код страны Малайзии — «MY»",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 从 CWT 中提取 COSE 消息。b. 使用 GDHCN 公共登记库中马来西亚的公钥验证 COSE 签名。马来西亚的国家代码为“MY”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. COSE message is wrapped into a CBOR Web Token (CWT).",
+   "hash": "0854c8b221303147",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. تُغلَّف رسالة COSE ضمن رمز ويب CBOR ‏(CWT).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. El mensaje COSE se encapsula en un CBOR Web Token (CWT).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Le message COSE est encapsulé dans un jeton web CBOR (CWT).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. Сообщение COSE оборачивается в веб-токен CBOR (CWT).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 将 COSE 消息封装为 CBOR Web 令牌（CWT）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. CWT is base64 encoded and converted into a QR code",
+   "hash": "162a92ba3b4d6054",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. يُرمَّز CWT بترميز base64 ويُحوَّل إلى رمز QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. El CWT se codifica en base64 y se convierte en un código QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Le CWT est encodé en base64 et converti en code QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. CWT кодируется в base64 и преобразуется в QR-код",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 对 CWT 进行 base64 编码并转换为二维码（QR code）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. GET request is made for the IPS in the preferred file type (PDF). b. IPS JSON file is decrypted using the encryption key from the HCert response.",
+   "hash": "0bd615689de49ea1",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. يُرسَل طلب GET للحصول على ملخص المريض الدولي (IPS) بنوع الملف المفضَّل (PDF). ب. يُفَكّ تشفير ملف IPS بصيغة JSON باستخدام مفتاح التشفير الوارد في استجابة HCert.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. Se realiza una solicitud GET del IPS en el tipo de archivo preferido (PDF). b. El archivo JSON del IPS se descifra con la clave de cifrado de la respuesta HCert.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Une requête GET est envoyée pour obtenir l’IPS dans le type de fichier préféré (PDF). b. Le fichier JSON de l’IPS est déchiffré à l’aide de la clé de chiffrement figurant dans la réponse HCert.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. Выполняется запрос GET на получение IPS в предпочтительном типе файла (PDF). b. Файл IPS в формате JSON расшифровывается с помощью ключа шифрования из ответа HCert.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 以首选文件类型（PDF）发出获取 IPS 的 GET 请求。b. 使用 HCert 响应中的加密密钥解密 IPS JSON 文件。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. HCert is decoded from base64. b. VHL JSON is extracted from the HCert payload.",
+   "hash": "ea5f3c419dd0e900",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. يُفَكّ ترميز HCert من base64. ب. يُستخرَج JSON الخاص بـ VHL من حمولة HCert.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. El HCert se decodifica desde base64. b. El JSON del VHL se extrae de la carga útil del HCert.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Le HCert est décodé depuis le base64. b. Le JSON du VHL est extrait de la charge utile du HCert.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. HCert декодируется из base64. b. JSON VHL извлекается из полезной нагрузки HCert.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 对 HCert 进行 base64 解码。b. 从 HCert 载荷中提取 VHL JSON。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. HCert is inserted into the COSE message, signed with GDHCN key, and the Key ID (KID) is added to the header.",
+   "hash": "76ff20e67bb33c68",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. تُدرَج HCert في رسالة COSE، وتُوقَّع بمفتاح GDHCN، ويُضاف معرِّف المفتاح (KID) إلى الترويسة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. El HCert se inserta en el mensaje COSE, se firma con la clave de la GDHCN y se añade al encabezado el identificador de clave (Key ID, KID).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Le HCert est inséré dans le message COSE, signé avec la clé GDHCN, et l’identifiant de clé (KID) est ajouté à l’en-tête.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. HCert вставляется в сообщение COSE, подписывается ключом GDHCN, и в заголовок добавляется идентификатор ключа (KID).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 将 HCert 插入 COSE 消息，使用 GDHCN 密钥签名，并在头部中添加密钥 ID（KID）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. IPS PDF file is downloaded and saved for further use by healthcare workers.",
+   "hash": "2d935edc09e70746",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. يُنزَّل ملف IPS بصيغة PDF ويُحفَظ لاستخدامه لاحقًا من قِبل العاملين الصحيين.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. El archivo PDF del IPS se descarga y se guarda para su uso posterior por los trabajadores de salud.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Le fichier PDF de l’IPS est téléchargé et enregistré pour un usage ultérieur par les agents de santé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. Файл IPS в формате PDF загружается и сохраняется для дальнейшего использования медицинскими работниками.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 下载并保存 IPS PDF 文件，供卫生工作者后续使用。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. POST request is sent to the VHL manifest URL to retrieve the base64 encoded VHL manifest JSON. b. VHL manifest JSON is decoded from base64.",
+   "hash": "d986d89b8b06ee2a",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. يُرسَل طلب POST إلى عنوان URL لبيان VHL لاسترجاع JSON بيان VHL المرمَّز بـ base64. ب. يُفَكّ ترميز JSON بيان VHL من base64.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. Se envía una solicitud POST a la URL del manifiesto del VHL para obtener el JSON del manifiesto del VHL codificado en base64. b. El JSON del manifiesto del VHL se decodifica desde base64.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Une requête POST est envoyée à l’URL du manifeste VHL pour récupérer le JSON du manifeste VHL encodé en base64. b. Le JSON du manifeste VHL est décodé depuis le base64.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. На URL манифеста VHL отправляется запрос POST для получения JSON манифеста VHL, закодированного в base64. b. JSON манифеста VHL декодируется из base64.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 向 VHL 清单 URL 发送 POST 请求，以检索 base64 编码的 VHL 清单 JSON。b. 对 VHL 清单 JSON 进行 base64 解码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. QR code is scanned and the base64 encoded CWT is obtained.",
+   "hash": "59ad368eb4f31098",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. يُمسَح رمز QR ويُحصَل على CWT المرمَّز بـ base64.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. Se escanea el código QR y se obtiene el CWT codificado en base64.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Le code QR est scanné et le CWT encodé en base64 est obtenu.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. QR-код сканируется, и получается CWT, закодированный в base64.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 扫描二维码（QR code），获得 base64 编码的 CWT。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. Users provide consent to generate the Health Certificate QR code.",
+   "hash": "009c2c1baefa2ce4",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. يقدّم المستخدمون موافقتهم على إنشاء رمز QR للشهادة الصحية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. Los usuarios dan su consentimiento para generar el código QR del certificado de salud.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Les utilisateurs donnent leur consentement pour générer le code QR du certificat de santé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. Пользователи дают согласие на создание QR-кода сертификата о состоянии здоровья.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 用户同意生成健康证书二维码（QR code）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. VHL is created as a manifest URL based on user preferences and supports JSON and PDF content types.",
+   "hash": "5db381ed008e2aca",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. يُنشأ VHL في صورة عنوان URL لبيان (manifest) وفقًا لتفضيلات المستخدم، ويدعم نوعَي المحتوى JSON وPDF.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. El VHL se crea como una URL de manifiesto según las preferencias del usuario y admite los tipos de contenido JSON y PDF.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Le VHL est créé sous la forme d’une URL de manifeste selon les préférences de l’utilisateur et prend en charge les types de contenu JSON et PDF.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. VHL создаётся как URL манифеста на основе предпочтений пользователя и поддерживает типы содержимого JSON и PDF.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 根据用户偏好将 VHL 创建为清单 URL，支持 JSON 和 PDF 内容类型。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a. VHL is embedded into a Health Certificate (HCert) following WHO's smart trust specification.",
+   "hash": "3af87099dd704e22",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أ. يُضمَّن VHL في شهادة صحية (HCert) وفقًا لمواصفة الثقة الذكية (smart trust) الصادرة عن منظمة الصحة العالمية (WHO).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "a. El VHL se integra en un certificado de salud (HCert) conforme a la especificación SMART Trust de la OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "a. Le VHL est intégré dans un certificat de santé (HCert) conformément à la spécification Smart Trust de l’OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "a. VHL встраивается в сертификат о состоянии здоровья (HCert) в соответствии со спецификацией SMART Trust ВОЗ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "a. 按照世卫组织（WHO）的 smart trust 规范，将 VHL 嵌入健康证书（HCert）中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "About MySejahtera",
+   "hash": "1b4d9d747dd8ebae",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نبذة عن MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Acerca de MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "À propos de MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "О MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关于 MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "About Tabung Haji",
+   "hash": "2b3dcd8290982145",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نبذة عن Tabung Haji",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Acerca de Tabung Haji",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "À propos de Tabung Haji",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "О Tabung Haji",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关于 Tabung Haji",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "About the Ministry of Health (MOH) Malaysia",
+   "hash": "a89e291d356ae6f3",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نبذة عن وزارة الصحة (MOH) في ماليزيا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Acerca del Ministerio de Salud (MOH) de Malasia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "À propos du ministère de la Santé (MOH) de Malaisie",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "О Министерстве здравоохранения (MOH) Малайзии",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关于马来西亚卫生部（MOH）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "b. Consent details are stored, including acceptance to share health records as IPS on GDHCN to KSA officials",
+   "hash": "29ad0848b3edf433",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ب. تُخزَّن تفاصيل الموافقة، بما في ذلك قبول مشاركة السجلات الصحية بصيغة IPS عبر GDHCN مع مسؤولي المملكة العربية السعودية (KSA)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "b. Se almacenan los detalles del consentimiento, incluida la aceptación de compartir los registros de salud como IPS a través de la GDHCN con los funcionarios del Reino de la Arabia Saudita (KSA)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "b. Les détails du consentement sont enregistrés, y compris l’acceptation de partager les dossiers de santé sous forme d’IPS sur le GDHCN avec les responsables du Royaume d’Arabie saoudite (KSA)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "b. Сохраняются сведения о согласии, включая согласие на предоставление медицинских записей в виде IPS через GDHCN должностным лицам KSA",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "b. 存储同意详情，包括同意在 GDHCN 上以 IPS 形式与 KSA 官员共享健康记录",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "b. No user input required",
+   "hash": "b3a11985000faf13",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ب. لا يلزم أي إدخال من المستخدم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "b. No se requiere ninguna acción del usuario",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "b. Aucune saisie de l’utilisateur n’est requise",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "b. Ввод данных пользователем не требуется",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "b. 无需用户输入",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Background Information",
+   "hash": "15ce4c93e229846f",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "معلومات أساسية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Información de contexto",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Informations générales",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Справочная информация",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "背景信息",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Card on the home page, FAQ/Awareness on the pilgrimage",
+   "hash": "c129ab87d65bf5ed",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بطاقة في الصفحة الرئيسية، وأسئلة شائعة/توعية بشأن الحج",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tarjeta en la página de inicio, preguntas frecuentes y concienciación sobre la peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Carte sur la page d’accueil, FAQ/sensibilisation sur le pèlerinage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Карточка на главной странице, раздел FAQ/информирования о паломничестве",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "首页卡片，朝觐常见问题（FAQ）/宣传",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Consent, Generating QR and previewing the IPS",
+   "hash": "9a3aaaca98603ee1",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الموافقة، وإنشاء رمز QR، ومعاينة IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Consentimiento, generación del QR y vista previa del IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Consentement, génération du code QR et aperçu de l’IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласие, создание QR-кода и предварительный просмотр IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "同意、生成二维码（QR）并预览 IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Considerations for this Rollout",
+   "hash": "8151e3e10ce2a744",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اعتبارات هذا الطرح",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Consideraciones para este despliegue",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Points à prendre en compte pour ce déploiement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Особенности данного развёртывания",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本次推广的注意事项",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Decode HCert and Extract VHL:",
+   "hash": "8636dad5b019ed85",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "فكّ ترميز HCert واستخراج VHL:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Decodificar el HCert y extraer el VHL:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Décoder le HCert et extraire le VHL :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Декодирование HCert и извлечение VHL:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "解码 HCert 并提取 VHL：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Download and Save IPS:",
+   "hash": "57cdbc267fdf9a45",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تنزيل IPS وحفظه:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Descargar y guardar el IPS:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Télécharger et enregistrer l’IPS :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Загрузка и сохранение IPS:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "下载并保存 IPS：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Embed VHL into HCert:",
+   "hash": "7339ef046ff0cd7c",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تضمين VHL في HCert:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Integrar el VHL en el HCert:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Intégrer le VHL dans le HCert :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Встраивание VHL в HCert:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将 VHL 嵌入 HCert：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Extract COSE Message and Verify Signature:",
+   "hash": "f89a7b28c20fe9ec",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استخراج رسالة COSE والتحقق من التوقيع:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Extraer el mensaje COSE y verificar la firma:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Extraire le message COSE et vérifier la signature :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Извлечение сообщения COSE и проверка подписи:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "提取 COSE 消息并验证签名：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "For Issuance (Malaysia using MySejahtera):",
+   "hash": "d7aa18351b5eb4e3",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "للإصدار (ماليزيا باستخدام MySejahtera):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para la emisión (Malasia, con MySejahtera):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour l’émission (Malaisie, avec MySejahtera) :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для выпуска (Малайзия, с использованием MySejahtera):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发方面（马来西亚使用 MySejahtera）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "For Receiving (Saudi Arabia using Care Ware):",
+   "hash": "be9cef09d98b02bd",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "للاستقبال (المملكة العربية السعودية باستخدام Care Ware):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para la recepción (Arabia Saudita, con Care Ware):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour la réception (Arabie saoudite, avec Care Ware) :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для приёма (Саудовская Аравия, с использованием Care Ware):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接收方面（沙特阿拉伯使用 Care Ware）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Generate CWT:",
+   "hash": "23fd56e42d0f6dfb",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء CWT:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Generar el CWT:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Générer le CWT :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Создание CWT:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "生成 CWT：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Generate Smart Health Link (VHL):",
+   "hash": "9027d33c2ff31f5c",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء رابط صحي ذكي (VHL):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Generar el Smart Health Link (VHL):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Générer le Smart Health Link (VHL) :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Создание Smart Health Link (VHL):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "生成智能健康链接（VHL）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Health Records:",
+   "hash": "14393459d74504c1",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السجلات الصحية:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registros de salud:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dossiers de santé :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинские записи:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康记录：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Issuing Country: Malaysia Issuing Application: MySejahtera",
+   "hash": "889b809abbcc4270",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد المُصدِر: ماليزيا؛ التطبيق المُصدِر: MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País emisor: Malasia. Aplicación emisora: MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays émetteur : Malaisie Application émettrice : MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страна-эмитент: Малайзия Приложение-эмитент: MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发国：马来西亚 签发应用：MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "MySejahtera is the national public health app of Malaysia, developed and managed by the Ministry of Health (MOH), Malaysia. It was initially developed to manage the COVID-19 outbreak, allowing users to perform health self-assessments, monitor their health status, and receive updates and information related to COVID-19.",
+   "hash": "d8104aecc5a65f19",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "MySejahtera هو التطبيق الوطني للصحة العامة في ماليزيا، وقد طوّرته وتديره وزارة الصحة (MOH) في ماليزيا. وقد طُوِّر في الأصل لإدارة فاشية COVID-19، إذ أتاح للمستخدمين إجراء تقييمات ذاتية لصحتهم، ورصد حالتهم الصحية، وتلقّي المستجدات والمعلومات المتعلقة بـ COVID-19.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "MySejahtera es la aplicación nacional de salud pública de Malasia, desarrollada y gestionada por el Ministerio de Salud (MOH) de Malasia. Se desarrolló inicialmente para gestionar el brote de COVID-19 y permitía a los usuarios realizar autoevaluaciones de salud, vigilar su estado de salud y recibir actualizaciones e información relacionadas con la COVID-19.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "MySejahtera est l’application nationale de santé publique de la Malaisie, développée et gérée par le ministère de la Santé (MOH) de Malaisie. Elle a été initialement développée pour gérer l’épidémie de COVID-19, permettant aux utilisateurs d’effectuer des auto-évaluations de leur santé, de suivre leur état de santé et de recevoir des mises à jour et des informations relatives à la COVID-19.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "MySejahtera — национальное приложение общественного здравоохранения Малайзии, разработанное и управляемое Министерством здравоохранения (MOH) Малайзии. Изначально оно было создано для борьбы со вспышкой COVID-19 и позволяло пользователям проводить самооценку состояния здоровья, отслеживать своё состояние здоровья и получать обновления и информацию, связанные с COVID-19.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "MySejahtera 是马来西亚的国家公共卫生应用，由马来西亚卫生部（MOH）开发和管理。它最初是为管理 COVID-19 疫情而开发的，允许用户进行健康自我评估、监测自身健康状况，并接收与 COVID-19 相关的最新动态和信息。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "No time validity will be added to the Smart Health Certificate QR for this year’s Hajj",
+   "hash": "4ecd482a6839c297",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لن تُضاف أي مدة صلاحية زمنية إلى رمز QR لشهادة الصحة الذكية لحج هذا العام",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No se añadirá ningún período de validez al QR de Smart Health Certificate para el Hajj de este año",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucune durée de validité ne sera ajoutée au code QR du Smart Health Certificate pour le Hajj de cette année",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В QR-код сертификата Smart Health Certificate для хаджа этого года не будет добавлен срок действия",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "今年朝觐（Hajj）的智能健康证书二维码（QR）将不设时间有效期",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Now, MySejahtera serves as the digital front door for accessing public healthcare services. MySejahtera has digitalized several national health programs like National Immunization Program (NIP) for children, the National Health Screening Initiative(NHSI), Self-Assessment tools for mental health, covering areas such as anxiety, depression, and suicidal thoughts.",
+   "hash": "c89b888b139cda98",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "واليوم، يؤدي MySejahtera دور البوابة الرقمية للوصول إلى خدمات الرعاية الصحية العامة. وقد رقمن MySejahtera عدة برامج صحية وطنية، مثل البرنامج الوطني للتمنيع (NIP) للأطفال، والمبادرة الوطنية للفحص الصحي (NHSI)، وأدوات التقييم الذاتي للصحة النفسية التي تشمل مجالات مثل القلق والاكتئاب والأفكار الانتحارية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Hoy en día, MySejahtera sirve como puerta de entrada digital para acceder a los servicios públicos de salud. MySejahtera ha digitalizado varios programas nacionales de salud, como el Programa Nacional de Inmunización (NIP) para niños, la Iniciativa Nacional de Tamizaje de Salud (NHSI) y herramientas de autoevaluación de la salud mental que abarcan aspectos como la ansiedad, la depresión y los pensamientos suicidas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aujourd’hui, MySejahtera sert de porte d’entrée numérique pour accéder aux services de santé publics. MySejahtera a numérisé plusieurs programmes nationaux de santé, comme le Programme national de vaccination (NIP) pour les enfants, l’Initiative nationale de dépistage sanitaire (NHSI) et des outils d’auto-évaluation en santé mentale couvrant des domaines tels que l’anxiété, la dépression et les pensées suicidaires.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сегодня MySejahtera служит цифровой «входной дверью» для доступа к государственным медицинским услугам. С помощью MySejahtera оцифрован ряд национальных программ здравоохранения, таких как Национальная программа иммунизации (NIP) для детей, Национальная инициатива по медицинскому скринингу (NHSI), инструменты самооценки психического здоровья, охватывающие такие области, как тревожность, депрессия и суицидальные мысли.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "如今，MySejahtera 是获取公共医疗服务的数字入口。MySejahtera 已将多项国家卫生项目数字化，例如面向儿童的国家免疫规划（NIP）、国家健康筛查计划（NHSI），以及涵盖焦虑、抑郁和自杀念头等领域的心理健康自我评估工具。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Objective",
+   "hash": "c1b79fb0598c0d58",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الهدف",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Objetivo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Objectif",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цель",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目标",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Obtain Consent:",
+   "hash": "eea71c85c02bb673",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحصول على الموافقة:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Obtener el consentimiento:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Obtenir le consentement :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получение согласия:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "获取同意：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Prepare COSE Message:",
+   "hash": "46cf11dfd76954db",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إعداد رسالة COSE:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Preparar el mensaje COSE:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Préparer le message COSE :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подготовка сообщения COSE:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "准备 COSE 消息：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Project Overview",
+   "hash": "5fdffadeaaff3ded",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظرة عامة على المشروع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Descripción general del proyecto",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Présentation du projet",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обзор проекта",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "项目概述",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Receiving Country: Kingdom of Saudi Arabia Receiving Application: Care Ware (EMR)",
+   "hash": "08cecfd20c097d8f",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد المستقبِل: المملكة العربية السعودية؛ التطبيق المستقبِل: Care Ware ‏(EMR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País receptor: Reino de la Arabia Saudita. Aplicación receptora: Care Ware (EMR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays récepteur : Royaume d’Arabie saoudite Application réceptrice : Care Ware (DME)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Принимающая страна: Королевство Саудовская Аравия Принимающее приложение: Care Ware (EMR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接收国：沙特阿拉伯王国 接收应用：Care Ware（电子病历，EMR）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Reference implementation by Malaysia on MySejahtera App",
+   "hash": "3e5b01ecf1060b53",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التنفيذ المرجعي لماليزيا على تطبيق MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Implementación de referencia de Malasia en la aplicación MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Implémentation de référence de la Malaisie sur l’application MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Эталонная реализация Малайзии в приложении MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "马来西亚在 MySejahtera 应用上的参考实现",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Retrieve and Decode VHL Manifest:",
+   "hash": "3882d493ef1ef679",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استرجاع بيان VHL وفكّ ترميزه:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Obtener y decodificar el manifiesto del VHL:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Récupérer et décoder le manifeste VHL :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получение и декодирование манифеста VHL:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索并解码 VHL 清单：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Retrieve IPS:",
+   "hash": "ae47cbfaa6a8152d",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استرجاع IPS:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Obtener el IPS:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Récupérer l’IPS :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получение IPS:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索 IPS：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Scan and Decode QR Code:",
+   "hash": "7f7105df9c69ded3",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسح رمز QR وفكّ ترميزه:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escanear y decodificar el código QR:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanner et décoder le code QR :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сканирование и декодирование QR-кода:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "扫描并解码二维码（QR Code）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Serialize CWT and Generate QR Code:",
+   "hash": "60e11fdb122947f6",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسلسل CWT وإنشاء رمز QR:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Serializar el CWT y generar el código QR:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sérialiser le CWT et générer le code QR :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сериализация CWT и создание QR-кода:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "序列化 CWT 并生成二维码（QR Code）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Set Passcode:",
+   "hash": "2a955926a71088c8",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تعيين رمز المرور:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Establecer el código de acceso:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Définir le code d’accès :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Установка кода доступа:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "设置通行码：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Snapshots from MySejahtera: :  User flow",
+   "hash": "a13cec2c8f4c1f40",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لقطات من MySejahtera: :  مسار المستخدم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Capturas de pantalla de MySejahtera: :  Flujo de usuario",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Captures d’écran de MySejahtera : : parcours utilisateur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Снимки экрана MySejahtera: :  Пользовательский поток",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "MySejahtera 截图：：用户流程",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Standard Passcode and No Time Validity:",
+   "hash": "967dfbd7893b89ae",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز مرور موحَّد ودون مدة صلاحية زمنية:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Código de acceso estándar y sin período de validez:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Code d’accès standard et absence de durée de validité :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Стандартный код доступа и отсутствие срока действия:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "标准通行码且不设时间有效期：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Summary",
+   "hash": "33d2953076ca7aaa",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الملخص",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resumen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résumé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Резюме",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "摘要",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Tabung Haji is the Malaysian Hajj Pilgrims Fund Board, a government-linked financial institution that manages the savings of Muslims in Malaysia intending to perform the Hajj pilgrimage. It provides comprehensive services to pilgrims, including savings schemes, training, logistics, and healthcare services during the Hajj. Tabung Haji works closely with MOH to ensure the well-being of pilgrims, particularly in health-related matters.",
+   "hash": "191648cd9e2d27d9",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Tabung Haji هو مجلس صندوق الحجاج الماليزي، وهو مؤسسة مالية مرتبطة بالحكومة تدير مدخرات المسلمين في ماليزيا الذين يعتزمون أداء فريضة الحج. ويقدّم خدمات شاملة للحجاج، تشمل برامج الادخار والتدريب والخدمات اللوجستية وخدمات الرعاية الصحية خلال الحج. ويعمل Tabung Haji بشكل وثيق مع وزارة الصحة (MOH) لضمان رفاه الحجاج، ولا سيما في المسائل المتعلقة بالصحة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tabung Haji es la Junta del Fondo de Peregrinos del Hajj de Malasia, una institución financiera vinculada al gobierno que gestiona los ahorros de los musulmanes de Malasia que tienen previsto realizar la peregrinación del Hajj. Ofrece servicios integrales a los peregrinos, como planes de ahorro, formación, logística y servicios de atención de salud durante el Hajj. Tabung Haji colabora estrechamente con el MOH para garantizar el bienestar de los peregrinos, en particular en cuestiones relacionadas con la salud.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tabung Haji est le Conseil du fonds des pèlerins du Hajj de Malaisie, une institution financière liée au gouvernement qui gère l’épargne des musulmans de Malaisie souhaitant accomplir le pèlerinage du Hajj. Elle fournit des services complets aux pèlerins, notamment des plans d’épargne, des formations, de la logistique et des services de santé pendant le Hajj. Tabung Haji travaille en étroite collaboration avec le MOH pour assurer le bien-être des pèlerins, en particulier pour les questions de santé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Tabung Haji — Совет фонда малайзийских паломников хаджа, связанное с государством финансовое учреждение, которое управляет сбережениями мусульман Малайзии, намеревающихся совершить паломничество хадж. Он предоставляет паломникам комплексные услуги, включая программы накоплений, обучение, логистику и медицинское обслуживание во время хаджа. Tabung Haji тесно сотрудничает с MOH для обеспечения благополучия паломников, особенно в вопросах, связанных со здоровьем.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Tabung Haji 即马来西亚朝觐基金局，是一家与政府关联的金融机构，负责管理马来西亚有意进行朝觐（Hajj）的穆斯林的储蓄。它为朝觐者提供全面的服务，包括储蓄计划、培训、后勤以及朝觐期间的医疗服务。Tabung Haji 与 MOH 密切合作，确保朝觐者的福祉，特别是在健康相关事务方面。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Hajj Health Examination is a comprehensive medical check-up conducted for Malaysian Hajj pilgrims. This examination is a mandatory requirement to ensure that pilgrims are fit for the journey and to identify any underlying health conditions that need to be managed during the Hajj. The examination includes general health assessments, vaccinations, and screenings for infectious diseases. The data from these examinations are recorded in a FHIR compliant electronic medical record (EMR) system called MyVAS and made accessible to pilgrims instantaneously through the MySejahtera app.",
+   "hash": "cc712ab675d8bb3f",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي للحج هو فحص طبي شامل يُجرى للحجاج الماليزيين. ويُعدّ هذا الفحص شرطًا إلزاميًا لضمان لياقة الحجاج للرحلة وللكشف عن أي حالات صحية كامنة يلزم التعامل معها أثناء الحج. ويشمل الفحص تقييمات صحية عامة، والتطعيمات، والتحرّي عن الأمراض المُعدية. وتُسجَّل بيانات هذه الفحوص في نظام سجل طبي إلكتروني (EMR) متوافق مع FHIR يُسمّى MyVAS، وتُتاح للحجاج فورًا عبر تطبيق MySejahtera.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El Examen de Salud para el Hajj es un chequeo médico completo que se realiza a los peregrinos del Hajj de Malasia. Este examen es un requisito obligatorio para garantizar que los peregrinos estén en condiciones de realizar el viaje y para detectar cualquier afección de salud subyacente que deba gestionarse durante el Hajj. El examen incluye evaluaciones generales de salud, vacunaciones y pruebas de detección de enfermedades infecciosas. Los datos de estos exámenes se registran en un sistema de historia clínica electrónica (EMR) conforme con FHIR llamado MyVAS y se ponen a disposición de los peregrinos de forma instantánea a través de la aplicación MySejahtera.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’examen de santé du Hajj est un bilan médical complet réalisé pour les pèlerins malaisiens du Hajj. Cet examen est une exigence obligatoire visant à garantir que les pèlerins sont aptes au voyage et à repérer toute affection sous-jacente devant être prise en charge pendant le Hajj. L’examen comprend des évaluations générales de santé, des vaccinations et des dépistages de maladies infectieuses. Les données de ces examens sont enregistrées dans un système de dossier médical électronique (DME) conforme à FHIR appelé MyVAS et mises instantanément à la disposition des pèlerins via l’application MySejahtera.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр перед хаджем — это комплексное медицинское обследование, проводимое для малайзийских паломников хаджа. Этот осмотр является обязательным требованием, позволяющим убедиться, что паломники годны к поездке, и выявить сопутствующие заболевания, которые необходимо контролировать во время хаджа. Осмотр включает общую оценку состояния здоровья, вакцинацию и скрининг на инфекционные заболевания. Данные этих осмотров записываются в систему электронных медицинских записей (EMR) MyVAS, соответствующую FHIR, и сразу же становятся доступны паломникам через приложение MySejahtera.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝觐（Hajj）健康检查是为马来西亚朝觐者进行的全面体检。该检查是一项强制性要求，旨在确保朝觐者适合出行，并识别朝觐期间需要管理的任何潜在健康状况。检查包括一般健康评估、疫苗接种以及传染病筛查。这些检查的数据记录在名为 MyVAS 的符合 FHIR 的电子病历（EMR）系统中，并通过 MySejahtera 应用即时提供给朝觐者。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The health records in this implementation are based on the Hajj Pilgrims Health Examination program conducted for Malaysian Hajj pilgrims. These examinations are conducted by the MOH health facilities and empanelled private general practitioners (GPs) by Tabung Haji across Malaysia.",
+   "hash": "d00560f60cf72de6",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تستند السجلات الصحية في هذا التنفيذ إلى برنامج الفحص الصحي للحجاج الذي يُجرى للحجاج الماليزيين. وتُجري هذه الفحوصَ المرافقُ الصحية التابعة لوزارة الصحة (MOH) والممارسون العامون من القطاع الخاص المعتمدون لدى Tabung Haji في جميع أنحاء ماليزيا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los registros de salud de esta implementación se basan en el programa de Examen de Salud de los Peregrinos del Hajj que se realiza a los peregrinos del Hajj de Malasia. Estos exámenes los llevan a cabo los establecimientos de salud del MOH y los médicos generales (GP) privados acreditados por Tabung Haji en toda Malasia.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les dossiers de santé de cette implémentation reposent sur le programme d’examen de santé des pèlerins du Hajj mené pour les pèlerins malaisiens du Hajj. Ces examens sont réalisés par les établissements de santé du MOH et par des médecins généralistes privés agréés par Tabung Haji dans toute la Malaisie.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинские записи в данной реализации основаны на программе медицинских осмотров паломников хаджа, проводимой для малайзийских паломников. Эти осмотры проводятся медицинскими учреждениями MOH и аккредитованными Tabung Haji частными врачами общей практики (GP) по всей Малайзии.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施中的健康记录基于为马来西亚朝觐者开展的朝觐（Hajj）朝觐者健康检查项目。这些检查由马来西亚各地的 MOH 卫生机构以及 Tabung Haji 指定的私人全科医生（GPs）进行。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Ministry of Health Malaysia (MOH) is the government ministry responsible for the health system in Malaysia. MOH is dedicated to improving the health of the population through comprehensive health services, promotion of health awareness, and ensuring access to quality healthcare. The ministry plays a crucial role in implementing health policies, conducting health examinations, and collaborating on international health initiatives.",
+   "hash": "be6f137fce111f7b",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "وزارة الصحة الماليزية (MOH) هي الوزارة الحكومية المسؤولة عن النظام الصحي في ماليزيا. وتكرّس الوزارة جهودها لتحسين صحة السكان من خلال خدمات صحية شاملة، وتعزيز الوعي الصحي، وضمان الوصول إلى رعاية صحية جيدة. وتؤدي الوزارة دورًا محوريًا في تنفيذ السياسات الصحية، وإجراء الفحوص الصحية، والتعاون في المبادرات الصحية الدولية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El Ministerio de Salud de Malasia (MOH) es el ministerio del gobierno responsable del sistema de salud de Malasia. El MOH se dedica a mejorar la salud de la población mediante servicios integrales de salud, la promoción de la concienciación sobre la salud y la garantía del acceso a una atención de salud de calidad. El ministerio desempeña un papel fundamental en la aplicación de las políticas de salud, la realización de exámenes de salud y la colaboración en iniciativas internacionales de salud.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le ministère de la Santé de Malaisie (MOH) est le ministère du gouvernement responsable du système de santé en Malaisie. Le MOH s’emploie à améliorer la santé de la population par des services de santé complets, la promotion de la sensibilisation à la santé et la garantie de l’accès à des soins de qualité. Le ministère joue un rôle essentiel dans la mise en œuvre des politiques de santé, la réalisation des examens de santé et la collaboration aux initiatives internationales de santé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Министерство здравоохранения Малайзии (MOH) — государственное министерство, отвечающее за систему здравоохранения Малайзии. MOH стремится улучшать здоровье населения посредством комплексных медицинских услуг, повышения осведомлённости о здоровье и обеспечения доступа к качественной медицинской помощи. Министерство играет ключевую роль в реализации политики здравоохранения, проведении медицинских осмотров и сотрудничестве в рамках международных инициатив в области здравоохранения.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "马来西亚卫生部（MOH）是负责马来西亚卫生系统的政府部门。MOH 致力于通过全面的卫生服务、提高健康意识以及确保获得优质医疗服务来改善民众健康。该部在实施卫生政策、开展健康检查以及合作推进国际卫生倡议方面发挥着关键作用。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The primary objective of this implementation is to enable Malaysian pilgrims traveling to Saudi Arabia for this year’s Hajj to carry their health records on the MySejahtera app as a Smart Health Certificate QR on the Global Digital Health Certification Network (GDHCN). In the event of an unexpected medical episode, healthcare professionals in Saudi Arabia can scan the QR code, access the medical history, and treat the patients appropriately.",
+   "hash": "746a0d1cf0af09b3",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتمثل الهدف الرئيسي لهذا التنفيذ في تمكين الحجاج الماليزيين المسافرين إلى المملكة العربية السعودية لحج هذا العام من حمل سجلاتهم الصحية على تطبيق MySejahtera في صورة رمز QR لشهادة الصحة الذكية عبر GDHCN ‏(الشبكة العالمية لإصدار الشهادات الصحية الرقمية). وفي حال وقوع حدث طبي غير متوقَّع، يمكن للمهنيين الصحيين في المملكة العربية السعودية مسح رمز QR، والاطلاع على التاريخ الطبي، وعلاج المرضى على النحو المناسب.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El objetivo principal de esta implementación es permitir que los peregrinos de Malasia que viajan a Arabia Saudita para el Hajj de este año lleven sus registros de salud en la aplicación MySejahtera como un QR de Smart Health Certificate en la Red Mundial de Certificación Digital de Salud (GDHCN). En caso de un episodio médico imprevisto, los profesionales de la salud de Arabia Saudita pueden escanear el código QR, acceder a los antecedentes médicos y tratar a los pacientes de forma adecuada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’objectif principal de cette implémentation est de permettre aux pèlerins malaisiens se rendant en Arabie saoudite pour le Hajj de cette année de porter leurs dossiers de santé sur l’application MySejahtera sous la forme d’un code QR Smart Health Certificate sur le Réseau mondial de certification de la santé numérique (GDHCN). En cas d’épisode médical inattendu, les professionnels de santé en Arabie saoudite peuvent scanner le code QR, accéder aux antécédents médicaux et traiter les patients de manière appropriée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Основная цель данной реализации — дать малайзийским паломникам, отправляющимся в Саудовскую Аравию на хадж этого года, возможность иметь при себе свои медицинские записи в приложении MySejahtera в виде QR-кода сертификата Smart Health Certificate в Глобальной сети сертификации в области цифрового здравоохранения ВОЗ (GDHCN). В случае непредвиденного медицинского эпизода медицинские специалисты в Саудовской Аравии могут отсканировать QR-код, получить доступ к истории болезни и надлежащим образом лечить пациентов.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施的主要目标是使前往沙特阿拉伯参加今年朝觐（Hajj）的马来西亚朝觐者能够在 MySejahtera 应用上，以全球数字健康认证网络（GDHCN）上的智能健康证书二维码（QR）形式携带其健康记录。如发生意外医疗情况，沙特阿拉伯的医疗专业人员可以扫描该二维码，访问病史，并对患者进行适当治疗。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This expanded guide should provide a thorough understanding of the project, its stakeholders, and the technical steps involved, making it easier for all parties to implement and utilize the system effectively.",
+   "hash": "fbbf2b2d39c7fb9a",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ينبغي أن يوفّر هذا الدليل الموسَّع فهمًا شاملًا للمشروع وأصحاب المصلحة فيه والخطوات التقنية المعنية، مما ييسّر على جميع الأطراف تنفيذ النظام واستخدامه بفعالية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía ampliada debería proporcionar una comprensión exhaustiva del proyecto, sus partes interesadas y los pasos técnicos que conlleva, de modo que a todas las partes les resulte más fácil implantar y utilizar el sistema de forma eficaz.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide détaillé devrait permettre de bien comprendre le projet, ses parties prenantes et les étapes techniques en jeu, afin de faciliter la mise en œuvre et l’utilisation efficaces du système par toutes les parties.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это расширенное руководство даст полное представление о проекте, его заинтересованных сторонах и связанных с ним технических шагах, облегчая всем сторонам эффективное внедрение и использование системы.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这份扩展指南应能帮助各方透彻了解该项目、其利益相关方以及所涉及的技术步骤，使各方更容易有效地实施和使用该系统。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This implementation guide provides detailed steps and considerations for rolling out the Smart Health Certificate QR system for Malaysian Hajj pilgrims. By leveraging the MySejahtera app, the Ministry of Health Malaysia, and Tabung Haji, this initiative aims to enhance the healthcare experience for pilgrims in Saudi Arabia. The use of standardized health records and QR codes ensures that healthcare providers can quickly access essential medical information, facilitating timely and effective medical care during the Hajj.",
+   "hash": "8754e4e0cfc5d29e",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يقدّم دليل التنفيذ هذا خطوات واعتبارات تفصيلية لطرح نظام رمز QR لشهادة الصحة الذكية للحجاج الماليزيين. ومن خلال الاستفادة من تطبيق MySejahtera ووزارة الصحة الماليزية وTabung Haji، تهدف هذه المبادرة إلى تحسين تجربة الرعاية الصحية للحجاج في المملكة العربية السعودية. ويضمن استخدام السجلات الصحية الموحَّدة ورموز QR تمكّن مقدّمي الرعاية الصحية من الوصول السريع إلى المعلومات الطبية الأساسية، بما ييسّر تقديم رعاية طبية فعّالة وفي الوقت المناسب خلال الحج.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía de implementación ofrece pasos detallados y consideraciones para el despliegue del sistema de QR de Smart Health Certificate para los peregrinos del Hajj de Malasia. Al aprovechar la aplicación MySejahtera, el Ministerio de Salud de Malasia y Tabung Haji, esta iniciativa tiene como objetivo mejorar la experiencia de atención de salud de los peregrinos en Arabia Saudita. El uso de registros de salud y códigos QR normalizados garantiza que los prestadores de atención de salud puedan acceder rápidamente a información médica esencial, lo que facilita una atención médica oportuna y eficaz durante el Hajj.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide d’implémentation présente des étapes détaillées et des points à prendre en compte pour le déploiement du système de code QR Smart Health Certificate pour les pèlerins malaisiens du Hajj. En s’appuyant sur l’application MySejahtera, le ministère de la Santé de Malaisie et Tabung Haji, cette initiative vise à améliorer l’expérience de soins des pèlerins en Arabie saoudite. L’utilisation de dossiers de santé et de codes QR normalisés garantit que les prestataires de soins de santé peuvent accéder rapidement aux informations médicales essentielles, facilitant des soins médicaux rapides et efficaces pendant le Hajj.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Настоящее руководство по внедрению содержит подробные шаги и соображения по развёртыванию системы QR-кодов Smart Health Certificate для малайзийских паломников хаджа. Используя приложение MySejahtera, возможности Министерства здравоохранения Малайзии и Tabung Haji, эта инициатива направлена на улучшение медицинского обслуживания паломников в Саудовской Аравии. Использование стандартизированных медицинских записей и QR-кодов позволяет поставщикам медицинских услуг быстро получать доступ к важнейшей медицинской информации, способствуя своевременному и эффективному оказанию медицинской помощи во время хаджа.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南为面向马来西亚朝觐（Hajj）朝觐者推广智能健康证书二维码（QR）系统提供了详细的步骤和注意事项。通过利用 MySejahtera 应用、马来西亚卫生部和 Tabung Haji，该倡议旨在改善朝觐者在沙特阿拉伯的就医体验。使用标准化的健康记录和二维码，确保医疗服务提供者能够快速获取基本医疗信息，从而在朝觐期间提供及时、有效的医疗护理。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This project in Malaysia is a collaborative effort by the Ministry of Health (MOH), Malaysia, and Tabung Haji (TH). The aim is to ensure that Malaysian Hajj pilgrims have seamless access to their health records during their pilgrimage, providing peace of mind and better healthcare support during their stay in Saudi Arabia.",
+   "hash": "0b615b9769659e09",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا المشروع في ماليزيا جهد تعاوني بين وزارة الصحة (MOH) في ماليزيا وTabung Haji ‏(TH). ويهدف إلى ضمان وصول الحجاج الماليزيين بسلاسة إلى سجلاتهم الصحية أثناء رحلة الحج، بما يوفّر لهم الطمأنينة ودعمًا أفضل للرعاية الصحية خلال إقامتهم في المملكة العربية السعودية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Este proyecto en Malasia es un esfuerzo de colaboración entre el Ministerio de Salud (MOH) de Malasia y Tabung Haji (TH). Su finalidad es garantizar que los peregrinos del Hajj de Malasia tengan un acceso fluido a sus registros de salud durante la peregrinación, lo que les proporciona tranquilidad y un mejor apoyo de atención de salud durante su estancia en Arabia Saudita.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce projet en Malaisie est un effort de collaboration entre le ministère de la Santé (MOH) de Malaisie et Tabung Haji (TH). Il vise à garantir que les pèlerins malaisiens du Hajj disposent d’un accès fluide à leurs dossiers de santé pendant leur pèlerinage, leur offrant une tranquillité d’esprit et un meilleur soutien sanitaire pendant leur séjour en Arabie saoudite.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Этот проект в Малайзии является совместной инициативой Министерства здравоохранения (MOH) Малайзии и Tabung Haji (TH). Его цель — обеспечить малайзийским паломникам хаджа беспрепятственный доступ к их медицинским записям во время паломничества, давая им спокойствие и лучшую медицинскую поддержку во время пребывания в Саудовской Аравии.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "马来西亚的这一项目是马来西亚卫生部（MOH）与 Tabung Haji（TH）的合作成果。其目的是确保马来西亚朝觐（Hajj）朝觐者在朝觐期间能够无缝访问其健康记录，让他们在沙特阿拉伯逗留期间安心并获得更好的医疗支持。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "To facilitate faster check-in at health facilities during the Hajj, the KSA team requested a standard passcode for all Malaysian IPS for Hajj.",
+   "hash": "79a2f6ca58986c40",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لتسهيل تسجيل الدخول بشكل أسرع في المرافق الصحية خلال الحج، طلب فريق المملكة العربية السعودية (KSA) رمز مرور موحَّدًا لجميع ملخصات IPS الماليزية الخاصة بالحج.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para agilizar el registro de entrada en los establecimientos de salud durante el Hajj, el equipo del Reino de la Arabia Saudita (KSA) solicitó un código de acceso estándar para todos los IPS de Malasia para el Hajj.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour faciliter un enregistrement plus rapide dans les établissements de santé pendant le Hajj, l’équipe du KSA a demandé un code d’accès standard pour tous les IPS malaisiens destinés au Hajj.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Чтобы ускорить регистрацию в медицинских учреждениях во время хаджа, команда KSA запросила стандартный код доступа для всех малайзийских IPS на хадж.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "为便于在朝觐（Hajj）期间更快地在卫生机构完成登记，KSA 团队要求为所有马来西亚朝觐 IPS 设置统一的标准通行码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "User Journey and implementation steps:",
+   "hash": "cf150bf0e01ae52a",
+   "sources": [
+    "input/pagecontent/reference-implementations-malaysia.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رحلة المستخدم وخطوات التنفيذ:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recorrido del usuario y pasos de implementación:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parcours utilisateur et étapes de mise en œuvre :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательский путь и шаги внедрения:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户旅程和实施步骤：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

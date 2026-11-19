@@ -1,0 +1,1693 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "workflow-figure",
+ "hashes": {
+  "ar": "b305130060935162",
+  "es": "084e15522c276e4c",
+  "fr": "87faae684a3865bb",
+  "ru": "dec5d6f46d458141",
+  "zh": "d3ebb0909357fd15"
+ },
+ "strings": [
+  {
+   "msgid": "ArchiMate",
+   "hash": "2711fc3c02055aa3",
+   "sources": [
+    "input/includes/workflow-figure.html"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "As drawn",
+   "hash": "4179d209bf80291f",
+   "sources": [
+    "input/includes/workflow-figure.html"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كما رُسم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Como se dibujó",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tel que dessiné",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Как нарисовано",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "原始绘图",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "EMR retrieves IPS from Home country HIE",
+   "hash": "75ece165c446ff3d",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يسترجع EMR ملخص IPS من HIE البلد الأم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El EMR recupera el IPS de la HIE del país de origen",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le DME récupère l'IPS auprès du HIE du pays d'origine",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR получает IPS из HIE страны происхождения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "EMR 从来源国 HIE 获取 IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Health Information Exchange",
+   "hash": "063d29b27ef86a2b",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبادل المعلومات الصحية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Intercambio de información de salud",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Échange d'informations de santé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обмен медицинской информацией",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "卫生信息交换",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Health worker scans IPS QR code in their EMR",
+   "hash": "4fd16e0d3facdf28",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يمسح العامل الصحي رمز QR الخاص بـ IPS في EMR لديه",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El trabajador de salud escanea el código QR del IPS en su EMR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'agent de santé scanne le code QR de l'IPS dans son DME",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медработник сканирует QR-код IPS в своей EMR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "卫生工作者在其 EMR 中扫描 IPS QR 码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Home Country",
+   "hash": "52e8a6b98261e9f7",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد الأم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País de origen",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays d'origine",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страна происхождения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Home Country: the ArchiMate view of these flows",
+   "hash": "5cb6a97f82c0065c",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد الأم: عرض ArchiMate لهذه المسارات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País de origen: la vista ArchiMate de estos flujos",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays d'origine : la vue ArchiMate de ces flux",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страна происхождения: представление ArchiMate этих потоков",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国：这些流程的 ArchiMate 视图",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Host Country",
+   "hash": "e02ec903e7d521de",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد المضيف",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País anfitrión",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays d'accueil",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Принимающая страна",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Host Country EMR",
+   "hash": "58fef803ed96f324",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "EMR البلد المضيف",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "EMR del país anfitrión",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DME du pays d'accueil",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR принимающей страны",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国 EMR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Host Country EMR (IG system actor HCEMR): role host-emr",
+   "hash": "b1194456b4dd1509",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "EMR البلد المضيف (جهة نظام فاعلة في الدليل HCEMR): الدور host-emr",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "EMR del país anfitrión (actor de sistema de la IG HCEMR): rol host-emr",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DME du pays d'accueil (acteur système du guide HCEMR) : rôle host-emr",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR принимающей страны (системный актор руководства HCEMR): роль host-emr",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国 EMR（IG 系统参与者 HCEMR）：角色 host-emr",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Host Country Health Worker",
+   "hash": "cf22e208ac143f48",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العامل الصحي في البلد المضيف",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Trabajador de salud del país anfitrión",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Agent de santé du pays d'accueil",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский работник принимающей страны",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国卫生工作者",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Host Country Health Worker (IG persona): role host-health-worker",
+   "hash": "899f2bfb4869d047",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العامل الصحي في البلد المضيف (شخصية في الدليل): الدور host-health-worker",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Trabajador de salud del país anfitrión (persona de la IG): rol host-health-worker",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Agent de santé du pays d'accueil (persona du guide) : rôle host-health-worker",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский работник принимающей страны (персона руководства): роль host-health-worker",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国卫生工作者（IG 人物角色）：角色 host-health-worker",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Host Country: the ArchiMate view of these flows",
+   "hash": "e67b866c79a5a19b",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد المضيف: عرض ArchiMate لهذه المسارات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País anfitrión: la vista ArchiMate de estos flujos",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays d'accueil : la vue ArchiMate de ces flux",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Принимающая страна: представление ArchiMate этих потоков",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国：这些流程的 ArchiMate 视图",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "IPS generated from patient care history in Home country",
+   "hash": "8ca88bc420d55be3",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُنشأ IPS من سجل رعاية المريض في البلد الأم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "IPS generado a partir del historial de atención del paciente en el país de origen",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "IPS produit à partir de l'historique de soins du patient dans le pays d'origine",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "IPS формируется из истории медицинской помощи пациенту в стране происхождения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "根据来源国患者诊疗史生成的 IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "IPS verification keys published to GDHCN",
+   "hash": "7c26a2d951dd7450",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نشر مفاتيح التحقق من IPS في GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Claves de verificación del IPS publicadas en la GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clés de vérification de l'IPS publiées dans le GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключи проверки IPS опубликованы в GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "IPS 验证密钥发布到 GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Open the ArchiMate view on its own, where each box links to its ArchiMate element",
+   "hash": "779027fc02d09f44",
+   "sources": [
+    "input/includes/workflow-figure.html"
+   ],
+   "locales": {
+    "ar": {
+     "text": "افتح عرض ArchiMate وحده، حيث يرتبط كل مربع بعنصر ArchiMate الخاص به",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Abrir la vista ArchiMate por separado, donde cada recuadro enlaza con su elemento ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ouvrir la vue ArchiMate seule, où chaque case renvoie à son élément ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Открыть представление ArchiMate отдельно, где каждый блок ведёт к своему элементу ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "单独打开 ArchiMate 视图，其中每个方框都链接到其 ArchiMate 元素",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country HIE",
+   "hash": "233df9ae95c4f3e1",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "HIE البلد الأم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "HIE del país de origen",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HIE du pays d'origine",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE страны происхождения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国 HIE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country HIE (IG system actor OCHIE): role origin-hie",
+   "hash": "a22b806e8b2a3fcc",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "HIE البلد الأم (جهة نظام فاعلة في الدليل OCHIE): الدور origin-hie",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "HIE del país de origen (actor de sistema de la IG OCHIE): rol origin-hie",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HIE du pays d'origine (acteur système du guide OCHIE) : rôle origin-hie",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE страны происхождения (системный актор руководства OCHIE): роль origin-hie",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国 HIE（IG 系统参与者 OCHIE）：角色 origin-hie",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country Wallet",
+   "hash": "07f3b7501a36d99c",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "محفظة البلد الأم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Billetera del país de origen",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portefeuille du pays d'origine",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кошелёк страны происхождения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国钱包",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country Wallet (IG system actor OCHW): role origin-wallet",
+   "hash": "f2487ebf82072b59",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "محفظة البلد الأم (جهة نظام فاعلة في الدليل OCHW): الدور origin-wallet",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Billetera del país de origen (actor de sistema de la IG OCHW): rol origin-wallet",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portefeuille du pays d'origine (acteur système du guide OCHW) : rôle origin-wallet",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кошелёк страны происхождения (системный актор руководства OCHW): роль origin-wallet",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国钱包（IG 系统参与者 OCHW）：角色 origin-wallet",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Overview of key process flows",
+   "hash": "e3aeb1e121b66bbd",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظرة عامة على مسارات العمليات الرئيسية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Panorama general de los flujos de proceso clave",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aperçu des principaux flux de processus",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обзор ключевых потоков процессов",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关键流程概览",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Overview of key process flows, ArchiMate view",
+   "hash": "7700bb9e7a32976b",
+   "sources": [
+    "input/includes/workflow-figure.html"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظرة عامة على مسارات العمليات الرئيسية، عرض ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Panorama general de los flujos de proceso clave, vista ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aperçu des principaux flux de processus, vue ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обзор ключевых потоков процессов, представление ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关键流程概览，ArchiMate 视图",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Overview of key process flows, from this guide's <a href=\"en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/\">ArchiMate model</a>. Each picture is a role of the guide (its actor or persona), and each numbered flow is a moment of <a href=\"index.html\">the pilgrim's journey</a>.",
+   "hash": "00a1b0ea57da3e8d",
+   "sources": [
+    "input/includes/workflow-figure.html"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظرة عامة على مسارات العمليات الرئيسية، من <a href=\"en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/\">نموذج ArchiMate</a> لهذا الدليل. كل صورة هي دور في الدليل (جهته الفاعلة أو شخصيته)، وكل مسار مرقّم هو لحظة من <a href=\"index.html\">رحلة الزائر</a>.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Panorama general de los flujos de proceso clave, a partir del <a href=\"en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/\">modelo ArchiMate</a> de esta guía. Cada imagen es un rol de la guía (su actor o persona), y cada flujo numerado es un momento del <a href=\"index.html\">recorrido del peregrino</a>.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aperçu des principaux flux de processus, tiré du <a href=\"en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/\">modèle ArchiMate</a> de ce guide. Chaque image est un rôle du guide (son acteur ou sa persona), et chaque flux numéroté est un moment du <a href=\"index.html\">parcours du pèlerin</a>.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обзор ключевых потоков процессов по <a href=\"en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/\">модели ArchiMate</a> этого руководства. Каждое изображение — роль руководства (его актор или персона), а каждый пронумерованный поток — момент <a href=\"index.html\">пути паломника</a>.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关键流程概览，取自本指南的<a href=\"en/smart-ips-pilgrimage/archimate/2.1.0/view/overview-of-key-process-flows/\">ArchiMate 模型</a>。每个图像是指南中的一个角色（其参与者或人物角色），每个编号流程是<a href=\"index.html\">朝圣者旅程</a>中的一个时刻。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pilgrim",
+   "hash": "317eaeade25b1fc4",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الزائر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Peregrino",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pèlerin",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pilgrim (IG persona): role pilgrim",
+   "hash": "6237846c68a8f39b",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الزائر (شخصية في الدليل): الدور pilgrim",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Peregrino (persona de la IG): rol pilgrim",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pèlerin (persona du guide) : rôle pilgrim",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник (персона руководства): роль pilgrim",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者（IG 人物角色）：角色 pilgrim",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pilgrim configures access to IPS via QR code on national health wallet",
+   "hash": "7c3faa0726d65b63",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يضبط الزائر الوصول إلى IPS عبر رمز QR في المحفظة الصحية الوطنية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El peregrino configura el acceso al IPS mediante un código QR en la billetera sanitaria nacional",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le pèlerin configure l'accès à l'IPS par un code QR dans le portefeuille de santé national",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник настраивает доступ к IPS через QR-код в национальном медицинском кошельке",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者通过国家健康钱包中的 QR 码设置对 IPS 的访问",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pilgrim seeks care and shows IPS QR code to health worker",
+   "hash": "0566864e34c68d44",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يطلب الزائر الرعاية ويُظهر رمز QR الخاص بـ IPS للعامل الصحي",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El peregrino busca atención y muestra el código QR del IPS al trabajador de salud",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le pèlerin cherche des soins et présente le code QR de l'IPS à l'agent de santé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник обращается за медицинской помощью и показывает медработнику QR-код IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者就医并向卫生工作者出示 IPS QR 码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Step 1: its moment of the pilgrim's journey",
+   "hash": "44aad8b94316fac0",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطوة 1: لحظتها من رحلة الزائر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paso 1: su momento del recorrido del peregrino",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étape 1 : son moment du parcours du pèlerin",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шаг 1: его момент пути паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "步骤 1：其在朝圣者旅程中的时刻",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Step 2: its moment of the pilgrim's journey",
+   "hash": "b84820c4812dc282",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطوة 2: لحظتها من رحلة الزائر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paso 2: su momento del recorrido del peregrino",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étape 2 : son moment du parcours du pèlerin",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шаг 2: его момент пути паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "步骤 2：其在朝圣者旅程中的时刻",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Step 3: its moment of the pilgrim's journey",
+   "hash": "15f63e75c87d27ff",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطوة 3: لحظتها من رحلة الزائر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paso 3: su momento del recorrido del peregrino",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étape 3 : son moment du parcours du pèlerin",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шаг 3: его момент пути паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "步骤 3：其在朝圣者旅程中的时刻",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Step 4: its moment of the pilgrim's journey",
+   "hash": "04dc85560a742607",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطوة 4: لحظتها من رحلة الزائر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paso 4: su momento del recorrido del peregrino",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étape 4 : son moment du parcours du pèlerin",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шаг 4: его момент пути паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "步骤 4：其在朝圣者旅程中的时刻",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Step 5: its moment of the pilgrim's journey",
+   "hash": "769958fe8afd639f",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطوة 5: لحظتها من رحلة الزائر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paso 5: su momento del recorrido del peregrino",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étape 5 : son moment du parcours du pèlerin",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шаг 5: его момент пути паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "步骤 5：其在朝圣者旅程中的时刻",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Step A: its moment of the pilgrim's journey",
+   "hash": "786f08458c7907c1",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطوة A: لحظتها من رحلة الزائر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paso A: su momento del recorrido del peregrino",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étape A : son moment du parcours du pèlerin",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шаг A: его момент пути паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "步骤 A：其在朝圣者旅程中的时刻",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Step B: its moment of the pilgrim's journey",
+   "hash": "2ff54802a68ba6a1",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطوة B: لحظتها من رحلة الزائر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paso B: su momento del recorrido del peregrino",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étape B : son moment du parcours du pèlerin",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шаг B: его момент пути паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "步骤 B：其在朝圣者旅程中的时刻",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Transaction consent-wallet (IPS.HAJJ.TRANSACTION)",
+   "hash": "fc5664e645b0f735",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المعاملة consent-wallet (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transacción consent-wallet (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transaction consent-wallet (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция consent-wallet (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "交易 consent-wallet（IPS.HAJJ.TRANSACTION）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Transaction doc-get (IPS.HAJJ.TRANSACTION)",
+   "hash": "16b083070e821861",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المعاملة doc-get (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transacción doc-get (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transaction doc-get (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция doc-get (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "交易 doc-get（IPS.HAJJ.TRANSACTION）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Transaction doc-sign (IPS.HAJJ.TRANSACTION)",
+   "hash": "847e7f31129ff4a3",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المعاملة doc-sign (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transacción doc-sign (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transaction doc-sign (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция doc-sign (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "交易 doc-sign（IPS.HAJJ.TRANSACTION）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Transaction keys-get (IPS.HAJJ.TRANSACTION)",
+   "hash": "08c18beff4f38d6d",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المعاملة keys-get (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transacción keys-get (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transaction keys-get (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция keys-get (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "交易 keys-get（IPS.HAJJ.TRANSACTION）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Transaction keys-put (IPS.HAJJ.TRANSACTION)",
+   "hash": "7af8275dbf163e28",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المعاملة keys-put (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transacción keys-put (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transaction keys-put (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция keys-put (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "交易 keys-put（IPS.HAJJ.TRANSACTION）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Transaction shl-get-manifest (IPS.HAJJ.TRANSACTION)",
+   "hash": "7befb53ca28ba79d",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المعاملة shl-get-manifest (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transacción shl-get-manifest (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transaction shl-get-manifest (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция shl-get-manifest (IPS.HAJJ.TRANSACTION)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "交易 shl-get-manifest（IPS.HAJJ.TRANSACTION）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Verification keys retrieved by EMR to ensure provenance of IPS",
+   "hash": "ddfe78ff9fa5e3e8",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يسترجع EMR مفاتيح التحقق لضمان مصدر IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El EMR recupera las claves de verificación para garantizar la procedencia del IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le DME récupère les clés de vérification pour garantir la provenance de l'IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR получает ключи проверки, чтобы подтвердить происхождение IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "EMR 获取验证密钥以确保 IPS 的来源",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "WHO GDHCN",
+   "hash": "8a9cd2c0492af272",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "GDHCN التابعة لمنظمة الصحة العالمية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "GDHCN de la OMS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "GDHCN de l'OMS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "GDHCN ВОЗ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "WHO GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "WHO GDHCN: role trust-network",
+   "hash": "8706d91d1b1aba0b",
+   "sources": [
+    "input/includes/workflow-pretty.svg"
+   ],
+   "locales": {
+    "ar": {
+     "text": "GDHCN التابعة لمنظمة الصحة العالمية: الدور trust-network",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "GDHCN de la OMS: rol trust-network",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "GDHCN de l'OMS : rôle trust-network",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "GDHCN ВОЗ: роль trust-network",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "WHO GDHCN：角色 trust-network",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

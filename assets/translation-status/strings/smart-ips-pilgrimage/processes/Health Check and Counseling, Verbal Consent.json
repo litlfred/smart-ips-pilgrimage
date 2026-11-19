@@ -1,0 +1,1644 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "processes/Health Check and Counseling, Verbal Consent",
+ "hashes": {
+  "ar": "78f3f8914474b94c",
+  "es": "210a7c34a8888d06",
+  "fr": "7562309ebd40c533",
+  "ru": "87eec8c1eac6b1b9",
+  "zh": "719a4f9285f92b23"
+ },
+ "strings": [
+  {
+   "msgid": "arrive to clinic",
+   "hash": "5eccd324a378e832",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الوصول إلى العيادة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "llegar a la clínica",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "arriver à la clinique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "прибыть в клинику",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "到达诊所",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Conduct health assessment",
+   "hash": "f04a432b9f6155b6",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إجراء التقييم الصحي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Realizar la evaluación de salud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Réaliser l’évaluation de santé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Провести оценку состояния здоровья",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "进行健康评估",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "configure SHL privacy settings on wallet",
+   "hash": "36ec19bb597051f4",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ضبط إعدادات خصوصية SHL في المحفظة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "configurar los ajustes de privacidad del SHL en la billetera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "configurer les paramètres de confidentialité du SHL dans le portefeuille",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "настроить параметры конфиденциальности SHL в кошельке",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在钱包上配置 SHL 隐私设置",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Counsel patient on consent and digital health wallet",
+   "hash": "896f7cb1c0ccea7d",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إرشاد المريض بشأن الموافقة والمحفظة الصحية الرقمية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Asesorar al paciente sobre el consentimiento y la billetera sanitaria digital",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Conseiller le patient sur le consentement et le portefeuille de santé numérique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проконсультировать пациента о согласии и цифровом кошельке медицинских данных",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "就同意和数字健康钱包为患者提供咨询",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Counselor",
+   "hash": "13dd01486ab1ee83",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المستشار",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Asesor",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Conseiller",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Консультант",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "咨询师",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "display SHL",
+   "hash": "d80c2d839c2d272e",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عرض SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "mostrar el SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "afficher le SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "отобразить SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "显示 SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "display SHL configuration form",
+   "hash": "ab8e50c206a1b6e0",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عرض نموذج إعداد SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "mostrar el formulario de configuración del SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "afficher le formulaire de configuration du SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "отобразить форму настройки SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "显示 SHL 配置表单",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Documents the health check and SHL consent and issuance process",
+   "hash": "4e5a026e506f8b3b",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يوثّق عملية الفحص الصحي والموافقة على SHL وإصداره",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Documenta el proceso de control de salud, consentimiento y emisión del SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Documente le processus de bilan de santé, de consentement au SHL et d’émission du SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Описывает процесс медицинского осмотра, получения согласия и выдачи SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录健康检查以及 SHL 同意与签发流程",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "End",
+   "hash": "b0e76e7d1beeb8ae",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النهاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Fin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Fin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Конец",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "结束",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "generate SHL &#38; configure access to IPS via SHL",
+   "hash": "c5c6a5547f5eb328",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء SHL &#38; ضبط الوصول إلى IPS عبر SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "generar el SHL &#38; configurar el acceso al IPS mediante el SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "générer le SHL &#38; configurer l’accès à l’IPS via le SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "сгенерировать SHL &#38; настроить доступ к IPS через SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "生成 SHL 并配置通过 SHL 访问 IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "generate Verifiable SHL",
+   "hash": "472efebcc42d5f75",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء SHL قابل للتحقق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "generar el SHL verificable",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "générer le SHL vérifiable",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "сгенерировать проверяемую SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "生成可验证 SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Health Check and Counseling, Verbal Consent",
+   "hash": "1cb66cc1b79bba90",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي والإرشاد، الموافقة الشفهية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Control de salud y asesoramiento, consentimiento verbal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bilan de santé et conseil, consentement verbal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр и консультирование, устное согласие",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康检查与咨询，口头同意",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Health Check and Issue SHL",
+   "hash": "3f257edb7136ca5a",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي وإصدار SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Control de salud y emisión del SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bilan de santé et émission du SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр и выдача SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康检查并签发 SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Health Check and SHL Issuance, Wallet Consent",
+   "hash": "8441818c1a2091c9",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي وإصدار SHL، الموافقة عبر المحفظة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Control de salud y emisión del SHL, consentimiento en la billetera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bilan de santé et émission du SHL, consentement dans le portefeuille",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр и выдача SHL, согласие в кошельке",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康检查与 SHL 签发，钱包同意",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Human Actor",
+   "hash": "8a744fee15132c34",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جهة فاعلة بشرية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Actor humano",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Acteur humain",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Актор-человек",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "人类参与者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "issue SHL",
+   "hash": "5c918b5a6e2dd3d1",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إصدار SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "emitir el SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "émettre le SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "выдать SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发 SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "leave clinic",
+   "hash": "12ed4329f8dad08d",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مغادرة العيادة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "salir de la clínica",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "quitter la clinique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "покинуть клинику",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离开诊所",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "login to wallet app",
+   "hash": "fda48cb2c3d07b24",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسجيل الدخول إلى تطبيق المحفظة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "iniciar sesión en la aplicación de billetera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "se connecter à l’application de portefeuille",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "войти в приложение кошелька",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "登录钱包应用",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "no",
+   "hash": "8a1993623ee7edec",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "no",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "non",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "нет",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "否",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country HIE",
+   "hash": "233df9ae95c4f3e1",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "HIE بلد المنشأ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "HIE del país de origen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HIE du pays d’origine",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE страны происхождения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国 HIE",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country Wallet",
+   "hash": "07f3b7501a36d99c",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "محفظة بلد المنشأ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Billetera del país de origen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portefeuille du pays d’origine",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кошелёк страны происхождения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国钱包",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pilgrim",
+   "hash": "317eaeade25b1fc4",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الزائر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Peregrino",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pèlerin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "pilgrim provided consent to counselor?",
+   "hash": "0a06c8b8cef184d9",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هل قدّم الزائر موافقته للمستشار؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿el peregrino dio su consentimiento al asesor?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "le pèlerin a-t-il donné son consentement au conseiller ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "паломник дал согласие консультанту?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者是否已向咨询师表示同意？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "process privacy configuration form for SHL",
+   "hash": "d037f568cbac8f18",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "معالجة نموذج إعداد الخصوصية الخاص بـ SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "procesar el formulario de configuración de privacidad del SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "traiter le formulaire de configuration de la confidentialité du SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "обработать форму настройки конфиденциальности для SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "处理 SHL 的隐私配置表单",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "receive SHL privacy configuration",
+   "hash": "ed787f89d946d982",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استلام إعداد خصوصية SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "recibir la configuración de privacidad del SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "recevoir la configuration de confidentialité du SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "получить настройки конфиденциальности SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接收 SHL 隐私配置",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "registration",
+   "hash": "3b6e2e5b29410abf",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التسجيل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "registro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "enregistrement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "регистрация",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "登记",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Review SHL",
+   "hash": "fad652a8aefadb6f",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مراجعة SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Revisar el SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Examiner le SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Просмотреть SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "审阅 SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Start",
+   "hash": "ee95601d4553576d",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البداية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Inicio",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Début",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Начало",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "开始",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "System Actor",
+   "hash": "cb63b3f19de79e9c",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جهة فاعلة نظامية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Actor de sistema",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Acteur système",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Системный актор",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "系统参与者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The pilgrim's origin country's digital health wallet",
+   "hash": "9bf64fddf5ec6985",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المحفظة الصحية الرقمية لبلد منشأ الزائر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La billetera sanitaria digital del país de origen del peregrino",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le portefeuille de santé numérique du pays d’origine du pèlerin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цифровой кошелёк медицинских данных страны происхождения паломника",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者来源国的数字健康钱包",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The pilgrim's origin country's HIE or national system",
+   "hash": "3ea7f07d003eaa35",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منصة HIE أو النظام الوطني لبلد منشأ الزائر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE o sistema nacional del país de origen del peregrino",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE ou le système national du pays d’origine du pèlerin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE или национальная система страны происхождения паломника",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者来源国的 HIE 或国家系统",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This is the documentation for the overall business process - Element documentation",
+   "hash": "66842b5d44d6e02d",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا هو توثيق عملية العمل الإجمالية - توثيق العنصر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta es la documentación del proceso de negocio general: documentación del elemento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Documentation du processus métier global - documentation de l’élément",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это документация для бизнес-процесса в целом — документация элемента",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这是整体业务流程的文档 - 元素文档",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This is the documentation for the overall business process - process documentation",
+   "hash": "e1c6902f09b0bf36",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا هو توثيق عملية العمل الإجمالية - توثيق العملية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta es la documentación del proceso de negocio general: documentación del proceso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Documentation du processus métier global - documentation du processus",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это документация для бизнес-процесса в целом — документация процесса",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这是整体业务流程的文档 - 流程文档",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "yes",
+   "hash": "29bbd53e2c3f4276",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نعم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sí",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "oui",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "да",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "是",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Counselor from origin country supporting pilgrim during inital health screening",
+   "hash": "9edb8fccbe3b7cc4",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مستشار من بلد المنشأ يدعم الزائر خلال الفحص الصحي الأولي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Asesor del país de origen que apoya al peregrino durante el cribado de salud inicial",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Conseiller du pays d’origine accompagnant le pèlerin lors du dépistage sanitaire initial",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Консультант из страны происхождения, оказывающий поддержку паломнику во время первичного медицинского скрининга",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国咨询师，在初次健康筛查期间为朝圣者提供支持",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "inform patient ineligible for pilgrimage",
+   "hash": "cec8785347f7cbc6",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إبلاغ المريض بعدم أهليته للزيارة الدينية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "informar al paciente de que no es elegible para la peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "informer le patient qu’il n’est pas admissible au pèlerinage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "сообщить пациенту, что он не допущен к паломничеству",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "告知患者不符合朝圣条件",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The pilgrim",
+   "hash": "6a2631727586cdab",
+   "sources": [
+    "Check",
+    "Consent.bpmn",
+    "Counseling,",
+    "Verbal",
+    "and",
+    "input/business-processes/Health"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الزائر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El peregrino",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le pèlerin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

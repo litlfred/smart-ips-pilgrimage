@@ -1,0 +1,376 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "user-scenarios/the-pilgrims-hajj",
+ "hashes": {
+  "ar": "514fce952a0b5e39",
+  "es": "6bce3971a73e77c8",
+  "fr": "d7f995deb7a3657a",
+  "ru": "ecd8b200ca5c9471",
+  "zh": "e6aebf7dfce68650"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Cross-Border",
+   "hash": "e3c3ff76ff705b9b",
+   "sources": [
+    "user-scenarios/the-pilgrims-hajj.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عابر للحدود",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transfronterizo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transfrontalier",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Трансграничный",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "跨境",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "This guide's user scenarios told as one pilgrim's story, moment by moment along the overview of key process flows (steps 1–5 and A–B): Kamal, 61, from Tanavu, goes on pilgrimage for the first time. Each moment (P0 to P7) is a sub-journey: who takes part, what happens, what in this guide specifies it, what it does not yet specify, and the policy question it raises. Kamal comes from Onesa and goes on pilgrimage in Taifafeki, two fictional countries; the steps follow the guide's real reference implementation as a policy precedent. Every person is fictional. Told on the guide's home page, input/pagecontent/index.md.",
+   "hash": "828faca0bd8a4de6",
+   "sources": [
+    "user-scenarios/the-pilgrims-hajj.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريوهات المستخدم في هذا الدليل مرويّةً بوصفها قصة زائر ديني واحد، لحظةً بلحظة على امتداد النظرة العامة على تدفقات العمليات الرئيسية (الخطوات 1–5 وA–B): Kamal، البالغ 61 عامًا، من Tanavu، يؤدي الزيارة الدينية للمرة الأولى. وكل لحظة (من P0 إلى P7) هي رحلة فرعية: مَن يشارك فيها، وما الذي يحدث، وما الذي يحدده منها هذا الدليل، وما الذي لا يحدده بعد، وسؤال السياسات الذي تطرحه. يأتي Kamal من Onesa ويؤدي الزيارة الدينية في Taifafeki، وهما بلدان خياليان؛ وتتبع الخطوات التنفيذ المرجعي الحقيقي للدليل بوصفه سابقة على صعيد السياسات. جميع الأشخاص خياليون. مرويّة في الصفحة الرئيسية للدليل، input/pagecontent/index.md.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los escenarios de usuario de esta guía contados como la historia de un peregrino, momento a momento, siguiendo la visión general de los flujos de procesos clave (pasos 1–5 y A–B): Kamal, de 61 años y de Tanavu, va de peregrinación por primera vez. Cada momento (de P0 a P7) es un subrecorrido: quién participa, qué ocurre, qué elemento de esta guía lo especifica, qué aún no especifica y la cuestión de política que plantea. Kamal procede de Onesa y va de peregrinación a Taifafeki, dos países ficticios; los pasos siguen, como precedente de política, la implementación de referencia real de la guía. Todas las personas son ficticias. Contado en la página de inicio de la guía, input/pagecontent/index.md.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les scénarios utilisateur de ce guide racontés comme l'histoire d'un pèlerin, moment par moment, le long de l'aperçu des principaux flux de processus (étapes 1–5 et A–B) : Kamal, 61 ans, de Tanavu, part en pèlerinage pour la première fois. Chaque moment (P0 à P7) est un sous-parcours : qui y prend part, ce qui se passe, ce qui le spécifie dans ce guide, ce qui n'y est pas encore spécifié, et la question de politique qu'il soulève. Kamal vient d'Onesa et part en pèlerinage à Taifafeki, deux pays fictifs ; les étapes suivent l'implémentation de référence réelle du guide comme précédent de politique. Toutes les personnes sont fictives. Raconté sur la page d'accueil du guide, input/pagecontent/index.md.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии этого руководства, изложенные как история одного паломника, момент за моментом по обзору ключевых потоков процессов (шаги 1–5 и A–B): Kamal, 61 год, из Tanavu, впервые отправляется в паломничество. Каждый момент (от P0 до P7) — это отдельный подпуть: кто в нём участвует, что происходит, что в этом руководстве его определяет, что ещё не определено и какой вопрос политики он поднимает. Kamal родом из Onesa и совершает паломничество в Taifafeki — это две вымышленные страны; шаги следуют реальной эталонной реализации руководства как политическому прецеденту. Все люди вымышлены. Изложено на главной странице руководства, input/pagecontent/index.md.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "以一位朝圣者的故事讲述本指南的用户场景，沿着关键流程概览（步骤 1–5 和 A–B）逐个时刻展开：61 岁、来自 Tanavu 的 Kamal 首次参加朝圣。每个时刻（P0 至 P7）都是一个子旅程：谁参与、发生了什么、本指南中由什么对其作出规定、尚未规定什么，以及它所引发的政策问题。Kamal 来自 Onesa，在 Taifafeki 朝圣，这是两个虚构的国家；各步骤以本指南真实的参考实现作为政策先例。所有人物均为虚构。该故事在本指南的首页 input/pagecontent/index.md 中讲述。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "references.label",
+   "msgid": "Overview of key process flows",
+   "hash": "155f5e2c96230aaa",
+   "sources": [
+    "user-scenarios/the-pilgrims-hajj.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظرة عامة على مسارات العمليات الرئيسية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Panorama general de los flujos de proceso clave",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aperçu des principaux flux de processus",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обзор ключевых потоков процессов",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关键流程概览",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "references.label",
+   "msgid": "Reference implementation",
+   "hash": "09d1237d492acbf1",
+   "sources": [
+    "user-scenarios/the-pilgrims-hajj.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التنفيذ المرجعي",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Implementación de referencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Implémentation de référence",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Эталонная реализация",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "参考实现",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "references.label",
+   "msgid": "The pilgrim's journey (guide page)",
+   "hash": "e2a6f95c1c302a0d",
+   "sources": [
+    "user-scenarios/the-pilgrims-hajj.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رحلة الزائر (صفحة الدليل)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El recorrido del peregrino (página de la guía)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le parcours du pèlerin (page du guide)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Путь паломника (страница руководства)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者的旅程（指南页面）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "references.label",
+   "msgid": "User scenarios",
+   "hash": "cc01c72bb0cdcbd7",
+   "sources": [
+    "user-scenarios/the-pilgrims-hajj.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريوهات المستخدم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenarios de usuario",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénarios utilisateur",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户场景",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "The pilgrim's journey",
+   "hash": "96a310002b059559",
+   "sources": [
+    "user-scenarios/the-pilgrims-hajj.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رحلة الزائر الديني",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El recorrido del peregrino",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le parcours du pèlerin",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Путь паломника",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者的旅程",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "One pilgrimage season",
+   "hash": "65c2b69868ba77e3",
+   "sources": [
+    "user-scenarios/the-pilgrims-hajj.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "موسم زيارة دينية واحد",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una temporada de peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une saison de pèlerinage",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Один сезон паломничества",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个朝圣季",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "Onesa and Taifafeki",
+   "hash": "0fd366e631a7f87f",
+   "sources": [
+    "user-scenarios/the-pilgrims-hajj.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa وTaifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa y Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa et Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa и Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 和 Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

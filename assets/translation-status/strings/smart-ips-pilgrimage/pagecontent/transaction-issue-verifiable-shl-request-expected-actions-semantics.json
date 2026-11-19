@@ -1,0 +1,601 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics",
+ "hashes": {
+  "ar": "32013f12e5f216ce",
+  "es": "2fe5b15c3057df55",
+  "fr": "b8fee050c55b3a4b",
+  "ru": "691a5380ec3f7444",
+  "zh": "732611343f4ff691"
+ },
+ "strings": [
+  {
+   "msgid": "Base64urlencoded",
+   "hash": "33af29af882e0a11",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مُرمَّز بـ Base64url",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Codificado en Base64url",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Encodé en Base64url",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кодирование Base64url",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Base64url 编码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Build COSE Payload including the HCERT and sign with private key using Kid",
+   "hash": "325fe34a9b97c5f3",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بناء حمولة COSE التي تتضمن HCERT والتوقيع بالمفتاح الخاص باستخدام Kid",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Construir la carga útil COSE que incluye el HCERT y firmarla con la clave privada usando el Kid",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Construire la charge utile COSE comprenant le HCERT et la signer avec la clé privée au moyen du Kid",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сформировать полезную нагрузку COSE, включающую HCERT, и подписать её закрытым ключом с использованием Kid",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "构建包含 HCERT 的 COSE 载荷，并使用 Kid 对应的私钥签名",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Build CWT with header payload and signature",
+   "hash": "951fb0119a05990d",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بناء CWT يتضمن الترويسة والحمولة والتوقيع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Construir el CWT con el encabezado, la carga útil y la firma",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Construire le CWT avec l'en-tête, la charge utile et la signature",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сформировать CWT с заголовком, полезной нагрузкой и подписью",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "使用头部、载荷和签名构建 CWT",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Build HCERT containing SHL generated in previous step",
+   "hash": "b58584e17cd3b436",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بناء HCERT يتضمن SHL المُولَّد في الخطوة السابقة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Construir el HCERT que contiene el SHL generado en el paso anterior",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Construire le HCERT contenant le SHL généré à l'étape précédente",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сформировать HCERT, содержащий SHL, сгенерированную на предыдущем шаге",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "构建包含上一步所生成 SHL 的 HCERT",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Construct <a0>SHLink Payload</a0>",
+   "hash": "2ff45ebca5e71575",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء <a0>حمولة SHLink</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Construir la <a0>carga útil SHLink</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Construire la <a0>charge utile SHLink</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сформировать <a0>полезную нагрузку SHLink</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "构造<a0>SHLink 载荷</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Establish a location that points to the document references within the folder for the pilgrim in the following syntax: \"{host}/List?_id={folder_id}&_include=List:item\" where 'folder_id' is a unique ID for the folder of health documents for the pilfrim. This shall be used as the Health Link URL within the VHL Payload",
+   "hash": "2dc76949c61a460e",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء موقع يشير إلى مراجع المستندات داخل المجلد الخاص بالزائر وفق الصيغة التالية: «{host}/List?_id={folder_id}&_include=List:item» حيث يمثّل 'folder_id' معرّفًا فريدًا لمجلد المستندات الصحية الخاص بالزائر. ويجب استخدام ذلك بوصفه URL الرابط الصحي ضمن حمولة VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Establecer una ubicación que apunte a las referencias de documentos dentro de la carpeta del peregrino con la sintaxis siguiente: \"{host}/List?_id={folder_id}&_include=List:item\", donde 'folder_id' es un ID único de la carpeta de documentos de salud del peregrino. Esta deberá utilizarse como URL del Health Link dentro de la carga útil del VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Établir un emplacement qui pointe vers les références de documents dans le dossier du pèlerin selon la syntaxe suivante : \"{host}/List?_id={folder_id}&_include=List:item\", où 'folder_id' est un identifiant unique du dossier de documents de santé du pèlerin. Cet emplacement doit être utilisé comme URL du lien de santé dans la charge utile VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Определить адрес, указывающий на ссылки на документы в папке паломника, в следующем синтаксисе: \"{host}/List?_id={folder_id}&_include=List:item\", где 'folder_id' — уникальный идентификатор папки медицинских документов паломника. Этот адрес используется в качестве URL ссылки на медицинские данные (Health Link URL) в полезной нагрузке VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "按以下语法建立一个指向朝圣者文件夹内文档引用的位置：\"{host}/List?_id={folder_id}&_include=List:item\"，其中 'folder_id' 是该朝圣者健康文档文件夹的唯一 ID。它应当（shall）用作 VHL 载荷中的健康链接 URL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Generate QR code",
+   "hash": "1e168384f74ffb86",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "توليد رمز QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Generar el código QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Générer le code QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сгенерировать QR-код",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "生成 QR 码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "IPS document in FHIR or PDF or both",
+   "hash": "51be4e1f8e980593",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مستند IPS بصيغة FHIR أو PDF أو كلتيهما",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Documento IPS en FHIR, en PDF o en ambos formatos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Document IPS en FHIR, en PDF ou les deux",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "документ IPS в формате FHIR, PDF или в обоих форматах",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "FHIR 或 PDF 格式（或两者兼有）的 IPS 文档",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Minified",
+   "hash": "a3d85ae7a0d83ae9",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مُصغَّر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Minificado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Minifiée",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Минификация",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "最小化",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Prefixed with shlink:/",
+   "hash": "10178988c78bd177",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسبوق بالبادئة shlink:/",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Con el prefijo shlink:/",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Préfixée par shlink:/",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавление префикса shlink:/",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "加上前缀 shlink:/",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Serialize the CWT and using Base64",
+   "hash": "29f99ee2107b5859",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سَلسَلة CWT باستخدام Base64",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Serializar el CWT usando Base64",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sérialiser le CWT et utiliser Base64",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сериализовать CWT с использованием Base64",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "序列化 CWT 并使用 Base64 编码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Signed IPS document as DSG jws JSON object for each document included in the folder",
+   "hash": "26eb67b97e9c45bf",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مستند IPS موقَّع بوصفه كائن JSON من نوع DSG jws لكل مستند مدرج في المجلد",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Documento IPS firmado como objeto JSON jws DSG para cada documento incluido en la carpeta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Document IPS signé sous forme d'objet JSON JWS DSG pour chaque document inclus dans le dossier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "подписанный документ IPS в виде JSON-объекта DSG jws для каждого документа, включённого в папку",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已签名的 IPS 文档，即文件夹中所含每个文档对应的 DSG jws JSON 对象",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The <a0>SHL specifications</a0>shall be followed to create a SMART Health Link which is then wrapped in <a1>HCERT structure</a1> and shared as a <a2>CWT structure</a2>, by following the below steps:",
+   "hash": "ac5d98f2e2dee5c9",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجب اتباع <a0>مواصفات SHL</a0> لإنشاء رابط SMART الصحي، الذي يُغلَّف بعد ذلك في <a1>بنية HCERT</a1> ويُشارَك بوصفه <a2>بنية CWT</a2>، باتباع الخطوات أدناه:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se deberán seguir las <a0>especificaciones de SHL</a0>para crear un SMART Health Link, que luego se envuelve en una <a1>estructura HCERT</a1> y se comparte como una <a2>estructura CWT</a2>, siguiendo los pasos que figuran a continuación:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les <a0>spécifications SHL</a0> doivent être suivies pour créer un SMART Health Link qui est ensuite encapsulé dans une <a1>structure HCERT</a1> et partagé sous forme de <a2>structure CWT</a2>, selon les étapes ci-dessous :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для создания SMART Health Link, которая затем помещается в <a1>структуру HCERT</a1> и передаётся в виде <a2>структуры CWT</a2>, следует руководствоваться <a0>спецификациями SHL</a0>, выполнив следующие шаги:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "应当（shall）遵循<a0>SHL 规范</a0>，按以下步骤创建 SMART Health Link，然后将其封装在<a1>HCERT 结构</a1>中，并以<a2>CWT 结构</a2>共享：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The following are the expected actions for the <a0>Origin Country HIE</a0> once it receives the privacy configuration:",
+   "hash": "3979527c6a16e302",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "فيما يلي الإجراءات المتوقعة من <a0>HIE البلد الأم</a0> فور استلامه ضبط الخصوصية:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las siguientes son las acciones previstas para el <a0>HIE del país de origen</a0> una vez que recibe la configuración de privacidad:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les actions attendues du <a0>HIE du pays d'origine</a0> une fois qu'il reçoit la configuration de confidentialité sont les suivantes :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ниже перечислены ожидаемые действия <a0>HIE страны происхождения</a0> после получения настроек конфиденциальности:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "以下是<a0>来源国 HIE</a0> 收到隐私配置后的预期操作：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Origin Country HIE creates a <a0>Folder</a0> for the pilgrim that includes the pilgrim's",
+   "hash": "8fef2eebf4cdf6cd",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ينشئ HIE البلد الأم <a0>مجلدًا</a0> للزائر يتضمن ما يلي الخاص بالزائر:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE del país de origen crea una <a0>carpeta</a0> para el peregrino que incluye su",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE du pays d'origine crée pour le pèlerin un <a0>dossier</a0> qui comprend, pour le pèlerin :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE страны происхождения создаёт для паломника <a0>папку</a0>, которая включает в себя следующие данные паломника:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国 HIE 为朝圣者创建一个<a0>文件夹</a0>，其中包括朝圣者的",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,1498 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "journey-cards",
+ "hashes": {
+  "ar": "b4986182839484a4",
+  "es": "02f89346336b8ac0",
+  "fr": "8a19576c809b7141",
+  "ru": "ddfa9df57d665658",
+  "zh": "1f40b88b551bfcd9"
+ },
+ "strings": [
+  {
+   "msgid": "A GP clinic in Tanavu",
+   "hash": "2b9a645e91b8bedb",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عيادة طبيب عام في Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una consulta de medicina general en Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un cabinet de médecine générale à Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кабинет врача общей практики в Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Tanavu 的一家全科诊所",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A health tent at Toreva",
+   "hash": "28c420125e8671dd",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خيمة صحية في Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una carpa sanitaria en Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une tente sanitaire à Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинская палатка в Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Toreva 的一顶医疗帐篷",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A pilgrimage health facility in Nalemi",
+   "hash": "ea5af907a194a32c",
+   "sources": [
+    "user-scenarios/p3-taken-ill-in-mina.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مرفق صحي للزيارة الدينية في Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un establecimiento de salud de la peregrinación en Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un établissement de santé du pèlerinage à Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинское учреждение для паломников в Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Nalemi 的一家朝圣医疗卫生机构",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "After the season",
+   "hash": "fed74f83f3e7cedf",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بعد الموسم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Después de la temporada",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Après la saison",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "После сезона",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣季之后",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "ArchiMate view",
+   "hash": "5782883e6a01badf",
+   "sources": [
+    "input/scripts/journey-cards.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عرض ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Vista de ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vue ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Представление ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "ArchiMate 视图",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Back home",
+   "hash": "be95d501a900a839",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العودة إلى الوطن",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De vuelta en casa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De retour chez lui",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Снова дома",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "回到家中",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Before anyone travels, Onesa's signing keys and code systems reach the trust network, so a Taifafeki clinic can trust and read an Onesan record months later.",
+   "hash": "a488bf9f3a76bf43",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل أن يسافر أحد، تصل مفاتيح التوقيع وأنظمة الرموز الخاصة بـ Onesa إلى شبكة الثقة، كي تتمكن عيادة في Taifafeki من الوثوق بسجل صادر من Onesa وقراءته بعد أشهر.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Antes de que nadie viaje, las claves de firma y los sistemas de códigos de Onesa llegan a la red de confianza, para que una clínica de Taifafeki pueda confiar en un registro de Onesa y leerlo meses después.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avant que quiconque ne voyage, les clés de signature et les systèmes de codes d'Onesa parviennent au réseau de confiance, afin qu'une clinique de Taifafeki puisse se fier à un dossier d'Onesa et le lire des mois plus tard.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ещё до начала поездок ключи подписи и системы кодов Onesa попадают в сеть доверия, чтобы клиника в Taifafeki могла через несколько месяцев доверять записи из Onesa и прочитать её.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在任何人出行之前，Onesa 的签名密钥和代码系统就已进入信任网络，因此数月后 Taifafeki 的诊所能够信任并读取来自 Onesa 的记录。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Before departure",
+   "hash": "cf2f016963e1e971",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل المغادرة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Antes de la partida",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avant le départ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Перед отъездом",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出发前",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Before the pilgrimage season",
+   "hash": "a74102370f177517",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل موسم الزيارة الدينية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Antes de la temporada de peregrinación",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avant la saison du pèlerinage",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Перед сезоном паломничества",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣季之前",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Before the season — keys and codes are shared",
+   "hash": "e14a0cca3a69a2a4",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل الموسم — تبادُل المفاتيح والرموز",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Antes de la temporada: se comparten claves y códigos",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avant la saison : les clés et les codes sont partagés",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Перед сезоном: обмен ключами и кодами",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣季之前——共享密钥和代码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dizzy in the heat of Nalemi, Kamal is brought to the pilgrimage health facility by Salmah and shows his QR code at registration.",
+   "hash": "f3b0d649c9b6e67c",
+   "sources": [
+    "user-scenarios/p3-taken-ill-in-mina.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يشعر Kamal بالدوار في حرّ Nalemi، فتُحضره Salmah إلى المرفق الصحي للزيارة الدينية، ويُظهر رمز QR الخاص به عند التسجيل.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Salmah lleva a Kamal, mareado por el calor de Nalemi, al establecimiento de salud de la peregrinación, y él muestra su código QR en el registro.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pris de vertiges sous la chaleur de Nalemi, Kamal est conduit par Salmah à l'établissement de santé du pèlerinage et présente son code QR à l'enregistrement.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "У Kamal кружится голова от жары в Nalemi; Salmah приводит его в медицинское учреждение для паломников, и при регистрации он показывает свой QR-код.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 在 Nalemi 的酷热中感到头晕，Salmah 将他送到朝圣医疗卫生机构，他在登记处出示了自己的 QR 码。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "His record is read and he is treated",
+   "hash": "6938404308228070",
+   "sources": [
+    "user-scenarios/p5-record-read-and-treated.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قراءة سجله وتلقّيه العلاج",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se lee su historia clínica y recibe tratamiento",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Son dossier est lu et il est soigné",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его запись прочитана, и он получает лечение",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "读取他的记录并为他治疗",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "His summary is assembled and signed",
+   "hash": "103566b4e39a5af5",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تجميع ملخصه وتوقيعه",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se compone y se firma su resumen",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Son résumé est constitué et signé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его сводка сформирована и подписана",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "汇编并签署他的摘要",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kamal is brought in unconscious with no one to show his code; Dr Hafiz gives his pilgrimage registration number and the facility reaches his summary through it.",
+   "hash": "13e4b053d03b0514",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُحضَر Kamal فاقدًا للوعي ولا أحد يُظهر رمزه؛ فيقدّم الدكتور Hafiz رقم تسجيله في الزيارة الدينية، ويصل المرفق إلى ملخصه من خلاله.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal llega inconsciente y nadie puede mostrar su código; el Dr. Hafiz da su número de registro de peregrinación y el establecimiento accede a su resumen a través de él.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal arrive inconscient et personne ne peut présenter son code ; le Dr Hafiz donne son numéro d'inscription au pèlerinage, grâce auquel l'établissement accède à son résumé.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal доставляют без сознания, и показать его код некому; д-р Hafiz сообщает его регистрационный номер паломника, и по нему учреждение получает доступ к его сводке.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 被送来时已失去意识，没有人能出示他的二维码；Hafiz 医生提供了他的朝圣登记号，机构借此获取了他的摘要。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kamal is found fit to travel, hears who can see his Pilgrimage Health Record and for how long, and agrees on his wallet to share it.",
+   "hash": "65ba7046b2dd9bf6",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُعَدّ Kamal لائقًا للسفر، ويُبلَّغ بمن يمكنه الاطلاع على سجله الصحي للزيارة الدينية ولأي مدة، ويوافق في محفظته على مشاركته.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal es declarado apto para viajar, se le explica quién puede ver su Registro de Salud de Peregrinación y durante cuánto tiempo, y acepta compartirlo en su billetera.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal est jugé apte au voyage, apprend qui peut consulter son Dossier de santé du pèlerinage et pendant combien de temps, et accepte dans son portefeuille de le partager.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal признают годным к поездке; ему объясняют, кто и как долго сможет видеть его медицинскую запись паломника, и он соглашается в своём кошельке поделиться ею.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 经检查适合出行，了解了谁可以查看他的朝圣健康记录以及可查看多久，并在他的钱包中同意共享。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kamal is home and well, but his GP does not know he was treated in Nalemi.",
+   "hash": "375ee9602363b0e2",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عاد Kamal إلى وطنه وهو بخير، لكن طبيبه العام لا يعلم أنه تلقّى العلاج في Nalemi.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal está en casa y bien, pero su médico de cabecera no sabe que lo trataron en Nalemi.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal est rentré chez lui et va bien, mais son médecin généraliste ne sait pas qu'il a été soigné à Nalemi.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal дома и здоров, но его врач общей практики не знает, что его лечили в Nalemi.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 已回到家中，身体康复，但他的全科医生并不知道他曾在 Nalemi 接受治疗。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kamal, 61, falls ill in Nalemi on his first pilgrimage, and a Taifafeki doctor reads his medicines and allergies from his Onesan health summary, checked as genuine through WHO GDHCN.",
+   "hash": "bd1c352dc3b83e58",
+   "sources": [
+    "workshops/pilgrim-policy-questions.workshop.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يمرض Kamal، البالغ من العمر 61 عامًا، في Nalemi خلال أول زيارة دينية له، فيقرأ طبيب من Taifafeki أدويته وحالات الحساسية لديه من ملخصه الصحي الصادر من Onesa، بعد التحقق من صحته عبر GDHCN التابعة لمنظمة الصحة العالمية (WHO).",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal, de 61 años, enferma en Nalemi durante su primera peregrinación, y un médico de Taifafeki lee sus medicamentos y alergias en su resumen de salud de Onesa, cuya autenticidad se verifica a través de la GDHCN de la OMS.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal, 61 ans, tombe malade à Nalemi lors de son premier pèlerinage, et un médecin de Taifafeki lit ses médicaments et ses allergies dans son résumé de santé d'Onesa, dont l'authenticité est vérifiée via le GDHCN de l'OMS.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal, 61 год, заболевает в Nalemi во время своего первого паломничества, и врач из Taifafeki узнаёт о его лекарствах и аллергиях из его медицинской сводки из Onesa, подлинность которой проверена через GDHCN ВОЗ.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "61 岁的 Kamal 在第一次朝圣期间于 Nalemi 患病，一名 Taifafeki 医生从他来自 Onesa 的健康摘要中读取了他的用药和过敏信息，该摘要已通过 WHO GDHCN 核验为真实可信。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Lomaru and WHO GDHCN",
+   "hash": "58b8c3c82be1f90e",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Lomaru وGDHCN التابعة لمنظمة الصحة العالمية (WHO)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lomaru y la GDHCN de la OMS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lomaru et le GDHCN de l'OMS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Lomaru и GDHCN ВОЗ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Lomaru 和 WHO GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Nurse Reem scans the code and enters the passcode; the EMR checks the signature with Onesa's key from GDHCN.",
+   "hash": "ca2cfad802fff267",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تمسح الممرضة Reem الرمز وتُدخل رمز المرور؛ ويتحقق EMR من التوقيع بمفتاح Onesa المأخوذ من GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La enfermera Reem escanea el código e introduce el código de acceso; el EMR verifica la firma con la clave de Onesa obtenida de la GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'infirmière Reem scanne le code et saisit le code d'accès ; le DME vérifie la signature avec la clé d'Onesa obtenue auprès du GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра Reem сканирует код и вводит код доступа; EMR проверяет подпись ключом Onesa из GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "护士 Reem 扫描二维码并输入通行码；EMR 使用从 GDHCN 获取的 Onesa 密钥核验签名。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "One pilgrim and the people around him, eight moments, one pilgrimage season. Follow the people first; the technology is what makes each hand-off possible.",
+   "hash": "f00473df70d5490f",
+   "sources": [
+    "workshops/pilgrim-policy-questions.workshop.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "زائر واحد والأشخاص من حوله، ثماني لحظات، موسم زيارة دينية واحد. تابِع الأشخاص أولًا؛ فالتقنية هي ما يجعل كل عملية تسليم ممكنة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un peregrino y las personas que lo rodean, ocho momentos, una temporada de peregrinación. Siga primero a las personas; la tecnología es lo que hace posible cada traspaso.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un pèlerin et son entourage, huit moments, une saison de pèlerinage. Suivez d'abord les personnes ; la technologie est ce qui rend chaque passage de relais possible.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Один паломник и люди вокруг него, восемь моментов, один сезон паломничества. Сначала следите за людьми; именно технологии делают возможной каждую передачу.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一位朝圣者和他身边的人，八个时刻，一个朝圣季。先关注人；技术让每一次交接成为可能。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Onesa's HIE turns Kamal's care history into a signed patient summary and puts the link to it in his wallet as a QR code.",
+   "hash": "be7cb5d5633ccdd0",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تحوّل منصة HIE في Onesa تاريخ رعاية Kamal إلى ملخص مريض موقَّع، وتضع الرابط إليه في محفظته على هيئة رمز QR.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La HIE de Onesa convierte el historial de atención de Kamal en un resumen del paciente firmado y coloca el enlace en su billetera como código QR.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa transforme l'historique de soins de Kamal en un résumé patient signé et place le lien vers celui-ci dans son portefeuille sous forme de code QR.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa превращает историю медицинской помощи Kamal в подписанную сводку пациента и помещает ссылку на неё в его кошелёк в виде QR-кода.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE 将 Kamal 的诊疗史转换为签名的患者摘要，并以 QR 码的形式将其链接放入他的钱包。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Onesa's HIE; Kamal's home",
+   "hash": "92b92aa69cd4e847",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منصة HIE في Onesa؛ منزل Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La HIE de Onesa; el hogar de Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa ; le domicile de Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa; дом Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE；Kamal 的家",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Overview, people and policy questions",
+   "hash": "35f9dcabb6df3b2d",
+   "sources": [
+    "input/scripts/journey-cards.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظرة عامة، والأشخاص، وأسئلة السياسات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Panorama general, personas y preguntas de política",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vue d'ensemble, personnes et questions de politique",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обзор, участники и вопросы политики",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "概览、人物和政策问题",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Registration, pilgrimage health facility, Nalemi",
+   "hash": "8593e50987eff28e",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التسجيل، المرفق الصحي للزيارة الدينية، Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registro, establecimiento de salud de la peregrinación, Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistrement, établissement de santé du pèlerinage, Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Регистрация, медицинское учреждение для паломников, Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "登记处，朝圣医疗卫生机构，Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Scanned and checked",
+   "hash": "b8dd2fa89bd4bd05",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المسح والتحقق",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escaneado y verificado",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanné et vérifié",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Отсканировано и проверено",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "扫描并核验",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Second day in Nalemi",
+   "hash": "02ae177965748acf",
+   "sources": [
+    "user-scenarios/p3-taken-ill-in-mina.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اليوم الثاني في Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Segundo día en Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Deuxième jour à Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Второй день в Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Nalemi 的第二天",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "See the whole journey map",
+   "hash": "0415d8db03fe99be",
+   "sources": [
+    "input/scripts/journey-cards.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اطّلع على خريطة الرحلة كاملة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ver el mapa completo del recorrido",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Voir la carte complète du parcours",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Посмотреть всю карту пути",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "查看完整的旅程地图",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Start the walkthrough",
+   "hash": "5e86fa9bae135260",
+   "sources": [
+    "input/scripts/journey-cards.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ابدأ الجولة خطوة بخطوة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Iniciar el recorrido guiado",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Commencer la visite guidée",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Начать пошаговый обзор",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "开始逐步浏览",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Taken ill in Nalemi",
+   "hash": "4d910db46fe15916",
+   "sources": [
+    "user-scenarios/p3-taken-ill-in-mina.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المرض في Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Enfermo en Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Malade à Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Заболел в Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Nalemi 患病",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The day of Toreva",
+   "hash": "3ae4fd149a739c60",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يوم Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El día de Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le jour de Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "День Toreva",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Toreva 之日",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The EMR retrieves Kamal's summary from Onesa; Dr Faisal sees the insulin and the penicillin allergy before he treats him.",
+   "hash": "1d6f93c85482f26a",
+   "sources": [
+    "user-scenarios/p5-record-read-and-treated.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يسترجع EMR ملخص Kamal من Onesa؛ فيرى الدكتور Faisal الأنسولين والحساسية من البنسلين قبل أن يعالجه.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El EMR recupera el resumen de Kamal desde Onesa; el Dr. Faisal ve la insulina y la alergia a la penicilina antes de tratarlo.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le DME récupère le résumé de Kamal auprès d'Onesa ; le Dr Faisal voit l'insuline et l'allergie à la pénicilline avant de le soigner.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR получает сводку Kamal из Onesa; д-р Faisal видит инсулин и аллергию на пенициллин, прежде чем начать лечение.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "EMR 从 Onesa 获取 Kamal 的摘要；Faisal 医生在治疗前看到了胰岛素和青霉素过敏信息。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The health check and the choice to share",
+   "hash": "567970375a13f5e9",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي وقرار المشاركة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El control de salud y la decisión de compartir",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le bilan de santé et le choix de partager",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр и решение поделиться данными",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康检查与共享选择",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The story in one sentence",
+   "hash": "a79f04d04d4a9929",
+   "sources": [
+    "input/scripts/journey-cards.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "القصة في جملة واحدة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La historia en una frase",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'histoire en une phrase",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "История в одном предложении",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一句话讲述的故事",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Three months before the pilgrimage",
+   "hash": "b3e4e24a91c7b5b3",
+   "sources": [
+    "user-scenarios/p1-health-check-and-consent.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل الزيارة الدينية بثلاثة أشهر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tres meses antes de la peregrinación",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Trois mois avant le pèlerinage",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "За три месяца до паломничества",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣前三个月",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Treatment bay, pilgrimage health facility, Nalemi",
+   "hash": "f70c1ccb822bd01f",
+   "sources": [
+    "user-scenarios/p5-record-read-and-treated.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حجرة العلاج، المرفق الصحي للزيارة الدينية، Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Zona de tratamiento, establecimiento de salud de la peregrinación, Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Salle de soins, établissement de santé du pèlerinage, Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Процедурная, медицинское учреждение для паломников, Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "治疗区，朝圣医疗卫生机构，Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Walk through it",
+   "hash": "8665f41d5427b5be",
+   "sources": [
+    "input/scripts/journey-cards.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استعرضها خطوة بخطوة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recorrerlo paso a paso",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le parcourir pas à pas",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пройти по шагам",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "逐步浏览",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Walk through this moment",
+   "hash": "0eff0f8622f11af5",
+   "sources": [
+    "input/scripts/journey-cards.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استعرض هذه اللحظة خطوة بخطوة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recorrer este momento paso a paso",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parcourir ce moment pas à pas",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пройти этот момент по шагам",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "逐步浏览这一时刻",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "When he cannot show the code (break the glass)",
+   "hash": "1c69720479c7d292",
+   "sources": [
+    "user-scenarios/p6-break-the-glass.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حين لا يستطيع إظهار الرمز (كسر الزجاج)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cuando no puede mostrar el código (acceso de emergencia, «romper el cristal»)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Quand il ne peut pas présenter le code (bris de glace)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Когда он не может показать код (экстренный доступ, «разбить стекло»)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "当他无法出示二维码时（紧急破例访问）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

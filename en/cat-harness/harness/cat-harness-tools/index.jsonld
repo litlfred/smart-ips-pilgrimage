@@ -24,7 +24,7 @@
     "additionalProperty": {
       "@type": "PropertyValue",
       "name": "pinnedCommit",
-      "value": "8dbf8023d8563ea023be0d8c153f7a0d39e888c0"
+      "value": "e5b7b181b65f3073461788d7f270c23552177763"
     }
   },
   "isPartOf": {
@@ -32,9 +32,9 @@
     "name": "SMART Verifiable IPS for Pilgrimage"
   },
   "significantLink": [
-    "https://litlfred.github.io/folio-assistant/#harness-cat-harness-tools",
-    "https://github.com/litlfred/cat-harness-tools/tree/8dbf8023d8563ea023be0d8c153f7a0d39e888c0",
-    "https://github.com/litlfred/cat-harness-tools/blob/8dbf8023d8563ea023be0d8c153f7a0d39e888c0/README.md",
-    "https://github.com/litlfred/cat-harness-tools/blob/8dbf8023d8563ea023be0d8c153f7a0d39e888c0/AGENTS.md"
+    "https://litlfred.github.io/folio-assistant/cat-harness-tools/",
+    "https://github.com/litlfred/cat-harness-tools/tree/e5b7b181b65f3073461788d7f270c23552177763",
+    "https://github.com/litlfred/cat-harness-tools/blob/e5b7b181b65f3073461788d7f270c23552177763/README.md",
+    "https://github.com/litlfred/cat-harness-tools/blob/e5b7b181b65f3073461788d7f270c23552177763/AGENTS.md"
   ]
 }

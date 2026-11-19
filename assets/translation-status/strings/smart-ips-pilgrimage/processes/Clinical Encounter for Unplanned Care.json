@@ -1,0 +1,1564 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "processes/Clinical Encounter for Unplanned Care",
+ "hashes": {
+  "ar": "64f544ad90109a6b",
+  "es": "70edac515dc58e9f",
+  "fr": "930c7b40e56b58cb",
+  "ru": "683aefe7890f6ab8",
+  "zh": "ca2ea6552c7bb61a"
+ },
+ "strings": [
+  {
+   "msgid": "arrive to clinic at host country",
+   "hash": "c7a720ca3d3460ec",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الوصول إلى العيادة في البلد المضيف",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "llegar a la clínica en el país anfitrión",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "arriver à la clinique dans le pays d'accueil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "прибыть в клинику в принимающей стране",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "到达东道国诊所",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Bar Code Scanner",
+   "hash": "bfefbd86788c5b93",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ماسح الرموز الشريطية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lector de códigos de barras",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lecteur de codes-barres",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сканер штрихкодов",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "条码扫描器",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Clinical Encounter for Unplanned Care",
+   "hash": "8693552a186bc01d",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لقاء سريري لرعاية غير مخطط لها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Encuentro clínico para atención no programada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Consultation clinique pour soins non planifiés",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клинический приём при незапланированной медицинской помощи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "计划外照护临床就诊",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "display health document",
+   "hash": "5fb5f95b0f7da0cb",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عرض المستند الصحي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "mostrar el documento de salud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "afficher le document de santé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "отобразить медицинский документ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "显示健康文档",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Documents the health check and SHL consent and issuance process",
+   "hash": "4e5a026e506f8b3b",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يوثّق عملية الفحص الصحي والموافقة على SHL وإصداره",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Documenta el proceso de control de salud y de consentimiento y emisión del SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Documente le bilan de santé ainsi que le processus de consentement et d'émission du SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Описывает процесс медицинского осмотра, получения согласия и выдачи SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录健康检查以及 SHL 同意和签发流程",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "End",
+   "hash": "b0e76e7d1beeb8ae",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النهاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Fin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Fin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Конец",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "结束",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Health Check and Issue SHL",
+   "hash": "3f257edb7136ca5a",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي وإصدار SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Control de salud y emisión del SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bilan de santé et émission du SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр и выдача SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康检查并签发 SHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Health Check and SHL Issuance, Wallet Consent",
+   "hash": "8441818c1a2091c9",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفحص الصحي وإصدار SHL، الموافقة عبر المحفظة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Control de salud y emisión del SHL, consentimiento en la billetera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bilan de santé et émission du SHL, consentement sur le portefeuille",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский осмотр и выдача SHL, согласие в кошельке",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康检查和 SHL 签发，钱包同意",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Host Country EMR",
+   "hash": "58fef803ed96f324",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "EMR البلد المضيف",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "EMR del país anfitrión",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DME du pays d'accueil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR принимающей страны",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国 EMR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Host Country Health Worker",
+   "hash": "cf22e208ac143f48",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العامل الصحي في البلد المضيف",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Trabajador de salud del país anfitrión",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Agent de santé du pays d'accueil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский работник принимающей страны",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国卫生工作者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Human Actor",
+   "hash": "8a744fee15132c34",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جهة فاعلة بشرية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Actor humano",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Acteur humain",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Актор-человек",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "人类参与者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "leave clinic",
+   "hash": "12ed4329f8dad08d",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مغادرة العيادة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "salir de la clínica",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "quitter la clinique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "покинуть клинику",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离开诊所",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "loads QR code image",
+   "hash": "53e48edb8a10df17",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يحمّل صورة رمز QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "carga la imagen del código QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "charge l'image du code QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "загружает изображение QR-кода",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "加载 QR 码图像",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country Health Wallet",
+   "hash": "0fc9892de3786a35",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المحفظة الصحية للبلد الأم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Billetera sanitaria del país de origen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portefeuille de santé du pays d'origine",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кошелёк медицинских данных страны происхождения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国健康钱包",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country HIE",
+   "hash": "233df9ae95c4f3e1",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "HIE البلد الأم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "HIE del país de origen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HIE du pays d'origine",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE страны происхождения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国 HIE",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pilgrim",
+   "hash": "317eaeade25b1fc4",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الزائر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Peregrino",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pèlerin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "provide care",
+   "hash": "b4eefcce61454ba3",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تقديم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "prestar atención",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "dispenser les soins",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "оказать медицинскую помощь",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "提供照护",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "receive health document (IPS) request",
+   "hash": "5f307b154f46d36a",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استلام طلب المستند الصحي (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "recibir la solicitud del documento de salud (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "recevoir la requête de document de santé (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "получить запрос медицинского документа (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接收健康文档（IPS）请求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "registration",
+   "hash": "3b6e2e5b29410abf",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التسجيل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "registro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "enregistrement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "регистрация",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "登记",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "retrieve health document (IPS) request",
+   "hash": "2c6d6a0f41549b17",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طلب استرجاع المستند الصحي (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "solicitud de recuperación del documento de salud (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "requête de récupération du document de santé (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "запрос на получение медицинского документа (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索健康文档（IPS）请求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Retrieve serialized CWT",
+   "hash": "bec5bbfdbc391801",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استرجاع CWT المُسلسَل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recuperar el CWT serializado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Récupérer le CWT sérialisé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получить сериализованный CWT",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索序列化的 CWT",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "save a local copy of health document",
+   "hash": "91b11fa344e3cd2a",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حفظ نسخة محلية من المستند الصحي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "guardar una copia local del documento de salud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "enregistrer une copie locale du document de santé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "сохранить локальную копию медицинского документа",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "保存健康文档的本地副本",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Scan QR code image",
+   "hash": "acfbbc66df70f845",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسح صورة رمز QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escanear la imagen del código QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanner l'image du code QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сканировать изображение QR-кода",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "扫描 QR 码图像",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "send IPS document",
+   "hash": "23577246716ff7c7",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إرسال مستند IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "enviar el documento IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "envoyer le document IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "отправить документ IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "发送 IPS 文档",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Shows QR image on health wallet app",
+   "hash": "9e7e9f357ba7a943",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يعرض صورة QR في تطبيق المحفظة الصحية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Muestra la imagen QR en la aplicación de billetera sanitaria",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Affiche l'image QR dans l'application de portefeuille de santé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Показывает QR-изображение в приложении кошелька медицинских данных",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在健康钱包应用上显示 QR 图像",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Start",
+   "hash": "ee95601d4553576d",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البداية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Inicio",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Début",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Начало",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "开始",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "System Actor",
+   "hash": "cb63b3f19de79e9c",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جهة فاعلة نظامية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Actor de sistema",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Acteur système",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Системный актор",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "系统参与者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The pilgrim's origin country's digital health wallet",
+   "hash": "9bf64fddf5ec6985",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المحفظة الصحية الرقمية للبلد الأم للزائر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La billetera sanitaria digital del país de origen del peregrino",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le portefeuille de santé numérique du pays d'origine du pèlerin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цифровой кошелёк медицинских данных страны происхождения паломника",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者来源国的数字健康钱包",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This is the documentation for the overall business process - Element documentation",
+   "hash": "66842b5d44d6e02d",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا هو توثيق عملية العمل الشاملة - توثيق العنصر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta es la documentación del proceso de negocio general - documentación del elemento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ceci est la documentation du processus métier global - documentation de l'élément",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это документация для бизнес-процесса в целом — документация элемента",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这是整体业务流程的文档——元素文档",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This is the documentation for the overall business process - process documentation",
+   "hash": "e1c6902f09b0bf36",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا هو توثيق عملية العمل الشاملة - توثيق العملية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta es la documentación del proceso de negocio general - documentación del proceso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ceci est la documentation du processus métier global - documentation du processus",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это документация для бизнес-процесса в целом — документация процесса",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这是整体业务流程的文档——流程文档",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "update local record of care",
+   "hash": "3d38a97746066a5d",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تحديث السجل المحلي للرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "actualizar el registro local de la atención",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "mettre à jour le dossier local des soins",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "обновить локальную запись об оказанной помощи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "更新本地照护记录",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "uses bar code scanner",
+   "hash": "9b5c6f38edafc7e3",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يستخدم ماسح الرموز الشريطية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "usa el lector de códigos de barras",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "utilise le lecteur de codes-barres",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "использует сканер штрихкодов",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "使用条码扫描器",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "verify health document (IPS) signature",
+   "hash": "635ff192457bad4d",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التحقق من توقيع المستند الصحي (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "verificar la firma del documento de salud (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "vérifier la signature du document de santé (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "проверить подпись медицинского документа (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "验证健康文档（IPS）签名",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "verify QR code signature",
+   "hash": "9bf7bca299742df4",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التحقق من توقيع رمز QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "verificar la firma del código QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "vérifier la signature du code QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "проверить подпись QR-кода",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "验证 QR 码签名",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Counselor from origin country supporting pilgrim during inital health screening",
+   "hash": "9edb8fccbe3b7cc4",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مرشد من بلد المنشأ يدعم الزائر خلال الفحص الصحي الأولي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Asesor del país de origen que apoya al peregrino durante el cribado de salud inicial",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Conseiller du pays d'origine accompagnant le pèlerin lors du dépistage sanitaire initial",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Консультант из страны происхождения, оказывающий поддержку паломнику во время первичного медицинского скрининга",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国咨询师，在初次健康筛查期间为朝圣者提供支持",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The pilgrim",
+   "hash": "6a2631727586cdab",
+   "sources": [
+    "Care.bpmn",
+    "Encounter",
+    "Unplanned",
+    "for",
+    "input/business-processes/Clinical"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الزائر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El peregrino",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le pèlerin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/reference-implementations",
+ "hashes": {
+  "ar": "36a8e9e65251b8ed",
+  "es": "a2fe2a816007e1c0",
+  "fr": "c0181caab742100d",
+  "ru": "97bf71b0783807ee",
+  "zh": "3807166f000d18a9"
+ },
+ "strings": [
+  {
+   "msgid": "More details on the implementation can be read here.",
+   "hash": "06a37cdfc28e0577",
+   "sources": [
+    "input/pagecontent/reference-implementations.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يمكن الاطلاع على مزيد من التفاصيل عن التنفيذ هنا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Puede consultar más detalles sobre la implementación aquí.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vous trouverez ici davantage de détails sur l'implémentation.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подробнее о реализации можно прочитать здесь.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "有关该实现的更多详情可在此处阅读。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "MySejahtera is the national public health app of Malaysia, developed and managed by the Ministry of Health (MOH), Malaysia. As part of the IPS Pilgrimage initiative, the Ministry of Health (MOH), Malaysia, and Tabung Haji (The Malaysian Hajj Pilgrims Fund Board), have collaborated to enable Malaysian pilgrims traveling to Saudi Arabia for this year’s Hajj to carry their health records on the MySejahtera app as a Smart Health Certificate QR on the Global Digital Health Certification Network (GDHCN). In the event of an unexpected medical episode, healthcare professionals in Saudi Arabia can scan the QR code, access the medical history, and treat the patients appropriately.",
+   "hash": "2acc5502796c0b82",
+   "sources": [
+    "input/pagecontent/reference-implementations.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "MySejahtera هو التطبيق الوطني للصحة العامة في ماليزيا، وقد طوّرته وتديره وزارة الصحة (MOH) في ماليزيا. وفي إطار مبادرة IPS Pilgrimage، تعاونت وزارة الصحة (MOH) في ماليزيا وTabung Haji (صندوق الحجاج الماليزي) لتمكين الحجاج الماليزيين المسافرين إلى المملكة العربية السعودية لأداء حج هذا العام من حمل سجلاتهم الصحية على تطبيق MySejahtera في صورة رمز QR لشهادة صحية ذكية على الشبكة العالمية لإصدار الشهادات الصحية الرقمية (GDHCN). وفي حال حدوث عارض طبي غير متوقع، يمكن لمهنيي الرعاية الصحية في المملكة العربية السعودية مسح رمز QR، والوصول إلى التاريخ الطبي، وعلاج المرضى على النحو المناسب.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "MySejahtera es la aplicación nacional de salud pública de Malasia, desarrollada y gestionada por el Ministerio de Salud (MOH) de Malasia. En el marco de la iniciativa IPS Pilgrimage, el Ministerio de Salud (MOH) de Malasia y Tabung Haji (la Junta del Fondo de Peregrinos del Hajj de Malasia) han colaborado para que los peregrinos malasios que viajan a la Arabia Saudita para el Hajj de este año puedan llevar sus registros de salud en la aplicación MySejahtera como un código QR Smart Health Certificate en la Red Mundial de Certificación Digital de Salud (GDHCN). En caso de un episodio médico imprevisto, los profesionales de la salud de la Arabia Saudita pueden escanear el código QR, acceder a la historia clínica y tratar a los pacientes de forma adecuada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "MySejahtera est l'application nationale de santé publique de la Malaisie, développée et gérée par le ministère de la Santé (MOH) de la Malaisie. Dans le cadre de l'initiative IPS Pilgrimage, le ministère de la Santé (MOH) de la Malaisie et Tabung Haji (le Conseil du Fonds des pèlerins du Hajj de Malaisie) ont collaboré pour permettre aux pèlerins malaisiens se rendant en Arabie saoudite pour le Hajj de cette année de porter leurs dossiers de santé dans l'application MySejahtera sous la forme d'un QR de certificat de santé SMART sur le Réseau mondial de certification de la santé numérique (GDHCN). En cas d'épisode médical imprévu, les professionnels de santé en Arabie saoudite peuvent scanner le code QR, accéder aux antécédents médicaux et traiter les patients de manière appropriée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "MySejahtera — национальное приложение общественного здравоохранения Малайзии, разработанное и управляемое Министерством здравоохранения (MOH) Малайзии. В рамках инициативы IPS Pilgrimage Министерство здравоохранения (MOH) Малайзии и Tabung Haji (Совет фонда малайзийских паломников хаджа) совместно обеспечили возможность для малайзийских паломников, направляющихся в Саудовскую Аравию для хаджа в этом году, иметь при себе свои медицинские записи в приложении MySejahtera в виде QR-кода Smart Health Certificate в Глобальной сети сертификации в области цифрового здравоохранения ВОЗ (GDHCN). В случае непредвиденного медицинского эпизода медицинские специалисты в Саудовской Аравии могут отсканировать QR-код, получить доступ к истории болезни и оказать пациентам надлежащую помощь.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "MySejahtera 是马来西亚的国家公共卫生应用程序，由马来西亚卫生部（MOH）开发和管理。作为 IPS Pilgrimage 倡议的一部分，马来西亚卫生部（MOH）与 Tabung Haji（马来西亚朝觐基金局）合作，使前往沙特阿拉伯参加今年朝觐（Hajj）的马来西亚朝觐者能够在 MySejahtera 应用程序上以 Smart Health Certificate QR 码的形式，在全球数字健康认证网络（GDHCN）上携带其健康记录。如发生意外医疗事件，沙特阿拉伯的医疗专业人员可以扫描二维码，访问病史，并对患者进行适当治疗。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Reference applications",
+   "hash": "fe431acf79bceb1d",
+   "sources": [
+    "input/pagecontent/reference-implementations.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التطبيقات المرجعية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aplicaciones de referencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Applications de référence",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Эталонные приложения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "参考应用程序",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Reference architecture",
+   "hash": "41456070dcfdd816",
+   "sources": [
+    "input/pagecontent/reference-implementations.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البنية المرجعية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Arquitectura de referencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Architecture de référence",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Эталонная архитектура",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "参考架构",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Reference implementation by Malaysia on MySejahtera App",
+   "hash": "3e5b01ecf1060b53",
+   "sources": [
+    "input/pagecontent/reference-implementations.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التنفيذ المرجعي لماليزيا على تطبيق MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Implementación de referencia de Malasia en la aplicación MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Implémentation de référence de la Malaisie dans l'application MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Эталонная реализация Малайзии в приложении MySejahtera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "马来西亚在 MySejahtera 应用程序上的参考实现",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This page includes sample reference implementation that can be leveraged to support the implementation of SMART Guidelines for IPS during Pilgrimage. Content here is solely for demonstration purposes only.",
+   "hash": "765415bbab00f0ef",
+   "sources": [
+    "input/pagecontent/reference-implementations.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتضمن هذه الصفحة نموذجًا لتنفيذ مرجعي يمكن الاستفادة منه لدعم تنفيذ إرشادات SMART الخاصة بـ IPS أثناء الحج. والمحتوى هنا مخصص لأغراض العرض التوضيحي فقط.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta página incluye un ejemplo de implementación de referencia que puede aprovecharse para apoyar la implementación de las SMART Guidelines para el IPS durante la peregrinación. El contenido de esta página tiene fines exclusivamente demostrativos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page présente un exemple d'implémentation de référence qui peut être exploité pour appuyer la mise en œuvre des lignes directrices SMART pour l'IPS pendant le pèlerinage. Le contenu présenté ici est uniquement destiné à des fins de démonstration.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице приведён пример эталонной реализации, который можно использовать для поддержки внедрения руководящих принципов SMART для IPS во время паломничества. Представленное здесь содержимое предназначено исключительно для демонстрационных целей.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页包含可用于支持朝觐期间 IPS 的 SMART 指南实施的参考实现示例。此处内容仅用于演示目的。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

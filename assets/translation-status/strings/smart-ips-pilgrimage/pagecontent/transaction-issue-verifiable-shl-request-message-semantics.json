@@ -1,0 +1,250 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-issue-verifiable-shl-request-message-semantics",
+ "hashes": {
+  "ar": "73dd932ec525b96a",
+  "es": "6458801502290cf0",
+  "fr": "2558a1a154695e1a",
+  "ru": "0b39d50ee941b423",
+  "zh": "322df9659a0aa9b1"
+ },
+ "strings": [
+  {
+   "msgid": "expiration time",
+   "hash": "2551fe79b592c2ac",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "وقت انتهاء الصلاحية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "hora de vencimiento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "délai d'expiration",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "срок действия",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "过期时间",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "flag for Passcode",
+   "hash": "5a484a1018c87b24",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مؤشر رمز المرور",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "indicador de código de acceso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "indicateur de code d'accès",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "флаг кода доступа",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通行码标志",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Message Semantics Request",
+   "hash": "6599bbc2f6aa3a09",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "دلالات رسالة الطلب",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Semántica del mensaje de solicitud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sémantique des messages – requête",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщения: запрос",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "消息语义：请求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Message Semantics Response",
+   "hash": "f4895c0190d30675",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "دلالات رسالة الاستجابة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Semántica del mensaje de respuesta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sémantique des messages – réponse",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщения: ответ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "消息语义：响应",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The issue VHL Request - Response shall include a serialized CWT via a QR Code Image as specified in the Expected Actions section.",
+   "hash": "0855e45908a0eaad",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجب أن تتضمن استجابة طلب إصدار VHL قيمة CWT مُسلسَلة عبر صورة رمز QR، كما هو محدد في قسم الإجراءات المتوقعة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La respuesta a la solicitud de emisión del VHL deberá incluir un CWT serializado mediante una imagen de código QR, según se especifica en la sección Acciones previstas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La réponse à la requête issue VHL doit inclure un CWT sérialisé sous la forme d'une image de code QR, comme spécifié dans la section Expected Actions.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ответ на запрос на выпуск VHL должен включать сериализованный CWT в виде изображения QR-кода, как указано в разделе «Ожидаемые действия».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发 VHL 请求的响应应当包含一个通过 QR 码图像承载的序列化 CWT，具体如“预期操作”一节所规定。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The message semantics for issue VHL Request shall include parameters that are required to construct a <a0>SMART Health Link Payload</a0>, specifically",
+   "hash": "5064703cee854aaa",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجب أن تتضمن دلالات الرسالة لطلب إصدار VHL المعاملات اللازمة لإنشاء <a0>حمولة رابط SMART الصحي</a0>، وتحديدًا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La semántica del mensaje de la solicitud de emisión del VHL deberá incluir los parámetros necesarios para construir una <a0>carga útil de SMART Health Link</a0>, en concreto",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La sémantique des messages de la requête issue VHL doit inclure les paramètres nécessaires à la construction d'une <a0>SMART Health Link Payload</a0>, à savoir",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщения запроса на выпуск VHL должна включать параметры, необходимые для формирования <a0>полезной нагрузки SMART Health Link</a0>, а именно",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发 VHL 请求的消息语义应当包含构建 <a0>SMART Health Link 载荷</a0>所需的参数，具体为",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

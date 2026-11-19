@@ -1,0 +1,2395 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/index",
+ "hashes": {
+  "ar": "bce6a5244fa19bb0",
+  "es": "d4fbe98c457c2e83",
+  "fr": "4c7d4067bf4eaccc",
+  "ru": "1da24d4a6ad47bb6",
+  "zh": "afad7357aaf972f8"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>CPG ActivityDefinitions</a0>",
+   "hash": "93ff8cc515d92d59",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>CPG ActivityDefinitions</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>ActivityDefinitions de CPG</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>ActivityDefinitions CPG</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>CPG ActivityDefinitions</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>CPG ActivityDefinitions</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>IPS Immunization</a0>",
+   "hash": "6b6880c354d85f01",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>IPS Immunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Immunization de IPS</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>IPS Immunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>IPS Immunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>IPS 免疫接种（Immunization）</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>IPS Patient</a0>",
+   "hash": "abe50f8075bb100c",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>IPS Patient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Patient de IPS</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>IPS Patient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>IPS Patient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>IPS 患者（Patient）</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>MHD Folder</a0>",
+   "hash": "df342e9d5040bfe9",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>MHD Folder</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Carpeta MHD</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>MHD Folder</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>MHD Folder</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>MHD 文件夹（Folder）</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A complete offline copy of this implementation guide can be found on the <a0>Downloads</a0> page.",
+   "hash": "e506822780e0bc81",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يمكن العثور على نسخة كاملة غير متصلة من دليل التنفيذ هذا في صفحة <a0>التنزيلات</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En la página de <a0>Descargas</a0> se encuentra una copia completa sin conexión de esta guía de implementación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une copie hors ligne complète de ce guide d'implémentation est disponible sur la page <a0>Téléchargements</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Полную автономную копию этого руководства по внедрению можно найти на странице <a0>Загрузки</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南的完整离线副本可在<a0>下载</a0>页面获取。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Business Requirements - contains the requirements for this implementation guide including the definition of key concepts, use cases, and a data dictionary.",
+   "hash": "d5f2cb853cc57bf2",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "متطلبات العمل - تتضمن متطلبات دليل التنفيذ هذا، بما في ذلك تعريف المفاهيم الرئيسية وحالات الاستخدام وقاموس البيانات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos empresariales: contiene los requisitos de esta guía de implementación, incluida la definición de los conceptos clave, los casos de uso y un diccionario de datos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences métier : contient les exigences de ce guide d'implémentation, notamment la définition des concepts clés, les cas d'utilisation et un dictionnaire de données.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Бизнес-требования — содержит требования для данного руководства по внедрению, включая определения ключевых концепций, варианты использования и словарь данных.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "业务需求 - 包含本实施指南的需求，包括关键概念的定义、用例和数据字典。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Data Models and Exchange - contains the data models and data exchange protocols with actors and transactions defined.",
+   "hash": "800e78ba3e1481e4",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نماذج البيانات وتبادلها - تتضمن نماذج البيانات وبروتوكولات تبادل البيانات مع تعريف الجهات الفاعلة والمعاملات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Modelos de datos e intercambio: contiene los modelos de datos y los protocolos de intercambio de datos, con los actores y las transacciones definidos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Modèles de données et échange : contient les modèles de données et les protocoles d'échange de données, avec la définition des acteurs et des transactions.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Модели данных и обмен — содержит модели данных и протоколы обмена данными с определёнными акторами и транзакциями.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据模型与交换 - 包含数据模型和数据交换协议，并定义了参与者和事务。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Deployment Guidance  - contains relevant technical specifications and guidance, testing resources, reference implementation materials, and supporting guidance for adaptation to local contexts.",
+   "hash": "ff6366ee961e3093",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إرشادات النشر - تتضمن المواصفات والإرشادات التقنية ذات الصلة، وموارد الاختبار، ومواد التنفيذ المرجعي، والإرشادات الداعمة للتكييف مع السياقات المحلية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Orientaciones para el despliegue: contiene las especificaciones técnicas y orientaciones pertinentes, recursos de prueba, materiales de la implementación de referencia y orientaciones de apoyo para la adaptación a los contextos locales.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Orientations pour le déploiement : contient les spécifications techniques et orientations pertinentes, les ressources de test, les éléments d'implémentation de référence et des orientations complémentaires pour l'adaptation aux contextes locaux.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Руководство по развёртыванию — содержит соответствующие технические спецификации и рекомендации, ресурсы для тестирования, материалы эталонной реализации и вспомогательные рекомендации по адаптации к местным условиям.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "部署指导  - 包含相关技术规范和指导、测试资源、参考实现材料，以及用于适应本地情境的支持性指导。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Eligible Participants may request to join through the The Letter of Application",
+   "hash": "2c3d0d8762371f8c",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجوز للمشاركين المؤهَّلين طلب الانضمام عبر خطاب الطلب",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los participantes que reúnan los requisitos pueden solicitar su incorporación mediante la Carta de solicitud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les participants admissibles peuvent demander à adhérer au moyen de la lettre de candidature",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Правомочные участники могут подать запрос на присоединение посредством Письма-заявки",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "合格参与方可以通过申请函（The Letter of Application）请求加入",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "For a complete listing of the artifacts defined in this implementation guide, refer to the <a0>Artifact Index</a0>.",
+   "hash": "09c4cb43e6bbe131",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "للاطلاع على قائمة كاملة بالمكوّنات المعرَّفة في دليل التنفيذ هذا، يُرجى الرجوع إلى <a0>فهرس المكوّنات</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para obtener una lista completa de los artefactos definidos en esta guía de implementación, consulte el <a0>Índice de artefactos</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour une liste complète des artefacts définis dans ce guide d'implémentation, consultez l'<a0>index des artefacts</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Полный перечень артефактов, определённых в этом руководстве по внедрению, см. в <a0>Указателе артефактов</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "有关本实施指南中定义的所有制品的完整列表，请参阅<a0>制品索引</a0>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Home - contains references to the guidance, guidelines, policies and recommendations underpinning this implementation guide.",
+   "hash": "2515a7ba684d11f7",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الصفحة الرئيسية - تتضمن مراجع إلى الإرشادات والمبادئ التوجيهية والسياسات والتوصيات التي يستند إليها دليل التنفيذ هذا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Inicio: contiene referencias a las orientaciones, directrices, políticas y recomendaciones en las que se basa esta guía de implementación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Accueil : contient les références aux orientations, lignes directrices, politiques et recommandations qui sous-tendent ce guide d'implémentation.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Главная — содержит ссылки на руководства, руководящие принципы, политики и рекомендации, лежащие в основе этого руководства по внедрению.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "首页 - 包含本实施指南所依据的指导、指南、政策和建议的参考资料。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Supporting guidance, recommendations, resources, and standards are included in the Bibliography and Dependencies.",
+   "hash": "ce92183eacf4deee",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُدرَج الإرشادات والتوصيات والموارد والمعايير الداعمة في قائمة المراجع والتبعيات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las orientaciones, recomendaciones, recursos y normas de apoyo se incluyen en la Bibliografía y en las Dependencias.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les orientations, recommandations, ressources et normes complémentaires figurent dans la bibliographie et les dépendances.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вспомогательные руководства, рекомендации, ресурсы и стандарты приведены в разделах «Библиография» и «Зависимости».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "支持性指导、建议、资源和标准收录于参考文献和依赖项中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The guide is part of the WHO SMART Guidelines approach to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology.",
+   "hash": "7ec5cc789b49a9ce",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُعدّ هذا الدليل جزءًا من نهج إرشادات SMART لمنظمة الصحة العالمية (WHO) لدعم البلدان في دمج توصيات منظمة الصحة العالمية العالمية بشأن الصحة والبيانات في الأنظمة الرقمية بدقة واتساق. ويعرّف سلسلة من موارد FHIR وملفات التعريف (Profiles) والامتدادات والمصطلحات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La guía forma parte del enfoque de las SMART Guidelines (Directrices SMART de la OMS), cuyo fin es ayudar a los países a integrar con exactitud y coherencia las recomendaciones mundiales de la OMS sobre salud y datos en los sistemas digitales. Define una serie de recursos, perfiles, extensiones y terminología de FHIR.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide s'inscrit dans l'approche des lignes directrices SMART de l'OMS visant à aider les pays à intégrer de manière exacte et cohérente les recommandations mondiales de l'OMS en matière de santé et de données dans les systèmes numériques. Il définit une série de ressources, profils, extensions et terminologies FHIR.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Руководство является частью подхода «руководящие принципы SMART ВОЗ» (WHO SMART Guidelines), призванного помочь странам точно и последовательно интегрировать глобальные рекомендации ВОЗ в области здравоохранения и данных в цифровые системы. В нём определяется ряд ресурсов, профилей, расширений и терминологии FHIR.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本指南是世卫组织（WHO）SMART 指南方法的一部分，旨在支持各国将世卫组织全球卫生和数据建议准确、一致地纳入数字系统。它定义了一系列 FHIR 资源、规范（Profile）、扩展和术语。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This guide assumes use of the following resources:",
+   "hash": "565aa45867b7a7bb",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يفترض هذا الدليل استخدام الموارد التالية:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía presupone el uso de los siguientes recursos:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide suppose l'utilisation des ressources suivantes :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Настоящее руководство предполагает использование следующих ресурсов:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本指南假定使用以下资源：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This guide utilizes the <a0>International Patient Summary(IPS)</a0> as a base for defining immunizations and expects that most data captured will be presented in conformance with the resources defined as part of that implementation guide.",
+   "hash": "e7fd6e4acb1d302a",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يستخدم هذا الدليل <a0>ملخص المريض الدولي (IPS)</a0> أساسًا لتعريف التمنيعات، ويتوقع أن تُعرَض معظم البيانات المُجمَّعة بما يتوافق مع الموارد المعرَّفة ضمن دليل التنفيذ ذلك.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía utiliza el <a0>Resumen Internacional del Paciente (IPS)</a0> como base para definir las inmunizaciones y espera que la mayoría de los datos recopilados se presenten de conformidad con los recursos definidos en esa guía de implementación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide utilise le <a0>résumé international du patient (IPS)</a0> comme base pour définir les vaccinations et prévoit que la plupart des données saisies seront présentées conformément aux ressources définies dans le guide d'implémentation de l'IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В настоящем руководстве в качестве основы для определения иммунизаций используется <a0>Международная сводка о пациенте (IPS)</a0>, и ожидается, что бо́льшая часть собираемых данных будет представлена в соответствии с ресурсами, определёнными в рамках этого руководства по внедрению.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本指南以<a0>国际患者摘要（IPS）</a0>为基础来定义免疫接种，并期望所采集的大多数数据将以符合该实施指南所定义资源的方式呈现。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This implementation guide and set of artifacts are still undergoing development.",
+   "hash": "37117e4ea69adf44",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يزال دليل التنفيذ هذا ومجموعة مكوّناته قيد التطوير.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía de implementación y el conjunto de artefactos siguen en desarrollo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide d'implémentation et cet ensemble d'artefacts sont encore en cours d'élaboration.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это руководство по внедрению и набор артефактов всё ещё находятся в стадии разработки.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南及其制品集仍在开发中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This implementation guide includes a machine-readable representation of WHO guidelines for verifiable IPS during pilgrimage. It explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of IPS during pilgrimage usage scenario.  This Implementation Guide leverages the WHO Global Digital Health Certification Network (GDHCN).",
+   "hash": "a17bc03ba105509f",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتضمن دليل التنفيذ هذا تمثيلًا قابلًا للقراءة آليًا لإرشادات منظمة الصحة العالمية (WHO) بشأن ملخص IPS القابل للتحقق أثناء الزيارة الدينية. ويرمّز صراحةً منطقًا قابلًا للتشغيل البيني حاسوبيًا، بما في ذلك نماذج البيانات والمصطلحات وتعبيرات المنطق، بلغة قابلة للحوسبة لدعم تنفيذ سيناريو استخدام IPS أثناء الزيارة الدينية. ويستفيد دليل التنفيذ هذا من GDHCN ‏(الشبكة العالمية لإصدار الشهادات الصحية الرقمية) التابعة لمنظمة الصحة العالمية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía de implementación incluye una representación legible por máquina de las directrices de la OMS para el IPS verificable durante la peregrinación. Codifica explícitamente una lógica interoperable por computadora, que incluye modelos de datos, terminologías y expresiones lógicas, en un lenguaje computable para apoyar la implementación del escenario de uso del IPS durante la peregrinación.  Esta guía de implementación aprovecha la Red Mundial de Certificación Digital de Salud (GDHCN) de la OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide d'implémentation comprend une représentation lisible par machine des lignes directrices de l'OMS relatives à l'IPS vérifiable pendant le pèlerinage. Il code explicitement une logique interopérable par ordinateur, notamment des modèles de données, des terminologies et des expressions logiques, dans un langage calculable afin de soutenir la mise en œuvre du scénario d'utilisation de l'IPS pendant le pèlerinage.  Ce guide d'implémentation s'appuie sur le Réseau mondial de certification de la santé numérique (GDHCN) de l'OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Настоящее руководство по внедрению содержит машиночитаемое представление руководящих принципов ВОЗ для проверяемой IPS во время паломничества. В нём в явном виде закодирована компьютерно-совместимая логика, включая модели данных, терминологии и логические выражения, на вычислимом языке для поддержки внедрения IPS в сценарии использования во время паломничества. Настоящее руководство по внедрению опирается на Глобальную сеть сертификации в области цифрового здравоохранения ВОЗ (GDHCN).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南包含世卫组织（WHO）关于朝圣期间可验证 IPS 的指南的机器可读表示。它以可计算语言明确编码了计算机可互操作的逻辑，包括数据模型、术语和逻辑表达式，以支持在朝圣使用场景中实施 IPS。 本实施指南利用了世卫组织（WHO）全球数字健康认证网络（GDHCN）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This implementation guide is broken into the following levels of <a0>knowledge representation</a0>:",
+   "hash": "b00b89ce75a08055",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ينقسم دليل التنفيذ هذا إلى المستويات التالية من <a0>تمثيل المعرفة</a0>:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía de implementación se divide en los siguientes niveles de <a0>representación del conocimiento</a0>:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide d'implémentation est divisé selon les niveaux de <a0>représentation des connaissances</a0> suivants :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Настоящее руководство по внедрению разделено на следующие уровни <a0>представления знаний</a0>:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南分为以下几个<a0>知识表示</a0>层级：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This Implementation Guide makes use of <a0>Clinical Quality Language</a0> for the decision support artifacts including the PlanDefinitions and Measures. They are used to express how a calculation should occur and can be used with a CQL engine in order to process the decision or indicator directly from the applicable FHIR resources. Links to this specification, the FHIR Clinical Practice Guidelines Specification, and other helpful resources can be found in the Support dropdown.",
+   "hash": "9c8a85fdd863ba0c",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يستخدم دليل التنفيذ هذا <a0>لغة الجودة السريرية (Clinical Quality Language)</a0> لمكوّنات دعم القرار، بما في ذلك PlanDefinitions وMeasures. وتُستخدم للتعبير عن كيفية إجراء الحساب، ويمكن استخدامها مع محرك CQL لمعالجة القرار أو المؤشر مباشرةً من موارد FHIR المعنية. ويمكن العثور على روابط إلى هذه المواصفة، ومواصفة الإرشادات السريرية للممارسة في FHIR، وموارد مفيدة أخرى في القائمة المنسدلة «الدعم».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía de implementación utiliza <a0>Clinical Quality Language</a0> para los artefactos de apoyo a la decisión, incluidos los PlanDefinitions y los Measures. Se utilizan para expresar cómo debería realizarse un cálculo y pueden utilizarse con un motor CQL para procesar la decisión o el indicador directamente a partir de los recursos FHIR aplicables. Los enlaces a esta especificación, a la especificación FHIR Clinical Practice Guidelines y a otros recursos útiles se encuentran en el menú desplegable Support.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide d'implémentation utilise le <a0>Clinical Quality Language</a0> pour les artefacts d'aide à la décision, notamment les PlanDefinitions et les Measures. Ceux-ci servent à exprimer la manière dont un calcul devrait être effectué et peuvent être utilisés avec un moteur CQL afin de traiter la décision ou l'indicateur directement à partir des ressources FHIR applicables. Des liens vers cette spécification, la spécification FHIR Clinical Practice Guidelines et d'autres ressources utiles sont disponibles dans le menu déroulant Support.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В настоящем руководстве по внедрению используется <a0>Clinical Quality Language</a0> для артефактов поддержки принятия решений, включая PlanDefinitions и Measures. Они используются для описания того, как следует выполнять расчёт, и могут применяться с движком CQL для обработки решения или индикатора непосредственно на основе соответствующих ресурсов FHIR. Ссылки на эту спецификацию, спецификацию FHIR Clinical Practice Guidelines и другие полезные ресурсы можно найти в раскрывающемся меню «Support».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南在决策支持制品（包括 PlanDefinitions 和 Measures）中使用<a0>临床质量语言（Clinical Quality Language）</a0>。它们用于表达计算应如何进行，并可配合 CQL 引擎使用，从而直接基于适用的 FHIR 资源处理决策或指标。本规范、FHIR 临床实践指南规范（FHIR Clinical Practice Guidelines Specification）以及其他有用资源的链接可在“支持（Support）”下拉菜单中找到。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Accompanying Clinician from Origin Country</a0>",
+   "hash": "52974077e642e868",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الممارس السريري المرافق من بلد المنشأ</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Médico acompañante del país de origen</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Clinicien accompagnateur du pays d'origine</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Сопровождающий врач из страны происхождения</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>来源国随行临床医生</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Counsellor</a0>",
+   "hash": "5893510bfda09d1c",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>المستشار</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Asesor</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Conseiller</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Консультант</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>咨询师</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Host Country Health Worker</a0>",
+   "hash": "d4280e958b3c32b4",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>العامل الصحي في البلد المضيف</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Trabajador de salud del país anfitrión</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Agent de santé du pays d'accueil</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Медицинский работник принимающей страны</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>东道国卫生工作者</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Pilgrim</a0>",
+   "hash": "b807a5f1fe4816ad",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الزائر</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Peregrino</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Pèlerin</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Паломник</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>朝圣者</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "61, from Tanavu, Onesa, going on pilgrimage for the first time. Has type 2 diabetes and high blood pressure; takes insulin and two tablets a day; allergic to penicillin. Carries one phone.",
+   "hash": "36647c1d8ce39e16",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "61 عامًا، من Tanavu في Onesa، يؤدي الزيارة الدينية لأول مرة. مصاب بداء السكري من النوع 2 وارتفاع ضغط الدم؛ يتناول الإنسولين وقرصين يوميًا؛ لديه حساسية من البنسلين. يحمل هاتفًا واحدًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "61 años, de Tanavu (Onesa), va de peregrinación por primera vez. Tiene diabetes de tipo 2 e hipertensión arterial; se administra insulina y toma dos comprimidos al día; es alérgico a la penicilina. Lleva un solo teléfono.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "61 ans, originaire de Tanavu (Onesa), part en pèlerinage pour la première fois. Atteint de diabète de type 2 et d'hypertension artérielle ; prend de l'insuline et deux comprimés par jour ; allergique à la pénicilline. N'a qu'un seul téléphone.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "61 год, из Tanavu (Onesa), впервые отправляется в паломничество. Страдает диабетом 2-го типа и повышенным артериальным давлением; принимает инсулин и две таблетки в день; аллергия на пенициллин. Носит с собой один телефон.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "61 岁，来自 Onesa 的 Tanavu 镇，首次参加朝圣。患有 2 型糖尿病和高血压；使用胰岛素，每天服用两片药；对青霉素过敏。随身携带一部手机。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "About this implementation guide",
+   "hash": "f73f486c6aff1c93",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نبذة عن دليل التنفيذ هذا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Acerca de esta guía de implementación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "À propos de ce guide d'implémentation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Об этом руководстве по внедрению",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关于本实施指南",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Accompanying family member (not yet a persona here)",
+   "hash": "6be39a47c2ef383b",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "فرد مرافق من الأسرة (ليس شخصية افتراضية هنا بعد)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Familiar acompañante (todavía no figura aquí como persona)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Membre de la famille accompagnateur (pas encore un persona ici)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сопровождающий член семьи (здесь пока не представлен как персона)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "随行家庭成员（此处尚未作为人物画像）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "An account of access back to the home country (P5, P7), and of language (P5).",
+   "hash": "1c9092c94cd5a0a9",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بيان لكيفية إعادة الوصول إلى البلد الأم (P5، P7)، وللغة (P5).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una explicación de cómo se informa al país de origen sobre los accesos (P5, P7) y de cómo se trata el idioma (P5).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une description de l'accès en retour vers le pays d'origine (P5, P7), et de la langue (P5).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Описание доступа с возвратом в страну проживания (P5, P7) и языка (P5).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "说明如何将访问情况反馈回本国（P5、P7），以及语言问题（P5）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "And the systems: Kamal's national health wallet (<a0>Origin Country Wallet</a0>), Onesa's health information exchange (<a1>Origin Country HIE</a1>), the facility's EMR (<a2>Host Country EMR</a2>), and WHO GDHCN, the trust network both countries take part in.",
+   "hash": "a0fd8981783e7d5e",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "والأنظمة: المحفظة الصحية الوطنية الخاصة بـ Kamal ‏(<a0>محفظة البلد الأم</a0>)، وتبادل المعلومات الصحية في Onesa ‏(<a1>HIE البلد الأم</a1>)، والسجل الطبي الإلكتروني للمرفق (<a2>EMR البلد المضيف</a2>)، وGDHCN التابعة لمنظمة الصحة العالمية (WHO)، وهي شبكة الثقة التي يشارك فيها البلدان كلاهما.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Y los sistemas: la billetera sanitaria nacional de Kamal (<a0>Billetera del país de origen</a0>), el intercambio de información de salud de Onesa (<a1>HIE del país de origen</a1>), la EMR del establecimiento (<a2>EMR del país anfitrión</a2>) y la GDHCN de la OMS, la red de confianza en la que participan ambos países.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Et les systèmes : le portefeuille de santé national de Kamal (<a0>Portefeuille du pays d'origine</a0>), l'échange d'informations de santé d'Onesa (<a1>HIE du pays d'origine</a1>), le DME de l'établissement (<a2>DME du pays d'accueil</a2>), et le GDHCN de l'OMS, le réseau de confiance auquel participent les deux pays.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "А также системы: национальный кошелёк медицинских данных Kamal (<a0>Кошелёк страны происхождения</a0>), система обмена медицинской информацией Onesa (<a1>HIE страны происхождения</a1>), EMR учреждения (<a2>EMR принимающей страны</a2>) и GDHCN ВОЗ — сеть доверия, в которой участвуют обе страны.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "还有这些系统：Kamal 的国家健康钱包（<a0>来源国钱包</a0>）、Onesa 的健康信息交换（<a1>来源国 HIE</a1>）、医疗机构的 EMR（<a2>东道国 EMR</a2>），以及两国均参与的信任网络世卫组织（WHO）GDHCN。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Business processes for P0 (keys and terminologies), P2 (assembling the IPS) and P6 (break the glass).",
+   "hash": "c818ca4112d926a0",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عمليات العمل الخاصة بـ P0 (المفاتيح والمصطلحات)، وP2 (تجميع IPS)، وP6 (كسر الزجاج).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Procesos de negocio para P0 (claves y terminologías), P2 (composición del IPS) y P6 (acceso de emergencia, «romper el cristal»).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Processus métier pour P0 (clés et terminologies), P2 (assemblage de l'IPS) et P6 (bris de glace).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Бизнес-процессы для P0 (ключи и терминологии), P2 (формирование IPS) и P6 (экстренный доступ, «разбить стекло»).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "P0（密钥和术语）、P2（汇编 IPS）和 P6（紧急破例访问）的业务流程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Cross-version analysis",
+   "hash": "85abe7c8ab28d8fb",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تحليل التوافق بين الإصدارات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Análisis entre versiones",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Analyse inter-versions",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Анализ различий между версиями",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "跨版本分析",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dependencies",
+   "hash": "f1ddc706848e3816",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التبعيات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dependencias",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dépendances",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зависимости",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "依赖项",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Disclaimer",
+   "hash": "7df301a32a0eebd6",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إخلاء المسؤولية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Descargo de responsabilidad",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avertissement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Оговорка об ограничении ответственности",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "免责声明",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Doctor of the Onesan pilgrimage medical team, travelling with the pilgrims.",
+   "hash": "30be69b5b87e46af",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طبيب في الفريق الطبي للزيارة الدينية من Onesa، يسافر مع الزوار.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Médico del equipo médico de peregrinación de Onesa, que viaja con los peregrinos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Médecin de l'équipe médicale d'Onesa pour le pèlerinage, qui voyage avec les pèlerins.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Врач медицинской группы паломников из Onesa, путешествующий вместе с паломниками.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 朝圣医疗队的医生，随朝圣者同行。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dr Aisyah",
+   "hash": "4ed4fd2659d2fa36",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الدكتورة Aisyah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dra. Aisyah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dr Aisyah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "д-р Aisyah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Dr Aisyah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dr Faisal",
+   "hash": "e0611f9cb0eec6b1",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الدكتور Faisal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dr. Faisal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dr Faisal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "д-р Faisal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Dr Faisal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dr Hafiz",
+   "hash": "ebc6f34f061a17b8",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الدكتور Hafiz",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dr. Hafiz",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dr Hafiz",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "д-р Hafiz",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Dr Hafiz",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Each numbered flow in the figure names its moment above, and each moment has its own <a0>ArchiMate view</a0>.",
+   "hash": "4bab0e5199406a55",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كل تدفق مرقَّم في الشكل يحمل اسم اللحظة المقابلة له أعلاه، ولكل لحظة <a0>عرض ArchiMate</a0> خاص بها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada flujo numerado de la figura da nombre a su momento descrito más arriba, y cada momento tiene su propia <a0>vista ArchiMate</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque flux numéroté de la figure nomme son moment ci-dessus, et chaque moment a sa propre <a0>vue ArchiMate</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждый пронумерованный поток на рисунке называет свой момент, описанный выше, и у каждого момента есть собственное <a0>представление ArchiMate</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "图中每个编号流程都标出了上文对应的时刻，每个时刻都有各自的 <a0>ArchiMate 视图</a0>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Eight moments that matter",
+   "hash": "5de1960d28b252ad",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ثماني لحظات مهمة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ocho momentos que importan",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Huit moments qui comptent",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Восемь важных моментов",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "八个关键时刻",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Emergency physician at the same facility.",
+   "hash": "1cbd044b0637ca6b",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طبيب طوارئ في المرفق نفسه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Médico de urgencias del mismo centro.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Médecin urgentiste dans le même établissement.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Врач неотложной помощи в том же учреждении.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "同一医疗机构的急诊医生。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every person in this story, and both countries, are fictional. Kamal comes from Onesa (code {code0}) and goes on pilgrimage in Taifafeki (code {code1}): two fictional countries shared with the <a0>SMART Trust demo</a0>, whose codes are ISO 3166-1 user-assigned codes, so they never name a real country. The steps follow this guide's real <a1>Malaysian reference implementation</a1>, Malaysia's Hajj Health Card, as a policy precedent.",
+   "hash": "41717a458969a0f7",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كل شخص في هذه القصة، وكلا البلدين، من نسج الخيال. يأتي Kamal من Onesa (الرمز {code0}) ويؤدي الزيارة الدينية في Taifafeki (الرمز {code1}): وهما بلدان خياليان مشتركان مع <a0>عرض SMART Trust التوضيحي</a0>، ورمزاهما من رموز ISO 3166-1 المخصَّصة للمستخدمين، فلا يشيران أبدًا إلى بلد حقيقي. وتتبع الخطوات <a1>التنفيذ المرجعي الماليزي</a1> الحقيقي لهذا الدليل، أي بطاقة الحج الصحية في ماليزيا، بوصفه سابقةً في السياسات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Todas las personas de esta historia, y ambos países, son ficticios. Kamal procede de Onesa (código {code0}) y va de peregrinación a Taifafeki (código {code1}): dos países ficticios compartidos con la <a0>demostración de SMART Trust</a0>, cuyos códigos son códigos ISO 3166-1 asignados por el usuario, de modo que nunca designan un país real. Los pasos siguen, como precedente de política, la <a1>implementación de referencia de Malasia</a1>, real, de esta guía: la Tarjeta de Salud del Hajj de Malasia.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Toutes les personnes de cette histoire, ainsi que les deux pays, sont fictives. Kamal vient d'Onesa (code {code0}) et effectue un pèlerinage à Taifafeki (code {code1}) : deux pays fictifs partagés avec la <a0>démo SMART Trust</a0>, dont les codes sont des codes ISO 3166-1 attribués par l'utilisateur, de sorte qu'ils ne désignent jamais un pays réel. Les étapes suivent l'<a1>implémentation de référence malaisienne</a1>, bien réelle, de ce guide, la Hajj Health Card de la Malaisie, en tant que précédent en matière de politique.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Все люди в этой истории и обе страны вымышлены. Kamal родом из Onesa (код {code0}) и совершает паломничество в Taifafeki (код {code1}): это две вымышленные страны, общие с <a0>демонстрацией SMART Trust</a0>, коды которых являются пользовательскими кодами ISO 3166-1 и поэтому никогда не обозначают реальную страну. Шаги следуют реальной <a1>малайзийской эталонной реализации</a1> этого руководства — малайзийской карте здоровья для хаджа (Hajj Health Card) — как политическому прецеденту.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本故事中的每个人以及两个国家都是虚构的。Kamal 来自 Onesa（代码 {code0}），前往 Taifafeki（代码 {code1}）朝圣：这两个虚构国家与 <a0>SMART Trust 演示</a0>共用，其代码为 ISO 3166-1 用户自定义代码，因此绝不会指代真实国家。各步骤以本指南真实的<a1>马来西亚参考实施</a1>，即马来西亚的朝觐健康卡（Hajj Health Card），作为政策先例。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Example patients that are pilgrims: today's examples are a resident of the Netherlands.",
+   "hash": "486c97dcedb2a7d4",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أمثلة لمرضى من الزوار: أمثلة اليوم لمقيم في هولندا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Pacientes de ejemplo que sean peregrinos: los ejemplos actuales corresponden a un residente de los Países Bajos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exemples de patients qui sont des pèlerins : les exemples actuels sont un résident des Pays-Bas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Примеры пациентов-паломников: в нынешних примерах это житель Нидерландов.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "作为朝圣者的示例患者：目前的示例是一位荷兰居民。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "General practitioner in Tanavu, empanelled by the national pilgrimage authority for pre-pilgrimage health examinations.",
+   "hash": "19ac2eeaddf5a0b6",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طبيب عام في Tanavu، معتمَد من الهيئة الوطنية للزيارة الدينية لإجراء الفحوص الصحية السابقة للزيارة الدينية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Médico general de Tanavu, acreditado por la autoridad nacional de peregrinación para realizar los exámenes de salud previos a la peregrinación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Médecin généraliste à Tanavu, agréé par l'autorité nationale du pèlerinage pour les examens de santé préalables au pèlerinage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Врач общей практики в Tanavu, включённый национальным органом по вопросам паломничества в список врачей для медицинских осмотров перед паломничеством.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Tanavu 的全科医生，由国家朝圣管理机构指定开展朝圣前健康检查。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Generic persona",
+   "hash": "b7527aa3967b7805",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شخصية افتراضية عامة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Persona genérica",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Persona générique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обобщённая персона",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通用人物画像",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Globals",
+   "hash": "126973bc434a0e98",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتغيرات العامة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Globales",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Éléments globaux",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Глобальные элементы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "全局",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "IP statements",
+   "hash": "cb578b07ce41082d",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بيانات الملكية الفكرية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Declaraciones de propiedad intelectual",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Déclarations de propriété intellectuelle",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Заявления об интеллектуальной собственности",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "知识产权（IP）声明",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kamal",
+   "hash": "f544cc0c54da6fd1",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Kamal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kamal's wife, travelling with him. Speaks for him when he cannot.",
+   "hash": "20bb0b3425919333",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "زوجة Kamal، تسافر معه. وتتحدث نيابةً عنه حين لا يستطيع.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esposa de Kamal, que viaja con él. Habla por él cuando él no puede.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'épouse de Kamal, qui voyage avec lui. Elle parle en son nom lorsqu'il ne le peut pas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Жена Kamal, путешествующая вместе с ним. Говорит за него, когда он не может.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 的妻子，与他同行。在他无法表达时替他发言。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Nurse Reem",
+   "hash": "c0130d121537ec71",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الممرضة Reem",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Enfermera Reem",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Infirmière Reem",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "медсестра Reem",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Nurse Reem",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "One passcode policy (P4), stated once.",
+   "hash": "89b476b3aa36bf80",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سياسة واحدة لرمز المرور (P4)، تُذكر مرة واحدة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una única política de códigos de acceso (P4), enunciada una sola vez.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une seule politique de code d'accès (P4), énoncée une seule fois.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Одна политика кодов доступа (P4), изложенная в одном месте.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一项通行码策略（P4），只陈述一次。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Person",
+   "hash": "941527aab4e3a8e3",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شخص",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Persona",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Personne",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Человек",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "人员",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Registration nurse at a pilgrimage health facility in Nalemi.",
+   "hash": "a5f5985c460f6020",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ممرضة تسجيل في مرفق صحي للزيارة الدينية في Nalemi.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Enfermera de registro en un establecimiento de salud de la peregrinación en Nalemi.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Infirmière chargée de l'enregistrement dans un établissement de santé du pèlerinage à Nalemi.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра регистрации в медицинском учреждении для паломников в Nalemi.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Nalemi 一家朝圣医疗卫生机构的登记护士。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Salmah",
+   "hash": "b029a8884e51dfb1",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Salmah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Salmah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Salmah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Salmah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Salmah",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Summary",
+   "hash": "33d2953076ca7aaa",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الملخص",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resumen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résumé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Резюме",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "摘要",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The <a0>user scenarios</a0> of this guide told as one pilgrim's story, step by step along the <a1>overview of key process flows</a1> (the numbered steps 1–5 and A–B of the figure below). Click a picture to walk through that moment in the <a2>journeys viewer</a2>, which names who takes part, what in this guide specifies it, and the policy question it raises.",
+   "hash": "ec9041cae768cfb9",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>سيناريوهات المستخدم</a0> في هذا الدليل مرويّةً بوصفها قصة زائر واحد، خطوةً بخطوة على امتداد <a1>نظرة عامة على تدفقات العمليات الرئيسية</a1> (الخطوات المرقَّمة 1–5 وA–B في الشكل أدناه). انقر على صورة لتتبّع تلك اللحظة في <a2>عارض الرحلات</a2>، الذي يسمّي المشاركين فيها، وما يحدّدها في هذا الدليل، وسؤال السياسات الذي تثيره.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los <a0>escenarios de usuario</a0> de esta guía, contados como la historia de un peregrino, paso a paso a lo largo de la <a1>visión general de los flujos de procesos clave</a1> (los pasos numerados 1–5 y A–B de la figura siguiente). Haga clic en una imagen para recorrer ese momento en el <a2>visor de recorridos</a2>, que indica quién participa, qué elemento de esta guía lo especifica y la cuestión de política que plantea.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les <a0>scénarios utilisateurs</a0> de ce guide, racontés comme l'histoire d'un pèlerin, étape par étape le long de l'<a1>aperçu des principaux flux de processus</a1> (les étapes numérotées 1–5 et A–B de la figure ci-dessous). Cliquez sur une image pour parcourir ce moment dans le <a2>visualiseur de parcours</a2>, qui indique qui y prend part, ce qui le spécifie dans ce guide et la question de politique qu'il soulève.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Пользовательские сценарии</a0> этого руководства, изложенные как история одного паломника, шаг за шагом по <a1>обзору ключевых потоков процессов</a1> (пронумерованные шаги 1–5 и A–B на рисунке ниже). Нажмите на изображение, чтобы пройти этот момент в <a2>средстве просмотра путей</a2>, где указано, кто участвует, что в этом руководстве это определяет и какой вопрос политики это поднимает.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本指南的<a0>用户场景</a0>以一位朝圣者的故事讲述，沿着<a1>关键流程概览</a1>（下图中编号为 1–5 和 A–B 的步骤）逐步展开。点击图片即可在<a2>旅程查看器</a2>中逐步浏览该时刻，查看器会列出参与者、本指南中规定该时刻的内容，以及它所引出的政策问题。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The data dictionary, decision logic, indicators and functional requirements, which are still placeholders.",
+   "hash": "c68d2066e7783c28",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قاموس البيانات، ومنطق القرار، والمؤشرات، والمتطلبات الوظيفية، وهي لا تزال عناصر نائبة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El diccionario de datos, la lógica de decisión, los indicadores y los requisitos funcionales, que todavía son marcadores de posición.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le dictionnaire de données, la logique décisionnelle, les indicateurs et les exigences fonctionnelles, qui sont encore des espaces réservés.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Словарь данных, логика принятия решений, индикаторы и функциональные требования, которые пока являются заглушками.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据字典、决策逻辑、指标和功能性需求，这些仍是占位内容。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The people",
+   "hash": "c2328f64a3ec51d0",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأشخاص",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las personas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les personnes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Люди",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "人物",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The specification herewith documented is a demo working specification and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency and the official publication supersedes this draft. No liability can be inferred from the use or misuse of this specification or its consequences.",
+   "hash": "68b0918c4822f72b",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المواصفة الموثَّقة هنا مواصفة عمل تجريبية، ولا يجوز استخدامها لأي أغراض تنفيذية. وتُقدَّم هذه المسودة دون أي ضمان لاكتمالها أو اتساقها، ويحل النشر الرسمي محل هذه المسودة. ولا يمكن استنتاج أي مسؤولية من استخدام هذه المواصفة أو إساءة استخدامها أو من عواقب ذلك.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La especificación aquí documentada es una especificación de trabajo de demostración y no puede utilizarse con fines de implementación. Este borrador se proporciona sin garantía de exhaustividad ni de coherencia, y la publicación oficial prevalece sobre este borrador. No puede inferirse responsabilidad alguna del uso o mal uso de esta especificación ni de sus consecuencias.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La spécification documentée ici est une spécification de travail de démonstration et ne peut être utilisée à aucune fin d'implémentation. Ce projet est fourni sans garantie d'exhaustivité ni de cohérence, et la publication officielle remplace ce projet. Aucune responsabilité ne peut être déduite de l'utilisation ou de la mauvaise utilisation de cette spécification ou de ses conséquences.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Документированная здесь спецификация является демонстрационной рабочей спецификацией и не может использоваться для каких-либо целей внедрения. Данный проект предоставляется без гарантии полноты или согласованности, и официальная публикация имеет преимущественную силу над этим проектом. Использование или неправильное использование данной спецификации или его последствия не влекут за собой никакой ответственности.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本文所记录的规范是一份演示用的工作规范，不得用于任何实施目的。本草案不保证完整性或一致性，正式出版物将取代本草案。不得因使用或误用本规范或其后果而推断任何责任。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The two pilgrim forms named in P1, and a page for the pilgrim and counsellor actors: their actor files exist but no page includes them.",
+   "hash": "f0757979d98b07ed",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الاستمارتان الخاصتان بالزائر المذكورتان في P1، وصفحة لجهتَي الزائر والمستشار الفاعلتين: ملفاتهما موجودة لكن لا تتضمنها أي صفحة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los dos formularios del peregrino mencionados en P1, y una página para los actores peregrino y asesor: sus archivos de actor existen, pero ninguna página los incluye.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les deux formulaires du pèlerin nommés dans P1, et une page pour les acteurs pèlerin et conseiller : leurs fichiers d'acteur existent mais aucune page ne les inclut.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Две формы паломника, упомянутые в P1, и страница для акторов «паломник» и «консультант»: их файлы акторов существуют, но ни одна страница их не включает.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "P1 中命名的两份朝圣者表单，以及朝圣者和咨询师参与者的页面：其参与者文件已存在，但没有页面包含它们。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This Implementation Guide is intended to support the utilization of verifiable International Patient Summary (IPS) documents during pilgrimage, leveraging <a0>WHO Global Digital Health Certification Network (GDHCN)</a0> global public health infrastructure.",
+   "hash": "6957fc667996a155",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يهدف دليل التنفيذ هذا إلى دعم استخدام وثائق ملخص المريض الدولي (IPS) القابلة للتحقق أثناء الزيارة الدينية، بالاستفادة من البنية التحتية العالمية للصحة العامة <a0>GDHCN ‏(الشبكة العالمية لإصدار الشهادات الصحية الرقمية) التابعة لمنظمة الصحة العالمية (WHO)</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía de implementación tiene por objeto apoyar la utilización de documentos verificables del Resumen Internacional del Paciente (IPS) durante la peregrinación, aprovechando la infraestructura mundial de salud pública de la <a0>Red Mundial de Certificación Digital de Salud (GDHCN) de la OMS</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide d'implémentation vise à soutenir l'utilisation de documents vérifiables de résumé international du patient (IPS) pendant le pèlerinage, en s'appuyant sur l'infrastructure mondiale de santé publique du <a0>Réseau mondial de certification de la santé numérique (GDHCN) de l'OMS</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Настоящее руководство по внедрению предназначено для поддержки использования проверяемых документов Международной сводки о пациенте (IPS) во время паломничества с опорой на глобальную инфраструктуру общественного здравоохранения <a0>Глобальная сеть сертификации в области цифрового здравоохранения ВОЗ (GDHCN)</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南旨在支持在朝圣期间利用<a0>世卫组织（WHO）全球数字健康认证网络（GDHCN）</a0>全球公共卫生基础设施来使用可验证的国际患者摘要（IPS）文档。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "What the story shows the guide still needs",
+   "hash": "a5eb307ad3b71a8b",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما تُظهره القصة مما لا يزال الدليل يحتاج إليه",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lo que la historia muestra que la guía aún necesita",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce que le récit montre qu'il manque encore au guide",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Чего, как показывает история, ещё не хватает руководству",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这个故事揭示本指南仍需补充的内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Who they are",
+   "hash": "030426600a9937d2",
+   "sources": [
+    "input/pagecontent/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مَن هم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Quiénes son",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Qui ils sont",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кто они",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "他们是谁",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

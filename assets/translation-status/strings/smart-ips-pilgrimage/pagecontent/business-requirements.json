@@ -1,0 +1,367 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/business-requirements",
+ "hashes": {
+  "ar": "b2b993cd1dc2773b",
+  "es": "a683f3d908122798",
+  "fr": "618e0db2f804da54",
+  "ru": "fb3464c09a1ff94c",
+  "zh": "4c537f13d46e26c0"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>Business Processes</a0> - Depiction of business processes as visual workflows as introduced in the L2",
+   "hash": "302383f07669efd8",
+   "sources": [
+    "input/pagecontent/business-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>عمليات العمل</a0> - تصوير عمليات العمل في صورة مسارات عمل مرئية كما وردت في L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Procesos de negocio</a0> - Representación de los procesos de negocio como flujos de trabajo visuales, tal como se presentan en el L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Processus métier</a0> - Représentation des processus métier sous forme de flux de travail visuels, tels qu’introduits au niveau L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Бизнес-процессы</a0> — представление бизнес-процессов в виде визуальных схем рабочих процессов, как предложено в L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>业务流程</a0> - 以可视化工作流形式描绘 L2 中提出的业务流程",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Concepts</a0> - A glossary of terms and key concepts introduced in the L2 or in the Implementation Guide",
+   "hash": "3b92e5e9b9cecfab",
+   "sources": [
+    "input/pagecontent/business-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>المفاهيم</a0> - مسرد للمصطلحات والمفاهيم الرئيسية الواردة في L2 أو في دليل التنفيذ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Conceptos</a0> - Glosario de términos y conceptos clave presentados en el L2 o en la guía de implementación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Concepts</a0> - Glossaire des termes et concepts clés introduits au niveau L2 ou dans le guide d’implémentation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Понятия</a0> — глоссарий терминов и ключевых понятий, введённых в L2 или в руководстве по внедрению",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>概念</a0> - L2 或实施指南中提出的术语和关键概念词汇表",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Data Dictionary</a0> - Data dictionary with detailed data specifications as introduced in the L2",
+   "hash": "0c3a34a8bfdd26bb",
+   "sources": [
+    "input/pagecontent/business-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>قاموس البيانات</a0> - قاموس بيانات يتضمن مواصفات البيانات التفصيلية كما وردت في L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Diccionario de datos</a0> - Diccionario de datos con especificaciones detalladas de los datos, tal como se presenta en el L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Dictionnaire de données</a0> - Dictionnaire de données comportant des spécifications de données détaillées, tel qu’introduit au niveau L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Словарь данных</a0> — словарь данных с подробными спецификациями данных, как предложено в L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>数据字典</a0> - 包含 L2 中提出的详细数据规范的数据字典",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Decision-support Logic</a0> - Decision-support logic and algorithms as introduced in the L2",
+   "hash": "e8bce798eb9d6e7e",
+   "sources": [
+    "input/pagecontent/business-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>منطق دعم القرار</a0> - منطق دعم القرار والخوارزميات كما وردت في L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Lógica de apoyo a la toma de decisiones</a0> - Lógica y algoritmos de apoyo a la toma de decisiones, tal como se presentan en el L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Logique d’aide à la décision</a0> - Logique et algorithmes d’aide à la décision, tels qu’introduits au niveau L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Логика поддержки принятия решений</a0> — логика и алгоритмы поддержки принятия решений, как предложено в L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>决策支持逻辑</a0> - L2 中提出的决策支持逻辑和算法",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Functional Requirements</a0> - List of core functions and capabilities the system must have to meet the end-users’ needs and achieve tasks within the business process.",
+   "hash": "940323a9aed99059",
+   "sources": [
+    "input/pagecontent/business-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>المتطلبات الوظيفية</a0> - قائمة بالوظائف والقدرات الأساسية التي يجب أن يمتلكها النظام لتلبية احتياجات المستخدمين النهائيين وإنجاز المهام ضمن عملية العمل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Requisitos funcionales</a0> - Lista de las funciones y capacidades básicas que el sistema debe tener para satisfacer las necesidades de los usuarios finales y llevar a cabo las tareas del proceso de negocio.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Exigences fonctionnelles</a0> - Liste des fonctions et capacités essentielles dont le système doit disposer pour répondre aux besoins des utilisateurs finaux et accomplir les tâches du processus métier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Функциональные требования</a0> — перечень основных функций и возможностей, которыми должна обладать система, чтобы удовлетворять потребности конечных пользователей и выполнять задачи в рамках бизнес-процесса.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>功能性需求</a0> - 系统为满足最终用户需求并完成业务流程中的任务所必须具备的核心功能和能力列表。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Generic Personas</a0> - Depiction of end-users and related stakeholders as introduced in the L2",
+   "hash": "a4039a8c1de5c6f4",
+   "sources": [
+    "input/pagecontent/business-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الشخصيات الافتراضية العامة</a0> - تصوير المستخدمين النهائيين وأصحاب المصلحة المعنيين كما وردوا في L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Personas (perfiles) genéricas</a0> - Representación de los usuarios finales y las partes interesadas conexas, tal como se presentan en el L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Personas génériques</a0> - Représentation des utilisateurs finaux et des parties prenantes associées, telle qu’introduite au niveau L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Обобщённые персоны</a0> — описание конечных пользователей и связанных с ними заинтересованных сторон, как предложено в L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>通用人物画像</a0> - 描绘 L2 中提出的最终用户及相关利益相关方",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Indicator and Performance Metrics</a0> - Core set of indicators and performance metrics as introduced in the L2",
+   "hash": "36b111296208a6c1",
+   "sources": [
+    "input/pagecontent/business-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>المؤشرات ومقاييس الأداء</a0> - المجموعة الأساسية من المؤشرات ومقاييس الأداء كما وردت في L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Indicadores y métricas de desempeño</a0> - Conjunto básico de indicadores y métricas de desempeño, tal como se presentan en el L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Indicateurs et mesures de performance</a0> - Ensemble de base d’indicateurs et de mesures de performance, tel qu’introduit au niveau L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Индикаторы и показатели эффективности</a0> — основной набор индикаторов и показателей эффективности, как предложено в L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>指标与绩效衡量</a0> - L2 中提出的核心指标和绩效衡量集",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Non-functional Requirements</a0> - List of capabilities the system must have as introduced in the L2",
+   "hash": "13d081d28af591d8",
+   "sources": [
+    "input/pagecontent/business-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>المتطلبات غير الوظيفية</a0> - قائمة بالقدرات التي يجب أن يمتلكها النظام كما وردت في L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Requisitos no funcionales</a0> - Lista de las capacidades que el sistema debe tener, tal como se presentan en el L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Exigences non fonctionnelles</a0> - Liste des capacités dont le système doit disposer, telles qu’introduites au niveau L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Нефункциональные требования</a0> — перечень возможностей, которыми должна обладать система, как предложено в L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>非功能性需求</a0> - L2 中提出的系统必须具备的能力列表",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Use Cases</a0> - User scenarios depicting how different personas will interact in a typical workflow along with use cases listed as introduced in the L2",
+   "hash": "c878b93a2cbd5e12",
+   "sources": [
+    "input/pagecontent/business-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>حالات الاستخدام</a0> - سيناريوهات المستخدمين التي تصوّر كيفية تفاعل الشخصيات الافتراضية المختلفة في سير عمل نموذجي، إلى جانب حالات الاستخدام المدرجة كما وردت في L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Casos de uso</a0> - Escenarios de usuario que representan cómo interactuarán las distintas personas (perfiles) en un flujo de trabajo típico, junto con los casos de uso enumerados, tal como se presentan en el L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Cas d’utilisation</a0> - Scénarios utilisateur décrivant comment les différents personas interagiront dans un flux de travail type, avec la liste des cas d’utilisation tels qu’introduits au niveau L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Варианты использования</a0> — пользовательские сценарии, показывающие, как различные персоны взаимодействуют в типичном рабочем процессе, а также перечень вариантов использования, как предложено в L2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>用例</a0> - 描绘不同人物画像在典型工作流中如何交互的用户场景，以及 L2 中列出的用例",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/decision-logic",
+ "hashes": {
+  "ar": "4b3f1c4c1fb594ce",
+  "es": "84c68ea73fe5237e",
+  "fr": "0a7e6b0fe8db4924",
+  "ru": "b6f70f06b5c685df",
+  "zh": "1a8d00612c591869"
+ },
+ "strings": [
+  {
+   "msgid": "No decision logic have been defined for IPS-pilgrimage",
+   "hash": "384b75b8d2c18f37",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لم يُعرَّف أي منطق قرار لـ IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No se ha definido ninguna lógica de decisión para IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucune logique de décision n'a été définie pour IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для IPS-pilgrimage логика принятия решений не определена",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚未为 IPS-pilgrimage 定义任何决策逻辑",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The decision-support logic component provides the decision logic and algorithms, as well as the scheduling of services, in accordance with WHO guidelines. The decision logic and algorithms in this implementation guide deconstruct the recommendations within the clinical guidelines and guidance into a machine readable format that clearly labels the inputs and outputs that would be operationalized in a digital decision-support system.",
+   "hash": "a1ea68805b16de67",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يوفّر مكوّن منطق دعم القرار منطقَ القرار والخوارزميات، فضلًا عن جدولة الخدمات، وفقًا لإرشادات منظمة الصحة العالمية (WHO). ويفكّك منطق القرار والخوارزميات في دليل التنفيذ هذا التوصياتِ الواردة في الإرشادات والتوجيهات السريرية إلى صيغة قابلة للقراءة آليًا تحدّد بوضوح المدخلات والمخرجات التي ستُفعَّل في نظام رقمي لدعم القرار.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El componente de lógica de apoyo a la decisión proporciona la lógica de decisión y los algoritmos, así como la programación de los servicios, de conformidad con las directrices de la OMS. La lógica de decisión y los algoritmos de esta guía de implementación descomponen las recomendaciones de las directrices y orientaciones clínicas en un formato legible por máquina que identifica claramente las entradas y salidas que se pondrían en funcionamiento en un sistema digital de apoyo a la decisión.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le composant de logique d'aide à la décision fournit la logique de décision et les algorithmes, ainsi que la planification des services, conformément aux lignes directrices de l'OMS. La logique de décision et les algorithmes de ce guide d'implémentation décomposent les recommandations contenues dans les lignes directrices et orientations cliniques en un format lisible par machine qui indique clairement les entrées et les sorties à mettre en œuvre dans un système numérique d'aide à la décision.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Компонент логики поддержки принятия решений содержит логику и алгоритмы принятия решений, а также планирование услуг в соответствии с руководящими принципами ВОЗ. Логика и алгоритмы принятия решений в этом руководстве по внедрению разбивают рекомендации клинических руководящих принципов и руководств на машиночитаемый формат, в котором чётко обозначены входные и выходные данные, используемые в цифровой системе поддержки принятия решений.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "决策支持逻辑组件依据世卫组织（WHO）指南提供决策逻辑和算法以及服务安排。本实施指南中的决策逻辑和算法将临床指南和指导中的建议分解为机器可读格式，清楚标注将在数字决策支持系统中付诸实施的输入和输出。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This page describes the decision support logic.",
+   "hash": "046a0831f65e130b",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تصف هذه الصفحة منطق دعم القرار.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta página describe la lógica de apoyo a la decisión.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page décrit la logique d'aide à la décision.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице описана логика поддержки принятия решений.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页描述决策支持逻辑。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

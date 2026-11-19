@@ -1,0 +1,1096 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "user-scenarios/p7-back-home",
+ "hashes": {
+  "ar": "0dc496295feb5630",
+  "es": "c64537f5bdacc32f",
+  "fr": "ec38fc626316500e",
+  "ru": "b6dc02bef469f0fe",
+  "zh": "e189fe75509944ba"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Onesa",
+   "hash": "1cccc8eebd0e2356",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi. After the story this guide tells.",
+   "hash": "6a861c27669d22c2",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يعود Kamal إلى بلده. ولا يعلم طبيبه العام (GP) في Tanavu أنه تلقّى العلاج في Nalemi. بعد القصة التي يرويها هذا الدليل.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal vuelve a casa. Su médico de cabecera en Tanavu no sabe que fue atendido en Nalemi. Después de la historia que cuenta esta guía.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal rentre chez lui. Son médecin généraliste à Tanavu ne sait pas qu'il a été soigné à Nalemi. Après le récit que raconte ce guide.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal возвращается домой. Его врач общей практики в Tanavu не знает, что его лечили в Nalemi. Уже за рамками истории, которую рассказывает это руководство.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 回到家中。他在 Tanavu 的全科医生（GP）并不知道他曾在 Nalemi 接受治疗。这发生在本指南所讲述的故事之后。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Back in Tanavu",
+   "hash": "15014d5ecb28ffb8",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العودة إلى Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De vuelta en Tanavu",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De retour à Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "снова в Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "回到 Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Flies home",
+   "hash": "7b68a62cc2bbcb6f",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرحلة الجوية إلى البلد الأم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Vuelo de regreso a casa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Rentre chez lui en avion",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "перелёт домой",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "乘飞机回国",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "GP not told",
+   "hash": "cd384685125a7c5b",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الطبيب العام (GP) لم يُبلَّغ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Médico de cabecera sin informar",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le médecin généraliste n'est pas informé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "врачу общей практики не сообщили",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "全科医生（GP）未获告知",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "Nothing yet: the guide does not specify a return path.",
+   "hash": "eff787466fe192da",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا شيء حتى الآن: لا يحدد الدليل مسارًا للعودة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Nada todavía: la guía no especifica una vía de retorno.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Rien pour l'instant : le guide ne spécifie aucun circuit de retour.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пока ничего: руководство не определяет путь возврата.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚无：本指南未规定回传路径。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Fills in what he does not remember.",
+   "hash": "6722c9df4ef1d965",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُكمل ما لا يتذكره.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Completa lo que él no recuerda.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Complète ce dont il ne se souvient pas.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Восполняет то, чего он не помнит.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "补充他记不清的内容。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Sees Kamal back home, with nothing in her record of his care in Taifafeki.",
+   "hash": "6c9aee180931bfe6",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ترى Kamal بعد عودته إلى بلده، ولا شيء في سجلها عن الرعاية التي تلقّاها في Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ve a Kamal de vuelta en casa, sin nada en su registro sobre la atención que recibió en Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Reçoit Kamal à son retour, sans rien dans son dossier sur les soins qu'il a reçus à Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Принимает вернувшегося домой Kamal, но в её записи нет ничего о помощи, оказанной ему в Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在本国为 Kamal 看诊，但她的记录中没有任何关于他在 Taifafeki 接受诊疗的信息。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Tells her, as best he remembers, what happened.",
+   "hash": "aca32abaebd335a7",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يخبرها، قدر ما يتذكر، بما حدث.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Le cuenta, lo mejor que recuerda, lo que ocurrió.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lui raconte, du mieux qu'il s'en souvient, ce qui s'est passé.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Рассказывает ей, насколько может вспомнить, что произошло.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尽他所能回忆，告诉她发生了什么。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Someone should have sent it to her.”",
+   "hash": "70aff639909bf6a0",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«كان ينبغي لأحدٍ أن يرسله إليها.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Alguien debería habérselo enviado».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Quelqu'un aurait dû le lui envoyer. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Кому-то следовало отправить это ей».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“本应有人把它发给她。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“They gave me a drip… I don't remember what else.”",
+   "hash": "d2037370978fef4c",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«أعطوني محلولًا وريديًا… لا أتذكر ماذا أيضًا.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Me pusieron un gotero… No recuerdo qué más».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Ils m'ont mis sous perfusion… Je ne me souviens pas de quoi d'autre. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Мне поставили капельницу… Не помню, что ещё».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“他们给我输了液……别的我记不清了。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Treated in Nalemi? Nothing came back to me.”",
+   "hash": "de935547e513704c",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«تلقّى العلاج في Nalemi؟ لم يصلني شيء.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«¿Atendido en Nalemi? A mí no me ha llegado nada».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Soigné à Nalemi ? Rien ne m'est revenu. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Лечили в Nalemi? Ко мне ничего не поступило».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“在 Nalemi 接受过治疗？我这边什么都没收到。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.gaps",
+   "msgid": "Nothing returns the record of care in Taifafeki, or a log of who opened his summary, to Onesa.",
+   "hash": "d1cc31d5c73a1ac0",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا شيء يُعيد سجل الرعاية في Taifafeki، أو سجلًا بمن فتح ملخصه، إلى Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Nada devuelve a Onesa el registro de la atención recibida en Taifafeki ni un registro de quién abrió su resumen.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Rien ne renvoie à Onesa le dossier des soins reçus à Taifafeki, ni un journal des personnes qui ont ouvert son résumé.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ничто не возвращает в Onesa запись о помощи, оказанной в Taifafeki, или журнал того, кто открывал его сводку.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "没有任何机制将 Taifafeki 的诊疗记录或谁打开过他摘要的日志回传给 Onesa。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "Kamal is home and well, but his GP does not know he was treated in Nalemi.",
+   "hash": "5a53170aa9154156",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عاد Kamal إلى وطنه وهو بخير، لكن طبيبه العام لا يعلم أنه تلقّى العلاج في Nalemi.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal está en casa y bien, pero su médico de cabecera no sabe que lo trataron en Nalemi.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal est rentré chez lui et va bien, mais son médecin généraliste ne sait pas qu'il a été soigné à Nalemi.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal дома и здоров, но его врач общей практики не знает, что его лечили в Nalemi.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 已回到家中，身体康复，但他的全科医生（GP）并不知道他曾在 Nalemi 接受治疗。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.illustration.alt",
+   "msgid": "Back in Tanavu, Kamal in a white kopiah and Salmah sit with Dr Aisyah, who looks at her computer with a question mark: the record of his care in Taifafeki has not come home.",
+   "hash": "47d15585e07ed801",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بعد العودة إلى Tanavu، يجلس Kamal مرتديًا طاقية بيضاء، ومعه Salmah، مع د. Aisyah التي تنظر إلى حاسوبها وعليه علامة استفهام: فسجل رعايته في Taifafeki لم يعد إلى البلد الأم.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De vuelta en Tanavu, Kamal, con un kopiah blanco, y Salmah están sentados con la Dra. Aisyah, que mira su computadora con un signo de interrogación: el registro de la atención que recibió en Taifafeki no ha llegado a casa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De retour à Tanavu, Kamal, coiffé d'un kopiah blanc, et Salmah sont assis avec le Dr Aisyah, qui regarde son ordinateur avec un point d'interrogation : le dossier de ses soins à Taifafeki n'est pas revenu au pays.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Снова в Tanavu: Kamal в белой шапочке kopiah и Salmah сидят у д-ра Aisyah, которая смотрит на свой компьютер со знаком вопроса: запись о помощи, оказанной ему в Taifafeki, не вернулась домой.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "回到 Tanavu，戴着白色 kopiah 的 Kamal 和 Salmah 与 Dr Aisyah 坐在一起，她看着电脑，上面有一个问号：他在 Taifafeki 的诊疗记录没有传回本国。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "Kamal comes home. His GP in Tanavu does not know he was treated in Nalemi. After the story this guide tells.",
+   "hash": "c2b20be9d461f49b",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يعود Kamal إلى بلده. ولا يعلم طبيبه العام (GP) في Tanavu أنه تلقّى العلاج في Nalemi. بعد القصة التي يرويها هذا الدليل.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kamal vuelve a casa. Su médico de cabecera en Tanavu no sabe que fue atendido en Nalemi. Después de la historia que cuenta esta guía.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kamal rentre chez lui. Son médecin généraliste à Tanavu ne sait pas qu'il a été soigné à Nalemi. Après le récit que raconte ce guide.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kamal возвращается домой. Его врач общей практики в Tanavu не знает, что его лечили в Nalemi. Уже за рамками истории, которую рассказывает это руководство.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 回到家中。他在 Tanavu 的全科医生（GP）并不知道他曾在 Nalemi 接受治疗。这发生在本指南所讲述的故事之后。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "The record of care abroad, and who opened his summary, never comes home.",
+   "hash": "71928c2f4fb820b3",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سجل الرعاية في الخارج، ومَن فتح ملخصه، لا يعودان أبدًا إلى البلد الأم.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El registro de la atención recibida en el extranjero, y de quién abrió su resumen, nunca llega a casa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le dossier des soins reçus à l'étranger, et l'identité des personnes qui ont ouvert son résumé, ne reviennent jamais au pays.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Запись о помощи, оказанной за границей, и сведения о том, кто открывал его сводку, так и не возвращаются домой.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "境外诊疗记录以及谁打开过他的摘要，从未传回本国。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Should the host country send a summary of care back to the home country — and with whose consent?",
+   "hash": "a5ab95c6dddcfeca",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هل ينبغي للبلد المضيف أن يرسل ملخصًا للرعاية إلى البلد الأم — وبموافقة مَن؟",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿Debería el país anfitrión enviar un resumen de la atención al país de origen — y con el consentimiento de quién?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le pays d'accueil devrait-il renvoyer un résumé des soins au pays d'origine — et avec le consentement de qui ?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Следует ли принимающей стране направлять в страну происхождения сводку об оказанной помощи — и с чьего согласия?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国是否应当将诊疗摘要回传给本国——又需征得谁的同意？",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "Home again; his GP does not yet know he was treated",
+   "hash": "a8d718f0e9ed5580",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عاد إلى البلد الأم؛ ولا يعلم طبيبه العام (GP) بعدُ أنه تلقّى العلاج",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De nuevo en casa; su médico de cabecera aún no sabe que fue atendido",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De nouveau chez lui ; son médecin généraliste ne sait pas encore qu'il a été soigné",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Снова дома; его врач общей практики ещё не знает, что его лечили",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已回到家中；他的全科医生（GP）尚不知道他曾接受治疗",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "Onesa's HIE",
+   "hash": "8b657078e882156a",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "HIE الخاص بـ Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "Back home",
+   "hash": "447b8e3a6f002d09",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العودة إلى الوطن",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De vuelta en casa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De retour chez lui",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Снова дома",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "回到家中",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "GP follow-up",
+   "hash": "45a9b74e136378c0",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "متابعة لدى الطبيب العام (GP)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Seguimiento por el médico de cabecera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Suivi par le médecin généraliste",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Последующее наблюдение у врача общей практики",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "全科医生（GP）随访",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.when",
+   "msgid": "After the season",
+   "hash": "6aa9565026087f81",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بعد الموسم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Después de la temporada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Après la saison",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "После сезона",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣季之后",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "A GP clinic in Tanavu",
+   "hash": "598c6b1664673628",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عيادة طبيب عام في Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una consulta de medicina general en Tanavu",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un cabinet de médecine générale à Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кабинет врача общей практики в Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Tanavu 的一家全科（GP）诊所",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "P7 · Back home",
+   "hash": "82a17b1d8c0aac23",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "P7 · العودة إلى البلد الأم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "P7 · De vuelta a casa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "P7 · De retour chez lui",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "P7 · Снова дома",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "P7 · 回到家中",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "After the season",
+   "hash": "0ef570370226c623",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بعد الموسم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Después de la temporada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Après la saison",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "После сезона",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣季之后",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "A GP clinic in Tanavu",
+   "hash": "c4705415985b591a",
+   "sources": [
+    "user-scenarios/p7-back-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عيادة طبيب عام في Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una consulta de medicina general en Tanavu",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un cabinet de médecine générale à Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кабинет врача общей практики в Tanavu",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Tanavu 的一家全科（GP）诊所",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

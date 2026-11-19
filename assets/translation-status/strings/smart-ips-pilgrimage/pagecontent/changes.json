@@ -1,0 +1,133 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/changes",
+ "hashes": {
+  "ar": "8c5e4a3f4fe1ec2b",
+  "es": "5a75f82fac782a7e",
+  "fr": "05589d194c912063",
+  "ru": "f49543990cbf9f94",
+  "zh": "c300a635bd6fb84b"
+ },
+ "strings": [
+  {
+   "msgid": "This page provides a list of changes to the Implementation Guide since its initial release.Technical changes can be tracked in each resource or in the history page, when published.",
+   "hash": "ea9c3acac2524059",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تقدّم هذه الصفحة قائمة بالتغييرات على دليل التنفيذ منذ إصداره الأولي. ويمكن تتبّع التغييرات التقنية في كل مورد أو في صفحة السجل، عند النشر.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta página ofrece una lista de los cambios introducidos en la guía de implementación desde su versión inicial. Los cambios técnicos pueden seguirse en cada recurso o en la página de historial, cuando se publique.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page fournit une liste des modifications apportées au guide d'implémentation depuis sa première publication. Les modifications techniques peuvent être suivies dans chaque ressource ou dans la page d'historique, lorsqu'elle est publiée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице приведён перечень изменений руководства по внедрению с момента его первоначального релиза. Технические изменения можно отслеживать в каждом ресурсе или на странице истории после публикации.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页列出自首次发布以来实施指南的变更。技术变更可在每个资源中或在历史页面（发布后）中追踪。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "v1.0.0 -  First stable release    First stable release",
+   "hash": "5bdf6e9752b85220",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "v1.0.0 - أول إصدار مستقر    أول إصدار مستقر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "v1.0.0 -  Primera versión estable    Primera versión estable",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "v1.0.0 -  Première version stable    Première version stable",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "v1.0.0 —  Первый стабильный релиз    Первый стабильный релиз",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "v1.0.0 -  首个稳定版本    首个稳定版本",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "v2.0.0 -  Second stable release of IPS Pilgrimage for the 2025 pilgrimage season   Added IHE MHD as dependency to utilize more of MHD style manifests Updated Example Artifacts for Pilgrim Folder Added a Capability Statement for Host Country EMRs Page Content changes in following pages: index, dependencies Corrected Health Check and Counseling, Verbal Consent (brief) diagram All bpmn files for business processes available in GitHub",
+   "hash": "de535a27da80a8aa",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "v2.0.0 -  الإصدار المستقر الثاني من IPS Pilgrimage لموسم الزيارة الدينية 2025   أُضيف IHE MHD بوصفه تبعية للاستفادة أكثر من البيانات الوصفية (manifests) على نمط MHD؛ حُدِّثت المصنوعات المثالية لمجلد الزائر؛ أُضيف بيان قدرات لـ EMR البلدان المضيفة؛ تغييرات في محتوى الصفحات التالية: index وdependencies؛ صُحِّح مخطط الفحص الصحي والإرشاد، الموافقة الشفهية (موجز)؛ جميع ملفات bpmn لعمليات العمل متاحة على GitHub",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "v2.0.0 -  Segunda versión estable de IPS Pilgrimage para la temporada de peregrinación de 2025   Se añadió IHE MHD como dependencia para aprovechar más los manifiestos de estilo MHD Se actualizaron los artefactos de ejemplo de la carpeta del peregrino Se añadió una declaración de capacidades (Capability Statement) para las EMR del país anfitrión Cambios en el contenido de las páginas siguientes: index, dependencies Se corrigió el diagrama Control de salud y asesoramiento, consentimiento verbal (resumido) Todos los archivos bpmn de los procesos de negocio están disponibles en GitHub",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "v2.0.0 -  Deuxième version stable d'IPS Pilgrimage pour la saison de pèlerinage 2025   Ajout d'IHE MHD comme dépendance afin d'utiliser davantage de manifestes de style MHD Mise à jour des exemples d'artefacts pour le dossier du pèlerin Ajout d'une déclaration de capacités pour les DME du pays d'accueil Modifications du contenu des pages suivantes : index, dependencies Correction du diagramme Health Check and Counseling, Verbal Consent (brief) Tous les fichiers BPMN des processus métier disponibles sur GitHub",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "v2.0.0 —  Второй стабильный релиз IPS Pilgrimage для сезона паломничества 2025 года   Добавлен IHE MHD в качестве зависимости для более широкого использования манифестов в стиле MHD Обновлены примеры артефактов для папки паломника Добавлено описание возможностей (Capability Statement) для EMR принимающих стран Изменения содержимого на следующих страницах: index, dependencies Исправлена диаграмма «Медицинский осмотр и консультирование, устное согласие (краткое)» Все файлы bpmn для бизнес-процессов доступны в GitHub",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "v2.0.0 -  面向 2025 年朝圣季的 IPS Pilgrimage 第二个稳定版本   添加 IHE MHD 作为依赖项，以更多地利用 MHD 风格的清单 更新了朝圣者文件夹的示例工件 添加了东道国 EMR 的能力声明（Capability Statement） 以下页面的内容变更：index、dependencies 更正了“健康检查和咨询，口头同意（简要）”图 业务流程的所有 bpmn 文件均可在 GitHub 上获取",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

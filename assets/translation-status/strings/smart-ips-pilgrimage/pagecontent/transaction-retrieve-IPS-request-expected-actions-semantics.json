@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-retrieve-IPS-request-expected-actions-semantics",
+ "hashes": {
+  "ar": "3caf3a856e718125",
+  "es": "0b45f93dc74ca3f2",
+  "fr": "f2c6de86b1793a0e",
+  "ru": "dfa2f369df40bb53",
+  "zh": "ee34deee2d3e1597"
+ },
+ "strings": [
+  {
+   "msgid": "The recipient OCHIE responds with the IPS Json.",
+   "hash": "5b3260a7bbd0a73a",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-IPS-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يستجيب المستلِم OCHIE بملخص IPS بصيغة Json.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El OCHIE destinatario responde con el JSON del IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le destinataire OCHIE répond avec l'IPS au format JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "OCHIE-получатель отвечает, передавая IPS в формате JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接收方 OCHIE 以 IPS Json 作出响应。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

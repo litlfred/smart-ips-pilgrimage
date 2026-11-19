@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/actor-counselor",
+ "hashes": {
+  "ar": "de44cda85d85c89a",
+  "es": "c461323f909d84af",
+  "fr": "7b22a5aa8d49ab1a",
+  "ru": "bb62b963c12968ca",
+  "zh": "8aa856845ae0bdfd"
+ },
+ "strings": [
+  {
+   "msgid": "Type Description Transactions participated in as source Transactions participated in as target Questionnaire participated in    Person Health worker or practitioner empanelled by the origin country National Pilgrimage Authority to conduct health assessments for pilgrims planning to go to a pilgrimage.",
+   "hash": "b12afa4b0242935e",
+   "sources": [
+    "input/pagecontent/actor-counselor.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النوع الوصف المعاملات المشارَك فيها بوصفه مصدرًا المعاملات المشارَك فيها بوصفه هدفًا الاستبيانات المشارَك فيها    شخص عامل صحي أو ممارس معتمد لدى السلطة الوطنية للزيارة الدينية في البلد الأم لإجراء التقييمات الصحية للزوار الذين يعتزمون أداء الزيارة الدينية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tipo Descripción Transacciones en las que participa como origen Transacciones en las que participa como destino Cuestionario en el que participa    Persona Trabajador de salud o profesional acreditado por la Autoridad Nacional de Peregrinación del país de origen para realizar evaluaciones de salud a los peregrinos que tienen previsto realizar una peregrinación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Type Description Transactions auxquelles il participe en tant que source Transactions auxquelles il participe en tant que cible Questionnaire auquel il participe    Personne Agent de santé ou praticien agréé par l'autorité nationale du pèlerinage du pays d'origine pour effectuer les évaluations de santé des pèlerins qui prévoient de se rendre en pèlerinage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Тип Описание Транзакции, в которых участвует в качестве источника Транзакции, в которых участвует в качестве получателя Опросники, в которых участвует    Лицо Медицинский работник или специалист-практик, уполномоченный Национальным органом по делам паломничества страны происхождения проводить оценку состояния здоровья паломников, планирующих совершить паломничество.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "类型 描述 作为来源方参与的事务 作为目标方参与的事务 参与的问卷    人员 由来源国国家朝圣管理机构指定的卫生工作者或从业人员，负责为计划前往朝圣的朝圣者进行健康评估。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

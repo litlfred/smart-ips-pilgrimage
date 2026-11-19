@@ -1,0 +1,94 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/test-data",
+ "hashes": {
+  "ar": "ccbdc57761cc886b",
+  "es": "597fba15a1049b1c",
+  "fr": "ced09ee294a7add0",
+  "ru": "2a8cc71f9b0c9a80",
+  "zh": "e70d05622117149c"
+ },
+ "strings": [
+  {
+   "msgid": "The testing artifacts in this implementation guide are not intended to be used to determine formal conformance, nor are they intended to be authoritative or comprehensive.",
+   "hash": "7d95c904399cee90",
+   "sources": [
+    "input/pagecontent/test-data.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يُقصد باستخدام عناصر الاختبار في دليل التنفيذ هذا تحديد المطابقة الرسمية، ولا يُقصد بها أن تكون مرجعية أو شاملة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los artefactos de prueba de esta guía de implementación no están destinados a determinar la conformidad formal, ni pretenden ser autorizados ni exhaustivos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les artefacts de test de ce guide d’implémentation ne sont pas destinés à déterminer la conformité formelle, et ne se veulent ni faisant autorité ni exhaustifs.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Артефакты тестирования в этом руководстве по внедрению не предназначены для определения формального соответствия и не являются авторитетными или исчерпывающими.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南中的测试制品既不用于判定正式一致性，也不具有权威性或全面性。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This page will include test data developed for the test scenarios and actors included in this implementation guide. See <a0>Testing</a0> for additional testing artifacts.",
+   "hash": "58d75db623c7033d",
+   "sources": [
+    "input/pagecontent/test-data.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ستتضمن هذه الصفحة بيانات الاختبار المُعدّة لسيناريوهات الاختبار والجهات الفاعلة المشمولة في دليل التنفيذ هذا. انظر <a0>الاختبار</a0> للاطلاع على عناصر اختبار إضافية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta página incluirá los datos de prueba elaborados para los escenarios de prueba y los actores incluidos en esta guía de implementación. Véase <a0>Pruebas</a0> para consultar otros artefactos de prueba.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page contiendra les données de test élaborées pour les scénarios de test et les acteurs inclus dans ce guide d’implémentation. Voir <a0>Tests</a0> pour d’autres artefacts de test.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице будут приведены тестовые данные, разработанные для тестовых сценариев и акторов, включённых в это руководство по внедрению. Дополнительные артефакты тестирования см. в разделе <a0>Тестирование</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页将包含为本实施指南所含测试场景和参与者开发的测试数据。其他测试制品请参见<a0>测试</a0>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

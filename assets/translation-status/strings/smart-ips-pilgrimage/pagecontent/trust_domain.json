@@ -1,0 +1,133 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/trust_domain",
+ "hashes": {
+  "ar": "b2f86834f96b2e04",
+  "es": "5838d512be379143",
+  "fr": "5d1d82fa2eb92165",
+  "ru": "82065532e99460e5",
+  "zh": "0f259fe8939981b9"
+ },
+ "strings": [
+  {
+   "msgid": "Policy",
+   "hash": "d47bc8f2ea440e50",
+   "sources": [
+    "input/pagecontent/trust_domain.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السياسة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Política",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Politique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Политика",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "政策",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Technical Standards",
+   "hash": "c755517e6bebb4ea",
+   "sources": [
+    "input/pagecontent/trust_domain.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المعايير التقنية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Normas técnicas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Normes techniques",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Технические стандарты",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "技术标准",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Use Cases",
+   "hash": "20d9f5c16af25a4f",
+   "sources": [
+    "input/pagecontent/trust_domain.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حالات الاستخدام",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Casos de uso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cas d’utilisation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Варианты использования",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用例",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

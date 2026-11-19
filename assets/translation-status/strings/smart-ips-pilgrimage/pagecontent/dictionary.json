@@ -1,0 +1,94 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/dictionary",
+ "hashes": {
+  "ar": "2d274ebd02886681",
+  "es": "d4b0fe06dbf8ee6d",
+  "fr": "35e901322705175d",
+  "ru": "d655157d86ad358a",
+  "zh": "b826091ff1fe5a71"
+ },
+ "strings": [
+  {
+   "msgid": "No dictionary elements have been defined for IPS-pilgrimage",
+   "hash": "b7ecf2cc96fb9b7d",
+   "sources": [
+    "input/pagecontent/dictionary.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لم تُعرَّف أي عناصر في القاموس لـ IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No se han definido elementos del diccionario para IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucun élément de dictionnaire n'a été défini pour IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для IPS-pilgrimage элементы словаря не определены",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚未为 IPS-pilgrimage 定义任何数据字典元素",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This page outlines the minimum set of data corresponding to different points of the workflow within the identified business processes. This data set can be used on any software system and lists the data elements relevant for service delivery and executing decision-support logic, as well as for populating indicators and performance metrics.",
+   "hash": "0cb50099b1929391",
+   "sources": [
+    "input/pagecontent/dictionary.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تعرض هذه الصفحة الحد الأدنى من مجموعة البيانات المقابلة لمختلف نقاط سير العمل ضمن عمليات العمل المحددة. ويمكن استخدام مجموعة البيانات هذه في أي نظام برمجي، وهي تسرد عناصر البيانات ذات الصلة بتقديم الخدمات وتنفيذ منطق دعم القرار، وكذلك بتغذية المؤشرات ومقاييس الأداء.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En esta página se describe el conjunto mínimo de datos correspondiente a los distintos puntos del flujo de trabajo dentro de los procesos de negocio identificados. Este conjunto de datos puede utilizarse en cualquier sistema informático y enumera los elementos de datos pertinentes para la prestación de servicios y la ejecución de la lógica de apoyo a la toma de decisiones, así como para alimentar los indicadores y las métricas de desempeño.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page présente l'ensemble minimal de données correspondant aux différents points du flux de travail au sein des processus métier identifiés. Cet ensemble de données peut être utilisé dans tout système logiciel et énumère les éléments de données pertinents pour la prestation de services et l'exécution de la logique d'aide à la décision, ainsi que pour l'alimentation des indicateurs et des mesures de performance.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице приведён минимальный набор данных, соответствующих различным точкам рабочего процесса в рамках выявленных бизнес-процессов. Этот набор данных может использоваться в любой программной системе; в нём перечислены элементы данных, необходимые для предоставления услуг и выполнения логики поддержки принятия решений, а также для заполнения индикаторов и показателей эффективности.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页概述了与已确定业务流程中工作流各环节相对应的最小数据集。该数据集可用于任何软件系统，并列出与服务提供、执行决策支持逻辑以及填充指标和绩效度量相关的数据元素。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

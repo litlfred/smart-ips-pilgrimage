@@ -1,0 +1,172 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/trust_domain_use_cases",
+ "hashes": {
+  "ar": "9c7c2d660531b1ac",
+  "es": "32e37a3c62cb0675",
+  "fr": "42d9a0578062426a",
+  "ru": "405f87dda3ce094e",
+  "zh": "43833e856a314dc9"
+ },
+ "strings": [
+  {
+   "msgid": "Business Processes",
+   "hash": "3682fb97a24e4ddb",
+   "sources": [
+    "input/pagecontent/trust_domain_use_cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عمليات العمل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Procesos de negocio",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Processus métier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Бизнес-процессы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "业务流程",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Trust Domain for IPS Pilgrimage focuses on key business processes that are part of providing care for pilgrims during a pilgrimage.",
+   "hash": "afaab48e9e978c62",
+   "sources": [
+    "input/pagecontent/trust_domain_use_cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يركّز نطاق الثقة الخاص بـ IPS للزيارة الدينية على عمليات العمل الرئيسية التي تشكّل جزءًا من تقديم الرعاية للزوار أثناء الزيارة الدينية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El Ámbito de confianza del IPS para la peregrinación se centra en los procesos de negocio clave que forman parte de la prestación de atención a los peregrinos durante una peregrinación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le domaine de confiance d'IPS Pilgrimage porte sur les principaux processus métier qui font partie de la prestation de soins aux pèlerins pendant un pèlerinage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Домен доверия для IPS Pilgrimage сосредоточен на ключевых бизнес-процессах, связанных с оказанием помощи паломникам во время паломничества.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣 IPS 信任域聚焦于在朝圣期间为朝圣者提供医疗服务所涉及的关键业务流程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The User scenarios and key business processes are captured in this specification document at the below links:",
+   "hash": "599ac3424434a511",
+   "sources": [
+    "input/pagecontent/trust_domain_use_cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريوهات المستخدم وعمليات العمل الرئيسية موثَّقة في وثيقة المواصفة هذه عبر الروابط أدناه:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los escenarios de usuario y los procesos de negocio clave se recogen en este documento de especificación en los siguientes enlaces:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les scénarios d'utilisation et les principaux processus métier sont décrits dans ce document de spécification aux liens ci-dessous :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии и ключевые бизнес-процессы описаны в этом документе спецификации по приведённым ниже ссылкам:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户场景和关键业务流程记录在本规范文档的以下链接中：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "User Scenarios",
+   "hash": "d25d4b920e3a216b",
+   "sources": [
+    "input/pagecontent/trust_domain_use_cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريوهات المستخدم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenarios de usuario",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénarios d'utilisation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户场景",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

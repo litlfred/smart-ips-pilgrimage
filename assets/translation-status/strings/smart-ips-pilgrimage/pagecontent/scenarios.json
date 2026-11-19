@@ -1,0 +1,952 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/scenarios",
+ "hashes": {
+  "ar": "2511d765f3b1a2c8",
+  "es": "37f698c11bef2b7a",
+  "fr": "fd3b1e1f8eec9d2b",
+  "ru": "3fc35fdaf2197bea",
+  "zh": "34c2102b15f077c9"
+ },
+ "strings": [
+  {
+   "msgid": "As examples, the scenarios identify: key data elements that need to be recorded and/or calculated; decision-support logic that can be automated in the system; key functional and non-functional requirements that should be included in the system, and adolescent-specific considerations that should be accounted for.",
+   "hash": "36c1fc4602947f80",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "على سبيل المثال، تحدد السيناريوهات: عناصر البيانات الرئيسية التي يلزم تسجيلها و/أو حسابها؛ ومنطق دعم القرار الذي يمكن أتمتته في النظام؛ والمتطلبات الوظيفية وغير الوظيفية الرئيسية التي ينبغي تضمينها في النظام؛ والاعتبارات الخاصة بالمراهقين التي ينبغي مراعاتها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "A modo de ejemplo, los escenarios identifican: los elementos de datos clave que es necesario registrar o calcular; la lógica de apoyo a la decisión que puede automatizarse en el sistema; los requisitos funcionales y no funcionales clave que deberían incluirse en el sistema, y las consideraciones específicas de los adolescentes que deberían tenerse en cuenta.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "À titre d'exemple, les scénarios identifient : les principaux éléments de données qui doivent être enregistrés et/ou calculés ; la logique d'aide à la décision qui peut être automatisée dans le système ; les principales exigences fonctionnelles et non fonctionnelles qui devraient être incluses dans le système ; et les considérations propres aux adolescents dont il convient de tenir compte.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В качестве примеров сценарии определяют: ключевые элементы данных, которые необходимо записывать и/или рассчитывать; логику поддержки принятия решений, которая может быть автоматизирована в системе; ключевые функциональные и нефункциональные требования, которые следует включить в систему, а также особенности, касающиеся подростков, которые следует учитывать.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "作为示例，这些场景识别出：需要记录和/或计算的关键数据元素；可在系统中自动化的决策支持逻辑；系统中宜包含的关键功能性和非功能性需求；以及宜考虑的青少年特定因素。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Break The Glass Clinical Encounter",
+   "hash": "683f25d2507132fe",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اللقاء السريري بكسر الزجاج",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Encuentro clínico con acceso de emergencia («romper el cristal»)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Consultation clinique « bris de glace »",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клинический приём с экстренным доступом («разбить стекло»)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "紧急破例访问（Break The Glass）临床就诊",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Clinical Encounter for Unplanned Care",
+   "hash": "8693552a186bc01d",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اللقاء السريري للرعاية غير المخطط لها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Encuentro clínico para atención no programada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Consultation clinique pour des soins non planifiés",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клинический приём при незапланированной медицинской помощи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "计划外照护临床就诊",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Described in the <a0>SMART Trust</a0> framework of the GDHCN where by a GDHCN Participant provides public keys to the WHO GDHCN Trust Network Gateway that can be used for signing health documents, in particular the <a1>International Patient Summary (IPS)</a1>.  The Trust Domain that will be used for this set of scenarios is ips-pilgrimage",
+   "hash": "a1c7ab08b6d1d866",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "موصوف في إطار <a0>SMART Trust</a0> التابع لـ GDHCN، حيث يقدّم مشارك في GDHCN مفاتيح عمومية إلى بوابة شبكة الثقة GDHCN التابعة لمنظمة الصحة العالمية (WHO) يمكن استخدامها لتوقيع المستندات الصحية، ولا سيما <a1>ملخص المريض الدولي (IPS)</a1>. ونطاق الثقة الذي سيُستخدم لهذه المجموعة من السيناريوهات هو ips-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Descrito en el marco <a0>SMART Trust</a0> de la GDHCN, según el cual un Participante en la Red Mundial proporciona a la puerta de enlace a la red de confianza (TNG) de la Red Mundial de Certificación Digital de Salud de la OMS claves públicas que pueden utilizarse para firmar documentos de salud, en particular el <a1>Resumen Internacional del Paciente (IPS)</a1>. El Ámbito de confianza que se utilizará para este conjunto de escenarios es ips-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Décrit dans le cadre <a0>SMART Trust</a0> du GDHCN, selon lequel un participant au GDHCN fournit à la passerelle du réseau de confiance du GDHCN de l'OMS des clés publiques pouvant être utilisées pour signer des documents de santé, en particulier le <a1>résumé international du patient (IPS)</a1>.  Le domaine de confiance qui sera utilisé pour cet ensemble de scénarios est ips-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Описано в структуре <a0>SMART Trust</a0> GDHCN, согласно которой Участник GDHCN предоставляет Шлюзу сети доверия (TNG) GDHCN ВОЗ открытые ключи, которые могут использоваться для подписания медицинских документов, в частности <a1>Международной сводки о пациенте (IPS)</a1>. Домен доверия, который будет использоваться для этого набора сценариев, — ips-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 GDHCN 的 <a0>SMART Trust</a0> 框架中描述，即 GDHCN 参与方向世卫组织（WHO）GDHCN 信任网络网关提供可用于签名健康文档（特别是<a1>国际患者摘要（IPS）</a1>）的公钥。  该组场景将使用的信任域为 ips-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "How to interpret user scenarios",
+   "hash": "00ef76c5ac52bb1a",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كيفية تفسير سيناريوهات المستخدم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cómo interpretar los escenarios de usuario",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Comment interpréter les scénarios d'utilisation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Как интерпретировать пользовательские сценарии",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "如何解读用户场景",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "IHE profile <a0>Sharing Value Sets and Concept Maps (SVCM)</a0> (Recommended)",
+   "hash": "d4b8e6e7d90e178d",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملف تعريف IHE <a0>مشاركة مجموعات القيم وخرائط المفاهيم (SVCM)</a0> (موصى به)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Perfil de IHE <a0>Sharing Value Sets and Concept Maps (SVCM)</a0> (recomendado)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Profil IHE <a0>Sharing Value Sets and Concept Maps (SVCM)</a0> (recommandé)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Профиль IHE <a0>Sharing Value Sets and Concept Maps (SVCM)</a0> (рекомендуется)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "IHE 规范 <a0>共享值集和概念映射（SVCM）</a0>（推荐）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Issuance of Health Document at Origin Country",
+   "hash": "61f2e1882b6a36b8",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إصدار المستند الصحي في بلد المنشأ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Emisión del documento de salud en el país de origen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Délivrance du document de santé dans le pays d'origine",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Выпуск медицинского документа в стране происхождения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在来源国签发健康文档",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "National HIE",
+   "hash": "3eb072da8ecb9151",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منصة HIE الوطنية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "HIE nacional",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HIE national",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Национальная HIE",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家 HIE",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Once shared to the WHO Terminology Service, these terminologies should be retrievable from the Host Country EMR via the IHE SCVM profile.",
+   "hash": "bd653e312a411e3d",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بعد مشاركة هذه المصطلحات مع خدمة المصطلحات التابعة لمنظمة الصحة العالمية (WHO)، ينبغي أن يكون من الممكن استرجاعها من EMR البلد المضيف عبر ملف تعريف IHE SCVM.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una vez compartidas con el Servicio de Terminología de la OMS, estas terminologías deberían poder recuperarse desde la EMR del país anfitrión mediante el perfil SCVM de IHE.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une fois partagées avec le service terminologique de l'OMS, ces terminologies devraient pouvoir être récupérées depuis le DME du pays d'accueil au moyen du profil IHE SCVM.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "После передачи в Терминологическую службу ВОЗ эти терминологии следует сделать доступными для получения из EMR принимающей страны посредством профиля IHE SCVM.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "共享到世卫组织（WHO）术语服务后，宜可通过 IHE SCVM 规范从东道国 EMR 检索这些术语。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Publication of National Public Keys for Verification",
+   "hash": "1059340d2128d9ad",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نشر المفاتيح العمومية الوطنية لأغراض التحقق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Publicación de las claves públicas nacionales para la verificación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Publication des clés publiques nationales pour la vérification",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Публикация национальных открытых ключей для проверки",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "发布用于验证的国家公钥",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Publication of National Terminologies",
+   "hash": "4b52c6b5a6fced5b",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نشر المصطلحات الوطنية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Publicación de las terminologías nacionales",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Publication des terminologies nationales",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Публикация национальных терминологий",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "发布国家术语",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Services",
+   "hash": "6335f40fe89d1b71",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخدمات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Servicios",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Services",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сервисы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "服务",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Sharing of tabular data",
+   "hash": "89307bcc9ff53fbc",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مشاركة البيانات الجدولية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Intercambio de datos tabulares",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Partage de données tabulaires",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обмен табличными данными",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "表格数据共享",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The user scenarios are only illustrative and are intended to give an idea of a typical workflow.",
+   "hash": "cc9b4a8f4cea7711",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريوهات المستخدم توضيحية فقط، ويُقصد بها إعطاء فكرة عن سير عمل نموذجي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los escenarios de usuario son solo ilustrativos y pretenden dar una idea de un flujo de trabajo típico.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les scénarios d'utilisation sont uniquement illustratifs et visent à donner une idée d'un flux de travail type.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии носят исключительно иллюстративный характер и призваны дать представление о типичном рабочем процессе.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户场景仅作说明之用，旨在让人了解典型的工作流程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "These terminologies should be shared from the National HIE to the WHO Terminology Service.",
+   "hash": "3b55bfdd2810adae",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ينبغي مشاركة هذه المصطلحات من منصة HIE الوطنية مع خدمة المصطلحات التابعة لمنظمة الصحة العالمية (WHO).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estas terminologías deberían compartirse desde el HIE nacional con el Servicio de Terminología de la OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ces terminologies devraient être partagées par le HIE national avec le service terminologique de l'OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Эти терминологии следует передавать из национальной HIE в Терминологическую службу ВОЗ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这些术语宜从国家 HIE 共享到世卫组织（WHO）术语服务。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This is a \"Phase 1\" scenario in which a Pilgrim in a Host Country has need to seek care from a Host Country Health Worker. The pilgrim mediates exchange by showing the QR code issued by their Origin Country.  The Host Country EMR uses the QR code to access the National IHE to retrieve the patient summary (IPS).",
+   "hash": "dd6e043c9a7bb417",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا سيناريو من «المرحلة 1» يحتاج فيه زائر في البلد المضيف إلى طلب الرعاية من عامل صحي في البلد المضيف. ويتوسط الزائر في التبادل بإبراز رمز QR الصادر عن بلد منشئه. ويستخدم EMR البلد المضيف رمز QR للوصول إلى IHE الوطني لاسترجاع ملخص المريض (IPS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se trata de un escenario de \"fase 1\" en el que un peregrino que se encuentra en un país anfitrión necesita recibir atención de un trabajador de salud del país anfitrión. El peregrino actúa como intermediario del intercambio mostrando el código QR emitido por su país de origen. La EMR del país anfitrión utiliza el código QR para acceder al IHE nacional y recuperar el resumen del paciente (IPS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il s'agit d'un scénario de « phase 1 » dans lequel un pèlerin se trouvant dans un pays d'accueil doit se faire soigner par un agent de santé du pays d'accueil. Le pèlerin sert d'intermédiaire à l'échange en présentant le code QR délivré par son pays d'origine.  Le DME du pays d'accueil utilise le code QR pour accéder à l'IHE national afin de récupérer le résumé du patient (IPS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это сценарий «этапа 1», в котором паломнику в принимающей стране необходимо обратиться за помощью к медицинскому работнику принимающей страны. Паломник выступает посредником в обмене, показывая QR-код, выданный страной его происхождения. EMR принимающей страны использует QR-код для доступа к национальной IHE с целью получения сводки о пациенте (IPS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这是一个“第 1 阶段”场景：东道国的朝圣者需要向东道国卫生工作者寻求照护。朝圣者通过出示其来源国签发的 QR 码来居中进行交换。  东道国 EMR 使用该 QR 码访问国家 IHE，以检索患者摘要（IPS）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This is a \"Phase 1\" scenario in which the Origin Country conducts a health assessment for the Pilgrim, obtains consent for eligible pilgrims and issues QR Codes (Smart Health Link) that embeds their patient summary as a IPS. The QR code might be issues on a national health wallet or printed QR code.",
+   "hash": "faa258b62e2a1804",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا سيناريو من «المرحلة 1» يُجري فيه بلد المنشأ تقييمًا صحيًا للزائر، ويحصل على موافقة الزوار المؤهَّلين، ويُصدر رموز QR (رابط صحي ذكي) تتضمن ملخص المريض الخاص بهم في صورة IPS. وقد يُصدَر رمز QR في محفظة صحية وطنية أو رمزَ QR مطبوعًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se trata de un escenario de \"fase 1\" en el que el país de origen realiza una evaluación de salud del peregrino, obtiene el consentimiento de los peregrinos aptos y emite códigos QR (Smart Health Link) que incorporan su resumen del paciente como IPS. El código QR puede emitirse en una billetera sanitaria nacional o como código QR impreso.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il s'agit d'un scénario de « phase 1 » dans lequel le pays d'origine réalise une évaluation de santé du pèlerin, obtient le consentement des pèlerins admissibles et délivre des codes QR (Smart Health Link) qui intègrent leur résumé du patient sous forme d'IPS. Le code QR pourrait être délivré dans un portefeuille de santé national ou sous forme de code QR imprimé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это сценарий «этапа 1», в котором страна происхождения проводит оценку состояния здоровья паломника, получает согласие правомочных паломников и выдаёт QR-коды (Smart Health Link), содержащие их сводку о пациенте в виде IPS. QR-код может быть выдан в национальном медицинском кошельке или в виде напечатанного QR-кода.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这是一个“第 1 阶段”场景：来源国为朝圣者开展健康评估，为符合条件的朝圣者获取同意，并签发嵌入其患者摘要（作为 IPS）的 QR 码（智能健康链接）。QR 码可能签发在国家健康钱包上，也可能是打印的 QR 码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This is a \"Phase 2\" scenario in which a Pilgrim in a Host Country is not conscious and must receive emergency care.  The Host Country Health Worker accesses the patient summary via the Pilgrimage Registration Number.   Prior to this emergency care encounter, the Pilgrim would have registered their consent to provide access to their record either through the National Health Wallet App or through the National Pilgrimage Authority.",
+   "hash": "fb57667d341abdff",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا سيناريو من «المرحلة 2» يكون فيه زائر في البلد المضيف فاقدًا للوعي ويجب أن يتلقى رعاية طارئة. ويصل العامل الصحي في البلد المضيف إلى ملخص المريض عبر رقم تسجيل الزيارة الدينية. وقبل لقاء الرعاية الطارئة هذا، يكون الزائر قد سجّل موافقته على إتاحة الوصول إلى سجله إما عبر تطبيق المحفظة الصحية الوطنية أو عبر الهيئة الوطنية للزيارة الدينية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se trata de un escenario de \"fase 2\" en el que un peregrino que se encuentra en un país anfitrión está inconsciente y debe recibir atención de emergencia. El trabajador de salud del país anfitrión accede al resumen del paciente mediante el número de registro de la peregrinación. Antes de este encuentro de atención de emergencia, el peregrino habría registrado su consentimiento para dar acceso a su registro, ya sea mediante la aplicación de billetera sanitaria nacional o a través de la autoridad nacional de peregrinación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il s'agit d'un scénario de « phase 2 » dans lequel un pèlerin se trouvant dans un pays d'accueil est inconscient et doit recevoir des soins d'urgence.  L'agent de santé du pays d'accueil accède au résumé du patient au moyen du numéro d'enregistrement de pèlerinage.   Avant cette consultation de soins d'urgence, le pèlerin aurait enregistré son consentement à l'accès à son dossier, soit par l'intermédiaire de l'application nationale de portefeuille de santé, soit par l'intermédiaire de l'autorité nationale du pèlerinage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это сценарий «этапа 2», в котором паломник в принимающей стране находится без сознания и должен получить экстренную медицинскую помощь. Медицинский работник принимающей страны получает доступ к сводке о пациенте по регистрационному номеру паломника. До этого случая оказания экстренной помощи паломник должен был зарегистрировать своё согласие на предоставление доступа к своей записи либо через приложение национального медицинского кошелька, либо через национальный орган по делам паломничества.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这是一个“第 2 阶段”场景：东道国的朝圣者失去意识，必须接受急诊照护。  东道国卫生工作者通过朝圣登记号访问患者摘要。   在此次急诊照护就诊之前，朝圣者应已通过国家健康钱包应用或国家朝圣管理机构登记了其允许访问其记录的同意。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This process for sharing National Code Systems and Value Sets that are utilized in a National HIE's profile of the IPS.  Standardized code systems should be utilized wherever possible but this recognizes that National Code Systems may be necessary, particularly for coding of medication terminologies.  The primary goal, at least in the first phases of sharing the terminologies is not semantic interoperability between a National HIE and Host Country EMR, rather it is  to support the Host Country Health Worker to review the IPS.",
+   "hash": "4749f3c76b810316",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذه العملية مخصصة لمشاركة أنظمة الترميز ومجموعات القيم الوطنية المستخدمة في ملف تعريف IPS لدى منصة HIE وطنية. وينبغي استخدام أنظمة الترميز الموحدة حيثما أمكن، غير أن هذا يقرّ بأن أنظمة الترميز الوطنية قد تكون ضرورية، ولا سيما لترميز مصطلحات الأدوية. والهدف الأساسي، على الأقل في المراحل الأولى من مشاركة المصطلحات، ليس قابلية التشغيل البيني الدلالية بين منصة HIE وطنية وEMR البلد المضيف، بل دعم العامل الصحي في البلد المضيف في مراجعة IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Este proceso sirve para compartir los sistemas de codificación y conjuntos de valores nacionales que se utilizan en el perfil del IPS de un HIE nacional. Deberían utilizarse sistemas de codificación normalizados siempre que sea posible, pero se reconoce que pueden ser necesarios sistemas de codificación nacionales, en particular para codificar las terminologías de medicamentos. El objetivo principal, al menos en las primeras fases del intercambio de terminologías, no es la interoperabilidad semántica entre un HIE nacional y la EMR del país anfitrión, sino ayudar al trabajador de salud del país anfitrión a revisar el IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce processus permet de partager les systèmes de codes et jeux de valeurs nationaux utilisés dans le profil de l'IPS d'un HIE national.  Des systèmes de codes normalisés devraient être utilisés dans la mesure du possible, mais il est reconnu que des systèmes de codes nationaux peuvent être nécessaires, en particulier pour le codage des terminologies relatives aux médicaments.  L'objectif principal, du moins dans les premières phases du partage des terminologies, n'est pas l'interopérabilité sémantique entre un HIE national et le DME du pays d'accueil, mais plutôt d'aider l'agent de santé du pays d'accueil à examiner l'IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Этот процесс предназначен для обмена национальными системами кодирования и наборами значений, которые используются в профиле IPS национальной HIE. По возможности следует использовать стандартизированные системы кодирования, однако признаётся, что национальные системы кодирования могут быть необходимы, в частности для кодирования терминологий лекарственных препаратов. Основная цель, по крайней мере на первых этапах обмена терминологиями, — не семантическая совместимость между национальной HIE и EMR принимающей страны, а поддержка медицинского работника принимающей страны при просмотре IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这是共享国家 HIE 的 IPS 规范中所使用的国家代码系统和值集的流程。  应尽可能使用标准化代码系统，但这里承认国家代码系统可能是必要的，特别是用于药物术语的编码。  主要目标（至少在共享术语的最初阶段）不是实现国家 HIE 与东道国 EMR 之间的语义互操作性，而是支持东道国卫生工作者查看 IPS。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This process is a both a pre-condition for the user scenario 3.0, 4.0 and 5.0 as well as a routine process at any point relevant terminologies are updated.",
+   "hash": "3b1353c37a271bfd",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذه العملية شرط مسبق لسيناريوهات المستخدم 3.0 و4.0 و5.0، وهي كذلك عملية روتينية في أي وقت تُحدَّث فيه المصطلحات ذات الصلة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Este proceso es tanto una condición previa para los escenarios de usuario 3.0, 4.0 y 5.0 como un proceso rutinario cada vez que se actualizan las terminologías pertinentes.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce processus est à la fois une condition préalable aux scénarios d'utilisation 3.0, 4.0 et 5.0 et un processus de routine à tout moment où les terminologies pertinentes sont mises à jour.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Этот процесс является как предварительным условием для пользовательских сценариев 3.0, 4.0 и 5.0, так и регулярным процессом, выполняемым всякий раз при обновлении соответствующих терминологий.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "该流程既是用户场景 3.0、4.0 和 5.0 的前提条件，也是在相关术语更新时随时执行的例行流程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This process is a both a pre-condition for the user scenario 3.0, 4.0, and 5.0 as well as a routine process at any point relevant encryption key material is updated.",
+   "hash": "b2dca99699198cb4",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذه العملية شرط مسبق لسيناريوهات المستخدم 3.0 و4.0 و5.0، وهي كذلك عملية روتينية في أي وقت تُحدَّث فيه مواد مفاتيح التشفير ذات الصلة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Este proceso es tanto una condición previa para los escenarios de usuario 3.0, 4.0 y 5.0 como un proceso rutinario cada vez que se actualiza el material de claves de cifrado pertinente.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce processus est à la fois une condition préalable aux scénarios d'utilisation 3.0, 4.0 et 5.0 et un processus de routine à tout moment où le matériel de clés de chiffrement pertinent est mis à jour.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Этот процесс является как предварительным условием для пользовательских сценариев 3.0, 4.0 и 5.0, так и регулярным процессом, выполняемым всякий раз при обновлении соответствующего ключевого материала шифрования.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "该流程既是用户场景 3.0、4.0 和 5.0 的前提条件，也是在相关加密密钥材料更新时随时执行的例行流程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "User scenarios can be helpful tools not only to better understand the context in which a digital tool would operate, but also for some insights into what key data elements would need to be recorded and accounted for in the database. Additionally, the context in which the tool would operate, illuminated by the user scenarios, provides insight into some functional and non-functional requirements that the system would also need.",
+   "hash": "297bba58d7829313",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يمكن أن تكون سيناريوهات المستخدم أدوات مفيدة لا لفهم السياق الذي ستعمل فيه الأداة الرقمية فهمًا أفضل فحسب، بل أيضًا لاستخلاص بعض الرؤى بشأن عناصر البيانات الرئيسية التي يلزم تسجيلها ومراعاتها في قاعدة البيانات. وفضلًا عن ذلك، فإن السياق الذي ستعمل فيه الأداة، كما تُبرزه سيناريوهات المستخدم، يقدّم رؤى بشأن بعض المتطلبات الوظيفية وغير الوظيفية التي سيحتاج إليها النظام أيضًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los escenarios de usuario pueden ser herramientas útiles no solo para comprender mejor el contexto en el que funcionaría una herramienta digital, sino también para obtener información sobre qué elementos de datos clave sería necesario registrar y tener en cuenta en la base de datos. Además, el contexto en el que funcionaría la herramienta, puesto de manifiesto por los escenarios de usuario, permite conocer algunos requisitos funcionales y no funcionales que el sistema también necesitaría.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les scénarios d'utilisation peuvent être des outils utiles non seulement pour mieux comprendre le contexte dans lequel un outil numérique fonctionnerait, mais aussi pour obtenir des indications sur les principaux éléments de données qu'il faudrait enregistrer et prendre en compte dans la base de données. En outre, le contexte dans lequel l'outil fonctionnerait, éclairé par les scénarios d'utilisation, donne un aperçu de certaines exigences fonctionnelles et non fonctionnelles auxquelles le système devrait également répondre.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии могут быть полезными инструментами не только для лучшего понимания контекста, в котором будет работать цифровой инструмент, но и для получения представления о том, какие ключевые элементы данных необходимо записывать и учитывать в базе данных. Кроме того, контекст работы инструмента, раскрываемый пользовательскими сценариями, даёт представление о некоторых функциональных и нефункциональных требованиях, которым также должна отвечать система.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户场景不仅是更好地理解数字工具运行环境的有用工具，还能帮助洞察数据库中需要记录和考虑哪些关键数据元素。此外，用户场景所揭示的工具运行环境，也有助于洞察系统所需的一些功能性和非功能性需求。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "WHO GDHCN",
+   "hash": "8a9cd2c0492af272",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "GDHCN التابعة لمنظمة الصحة العالمية (WHO)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "GDHCN de la OMS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "GDHCN de l'OMS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "GDHCN ВОЗ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "世卫组织（WHO）GDHCN",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The scenarios below, told as one pilgrim's story: <a0>the home page</a0> follows a fictional Onesan pilgrim through every step of the key process flows, with the question each step raises.",
+   "hash": "543cf71b074f7c8a",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السيناريوهات أدناه مرويّةً بوصفها قصة زائر واحد: تتبع <a0>الصفحة الرئيسية</a0> زائرًا خياليًا من Onesa عبر كل خطوة من تدفقات العمليات الرئيسية، مع السؤال الذي تثيره كل خطوة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los escenarios siguientes, contados como la historia de un peregrino: <a0>la página de inicio</a0> sigue a un peregrino ficticio de Onesa a lo largo de cada paso de los flujos de procesos clave, con la cuestión que plantea cada paso.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les scénarios ci-dessous, racontés comme l'histoire d'un pèlerin : <a0>la page d'accueil</a0> suit un pèlerin fictif d'Onesa à chaque étape des principaux flux de processus, avec la question que soulève chaque étape.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сценарии ниже, изложенные как история одного паломника: <a0>главная страница</a0> прослеживает вымышленного паломника из Onesa через каждый шаг ключевых потоков процессов с вопросом, который поднимает каждый шаг.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "以下场景以一位朝圣者的故事讲述：<a0>首页</a0>跟随一位虚构的 Onesa 朝圣者走过关键流程的每一步，以及每一步所引出的问题。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

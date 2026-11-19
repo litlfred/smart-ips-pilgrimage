@@ -1,0 +1,133 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/non-functional-requirements",
+ "hashes": {
+  "ar": "5ed5a59f791a98c8",
+  "es": "a34ab265e18f9f5f",
+  "fr": "94168b61b8cff653",
+  "ru": "97b1a687c961f37a",
+  "zh": "936ae1aa0ec518ed"
+ },
+ "strings": [
+  {
+   "msgid": "No requirements have been defined yet for IPS-pilgrimage",
+   "hash": "6c993045b92cbc52",
+   "sources": [
+    "input/pagecontent/non-functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لم تُحدَّد أي متطلبات بعد لـ IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aún no se han definido requisitos para IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucune exigence n'a encore été définie pour IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для IPS-pilgrimage требования пока не определены",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚未为 IPS-pilgrimage 定义任何需求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Non-functional requirements provide the general attributes and features of the digital system to ensure usability and overcome technical and physical constraints. Examples of non-functional requirements include ability to work offline, multiple language settings and password protection.",
+   "hash": "cc38b4ea12ccfa0c",
+   "sources": [
+    "input/pagecontent/non-functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "توفر المتطلبات غير الوظيفية السمات والخصائص العامة للنظام الرقمي لضمان سهولة الاستخدام والتغلب على القيود التقنية والمادية. ومن أمثلة المتطلبات غير الوظيفية القدرة على العمل دون اتصال بالإنترنت، وإعدادات اللغات المتعددة، والحماية بكلمة مرور.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los requisitos no funcionales describen los atributos y características generales del sistema digital que garantizan su facilidad de uso y permiten superar las limitaciones técnicas y físicas. Algunos ejemplos de requisitos no funcionales son la capacidad de funcionar sin conexión, la configuración en varios idiomas y la protección mediante contraseña.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les exigences non fonctionnelles décrivent les attributs et caractéristiques généraux du système numérique permettant d'en garantir l'utilisabilité et de surmonter les contraintes techniques et physiques. Parmi les exemples d'exigences non fonctionnelles figurent la capacité à fonctionner hors ligne, la prise en charge de plusieurs langues et la protection par mot de passe.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Нефункциональные требования описывают общие атрибуты и характеристики цифровой системы, обеспечивающие удобство использования и преодоление технических и физических ограничений. Примерами нефункциональных требований являются возможность работы в автономном режиме, поддержка нескольких языков и защита паролем.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "非功能性需求提供数字系统的一般属性和功能，以确保可用性并克服技术和物理限制。非功能性需求的示例包括离线工作能力、多语言设置和密码保护。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This page provides an overview of illustrative non-functional requirements that may be considered to kick-start the process of designing or adapting the patient mediated exchange of IPS during pilgrimage.",
+   "hash": "bacfd0b0f9246611",
+   "sources": [
+    "input/pagecontent/non-functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تقدّم هذه الصفحة نظرة عامة على متطلبات غير وظيفية توضيحية يمكن النظر فيها لإطلاق عملية تصميم التبادل الذي يتوسط فيه المريض لـ IPS أثناء الزيارة الدينية أو تكييفه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta página ofrece una visión general de requisitos no funcionales ilustrativos que pueden tenerse en cuenta para iniciar el proceso de diseño o adaptación del intercambio del IPS mediado por el paciente durante la peregrinación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page donne un aperçu d'exigences non fonctionnelles indicatives qui peuvent être prises en compte pour amorcer le processus de conception ou d'adaptation de l'échange de l'IPS par l'intermédiaire du patient pendant le pèlerinage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице представлен обзор иллюстративных нефункциональных требований, которые могут быть рассмотрены для начала процесса проектирования или адаптации обмена IPS при посредничестве пациента во время паломничества.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页概述了一些说明性的非功能性需求，可供考虑，用以启动设计或适配朝圣期间由患者介导的 IPS 交换的流程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

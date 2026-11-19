@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/security-privacy",
+ "hashes": {
+  "ar": "d1c8f334291a68b7",
+  "es": "34934be5829f7af1",
+  "fr": "54f236b0005c0fb9",
+  "ru": "2be12d4037c51030",
+  "zh": "97c653560a33ddd4"
+ },
+ "strings": [
+  {
+   "msgid": "This page will contain security and privacy considerations related to SMART IPS for Pilgrimage.",
+   "hash": "d31ff41868defffd",
+   "sources": [
+    "input/pagecontent/security-privacy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ستتضمن هذه الصفحة اعتبارات الأمن والخصوصية المتعلقة بـ SMART IPS for Pilgrimage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta página contendrá consideraciones de seguridad y privacidad relacionadas con SMART IPS for Pilgrimage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page contiendra les considérations de sécurité et de confidentialité relatives à SMART IPS for Pilgrimage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице будут приведены соображения безопасности и конфиденциальности, связанные с SMART IPS для паломничества.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页将包含与朝圣 SMART IPS（SMART IPS for Pilgrimage）相关的安全和隐私考虑。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,1416 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "user-scenarios/p4-scanned-and-checked",
+ "hashes": {
+  "ar": "4b5a3c09a95a8e6b",
+  "es": "941bfc63b4b9675c",
+  "fr": "52bc9ef0e3ddce4c",
+  "ru": "dbc5f59ec87d0288",
+  "zh": "415cef6b12316533"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Taifafeki",
+   "hash": "1df520ff29829dcf",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Onesa's public key, fetched from GDHCN: the record really comes from Onesa's HIE and has not been changed. Step 4 and step B of the overview of key process flows.",
+   "hash": "d29ed1b413fddb04",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تمسح الممرضة Reem الرمز في EMR المرفق الصحي وتُدخل رمز المرور. ويتحقق EMR من التوقيع باستخدام المفتاح العمومي لـ Onesa، الذي جُلب من GDHCN: فالسجل صادر فعلًا عن HIE الخاص بـ Onesa ولم يُغيَّر. الخطوة 4 والخطوة B من النظرة العامة على تدفقات العمليات الرئيسية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La enfermera Reem escanea el código en la EMR del centro e introduce el código de acceso. La EMR verifica la firma con la clave pública de Onesa, obtenida de la GDHCN: el registro procede realmente del HIE de Onesa y no ha sido modificado. Paso 4 y paso B de la visión general de los flujos de procesos clave.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'infirmière Reem scanne le code dans le DME de l'établissement et saisit le code d'accès. Le DME vérifie la signature avec la clé publique d'Onesa, récupérée auprès du GDHCN : le dossier provient réellement du HIE d'Onesa et n'a pas été modifié. Étape 4 et étape B de l'aperçu des principaux flux de processus.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра Reem сканирует код в EMR учреждения и вводит код доступа. EMR проверяет подпись открытым ключом Onesa, полученным из GDHCN: запись действительно поступила из HIE Onesa и не была изменена. Шаг 4 и шаг B обзора ключевых потоков процессов.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Nurse Reem 在机构的 EMR 中扫描该码并输入通行码。EMR 使用从 GDHCN 获取的 Onesa 公钥核验签名：该记录确实来自 Onesa 的 HIE，且未被更改。这是关键流程概览的步骤 4 和步骤 B。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Key from GDHCN",
+   "hash": "36da64fec346656d",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفتاح من GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Clave obtenida de la GDHCN",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clé obtenue du GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ключ из GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来自 GDHCN 的密钥",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Scanned",
+   "hash": "e3076f0686b4d64d",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تم المسح",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escaneado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanné",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "отсканировано",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已扫描",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Signature verified",
+   "hash": "7d4d675bacd7590e",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تم التحقق من التوقيع",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Firma verificada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Signature vérifiée",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "подпись проверена",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签名已核验",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "The EMR verifies the signature against a key it got from the trust network, with no call to Onesa needed.",
+   "hash": "934b72c58deacbfa",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتحقق EMR من التوقيع مقابل مفتاح حصل عليه من شبكة الثقة، دون الحاجة إلى أي اتصال بـ Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La EMR verifica la firma con una clave obtenida de la red de confianza, sin necesidad de ninguna llamada a Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le DME vérifie la signature à l'aide d'une clé obtenue du réseau de confiance, sans qu'aucun appel à Onesa soit nécessaire.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR проверяет подпись по ключу, полученному из сети доверия, без необходимости обращаться к Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "EMR 使用从信任网络获取的密钥核验签名，无需联系 Onesa。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Decodes the QR code and verifies its signature with Onesa's public key.",
+   "hash": "011defbf1130ab56",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يفك ترميز رمز QR ويتحقق من توقيعه بالمفتاح العمومي لـ Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Decodifica el código QR y verifica su firma con la clave pública de Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Décode le code QR et vérifie sa signature avec la clé publique d'Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Декодирует QR-код и проверяет его подпись открытым ключом Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "解码 QR 码，并使用 Onesa 的公钥核验其签名。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Scans the QR code into the EMR and enters the passcode; sees the signature verified.",
+   "hash": "d60ad75ca3177c78",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تمسح رمز QR إلى EMR وتُدخل رمز المرور؛ وترى أن التوقيع قد تُحقِّق منه.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escanea el código QR en la EMR e introduce el código de acceso; ve que la firma está verificada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanne le code QR dans le DME et saisit le code d'accès ; voit que la signature est vérifiée.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сканирует QR-код в EMR и вводит код доступа; видит, что подпись проверена.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将 QR 码扫描到 EMR 中并输入通行码；看到签名已核验。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Sits and waits while the code is scanned.",
+   "hash": "1dc318521294b8fd",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجلس وينتظر بينما يُمسح الرمز.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se sienta y espera mientras escanean el código.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Reste assis et attend pendant que le code est scanné.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сидит и ждёт, пока сканируют код.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "坐着等待扫码完成。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Supplies Onesa's public key.",
+   "hash": "d8decafcf1a76ab3",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يوفّر المفتاح العمومي لـ Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Proporciona la clave pública de Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Fournit la clé publique d'Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предоставляет открытый ключ Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "提供 Onesa 的公钥。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Tells Nurse Reem the passcode.",
+   "hash": "ffb44e80c88f2692",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُخبر الممرضة Reem برمز المرور.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Le dice a la enfermera Reem el código de acceso.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Indique le code d'accès à l'infirmière Reem.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сообщает медсестре Reem код доступа.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "告诉 Nurse Reem 通行码。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“I hope it works.”",
+   "hash": "1eb3a80c1f1acf65",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«آمل أن ينجح الأمر.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Ojalá funcione».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« J'espère que ça va marcher. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Надеюсь, это сработает».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“希望能用。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“They knew what to do with it.”",
+   "hash": "e2289d4a2cb524c4",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«لقد عرفوا ما يفعلون به.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Sabían qué hacer con él».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Ils savaient quoi en faire. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Они знали, что с этим делать».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“他们知道该怎么用它。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Verified: it really comes from Onesa.”",
+   "hash": "8bc2e4f7925ca1de",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«تم التحقق: إنه صادر فعلًا من Onesa.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Verificado: procede realmente de Onesa».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Vérifié : il provient réellement d'Onesa. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Проверено: запись действительно из Onesa».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“已核验：它确实来自 Onesa。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.gaps",
+   "msgid": "Not yet consistent: the concepts page says the default passcode is the pilgrim's birth date; the reference implementation sets one standard passcode for all its pilgrims for the season.",
+   "hash": "26fef709c0445b06",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "غير متسق بعد: تذكر صفحة المفاهيم أن رمز المرور الافتراضي هو تاريخ ميلاد الزائر؛ بينما يحدد التنفيذ المرجعي رمز مرور قياسيًا واحدًا لجميع زائريه طوال الموسم.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aún no es coherente: la página de conceptos indica que el código de acceso predeterminado es la fecha de nacimiento del peregrino; la implementación de referencia fija un único código de acceso estándar para todos sus peregrinos durante la temporada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pas encore cohérent : la page des concepts indique que le code d'accès par défaut est la date de naissance du pèlerin ; l'implémentation de référence fixe un code d'accès standard unique pour tous ses pèlerins pour la saison.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пока не согласовано: на странице концепций указано, что код доступа по умолчанию — дата рождения паломника; эталонная реализация устанавливает один стандартный код доступа на сезон для всех своих паломников.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚不一致：概念页面说默认通行码是朝圣者的出生日期；参考实现则为其所有朝圣者在该季设置一个统一的标准通行码。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.gaps",
+   "msgid": "The Clinical Encounter for Unplanned Care diagram draws no separate task for entering the passcode.",
+   "hash": "d0b8bbe189993772",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يرسم مخطط اللقاء السريري في إطار الرعاية غير المخطط لها مهمة مستقلة لإدخال رمز المرور.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El diagrama Encuentro clínico para atención no programada no representa una tarea aparte para introducir el código de acceso.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le diagramme Consultation clinique pour soins non planifiés ne représente aucune tâche distincte pour la saisie du code d'accès.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На диаграмме «Клинический приём при незапланированной медицинской помощи» нет отдельной задачи для ввода кода доступа.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "计划外照护临床就诊的流程图中没有为输入通行码单独绘制任务。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "GDHCN trust list",
+   "hash": "73918896051982f9",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قائمة الثقة في GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lista de confianza de la GDHCN",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Liste de confiance du GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "список доверия GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "GDHCN 信任列表",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "Onesa's public key",
+   "hash": "212f0dd6b7a88a1b",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المفتاح العمومي لـ Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Clave pública de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clé publique d'Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "открытый ключ Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的公钥",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "The VHL is verified",
+   "hash": "77f975c6bdd07de8",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تم التحقق من VHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se verifica el VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le VHL est vérifié",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "VHL проверена",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VHL 已核验",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "Nurse Reem scans the code and enters the passcode; the EMR checks the signature with Onesa's key from GDHCN.",
+   "hash": "3d2f9043ef5a74ef",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تمسح الممرضة Reem الرمز وتُدخل رمز المرور؛ ويتحقق EMR من التوقيع بمفتاح Onesa المأخوذ من GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La enfermera Reem escanea el código e introduce el código de acceso; el EMR verifica la firma con la clave de Onesa obtenida de la GDHCN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'infirmière Reem scanne le code et saisit le code d'accès ; le DME vérifie la signature avec la clé d'Onesa obtenue auprès du GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра Reem сканирует код и вводит код доступа; EMR проверяет подпись ключом Onesa из GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Nurse Reem 扫描该码并输入通行码；EMR 使用来自 GDHCN 的 Onesa 密钥核验签名。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.illustration.alt",
+   "msgid": "Nurse Reem scans the QR code on Kamal's phone; the facility screen shows a passcode and a green shield, while a key comes back from the trust-network globe.",
+   "hash": "49e296df353b4fc8",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تمسح الممرضة Reem رمز QR على هاتف Kamal؛ وتعرض شاشة المرفق الصحي رمز مرور ودرعًا أخضر، بينما يعود مفتاح من كرة شبكة الثقة الأرضية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La enfermera Reem escanea el código QR del teléfono de Kamal; la pantalla del centro muestra un código de acceso y un escudo verde, mientras una clave vuelve desde el globo de la red de confianza.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'infirmière Reem scanne le code QR sur le téléphone de Kamal ; l'écran de l'établissement affiche un code d'accès et un bouclier vert, tandis qu'une clé revient du globe du réseau de confiance.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра Reem сканирует QR-код на телефоне Kamal; на экране учреждения — код доступа и зелёный щит, а от глобуса сети доверия возвращается ключ.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Nurse Reem 扫描 Kamal 手机上的 QR 码；机构的屏幕显示通行码和一面绿色盾牌，同时一把钥匙从信任网络地球返回。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "Nurse Reem scans the code in the facility's EMR and enters the passcode. The EMR checks the signature with Onesa's public key, fetched from GDHCN: the record really comes from Onesa's HIE and has not been changed. Step 4 and step B of the overview of key process flows.",
+   "hash": "1758284f2f7aadf2",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تمسح الممرضة Reem الرمز في EMR المرفق الصحي وتُدخل رمز المرور. ويتحقق EMR من التوقيع باستخدام المفتاح العمومي لـ Onesa، الذي جُلب من GDHCN: فالسجل صادر فعلًا عن HIE الخاص بـ Onesa ولم يُغيَّر. الخطوة 4 والخطوة B من النظرة العامة على تدفقات العمليات الرئيسية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La enfermera Reem escanea el código en la EMR del centro e introduce el código de acceso. La EMR verifica la firma con la clave pública de Onesa, obtenida de la GDHCN: el registro procede realmente del HIE de Onesa y no ha sido modificado. Paso 4 y paso B de la visión general de los flujos de procesos clave.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'infirmière Reem scanne le code dans le DME de l'établissement et saisit le code d'accès. Le DME vérifie la signature avec la clé publique d'Onesa, récupérée auprès du GDHCN : le dossier provient réellement du HIE d'Onesa et n'a pas été modifié. Étape 4 et étape B de l'aperçu des principaux flux de processus.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра Reem сканирует код в EMR учреждения и вводит код доступа. EMR проверяет подпись открытым ключом Onesa, полученным из GDHCN: запись действительно поступила из HIE Onesa и не была изменена. Шаг 4 и шаг B обзора ключевых потоков процессов.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Nurse Reem 在机构的 EMR 中扫描该码并输入通行码。EMR 使用从 GDHCN 获取的 Onesa 公钥核验签名：该记录确实来自 Onesa 的 HIE，且未被更改。这是关键流程概览的步骤 4 和步骤 B。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "Without a signature check, the clinic cannot tell a genuine record from a forged or altered one.",
+   "hash": "96c24dfbd51ff854",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من دون التحقق من التوقيع، لا تستطيع العيادة التمييز بين سجل حقيقي وآخر مزوَّر أو مُعدَّل.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin una verificación de la firma, la clínica no puede distinguir un registro auténtico de uno falsificado o alterado.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sans vérification de la signature, la clinique ne peut pas distinguer un dossier authentique d'un dossier falsifié ou altéré.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Без проверки подписи клиника не может отличить подлинную запись от поддельной или изменённой.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "如果不核验签名，诊所就无法区分真实的记录与伪造或被篡改的记录。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "What protection should the passcode give — and is a passcode shared by every pilgrim of a country a passcode at all?",
+   "hash": "f69a3f6b3c259aed",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما الحماية التي ينبغي أن يوفرها رمز المرور — وهل رمز المرور الذي يتشاركه جميع زوار بلد ما يُعدّ رمز مرور أصلًا؟",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿Qué protección debería ofrecer el código de acceso — y es realmente un código de acceso uno que comparten todos los peregrinos de un país?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Quelle protection le code d'accès devrait-il offrir — et un code d'accès partagé par tous les pèlerins d'un pays est-il seulement un code d'accès ?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Какую защиту следует обеспечивать с помощью кода доступа — и является ли кодом доступа вообще код, общий для всех паломников страны?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通行码应当提供怎样的保护——一个国家所有朝圣者共用的通行码还算得上通行码吗？",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "The signature is checked against GDHCN's trust list",
+   "hash": "ca729d72ad419257",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُتحقَّق من التوقيع مقابل قائمة الثقة في GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La firma se verifica con la lista de confianza de la GDHCN",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La signature est vérifiée par rapport à la liste de confiance du GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подпись проверяется по списку доверия GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对照 GDHCN 的信任列表核验签名",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "The Nalemi facility's EMR",
+   "hash": "ef20a78e5bd29c88",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "EMR المرفق الصحي في Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La EMR del centro de Nalemi",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le DME de l'établissement de Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR учреждения в Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Nalemi 机构的 EMR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "Business process: Clinical Encounter for Unplanned Care (scan QR code, add passcode, verify QR code signature)",
+   "hash": "519208e4f51d8c71",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عملية العمل: اللقاء السريري في إطار الرعاية غير المخطط لها (مسح رمز QR، إضافة رمز المرور، التحقق من توقيع رمز QR)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Proceso de negocio: Encuentro clínico para atención no programada (escanear el código QR, añadir el código de acceso, verificar la firma del código QR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Processus métier : Consultation clinique pour soins non planifiés (scanner le code QR, ajouter le code d'accès, vérifier la signature du code QR)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Бизнес-процесс: клинический приём при незапланированной медицинской помощи (сканировать QR-код, ввести код доступа, проверить подпись QR-кода)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "业务流程：计划外照护临床就诊（扫描 QR 码、添加通行码、核验 QR 码签名）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "Reference implementation: the receiving steps",
+   "hash": "c6cb71382c2a4582",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التنفيذ المرجعي: خطوات الاستقبال",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Implementación de referencia: los pasos de recepción",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Implémentation de référence : les étapes de réception",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Эталонная реализация: шаги получения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "参考实现：接收步骤",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "Scanned and checked",
+   "hash": "f774ed9b09a5f3ee",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المسح والتحقق",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escaneado y verificado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanné et vérifié",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Отсканировано и проверено",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "扫描并核验",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "Facility EMR with bar code scanner",
+   "hash": "6e5a42971b85cb4a",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "EMR المرفق الصحي مع ماسح الرموز الشريطية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "EMR del centro con lector de códigos de barras",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DME de l'établissement avec lecteur de codes-barres",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR учреждения со сканером штрихкодов",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "配有条码扫描器的机构 EMR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.when",
+   "msgid": "Second day in Nalemi",
+   "hash": "76b49bc9dc31d1bd",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اليوم الثاني في Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Segundo día en Nalemi",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Deuxième jour à Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Второй день в Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Nalemi 的第二天",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "Registration, pilgrimage health facility, Nalemi",
+   "hash": "8fbd6a6d8e2a6b80",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التسجيل، المرفق الصحي للزيارة الدينية، Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registro, establecimiento de salud de la peregrinación, Nalemi",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistrement, établissement de santé du pèlerinage, Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Регистрация, медицинское учреждение для паломников, Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "登记处，朝圣医疗卫生机构，Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "P4 · Scanned and checked",
+   "hash": "05d38c703de4a1e4",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "P4 · المسح والتحقق",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "P4 · Escaneado y verificado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "P4 · Scanné et vérifié",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "P4 · Отсканировано и проверено",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "P4 · 扫描并核验",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "Second day in Nalemi",
+   "hash": "29ad099f23da77ce",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اليوم الثاني في Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Segundo día en Nalemi",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Deuxième jour à Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Второй день в Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Nalemi 的第二天",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "Registration, pilgrimage health facility, Nalemi",
+   "hash": "3215190fcda3aaad",
+   "sources": [
+    "user-scenarios/p4-scanned-and-checked.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التسجيل، المرفق الصحي للزيارة الدينية، Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registro, establecimiento de salud de la peregrinación, Nalemi",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistrement, établissement de santé du pèlerinage, Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Регистрация, медицинское учреждение для паломников, Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "登记处，朝圣医疗卫生机构，Nalemi",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

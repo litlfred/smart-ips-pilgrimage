@@ -1,6 +1,6 @@
 {
  "$schema": "site-link-report/v1",
- "pages": 4628,
+ "pages": 4651,
  "unresolved": [],
  "selfAddress": [],
  "content": [
@@ -1229,6 +1229,6 @@
    "href": "MySejahtera_qr.png"
   }
  ],
- "diagrams": 39,
+ "diagrams": 36,
  "inDiagrams": []
 }

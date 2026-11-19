@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/actor-pilgrim",
+ "hashes": {
+  "ar": "42063a6b277ee2c0",
+  "es": "e3cc1e457d93efe2",
+  "fr": "1bf87e52b7fbaa9e",
+  "ru": "64f56d712051bc59",
+  "zh": "96ba0c33d2d196db"
+ },
+ "strings": [
+  {
+   "msgid": "Type Description Transactions participated in as source Transactions participated in as target Questionnaire participated in    Person Person undergoing a pilgrimage to a pilgrimage host country.  During an unplanned care encounter they would provide explicit consent to access a patient summary information to a Host Country Health Worker.  configure VHL privacy settings on wallet (shl-configure-privacy-settings) fill consent form for sharing IPS during the pilgrimage on wallet (consent-wallet-questionnaire)",
+   "hash": "5bee833f4a8aa2df",
+   "sources": [
+    "input/pagecontent/actor-pilgrim.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النوع الوصف المعاملات المُشارَك فيها بوصفه مصدرًا المعاملات المُشارَك فيها بوصفه هدفًا الاستبيانات المُشارَك فيها    شخص شخص يؤدي زيارة دينية إلى بلد مضيف للزيارة الدينية.  وخلال لقاء رعاية غير مخطط له، يقدّم موافقة صريحة على إتاحة الوصول إلى معلومات ملخص المريض للعامل الصحي في البلد المضيف.  ضبط إعدادات خصوصية VHL في المحفظة (shl-configure-privacy-settings) ملء نموذج الموافقة على مشاركة IPS خلال الزيارة الدينية في المحفظة (consent-wallet-questionnaire)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tipo Descripción Transacciones en las que participa como origen Transacciones en las que participa como destino Cuestionario en el que participa    Persona Persona que realiza una peregrinación a un país anfitrión de la peregrinación.  Durante un encuentro de atención no programada, daría su consentimiento explícito para que un trabajador de salud del país anfitrión acceda a la información del resumen del paciente.  configurar los ajustes de privacidad del VHL en la billetera (shl-configure-privacy-settings) rellenar en la billetera el formulario de consentimiento para compartir el IPS durante la peregrinación (consent-wallet-questionnaire)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Type Description Transactions auxquelles il participe en tant que source Transactions auxquelles il participe en tant que cible Questionnaire auquel il participe    Personne Personne effectuant un pèlerinage vers un pays d'accueil du pèlerinage.  Lors d'une consultation pour soins non planifiés, elle donne son consentement explicite à l'accès aux informations de son résumé de patient par un agent de santé du pays d'accueil.  configurer les paramètres de confidentialité du VHL sur le portefeuille (shl-configure-privacy-settings) remplir le formulaire de consentement au partage de l'IPS pendant le pèlerinage sur le portefeuille (consent-wallet-questionnaire)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Тип Описание Транзакции, в которых участвует в качестве источника Транзакции, в которых участвует в качестве получателя Опросники, в которых участвует    Лицо Лицо, совершающее паломничество в принимающую паломничество страну.  Во время эпизода незапланированной медицинской помощи оно даёт медицинскому работнику принимающей страны явное согласие на доступ к информации сводки о пациенте.  настройка параметров конфиденциальности VHL в кошельке (shl-configure-privacy-settings) заполнение формы согласия на передачу IPS во время паломничества в кошельке (consent-wallet-questionnaire)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "类型 描述 作为来源参与的事务 作为目标参与的事务 参与的问卷    人员 前往朝圣东道国进行朝圣的人员。  在计划外照护就诊期间，他们会提供明确同意，允许东道国卫生工作者访问患者摘要信息。  在钱包上配置 VHL 隐私设置（shl-configure-privacy-settings） 在钱包上填写朝圣期间共享 IPS 的同意表（consent-wallet-questionnaire）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

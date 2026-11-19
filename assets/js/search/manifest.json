@@ -2,63 +2,21 @@
   "$schema": "folio-search-manifest/v1",
   "source": {
     "path": "assets/js/search-data.json",
-    "sha256": "21b17d38a755fbba8d7e4b8073623eb69d996ee7bc177a60bebcb06a284efaef",
+    "sha256": "895e5d8976e8778dee8f31ee890f159b4902d5b7d336220d45de62468270665d",
     "entries": 3181,
-    "bytes": 3045480
+    "bytes": 3026833
   },
   "scopes": [
     {
       "id": "_platform",
       "kind": "platform",
       "path": "assets/js/search/_platform.json",
-      "entries": 84,
-      "bytes": 125083
-    },
-    {
-      "id": "cat-harness",
-      "kind": "instance",
-      "path": "assets/js/search/cat-harness.json",
-      "entries": 2772,
-      "bytes": 2057883,
+      "entries": 3181,
+      "bytes": 2931944,
       "index": {
-        "path": "assets/js/search/cat-harness.idx.json",
-        "bytes": 6217457
+        "path": "assets/js/search/_platform.idx.json",
+        "bytes": 8344890
       }
-    },
-    {
-      "id": "locale-ar",
-      "kind": "locale",
-      "path": "assets/js/search/locale-ar.json",
-      "entries": 65,
-      "bytes": 163574
-    },
-    {
-      "id": "locale-es",
-      "kind": "locale",
-      "path": "assets/js/search/locale-es.json",
-      "entries": 65,
-      "bytes": 142380
-    },
-    {
-      "id": "locale-fr",
-      "kind": "locale",
-      "path": "assets/js/search/locale-fr.json",
-      "entries": 65,
-      "bytes": 144116
-    },
-    {
-      "id": "locale-ru",
-      "kind": "locale",
-      "path": "assets/js/search/locale-ru.json",
-      "entries": 65,
-      "bytes": 205619
-    },
-    {
-      "id": "locale-zh",
-      "kind": "locale",
-      "path": "assets/js/search/locale-zh.json",
-      "entries": 65,
-      "bytes": 111942
     }
   ],
   "remote": [
@@ -68,5 +26,17 @@
       "href": "id-lookup/?index=who-iris/",
       "entries": 53
     }
-  ]
+  ],
+  "layers": [
+    "bootstrap",
+    "bootstrap-tools",
+    "cat-harness",
+    "cat-harness-tools",
+    "fhir-harness",
+    "folio-assistant-core",
+    "smart-base",
+    "smart-trust-tools",
+    "who-iris"
+  ],
+  "kgSearch": "slices/search.html?slice=kg"
 }

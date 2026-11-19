@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-retrieve-MHD-folder-request-trigger-events",
+ "hashes": {
+  "ar": "af63554cd52fa607",
+  "es": "bedf2c528783481b",
+  "fr": "9452d02c8f4cd074",
+  "ru": "14a6db5f9bb49bb6",
+  "zh": "5056ef0ac9d55b7c"
+ },
+ "strings": [
+  {
+   "msgid": "The retrieve VHL folder docs request transaction is initiated when the host country EMR has extracted a VHL payload from a QR code that was scanned and the decrypted CWT decrypted yielded a HCERT payload that wrapped the VHL payload within it.",
+   "hash": "b2b5f12ca5f87306",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-trigger-events.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبدأ معاملة طلب استرجاع مستندات مجلد VHL حين يستخرج EMR البلد المضيف حمولة VHL من رمز QR ممسوح، ويكون فكّ تشفير CWT قد أسفر عن حمولة HCERT تغلّف حمولة VHL بداخلها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La transacción de solicitud de documentos de la carpeta VHL se inicia cuando la EMR del país anfitrión ha extraído una carga útil de VHL de un código QR escaneado y el CWT descifrado ha producido una carga útil HCERT que contenía en su interior la carga útil del VHL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La transaction retrieve VHL folder docs request est lancée lorsque le DME du pays d’accueil a extrait une charge utile VHL d’un code QR scanné et que le CWT déchiffré a produit une charge utile HCERT encapsulant la charge utile VHL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция запроса на получение документов папки VHL инициируется, когда EMR принимающей страны извлекла полезную нагрузку VHL из отсканированного QR-кода, а расшифрованный CWT дал полезную нагрузку HCERT, содержащую в себе полезную нагрузку VHL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "当东道国 EMR 从扫描的 QR 码中提取出 VHL 载荷，且解密后的 CWT 得到一个内含该 VHL 载荷的 HCERT 载荷时，即发起检索 VHL 文件夹文档请求事务。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

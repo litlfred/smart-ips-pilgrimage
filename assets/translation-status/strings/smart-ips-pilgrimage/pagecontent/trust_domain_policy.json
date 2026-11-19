@@ -1,0 +1,601 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/trust_domain_policy",
+ "hashes": {
+  "ar": "3449774391d76d8b",
+  "es": "7bf18e4adabdfc65",
+  "fr": "17b95f97f9d7b0a7",
+  "ru": "eb79b424d44ef9b5",
+  "zh": "7236d8a5f129a1e4"
+ },
+ "strings": [
+  {
+   "msgid": "checks that each named policy is in this ValueSet;",
+   "hash": "d2f1f49f5f7b3a21",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتحقق من أن كل سياسة مسمّاة موجودة في ValueSet هذه؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "comprueba que cada política nombrada figura en este ValueSet;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "vérifie que chaque politique nommée figure dans ce ValueSet ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "проверяет, что каждая названная политика входит в этот ValueSet;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检查每项指名的策略是否在该 ValueSet 中；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "decides as the <a0>GDHCN Trust Network: Personal Health Wallet</a0> process I describes.",
+   "hash": "bdfba1be265af512",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تقرر وفق ما تصفه العملية I من <a0>شبكة الثقة التابعة لـ GDHCN: المحفظة الصحية الشخصية</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "decide como describe el proceso I de <a0>Red de confianza de la GDHCN: billetera sanitaria personal</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "décide comme le décrit le processus I de <a0>GDHCN Trust Network: Personal Health Wallet</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "принимает решение так, как описано в процессе I <a0>GDHCN Trust Network: Personal Health Wallet</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "按照 <a0>GDHCN Trust Network: Personal Health Wallet</a0> 流程 I 所述作出决定。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Naming a policy only narrows the consents that apply, and it never overrides a prohibition. A credential with no {code0} is decided on all the pilgrim's applicable consents.",
+   "hash": "ffca4b41ecf48500",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسمية سياسة ما لا تؤدي إلا إلى تضييق نطاق الموافقات المنطبقة، ولا تتجاوز أبدًا أي حظر. ويُبتّ في بيانات الاعتماد التي لا تحتوي على {code0} استنادًا إلى جميع موافقات الزائر المنطبقة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Nombrar una política solo restringe los consentimientos aplicables, y nunca anula una prohibición. Una credencial sin {code0} se decide sobre la base de todos los consentimientos aplicables del peregrino.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Nommer une politique ne fait que restreindre les consentements applicables, et ne prévaut jamais sur une interdiction. Une attestation sans {code0} est évaluée au regard de l'ensemble des consentements applicables du pèlerin.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Указание политики лишь сужает круг применимых согласий и никогда не отменяет запрет. Решение по учётным данным без {code0} принимается на основании всех применимых согласий паломника.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "指名某项策略只会缩小适用的同意范围，绝不会推翻禁止性规定。没有 {code0} 的凭证将依据朝圣者所有适用的同意作出决定。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Naming the consent a VHL Receiver acts under",
+   "hash": "97e99c04f4c8221e",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسمية الموافقة التي تعمل الجهة المُستقبِلة في VHL بموجبها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Indicar el consentimiento en virtud del cual actúa un VHL Receiver",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Nommer le consentement en vertu duquel agit un VHL Receiver",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Указание согласия, на основании которого действует получатель VHL (VHL Receiver)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "指名 VHL 接收方所依据的同意",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Terms of use",
+   "hash": "2f2e872f071fd556",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شروط الاستخدام",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Términos de uso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Conditions d'utilisation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Условия использования",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "使用条款",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The <a0>IPS.HAJJ.CONSENT ValueSet</a0> is this Trust Domain's terms of use: the policies a participant may say it acts under. It is recorded on the <a1>IPS-PILGRIMAGE Trust Domain</a1> in the GDHCN Trust IG. The GDHCN Administrative and Operational Framework 1.2 has no annex for this Trust Domain yet, so that record is drafted from this IG.",
+   "hash": "9dd51ff4941e8c98",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تمثل <a0>ValueSet IPS.HAJJ.CONSENT</a0> شروط الاستخدام لنطاق الثقة هذا: أي السياسات التي يجوز للمشارك أن يعلن أنه يعمل بموجبها. وهي مسجّلة في <a1>نطاق الثقة IPS-PILGRIMAGE</a1> ضمن GDHCN Trust IG. ولا يتضمن الإطار الإداري والتشغيلي لـ GDHCN 1.2 بعدُ ملحقًا لنطاق الثقة هذا، ولذلك صيغ هذا السجل استنادًا إلى هذا IG.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El <a0>ValueSet IPS.HAJJ.CONSENT</a0> constituye los términos de uso de este Ámbito de confianza: las políticas en virtud de las cuales un participante puede declarar que actúa. Está registrado en el <a1>Ámbito de confianza IPS-PILGRIMAGE</a1> de la IG GDHCN Trust. El Marco Administrativo y Operativo de la GDHCN 1.2 aún no tiene un anexo para este Ámbito de confianza, por lo que ese registro se redacta a partir de esta IG.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le <a0>ValueSet IPS.HAJJ.CONSENT</a0> constitue les conditions d'utilisation de ce domaine de confiance : les politiques en vertu desquelles un participant peut déclarer agir. Il est consigné dans le <a1>domaine de confiance IPS-PILGRIMAGE</a1> du GDHCN Trust IG. Le cadre administratif et opérationnel 1.2 du GDHCN ne comporte pas encore d'annexe pour ce domaine de confiance ; cette consignation est donc rédigée à partir de cet IG.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>IPS.HAJJ.CONSENT ValueSet</a0> — это условия использования данного Домена доверия: политики, на основании которых, по заявлению участника, он действует. Они записаны в <a1>Домене доверия IPS-PILGRIMAGE</a1> в GDHCN Trust IG. В Административно-операционной основе GDHCN (GDHCN Administrative and Operational Framework) 1.2 пока нет приложения для этого Домена доверия, поэтому данная запись составлена на основе этого IG.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>IPS.HAJJ.CONSENT ValueSet</a0> 是本信任域的使用条款：即参与方可以声明其所依据的策略。它记录在 GDHCN Trust IG 中的 <a1>IPS-PILGRIMAGE 信任域</a1>上。GDHCN 行政和运营框架 1.2 尚无针对本信任域的附件，因此该记录根据本 IG 起草。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The VHL Sharer then:",
+   "hash": "a416f64f2e7d844c",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ثم تقوم الجهة المُشارِكة في VHL بما يلي:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "A continuación, el VHL Sharer:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le VHL Sharer ensuite :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Затем сторона, предоставляющая VHL (VHL Sharer):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "随后 VHL 共享方：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Under the Verifiable Credential Option of IHE ITI VHL (ITI-YY5), a VHL Receiver retrieves the manifest with a credential it issues itself. It can name the consent policy it acts under in that credential's W3C VC 2.0 {code0}, with one <a0>Trust Domain policy</a0> entry per policy:",
+   "hash": "2b8c4c48cf118507",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بموجب خيار Verifiable Credential في IHE ITI VHL (ITI-YY5)، تسترجع الجهة المُستقبِلة في VHL البيان باستخدام بيانات اعتماد تُصدرها بنفسها. ويمكنها أن تسمّي سياسة الموافقة التي تعمل بموجبها في {code0} الخاص ببيانات الاعتماد تلك وفق W3C VC 2.0، بإدخال واحد من <a0>سياسة نطاق الثقة</a0> لكل سياسة:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Con la opción Verifiable Credential de IHE ITI VHL (ITI-YY5), un VHL Receiver recupera el manifiesto con una credencial que emite él mismo. Puede indicar la política de consentimiento en virtud de la cual actúa en el {code0} de W3C VC 2.0 de esa credencial, con una entrada de <a0>política del Ámbito de confianza</a0> por política:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans le cadre de l'option Verifiable Credential d'IHE ITI VHL (ITI-YY5), un VHL Receiver récupère le manifeste avec une attestation qu'il émet lui-même. Il peut nommer la politique de consentement en vertu de laquelle il agit dans le {code0} W3C VC 2.0 de cette attestation, avec une entrée <a0>Trust Domain policy</a0> par politique :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В рамках варианта Verifiable Credential Option профиля IHE ITI VHL (ITI-YY5) получатель VHL (VHL Receiver) получает манифест с помощью учётных данных, которые он выпускает сам. Он может указать политику согласия, на основании которой действует, в {code0} этих учётных данных W3C VC 2.0, по одной записи <a0>политики Домена доверия</a0> на каждую политику:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "根据 IHE ITI VHL（ITI-YY5）的可验证凭证选项（Verifiable Credential Option），VHL 接收方使用其自行签发的凭证检索清单。它可以在该凭证的 W3C VC 2.0 {code0} 中指名其所依据的同意策略，每项策略一条 <a0>信任域策略</a0>条目：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Explicit and implied consent",
+   "hash": "b75d2f8b895ce836",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الموافقة الصريحة والموافقة الضمنية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Consentimiento explícito e implícito",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Consentement explicite et consentement implicite",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Явное и подразумеваемое согласие",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "明示同意与默示同意",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This guide follows the consent model of the <a0>GDHCN Trust Network: Personal Health Wallet</a0> guide, which is built on IHE Privacy Consent on FHIR (PCF) 1.1.0:",
+   "hash": "efef1a18582fce01",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتّبع هذا الدليل نموذج الموافقة الوارد في دليل <a0>GDHCN Trust Network: Personal Health Wallet</a0>، المبني على IHE Privacy Consent on FHIR (PCF) 1.1.0:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía sigue el modelo de consentimiento de la guía <a0>GDHCN Trust Network: Personal Health Wallet</a0>, que se basa en IHE Privacy Consent on FHIR (PCF) 1.1.0:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide suit le modèle de consentement du guide <a0>GDHCN Trust Network: Personal Health Wallet</a0>, qui repose sur IHE Privacy Consent on FHIR (PCF) 1.1.0 :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это руководство следует модели согласия руководства <a0>GDHCN Trust Network: Personal Health Wallet</a0>, основанной на IHE Privacy Consent on FHIR (PCF) 1.1.0:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本指南遵循 <a0>GDHCN Trust Network: Personal Health Wallet</a0> 指南的同意模型，该模型基于 IHE Privacy Consent on FHIR（PCF）1.1.0：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Consent directives travel with the document. The pilgrim's IPS (<a0>HajjIPS</a0>) carries the pilgrimage consents it is shared under, as consent entries, and lists them in its Advance Directives section. The Personal Health Wallet guide's process M (\"Add Consent Directives to a Shared or Issued Document\") describes the steps. The copy in the IPS is evidence for the receiver. The origin HIE enforces the copy in its own Consent Registry, because a signed IPS cannot show a later withdrawal.",
+   "hash": "cae042dfa4b9c4ee",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تنتقل توجيهات الموافقة مع المستند. فملخص IPS الخاص بالزائر (<a0>HajjIPS</a0>) يحمل موافقات الزيارة الدينية التي يُشارَك بموجبها، بوصفها مُدخلات موافقة، ويُدرجها في قسم التوجيهات المسبقة (Advance Directives). وتصف العمليةُ M في دليل Personal Health Wallet («Add Consent Directives to a Shared or Issued Document») الخطوات. والنسخة الموجودة في ملخص IPS بيّنةٌ للجهة المُستقبِلة. أما منصة HIE في بلد المنشأ فتُنفِّذ النسخةَ المحفوظة في سجل الموافقات الخاص بها، لأن ملخص IPS الموقَّع لا يمكنه أن يُظهر سحبًا لاحقًا للموافقة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las directivas de consentimiento acompañan al documento. El IPS del peregrino (<a0>HajjIPS</a0>) incluye, como entradas de consentimiento, los consentimientos de la peregrinación con arreglo a los cuales se comparte, y los enumera en su sección de Directivas anticipadas (Advance Directives). El proceso M de la guía Personal Health Wallet (\"Add Consent Directives to a Shared or Issued Document\") describe los pasos. La copia que figura en el IPS es una prueba para el receptor. El HIE de origen aplica la copia que conserva en su propio Consent Registry, porque un IPS firmado no puede reflejar una retirada posterior.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les directives de consentement accompagnent le document. L’IPS du pèlerin (<a0>HajjIPS</a0>) porte les consentements de pèlerinage sous lesquels il est partagé, sous forme d’entrées de consentement, et les énumère dans sa section Directives anticipées (Advance Directives). Le processus M du guide Personal Health Wallet (« Add Consent Directives to a Shared or Issued Document ») en décrit les étapes. La copie contenue dans l’IPS sert de preuve au destinataire. La HIE d’origine applique la copie conservée dans son propre Consent Registry, car un IPS signé ne peut pas faire apparaître un retrait ultérieur.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Распоряжения о согласии передаются вместе с документом. IPS паломника (<a0>HajjIPS</a0>) содержит согласия на паломничество, на основании которых им делятся, в виде записей о согласии и перечисляет их в разделе Advance Directives (предварительные распоряжения). Шаги описаны в процессе M руководства Personal Health Wallet («Add Consent Directives to a Shared or Issued Document» — добавление распоряжений о согласии в предоставленный или выданный документ). Копия в IPS служит доказательством для получателя. HIE страны происхождения применяет копию в собственном реестре согласий, поскольку подписанная IPS не может отразить последующий отзыв согласия.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "同意指令随文档一同流转。朝圣者的 IPS（<a0>HajjIPS</a0>）以同意条目的形式携带其据以共享的朝圣同意，并在其预先指示（Advance Directives）部分列出这些同意。Personal Health Wallet 指南的流程 M（“Add Consent Directives to a Shared or Issued Document”，向共享或签发的文档添加同意指令）描述了相关步骤。IPS 中的副本是供接收方使用的证据。来源国 HIE 执行的是其自身同意登记库（Consent Registry）中保存的副本，因为已签名的 IPS 无法反映之后的撤回。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Explicit consent. The pilgrim agrees by their own act: on their wallet, or to the counsellor, who records it. Each <a0>pilgrimage consent</a0> is an explicit consent, an opt-in: its {code0} includes the HL7 v3 ActConsentDirective code {code1}. It names its {code2} code and the code system version in {code3}, and its {code4} is the evidence: the consent text the pilgrim was shown, with their recorded act. The Personal Health Wallet guide's process L (\"Record Explicit Consent\") describes the steps. Both the verbal consent and the consent on the wallet in this guide's business processes are explicit consents.",
+   "hash": "34d81d74b1498f8b",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الموافقة الصريحة. يوافق الزائر بفعلٍ منه: على محفظته، أو أمام المستشار الذي يسجّلها. وكل <a0>موافقة للزيارة الدينية</a0> هي موافقة صريحة، أي اشتراك اختياري (opt-in): إذ يتضمّن {code0} الخاص بها رمز HL7 v3 ActConsentDirective ‏{code1}. وتُسمّي رمز {code2} الخاص بها وإصدار نظام الرموز في {code3}، ويكون {code4} الخاص بها هو البيّنة: نص الموافقة الذي عُرض على الزائر، مع الفعل المسجَّل منه. وتصف العمليةُ L في دليل Personal Health Wallet («Record Explicit Consent») الخطوات. وكلٌّ من الموافقة الشفهية والموافقة على المحفظة في عمليات العمل الواردة في هذا الدليل موافقةٌ صريحة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Consentimiento explícito. El peregrino da su conformidad mediante un acto propio: en su billetera, o ante el asesor, que lo registra. Cada <a0>consentimiento de la peregrinación</a0> es un consentimiento explícito, de adhesión voluntaria (opt-in): su {code0} incluye el código {code1} de ActConsentDirective de HL7 v3. Indica su código {code2} y la versión del sistema de códigos en {code3}, y su {code4} es la prueba: el texto de consentimiento que se mostró al peregrino, junto con el acto que este realizó y quedó registrado. El proceso L de la guía Personal Health Wallet (\"Record Explicit Consent\") describe los pasos. Tanto el consentimiento verbal como el consentimiento en la billetera de los procesos de negocio de esta guía son consentimientos explícitos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Consentement explicite. Le pèlerin donne son accord par un acte qui lui est propre : dans son portefeuille, ou auprès du conseiller, qui l’enregistre. Chaque <a0>consentement de pèlerinage</a0> est un consentement explicite, une adhésion volontaire (opt-in) : son {code0} comprend le code {code1} de HL7 v3 ActConsentDirective. Il indique son code {code2} et la version du système de codes dans {code3}, et son {code4} en constitue la preuve : le texte de consentement présenté au pèlerin, accompagné de l’acte consigné. Le processus L du guide Personal Health Wallet (« Record Explicit Consent ») en décrit les étapes. Le consentement verbal et le consentement dans le portefeuille décrits dans les processus métier de ce guide sont tous deux des consentements explicites.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Явное согласие. Паломник даёт согласие собственным действием: в своём кошельке медицинских данных или консультанту, который фиксирует это согласие. Каждое <a0>согласие на паломничество</a0> является явным согласием на включение (opt-in): его {code0} содержит код HL7 v3 ActConsentDirective {code1}. В нём указаны код {code2} и версия системы кодов в {code3}, а его {code4} служит доказательством: текст согласия, показанный паломнику, вместе с зарегистрированным действием паломника. Шаги описаны в процессе L руководства Personal Health Wallet («Record Explicit Consent» — регистрация явного согласия). И устное согласие, и согласие в кошельке в бизнес-процессах этого руководства являются явными согласиями.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "明示同意。朝圣者以其本人的行为表示同意：在其钱包上表示，或向咨询师表示并由咨询师记录。每一项<a0>朝圣同意</a0>都是明示同意，即选择加入（opt-in）：其 {code0} 包含 HL7 v3 ActConsentDirective 代码 {code1}。它在 {code3} 中注明其 {code2} 代码及代码系统版本，其 {code4} 即为证据：向朝圣者展示的同意文本，以及其已记录的行为。Personal Health Wallet 指南的流程 L（“Record Explicit Consent”，记录明示同意）描述了相关步骤。本指南业务流程中的口头同意和钱包上的同意均为明示同意。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Implied consent. The pilgrim does nothing, and the Trust Domain's default policy applies (HL7 ActConsentDirective {code0}). This Trust Domain is opt-in: its default is the IHE PCF implicit policy {code1}. With no pilgrimage consent, the IPS is not shared.",
+   "hash": "dbdefd49981fe1a2",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الموافقة الضمنية. لا يفعل الزائر شيئًا، فتُطبَّق السياسة الافتراضية لنطاق الثقة (HL7 ActConsentDirective ‏{code0}). ونطاق الثقة هذا قائم على الاشتراك الاختياري (opt-in): فسياسته الافتراضية هي السياسة الضمنية في IHE PCF ‏{code1}. ومن دون موافقة للزيارة الدينية، لا يُشارَك ملخص IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Consentimiento implícito. El peregrino no hace nada y se aplica la política predeterminada del Ámbito de confianza (ActConsentDirective {code0} de HL7). Este Ámbito de confianza es de adhesión voluntaria (opt-in): su valor predeterminado es la política implícita {code1} de IHE PCF. Sin consentimiento de la peregrinación, el IPS no se comparte.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Consentement implicite. Le pèlerin ne fait rien, et la politique par défaut du Domaine de confiance s’applique (HL7 ActConsentDirective {code0}). Ce Domaine de confiance fonctionne par adhésion volontaire (opt-in) : sa valeur par défaut est la politique implicite IHE PCF {code1}. Sans consentement de pèlerinage, l’IPS n’est pas partagé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подразумеваемое согласие. Паломник не предпринимает никаких действий, и применяется политика Домена доверия по умолчанию (HL7 ActConsentDirective {code0}). Этот Домен доверия работает по принципу включения (opt-in): по умолчанию действует неявная политика IHE PCF {code1}. Без согласия на паломничество IPS не предоставляется.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "默示同意。朝圣者不采取任何行为，适用信任域的默认政策（HL7 ActConsentDirective {code0}）。本信任域采用选择加入（opt-in）：其默认政策为 IHE PCF 隐含政策 {code1}。若无朝圣同意，则不共享 IPS。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "matches it against the {code0} of the pilgrim's pilgrimage consents (system and code);",
+   "hash": "3ef98b9337cdf775",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطابقها مع {code0} في موافقات الزيارة الدينية الخاصة بالزائر (النظام والرمز)؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "lo compara con el {code0} de los consentimientos de la peregrinación del peregrino (sistema y código);",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "la confronte au {code0} des consentements de pèlerinage du pèlerin (système et code) ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "сопоставляет её с {code0} согласий паломника на паломничество (system и code);",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将其与朝圣者各项朝圣同意的 {code0}（system 和 code）进行匹配；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This Trust Domain enables data exchange mediated by the pilgrim, on the basis of the pilgrim's consent. The consents are recorded in the <a0>IPS.HAJJ.CONSENT CodeSystem</a0>, and each <a1>pilgrimage consent</a1> in a pilgrim's IPS names one of them in {code0}.",
+   "hash": "fa2fefa073681bf9",
+   "sources": [
+    "input/pagecontent/trust_domain_policy.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتيح نطاق الثقة هذا تبادل البيانات بوساطة الزائر، على أساس موافقته. وتُسجَّل الموافقات في <a0>CodeSystem IPS.HAJJ.CONSENT</a0>، وكل <a1>موافقة للزيارة الدينية</a1> في IPS الخاص بالزائر تسمّي إحداها في {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Este Ámbito de confianza permite el intercambio de datos mediado por el peregrino, sobre la base de su consentimiento. Los consentimientos se registran en el <a0>CodeSystem IPS.HAJJ.CONSENT</a0>, y cada <a1>consentimiento de la peregrinación</a1> del IPS de un peregrino nombra uno de ellos en {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce domaine de confiance permet un échange de données par l'intermédiaire du pèlerin, sur la base du consentement du pèlerin. Les consentements sont consignés dans le <a0>CodeSystem IPS.HAJJ.CONSENT</a0>, et chaque <a1>consentement de pèlerinage</a1> figurant dans l'IPS d'un pèlerin nomme l'un d'eux dans {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Этот Домен доверия обеспечивает обмен данными при посредничестве паломника на основании его согласия. Согласия записаны в <a0>IPS.HAJJ.CONSENT CodeSystem</a0>, и каждое <a1>согласие на паломничество</a1> в IPS паломника указывает одно из них в {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本信任域支持由朝圣者居中、基于朝圣者同意的数据交换。这些同意记录在 <a0>IPS.HAJJ.CONSENT CodeSystem</a0> 中，朝圣者 IPS 中的每条<a1>朝圣同意</a1>都在 {code0} 中指名其中之一。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,289 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/adapting",
+ "hashes": {
+  "ar": "4596a6b9598bb8fd",
+  "es": "a99532483fdffe7d",
+  "fr": "342a36689b0c27a3",
+  "ru": "f858f3f68cb90044",
+  "zh": "dec48b9286790796"
+ },
+ "strings": [
+  {
+   "msgid": "For more on layers of knowledge representation and how they are used in WHO’s SMART Guidelines approach, see <a0>WHO’s SMART Guidelines</a0> and this <a1>Lancet article</a1>00038-8/fulltext).",
+   "hash": "54694fe77a7b0b97",
+   "sources": [
+    "input/pagecontent/adapting.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لمزيد من المعلومات حول طبقات تمثيل المعرفة وكيفية استخدامها في نهج إرشادات SMART لمنظمة الصحة العالمية (WHO)، انظر <a0>إرشادات SMART لمنظمة الصحة العالمية</a0> و<a1>مقالة Lancet</a1>00038-8/fulltext) هذه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para obtener más información sobre los niveles de representación del conocimiento y cómo se utilizan en el enfoque de las SMART Guidelines de la OMS, consulte <a0>las SMART Guidelines de la OMS</a0> y este <a1>artículo de The Lancet</a1>00038-8/fulltext).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour en savoir plus sur les niveaux de représentation des connaissances et leur utilisation dans l’approche des lignes directrices SMART de l’OMS, voir <a0>les lignes directrices SMART de l’OMS</a0> et cet <a1>article du Lancet</a1>00038-8/fulltext).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подробнее об уровнях представления знаний и их использовании в подходе ВОЗ «руководящие принципы SMART» см. <a0>руководящие принципы SMART ВОЗ (WHO SMART Guidelines)</a0> и эту <a1>статью в журнале Lancet</a1>00038-8/fulltext).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "有关知识表示的各个层级及其在世卫组织（WHO）SMART 指南方法中的应用，请参见<a0>世卫组织（WHO）SMART 指南</a0>和这篇<a1>《柳叶刀》文章</a1>00038-8/fulltext)。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The following page provides a reference to resources that can guide countries in adapting the guidelines for country use.",
+   "hash": "4fd33cb2d7fad300",
+   "sources": [
+    "input/pagecontent/adapting.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تقدّم الصفحة التالية مرجعًا إلى الموارد التي يمكن أن توجّه البلدان في تكييف الإرشادات للاستخدام القُطري.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La siguiente página ofrece una referencia a recursos que pueden orientar a los países en la adaptación de las directrices para su uso en el país.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La page suivante fournit une référence aux ressources qui peuvent guider les pays dans l’adaptation des lignes directrices à un usage national.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице приведены ссылки на ресурсы, которые могут помочь странам в адаптации руководящих принципов для использования на национальном уровне.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "以下页面提供了可指导各国调整指南以供本国使用的资源参考。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The fourth layer (L4: Executable—reference applications and services) focuses on software applications and services within a digital ecosystem. It is intended to include executable reference software that accurately represents the intentions, operational, and functional requirements of the WHO recommendations; addresses user and health system needs; and comprises machine-readable data and calculations within interoperability standards, as documented in the L1–L3 layers. As a fully functional application, it is intended to serve as a generic starting point, ready to be localised to the specific operational context of the users, population, and health system within which it is deployed. Additional products at this layer include terminology services to support consistent data representation for interoperability; reusable software libraries including software development kits; application programming interfaces; and function as a service to support updates to FHIR content and capabilities across subscribed digital systems.",
+   "hash": "5bebe6db9082c0b5",
+   "sources": [
+    "input/pagecontent/adapting.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تركّز الطبقة الرابعة (L4: القابلة للتنفيذ - التطبيقات والخدمات المرجعية) على التطبيقات والخدمات البرمجية ضمن منظومة رقمية. ويُقصَد بها أن تتضمن برمجيات مرجعية قابلة للتنفيذ تمثّل بدقة مقاصد توصيات منظمة الصحة العالمية (WHO) ومتطلباتها التشغيلية والوظيفية؛ وتلبّي احتياجات المستخدمين والنظام الصحي؛ وتشتمل على بيانات وحسابات قابلة للقراءة آليًا ضمن معايير التشغيل البيني، على النحو الموثَّق في الطبقات L1–L3. وبوصفها تطبيقًا متكامل الوظائف، يُقصَد بها أن تكون نقطة انطلاق عامة جاهزة للتوطين وفق السياق التشغيلي المحدَّد للمستخدمين والسكان والنظام الصحي الذي تُنشَر فيه. وتشمل المنتجات الإضافية في هذه الطبقة خدماتِ المصطلحات لدعم التمثيل المتسق للبيانات لأغراض التشغيل البيني؛ والمكتبات البرمجية القابلة لإعادة الاستخدام بما فيها مجموعات تطوير البرمجيات؛ وواجهات برمجة التطبيقات؛ والوظائف كخدمة لدعم تحديثات محتوى FHIR وقدراته عبر الأنظمة الرقمية المشتركة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El cuarto nivel (L4: Ejecutable: aplicaciones y servicios de referencia) se centra en las aplicaciones y servicios de software dentro de un ecosistema digital. Su finalidad es incluir software de referencia ejecutable que represente con exactitud las intenciones y los requisitos operativos y funcionales de las recomendaciones de la OMS; responda a las necesidades de los usuarios y del sistema de salud; y comprenda datos y cálculos legibles por máquina dentro de normas de interoperabilidad, tal como se documenta en los niveles L1–L3. Como aplicación plenamente funcional, su finalidad es servir de punto de partida genérico, listo para adaptarse localmente al contexto operativo específico de los usuarios, la población y el sistema de salud en el que se despliegue. Otros productos de este nivel incluyen servicios de terminología para apoyar una representación coherente de los datos con fines de interoperabilidad; bibliotecas de software reutilizables, incluidos kits de desarrollo de software; interfaces de programación de aplicaciones; y funciones como servicio para apoyar las actualizaciones del contenido y las capacidades FHIR en todos los sistemas digitales suscritos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le quatrième niveau (L4 : exécutable — applications et services de référence) porte sur les applications et services logiciels au sein d’un écosystème numérique. Il est destiné à comprendre des logiciels de référence exécutables qui représentent fidèlement les intentions et les exigences opérationnelles et fonctionnelles des recommandations de l’OMS ; qui répondent aux besoins des utilisateurs et du système de santé ; et qui comportent des données et des calculs lisibles par machine conformes aux normes d’interopérabilité, tels que documentés aux niveaux L1 à L3. En tant qu’application pleinement fonctionnelle, il est destiné à servir de point de départ générique, prêt à être adapté au contexte opérationnel spécifique des utilisateurs, de la population et du système de santé dans lequel il est déployé. Les autres produits de ce niveau comprennent des services terminologiques favorisant une représentation cohérente des données pour l’interopérabilité ; des bibliothèques logicielles réutilisables, y compris des kits de développement logiciel ; des interfaces de programmation d’applications ; et des fonctions en tant que service pour prendre en charge les mises à jour du contenu et des capacités FHIR dans les systèmes numériques abonnés.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Четвёртый уровень (L4: Исполняемый — эталонные приложения и сервисы) посвящён программным приложениям и сервисам в цифровой экосистеме. Он предназначен для включения исполняемого эталонного программного обеспечения, которое точно отражает намерения, операционные и функциональные требования рекомендаций ВОЗ; учитывает потребности пользователей и системы здравоохранения; и включает машиночитаемые данные и вычисления в рамках стандартов интероперабельности, как задокументировано на уровнях L1–L3. Как полнофункциональное приложение, оно призвано служить универсальной отправной точкой, готовой к локализации с учётом конкретного операционного контекста пользователей, населения и системы здравоохранения, в которых оно развёртывается. К дополнительным продуктам этого уровня относятся терминологические сервисы для обеспечения единообразного представления данных в целях интероперабельности; повторно используемые программные библиотеки, включая комплекты средств разработки программного обеспечения; интерфейсы прикладного программирования; а также функции как услуга для поддержки обновлений содержимого и возможностей FHIR во всех подписанных цифровых системах.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "第四层（L4：可执行——参考应用程序和服务）侧重于数字生态系统中的软件应用程序和服务。它旨在包括可执行的参考软件，这些软件准确体现世卫组织（WHO）建议的意图以及运营和功能需求；满足用户和卫生系统的需要；并包含互操作性标准内的机器可读数据和计算，如 L1–L3 层中所记录。作为一个功能完备的应用程序，它旨在作为通用起点，可根据其部署所在的用户、人群和卫生系统的具体运营环境进行本地化。该层的其他产品包括：支持互操作性一致数据表示的术语服务；可复用的软件库，包括软件开发工具包；应用程序编程接口；以及支持在已订阅数字系统中更新 FHIR 内容和功能的函数即服务。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The standards-based technical artifacts in this implementation guide are at the third layer of knowledge representation (L3: Machine-readable recommendations). It provides code necessary for software developers to incorporate standardised logic from WHO guidelines into digital systems, testable for conformance to standards including fidelity to recommendations. A standards-based technical implementation guide builds on operational (L2) by mapping L2 content to value sets and Health Level Seven International Fast Healthcare Interoperability Resources (FHIR) standards. Alongside data standards from L2, this allows for semantic and syntactic interoperability at scale. The logic derived from guidelines, which might include clinical decision support and calculations for performance indicators, which may be encoded into Clinical Quality Language (CQL). This ensures that key indicators can be consistently extracted to support patient care, as well as case surveillance and programme monitoring. The machine-readable representations in this implementation guide are intended for adaptation into countries’ digital health service delivery and reporting systems. Digital solutions comprising L3 machine-readable recommendations may then be testable for conformance to interoperability standards.",
+   "hash": "4e89b4d04da05c3e",
+   "sources": [
+    "input/pagecontent/adapting.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تقع المكوّنات التقنية القائمة على المعايير في دليل التنفيذ هذا في الطبقة الثالثة من تمثيل المعرفة (L3: التوصيات القابلة للقراءة آليًا). وهي توفّر الشيفرة اللازمة لمطوّري البرمجيات لدمج المنطق الموحَّد المستمد من إرشادات منظمة الصحة العالمية (WHO) في الأنظمة الرقمية، مع قابلية اختبار المطابقة للمعايير بما في ذلك الأمانة للتوصيات. ويبني دليل التنفيذ التقني القائم على المعايير على المستوى التشغيلي (L2) عبر ربط محتوى L2 بمجموعات القيم ومعايير موارد التشغيل البيني السريع للرعاية الصحية (FHIR) الصادرة عن منظمة Health Level Seven International. وإلى جانب معايير البيانات المستمدة من L2، يتيح ذلك التشغيل البيني الدلالي والنحوي على نطاق واسع. ويمكن ترميز المنطق المستمد من الإرشادات، الذي قد يشمل دعم القرار السريري والحسابات الخاصة بمؤشرات الأداء، بلغة الجودة السريرية (CQL). ويضمن ذلك إمكانية استخراج المؤشرات الرئيسية باتساق لدعم رعاية المرضى، فضلًا عن ترصّد الحالات ورصد البرامج. ويُقصَد بالتمثيلات القابلة للقراءة آليًا في دليل التنفيذ هذا أن تُكيَّف ضمن أنظمة تقديم الخدمات الصحية الرقمية والإبلاغ في البلدان. ويمكن بعد ذلك اختبار مطابقة الحلول الرقمية التي تشتمل على توصيات L3 القابلة للقراءة آليًا لمعايير التشغيل البيني.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los artefactos técnicos basados en normas de esta guía de implementación se sitúan en el tercer nivel de representación del conocimiento (L3: Recomendaciones legibles por máquina). Proporciona el código necesario para que los desarrolladores de software incorporen en los sistemas digitales la lógica normalizada de las directrices de la OMS, que puede someterse a pruebas de conformidad con las normas, incluida la fidelidad a las recomendaciones. Una guía de implementación técnica basada en normas se apoya en el nivel operativo (L2) asignando el contenido del L2 a conjuntos de valores y a las normas Fast Healthcare Interoperability Resources (FHIR) de Health Level Seven International. Junto con las normas de datos del L2, esto permite la interoperabilidad semántica y sintáctica a escala. La lógica derivada de las directrices, que podría incluir el apoyo a la decisión clínica y los cálculos de los indicadores de desempeño, puede codificarse en Clinical Quality Language (CQL). Esto garantiza que los indicadores clave puedan extraerse de forma coherente para apoyar la atención al paciente, así como la vigilancia de casos y el seguimiento de los programas. Las representaciones legibles por máquina de esta guía de implementación están destinadas a adaptarse a los sistemas digitales de prestación de servicios de salud y de notificación de los países. Las soluciones digitales que incluyan recomendaciones legibles por máquina del L3 pueden entonces someterse a pruebas de conformidad con las normas de interoperabilidad.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les artefacts techniques fondés sur des normes de ce guide d’implémentation se situent au troisième niveau de représentation des connaissances (L3 : recommandations lisibles par machine). Il fournit le code nécessaire aux développeurs de logiciels pour intégrer dans les systèmes numériques une logique normalisée issue des lignes directrices de l’OMS, dont la conformité aux normes, y compris la fidélité aux recommandations, peut être testée. Un guide d’implémentation technique fondé sur des normes s’appuie sur le niveau opérationnel (L2) en faisant correspondre le contenu L2 à des jeux de valeurs et aux normes FHIR (Fast Healthcare Interoperability Resources) de Health Level Seven International. Associé aux normes de données du niveau L2, cela permet une interopérabilité sémantique et syntaxique à grande échelle. La logique dérivée des lignes directrices, qui peut inclure l’aide à la décision clinique et les calculs des indicateurs de performance, peut être encodée en Clinical Quality Language (CQL). Cela garantit que les indicateurs clés peuvent être extraits de manière cohérente pour appuyer les soins aux patients, ainsi que la surveillance des cas et le suivi des programmes. Les représentations lisibles par machine de ce guide d’implémentation sont destinées à être adaptées aux systèmes nationaux de prestation de services de santé numériques et de notification. Les solutions numériques comprenant des recommandations lisibles par machine de niveau L3 peuvent ensuite être testées quant à leur conformité aux normes d’interopérabilité.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Основанные на стандартах технические артефакты в этом руководстве по внедрению относятся к третьему уровню представления знаний (L3: Машиночитаемые рекомендации). Оно содержит код, необходимый разработчикам программного обеспечения для включения стандартизированной логики из руководящих принципов ВОЗ в цифровые системы, с возможностью проверки на соответствие стандартам, включая точность следования рекомендациям. Основанное на стандартах техническое руководство по внедрению опирается на операционный уровень (L2), сопоставляя содержимое L2 с наборами значений и стандартами Fast Healthcare Interoperability Resources (FHIR) организации Health Level Seven International. Наряду со стандартами данных из L2 это обеспечивает семантическую и синтаксическую интероперабельность в масштабе. Логика, выведенная из руководящих принципов, которая может включать клиническую поддержку принятия решений и расчёты показателей эффективности, может быть закодирована на языке Clinical Quality Language (CQL). Это гарантирует, что ключевые индикаторы могут единообразно извлекаться для поддержки оказания помощи пациентам, а также для эпиднадзора за случаями и мониторинга программ. Машиночитаемые представления в этом руководстве по внедрению предназначены для адаптации в национальных цифровых системах предоставления медицинских услуг и отчётности. Цифровые решения, включающие машиночитаемые рекомендации уровня L3, затем могут быть проверены на соответствие стандартам интероперабельности.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南中基于标准的技术工件处于知识表示的第三层（L3：机器可读建议）。它提供软件开发人员将世卫组织（WHO）指南中的标准化逻辑纳入数字系统所需的代码，并可测试其对标准的符合性，包括对建议的忠实度。基于标准的技术实施指南以运营层（L2）为基础，将 L2 内容映射到值集和国际卫生信息交换第七层组织（HL7）快速医疗互操作性资源（FHIR）标准。结合 L2 的数据标准，这可以实现大规模的语义和语法互操作性。源自指南的逻辑可能包括临床决策支持和绩效指标的计算，这些逻辑可以用临床质量语言（CQL）编码。这确保了关键指标能够被一致地提取，以支持患者照护以及病例监测和规划监测。本实施指南中的机器可读表示旨在被调整纳入各国的数字卫生服务提供和报告系统。包含 L3 机器可读建议的数字解决方案随后可以测试其对互操作性标准的符合性。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This implementation guide provides the generic content required in digital systems, independently of a specific software application and with the intention that countries can adapt it to meet local needs.",
+   "hash": "ddb07bea25b31204",
+   "sources": [
+    "input/pagecontent/adapting.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يقدّم دليل التنفيذ هذا المحتوى العام المطلوب في الأنظمة الرقمية، بمعزل عن أي تطبيق برمجي محدَّد، وبقصد أن تتمكن البلدان من تكييفه لتلبية الاحتياجات المحلية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía de implementación proporciona el contenido genérico necesario en los sistemas digitales, con independencia de una aplicación de software concreta y con la intención de que los países puedan adaptarlo para satisfacer las necesidades locales.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide d’implémentation fournit le contenu générique nécessaire dans les systèmes numériques, indépendamment de toute application logicielle spécifique, afin que les pays puissent l’adapter à leurs besoins locaux.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это руководство по внедрению содержит универсальное содержимое, необходимое в цифровых системах, независимо от конкретного программного приложения, с тем чтобы страны могли адаптировать его к местным потребностям.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南提供数字系统所需的通用内容，独立于特定软件应用程序，目的是让各国能够调整以满足本地需求。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "To implement WHO recommendations in country settings, governments must interpret and then adapt the content in line with local policies, procedures, and digital tools.",
+   "hash": "dc27011917f6d31b",
+   "sources": [
+    "input/pagecontent/adapting.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لتنفيذ توصيات منظمة الصحة العالمية (WHO) في السياقات القُطرية، يتعيّن على الحكومات تفسير المحتوى ثم تكييفه بما يتماشى مع السياسات والإجراءات والأدوات الرقمية المحلية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para aplicar las recomendaciones de la OMS en los entornos de los países, los gobiernos deben interpretar y luego adaptar el contenido de acuerdo con las políticas, los procedimientos y las herramientas digitales locales.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour mettre en œuvre les recommandations de l’OMS dans les contextes nationaux, les gouvernements doivent interpréter puis adapter le contenu conformément aux politiques, procédures et outils numériques locaux.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Чтобы внедрить рекомендации ВОЗ в условиях страны, правительства должны интерпретировать, а затем адаптировать содержимое в соответствии с местной политикой, процедурами и цифровыми инструментами.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "为在国家环境中实施世卫组织（WHO）建议，各国政府必须解读这些内容，然后根据本地政策、程序和数字工具进行调整。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "WHO guidelines articulate and endorse rigorously tested recommendations for health interventions to be adopted within country programs. When applied correctly and consistently, guideline recommendations save lives. To ensure that countries can effectively benefit from digital health investments, the SMART Guidelines approach is intended to facilitate the accurate reflection of WHO’s clinical, public health and data use guidelines in the digital systems that countries are adopting.",
+   "hash": "42f1be3e3f488f41",
+   "sources": [
+    "input/pagecontent/adapting.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تصوغ إرشادات منظمة الصحة العالمية (WHO) وتعتمد توصيات مختبَرة بدقة بشأن التدخلات الصحية لاعتمادها ضمن البرامج القُطرية. وعند تطبيق توصيات الإرشادات تطبيقًا صحيحًا ومتسقًا، فإنها تنقذ الأرواح. ولضمان استفادة البلدان فعليًا من الاستثمارات في الصحة الرقمية، يهدف نهج إرشادات SMART إلى تيسير الانعكاس الدقيق لإرشادات منظمة الصحة العالمية السريرية وإرشادات الصحة العامة واستخدام البيانات في الأنظمة الرقمية التي تعتمدها البلدان.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las directrices de la OMS formulan y respaldan recomendaciones rigurosamente evaluadas sobre intervenciones de salud destinadas a adoptarse en los programas de los países. Cuando se aplican de forma correcta y coherente, las recomendaciones de las directrices salvan vidas. Para garantizar que los países puedan beneficiarse eficazmente de las inversiones en salud digital, el enfoque de las SMART Guidelines tiene por objeto facilitar el reflejo exacto de las directrices clínicas, de salud pública y de uso de datos de la OMS en los sistemas digitales que los países están adoptando.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les lignes directrices de l’OMS formulent et approuvent des recommandations rigoureusement testées concernant les interventions de santé à adopter dans les programmes nationaux. Appliquées correctement et de manière cohérente, les recommandations des lignes directrices sauvent des vies. Pour que les pays puissent tirer pleinement parti des investissements dans la santé numérique, l’approche des lignes directrices SMART vise à faciliter la transposition fidèle des lignes directrices de l’OMS en matière clinique, de santé publique et d’utilisation des données dans les systèmes numériques que les pays adoptent.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Руководящие принципы ВОЗ формулируют и одобряют тщательно проверенные рекомендации в отношении мер вмешательства в области здравоохранения для принятия в национальных программах. При правильном и последовательном применении рекомендации руководящих принципов спасают жизни. Чтобы страны могли эффективно извлекать пользу из инвестиций в цифровое здравоохранение, подход «руководящие принципы SMART» призван способствовать точному отражению клинических руководящих принципов ВОЗ, руководящих принципов в области общественного здравоохранения и использования данных в цифровых системах, которые внедряют страны.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "世卫组织（WHO）指南阐明并认可经过严格检验的卫生干预建议，供各国规划采用。正确且一致地应用指南建议能够挽救生命。为确保各国能够有效受益于数字卫生投资，SMART 指南方法旨在促进世卫组织（WHO）的临床、公共卫生和数据使用指南在各国正在采用的数字系统中得到准确体现。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

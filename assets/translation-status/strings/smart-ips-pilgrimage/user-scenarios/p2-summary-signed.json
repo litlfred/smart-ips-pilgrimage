@@ -1,0 +1,1216 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "user-scenarios/p2-summary-signed",
+ "hashes": {
+  "ar": "f3907e6a86d4f68e",
+  "es": "05f5b9899387b610",
+  "fr": "202aab64e602cbd1",
+  "ru": "281da113347b12cf",
+  "zh": "700aa9c5fbd8af3b"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Onesa",
+   "hash": "1cccc8eebd0e2356",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows.",
+   "hash": "2d781f42f6761fcf",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُجمِّع منصة HIE في Onesa ملخص المريض الدولي (IPS) الخاص بـ Kamal من سجل رعايته: حالاته الصحية، وأدويته، وحساسيته. وتُصدِر رابطًا صحيًا قابلًا للتحقق (VHL) إليه، وتوقّعه بمفتاح مسجَّل لدى GDHCN، وتضع رمز QR في محفظته. الخطوة 2 من النظرة العامة على تدفقات العمليات الرئيسية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE de Onesa compone el Resumen Internacional del Paciente (IPS) de Kamal a partir de su historial asistencial: sus afecciones, sus medicamentos, su alergia. Emite un enlace sanitario verificable (VHL) que da acceso a él, lo firma con una clave registrada en la GDHCN y coloca el código QR en su billetera. Paso 2 de la visión general de los flujos de procesos clave.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa assemble le résumé international du patient de Kamal à partir de son historique de soins : ses affections, ses médicaments, son allergie. Il émet un lien de santé vérifiable vers ce résumé, le signe avec une clé enregistrée auprès du GDHCN, et place le code QR dans son portefeuille. Étape 2 de l'aperçu des principaux flux de processus.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa формирует Международную сводку о пациенте Kamal на основе истории оказания ему медицинской помощи: его заболевания, его лекарства, его аллергия. HIE выпускает на неё проверяемую ссылку на медицинские данные, подписывает её ключом, зарегистрированным в GDHCN, и помещает QR-код в его кошелёк. Шаг 2 обзора ключевых потоков процессов.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE 根据 Kamal 的照护史汇编其国际患者摘要：他的疾病、药物和过敏情况。它为其签发一个可验证健康链接（Verifiable Health Link），用在 GDHCN 注册的密钥对其签名，并将 QR 码放入他的钱包。这是关键流程概览的步骤 2。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Onesa's HIE",
+   "hash": "5f118dcfc109a9fc",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منصة HIE في Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "HIE de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "QR code in his wallet",
+   "hash": "99106fc80fbea198",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز QR في محفظته",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Código QR en su billetera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le code QR dans son portefeuille",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "QR-код в его кошельке",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "他钱包中的 QR 码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Signed summary",
+   "hash": "25169a8693da4943",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملخص موقَّع",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resumen firmado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résumé signé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подписанная сводка",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已签名的摘要",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "One signed link, issued at home, that any participating country can verify.",
+   "hash": "4d8a08d526aa1325",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رابط واحد موقَّع، يصدر في البلد الأم، يمكن لأي بلد مشارك التحقق منه.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un único enlace firmado, emitido en el país de origen, que cualquier país participante puede verificar.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un seul lien signé, émis dans le pays d'origine, que tout pays participant peut vérifier.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Одна подписанная ссылка, выданная в стране происхождения, которую может проверить любая страна-участница.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个在本国签发、任何参与国都能验证的已签名链接。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Assembles the IPS (conditions, medicines, allergy), issues a Verifiable Health Link to it, and signs it with a key registered with GDHCN.",
+   "hash": "193d1686ad8c8f51",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُجمِّع IPS (الحالات الصحية، والأدوية، والحساسية)، ويُصدِر رابطًا صحيًا قابلًا للتحقق إليه، ويوقّعه بمفتاح مسجَّل لدى GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Compone el IPS (afecciones, medicamentos, alergia), emite un enlace sanitario verificable (VHL) que da acceso a él y lo firma con una clave registrada en la GDHCN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Assemble l'IPS (affections, médicaments, allergie), émet un lien de santé vérifiable vers celui-ci et le signe avec une clé enregistrée auprès du GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Формирует IPS (заболевания, лекарства, аллергия), выпускает на неё проверяемую ссылку на медицинские данные и подписывает её ключом, зарегистрированным в GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "汇编 IPS（疾病、药物、过敏），为其签发可验证健康链接，并用在 GDHCN 注册的密钥对其签名。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Receives the QR code and keeps it ready to show.",
+   "hash": "ce3abb040e65d639",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتلقى رمز QR ويحتفظ به جاهزًا لإبرازه.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recibe el código QR y lo tiene listo para mostrarlo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Reçoit le code QR et le garde prêt à être présenté.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получает QR-код и держит его наготове, чтобы показать.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接收 QR 码并随时准备出示。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Sees the QR code appear in his wallet as he packs.",
+   "hash": "0bcafd97d37654c5",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يرى رمز QR يظهر في محفظته وهو يحزم أمتعته.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ve aparecer el código QR en su billetera mientras hace la maleta.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Voit le code QR apparaître dans son portefeuille pendant qu'il fait ses bagages.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Видит, как QR-код появляется в его кошельке, пока он собирает вещи.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "收拾行李时看到 QR 码出现在他的钱包中。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Everything they need is in my phone.”",
+   "hash": "b976e71bba740edc",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«كل ما يحتاجون إليه موجود في هاتفي.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "«Todo lo que necesitan está en mi teléfono».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Tout ce dont ils ont besoin est dans mon téléphone. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Всё, что им нужно, есть в моём телефоне.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“他们需要的一切都在我的手机里。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.gaps",
+   "msgid": "No business process for assembling the IPS from the care history.",
+   "hash": "3c2bc09079352651",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا توجد عملية عمل لتجميع IPS من سجل الرعاية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No hay ningún proceso de negocio para componer el IPS a partir del historial asistencial.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucun processus métier pour l'assemblage de l'IPS à partir de l'historique de soins.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Нет бизнес-процесса формирования IPS на основе истории оказания помощи.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚无根据照护史汇编 IPS 的业务流程。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "Wallet app",
+   "hash": "a6d20f6328ec41d0",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق المحفظة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aplicación de billetera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Application de portefeuille",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Приложение-кошелёк",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "钱包应用",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "Signed VHL (QR code) to the IPS",
+   "hash": "630514889de8ed37",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "VHL موقَّع (رمز QR) إلى IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "VHL firmado (código QR) que da acceso al IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "VHL signé (code QR) vers l'IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подписанная VHL (QR-код) на IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "指向 IPS 的已签名 VHL（QR 码）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "The VHL QR code is in Kamal's wallet",
+   "hash": "d92a7e145d038bb3",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز QR الخاص بـ VHL موجود في محفظة Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El código QR del VHL está en la billetera de Kamal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le code QR du VHL est dans le portefeuille de Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "QR-код VHL находится в кошельке Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VHL QR 码已在 Kamal 的钱包中",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "Onesa's HIE turns Kamal's care history into a signed patient summary and puts the link to it in his wallet as a QR code.",
+   "hash": "5c9dbe7e59ed54aa",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تحوّل منصة HIE في Onesa تاريخ رعاية Kamal إلى ملخص مريض موقَّع، وتضع الرابط إليه في محفظته على هيئة رمز QR.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La HIE de Onesa convierte el historial de atención de Kamal en un resumen del paciente firmado y coloca el enlace en su billetera como código QR.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa transforme l'historique de soins de Kamal en un résumé patient signé et place le lien vers celui-ci dans son portefeuille sous forme de code QR.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa превращает историю медицинской помощи Kamal в подписанную сводку о пациенте и помещает ссылку на неё в его кошелёк в виде QR-кода.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE 将 Kamal 的照护史转化为已签名的患者摘要，并将指向它的链接以 QR 码形式放入他的钱包。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.illustration.alt",
+   "msgid": "Icons for his conditions, medicines and allergy are gathered into one summary, stamped with a green shield by a golden key and turned into a QR code on the phone Kamal holds beside his packed suitcase.",
+   "hash": "eb77364948597890",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُجمَع أيقونات حالاته الصحية وأدويته وحساسيته في ملخص واحد، يُختَم بدرع أخضر بواسطة مفتاح ذهبي، ثم يتحول إلى رمز QR على الهاتف الذي يحمله Kamal بجانب حقيبته المحزومة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los iconos de sus afecciones, medicamentos y alergia se reúnen en un único resumen, que una llave dorada sella con un escudo verde y que se convierte en un código QR en el teléfono que Kamal sostiene junto a su maleta hecha.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Des icônes représentant ses affections, ses médicaments et son allergie sont réunies en un seul résumé, marqué d'un bouclier vert par une clé dorée et transformé en code QR sur le téléphone que Kamal tient à côté de sa valise bouclée.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Значки его заболеваний, лекарств и аллергии собираются в одну сводку, золотой ключ ставит на неё штамп с зелёным щитом, и она превращается в QR-код на телефоне, который Kamal держит рядом со своим собранным чемоданом.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "代表他的疾病、药物和过敏的图标被汇集成一份摘要，由一把金色钥匙盖上绿色盾牌印章，并在 Kamal 手中的手机上变成 QR 码，他身旁是收拾好的行李箱。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "Onesa's HIE assembles Kamal's International Patient Summary from his care history: his conditions, his medicines, his allergy. It issues a Verifiable Health Link to it, signs it with a key registered with GDHCN, and puts the QR code in his wallet. Step 2 of the overview of key process flows.",
+   "hash": "ae5ff83014790d7a",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُجمِّع منصة HIE في Onesa ملخص المريض الدولي (IPS) الخاص بـ Kamal من سجل رعايته: حالاته الصحية، وأدويته، وحساسيته. وتُصدِر رابطًا صحيًا قابلًا للتحقق (VHL) إليه، وتوقّعه بمفتاح مسجَّل لدى GDHCN، وتضع رمز QR في محفظته. الخطوة 2 من النظرة العامة على تدفقات العمليات الرئيسية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE de Onesa compone el Resumen Internacional del Paciente (IPS) de Kamal a partir de su historial asistencial: sus afecciones, sus medicamentos, su alergia. Emite un enlace sanitario verificable (VHL) que da acceso a él, lo firma con una clave registrada en la GDHCN y coloca el código QR en su billetera. Paso 2 de la visión general de los flujos de procesos clave.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa assemble le résumé international du patient de Kamal à partir de son historique de soins : ses affections, ses médicaments, son allergie. Il émet un lien de santé vérifiable vers ce résumé, le signe avec une clé enregistrée auprès du GDHCN, et place le code QR dans son portefeuille. Étape 2 de l'aperçu des principaux flux de processus.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa формирует Международную сводку о пациенте Kamal на основе истории оказания ему медицинской помощи: его заболевания, его лекарства, его аллергия. HIE выпускает на неё проверяемую ссылку на медицинские данные, подписывает её ключом, зарегистрированным в GDHCN, и помещает QR-код в его кошелёк. Шаг 2 обзора ключевых потоков процессов.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE 根据 Kamal 的照护史汇编其国际患者摘要：他的疾病、药物和过敏情况。它为其签发一个可验证健康链接（Verifiable Health Link），用在 GDHCN 注册的密钥对其签名，并将 QR 码放入他的钱包。这是关键流程概览的步骤 2。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "Without a signed summary, a clinic abroad has only what Kamal can remember and explain.",
+   "hash": "202747279ba23aba",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من دون ملخص موقَّع، لا يتوفر لدى عيادة في الخارج إلا ما يستطيع Kamal تذكّره وشرحه.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin un resumen firmado, una clínica en el extranjero solo cuenta con lo que Kamal pueda recordar y explicar.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sans résumé signé, une clinique à l'étranger ne dispose que de ce dont Kamal peut se souvenir et de ce qu'il peut expliquer.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Без подписанной сводки у клиники за границей есть только то, что Kamal может вспомнить и объяснить.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "没有已签名的摘要，境外诊所只能依靠 Kamal 能记得和讲清楚的内容。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "What must the summary contain for a pilgrim — and who decides what is left out?",
+   "hash": "8fc787b7662e580f",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما الذي يجب أن يتضمنه الملخص بالنسبة إلى الزائر — ومَن يقرّر ما يُستبعَد منه؟",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿Qué debe contener el resumen de un peregrino — y quién decide qué se omite?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Que doit contenir le résumé pour un pèlerin — et qui décide de ce qui en est exclu ?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что должна содержать сводка для паломника — и кто решает, что в неё не включается?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者的摘要必须包含哪些内容——又由谁决定省略哪些内容？",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "His IPS is signed and its QR code is in his wallet",
+   "hash": "0a580b6db78cd682",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملخص IPS الخاص به موقَّع، ورمز QR الخاص به في محفظته",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Su IPS está firmado y su código QR está en su billetera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Son IPS est signé et son code QR est dans son portefeuille",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его IPS подписана, а её QR-код находится в его кошельке",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "他的 IPS 已签名，其 QR 码已在他的钱包中",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "Kamal's wallet (QR code); Onesa's HIE",
+   "hash": "40c77c04990f67a4",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "محفظة Kamal (رمز QR)؛ منصة HIE في Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La billetera de Kamal (código QR); el HIE de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le portefeuille de Kamal (code QR) ; le HIE d'Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кошелёк Kamal (QR-код); HIE Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 的钱包（QR 码）；Onesa 的 HIE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "Profile HajjIPS and the example My IPS; the folder example My Pilgrimage Minimal Folder",
+   "hash": "cb15541b4a1fd17b",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملف التعريف HajjIPS والمثال My IPS؛ ومثال المجلد My Pilgrimage Minimal Folder",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Perfil HajjIPS y el ejemplo My IPS; el ejemplo de carpeta My Pilgrimage Minimal Folder",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Profil HajjIPS et l'exemple My IPS ; l'exemple de dossier My Pilgrimage Minimal Folder",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Профиль HajjIPS и пример My IPS; пример папки My Pilgrimage Minimal Folder",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Profile HajjIPS 和示例 My IPS；文件夹示例 My Pilgrimage Minimal Folder",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "Transaction: issue VHL",
+   "hash": "45e9a4db82a617c1",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المعاملة: إصدار VHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transacción: emitir VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transaction : émettre un VHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция: выпуск VHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "事务：签发 VHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "His summary is assembled and signed",
+   "hash": "4055e06312dc796d",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تجميع ملخصه وتوقيعه",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se compone y se firma su resumen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Son résumé est assemblé et signé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его сводка сформирована и подписана",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "汇编并签名他的摘要",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "National health wallet",
+   "hash": "5b8240ede8c7f1e1",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المحفظة الصحية الوطنية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Billetera sanitaria nacional",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portefeuille de santé national",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Национальный медицинский кошелёк",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家健康钱包",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.when",
+   "msgid": "Before departure",
+   "hash": "3d3949ed192cb66f",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل المغادرة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Antes de la partida",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avant le départ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Перед отъездом",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出发前",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "Onesa's HIE; Kamal's home",
+   "hash": "2927ae41dc124e97",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منصة HIE في Onesa؛ منزل Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La HIE de Onesa; el hogar de Kamal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa ; le domicile de Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa; дом Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE；Kamal 的家",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "P2 · His summary is assembled and signed",
+   "hash": "5b53f1a988d88a13",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "P2 · تجميع ملخصه وتوقيعه",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "P2 · Se compone y se firma su resumen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "P2 · Son résumé est assemblé et signé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "P2 · Его сводка сформирована и подписана",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "P2 · 汇编并签名他的摘要",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "Before departure",
+   "hash": "8d773917f87f6f7f",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل المغادرة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Antes de la partida",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avant le départ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Перед отъездом",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出发前",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "Onesa's HIE; Kamal's home",
+   "hash": "3013f5e5b967fb0b",
+   "sources": [
+    "user-scenarios/p2-summary-signed.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منصة HIE في Onesa؛ منزل Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La HIE de Onesa; el hogar de Kamal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa ; le domicile de Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa; дом Kamal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE；Kamal 的家",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

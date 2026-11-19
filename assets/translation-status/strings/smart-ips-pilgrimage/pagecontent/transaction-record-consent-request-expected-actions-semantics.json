@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-record-consent-request-expected-actions-semantics",
+ "hashes": {
+  "ar": "ed2100fd13729fc7",
+  "es": "b8e6d1ff5959eafa",
+  "fr": "451c54e599a9c3a7",
+  "ru": "d1a607953c82e15b",
+  "zh": "0b085243067a401d"
+ },
+ "strings": [
+  {
+   "msgid": "The consent is stored in the consent registry. Please see here for Capability statements for the Consent Registry actor",
+   "hash": "fb0ebe0732e3cce2",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُخزَّن الموافقة في سجل الموافقات. يُرجى الاطلاع هنا على بيانات القدرات الخاصة بالجهة الفاعلة سجل الموافقات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El consentimiento se almacena en el registro de consentimientos. Consulte aquí las declaraciones de capacidad (CapabilityStatement) del actor Consent Registry",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le consentement est stocké dans le registre des consentements. Veuillez consulter ici les déclarations de capacité de l'acteur Consent Registry",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласие сохраняется в реестре согласий. Описания возможностей (Capability statements) для актора «Реестр согласий» (Consent Registry) приведены здесь",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "同意被存储在同意登记系统中。有关同意登记系统（Consent Registry）参与者的能力声明，请参见此处",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

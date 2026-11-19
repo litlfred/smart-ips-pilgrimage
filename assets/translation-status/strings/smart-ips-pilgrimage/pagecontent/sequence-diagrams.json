@@ -1,0 +1,250 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/sequence-diagrams",
+ "hashes": {
+  "ar": "fa447feedd4df387",
+  "es": "527b69786fcf4b07",
+  "fr": "182dee39186ee53d",
+  "ru": "9aaa1ded9e14f71a",
+  "zh": "f5adb4a0f46d5e86"
+ },
+ "strings": [
+  {
+   "msgid": "Health Assessment, Consent Counselling,  and Issuance of Smart Health Link",
+   "hash": "7491c37d4b321414",
+   "sources": [
+    "input/pagecontent/sequence-diagrams.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التقييم الصحي، والإرشاد بشأن الموافقة، وإصدار رابط صحي ذكي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Evaluación de salud, asesoramiento sobre el consentimiento y emisión del Smart Health Link",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Évaluation de santé, conseil sur le consentement et émission du SMART Health Link",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Оценка состояния здоровья, консультирование по вопросам согласия и выпуск Smart Health Link",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "健康评估、同意咨询以及签发智能健康链接（Smart Health Link）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Initaite Secture Connection",
+   "hash": "a2d1cd9d85bb7fca",
+   "sources": [
+    "input/pagecontent/sequence-diagrams.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بدء اتصال آمن",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Iniciar conexión segura",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Initier une connexion sécurisée",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Установление безопасного соединения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "建立安全连接",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Overall Sequence Diagram for Religious Pilgrimage and IPS",
+   "hash": "839c01c1beff5467",
+   "sources": [
+    "input/pagecontent/sequence-diagrams.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مخطط التسلسل الإجمالي للزيارة الدينية وIPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Diagrama de secuencia general de la peregrinación religiosa y el IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Diagramme de séquence global pour le pèlerinage religieux et l'IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Общая диаграмма последовательности для религиозного паломничества и IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "宗教朝圣与 IPS 的总体时序图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Routine Synchronization",
+   "hash": "0332e1e6cdbb84e8",
+   "sources": [
+    "input/pagecontent/sequence-diagrams.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المزامنة الروتينية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sincronización rutinaria",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Synchronisation de routine",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Плановая синхронизация",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "例行同步",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This page includes sequence diagrams that describe interactions between actors and participants described in this Implementation Guide.",
+   "hash": "6b2b08650350a8a2",
+   "sources": [
+    "input/pagecontent/sequence-diagrams.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتضمن هذه الصفحة مخططات تسلسل تصف التفاعلات بين الجهات الفاعلة والمشاركين الموصوفين في دليل التنفيذ هذا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta página incluye diagramas de secuencia que describen las interacciones entre los actores y participantes descritos en esta guía de implementación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page présente des diagrammes de séquence qui décrivent les interactions entre les acteurs et les participants décrits dans ce guide d'implémentation.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице приведены диаграммы последовательности, описывающие взаимодействие между акторами и участниками, описанными в этом руководстве по внедрению.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页包含时序图，描述本实施指南中所述参与者与参与方之间的交互。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Agreed IPS workflow for 'Clinical Encounter for Unplanned Care' between the Host and Origin countries",
+   "hash": "95b0399b9c1cb8e9",
+   "sources": [
+    "input/pagecontent/sequence-diagrams.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سير عمل IPS المتفق عليه لـ «اللقاء السريري للرعاية غير المخطط لها» بين البلد المضيف وبلدان المنشأ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Flujo de trabajo del IPS acordado para el «Encuentro clínico para atención no programada» entre el país anfitrión y los países de origen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Flux de travail IPS convenu pour la « Consultation clinique pour soins non planifiés » entre le pays d'accueil et les pays d'origine",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласованный рабочий процесс IPS для «Клинического приёма в рамках незапланированной медицинской помощи» между принимающей страной и странами происхождения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国与来源国之间就“非计划诊疗的临床接诊”商定的 IPS 工作流",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

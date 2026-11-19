@@ -1,0 +1,172 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/system-actors",
+ "hashes": {
+  "ar": "1c1d6c54e1a705bc",
+  "es": "8bc29fc7c90520d7",
+  "fr": "8e46da676053ae96",
+  "ru": "a9b1b2cbd2faa5c7",
+  "zh": "cfb8a8658ee9a305"
+ },
+ "strings": [
+  {
+   "msgid": "Host Country EMR {#hcemr}",
+   "hash": "edb4c77fae0f83c5",
+   "sources": [
+    "input/pagecontent/system-actors.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السجل الطبي الإلكتروني (EMR) في البلد المضيف {#hcemr}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "EMR del país anfitrión {#hcemr}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DME du pays d'accueil {#hcemr}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR принимающей страны {#hcemr}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国 EMR {#hcemr}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country HIE {#ochie}",
+   "hash": "c0e11db46858249f",
+   "sources": [
+    "input/pagecontent/system-actors.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبادل المعلومات الصحية (HIE) في بلد المنشأ {#ochie}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "HIE del país de origen {#ochie}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HIE du pays d'origine {#ochie}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE страны происхождения {#ochie}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国 HIE {#ochie}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country Wallet {#ochw}",
+   "hash": "1de1c56b82b979c8",
+   "sources": [
+    "input/pagecontent/system-actors.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "محفظة بلد المنشأ {#ochw}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Billetera del país de origen {#ochw}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portefeuille du pays d'origine {#ochw}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кошелёк страны происхождения {#ochw}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国钱包 {#ochw}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This page describes the system actors for IPS-pilgrimage that participate in transactions documented for this Implementation Guide.",
+   "hash": "deacf07515203bf9",
+   "sources": [
+    "input/pagecontent/system-actors.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تصف هذه الصفحة الجهات الفاعلة النظامية لـ IPS-pilgrimage التي تشارك في المعاملات الموثَّقة في دليل التنفيذ هذا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta página describe los actores del sistema de IPS-pilgrimage que participan en las transacciones documentadas en esta guía de implementación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page décrit les acteurs système d'IPS-pilgrimage qui participent aux transactions documentées dans ce guide d'implémentation.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице описаны системные акторы IPS-pilgrimage, участвующие в транзакциях, задокументированных в этом руководстве по внедрению.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页描述 IPS-pilgrimage 中参与本实施指南所记录事务的系统参与者。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,1108 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/concepts",
+ "hashes": {
+  "ar": "b9d67b633f7381c3",
+  "es": "6035983938b31586",
+  "fr": "119e7df83325be67",
+  "ru": "ab21687ffaf6b02a",
+  "zh": "1d9f7154242b8b9b"
+ },
+ "strings": [
+  {
+   "msgid": "A machine-readable optical label that contains information about the item to which it is attached. In this context, it holds encrypted data that allows healthcare providers access to a pilgrim's IPS when scanned.",
+   "hash": "775bf28d2543c5a5",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملصق بصري مقروء آليًا يتضمن معلومات عن العنصر المُلحَق به. وفي هذا السياق، يحمل بيانات مشفّرة تتيح لمقدمي الرعاية الصحية الوصول إلى IPS الخاص بالزائر عند مسحه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Etiqueta óptica legible por máquina que contiene información sobre el elemento al que está adherida. En este contexto, contiene datos cifrados que, al escanearse, permiten a los prestadores de atención de salud acceder al IPS de un peregrino.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étiquette optique lisible par machine contenant des informations sur l’élément auquel elle est apposée. Dans ce contexte, elle contient des données chiffrées qui permettent aux prestataires de soins de santé d’accéder à l’IPS d’un pèlerin lorsqu’elle est scannée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Машиночитаемая оптическая метка, содержащая информацию о предмете, к которому она прикреплена. В данном контексте она содержит зашифрованные данные, которые при сканировании позволяют поставщикам медицинских услуг получить доступ к IPS паломника.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一种机器可读的光学标签，包含其所附物品的相关信息。在此背景下，它承载加密数据，被扫描时可使医疗卫生服务提供者访问朝圣者的 IPS。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A medical professional, such as a doctor or nurse, who provides clinical care to the pilgrim. Clinicians use the pilgrim's health information, accessed via the healthcare system, to offer appropriate medical treatments.",
+   "hash": "3750002ac86c9bf6",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مهني طبي، كالطبيب أو الممرض، يقدّم الرعاية السريرية للزائر. ويستخدم الممارسون السريريون المعلومات الصحية للزائر، التي يُوصَل إليها عبر نظام الرعاية الصحية، لتقديم العلاجات الطبية المناسبة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Profesional médico, como un médico o un enfermero, que presta atención clínica al peregrino. Los clínicos utilizan la información de salud del peregrino, a la que acceden a través del sistema de salud, para ofrecer los tratamientos médicos adecuados.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Professionnel médical, tel qu’un médecin ou un infirmier, qui dispense des soins cliniques au pèlerin. Les cliniciens utilisent les informations de santé du pèlerin, consultées via le système de santé, pour proposer des traitements médicaux appropriés.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский специалист, например врач или медсестра, оказывающий паломнику клиническую помощь. Клиницисты используют медицинскую информацию паломника, полученную через систему здравоохранения, для назначения надлежащего лечения.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "为朝圣者提供临床诊疗的医疗专业人员，如医生或护士。临床医生使用通过医疗卫生系统获取的朝圣者健康信息，提供适当的医疗救治。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A security feature that adds an extra layer of protection to the pilgrim's health information. The default PIN is often the pilgrim's birthdate, and it is used in conjunction with the QR code to access the IPS.",
+   "hash": "825b185cf2884848",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ميزة أمنية تضيف طبقة حماية إضافية إلى المعلومات الصحية للزائر. وغالبًا ما يكون PIN الافتراضي هو تاريخ ميلاد الزائر، ويُستخدم مع رمز QR للوصول إلى IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Función de seguridad que añade una capa adicional de protección a la información de salud del peregrino. El PIN predeterminado suele ser la fecha de nacimiento del peregrino y se utiliza junto con el código QR para acceder al IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dispositif de sécurité qui ajoute un niveau de protection supplémentaire aux informations de santé du pèlerin. Le PIN par défaut est souvent la date de naissance du pèlerin ; il est utilisé conjointement avec le code QR pour accéder à l’IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Функция безопасности, обеспечивающая дополнительный уровень защиты медицинской информации паломника. PIN по умолчанию часто является датой рождения паломника и используется вместе с QR-кодом для доступа к IPS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一种为朝圣者健康信息增加额外保护层的安全功能。默认 PIN 通常是朝圣者的出生日期，它与 QR 码配合使用以访问 IPS。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A Smart Health Link is a special link that provides time-bound, password and cryptographically restricted access to a health certificate or document.",
+   "hash": "03faabce94520981",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رابط SMART الصحي هو رابط خاص يتيح وصولًا محدودًا زمنيًا ومقيَّدًا بكلمة مرور وبالتشفير إلى شهادة صحية أو مستند صحي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un Smart Health Link es un enlace especial que proporciona un acceso limitado en el tiempo, protegido por contraseña y restringido criptográficamente a un certificado o documento de salud.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un Smart Health Link est un lien spécial qui donne un accès limité dans le temps, protégé par mot de passe et restreint par des moyens cryptographiques à un certificat de santé ou à un document.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Smart Health Link — это специальная ссылка, обеспечивающая ограниченный по времени, защищённый паролем и криптографически ограниченный доступ к сертификату о состоянии здоровья или документу.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "智能健康链接是一种特殊链接，可对健康证书或文档提供有时限、受密码和密码学限制的访问。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "An IPS document together with a digital signature that can be used to verify the provenance of the IPS within a Trust Network.",
+   "hash": "6cb11484f216b709",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مستند IPS مقرون بتوقيع رقمي يمكن استخدامه للتحقق من مصدر IPS ضمن شبكة الثقة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Documento IPS acompañado de una firma digital que puede utilizarse para verificar la procedencia del IPS dentro de una red de confianza.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Document IPS accompagné d’une signature numérique permettant de vérifier la provenance de l’IPS au sein d’un réseau de confiance.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Документ IPS вместе с цифровой подписью, которую можно использовать для проверки происхождения IPS в пределах Сети доверия.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "附有数字签名的 IPS 文档，该签名可用于在信任网络内验证 IPS 的来源。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Clinician",
+   "hash": "221f82f7320908b5",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الممارس السريري",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Clínico",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clinicien",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клиницист",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "临床医生",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "EMR (Electronic Medical Record)",
+   "hash": "cb7970d3a1aad64a",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السجل الطبي الإلكتروني (EMR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "EMR (historia clínica electrónica)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DME (dossier médical électronique)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR (электронная медицинская запись)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "EMR（电子病历）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "HIE (Health Information Exchange)",
+   "hash": "27fe219f4dbed4fa",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبادل المعلومات الصحية (HIE)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "HIE (intercambio de información de salud)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HIE (échange d’informations de santé)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE (обмен медицинской информацией)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "HIE（健康信息交换）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Host Country",
+   "hash": "e02ec903e7d521de",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد المضيف",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País anfitrión",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays d’accueil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Принимающая страна",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "International Patient Summary (IPS)",
+   "hash": "b52a4bc305ce83b3",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملخص المريض الدولي (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resumen Internacional del Paciente (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résumé international du patient (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Международная сводка о пациенте (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国际患者摘要（IPS）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Key concepts and abbreviations are described here. Additional terms are defined in the Glossary and List of Abbreviations in the <a0>WHO Digital Documentation of COVID-19 Certificates FHIR Implementation Guide</a0>.",
+   "hash": "8503932f3a169c69",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُوصَف هنا المفاهيم والاختصارات الرئيسية. وتَرِد مصطلحات إضافية في مسرد المصطلحات وقائمة الاختصارات في <a0>دليل تنفيذ FHIR للتوثيق الرقمي لشهادات COVID-19 الصادر عن منظمة الصحة العالمية (WHO)</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aquí se describen los conceptos clave y las abreviaturas. Otros términos se definen en el glosario y la lista de abreviaturas de la <a0>guía de implementación FHIR de la OMS sobre la Documentación digital de certificados de COVID-19</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les concepts clés et les abréviations sont décrits ici. D’autres termes sont définis dans le glossaire et la liste des abréviations du <a0>guide d’implémentation FHIR de l’OMS sur la documentation numérique des certificats COVID-19</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Здесь описаны ключевые концепции и сокращения. Дополнительные термины определены в глоссарии и списке сокращений в <a0>руководстве по внедрению FHIR ВОЗ «Цифровая документация сертификатов COVID-19» (WHO Digital Documentation of COVID-19 Certificates FHIR Implementation Guide)</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "此处描述关键概念和缩略语。其他术语在<a0>世卫组织（WHO）COVID-19 证书数字文档 FHIR 实施指南</a0>的术语表和缩略语列表中定义。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Key Concepts and Definitions",
+   "hash": "9eebdac7010d1e26",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المفاهيم والتعريفات الرئيسية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Conceptos clave y definiciones",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Concepts clés et définitions",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключевые концепции и определения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关键概念和定义",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Origin Country",
+   "hash": "dcd68892e1a57f5c",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد الأم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País de origen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays d’origine",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страна происхождения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pilgrim",
+   "hash": "317eaeade25b1fc4",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الزائر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Peregrino",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pèlerin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Паломник",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "PIN (Personal Identification Number)",
+   "hash": "a82ec03cc351328f",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رقم التعريف الشخصي (PIN)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "PIN (número de identificación personal)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "PIN (numéro d’identification personnel)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "PIN (персональный идентификационный номер)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "PIN（个人识别码）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "QR Code",
+   "hash": "755167d0f3718e13",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Código QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Code QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "QR-код",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "QR 码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Registration Nurse",
+   "hash": "328f4f11d338d9d0",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ممرض التسجيل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Enfermero de registro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Infirmier chargé de l’enregistrement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Регистрационная медсестра",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "登记护士",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Smart Health Link (SHL)",
+   "hash": "a06e13f2f8cb0ea8",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رابط SMART الصحي (SHL)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Smart Health Link (SHL)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Smart Health Link (SHL)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Smart Health Link (SHL)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "智能健康链接（SHL）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The country from which the pilgrim originates or holds citizenship. This is significant in the context of healthcare as health information and preparatory measures might be initiated in the origin country before the pilgrimage.",
+   "hash": "62c16ca70da92c98",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد الذي يأتي منه الزائر أو يحمل جنسيته. ولهذا أهمية في سياق الرعاية الصحية، إذ قد تبدأ المعلومات الصحية والتدابير التحضيرية في البلد الأم قبل الزيارة الدينية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País del que procede el peregrino o del que es ciudadano. Esto es importante en el contexto de la atención de salud, ya que la información de salud y las medidas preparatorias pueden iniciarse en el país de origen antes de la peregrinación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays dont le pèlerin est originaire ou dont il a la nationalité. Cela est important dans le contexte des soins de santé, car les informations de santé et les mesures préparatoires peuvent être lancées dans le pays d’origine avant le pèlerinage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страна, из которой происходит паломник или гражданство которой он имеет. Это важно в контексте здравоохранения, поскольку сбор медицинской информации и подготовительные меры могут быть начаты в стране происхождения до паломничества.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣者所来自或持有其国籍的国家。这在医疗卫生背景下很重要，因为健康信息和准备措施可能在朝圣之前于来源国启动。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Verifiable International Patient Summary (Verifiable IPS)",
+   "hash": "78e638932b2c31ee",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملخص المريض الدولي القابل للتحقق (Verifiable IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resumen Internacional del Paciente verificable (IPS verificable)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résumé international du patient vérifiable (IPS vérifiable)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверяемая Международная сводка о пациенте (проверяемая IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "可验证国际患者摘要（可验证 IPS）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A digital document that contains essential healthcare information about a patient, designed to support the continuity of care and patient safety. For pilgrims, the IPS includes basic demographics, medical history, medications, allergies, and other critical health information that can be shared across borders and healthcare systems.",
+   "hash": "ad3f5f921e3503a5",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مستند رقمي يتضمن المعلومات الصحية الأساسية عن المريض، صُمِّم لدعم استمرارية الرعاية وسلامة المرضى. وبالنسبة إلى الزوار، يتضمن IPS البيانات الديموغرافية الأساسية والتاريخ الطبي والأدوية والحساسيات وغيرها من المعلومات الصحية الحرجة التي يمكن مشاركتها عبر الحدود وبين أنظمة الرعاية الصحية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Documento digital que contiene información sanitaria esencial sobre un paciente, concebido para apoyar la continuidad de la atención y la seguridad del paciente. Para los peregrinos, el IPS incluye datos demográficos básicos, antecedentes médicos, medicamentos, alergias y otra información de salud crítica que puede compartirse entre fronteras y sistemas de salud.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Document numérique contenant les informations de santé essentielles d’un patient, conçu pour favoriser la continuité des soins et la sécurité des patients. Pour les pèlerins, l’IPS comprend les données démographiques de base, les antécédents médicaux, les médicaments, les allergies et d’autres informations de santé essentielles pouvant être partagées au-delà des frontières et entre systèmes de santé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цифровой документ, содержащий важнейшую медицинскую информацию о пациенте и предназначенный для поддержки преемственности медицинской помощи и безопасности пациентов. Для паломников IPS включает основные демографические данные, анамнез, лекарственные препараты, аллергии и другую критически важную медицинскую информацию, которой можно обмениваться через границы и между системами здравоохранения.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一种包含患者基本医疗卫生信息的数字文档，旨在支持诊疗连续性和患者安全。对于朝圣者，IPS 包括基本人口统计信息、病史、用药、过敏以及其他可跨境、跨医疗卫生系统共享的关键健康信息。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A digital version of a patient's paper chart, used by healthcare providers for diagnosis and treatment. In the context of the pilgrimage, EMRs are used by host country medical facilities to manage pilgrim care.",
+   "hash": "c0723de7587e8a5f",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نسخة رقمية من الملف الورقي للمريض، يستخدمها مقدمو الرعاية الصحية في التشخيص والعلاج. وفي سياق الزيارة الدينية، تستخدم المرافق الطبية في البلد المضيف سجلات EMRs لإدارة رعاية الزوار.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Versión digital de la historia clínica en papel de un paciente, que los prestadores de atención de salud utilizan para el diagnóstico y el tratamiento. En el contexto de la peregrinación, los establecimientos médicos del país anfitrión utilizan EMR para gestionar la atención de los peregrinos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Version numérique du dossier papier d’un patient, utilisée par les prestataires de soins de santé pour le diagnostic et le traitement. Dans le contexte du pèlerinage, les DME sont utilisés par les établissements médicaux du pays d’accueil pour gérer la prise en charge des pèlerins.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цифровая версия бумажной медицинской карты пациента, используемая поставщиками медицинских услуг для диагностики и лечения. В контексте паломничества EMR используются медицинскими учреждениями принимающей страны для организации помощи паломникам.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "患者纸质病历的数字版本，供医疗卫生服务提供者用于诊断和治疗。在朝圣背景下，东道国医疗机构使用 EMR 管理朝圣者的诊疗。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A healthcare professional responsible for the initial registration of pilgrims at pilgrimage health facilities. This includes collecting and verifying pilgrim information and initiating the health service process.",
+   "hash": "ef7d0b3b79564a04",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مهني رعاية صحية مسؤول عن التسجيل الأولي للزوار في المرافق الصحية للزيارة الدينية. ويشمل ذلك جمع معلومات الزوار والتحقق منها وبدء عملية الخدمة الصحية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Profesional de la salud responsable del registro inicial de los peregrinos en los establecimientos de salud de la peregrinación. Ello incluye recopilar y verificar la información del peregrino e iniciar el proceso de prestación de servicios de salud.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Professionnel de santé chargé de l’enregistrement initial des pèlerins dans les établissements de santé du pèlerinage. Cela comprend la collecte et la vérification des informations sur le pèlerin et le lancement du processus de prestation de services de santé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский специалист, отвечающий за первичную регистрацию паломников в медицинских учреждениях для паломников. Это включает сбор и проверку информации о паломнике и начало процесса оказания медицинских услуг.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "负责在朝圣医疗卫生机构对朝圣者进行初始登记的医疗卫生专业人员。其工作包括收集和核实朝圣者信息，并启动卫生服务流程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A medical facility set up to cater specifically to the needs of pilgrims. These facilities can range from clinics to hospitals and are equipped to handle both routine health checks and emergency services.",
+   "hash": "f0684c84fccf7c2a",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مرفق طبي أُنشئ خصيصًا لتلبية احتياجات الزوار. وتتراوح هذه المرافق بين العيادات والمستشفيات، وهي مجهّزة للتعامل مع الفحوص الصحية الروتينية وخدمات الطوارئ على حد سواء.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Establecimiento médico creado específicamente para atender las necesidades de los peregrinos. Estos establecimientos pueden ir desde clínicas hasta hospitales y están equipados para realizar tanto controles de salud de rutina como servicios de urgencias.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Établissement médical mis en place spécifiquement pour répondre aux besoins des pèlerins. Ces établissements vont des cliniques aux hôpitaux et sont équipés pour assurer à la fois les bilans de santé courants et les services d’urgence.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинское учреждение, созданное специально для удовлетворения потребностей паломников. Такие учреждения могут быть разными — от клиник до больниц — и оснащены для проведения как плановых медицинских осмотров, так и оказания экстренной помощи.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "专门为满足朝圣者需求而设立的医疗机构。这些机构的范围从诊所到医院不等，配备了开展常规健康检查和急诊服务的条件。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A person who undertakes the pilgrimage. In the context of the healthcare system, the pilgrim is the primary user, receiving healthcare services and interacting with various healthcare providers.",
+   "hash": "811ef56097ecb0f5",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شخص يؤدي الزيارة الدينية. وفي سياق نظام الرعاية الصحية، يُعدّ الزائر المستخدم الرئيسي، إذ يتلقى خدمات الرعاية الصحية ويتفاعل مع مختلف مقدمي الرعاية الصحية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Persona que realiza la peregrinación. En el contexto del sistema de salud, el peregrino es el usuario principal: recibe servicios de atención de salud e interactúa con diversos prestadores de atención de salud.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Personne qui accomplit le pèlerinage. Dans le contexte du système de santé, le pèlerin est l’utilisateur principal : il reçoit des services de santé et interagit avec différents prestataires de soins de santé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Лицо, совершающее паломничество. В контексте системы здравоохранения паломник является основным пользователем, получающим медицинские услуги и взаимодействующим с различными поставщиками медицинских услуг.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "进行朝圣的人。在医疗卫生系统背景下，朝圣者是主要用户，接受医疗卫生服务并与各类医疗卫生服务提供者互动。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pilgrimage Health Facility",
+   "hash": "3257a4a020646c5e",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المرفق الصحي للزيارة الدينية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Establecimiento de salud de la peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Établissement de santé du pèlerinage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинское учреждение для паломников",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣医疗卫生机构",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The country hosting the pilgrimage, which in this guide's examples is the fictional Taifafeki. The host country provides healthcare and other services to pilgrims during their stay.",
+   "hash": "a39962ac176d1952",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد الذي يستضيف الزيارة الدينية، وهو في أمثلة هذا الدليل البلد الخيالي Taifafeki. ويقدّم البلد المضيف الرعاية الصحية وغيرها من الخدمات للزوار أثناء إقامتهم.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País que acoge la peregrinación, que en los ejemplos de esta guía es el país ficticio Taifafeki. El país anfitrión presta atención de salud y otros servicios a los peregrinos durante su estancia.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays qui accueille le pèlerinage, à savoir, dans les exemples de ce guide, le pays fictif Taifafeki. Le pays d’accueil fournit des soins de santé et d’autres services aux pèlerins pendant leur séjour.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страна, принимающая паломничество, которой в примерах этого руководства является вымышленная Taifafeki. Принимающая страна предоставляет паломникам медицинские и другие услуги во время их пребывания.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "主办朝圣的国家，在本指南的示例中为虚构的 Taifafeki。东道国在朝圣者逗留期间为其提供医疗卫生及其他服务。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The electronic sharing of health information among different organizations. In the context of the pilgrimage, it refers to the system that allows origin countries and the host country to exchange pilgrim health information securely.",
+   "hash": "93b1268aa23d6d29",
+   "sources": [
+    "input/pagecontent/concepts.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المشاركة الإلكترونية للمعلومات الصحية بين مختلف المؤسسات. وفي سياق الزيارة الدينية، يشير إلى النظام الذي يتيح للبلدان الأم والبلد المضيف تبادل المعلومات الصحية للزوار بصورة آمنة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Intercambio electrónico de información de salud entre distintas organizaciones. En el contexto de la peregrinación, se refiere al sistema que permite a los países de origen y al país anfitrión intercambiar de forma segura la información de salud de los peregrinos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Partage électronique d’informations de santé entre différentes organisations. Dans le contexte du pèlerinage, il désigne le système qui permet aux pays d’origine et au pays d’accueil d’échanger de manière sécurisée les informations de santé des pèlerins.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Электронный обмен медицинской информацией между различными организациями. В контексте паломничества это система, позволяющая странам происхождения и принимающей стране безопасно обмениваться медицинской информацией о паломниках.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "不同组织之间对健康信息的电子共享。在朝圣背景下，它指使来源国与东道国能够安全交换朝圣者健康信息的系统。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

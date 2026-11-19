@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-retrieve-IPS-request-preamble",
+ "hashes": {
+  "ar": "55f866115c01bc19",
+  "es": "f0abc71f5a72f37f",
+  "fr": "2de449fc4dc229f5",
+  "ru": "db0b472bc7dbc857",
+  "zh": "4620cdcb59efd1a9"
+ },
+ "strings": [
+  {
+   "msgid": "The Retrieve IPS Request Event transaction is initiated by the Host Country EMR against the Origin Country HIE.",
+   "hash": "4658f9de1091abe5",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-IPS-request-preamble.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبدأ معاملة حدث طلب استرجاع IPS من السجل الطبي الإلكتروني (EMR) في البلد المضيف تجاه نظام HIE في بلد المنشأ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La transacción de evento de solicitud de obtención del IPS la inicia el EMR del país anfitrión ante el HIE del país de origen.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La transaction Retrieve IPS Request Event est initiée par le DME du pays d'accueil auprès du HIE du pays d'origine.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция «Запрос на получение IPS» инициируется EMR принимающей страны в адрес HIE страны происхождения.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索 IPS 请求事件事务由东道国电子病历（EMR）向来源国 HIE 发起。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

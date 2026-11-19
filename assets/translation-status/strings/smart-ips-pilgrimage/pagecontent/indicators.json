@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/indicators",
+ "hashes": {
+  "ar": "959276c83d11f765",
+  "es": "a6bf9cb2ee7bfcea",
+  "fr": "96218bc2f6c2319a",
+  "ru": "8b2d93d6e4adfd2e",
+  "zh": "c2563c8983303e0d"
+ },
+ "strings": [
+  {
+   "msgid": "No Indicators have been defined for IPS-pilgrimage",
+   "hash": "86c4beb02a5524a4",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لم تُعرَّف أي مؤشرات لـ IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No se han definido indicadores para IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucun indicateur n'a été défini pour IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для IPS-pilgrimage индикаторы не определены",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚未为 IPS-pilgrimage 定义任何指标",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,445 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/downloads",
+ "hashes": {
+  "ar": "ad2de4ee14a0dca0",
+  "es": "e81b4d19c5b55bbf",
+  "fr": "5c791d56278d69ef",
+  "ru": "f728b6aa5995b49d",
+  "zh": "57b072b152b88d52"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>IG Package</a0>",
+   "hash": "060f5ab45fb1211e",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>حزمة IG</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Paquete de la IG</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Package de l'IG</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Пакет IG</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>IG 软件包</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>JSON</a0>",
+   "hash": "ff93892585b0b2ad",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>JSON</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>JSON</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>JSON</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>JSON</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>JSON</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TTL</a0>",
+   "hash": "baeb8590350b7df2",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TTL</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TTL</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TTL</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TTL</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TTL</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>XML</a0>",
+   "hash": "a81ee87b91d43336",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>XML</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>XML</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>XML</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>XML</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>XML</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "All examples used in this Implementation Guide:",
+   "hash": "45d69c6aeef15dc0",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جميع الأمثلة المستخدمة في دليل التنفيذ هذا:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Todos los ejemplos utilizados en esta guía de implementación:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tous les exemples utilisés dans ce guide d'implémentation :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Все примеры, используемые в этом руководстве по внедрению:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南中使用的所有示例：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Definitions",
+   "hash": "15fd011b9c0623fc",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التعريفات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Definiciones",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Définitions",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Определения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "定义",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Examples",
+   "hash": "a1d697543bce7eed",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأمثلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ejemplos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exemples",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Примеры",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "In addition to the above, we have provided format-specific definitions:",
+   "hash": "0a63a4bf4e08b19d",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إضافةً إلى ما سبق، وفّرنا تعريفات خاصة بكل صيغة:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Además de lo anterior, proporcionamos definiciones específicas de cada formato:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "En complément de ce qui précède, nous fournissons des définitions propres à chaque format :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В дополнение к вышеперечисленному мы предоставили определения в отдельных форматах:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "除上述内容外，我们还提供了特定格式的定义：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Package",
+   "hash": "0f7b7d8ac0dfcd13",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحزمة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paquete",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Package",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пакет",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "软件包",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "These files should be the first choice whenever generating any implementation artifacts since they contain all of the rules about what makes these profiles valid. Implementers will still need to be familiar with the content of the specification and profiles that apply in order to make a conformant implementation. See the overview on <a0>validating FHIR profiles and resources</a0> for more information about validating profiles and how to use these artifacts.",
+   "hash": "105e8abf6529e439",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ينبغي أن تكون هذه الملفات الخيار الأول عند إنشاء أي مكوّنات تنفيذية، لأنها تحتوي على جميع القواعد التي تجعل ملفات التعريف هذه صالحة. وسيظل على المنفّذين الإلمام بمحتوى المواصفة وملفات التعريف المنطبقة من أجل تحقيق تنفيذ مطابق. انظر النظرة العامة بشأن <a0>التحقق من صحة ملفات تعريف FHIR ومواردها</a0> لمزيد من المعلومات حول التحقق من صحة ملفات التعريف وكيفية استخدام هذه المكوّنات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estos archivos deberían ser la primera opción siempre que se genere cualquier artefacto de implementación, ya que contienen todas las reglas que determinan la validez de estos perfiles. Los implementadores seguirán necesitando conocer el contenido de la especificación y de los perfiles aplicables para realizar una implementación conforme. Consulte la descripción general sobre la <a0>validación de perfiles y recursos FHIR</a0> para obtener más información sobre la validación de perfiles y el uso de estos artefactos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ces fichiers devraient être le premier choix pour générer tout artefact d'implémentation, car ils contiennent l'ensemble des règles qui déterminent la validité de ces profils. Les implémenteurs devront néanmoins connaître le contenu de la spécification et des profils applicables afin de réaliser une implémentation conforme. Consultez l'aperçu sur la <a0>validation des profils et ressources FHIR</a0> pour plus d'informations sur la validation des profils et l'utilisation de ces artefacts.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Эти файлы следует использовать в первую очередь при создании любых артефактов внедрения, поскольку они содержат все правила, определяющие валидность этих профилей. Разработчикам всё равно необходимо ознакомиться с содержанием спецификации и применимых профилей, чтобы создать соответствующую требованиям реализацию. Дополнительные сведения о валидации профилей и использовании этих артефактов см. в обзоре <a0>валидации профилей и ресурсов FHIR</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在生成任何实施工件时，应首先选用这些文件，因为它们包含了判定这些概要文件（profile）是否有效的全部规则。实施者仍需熟悉相关规范和适用概要文件的内容，才能实现符合性的实施。有关验证概要文件的更多信息以及如何使用这些工件，请参见<a0>验证 FHIR 概要文件和资源</a0>概述。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This is the technical package containing the artifacts in this Implementation Guide:",
+   "hash": "8131ff6112512501",
+   "sources": [
+    "input/pagecontent/downloads.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذه هي الحزمة التقنية التي تحتوي على المكوّنات الواردة في دليل التنفيذ هذا:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Este es el paquete técnico que contiene los artefactos de esta guía de implementación:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Voici le package technique contenant les artefacts de ce guide d'implémentation :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это технический пакет, содержащий артефакты этого руководства по внедрению:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这是包含本实施指南中工件的技术软件包：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

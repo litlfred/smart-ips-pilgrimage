@@ -1,0 +1,1096 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "user-scenarios/p0-keys-and-codes-shared",
+ "hashes": {
+  "ar": "7fbf6b481008e512",
+  "es": "390c51afe38f2a86",
+  "fr": "675d5825f6fdf0ed",
+  "ru": "122d4949b2d8ff1d",
+  "zh": "08bff1be40c0c57b"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Onesa",
+   "hash": "1cccc8eebd0e2356",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "Onesa's HIE publishes the public keys it signs health documents with to the WHO GDHCN trust network, and shares the national code systems its IPS uses with the WHO Terminology Service. Nothing about Kamal yet: this is what lets a Taifafeki clinic trust and read an Onesan record months later. Step A of the overview of key process flows.",
+   "hash": "96edfe5988068e68",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تنشر منصة HIE في Onesa المفاتيح العمومية التي توقّع بها المستندات الصحية في شبكة الثقة GDHCN التابعة لمنظمة الصحة العالمية (WHO)، وتشارك نظم الترميز الوطنية التي يستخدمها IPS الخاص بها مع خدمة المصطلحات التابعة لمنظمة الصحة العالمية (WHO). لا شيء عن Kamal بعد: هذا ما يتيح لعيادة في Taifafeki أن تثق بسجل صادر من Onesa وتقرأه بعد أشهر. الخطوة A من النظرة العامة على تدفقات العمليات الرئيسية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE de Onesa publica en la red de confianza de la GDHCN de la OMS las claves públicas con las que firma los documentos de salud, y comparte con el Servicio de Terminología de la OMS los sistemas de codificación nacionales que utiliza su IPS. Todavía nada sobre Kamal: esto es lo que permite que, meses después, una clínica de Taifafeki confíe en un registro de Onesa y pueda leerlo. Paso A de la visión general de los flujos de procesos clave.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa publie sur le réseau de confiance GDHCN de l'OMS les clés publiques avec lesquelles il signe les documents de santé, et partage avec le service de terminologie de l'OMS les systèmes de codes nationaux qu'utilise son IPS. Rien encore concernant Kamal : c'est ce qui permet à une clinique de Taifafeki de se fier à un dossier d'Onesa et de le lire des mois plus tard. Étape A de l'aperçu des principaux flux de processus.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa публикует в сети доверия GDHCN ВОЗ открытые ключи, которыми подписывает медицинские документы, и передаёт в Терминологический сервис ВОЗ национальные системы кодирования, используемые в IPS этой страны. О Kamal пока ничего: именно это позволяет клинике в Taifafeki через несколько месяцев доверять записи из Onesa и прочитать её. Шаг A обзора ключевых потоков процессов.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE 将其用于签名健康文档的公钥发布到世卫组织（WHO）GDHCN 信任网络，并与世卫组织（WHO）术语服务共享其 IPS 所用的国家代码系统。此时尚不涉及 Kamal：正是这一步让 Taifafeki 的诊所在数月后能够信任并读取 Onesa 的记录。这是关键流程概览的步骤 A。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Onesa's signing keys",
+   "hash": "43c726ca7abd3235",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفاتيح التوقيع الخاصة بـ Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Claves de firma de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les clés de signature d'Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключи подписи Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的签名密钥",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Trusted abroad",
+   "hash": "9b79f9178b887ba7",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "موضع ثقة في الخارج",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Fiable en el extranjero",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Reconnu à l'étranger",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доверие за границей",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在境外获得信任",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "WHO GDHCN trust list",
+   "hash": "fe29299e5a588d88",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قائمة الثقة GDHCN التابعة لمنظمة الصحة العالمية (WHO)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lista de confianza de la GDHCN de la OMS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Liste de confiance du GDHCN de l'OMS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Список доверия GDHCN ВОЗ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "世卫组织（WHO）GDHCN 信任列表",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "Both countries take part in one trust network, so each trusts the other's keys without a bilateral agreement.",
+   "hash": "617133111b4797bc",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يشارك البلدان كلاهما في شبكة ثقة واحدة، فيثق كلٌّ منهما بمفاتيح الآخر دون اتفاق ثنائي.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ambos países participan en una misma red de confianza, por lo que cada uno confía en las claves del otro sin necesidad de un acuerdo bilateral.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les deux pays participent à un même réseau de confiance, de sorte que chacun fait confiance aux clés de l'autre sans accord bilatéral.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обе страны участвуют в одной сети доверия, поэтому каждая доверяет ключам другой без двустороннего соглашения.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "两国都参与同一个信任网络，因此无需双边协议即可互相信任对方的密钥。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Lists Onesa's keys alongside those of every other participant, including Taifafeki.",
+   "hash": "5ca0124fc6e37447",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُدرج مفاتيح Onesa إلى جانب مفاتيح كل مشارك آخر، بما في ذلك Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Incluye las claves de Onesa junto con las de todos los demás participantes, entre ellos Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Répertorie les clés d'Onesa aux côtés de celles de tous les autres participants, y compris Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Включает ключи Onesa в список наряду с ключами всех других участников, в том числе Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将 Onesa 的密钥与包括 Taifafeki 在内的所有其他参与方的密钥一并列出。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Publishes the public keys it signs health documents with to GDHCN, and shares its national code systems with the WHO Terminology Service.",
+   "hash": "e083795ed0debe18",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ينشر المفاتيح العمومية التي يوقّع بها المستندات الصحية في GDHCN، ويشارك نظم الترميز الوطنية الخاصة به مع خدمة المصطلحات التابعة لمنظمة الصحة العالمية (WHO).",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Publica en la GDHCN las claves públicas con las que firma los documentos de salud, y comparte sus sistemas de codificación nacionales con el Servicio de Terminología de la OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Publie auprès du GDHCN les clés publiques avec lesquelles elle signe les documents de santé, et partage ses systèmes de codes nationaux avec le service de terminologie de l'OMS.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Публикует в GDHCN открытые ключи, которыми подписывает медицинские документы, и передаёт свои национальные системы кодирования в Терминологический сервис ВОЗ.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将其用于签名健康文档的公钥发布到 GDHCN，并与世卫组织（WHO）术语服务共享其国家代码系统。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.gaps",
+   "msgid": "No business process or transaction for publishing keys or terminologies.",
+   "hash": "9a729749b4c9affb",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا توجد عملية عمل أو معاملة لنشر المفاتيح أو المصطلحات.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No hay ningún proceso de negocio ni transacción para publicar claves o terminologías.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucun processus métier ni aucune transaction pour la publication des clés ou des terminologies.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Нет бизнес-процесса или транзакции для публикации ключей или терминологий.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚无发布密钥或术语的业务流程或事务。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "GDHCN trust network",
+   "hash": "24ceca5e8c5e7ec7",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شبكة الثقة GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Red de confianza de la GDHCN",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Réseau de confiance GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сеть доверия GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "GDHCN 信任网络",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "Public signing keys (DSCs); national code systems",
+   "hash": "e9dfc385b0fa4ebc",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفاتيح التوقيع العمومية (DSCs)؛ نظم الترميز الوطنية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Claves públicas de firma (DSC); sistemas de codificación nacionales",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clés publiques de signature (DSC) ; systèmes de codes nationaux",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Открытые ключи подписи (DSC); национальные системы кодирования",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "公共签名密钥（DSC）；国家代码系统",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "Onesa's keys and code systems are known to the trust network",
+   "hash": "874bcf658b1f1623",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفاتيح Onesa ونظم الترميز الخاصة بها معروفة لدى شبكة الثقة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La red de confianza conoce las claves y los sistemas de codificación de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les clés et les systèmes de codes d'Onesa sont connus du réseau de confiance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключи и системы кодирования Onesa известны сети доверия",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "信任网络已知晓 Onesa 的密钥和代码系统",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "Before anyone travels, Onesa's signing keys and code systems reach the trust network, so a Taifafeki clinic can trust and read an Onesan record months later.",
+   "hash": "fef744cea5779090",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل أن يسافر أحد، تصل مفاتيح التوقيع وأنظمة الرموز الخاصة بـ Onesa إلى شبكة الثقة، كي تتمكن عيادة في Taifafeki من الوثوق بسجل صادر من Onesa وقراءته بعد أشهر.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Antes de que nadie viaje, las claves de firma y los sistemas de códigos de Onesa llegan a la red de confianza, para que una clínica de Taifafeki pueda confiar en un registro de Onesa y leerlo meses después.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avant que quiconque ne voyage, les clés de signature et les systèmes de codes d'Onesa parviennent au réseau de confiance, afin qu'une clinique de Taifafeki puisse se fier à un dossier d'Onesa et le lire des mois plus tard.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ещё до начала поездок ключи подписи и системы кодов Onesa попадают в сеть доверия, чтобы клиника в Taifafeki могла через несколько месяцев доверять записи из Onesa и прочитать её.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在任何人出行之前，Onesa 的签名密钥和代码系统就已进入信任网络，因此 Taifafeki 的诊所在数月后能够信任并读取 Onesa 的记录。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.illustration.alt",
+   "msgid": "Two cards far apart, the flag of Onesa (home country) and the flag of Taifafeki (host country), each with a health cross; a golden key travels from Onesa to a blue globe of linked dots between them, and code books to the Taifafeki side.",
+   "hash": "88ab56aaab55d6aa",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بطاقتان متباعدتان، عَلَم Onesa (البلد الأم) وعَلَم Taifafeki (البلد المضيف)، تحمل كلٌّ منهما صليبًا صحيًا؛ ينتقل مفتاح ذهبي من Onesa إلى كرة أرضية زرقاء من النقاط المترابطة بينهما، وتنتقل كتب الرموز إلى جانب Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dos tarjetas muy alejadas entre sí, la bandera de Onesa (país de origen) y la bandera de Taifafeki (país anfitrión), cada una con una cruz sanitaria; una llave dorada viaja desde Onesa hasta un globo azul de puntos conectados situado entre ambas, y unos libros de códigos llegan al lado de Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Deux cartes éloignées l'une de l'autre, le drapeau d'Onesa (pays d'origine) et le drapeau de Taifafeki (pays d'accueil), chacune avec une croix de santé ; une clé dorée voyage d'Onesa vers un globe bleu de points reliés situé entre elles, et des livres de codes vers le côté de Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Две карточки далеко друг от друга — флаг Onesa (страна происхождения) и флаг Taifafeki (принимающая страна), на каждой медицинский крест; золотой ключ перемещается из Onesa к синему глобусу из соединённых точек между ними, а справочники кодов — на сторону Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "相隔很远的两张卡片，分别是 Onesa（本国）的国旗和 Taifafeki（东道国）的国旗，各带一个健康十字；一把金色钥匙从 Onesa 飞向两者之间一个由相连圆点构成的蓝色地球，代码手册则飞向 Taifafeki 一侧。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "Onesa's HIE publishes the public keys it signs health documents with to the WHO GDHCN trust network, and shares the national code systems its IPS uses with the WHO Terminology Service. Nothing about Kamal yet: this is what lets a Taifafeki clinic trust and read an Onesan record months later. Step A of the overview of key process flows.",
+   "hash": "ce4ea518930d6661",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تنشر منصة HIE في Onesa المفاتيح العمومية التي توقّع بها المستندات الصحية في شبكة الثقة GDHCN التابعة لمنظمة الصحة العالمية (WHO)، وتشارك نظم الترميز الوطنية التي يستخدمها IPS الخاص بها مع خدمة المصطلحات التابعة لمنظمة الصحة العالمية (WHO). لا شيء عن Kamal بعد: هذا ما يتيح لعيادة في Taifafeki أن تثق بسجل صادر من Onesa وتقرأه بعد أشهر. الخطوة A من النظرة العامة على تدفقات العمليات الرئيسية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE de Onesa publica en la red de confianza de la GDHCN de la OMS las claves públicas con las que firma los documentos de salud, y comparte con el Servicio de Terminología de la OMS los sistemas de codificación nacionales que utiliza su IPS. Todavía nada sobre Kamal: esto es lo que permite que, meses después, una clínica de Taifafeki confíe en un registro de Onesa y pueda leerlo. Paso A de la visión general de los flujos de procesos clave.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa publie sur le réseau de confiance GDHCN de l'OMS les clés publiques avec lesquelles il signe les documents de santé, et partage avec le service de terminologie de l'OMS les systèmes de codes nationaux qu'utilise son IPS. Rien encore concernant Kamal : c'est ce qui permet à une clinique de Taifafeki de se fier à un dossier d'Onesa et de le lire des mois plus tard. Étape A de l'aperçu des principaux flux de processus.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa публикует в сети доверия GDHCN ВОЗ открытые ключи, которыми подписывает медицинские документы, и передаёт в Терминологический сервис ВОЗ национальные системы кодирования, используемые в IPS этой страны. О Kamal пока ничего: именно это позволяет клинике в Taifafeki через несколько месяцев доверять записи из Onesa и прочитать её. Шаг A обзора ключевых потоков процессов.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE 将其用于签名健康文档的公钥发布到世卫组织（WHO）GDHCN 信任网络，并与世卫组织（WHO）术语服务共享其 IPS 所用的国家代码系统。此时尚不涉及 Kamal：正是这一步让 Taifafeki 的诊所在数月后能够信任并读取 Onesa 的记录。这是关键流程概览的步骤 A。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "Without published keys, a Taifafeki clinic has no way to tell a genuine Onesan record from a forged one.",
+   "hash": "64ff0f0abddf42f7",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من دون مفاتيح منشورة، لا تملك عيادة في Taifafeki أي وسيلة للتمييز بين سجل حقيقي صادر من Onesa وآخر مزوَّر.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin claves publicadas, una clínica de Taifafeki no tiene forma de distinguir un registro de Onesa auténtico de uno falsificado.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sans clés publiées, une clinique de Taifafeki n'a aucun moyen de distinguer un dossier d'Onesa authentique d'un dossier falsifié.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Без опубликованных ключей клиника в Taifafeki никак не может отличить подлинную запись из Onesa от поддельной.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "没有已发布的密钥，Taifafeki 的诊所就无法区分真实的 Onesa 记录和伪造的记录。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Which Onesan institution signs health documents on behalf of the health sector, and who in Taifafeki decides to accept that signature?",
+   "hash": "9a41523b7f4e91b3",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما المؤسسة في Onesa التي توقّع المستندات الصحية نيابةً عن القطاع الصحي، ومَن في Taifafeki يقرّر قبول هذا التوقيع؟",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿Qué institución de Onesa firma los documentos de salud en nombre del sector de la salud, y quién decide en Taifafeki aceptar esa firma?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Quelle institution d'Onesa signe les documents de santé au nom du secteur de la santé, et qui, à Taifafeki, décide d'accepter cette signature ?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Какое учреждение Onesa подписывает медицинские документы от имени сектора здравоохранения и кто в Taifafeki принимает решение признавать эту подпись?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "由哪个 Onesa 机构代表卫生领域签名健康文档？在 Taifafeki 又由谁决定接受该签名？",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "Kamal's record stays in Onesa's HIE; only keys and code systems are shared",
+   "hash": "7bbc717f71b23a78",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يبقى سجل Kamal في منصة HIE في Onesa؛ ولا يُشارَك إلا المفاتيح ونظم الترميز",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El registro de Kamal permanece en el HIE de Onesa; solo se comparten las claves y los sistemas de codificación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le dossier de Kamal reste dans le HIE d'Onesa ; seuls les clés et les systèmes de codes sont partagés",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Запись Kamal остаётся в HIE Onesa; передаются только ключи и системы кодирования",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kamal 的记录保留在 Onesa 的 HIE 中；只共享密钥和代码系统",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "Onesa's HIE",
+   "hash": "8b657078e882156a",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منصة HIE في Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le HIE d'Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的 HIE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "SMART Trust framework (by reference)",
+   "hash": "10f9b90bd03f719b",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إطار SMART Trust (بالإحالة)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Marco SMART Trust (por referencia)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cadre SMART Trust (par référence)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Структура SMART Trust (посредством ссылки)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "SMART Trust 框架（引用）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.references.label",
+   "msgid": "User scenarios: the first two sections",
+   "hash": "2e4efe03fe0a584e",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريوهات المستخدم: القسمان الأولان",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenarios de usuario: las dos primeras secciones",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénarios utilisateur : les deux premières sections",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии: первые два раздела",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户场景：前两节",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "Keys and codes are shared",
+   "hash": "e1946cf45419bed8",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبادل المفاتيح والرموز",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se comparten claves y códigos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les clés et les codes sont partagés",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обмен ключами и кодами",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "共享密钥和代码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.when",
+   "msgid": "Before the pilgrimage season",
+   "hash": "d0950ebc2ff84bf2",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل موسم الزيارة الدينية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Antes de la temporada de peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avant la saison du pèlerinage",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Перед сезоном паломничества",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣季之前",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "Lomaru and WHO GDHCN",
+   "hash": "0cc6df34aac351f8",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Lomaru وGDHCN التابعة لمنظمة الصحة العالمية (WHO)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lomaru y la GDHCN de la OMS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lomaru et le GDHCN de l'OMS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Lomaru и GDHCN ВОЗ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Lomaru 和世卫组织（WHO）GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "P0 · Before the season — keys and codes are shared",
+   "hash": "ca70ebfee4cc5356",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "P0 · قبل الموسم — تبادل المفاتيح والرموز",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "P0 · Antes de la temporada — se comparten claves y códigos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "P0 · Avant la saison — les clés et les codes sont partagés",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "P0 · Перед сезоном: обмен ключами и кодами",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "P0 · 朝圣季之前——共享密钥和代码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "Before the pilgrimage season",
+   "hash": "67c020658872fefd",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل موسم الزيارة الدينية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Antes de la temporada de peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avant la saison du pèlerinage",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Перед сезоном паломничества",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣季之前",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "Lomaru and WHO GDHCN",
+   "hash": "2f2eda93b54936e4",
+   "sources": [
+    "user-scenarios/p0-keys-and-codes-shared.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Lomaru وGDHCN التابعة لمنظمة الصحة العالمية (WHO)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lomaru y la GDHCN de la OMS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lomaru et le GDHCN de l'OMS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Lomaru и GDHCN ВОЗ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Lomaru 和世卫组织（WHO）GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

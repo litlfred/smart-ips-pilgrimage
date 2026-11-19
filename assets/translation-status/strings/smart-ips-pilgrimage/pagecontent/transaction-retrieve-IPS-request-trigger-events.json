@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-retrieve-IPS-request-trigger-events",
+ "hashes": {
+  "ar": "2b6fd32908d68f3f",
+  "es": "fd6898fe09488eed",
+  "fr": "ab4cada585695b29",
+  "ru": "5c75662a1d6ef524",
+  "zh": "9b6e15b7f3d9c75c"
+ },
+ "strings": [
+  {
+   "msgid": "The retrieve IPS request transaction is initiated when the host country EMR has extracted the bundle of documentReference from within the VHL folder and is now requesting for retrieving the IPS in JSON format.",
+   "hash": "b8a3e67a96457373",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-IPS-request-trigger-events.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبدأ معاملة طلب استرجاع IPS عندما يكون السجل الطبي الإلكتروني (EMR) في البلد المضيف قد استخرج حزمة documentReference من داخل مجلد VHL، ويطلب الآن استرجاع IPS بصيغة JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La transacción de solicitud de obtención del IPS se inicia cuando el EMR del país anfitrión ha extraído el Bundle de DocumentReference de la carpeta del VHL y solicita obtener el IPS en formato JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La transaction de requête de récupération de l'IPS est déclenchée lorsque le DME du pays d'accueil a extrait le bundle de DocumentReference du dossier VHL et demande alors la récupération de l'IPS au format JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция запроса на получение IPS инициируется, когда EMR принимающей страны извлекла пакет (bundle) ресурсов documentReference из папки VHL и запрашивает получение IPS в формате JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "当东道国 EMR 已从 VHL 文件夹中提取 documentReference 的 bundle，并正在请求检索 JSON 格式的 IPS 时，即启动检索 IPS 请求事务。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

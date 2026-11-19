@@ -162,7 +162,9 @@ body.jv {
 .jv-step-body { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 28px; margin-top: 8px; }
 @media (max-width: 860px) { .jv-step-body { grid-template-columns: 1fr; } }
 .jv-hood { background: var(--jv-soft); border-radius: var(--jv-radius); padding: 2px 16px 12px; }
-.jv-hood-h { color: var(--jv-accent) !important; }
+.jv-hood-h { color: var(--jv-accent) !important; font-weight: 700; cursor: pointer; padding: 10px 0; }
+/* Under the hood starts folded (owner, 2026-11-17). */
+.jv-hood:not([open]) { align-self: start; }
 .jv-tech { font-weight: 550; }
 .jv-prose p { margin: 8px 0; }
 .jv-pre { margin: 12px 0; padding: 8px 12px; border: 1px dashed var(--jv-line); border-radius: 8px; }
@@ -271,7 +273,7 @@ body.jv {
 /* The workshop's own canvas (JV-06): a page image each, as wide as the column, its own shape. */
 .jv-canvas { display: flex; flex-direction: column; gap: 24px; }
 .jv-canvas-page { margin: 0; background: #fff; border: 1px solid var(--jv-line); border-radius: 4px; padding: 8px; }
-.jv-canvas-page img { display: block; width: 100%; height: auto; }
+.jv-canvas-page img { display: block; width: 100%; height: auto; margin: 0 auto; }
 .jv-canvas-page figcaption { font-size: 0.78rem; color: var(--jv-muted); text-align: center; padding-top: 6px; }
 .jv-canvas-pdf { display: block; width: 100%; height: 80vh; border: 1px solid var(--jv-line); border-radius: 4px; }
 
@@ -288,7 +290,7 @@ body.jv {
   .jv-print-sheets .jv-canvas { gap: 0; }
   .jv-print-sheets .jv-canvas-page { break-after: page; border: 0; box-shadow: none; margin: 0; padding: 0; width: 400mm; height: 277mm; display: flex; align-items: center; justify-content: center; }
   .jv-print-sheets .jv-canvas-page.jv-canvas-a4 { page: a4; width: 277mm; height: 190mm; }
-  .jv-print-sheets .jv-canvas-page img { width: 100%; height: 100%; object-fit: contain; }
+  .jv-print-sheets .jv-canvas-page img { width: 100%; height: 100%; max-width: none !important; object-fit: contain; }
   .jv-print-sheets .jv-canvas-page:last-child { break-after: auto; }
   .jv-print-sheets .jv-sheet-a4 { page: a4; width: 277mm; height: 190mm; }
   .jv-print-sheets .jv-sheet:last-child { break-after: auto; }

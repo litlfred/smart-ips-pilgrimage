@@ -1,0 +1,133 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/indicators-measures",
+ "hashes": {
+  "ar": "272de2926628788f",
+  "es": "385868d7f48f8347",
+  "fr": "54a65d437cb3a50b",
+  "ru": "ab6197d0f9088cbb",
+  "zh": "bc3b02c3fb1f9077"
+ },
+ "strings": [
+  {
+   "msgid": "No measures or indicators have been defined for IPS-pilgrimage",
+   "hash": "ebf962c8a31cc5a6",
+   "sources": [
+    "input/pagecontent/indicators-measures.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لم تُعرَّف أي مقاييس أو مؤشرات لـ IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No se ha definido ninguna medida ni ningún indicador para IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucune mesure ni aucun indicateur n’a été défini pour IPS-pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для IPS-pilgrimage показатели и индикаторы не определены",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "尚未为 IPS-pilgrimage 定义任何度量或指标",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Summary indicator content from the DAK is also represented in the Indicators and Performance Metrics page.",
+   "hash": "8001f233741bb5f7",
+   "sources": [
+    "input/pagecontent/indicators-measures.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُعرَض أيضًا ملخص محتوى المؤشرات من DAK في صفحة المؤشرات ومقاييس الأداء.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El contenido resumido de los indicadores del DAK también se representa en la página Indicadores y métricas de desempeño.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le contenu de synthèse des indicateurs issu du DAK est également présenté dans la page Indicateurs et mesures de performance.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сводное содержимое индикаторов из DAK также представлено на странице «Индикаторы и показатели эффективности».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来自 DAK 的汇总指标内容也呈现在“指标和绩效度量”页面中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The FHIR Measure is used to describe the indicator in a computable format. These indicators may be aggregated automatically from the digital tracking tool to populate a digital health management information system (HMIS).",
+   "hash": "b7220b2649b43153",
+   "sources": [
+    "input/pagecontent/indicators-measures.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُستخدم مورد Measure في FHIR لوصف المؤشر بصيغة قابلة للحوسبة. ويمكن تجميع هذه المؤشرات تلقائيًا من أداة التتبع الرقمية لتغذية نظام رقمي لمعلومات الإدارة الصحية (HMIS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El recurso Measure de FHIR se utiliza para describir el indicador en un formato computable. Estos indicadores pueden agregarse automáticamente a partir de la herramienta digital de seguimiento para alimentar un sistema digital de información para la gestión sanitaria (HMIS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La ressource FHIR Measure sert à décrire l’indicateur dans un format calculable. Ces indicateurs peuvent être agrégés automatiquement à partir de l’outil de suivi numérique pour alimenter un système numérique d’information pour la gestion sanitaire (HMIS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ресурс FHIR Measure используется для описания индикатора в вычислимом формате. Эти индикаторы могут автоматически агрегироваться из цифрового инструмента отслеживания для заполнения цифровой информационной системы управления здравоохранением (HMIS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "FHIR Measure 用于以可计算格式描述指标。这些指标可以从数字追踪工具自动汇总，用于填充数字卫生管理信息系统（HMIS）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

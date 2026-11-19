@@ -1,0 +1,328 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-record-consent-request-message-semantics",
+ "hashes": {
+  "ar": "4b7ab675fc2f9ceb",
+  "es": "dd7cf44d5abd70fe",
+  "fr": "eab71b47d5deceb3",
+  "ru": "1cf92ee17b74c820",
+  "zh": "6d2830a22c01e462"
+ },
+ "strings": [
+  {
+   "msgid": "Access Consent - Create (ITI-108)",
+   "hash": "3d41aeca2dee0c13",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Access Consent - إنشاء (ITI-108)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Access Consent - Create (ITI-108)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Access Consent - Create (ITI-108)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласие на доступ — создание (ITI-108)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "访问同意 - 创建（ITI-108）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Access Consent - Update (ITI-108)",
+   "hash": "e3b02982b4a871bc",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Access Consent - تحديث (ITI-108)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Access Consent - Update (ITI-108)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Access Consent - Update (ITI-108)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласие на доступ — обновление (ITI-108)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "访问同意 - 更新（ITI-108）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Message Semantics Request",
+   "hash": "6599bbc2f6aa3a09",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "دلالات رسالة الطلب",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Semántica del mensaje: solicitud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sémantique des messages : requête",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщения: запрос",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "消息语义：请求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Message Semantics Response",
+   "hash": "f4895c0190d30675",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "دلالات رسالة الاستجابة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Semántica del mensaje: respuesta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sémantique des messages : réponse",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщения: ответ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "消息语义：响应",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "See <a0>https://profiles.ihe.net/ITI/PCF/ITI-108.html</a0> for more details.",
+   "hash": "a98e29fd1828e59d",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "انظر <a0>https://profiles.ihe.net/ITI/PCF/ITI-108.html</a0> لمزيد من التفاصيل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Véase <a0>https://profiles.ihe.net/ITI/PCF/ITI-108.html</a0> para más detalles.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Voir <a0>https://profiles.ihe.net/ITI/PCF/ITI-108.html</a0> pour plus de détails.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подробнее см. <a0>https://profiles.ihe.net/ITI/PCF/ITI-108.html</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "更多详情见<a0>https://profiles.ihe.net/ITI/PCF/ITI-108.html</a0>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "See the ITI 108 for Create and Update sections. The success or failure of the create/ update interaction is indicated by the http response code (e.g., 400, 200, etc.).",
+   "hash": "6b926c14352f7884",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "انظر قسمَي Create وUpdate في ITI 108. ويُشار إلى نجاح تفاعل الإنشاء/التحديث أو فشله برمز استجابة http (مثل 400، 200، إلخ).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Véanse las secciones Create y Update de ITI 108. El éxito o el fracaso de la interacción de creación o actualización se indica mediante el código de respuesta http (p. ej., 400, 200, etc.).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Voir les sections Create et Update de ITI 108. Le succès ou l'échec de l'interaction de création/mise à jour est indiqué par le code de réponse HTTP (par exemple 400, 200, etc.).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "См. разделы ITI 108 о создании и обновлении. Успешность или неуспешность взаимодействия по созданию/обновлению указывается кодом ответа HTTP (например, 400, 200 и т. д.).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "参见 ITI 108 的创建和更新章节。创建/更新交互的成功或失败由 http 响应码表示（例如 400、200 等）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Specifically,",
+   "hash": "dfe5382c8c8c3816",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "وتحديدًا،",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En concreto,",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Plus précisément,",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "А именно:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "具体而言，",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The message semantics for Record Consent Request utilizes a FHIR Consent resource set as PUT or POST http request.",
+   "hash": "8f09ad872015f512",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-message-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تستخدم دلالات رسالة طلب Record Consent موردَ FHIR Consent مُرسَلًا في صورة طلب http من نوع PUT أو POST.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La semántica del mensaje de Record Consent Request utiliza un recurso Consent de FHIR enviado como solicitud http PUT o POST.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La sémantique des messages de la requête d'enregistrement du consentement utilise une ressource FHIR Consent envoyée par une requête HTTP PUT ou POST.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семантика сообщения запроса на регистрацию согласия использует ресурс FHIR Consent, передаваемый в HTTP-запросе PUT или POST.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录同意请求的消息语义使用以 PUT 或 POST http 请求发送的 FHIR Consent 资源。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

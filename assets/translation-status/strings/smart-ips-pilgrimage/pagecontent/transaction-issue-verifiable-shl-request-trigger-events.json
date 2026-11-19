@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-issue-verifiable-shl-request-trigger-events",
+ "hashes": {
+  "ar": "bd7e4c336a567a3a",
+  "es": "12b07b61ed63f706",
+  "fr": "3ad444f6555d1c51",
+  "ru": "b7e563917844872d",
+  "zh": "0c606a9a29a18239"
+ },
+ "strings": [
+  {
+   "msgid": "The issue VHL request transaction is initiated when a privacy configuration form has been recorded by a digital health wallet that includes disclosure and time limit settings.",
+   "hash": "d4106bff08b4a695",
+   "sources": [
+    "input/pagecontent/transaction-issue-verifiable-shl-request-trigger-events.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبدأ معاملة طلب إصدار VHL عندما تسجّل محفظة صحية رقمية نموذجَ ضبط للخصوصية يتضمن إعدادات الإفصاح والحد الزمني.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La transacción de solicitud de emisión del VHL se inicia cuando una billetera sanitaria digital ha registrado un formulario de configuración de privacidad que incluye ajustes de divulgación y de límite de tiempo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La transaction de requête de délivrance du VHL est déclenchée lorsqu'un formulaire de configuration de la confidentialité, comprenant des paramètres de divulgation et de limite de durée, a été enregistré par un portefeuille de santé numérique.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Транзакция запроса на выпуск VHL инициируется после того, как цифровой кошелёк медицинских данных зарегистрировал форму настроек конфиденциальности, включающую параметры раскрытия данных и ограничения по времени.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "当数字健康钱包已记录一份包含披露和时限设置的隐私配置表单时，即启动签发 VHL 请求事务。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,484 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/test-cases",
+ "hashes": {
+  "ar": "8a552d6b28fc2fa0",
+  "es": "98f4a2f9485481a3",
+  "fr": "103fde7661b4c49e",
+  "ru": "27e2ad5628414e0b",
+  "zh": "cab8ae1cd041e248"
+ },
+ "strings": [
+  {
+   "msgid": "IPS-Pilgrimage End to End Workflow",
+   "hash": "5035e5bffd6fb3b1",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سير العمل الشامل من البداية إلى النهاية لـ IPS-Pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Flujo de trabajo de extremo a extremo de IPS-Pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Flux de travail de bout en bout IPS-Pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сквозной рабочий процесс IPS-Pilgrimage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "IPS-Pilgrimage 端到端工作流",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Issuance of verifiable health document (IPS)",
+   "hash": "9ab594e8c541d0d0",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إصدار مستند صحي قابل للتحقق (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Emisión del documento de salud verificable (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Délivrance d'un document de santé vérifiable (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Выпуск проверяемого медицинского документа (IPS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发可验证健康文档（IPS）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Issue VHL",
+   "hash": "d1d0888e6e0037df",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إصدار VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Emitir el VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Délivrer le VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Выпуск VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发 VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Record Consent",
+   "hash": "a05880055611922e",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسجيل الموافقة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registrar el consentimiento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistrer le consentement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Запись согласия",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录同意",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Retrieve IPS",
+   "hash": "97fb2de5f2a581cb",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استرجاع IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recuperar el IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Récupérer l'IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получение IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索 IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Retrieve VHL Manifest",
+   "hash": "ef0b096cb6b8810c",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استرجاع بيان VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recuperar el manifiesto del VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Récupérer le manifeste VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получение манифеста VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检索 VHL 清单",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The testing artifacts in this implementation guide are not intended to be used to determine formal conformance, nor are they intended to be authoritative or comprehensive.",
+   "hash": "7d95c904399cee90",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يُقصد باستخدام عناصر الاختبار في دليل التنفيذ هذا تحديد المطابقة الرسمية، ولا يُقصد بها أن تكون مرجعية أو شاملة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los artefactos de prueba de esta guía de implementación no están destinados a determinar la conformidad formal, ni pretenden ser autorizados ni exhaustivos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les artefacts de test de ce guide d'implémentation ne sont pas destinés à être utilisés pour déterminer la conformité formelle, et ne se veulent ni faisant autorité ni exhaustifs.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Артефакты тестирования в этом руководстве по внедрению не предназначены для определения формального соответствия и не являются авторитетными или исчерпывающими.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南中的测试工件并非用于判定正式一致性，也并非旨在具有权威性或全面性。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This page will include test cases developed for the test scenarios, transactions and actors included in this implementation guide. See <a0>Testing</a0> for additional testing artifacts.",
+   "hash": "3a0e33a37a6ad9fb",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ستتضمن هذه الصفحة حالات الاختبار المُعدّة لسيناريوهات الاختبار والمعاملات والجهات الفاعلة المشمولة في دليل التنفيذ هذا. انظر <a0>الاختبار</a0> للاطلاع على عناصر اختبار إضافية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta página incluirá los casos de prueba elaborados para los escenarios de prueba, las transacciones y los actores incluidos en esta guía de implementación. Véase <a0>Pruebas</a0> para consultar otros artefactos de prueba.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cette page comprendra les cas de test élaborés pour les scénarios de test, les transactions et les acteurs inclus dans ce guide d'implémentation. Voir <a0>Tests</a0> pour d'autres artefacts de test.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице будут приведены тестовые случаи, разработанные для тестовых сценариев, транзакций и акторов, включённых в это руководство по внедрению. Дополнительные артефакты тестирования см. в разделе <a0>Тестирование</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页将包含为本实施指南所含测试场景、事务和参与者开发的测试用例。其他测试工件见<a0>测试</a0>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Validate retrieved IPS content",
+   "hash": "8efb92e5831ad118",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التحقق من صحة محتوى IPS المسترجَع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Validar el contenido del IPS recuperado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Valider le contenu de l'IPS récupéré",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Валидация полученного содержимого IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "校验检索到的 IPS 内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Verify Signature on CWT Payload using Kid",
+   "hash": "217bf686e9129d81",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التحقق من التوقيع على حمولة CWT باستخدام Kid",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Verificar la firma de la carga útil del CWT usando el Kid",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vérifier la signature de la charge utile CWT au moyen du Kid",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверка подписи полезной нагрузки CWT с использованием kid",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "使用 Kid 验证 CWT 载荷上的签名",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "View IPS content",
+   "hash": "0ce94c962ebf38a4",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عرض محتوى IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ver el contenido del IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Afficher le contenu de l'IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Просмотр содержимого IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "查看 IPS 内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Unplanned Clinical Encounter at Pilgrimage Health Facility",
+   "hash": "16e0099700560ee5",
+   "sources": [
+    "input/pagecontent/test-cases.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لقاء سريري غير مخطط له في المرفق الصحي للزيارة الدينية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Encuentro clínico no programado en un establecimiento de salud de la peregrinación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Consultation clinique non planifiée dans un établissement de santé du pèlerinage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Незапланированный клинический приём в медицинском учреждении для паломников",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在朝圣医疗卫生机构的非计划临床就诊",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

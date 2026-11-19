@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-record-consent-request-trigger-events",
+ "hashes": {
+  "ar": "1422bea1a3f9f499",
+  "es": "4d05b06bda8af20c",
+  "fr": "0ed7fc0827d20502",
+  "ru": "44bbcc88c7d335de",
+  "zh": "72f9e5f405d90c66"
+ },
+ "strings": [
+  {
+   "msgid": "A new consent directive has been recorded by a Digital Health Wallet.",
+   "hash": "1605cfdc6411365c",
+   "sources": [
+    "input/pagecontent/transaction-record-consent-request-trigger-events.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سُجِّل توجيه موافقة جديد بواسطة محفظة صحية رقمية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una billetera sanitaria digital ha registrado una nueva directiva de consentimiento.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une nouvelle directive de consentement a été enregistrée par un portefeuille de santé numérique.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цифровой кошелёк медицинских данных зарегистрировал новое распоряжение о согласии.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数字健康钱包已记录一条新的同意指令。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

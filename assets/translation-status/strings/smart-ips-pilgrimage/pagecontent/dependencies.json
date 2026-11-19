@@ -1,0 +1,445 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/dependencies",
+ "hashes": {
+  "ar": "701614c73ae4e488",
+  "es": "306ca9208ed58789",
+  "fr": "943284c2697494bd",
+  "ru": "7ed4805bcf852109",
+  "zh": "16b9d41c37e8c4aa"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>Audit Trail and Node Authentication (ATNA) Profile</a0>",
+   "hash": "0e196228c2c683e0",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>ملف تعريف سجل التدقيق ومصادقة العُقد (ATNA)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Perfil Audit Trail and Node Authentication (ATNA)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Profil Audit Trail and Node Authentication (ATNA)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Профиль «Журнал аудита и аутентификация узлов» (Audit Trail and Node Authentication, ATNA)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>审计追踪与节点认证（ATNA）规范</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) IPS Implementation Guide, published by HL7 International - Patient Care Work Group</a0>",
+   "hash": "5bc3888e6c3d215c",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>دليل تنفيذ IPS لموارد التشغيل البيني السريع للرعاية الصحية (FHIR) من Health Level 7 ‏(HL7)، الصادر عن HL7 International - فريق عمل رعاية المرضى</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Guía de implementación del IPS de Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR), publicada por el Patient Care Work Group de HL7 International</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Guide d'implémentation IPS Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR), publié par HL7 International - Patient Care Work Group</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Руководство по внедрению IPS стандарта Fast Healthcare Interoperability Resources (FHIR) организации Health Level 7 (HL7), опубликованное HL7 International — Patient Care Work Group</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>Health Level 7（HL7）快速医疗互操作性资源（FHIR）IPS 实施指南，由 HL7 International 患者照护工作组（Patient Care Work Group）发布</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Mobile access to Health Documents (MHD)</a0>",
+   "hash": "afae38971b965ac8",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الوصول المتنقل إلى الوثائق الصحية (MHD)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Mobile access to Health Documents (MHD)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Mobile access to Health Documents (MHD)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Мобильный доступ к медицинским документам (Mobile access to Health Documents, MHD)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>移动访问健康文档（MHD）</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Mobile Care Services Discovery (mCSD) Profile</a0>",
+   "hash": "6a918f560b81dc51",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>ملف تعريف اكتشاف خدمات الرعاية المتنقلة (mCSD)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Perfil Mobile Care Services Discovery (mCSD)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Profil Mobile Care Services Discovery (mCSD)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Профиль «Мобильное обнаружение служб оказания помощи» (Mobile Care Services Discovery, mCSD)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>移动医疗服务发现（mCSD）规范</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Privacy Consent on FHIR (PCF)</a0>",
+   "hash": "1db0142de7f46c6a",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>موافقة الخصوصية على FHIR ‏(PCF)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Privacy Consent on FHIR (PCF)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Privacy Consent on FHIR (PCF)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Согласие на обработку данных в FHIR (Privacy Consent on FHIR, PCF)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>基于 FHIR 的隐私同意（PCF）</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Sharing Valuesets and Concept Maps (SVCM) Profile</a0>",
+   "hash": "9bb68312aad7ccf6",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>ملف تعريف مشاركة مجموعات القيم وخرائط المفاهيم (SVCM)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Perfil Sharing Valuesets and Concept Maps (SVCM)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Profil Sharing Valuesets and Concept Maps (SVCM)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Профиль «Совместное использование наборов значений и карт понятий» (Sharing Valuesets and Concept Maps, SVCM)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>共享值集与概念映射（SVCM）规范</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>WHO Family of International Classifications</a0>",
+   "hash": "92f5712a768d0534",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>أسرة التصنيفات الدولية لمنظمة الصحة العالمية (WHO)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Familia de Clasificaciones Internacionales de la OMS</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Famille des classifications internationales de l'OMS</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Семейство международных классификаций ВОЗ</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>世卫组织（WHO）国际分类家族</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>WHO International Classification of Diseases 11th Revision (ICD-11)</a0>",
+   "hash": "06839b4467f64f65",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>المراجعة الحادية عشرة للتصنيف الدولي للأمراض (ICD-11) لمنظمة الصحة العالمية (WHO)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Clasificación Internacional de Enfermedades, 11.ª revisión (CIE-11) de la OMS</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Classification internationale des maladies de l'OMS, 11e révision (CIM-11)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Международная классификация болезней 11-го пересмотра ВОЗ (ICD-11)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>世卫组织（WHO）《国际疾病分类第十一次修订本》（ICD-11）</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Integrating the Healthcare Enterprise (IHE):",
+   "hash": "6bdfe7c00b23c986",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تكامل مؤسسات الرعاية الصحية (IHE):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Integrating the Healthcare Enterprise (IHE):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Integrating the Healthcare Enterprise (IHE) :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Integrating the Healthcare Enterprise (IHE):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "医疗企业集成（IHE）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The following standards and profiles are referenced in this implementation guide:",
+   "hash": "eddf4a3a16df9bb2",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المعايير وملفات التعريف التالية مُشار إليها في دليل التنفيذ هذا:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En esta guía de implementación se hace referencia a las siguientes normas y perfiles:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les normes et profils suivants sont référencés dans ce guide d'implémentation :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В этом руководстве по внедрению используются следующие стандарты и профили:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本实施指南引用了以下标准和规范：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "World Health Organization (WHO):",
+   "hash": "e27ae97de100a399",
+   "sources": [
+    "input/pagecontent/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منظمة الصحة العالمية (WHO):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Organización Mundial de la Salud (OMS):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Organisation mondiale de la Santé (OMS) :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Всемирная организация здравоохранения (ВОЗ):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "世界卫生组织（WHO）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

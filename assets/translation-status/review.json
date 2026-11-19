@@ -8,12 +8,36 @@
   "fence": "json translation-adjudication",
   "maxUrl": 7500,
   "candidatesSchema": "translation-candidates/v1",
-  "candidatesSuffix": ".candidates.json"
+  "candidatesSuffix": ".candidates.json",
+  "chooseField": "choose",
+  "proposeOpen": true
+ },
+ "strings": {
+  "schema": "folio-translation-strings/v1",
+  "base": "assets/translation-status/strings/",
+  "statuses": [
+   "official",
+   "adjudicated",
+   "proposed",
+   "agent",
+   "mt",
+   "missing",
+   "stale",
+   "unattributed"
+  ],
+  "pickTiers": [
+   "official",
+   "human-adjudicated",
+   "human-proposed",
+   "platform",
+   "agent",
+   "mt"
+  ]
  },
  "layers": [
   {
-   "name": "cat-harness",
-   "repository": "litlfred/cat-harness",
+   "name": "smart-ips-pilgrimage",
+   "repository": "litlfred/smart-ips-pilgrimage",
    "translations": "translations",
    "locales": [
     "ar",
@@ -24,569 +48,1324 @@
    ],
    "rows": [
     {
-     "catalogue": "concepts/agentic-harness",
-     "sources": [
-      "docs/concepts/agentic-harness.md"
-     ],
-     "cells": {
-      "ar": {
-       "state": "machine",
-       "entries": 164,
-       "translated": 164,
-       "fuzzy": 0,
-       "hash": "27177d26a831eba2"
-      },
-      "es": {
-       "state": "machine",
-       "entries": 164,
-       "translated": 164,
-       "fuzzy": 0,
-       "hash": "1d9486d5979ac429"
-      },
-      "fr": {
-       "state": "machine",
-       "entries": 164,
-       "translated": 164,
-       "fuzzy": 0,
-       "hash": "bc2c6208108e7cec"
-      },
-      "ru": {
-       "state": "machine",
-       "entries": 164,
-       "translated": 164,
-       "fuzzy": 0,
-       "hash": "6a674848cdbdc629"
-      },
-      "zh": {
-       "state": "machine",
-       "entries": 164,
-       "translated": 164,
-       "fuzzy": 0,
-       "hash": "35c0766431513faf"
-      }
-     }
-    },
-    {
-     "catalogue": "concepts/architecture",
-     "sources": [
-      "docs/concepts/architecture.md"
-     ],
-     "cells": {
-      "ar": {
-       "state": "machine",
-       "entries": 23,
-       "translated": 23,
-       "fuzzy": 0,
-       "hash": "1c54ddd89d742212"
-      },
-      "es": {
-       "state": "machine",
-       "entries": 23,
-       "translated": 23,
-       "fuzzy": 0,
-       "hash": "fe0176498e66755a"
-      },
-      "fr": {
-       "state": "machine",
-       "entries": 23,
-       "translated": 23,
-       "fuzzy": 0,
-       "hash": "61ae892e07c6aa2b"
-      },
-      "ru": {
-       "state": "machine",
-       "entries": 23,
-       "translated": 23,
-       "fuzzy": 0,
-       "hash": "10acaacfe613e8c3"
-      },
-      "zh": {
-       "state": "machine",
-       "entries": 23,
-       "translated": 23,
-       "fuzzy": 0,
-       "hash": "ff3abbacd094c740"
-      }
-     }
-    },
-    {
-     "catalogue": "concepts/content-types",
-     "sources": [
-      "docs/concepts/content-types.md"
-     ],
-     "cells": {
-      "ar": {
-       "state": "machine",
-       "entries": 18,
-       "translated": 18,
-       "fuzzy": 0,
-       "hash": "143ea71cd67df5b4"
-      },
-      "es": {
-       "state": "machine",
-       "entries": 18,
-       "translated": 18,
-       "fuzzy": 0,
-       "hash": "d37b53f35c77f213"
-      },
-      "fr": {
-       "state": "machine",
-       "entries": 18,
-       "translated": 18,
-       "fuzzy": 0,
-       "hash": "7c4bee2c135ae544"
-      },
-      "ru": {
-       "state": "machine",
-       "entries": 18,
-       "translated": 18,
-       "fuzzy": 0,
-       "hash": "72d53f83ec25da5a"
-      },
-      "zh": {
-       "state": "machine",
-       "entries": 18,
-       "translated": 18,
-       "fuzzy": 0,
-       "hash": "65083021da70d5b1"
-      }
-     }
-    },
-    {
-     "catalogue": "concepts/skills",
-     "sources": [
-      "docs/concepts/skills.md"
-     ],
-     "cells": {
-      "ar": {
-       "state": "machine",
-       "entries": 83,
-       "translated": 83,
-       "fuzzy": 0,
-       "hash": "479e0bdf7824694d"
-      },
-      "es": {
-       "state": "machine",
-       "entries": 83,
-       "translated": 83,
-       "fuzzy": 0,
-       "hash": "8aaeea57cc31c64e"
-      },
-      "fr": {
-       "state": "machine",
-       "entries": 83,
-       "translated": 83,
-       "fuzzy": 0,
-       "hash": "10894d9c11a8a626"
-      },
-      "ru": {
-       "state": "machine",
-       "entries": 83,
-       "translated": 83,
-       "fuzzy": 0,
-       "hash": "30382e81a9d9c827"
-      },
-      "zh": {
-       "state": "machine",
-       "entries": 83,
-       "translated": 83,
-       "fuzzy": 0,
-       "hash": "76a9ecea849c491a"
-      }
-     }
-    },
-    {
      "catalogue": "glossary",
      "sources": [],
      "cells": {
       "ar": {
-       "state": "machine",
-       "entries": 8,
-       "translated": 4,
-       "fuzzy": 0,
-       "hash": "c260e195e1c8e8eb"
-      },
-      "es": {
-       "state": "machine",
-       "entries": 8,
-       "translated": 4,
-       "fuzzy": 0,
-       "hash": "9349cedc0a8c7e6c"
-      },
-      "fr": {
-       "state": "machine",
-       "entries": 8,
-       "translated": 4,
-       "fuzzy": 0,
-       "hash": "4265f8a1a041c83c"
-      },
-      "ru": {
-       "state": "machine",
-       "entries": 8,
-       "translated": 4,
-       "fuzzy": 0,
-       "hash": "dc72fae9f203b820"
-      },
-      "zh": {
-       "state": "machine",
-       "entries": 8,
-       "translated": 4,
-       "fuzzy": 0,
-       "hash": "f86e61bbccca23f1"
-      }
-     }
-    },
-    {
-     "catalogue": "glossary/bootstrap--terms",
-     "sources": [
-      "bootstrap/schemas/graph.schema.json"
-     ],
-     "cells": {
-      "ar": {
-       "state": "machine",
-       "entries": 44,
-       "translated": 44,
-       "fuzzy": 0,
-       "hash": "617c1706c4800c9b"
-      },
-      "es": {
-       "state": "machine",
-       "entries": 44,
-       "translated": 44,
-       "fuzzy": 0,
-       "hash": "e82d7543de6c4187"
-      },
-      "fr": {
-       "state": "machine",
-       "entries": 44,
-       "translated": 44,
-       "fuzzy": 0,
-       "hash": "e633c5806db4f84f"
-      },
-      "ru": {
-       "state": "machine",
-       "entries": 44,
-       "translated": 44,
-       "fuzzy": 0,
-       "hash": "0e77c8e7a227993a"
-      },
-      "zh": {
-       "state": "machine",
-       "entries": 44,
-       "translated": 44,
-       "fuzzy": 0,
-       "hash": "426c7160d550230c"
-      }
-     }
-    },
-    {
-     "catalogue": "glossary/cat-harness--platform",
-     "sources": [
-      "folio-assistant-core/glossary/cat-harness.glossary.json"
-     ],
-     "cells": {
-      "ar": {
-       "state": "machine",
-       "entries": 12,
-       "translated": 12,
-       "fuzzy": 0,
-       "hash": "3ba4bd747f0c0487"
-      },
-      "es": {
-       "state": "machine",
-       "entries": 12,
-       "translated": 12,
-       "fuzzy": 0,
-       "hash": "9236dcf3de8f2ad2"
-      },
-      "fr": {
-       "state": "machine",
-       "entries": 12,
-       "translated": 12,
-       "fuzzy": 0,
-       "hash": "a080f24546f40a71"
-      },
-      "ru": {
-       "state": "machine",
-       "entries": 12,
-       "translated": 12,
-       "fuzzy": 0,
-       "hash": "6d24c5e65728ce01"
-      },
-      "zh": {
-       "state": "machine",
-       "entries": 12,
-       "translated": 12,
-       "fuzzy": 0,
-       "hash": "0f1ec6472ed983fc"
-      }
-     }
-    },
-    {
-     "catalogue": "guides/agent-onboarding",
-     "sources": [
-      "agent-onboarding.md"
-     ],
-     "cells": {
-      "ar": {
-       "state": "machine",
-       "entries": 40,
-       "translated": 40,
-       "fuzzy": 0,
-       "hash": "6f2a02b7915bcc62"
-      },
-      "es": {
-       "state": "machine",
-       "entries": 41,
-       "translated": 41,
-       "fuzzy": 0,
-       "hash": "030937fe718c8f0d"
-      },
-      "fr": {
-       "state": "machine",
-       "entries": 72,
-       "translated": 72,
-       "fuzzy": 0,
-       "hash": "3b54167c7bf5ee08",
-       "generatedBy": "agent"
-      },
-      "ru": {
-       "state": "machine",
-       "entries": 40,
-       "translated": 40,
-       "fuzzy": 0,
-       "hash": "8de67e6f8034d198"
-      },
-      "zh": {
-       "state": "machine",
-       "entries": 41,
-       "translated": 41,
-       "fuzzy": 0,
-       "hash": "36fbe6a483077d36"
-      }
-     }
-    },
-    {
-     "catalogue": "guides/beans-and-todos",
-     "sources": [
-      "docs/guides/beans-and-todos.md"
-     ],
-     "cells": {
-      "ar": {
-       "state": "machine",
-       "entries": 35,
-       "translated": 35,
-       "fuzzy": 0,
-       "hash": "48dba557ccdcc485"
-      },
-      "es": {
-       "state": "machine",
-       "entries": 35,
-       "translated": 35,
-       "fuzzy": 0,
-       "hash": "614dd4ad8276d917"
-      },
-      "fr": {
-       "state": "machine",
-       "entries": 35,
-       "translated": 35,
-       "fuzzy": 0,
-       "hash": "9dc13289bd6e697e"
-      },
-      "ru": {
-       "state": "machine",
-       "entries": 35,
-       "translated": 35,
-       "fuzzy": 0,
-       "hash": "11877a53c45cb2c0"
-      },
-      "zh": {
-       "state": "machine",
-       "entries": 35,
-       "translated": 35,
-       "fuzzy": 0,
-       "hash": "9d5283d3e71372e6"
-      }
-     }
-    },
-    {
-     "catalogue": "index",
-     "sources": [
-      "docs/index.md"
-     ],
-     "cells": {
-      "ar": {
-       "state": "machine",
-       "entries": 37,
-       "translated": 37,
-       "fuzzy": 0,
-       "hash": "3ffef16e37c980ee"
-      },
-      "es": {
-       "state": "machine",
-       "entries": 45,
-       "translated": 45,
-       "fuzzy": 0,
-       "hash": "6fb0f05ad2c5d2f9"
-      },
-      "fr": {
-       "state": "machine",
-       "entries": 37,
-       "translated": 37,
-       "fuzzy": 0,
-       "hash": "d2e71a458018791c",
-       "generatedBy": "agent"
-      },
-      "ru": {
-       "state": "machine",
-       "entries": 37,
-       "translated": 37,
-       "fuzzy": 0,
-       "hash": "4ef1f839c4b46063"
-      },
-      "zh": {
-       "state": "machine",
-       "entries": 37,
-       "translated": 37,
-       "fuzzy": 0,
-       "hash": "ff949bbdfdea399d"
-      }
-     }
-    },
-    {
-     "catalogue": "kg-viewer",
-     "sources": [
-      "scripts/kg-viewer-strings.ts"
-     ],
-     "cells": {
-      "ar": {
-       "state": "empty",
-       "entries": 45,
-       "translated": 0,
-       "fuzzy": 0,
-       "hash": "80b45eda738e5785",
-       "generatedBy": "folio-assistant translate-kg-viewer"
-      },
-      "es": {
-       "state": "empty",
-       "entries": 45,
-       "translated": 0,
-       "fuzzy": 0,
-       "hash": "efab62279b4bf806",
-       "generatedBy": "folio-assistant translate-kg-viewer"
-      },
-      "fr": {
-       "state": "empty",
-       "entries": 45,
-       "translated": 0,
-       "fuzzy": 0,
-       "hash": "1f12e9efba399b26",
-       "generatedBy": "folio-assistant translate-kg-viewer"
-      },
-      "ru": {
-       "state": "empty",
-       "entries": 45,
-       "translated": 0,
-       "fuzzy": 0,
-       "hash": "d9ca56d0b6c29f60",
-       "generatedBy": "folio-assistant translate-kg-viewer"
-      },
-      "zh": {
-       "state": "empty",
-       "entries": 45,
-       "translated": 0,
-       "fuzzy": 0,
-       "hash": "5fe781f307253cc2",
-       "generatedBy": "folio-assistant translate-kg-viewer"
-      }
-     }
-    },
-    {
-     "catalogue": "process/crdm-methodology",
-     "sources": [
-      "content/docs/process-crdm-methodology/overview.md"
-     ],
-     "cells": {
-      "ar": {
        "state": "none",
        "entries": 0,
        "translated": 0,
        "fuzzy": 0
       },
       "es": {
+       "state": "machine",
+       "entries": 20,
+       "translated": 16,
+       "fuzzy": 0,
+       "hash": "4f15ee7bce7c5aaa"
+      },
+      "fr": {
        "state": "none",
        "entries": 0,
        "translated": 0,
        "fuzzy": 0
+      },
+      "ru": {
+       "state": "none",
+       "entries": 0,
+       "translated": 0,
+       "fuzzy": 0
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 31,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "9a525085b57e6994"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/glossary.json"
+    },
+    {
+     "catalogue": "journey-cards",
+     "sources": [
+      "input/scripts/journey-cards.ts",
+      "user-scenarios/p0-keys-and-codes-shared.json",
+      "user-scenarios/p1-health-check-and-consent.json",
+      "user-scenarios/p2-summary-signed.json",
+      "user-scenarios/p3-taken-ill-in-mina.json",
+      "user-scenarios/p4-scanned-and-checked.json",
+      "user-scenarios/p5-record-read-and-treated.json",
+      "user-scenarios/p6-break-the-glass.json",
+      "user-scenarios/p7-back-home.json",
+      "workshops/pilgrim-policy-questions.workshop.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 38,
+       "translated": 38,
+       "fuzzy": 0,
+       "hash": "b4986182839484a4"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 38,
+       "translated": 38,
+       "fuzzy": 0,
+       "hash": "02f89346336b8ac0"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 38,
+       "translated": 38,
+       "fuzzy": 0,
+       "hash": "8a19576c809b7141"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 38,
+       "translated": 38,
+       "fuzzy": 0,
+       "hash": "ddfa9df57d665658"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 38,
+       "translated": 38,
+       "fuzzy": 0,
+       "hash": "1f40b88b551bfcd9"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/journey-cards.json"
+    },
+    {
+     "catalogue": "navbar",
+     "sources": [
+      "IG",
+      "build",
+      "cat-harness-tools/scripts/lib/navbar-strings.ts",
+      "sushi-config.yaml"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 41,
+       "translated": 41,
+       "fuzzy": 0,
+       "hash": "52a04c4f31fc8a15"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 41,
+       "translated": 41,
+       "fuzzy": 0,
+       "hash": "b70515dc0d4d6dfe"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 41,
+       "translated": 41,
+       "fuzzy": 0,
+       "hash": "e6b948edb9853771"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 41,
+       "translated": 41,
+       "fuzzy": 0,
+       "hash": "02b24b4172c5b928"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 41,
+       "translated": 41,
+       "fuzzy": 0,
+       "hash": "15d58d1ee8c42340"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/navbar.json"
+    },
+    {
+     "catalogue": "pagecontent/actor-counselor",
+     "sources": [
+      "input/pagecontent/actor-counselor.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "de44cda85d85c89a",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "c461323f909d84af",
+       "generatedBy": "agent"
       },
       "fr": {
        "state": "machine",
        "entries": 1,
        "translated": 1,
        "fuzzy": 0,
-       "hash": "bfedcdac3d496f14"
+       "hash": "7b22a5aa8d49ab1a",
+       "generatedBy": "agent"
       },
       "ru": {
-       "state": "none",
-       "entries": 0,
-       "translated": 0,
-       "fuzzy": 0
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "bb62b963c12968ca",
+       "generatedBy": "agent"
       },
       "zh": {
-       "state": "none",
-       "entries": 0,
-       "translated": 0,
-       "fuzzy": 0
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "8aa856845ae0bdfd",
+       "generatedBy": "agent"
       }
-     }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/actor-counselor.json"
     },
     {
-     "catalogue": "start/accessibility",
+     "catalogue": "pagecontent/actor-hcemr",
      "sources": [
-      "docs/start/accessibility.md"
+      "input/pagecontent/actor-hcemr.md"
      ],
      "cells": {
       "ar": {
        "state": "machine",
-       "entries": 98,
-       "translated": 98,
+       "entries": 1,
+       "translated": 1,
        "fuzzy": 0,
-       "hash": "78aa17e649a44d88"
+       "hash": "618bf9432805bc27",
+       "generatedBy": "agent"
       },
       "es": {
        "state": "machine",
-       "entries": 98,
-       "translated": 98,
+       "entries": 1,
+       "translated": 1,
        "fuzzy": 0,
-       "hash": "b7cc4b823fc9d1ba"
+       "hash": "666e998c01b7d6c3",
+       "generatedBy": "agent"
       },
       "fr": {
        "state": "machine",
-       "entries": 98,
-       "translated": 98,
+       "entries": 1,
+       "translated": 1,
        "fuzzy": 0,
-       "hash": "b9bad2d7571da24f"
+       "hash": "de006afa16cf1788",
+       "generatedBy": "agent"
       },
       "ru": {
        "state": "machine",
-       "entries": 98,
-       "translated": 98,
+       "entries": 1,
+       "translated": 1,
        "fuzzy": 0,
-       "hash": "86e84731a3090519"
+       "hash": "f3e28a02a955cbee",
+       "generatedBy": "agent"
       },
       "zh": {
        "state": "machine",
-       "entries": 98,
-       "translated": 98,
+       "entries": 1,
+       "translated": 1,
        "fuzzy": 0,
-       "hash": "ad16a56b3b001084"
+       "hash": "ff383b11a00fe9ed",
+       "generatedBy": "agent"
       }
-     }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/actor-hcemr.json"
     },
     {
-     "catalogue": "start/contributing",
+     "catalogue": "pagecontent/actor-ochie",
      "sources": [
-      "docs/start/contributing.md"
+      "input/pagecontent/actor-ochie.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "7052031efbbb7207",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "3ce32acfa0e1ec8c",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "5b2fd9caa26e2aba",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "58061b8ed87dfed3",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "563d9cc8ef7386bc",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/actor-ochie.json"
+    },
+    {
+     "catalogue": "pagecontent/actor-ochw",
+     "sources": [
+      "input/pagecontent/actor-ochw.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "f3702c44a8d1d5b8",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "39a605a956f78e85",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "c6a9c6bf1bb8352e",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "9db2aa216d1149c1",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "e600752df59265d2",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/actor-ochw.json"
+    },
+    {
+     "catalogue": "pagecontent/actor-pilgrim",
+     "sources": [
+      "input/pagecontent/actor-pilgrim.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "42063a6b277ee2c0",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "e3cc1e457d93efe2",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "1bf87e52b7fbaa9e",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "64f56d712051bc59",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "96ba0c33d2d196db",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/actor-pilgrim.json"
+    },
+    {
+     "catalogue": "pagecontent/adapting",
+     "sources": [
+      "input/pagecontent/adapting.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 7,
+       "translated": 7,
+       "fuzzy": 0,
+       "hash": "4596a6b9598bb8fd",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 7,
+       "translated": 7,
+       "fuzzy": 0,
+       "hash": "a99532483fdffe7d",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 7,
+       "translated": 7,
+       "fuzzy": 0,
+       "hash": "342a36689b0c27a3",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 7,
+       "translated": 7,
+       "fuzzy": 0,
+       "hash": "f858f3f68cb90044",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 7,
+       "translated": 7,
+       "fuzzy": 0,
+       "hash": "dec48b9286790796",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/adapting.json"
+    },
+    {
+     "catalogue": "pagecontent/business-processes",
+     "sources": [
+      "input/pagecontent/business-processes.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "b9f2f14a0f9bb73e",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "34f9c79330d22c98",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "5698f478e073770a",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "6eb47223de313396",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "f9fb06f596131767",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/business-processes.json"
+    },
+    {
+     "catalogue": "pagecontent/business-requirements",
+     "sources": [
+      "input/pagecontent/business-requirements.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "b2b993cd1dc2773b",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "a683f3d908122798",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "618e0db2f804da54",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "fb3464c09a1ff94c",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "4c537f13d46e26c0",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/business-requirements.json"
+    },
+    {
+     "catalogue": "pagecontent/changes",
+     "sources": [
+      "input/pagecontent/changes.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "8c5e4a3f4fe1ec2b",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "5a75f82fac782a7e",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "05589d194c912063",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "f49543990cbf9f94",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "c300a635bd6fb84b",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/changes.json"
+    },
+    {
+     "catalogue": "pagecontent/codings",
+     "sources": [
+      "input/pagecontent/codings.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "5c6aeb7dce271d89",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "de27274e2c0ef86f",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "79759678bdfe6905",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "882fd9908fcd715e",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "c8c8f4ce958f24e8",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/codings.json"
+    },
+    {
+     "catalogue": "pagecontent/concepts",
+     "sources": [
+      "input/pagecontent/concepts.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 28,
+       "translated": 28,
+       "fuzzy": 0,
+       "hash": "b9d67b633f7381c3",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 28,
+       "translated": 28,
+       "fuzzy": 0,
+       "hash": "6035983938b31586",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 28,
+       "translated": 28,
+       "fuzzy": 0,
+       "hash": "119e7df83325be67",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 28,
+       "translated": 28,
+       "fuzzy": 0,
+       "hash": "ab21687ffaf6b02a",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 28,
+       "translated": 28,
+       "fuzzy": 0,
+       "hash": "1d9f7154242b8b9b",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/concepts.json"
+    },
+    {
+     "catalogue": "pagecontent/data-models-and-exchange",
+     "sources": [
+      "input/pagecontent/data-models-and-exchange.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "dc378a21b97a2f9a",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "55d20eeea592efa2",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "4e6227c1c1194cfd",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "525ee1e47abb5411",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "3a4ac3b2330c14ac",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/data-models-and-exchange.json"
+    },
+    {
+     "catalogue": "pagecontent/decision-logic",
+     "sources": [
+      "input/pagecontent/decision-logic.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "4b3f1c4c1fb594ce",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "84c68ea73fe5237e",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "0a7e6b0fe8db4924",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "b6f70f06b5c685df",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "1a8d00612c591869",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/decision-logic.json"
+    },
+    {
+     "catalogue": "pagecontent/dependencies",
+     "sources": [
+      "input/pagecontent/dependencies.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 11,
+       "translated": 11,
+       "fuzzy": 0,
+       "hash": "701614c73ae4e488",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 11,
+       "translated": 11,
+       "fuzzy": 0,
+       "hash": "306ca9208ed58789",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 11,
+       "translated": 11,
+       "fuzzy": 0,
+       "hash": "943284c2697494bd",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 11,
+       "translated": 11,
+       "fuzzy": 0,
+       "hash": "7ed4805bcf852109",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 11,
+       "translated": 11,
+       "fuzzy": 0,
+       "hash": "16b9d41c37e8c4aa",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/dependencies.json"
+    },
+    {
+     "catalogue": "pagecontent/dictionary",
+     "sources": [
+      "input/pagecontent/dictionary.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 2,
+       "translated": 2,
+       "fuzzy": 0,
+       "hash": "2d274ebd02886681",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 2,
+       "translated": 2,
+       "fuzzy": 0,
+       "hash": "d4b0fe06dbf8ee6d",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 2,
+       "translated": 2,
+       "fuzzy": 0,
+       "hash": "35e901322705175d",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 2,
+       "translated": 2,
+       "fuzzy": 0,
+       "hash": "d655157d86ad358a",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 2,
+       "translated": 2,
+       "fuzzy": 0,
+       "hash": "b826091ff1fe5a71",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/dictionary.json"
+    },
+    {
+     "catalogue": "pagecontent/downloads",
+     "sources": [
+      "input/pagecontent/downloads.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 11,
+       "translated": 11,
+       "fuzzy": 0,
+       "hash": "ad2de4ee14a0dca0",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 11,
+       "translated": 11,
+       "fuzzy": 0,
+       "hash": "e81b4d19c5b55bbf",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 11,
+       "translated": 11,
+       "fuzzy": 0,
+       "hash": "5c791d56278d69ef",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 11,
+       "translated": 11,
+       "fuzzy": 0,
+       "hash": "f728b6aa5995b49d",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 11,
+       "translated": 11,
+       "fuzzy": 0,
+       "hash": "57b072b152b88d52",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/downloads.json"
+    },
+    {
+     "catalogue": "pagecontent/functional-requirements",
+     "sources": [
+      "input/pagecontent/functional-requirements.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "5123837c547d1176",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "e13f692af42ccdbb",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "445938de20e79243",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "4bdf4dc1d4f2cece",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "70fdfa2c34f4b9fa",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/functional-requirements.json"
+    },
+    {
+     "catalogue": "pagecontent/index",
+     "sources": [
+      "input/pagecontent/index.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 61,
+       "translated": 61,
+       "fuzzy": 0,
+       "hash": "bce6a5244fa19bb0",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 61,
+       "translated": 61,
+       "fuzzy": 0,
+       "hash": "d4fbe98c457c2e83",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 61,
+       "translated": 61,
+       "fuzzy": 0,
+       "hash": "4c7d4067bf4eaccc",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 61,
+       "translated": 61,
+       "fuzzy": 0,
+       "hash": "1da24d4a6ad47bb6",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 61,
+       "translated": 61,
+       "fuzzy": 0,
+       "hash": "afad7357aaf972f8",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/index.json"
+    },
+    {
+     "catalogue": "pagecontent/indicators",
+     "sources": [
+      "input/pagecontent/indicators.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "959276c83d11f765",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "a6bf9cb2ee7bfcea",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "96218bc2f6c2319a",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "8b2d93d6e4adfd2e",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "c2563c8983303e0d",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/indicators.json"
+    },
+    {
+     "catalogue": "pagecontent/indicators-measures",
+     "sources": [
+      "input/pagecontent/indicators-measures.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "272de2926628788f",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "385868d7f48f8347",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "54a65d437cb3a50b",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "ab6197d0f9088cbb",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "bc3b02c3fb1f9077",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/indicators-measures.json"
+    },
+    {
+     "catalogue": "pagecontent/license",
+     "sources": [
+      "input/pagecontent/license.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 18,
+       "translated": 18,
+       "fuzzy": 0,
+       "hash": "d931aeafa7fdd40e",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 18,
+       "translated": 18,
+       "fuzzy": 0,
+       "hash": "601258262abd79d0",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 18,
+       "translated": 18,
+       "fuzzy": 0,
+       "hash": "e8cda6482cb66f32",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 18,
+       "translated": 18,
+       "fuzzy": 0,
+       "hash": "8c8f50f3ebcf1043",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 18,
+       "translated": 18,
+       "fuzzy": 0,
+       "hash": "d5fd34b347e26805",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/license.json"
+    },
+    {
+     "catalogue": "pagecontent/maps",
+     "sources": [
+      "input/pagecontent/maps.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "91fbf0094081d062",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "976d1c01365689be",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "b3e0b116e84a6e30",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "335c282062cfb68a",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "e4be63644453f223",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/maps.json"
+    },
+    {
+     "catalogue": "pagecontent/non-functional-requirements",
+     "sources": [
+      "input/pagecontent/non-functional-requirements.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "5ed5a59f791a98c8",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "a34ab265e18f9f5f",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "94168b61b8cff653",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "97b1a687c961f37a",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "936ae1aa0ec518ed",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/non-functional-requirements.json"
+    },
+    {
+     "catalogue": "pagecontent/personas",
+     "sources": [
+      "input/pagecontent/personas.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "a710b746576d46dd",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "57a73dafecab5be0",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "b555d4542a0fa28f",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "a272263a5860f3b7",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "fc66539d1f7520d5",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/personas.json"
+    },
+    {
+     "catalogue": "pagecontent/reference-implementations",
+     "sources": [
+      "input/pagecontent/reference-implementations.md"
      ],
      "cells": {
       "ar": {
@@ -594,85 +1373,2086 @@
        "entries": 6,
        "translated": 6,
        "fuzzy": 0,
-       "hash": "ef94aaed6d76573c"
+       "hash": "36a8e9e65251b8ed",
+       "generatedBy": "agent"
       },
       "es": {
        "state": "machine",
        "entries": 6,
        "translated": 6,
        "fuzzy": 0,
-       "hash": "ec0559b531bcba0f"
+       "hash": "a2fe2a816007e1c0",
+       "generatedBy": "agent"
       },
       "fr": {
        "state": "machine",
        "entries": 6,
        "translated": 6,
        "fuzzy": 0,
-       "hash": "2be557fde9d636a3"
+       "hash": "c0181caab742100d",
+       "generatedBy": "agent"
       },
       "ru": {
        "state": "machine",
        "entries": 6,
        "translated": 6,
        "fuzzy": 0,
-       "hash": "2b5e2e28ab9d9f1f"
+       "hash": "97bf71b0783807ee",
+       "generatedBy": "agent"
       },
       "zh": {
        "state": "machine",
        "entries": 6,
        "translated": 6,
        "fuzzy": 0,
-       "hash": "cbdaee7278339950"
+       "hash": "3807166f000d18a9",
+       "generatedBy": "agent"
       }
-     }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/reference-implementations.json"
     },
     {
-     "catalogue": "start/getting-started",
+     "catalogue": "pagecontent/reference-implementations-malaysia",
      "sources": [
-      "docs/start/getting-started.md"
+      "input/pagecontent/reference-implementations-malaysia.md"
      ],
      "cells": {
       "ar": {
        "state": "machine",
-       "entries": 91,
-       "translated": 91,
+       "entries": 59,
+       "translated": 59,
        "fuzzy": 0,
-       "hash": "89782849a4a2fcc8"
+       "hash": "a7bcda43dd3b4d59",
+       "generatedBy": "agent"
       },
       "es": {
        "state": "machine",
-       "entries": 91,
-       "translated": 91,
+       "entries": 59,
+       "translated": 59,
        "fuzzy": 0,
-       "hash": "151640e6ac289781"
+       "hash": "578883d9f51c9530",
+       "generatedBy": "agent"
       },
       "fr": {
        "state": "machine",
-       "entries": 91,
-       "translated": 91,
+       "entries": 59,
+       "translated": 59,
        "fuzzy": 0,
-       "hash": "6ea92a5740b178b5"
+       "hash": "ef620f271e5626c9",
+       "generatedBy": "agent"
       },
       "ru": {
        "state": "machine",
-       "entries": 91,
-       "translated": 91,
+       "entries": 59,
+       "translated": 59,
        "fuzzy": 0,
-       "hash": "b75e20fdb022dab6"
+       "hash": "bcbd13d920ad1819",
+       "generatedBy": "agent"
       },
       "zh": {
        "state": "machine",
-       "entries": 92,
-       "translated": 92,
+       "entries": 59,
+       "translated": 59,
        "fuzzy": 0,
-       "hash": "eec6ed915f1848bc"
+       "hash": "8715d37efb6c6ac7",
+       "generatedBy": "agent"
       }
-     }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/reference-implementations-malaysia.json"
     },
     {
-     "catalogue": "start/installation",
+     "catalogue": "pagecontent/scenarios",
      "sources": [
-      "docs/start/installation.md"
+      "input/pagecontent/scenarios.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 24,
+       "translated": 24,
+       "fuzzy": 0,
+       "hash": "2511d765f3b1a2c8",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 24,
+       "translated": 24,
+       "fuzzy": 0,
+       "hash": "37f698c11bef2b7a",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 24,
+       "translated": 24,
+       "fuzzy": 0,
+       "hash": "fd3b1e1f8eec9d2b",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 24,
+       "translated": 24,
+       "fuzzy": 0,
+       "hash": "3fc35fdaf2197bea",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 24,
+       "translated": 24,
+       "fuzzy": 0,
+       "hash": "34c2102b15f077c9",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/scenarios.json"
+    },
+    {
+     "catalogue": "pagecontent/security-privacy",
+     "sources": [
+      "input/pagecontent/security-privacy.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "d1c8f334291a68b7",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "34934be5829f7af1",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "54f236b0005c0fb9",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "2be12d4037c51030",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "97c653560a33ddd4",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/security-privacy.json"
+    },
+    {
+     "catalogue": "pagecontent/sequence-diagrams",
+     "sources": [
+      "input/pagecontent/sequence-diagrams.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "fa447feedd4df387",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "527b69786fcf4b07",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "182dee39186ee53d",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "9aaa1ded9e14f71a",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "f5adb4a0f46d5e86",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/sequence-diagrams.json"
+    },
+    {
+     "catalogue": "pagecontent/system-actors",
+     "sources": [
+      "input/pagecontent/system-actors.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "1c1d6c54e1a705bc",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "8bc29fc7c90520d7",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "8e46da676053ae96",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "a9b1b2cbd2faa5c7",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "cfb8a8658ee9a305",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/system-actors.json"
+    },
+    {
+     "catalogue": "pagecontent/test-cases",
+     "sources": [
+      "input/pagecontent/test-cases.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 12,
+       "fuzzy": 0,
+       "hash": "8a552d6b28fc2fa0",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 12,
+       "fuzzy": 0,
+       "hash": "98f4a2f9485481a3",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 12,
+       "fuzzy": 0,
+       "hash": "103fde7661b4c49e",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 12,
+       "fuzzy": 0,
+       "hash": "27e2ad5628414e0b",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 12,
+       "fuzzy": 0,
+       "hash": "cab8ae1cd041e248",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/test-cases.json"
+    },
+    {
+     "catalogue": "pagecontent/test-data",
+     "sources": [
+      "input/pagecontent/test-data.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 2,
+       "translated": 2,
+       "fuzzy": 0,
+       "hash": "ccbdc57761cc886b",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 2,
+       "translated": 2,
+       "fuzzy": 0,
+       "hash": "597fba15a1049b1c",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 2,
+       "translated": 2,
+       "fuzzy": 0,
+       "hash": "ced09ee294a7add0",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 2,
+       "translated": 2,
+       "fuzzy": 0,
+       "hash": "2a8cc71f9b0c9a80",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 2,
+       "translated": 2,
+       "fuzzy": 0,
+       "hash": "e70d05622117149c",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/test-data.json"
+    },
+    {
+     "catalogue": "pagecontent/testing",
+     "sources": [
+      "input/pagecontent/testing.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "3049f27652c87a70",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "a284d6a086670ff5",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "8740f86d1f47653a",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "756819fc0515d6f5",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 17,
+       "translated": 17,
+       "fuzzy": 0,
+       "hash": "dca14a0c18b9b5a8",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/testing.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-generate-hcert-message-semantics",
+     "sources": [
+      "input/pagecontent/transaction-generate-hcert-message-semantics.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 10,
+       "translated": 10,
+       "fuzzy": 0,
+       "hash": "d9c611a4f5c9c5e3",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 10,
+       "translated": 10,
+       "fuzzy": 0,
+       "hash": "dd8700e6d583bc1c",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 10,
+       "translated": 10,
+       "fuzzy": 0,
+       "hash": "c9a70eb632988cbd",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 10,
+       "translated": 10,
+       "fuzzy": 0,
+       "hash": "cc48e9ee678e9426",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 10,
+       "translated": 10,
+       "fuzzy": 0,
+       "hash": "e536e2bdc8d4a334",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-generate-hcert-message-semantics.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-generate-hcert-preamble",
+     "sources": [
+      "input/pagecontent/transaction-generate-hcert-preamble.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "6ffbabfe784fe346",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "2272193303bc5de0",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "0f40bd8f314c1840",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "a3476c155458b8d8",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "c5752f2ec6ecdb36",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-generate-hcert-preamble.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-generate-hcert-trigger-events",
+     "sources": [
+      "input/pagecontent/transaction-generate-hcert-trigger-events.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "18beec2945c9a2d7",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "67cb72446750377a",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "7e7d516661231d18",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "ec1c17b1a173f9bf",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "b1e703b77465bf60",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-generate-hcert-trigger-events.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics",
+     "sources": [
+      "input/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 15,
+       "translated": 15,
+       "fuzzy": 0,
+       "hash": "32013f12e5f216ce",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 15,
+       "translated": 15,
+       "fuzzy": 0,
+       "hash": "2fe5b15c3057df55",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 15,
+       "translated": 15,
+       "fuzzy": 0,
+       "hash": "b8fee050c55b3a4b",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 15,
+       "translated": 15,
+       "fuzzy": 0,
+       "hash": "691a5380ec3f7444",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 15,
+       "translated": 15,
+       "fuzzy": 0,
+       "hash": "732611343f4ff691",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-issue-verifiable-shl-request-expected-actions-semantics.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-issue-verifiable-shl-request-message-semantics",
+     "sources": [
+      "input/pagecontent/transaction-issue-verifiable-shl-request-message-semantics.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "73dd932ec525b96a",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "6458801502290cf0",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "2558a1a154695e1a",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "0b39d50ee941b423",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "322df9659a0aa9b1",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-issue-verifiable-shl-request-message-semantics.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-issue-verifiable-shl-request-preamble",
+     "sources": [
+      "input/pagecontent/transaction-issue-verifiable-shl-request-preamble.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "0233415383897d23",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "939334dd2ab33fc8",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "09532cd8bbfba4ab",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "5fc51bfacdbb5372",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "366feb8a7ef5ab52",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-issue-verifiable-shl-request-preamble.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-issue-verifiable-shl-request-trigger-events",
+     "sources": [
+      "input/pagecontent/transaction-issue-verifiable-shl-request-trigger-events.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "bd7e4c336a567a3a",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "12b07b61ed63f706",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "3ad444f6555d1c51",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "b7e563917844872d",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "0c606a9a29a18239",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-issue-verifiable-shl-request-trigger-events.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-record-consent-request-expected-actions-semantics",
+     "sources": [
+      "input/pagecontent/transaction-record-consent-request-expected-actions-semantics.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "ed2100fd13729fc7",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "b8e6d1ff5959eafa",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "451c54e599a9c3a7",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "d1a607953c82e15b",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "0b085243067a401d",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-record-consent-request-expected-actions-semantics.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-record-consent-request-message-semantics",
+     "sources": [
+      "input/pagecontent/transaction-record-consent-request-message-semantics.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 8,
+       "fuzzy": 0,
+       "hash": "4b7ab675fc2f9ceb",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 8,
+       "fuzzy": 0,
+       "hash": "dd7cf44d5abd70fe",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 8,
+       "fuzzy": 0,
+       "hash": "eab71b47d5deceb3",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 8,
+       "fuzzy": 0,
+       "hash": "1cf92ee17b74c820",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 8,
+       "fuzzy": 0,
+       "hash": "6d2830a22c01e462",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-record-consent-request-message-semantics.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-record-consent-request-preamble",
+     "sources": [
+      "input/pagecontent/transaction-record-consent-request-preamble.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "3825020ec01d6f0a",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "260bd589d9b79cd8",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "2e6781f98e0bd70d",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "7f0ec9044d047db2",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "6bd60535074303c2",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-record-consent-request-preamble.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-record-consent-request-trigger-events",
+     "sources": [
+      "input/pagecontent/transaction-record-consent-request-trigger-events.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "1422bea1a3f9f499",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "4d05b06bda8af20c",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "0ed7fc0827d20502",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "44bbcc88c7d335de",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "72f9e5f405d90c66",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-record-consent-request-trigger-events.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-retrieve-IPS-request-expected-actions-semantics",
+     "sources": [
+      "input/pagecontent/transaction-retrieve-IPS-request-expected-actions-semantics.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "3caf3a856e718125",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "0b45f93dc74ca3f2",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "f2c6de86b1793a0e",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "dfa2f369df40bb53",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "ee34deee2d3e1597",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-retrieve-IPS-request-expected-actions-semantics.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-retrieve-IPS-request-message-semantics",
+     "sources": [
+      "input/pagecontent/transaction-retrieve-IPS-request-message-semantics.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 5,
+       "translated": 5,
+       "fuzzy": 0,
+       "hash": "4b6d037bd6da4f95",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 5,
+       "translated": 5,
+       "fuzzy": 0,
+       "hash": "bca9db16006ff4ef",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 5,
+       "translated": 5,
+       "fuzzy": 0,
+       "hash": "f37e72637c9b323e",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 5,
+       "translated": 5,
+       "fuzzy": 0,
+       "hash": "5498d66515105033",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 5,
+       "translated": 5,
+       "fuzzy": 0,
+       "hash": "aff598bcc0770b22",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-retrieve-IPS-request-message-semantics.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-retrieve-IPS-request-preamble",
+     "sources": [
+      "input/pagecontent/transaction-retrieve-IPS-request-preamble.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "55f866115c01bc19",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "f0abc71f5a72f37f",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "2de449fc4dc229f5",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "db0b472bc7dbc857",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "4620cdcb59efd1a9",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-retrieve-IPS-request-preamble.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-retrieve-IPS-request-trigger-events",
+     "sources": [
+      "input/pagecontent/transaction-retrieve-IPS-request-trigger-events.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "2b6fd32908d68f3f",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "fd6898fe09488eed",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "ab4cada585695b29",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "5c75662a1d6ef524",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "9b6e15b7f3d9c75c",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-retrieve-IPS-request-trigger-events.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics",
+     "sources": [
+      "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 16,
+       "translated": 16,
+       "fuzzy": 0,
+       "hash": "d14812ce292fc813",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 16,
+       "translated": 16,
+       "fuzzy": 0,
+       "hash": "ada444f545d3414b",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 16,
+       "translated": 16,
+       "fuzzy": 0,
+       "hash": "29e4ec551531bc6c",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 16,
+       "translated": 16,
+       "fuzzy": 0,
+       "hash": "c6be3dc7a3880eca",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 16,
+       "translated": 16,
+       "fuzzy": 0,
+       "hash": "1443175484609c0e",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-retrieve-MHD-folder-request-message-semantics",
+     "sources": [
+      "input/pagecontent/transaction-retrieve-MHD-folder-request-message-semantics.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 13,
+       "translated": 13,
+       "fuzzy": 0,
+       "hash": "f06f8c6db52aaaec",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 13,
+       "translated": 13,
+       "fuzzy": 0,
+       "hash": "5fe34e3776ec7993",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 13,
+       "translated": 13,
+       "fuzzy": 0,
+       "hash": "82738b169e5d2f34",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 13,
+       "translated": 13,
+       "fuzzy": 0,
+       "hash": "ed60d9fa88345eac",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 13,
+       "translated": 13,
+       "fuzzy": 0,
+       "hash": "5a464e4e371a04c5",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-retrieve-MHD-folder-request-message-semantics.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-retrieve-MHD-folder-request-preamble",
+     "sources": [
+      "input/pagecontent/transaction-retrieve-MHD-folder-request-preamble.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "394ad5feb41f4b3f",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "22888fc28b5ba990",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "4b3b6cb1b80b486e",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "594c8e41ed1ec8f1",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "6ef5ecda9f8db55e",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-retrieve-MHD-folder-request-preamble.json"
+    },
+    {
+     "catalogue": "pagecontent/transaction-retrieve-MHD-folder-request-trigger-events",
+     "sources": [
+      "input/pagecontent/transaction-retrieve-MHD-folder-request-trigger-events.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "af63554cd52fa607",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "bedf2c528783481b",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "9452d02c8f4cd074",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "14a6db5f9bb49bb6",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "5056ef0ac9d55b7c",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transaction-retrieve-MHD-folder-request-trigger-events.json"
+    },
+    {
+     "catalogue": "pagecontent/transactions",
+     "sources": [
+      "input/pagecontent/transactions.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 8,
+       "fuzzy": 0,
+       "hash": "a173a6fbd0d3e2fb",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 8,
+       "fuzzy": 0,
+       "hash": "5cf53e61f439765b",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 8,
+       "fuzzy": 0,
+       "hash": "76ccef8b42ba1e55",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 8,
+       "fuzzy": 0,
+       "hash": "bad665020f341ca0",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 8,
+       "fuzzy": 0,
+       "hash": "ecbf9ed342f8f01a",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/transactions.json"
+    },
+    {
+     "catalogue": "pagecontent/trust_domain",
+     "sources": [
+      "input/pagecontent/trust_domain.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "b2f86834f96b2e04",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "5838d512be379143",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "5d1d82fa2eb92165",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "82065532e99460e5",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 3,
+       "translated": 3,
+       "fuzzy": 0,
+       "hash": "0f259fe8939981b9",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/trust_domain.json"
+    },
+    {
+     "catalogue": "pagecontent/trust_domain_policy",
+     "sources": [
+      "input/pagecontent/trust_domain_policy.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 15,
+       "translated": 15,
+       "fuzzy": 0,
+       "hash": "3449774391d76d8b",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 15,
+       "translated": 15,
+       "fuzzy": 0,
+       "hash": "7bf18e4adabdfc65",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 15,
+       "translated": 15,
+       "fuzzy": 0,
+       "hash": "17b95f97f9d7b0a7",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 15,
+       "translated": 15,
+       "fuzzy": 0,
+       "hash": "eb79b424d44ef9b5",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 15,
+       "translated": 15,
+       "fuzzy": 0,
+       "hash": "7236d8a5f129a1e4",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/trust_domain_policy.json"
+    },
+    {
+     "catalogue": "pagecontent/trust_domain_specifications",
+     "sources": [
+      "input/pagecontent/trust_domain_specifications.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "b5b368c553b5ecc7",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "04202f78084ea118",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "5b2bde0b78a598c0",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "01a0ac4abc09177e",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "ce041018553510e9",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/trust_domain_specifications.json"
+    },
+    {
+     "catalogue": "pagecontent/trust_domain_use_cases",
+     "sources": [
+      "input/pagecontent/trust_domain_use_cases.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "9c7c2d660531b1ac",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "32e37a3c62cb0675",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "42d9a0578062426a",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "405f87dda3ce094e",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 4,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "43833e856a314dc9",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/pagecontent/trust_domain_use_cases.json"
+    },
+    {
+     "catalogue": "processes/Clinical Encounter for Unplanned Care",
+     "sources": [
+      "Care.bpmn",
+      "Encounter",
+      "Unplanned",
+      "for",
+      "input/business-processes/Clinical"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 36,
+       "fuzzy": 0,
+       "hash": "64f544ad90109a6b",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 36,
+       "fuzzy": 0,
+       "hash": "70edac515dc58e9f",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 36,
+       "fuzzy": 0,
+       "hash": "930c7b40e56b58cb",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 36,
+       "fuzzy": 0,
+       "hash": "683aefe7890f6ab8",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 36,
+       "fuzzy": 0,
+       "hash": "ca2ea6552c7bb61a",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/processes/Clinical Encounter for Unplanned Care.json"
+    },
+    {
+     "catalogue": "processes/Clinical Encounter for Unplanned Care (brief)",
+     "sources": [
+      "(brief).bpmn",
+      "Care",
+      "Encounter",
+      "Unplanned",
+      "for",
+      "input/business-processes/Clinical"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 29,
+       "translated": 29,
+       "fuzzy": 0,
+       "hash": "89db00846f7f3e2d",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 29,
+       "translated": 29,
+       "fuzzy": 0,
+       "hash": "7c46269c4087e3af",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 29,
+       "translated": 29,
+       "fuzzy": 0,
+       "hash": "ffe1e385584f4e67",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 29,
+       "translated": 29,
+       "fuzzy": 0,
+       "hash": "ba00728d56c3564b",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 29,
+       "translated": 29,
+       "fuzzy": 0,
+       "hash": "ed8f3a5e39e892eb",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/processes/Clinical Encounter for Unplanned Care (brief).json"
+    },
+    {
+     "catalogue": "processes/Health Check and Counseling, Explicit Consent (brief)",
+     "sources": [
+      "(brief).bpmn",
+      "Check",
+      "Consent",
+      "Counseling,",
+      "Explicit",
+      "and",
+      "input/business-processes/Health"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "8b29395cf1a9abc9",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "2728f2c7c8ef14e2",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "06f013518470d537",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "a3d6ef6e0a72d45d",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "a9aa7f9d70ef6f00",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/processes/Health Check and Counseling, Explicit Consent (brief).json"
+    },
+    {
+     "catalogue": "processes/Health Check and Counseling, Explicit Consent on Wallet",
+     "sources": [
+      "Check",
+      "Consent",
+      "Counseling,",
+      "Explicit",
+      "Wallet.bpmn",
+      "and",
+      "input/business-processes/Health",
+      "on"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 50,
+       "translated": 50,
+       "fuzzy": 0,
+       "hash": "3edb56d9125eb1b7",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 50,
+       "translated": 50,
+       "fuzzy": 0,
+       "hash": "b1462937cb9175e8",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 50,
+       "translated": 50,
+       "fuzzy": 0,
+       "hash": "a440e47318021f64",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 50,
+       "translated": 50,
+       "fuzzy": 0,
+       "hash": "c8fa3256ed774b5d",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 50,
+       "translated": 50,
+       "fuzzy": 0,
+       "hash": "2cc6705fa2954df7",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/processes/Health Check and Counseling, Explicit Consent on Wallet.json"
+    },
+    {
+     "catalogue": "processes/Health Check and Counseling, Verbal Consent",
+     "sources": [
+      "Check",
+      "Consent.bpmn",
+      "Counseling,",
+      "Verbal",
+      "and",
+      "input/business-processes/Health"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 37,
+       "translated": 37,
+       "fuzzy": 0,
+       "hash": "78f3f8914474b94c",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 37,
+       "translated": 37,
+       "fuzzy": 0,
+       "hash": "210a7c34a8888d06",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 37,
+       "translated": 37,
+       "fuzzy": 0,
+       "hash": "7562309ebd40c533",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 37,
+       "translated": 37,
+       "fuzzy": 0,
+       "hash": "87eec8c1eac6b1b9",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 37,
+       "translated": 37,
+       "fuzzy": 0,
+       "hash": "719a4f9285f92b23",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/processes/Health Check and Counseling, Verbal Consent.json"
+    },
+    {
+     "catalogue": "processes/Health Check and Counseling, Verbal Consent (brief)",
+     "sources": [
+      "(brief).bpmn",
+      "Check",
+      "Consent",
+      "Counseling,",
+      "Verbal",
+      "and",
+      "input/business-processes/Health"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "6a39007f172245ea",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "922804712495db53",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "d704a9909560f406",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "14c5e51f6cdbfc49",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "8c4dab96a90121c7",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/processes/Health Check and Counseling, Verbal Consent (brief).json"
+    },
+    {
+     "catalogue": "processes/Health Check and Issue SHL",
+     "sources": [
+      "Check",
+      "Issue",
+      "SHL.bpmn",
+      "and",
+      "input/business-processes/Health"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 55,
+       "translated": 55,
+       "fuzzy": 0,
+       "hash": "c3fd3e23047b486c",
+       "generatedBy": "agent"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 55,
+       "translated": 55,
+       "fuzzy": 0,
+       "hash": "719d4b6613cdd813",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 55,
+       "translated": 55,
+       "fuzzy": 0,
+       "hash": "988ed981d13478c2",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 55,
+       "translated": 55,
+       "fuzzy": 0,
+       "hash": "1ba7e754d10b837f",
+       "generatedBy": "agent"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 55,
+       "translated": 55,
+       "fuzzy": 0,
+       "hash": "1a28c6e5982d57a8",
+       "generatedBy": "agent"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/processes/Health Check and Issue SHL.json"
+    },
+    {
+     "catalogue": "user-scenarios/p0-keys-and-codes-shared",
+     "sources": [
+      "user-scenarios/p0-keys-and-codes-shared.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 27,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "7fbf6b481008e512"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 27,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "390c51afe38f2a86",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 27,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "675d5825f6fdf0ed"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 27,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "122d4949b2d8ff1d"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 27,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "08bff1be40c0c57b"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/user-scenarios/p0-keys-and-codes-shared.json"
+    },
+    {
+     "catalogue": "user-scenarios/p1-health-check-and-consent",
+     "sources": [
+      "user-scenarios/p1-health-check-and-consent.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "fc3e0f499e9b18b2"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "44621e92c65234f9",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "f41ba165a23b8c70"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "e8404ebda2def59e"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "147223c871d14abc"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/user-scenarios/p1-health-check-and-consent.json"
+    },
+    {
+     "catalogue": "user-scenarios/p2-summary-signed",
+     "sources": [
+      "user-scenarios/p2-summary-signed.json"
      ],
      "cells": {
       "ar": {
@@ -680,40 +3460,357 @@
        "entries": 30,
        "translated": 30,
        "fuzzy": 0,
-       "hash": "21a97a69392fa7a7"
+       "hash": "f3907e6a86d4f68e"
       },
       "es": {
        "state": "machine",
        "entries": 30,
        "translated": 30,
        "fuzzy": 0,
-       "hash": "4732d77eab7fab43"
+       "hash": "05f5b9899387b610",
+       "generatedBy": "agent"
       },
       "fr": {
        "state": "machine",
        "entries": 30,
        "translated": 30,
        "fuzzy": 0,
-       "hash": "3a11b41e586eccca"
+       "hash": "202aab64e602cbd1"
       },
       "ru": {
        "state": "machine",
        "entries": 30,
        "translated": 30,
        "fuzzy": 0,
-       "hash": "4fd6887841c02c29"
+       "hash": "281da113347b12cf"
       },
       "zh": {
        "state": "machine",
        "entries": 30,
        "translated": 30,
        "fuzzy": 0,
-       "hash": "97d00129a092fa2c"
+       "hash": "700aa9c5fbd8af3b"
       }
-     }
+     },
+     "strings": "smart-ips-pilgrimage/user-scenarios/p2-summary-signed.json"
+    },
+    {
+     "catalogue": "user-scenarios/p3-taken-ill-in-mina",
+     "sources": [
+      "user-scenarios/p3-taken-ill-in-mina.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 31,
+       "translated": 31,
+       "fuzzy": 0,
+       "hash": "98765dd772aadbf1"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 31,
+       "translated": 31,
+       "fuzzy": 0,
+       "hash": "b3fa327bd4cfee53",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 31,
+       "translated": 31,
+       "fuzzy": 0,
+       "hash": "3cf4bc1c9bf9dced"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 31,
+       "translated": 31,
+       "fuzzy": 0,
+       "hash": "960585821e7b397d"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 31,
+       "translated": 31,
+       "fuzzy": 0,
+       "hash": "1daa0d0edf9ceec9"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/user-scenarios/p3-taken-ill-in-mina.json"
+    },
+    {
+     "catalogue": "user-scenarios/p4-scanned-and-checked",
+     "sources": [
+      "user-scenarios/p4-scanned-and-checked.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "4b5a3c09a95a8e6b"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "941bfc63b4b9675c",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "52bc9ef0e3ddce4c"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "dbc5f59ec87d0288"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "415cef6b12316533"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/user-scenarios/p4-scanned-and-checked.json"
+    },
+    {
+     "catalogue": "user-scenarios/p5-record-read-and-treated",
+     "sources": [
+      "user-scenarios/p5-record-read-and-treated.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 36,
+       "fuzzy": 0,
+       "hash": "819d15de259b7624"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 36,
+       "fuzzy": 0,
+       "hash": "3455aa706ad78eb4",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 36,
+       "fuzzy": 0,
+       "hash": "e3fdf865d00b4b76"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 36,
+       "fuzzy": 0,
+       "hash": "9a17315e86ddf88a"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 36,
+       "fuzzy": 0,
+       "hash": "566c102f1a7e02e4"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/user-scenarios/p5-record-read-and-treated.json"
+    },
+    {
+     "catalogue": "user-scenarios/p6-break-the-glass",
+     "sources": [
+      "user-scenarios/p6-break-the-glass.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "411ef34b2c0274b4"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "ff913906880880ff",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "59b1fa715098b94d"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "4220eb344c1c5870"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 33,
+       "fuzzy": 0,
+       "hash": "211a9b525bf49a73"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/user-scenarios/p6-break-the-glass.json"
+    },
+    {
+     "catalogue": "user-scenarios/p7-back-home",
+     "sources": [
+      "user-scenarios/p7-back-home.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 27,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "0dc496295feb5630"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 27,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "c64537f5bdacc32f",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 27,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "ec38fc626316500e"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 27,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "b6dc02bef469f0fe"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 27,
+       "translated": 27,
+       "fuzzy": 0,
+       "hash": "e189fe75509944ba"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/user-scenarios/p7-back-home.json"
+    },
+    {
+     "catalogue": "user-scenarios/the-pilgrims-hajj",
+     "sources": [
+      "user-scenarios/the-pilgrims-hajj.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "514fce952a0b5e39"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "6bce3971a73e77c8",
+       "generatedBy": "agent"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "d7f995deb7a3657a"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "ecd8b200ca5c9471"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 9,
+       "translated": 9,
+       "fuzzy": 0,
+       "hash": "e6aebf7dfce68650"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/user-scenarios/the-pilgrims-hajj.json"
+    },
+    {
+     "catalogue": "workflow-figure",
+     "sources": [
+      "input/includes/workflow-figure.html",
+      "input/includes/workflow-pretty.svg"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 43,
+       "translated": 43,
+       "fuzzy": 0,
+       "hash": "b305130060935162"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 43,
+       "translated": 43,
+       "fuzzy": 0,
+       "hash": "084e15522c276e4c"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 43,
+       "translated": 43,
+       "fuzzy": 0,
+       "hash": "87faae684a3865bb"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 43,
+       "translated": 43,
+       "fuzzy": 0,
+       "hash": "dec5d6f46d458141"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 43,
+       "translated": 43,
+       "fuzzy": 0,
+       "hash": "d3ebb0909357fd15"
+      }
+     },
+     "strings": "smart-ips-pilgrimage/workflow-figure.json"
     }
    ],
-   "templatesOnly": 99
+   "templatesOnly": 0
   },
   {
    "name": "folio-assistant-core",
@@ -776,7 +3873,8 @@
        "fuzzy": 0,
        "hash": "87fdeff54cdbbe73"
       }
-     }
+     },
+     "strings": "folio-assistant-core/block-kinds.json"
     },
     {
      "catalogue": "glossary/folio-assistant-core--platform",
@@ -819,7 +3917,8 @@
        "fuzzy": 0,
        "hash": "653dbe5c73b91335"
       }
-     }
+     },
+     "strings": "folio-assistant-core/glossary/folio-assistant-core--platform.json"
     },
     {
      "catalogue": "glossary/glossary-page",
@@ -862,7 +3961,8 @@
        "fuzzy": 0,
        "hash": "52da61e8571f9626"
       }
-     }
+     },
+     "strings": "folio-assistant-core/glossary/glossary-page.json"
     },
     {
      "catalogue": "guides/document-ingestion",
@@ -905,7 +4005,8 @@
        "fuzzy": 2,
        "hash": "952059e0a201543a"
       }
-     }
+     },
+     "strings": "folio-assistant-core/guides/document-ingestion.json"
     },
     {
      "catalogue": "process/evidence",
@@ -948,7 +4049,8 @@
        "fuzzy": 0,
        "hash": "e3c4114f83c7b195"
       }
-     }
+     },
+     "strings": "folio-assistant-core/process/evidence.json"
     },
     {
      "catalogue": "process/publication-workflow",
@@ -991,7 +4093,8 @@
        "fuzzy": 0,
        "hash": "63e8edc8af386047"
       }
-     }
+     },
+     "strings": "folio-assistant-core/process/publication-workflow.json"
     }
    ],
    "templatesOnly": 32
@@ -1014,6 +4117,7 @@
       "QA_PAGE_STRINGS.acceptedLocal",
       "QA_PAGE_STRINGS.ast",
       "QA_PAGE_STRINGS.by",
+      "QA_PAGE_STRINGS.carriedSummary",
       "QA_PAGE_STRINGS.content",
       "QA_PAGE_STRINGS.count",
       "QA_PAGE_STRINGS.englishOnly",
@@ -1094,40 +4198,41 @@
      "cells": {
       "ar": {
        "state": "machine",
-       "entries": 78,
-       "translated": 78,
+       "entries": 79,
+       "translated": 79,
        "fuzzy": 0,
-       "hash": "5e57123dc114acb1"
+       "hash": "016cbce792f58d47"
       },
       "es": {
        "state": "machine",
-       "entries": 78,
-       "translated": 78,
+       "entries": 79,
+       "translated": 79,
        "fuzzy": 0,
-       "hash": "12c7ba0cfe795e82"
+       "hash": "ebe975cd13894d77"
       },
       "fr": {
        "state": "machine",
-       "entries": 78,
-       "translated": 78,
+       "entries": 79,
+       "translated": 79,
        "fuzzy": 0,
-       "hash": "fd225bb601eb87a6"
+       "hash": "8d25b05b7d679929"
       },
       "ru": {
        "state": "machine",
-       "entries": 78,
-       "translated": 78,
+       "entries": 79,
+       "translated": 79,
        "fuzzy": 0,
-       "hash": "c719c3f9781a7069"
+       "hash": "c613cfb3f1b8131f"
       },
       "zh": {
        "state": "machine",
-       "entries": 78,
-       "translated": 78,
+       "entries": 79,
+       "translated": 79,
        "fuzzy": 0,
-       "hash": "bf6f65d685d39de1"
+       "hash": "b71d3aa94b23ffa3"
       }
-     }
+     },
+     "strings": "fhir-harness/generated-pages/ig-qa-page.json"
     },
     {
      "catalogue": "publisher/messages",
@@ -1181,10 +4286,731 @@
        "fuzzy": 0,
        "hash": "adaa6ef34effa312"
       }
-     }
+     },
+     "strings": "fhir-harness/publisher/messages.json"
     }
    ],
    "templatesOnly": 7
+  },
+  {
+   "name": "cat-harness",
+   "repository": "litlfred/cat-harness",
+   "translations": "translations",
+   "locales": [
+    "ar",
+    "es",
+    "fr",
+    "ru",
+    "zh"
+   ],
+   "rows": [
+    {
+     "catalogue": "concepts/agentic-harness",
+     "sources": [
+      "docs/concepts/agentic-harness.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 164,
+       "translated": 164,
+       "fuzzy": 0,
+       "hash": "27177d26a831eba2"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 164,
+       "translated": 164,
+       "fuzzy": 0,
+       "hash": "1d9486d5979ac429"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 164,
+       "translated": 164,
+       "fuzzy": 0,
+       "hash": "bc2c6208108e7cec"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 164,
+       "translated": 164,
+       "fuzzy": 0,
+       "hash": "6a674848cdbdc629"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 164,
+       "translated": 164,
+       "fuzzy": 0,
+       "hash": "35c0766431513faf"
+      }
+     },
+     "strings": "cat-harness/concepts/agentic-harness.json"
+    },
+    {
+     "catalogue": "concepts/architecture",
+     "sources": [
+      "docs/concepts/architecture.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 23,
+       "translated": 23,
+       "fuzzy": 0,
+       "hash": "1c54ddd89d742212"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 23,
+       "translated": 23,
+       "fuzzy": 0,
+       "hash": "fe0176498e66755a"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 23,
+       "translated": 23,
+       "fuzzy": 0,
+       "hash": "61ae892e07c6aa2b"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 23,
+       "translated": 23,
+       "fuzzy": 0,
+       "hash": "10acaacfe613e8c3"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 23,
+       "translated": 23,
+       "fuzzy": 0,
+       "hash": "ff3abbacd094c740"
+      }
+     },
+     "strings": "cat-harness/concepts/architecture.json"
+    },
+    {
+     "catalogue": "concepts/content-types",
+     "sources": [
+      "docs/concepts/content-types.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 18,
+       "translated": 18,
+       "fuzzy": 0,
+       "hash": "143ea71cd67df5b4"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 18,
+       "translated": 18,
+       "fuzzy": 0,
+       "hash": "d37b53f35c77f213"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 18,
+       "translated": 18,
+       "fuzzy": 0,
+       "hash": "7c4bee2c135ae544"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 18,
+       "translated": 18,
+       "fuzzy": 0,
+       "hash": "72d53f83ec25da5a"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 18,
+       "translated": 18,
+       "fuzzy": 0,
+       "hash": "65083021da70d5b1"
+      }
+     },
+     "strings": "cat-harness/concepts/content-types.json"
+    },
+    {
+     "catalogue": "concepts/skills",
+     "sources": [
+      "docs/concepts/skills.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 83,
+       "translated": 83,
+       "fuzzy": 0,
+       "hash": "479e0bdf7824694d"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 83,
+       "translated": 83,
+       "fuzzy": 0,
+       "hash": "8aaeea57cc31c64e"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 83,
+       "translated": 83,
+       "fuzzy": 0,
+       "hash": "10894d9c11a8a626"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 83,
+       "translated": 83,
+       "fuzzy": 0,
+       "hash": "30382e81a9d9c827"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 83,
+       "translated": 83,
+       "fuzzy": 0,
+       "hash": "76a9ecea849c491a"
+      }
+     },
+     "strings": "cat-harness/concepts/skills.json"
+    },
+    {
+     "catalogue": "glossary",
+     "sources": [],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "c260e195e1c8e8eb"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "9349cedc0a8c7e6c"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "4265f8a1a041c83c"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "dc72fae9f203b820"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 8,
+       "translated": 4,
+       "fuzzy": 0,
+       "hash": "f86e61bbccca23f1"
+      }
+     },
+     "strings": "cat-harness/glossary.json"
+    },
+    {
+     "catalogue": "glossary/bootstrap--terms",
+     "sources": [
+      "bootstrap/schemas/graph.schema.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 44,
+       "translated": 44,
+       "fuzzy": 0,
+       "hash": "617c1706c4800c9b"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 44,
+       "translated": 44,
+       "fuzzy": 0,
+       "hash": "e82d7543de6c4187"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 44,
+       "translated": 44,
+       "fuzzy": 0,
+       "hash": "e633c5806db4f84f"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 44,
+       "translated": 44,
+       "fuzzy": 0,
+       "hash": "0e77c8e7a227993a"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 44,
+       "translated": 44,
+       "fuzzy": 0,
+       "hash": "426c7160d550230c"
+      }
+     },
+     "strings": "cat-harness/glossary/bootstrap--terms.json"
+    },
+    {
+     "catalogue": "glossary/cat-harness--platform",
+     "sources": [
+      "folio-assistant-core/glossary/cat-harness.glossary.json"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 12,
+       "fuzzy": 0,
+       "hash": "3ba4bd747f0c0487"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 12,
+       "fuzzy": 0,
+       "hash": "9236dcf3de8f2ad2"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 12,
+       "fuzzy": 0,
+       "hash": "a080f24546f40a71"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 12,
+       "fuzzy": 0,
+       "hash": "6d24c5e65728ce01"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 12,
+       "fuzzy": 0,
+       "hash": "0f1ec6472ed983fc"
+      }
+     },
+     "strings": "cat-harness/glossary/cat-harness--platform.json"
+    },
+    {
+     "catalogue": "guides/agent-onboarding",
+     "sources": [
+      "agent-onboarding.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 40,
+       "translated": 40,
+       "fuzzy": 0,
+       "hash": "6f2a02b7915bcc62"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 41,
+       "translated": 41,
+       "fuzzy": 0,
+       "hash": "030937fe718c8f0d"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 72,
+       "translated": 72,
+       "fuzzy": 0,
+       "hash": "3b54167c7bf5ee08",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 40,
+       "translated": 40,
+       "fuzzy": 0,
+       "hash": "8de67e6f8034d198"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 41,
+       "translated": 41,
+       "fuzzy": 0,
+       "hash": "36fbe6a483077d36"
+      }
+     },
+     "strings": "cat-harness/guides/agent-onboarding.json"
+    },
+    {
+     "catalogue": "guides/beans-and-todos",
+     "sources": [
+      "docs/guides/beans-and-todos.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "48dba557ccdcc485"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "614dd4ad8276d917"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "9dc13289bd6e697e"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "11877a53c45cb2c0"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 35,
+       "translated": 35,
+       "fuzzy": 0,
+       "hash": "9d5283d3e71372e6"
+      }
+     },
+     "strings": "cat-harness/guides/beans-and-todos.json"
+    },
+    {
+     "catalogue": "index",
+     "sources": [
+      "docs/index.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 37,
+       "translated": 37,
+       "fuzzy": 0,
+       "hash": "3ffef16e37c980ee"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 45,
+       "translated": 45,
+       "fuzzy": 0,
+       "hash": "6fb0f05ad2c5d2f9"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 37,
+       "translated": 37,
+       "fuzzy": 0,
+       "hash": "d2e71a458018791c",
+       "generatedBy": "agent"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 37,
+       "translated": 37,
+       "fuzzy": 0,
+       "hash": "4ef1f839c4b46063"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 37,
+       "translated": 37,
+       "fuzzy": 0,
+       "hash": "ff949bbdfdea399d"
+      }
+     },
+     "strings": "cat-harness/index.json"
+    },
+    {
+     "catalogue": "kg-viewer",
+     "sources": [
+      "scripts/kg-viewer-strings.ts"
+     ],
+     "cells": {
+      "ar": {
+       "state": "empty",
+       "entries": 45,
+       "translated": 0,
+       "fuzzy": 0,
+       "hash": "80b45eda738e5785",
+       "generatedBy": "folio-assistant translate-kg-viewer"
+      },
+      "es": {
+       "state": "empty",
+       "entries": 45,
+       "translated": 0,
+       "fuzzy": 0,
+       "hash": "efab62279b4bf806",
+       "generatedBy": "folio-assistant translate-kg-viewer"
+      },
+      "fr": {
+       "state": "empty",
+       "entries": 45,
+       "translated": 0,
+       "fuzzy": 0,
+       "hash": "1f12e9efba399b26",
+       "generatedBy": "folio-assistant translate-kg-viewer"
+      },
+      "ru": {
+       "state": "empty",
+       "entries": 45,
+       "translated": 0,
+       "fuzzy": 0,
+       "hash": "d9ca56d0b6c29f60",
+       "generatedBy": "folio-assistant translate-kg-viewer"
+      },
+      "zh": {
+       "state": "empty",
+       "entries": 45,
+       "translated": 0,
+       "fuzzy": 0,
+       "hash": "5fe781f307253cc2",
+       "generatedBy": "folio-assistant translate-kg-viewer"
+      }
+     },
+     "strings": "cat-harness/kg-viewer.json"
+    },
+    {
+     "catalogue": "process/crdm-methodology",
+     "sources": [
+      "content/docs/process-crdm-methodology/overview.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "none",
+       "entries": 0,
+       "translated": 0,
+       "fuzzy": 0
+      },
+      "es": {
+       "state": "none",
+       "entries": 0,
+       "translated": 0,
+       "fuzzy": 0
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 1,
+       "translated": 1,
+       "fuzzy": 0,
+       "hash": "bfedcdac3d496f14"
+      },
+      "ru": {
+       "state": "none",
+       "entries": 0,
+       "translated": 0,
+       "fuzzy": 0
+      },
+      "zh": {
+       "state": "none",
+       "entries": 0,
+       "translated": 0,
+       "fuzzy": 0
+      }
+     },
+     "strings": "cat-harness/process/crdm-methodology.json"
+    },
+    {
+     "catalogue": "start/accessibility",
+     "sources": [
+      "docs/start/accessibility.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 98,
+       "translated": 98,
+       "fuzzy": 0,
+       "hash": "78aa17e649a44d88"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 98,
+       "translated": 98,
+       "fuzzy": 0,
+       "hash": "b7cc4b823fc9d1ba"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 98,
+       "translated": 98,
+       "fuzzy": 0,
+       "hash": "b9bad2d7571da24f"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 98,
+       "translated": 98,
+       "fuzzy": 0,
+       "hash": "86e84731a3090519"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 98,
+       "translated": 98,
+       "fuzzy": 0,
+       "hash": "ad16a56b3b001084"
+      }
+     },
+     "strings": "cat-harness/start/accessibility.json"
+    },
+    {
+     "catalogue": "start/contributing",
+     "sources": [
+      "docs/start/contributing.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "ef94aaed6d76573c"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "ec0559b531bcba0f"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "2be557fde9d636a3"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "2b5e2e28ab9d9f1f"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 6,
+       "translated": 6,
+       "fuzzy": 0,
+       "hash": "cbdaee7278339950"
+      }
+     },
+     "strings": "cat-harness/start/contributing.json"
+    },
+    {
+     "catalogue": "start/getting-started",
+     "sources": [
+      "docs/start/getting-started.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 91,
+       "translated": 91,
+       "fuzzy": 0,
+       "hash": "89782849a4a2fcc8"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 91,
+       "translated": 91,
+       "fuzzy": 0,
+       "hash": "151640e6ac289781"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 91,
+       "translated": 91,
+       "fuzzy": 0,
+       "hash": "6ea92a5740b178b5"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 91,
+       "translated": 91,
+       "fuzzy": 0,
+       "hash": "b75e20fdb022dab6"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 92,
+       "translated": 92,
+       "fuzzy": 0,
+       "hash": "eec6ed915f1848bc"
+      }
+     },
+     "strings": "cat-harness/start/getting-started.json"
+    },
+    {
+     "catalogue": "start/installation",
+     "sources": [
+      "docs/start/installation.md"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 30,
+       "translated": 30,
+       "fuzzy": 0,
+       "hash": "21a97a69392fa7a7"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 30,
+       "translated": 30,
+       "fuzzy": 0,
+       "hash": "4732d77eab7fab43"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 30,
+       "translated": 30,
+       "fuzzy": 0,
+       "hash": "3a11b41e586eccca"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 30,
+       "translated": 30,
+       "fuzzy": 0,
+       "hash": "4fd6887841c02c29"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 30,
+       "translated": 30,
+       "fuzzy": 0,
+       "hash": "97d00129a092fa2c"
+      }
+     },
+     "strings": "cat-harness/start/installation.json"
+    }
+   ],
+   "templatesOnly": 99
   },
   {
    "name": "who-iris",
@@ -1239,7 +5065,8 @@
        "fuzzy": 0,
        "hash": "ed4c506ac2e3d79f"
       }
-     }
+     },
+     "strings": "who-iris/glossary/who-iris--who-terms.json"
     },
     {
      "catalogue": "site/iris-site",
@@ -1282,7 +5109,8 @@
        "fuzzy": 0,
        "hash": "479ece57d5006c38"
       }
-     }
+     },
+     "strings": "who-iris/site/iris-site.json"
     }
    ],
    "templatesOnly": 4
@@ -1298,8 +5126,499 @@
     "ru",
     "zh"
    ],
-   "rows": [],
-   "templatesOnly": 10
+   "rows": [
+    {
+     "catalogue": "processes/act-on-decision-support",
+     "sources": [
+      "../smart-base/L4/processes/act-on-decision-support.bpmn"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 32,
+       "translated": 0,
+       "fuzzy": 31,
+       "hash": "9582b07dd55feebb",
+       "generatedBy": "machine"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 32,
+       "translated": 0,
+       "fuzzy": 32,
+       "hash": "0d34b5d28888ede8",
+       "generatedBy": "machine"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 32,
+       "translated": 0,
+       "fuzzy": 32,
+       "hash": "3fd7b7404c50eb14",
+       "generatedBy": "machine"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 32,
+       "translated": 0,
+       "fuzzy": 28,
+       "hash": "f3fbc0922ca7e38a",
+       "generatedBy": "machine"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 32,
+       "translated": 0,
+       "fuzzy": 30,
+       "hash": "9c70567e2b9aac28",
+       "generatedBy": "machine"
+      }
+     },
+     "strings": "smart-base/processes/act-on-decision-support.json"
+    },
+    {
+     "catalogue": "processes/classify-and-code-content",
+     "sources": [
+      "../smart-base/L1/processes/classify-and-code-content.bpmn"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 0,
+       "fuzzy": 35,
+       "hash": "505820195b1e2820",
+       "generatedBy": "machine"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 0,
+       "fuzzy": 36,
+       "hash": "e631592000fcbaf3",
+       "generatedBy": "machine"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 0,
+       "fuzzy": 35,
+       "hash": "1a7bcb6a5edb9877",
+       "generatedBy": "machine"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 0,
+       "fuzzy": 32,
+       "hash": "71b93c4f5af48266",
+       "generatedBy": "machine"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 36,
+       "translated": 0,
+       "fuzzy": 35,
+       "hash": "86d2dcc64caa275e",
+       "generatedBy": "machine"
+      }
+     },
+     "strings": "smart-base/processes/classify-and-code-content.json"
+    },
+    {
+     "catalogue": "processes/dak-l3-ig",
+     "sources": [
+      "../smart-base/L3/collab/processes/dak-l3-ig.bpmn"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 0,
+       "fuzzy": 12,
+       "hash": "46860ab908346e84",
+       "generatedBy": "machine"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 0,
+       "fuzzy": 12,
+       "hash": "e4c364d623ce2124",
+       "generatedBy": "machine"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 0,
+       "fuzzy": 12,
+       "hash": "4e5154f325c89617",
+       "generatedBy": "machine"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 0,
+       "fuzzy": 11,
+       "hash": "694184571f7e9c7f",
+       "generatedBy": "machine"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 12,
+       "translated": 0,
+       "fuzzy": 11,
+       "hash": "90d8d4e793edf14a",
+       "generatedBy": "machine"
+      }
+     },
+     "strings": "smart-base/processes/dak-l3-ig.json"
+    },
+    {
+     "catalogue": "processes/diig-investment-path",
+     "sources": [
+      "../smart-base/collab/processes/diig-investment-path.bpmn"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 44,
+       "translated": 0,
+       "fuzzy": 41,
+       "hash": "b3c3aa155b8f8eb6",
+       "generatedBy": "machine"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 44,
+       "translated": 0,
+       "fuzzy": 43,
+       "hash": "0a5a258c0cae9c5b",
+       "generatedBy": "machine"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 44,
+       "translated": 0,
+       "fuzzy": 43,
+       "hash": "2a2a165a5a4d3c26",
+       "generatedBy": "machine"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 44,
+       "translated": 0,
+       "fuzzy": 37,
+       "hash": "b2c35ed62ee9f9a9",
+       "generatedBy": "machine"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 44,
+       "translated": 0,
+       "fuzzy": 43,
+       "hash": "4b09e1c6f771be3b",
+       "generatedBy": "machine"
+      }
+     },
+     "strings": "smart-base/processes/diig-investment-path.json"
+    },
+    {
+     "catalogue": "processes/dth-authoring",
+     "sources": [
+      "../smart-base/L2/collab/processes/dth-authoring.bpmn"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 99,
+       "translated": 0,
+       "fuzzy": 98,
+       "hash": "b4fcee95ecdc2525",
+       "generatedBy": "machine"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 99,
+       "translated": 0,
+       "fuzzy": 99,
+       "hash": "7c3a6da66af92f82",
+       "generatedBy": "machine"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 99,
+       "translated": 0,
+       "fuzzy": 98,
+       "hash": "7973de915feabf3f",
+       "generatedBy": "machine"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 99,
+       "translated": 0,
+       "fuzzy": 93,
+       "hash": "51c70070cabe3b19",
+       "generatedBy": "machine"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 99,
+       "translated": 0,
+       "fuzzy": 99,
+       "hash": "be70804f87921f38",
+       "generatedBy": "machine"
+      }
+     },
+     "strings": "smart-base/processes/dth-authoring.json"
+    },
+    {
+     "catalogue": "processes/l2-component-edit-review",
+     "sources": [
+      "../smart-base/L2/collab/processes/l2-component-edit-review.bpmn"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 0,
+       "fuzzy": 31,
+       "hash": "09686b24da355a10",
+       "generatedBy": "machine"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 0,
+       "fuzzy": 33,
+       "hash": "837aa9ea9996781f",
+       "generatedBy": "machine"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 0,
+       "fuzzy": 33,
+       "hash": "357cbedb1a29dc60",
+       "generatedBy": "machine"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 0,
+       "fuzzy": 31,
+       "hash": "5f7d4db0ad86a5ed",
+       "generatedBy": "machine"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 33,
+       "translated": 0,
+       "fuzzy": 33,
+       "hash": "d095a478907cff5e",
+       "generatedBy": "machine"
+      }
+     },
+     "strings": "smart-base/processes/l2-component-edit-review.json"
+    },
+    {
+     "catalogue": "processes/l2-dak-authoring",
+     "sources": [
+      "../smart-base/L2/collab/processes/l2-dak-authoring.bpmn"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 56,
+       "translated": 0,
+       "fuzzy": 55,
+       "hash": "6802093bdcfe8996",
+       "generatedBy": "machine"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 56,
+       "translated": 0,
+       "fuzzy": 56,
+       "hash": "e2534763183a8468",
+       "generatedBy": "machine"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 56,
+       "translated": 0,
+       "fuzzy": 56,
+       "hash": "bb56e10ff08e417d",
+       "generatedBy": "machine"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 56,
+       "translated": 0,
+       "fuzzy": 55,
+       "hash": "7ef3656b8923a5d1",
+       "generatedBy": "machine"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 56,
+       "translated": 0,
+       "fuzzy": 56,
+       "hash": "6a878fcb1d69c74d",
+       "generatedBy": "machine"
+      }
+     },
+     "strings": "smart-base/processes/l2-dak-authoring.json"
+    },
+    {
+     "catalogue": "processes/questionnaire-data-capture",
+     "sources": [
+      "../smart-base/L4/processes/questionnaire-data-capture.bpmn"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 20,
+       "translated": 0,
+       "fuzzy": 20,
+       "hash": "481a9d338dfc11f3",
+       "generatedBy": "machine"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 20,
+       "translated": 0,
+       "fuzzy": 20,
+       "hash": "378d750d5b2cc8c0",
+       "generatedBy": "machine"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 20,
+       "translated": 0,
+       "fuzzy": 20,
+       "hash": "6dfdf512794e21d7",
+       "generatedBy": "machine"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 20,
+       "translated": 0,
+       "fuzzy": 18,
+       "hash": "33f52a3c76088262",
+       "generatedBy": "machine"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 20,
+       "translated": 0,
+       "fuzzy": 20,
+       "hash": "58178fe7d3698286",
+       "generatedBy": "machine"
+      }
+     },
+     "strings": "smart-base/processes/questionnaire-data-capture.json"
+    },
+    {
+     "catalogue": "processes/SGAuthoring.DAKLifecycle",
+     "sources": [
+      "../smart-base/collab/processes/content/SGAuthoring.DAKLifecycle.bpmn"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 119,
+       "translated": 0,
+       "fuzzy": 119,
+       "hash": "a66824753d984828",
+       "generatedBy": "machine"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 119,
+       "translated": 0,
+       "fuzzy": 119,
+       "hash": "75231b989a8a3995",
+       "generatedBy": "machine"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 119,
+       "translated": 0,
+       "fuzzy": 118,
+       "hash": "6874866fb81feb6e",
+       "generatedBy": "machine"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 119,
+       "translated": 0,
+       "fuzzy": 113,
+       "hash": "fa107ceba3c8475f",
+       "generatedBy": "machine"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 119,
+       "translated": 0,
+       "fuzzy": 118,
+       "hash": "10879c356443e147",
+       "generatedBy": "machine"
+      }
+     },
+     "strings": "smart-base/processes/SGAuthoring.DAKLifecycle.json"
+    },
+    {
+     "catalogue": "processes/smart-guideline-end-to-end",
+     "sources": [
+      "../smart-base/collab/processes/content/smart-guideline-end-to-end.bpmn"
+     ],
+     "cells": {
+      "ar": {
+       "state": "machine",
+       "entries": 54,
+       "translated": 0,
+       "fuzzy": 54,
+       "hash": "2d1ad1257def1779",
+       "generatedBy": "machine"
+      },
+      "es": {
+       "state": "machine",
+       "entries": 54,
+       "translated": 0,
+       "fuzzy": 54,
+       "hash": "94b89d512b91e4a8",
+       "generatedBy": "machine"
+      },
+      "fr": {
+       "state": "machine",
+       "entries": 54,
+       "translated": 0,
+       "fuzzy": 54,
+       "hash": "a1012b1568900a4c",
+       "generatedBy": "machine"
+      },
+      "ru": {
+       "state": "machine",
+       "entries": 54,
+       "translated": 0,
+       "fuzzy": 52,
+       "hash": "11201383081c3601",
+       "generatedBy": "machine"
+      },
+      "zh": {
+       "state": "machine",
+       "entries": 54,
+       "translated": 0,
+       "fuzzy": 54,
+       "hash": "28f92c3d0a0dd88a",
+       "generatedBy": "machine"
+      }
+     },
+     "strings": "smart-base/processes/smart-guideline-end-to-end.json"
+    }
+   ],
+   "templatesOnly": 0
   }
  ]
 }

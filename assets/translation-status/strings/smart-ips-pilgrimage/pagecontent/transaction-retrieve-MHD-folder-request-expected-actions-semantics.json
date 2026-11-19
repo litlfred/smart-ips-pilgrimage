@@ -1,0 +1,640 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-ips-pilgrimage",
+ "repository": "litlfred/smart-ips-pilgrimage",
+ "translations": "translations",
+ "catalogue": "pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics",
+ "hashes": {
+  "ar": "d14812ce292fc813",
+  "es": "ada444f545d3414b",
+  "fr": "29e4ec551531bc6c",
+  "ru": "c6be3dc7a3880eca",
+  "zh": "1443175484609c0e"
+ },
+ "strings": [
+  {
+   "msgid": "Audit event",
+   "hash": "07cc3ff99eb57363",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حدث التدقيق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Evento de auditoría",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Événement d'audit",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Событие аудита",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "审计事件",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Deciding the request: the pilgrim's consents are the policy",
+   "hash": "cce99990a713da95",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البتّ في الطلب: موافقات الزائر هي السياسة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Decisión sobre la solicitud: los consentimientos del peregrino son la política",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Décider de la requête : les consentements du pèlerin constituent la politique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Принятие решения по запросу: политикой являются согласия паломника",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对请求作出决定：朝圣者的同意即为策略",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the {code0} and {code1} of each Consent read from the Consent Registry for the decision;",
+   "hash": "ffa8f24066c60109",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قيمتا {code0} و{code1} لكل Consent مقروءة من سجل الموافقات (Consent Registry) لأغراض القرار؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "los valores {code0} y {code1} de cada Consent leído del Consent Registry para la decisión;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les {code0} et {code1} de chaque Consent lus dans le Consent Registry pour la décision ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} и {code1} каждого ресурса Consent, считанного из реестра согласий для принятия решения;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "为作出决定而从同意登记系统（Consent Registry）读取的每条 Consent 的 {code0} 和 {code1}；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the documents released (the DocumentReferences returned), or the refusal.",
+   "hash": "6ac9de1ced980e1a",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المستندات المُفرَج عنها (DocumentReferences المُعادة)، أو الرفض.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "los documentos entregados (los DocumentReference devueltos), o la denegación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les documents communiqués (les DocumentReferences renvoyées), ou le refus.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "выданные документы (возвращённые ресурсы DocumentReference) или отказ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所释放的文档（返回的 DocumentReference），或拒绝结果。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Host Country EMR is identified by trust in the {code0} trust domain (see the authentication note in the message semantics). The Origin Country HIE releases the documents only when the passcode is valid, the VHL has not expired, the origin-release consent is active in its registry, the verified receiver matches {code1}, the purpose is treatment, and the request falls within {code2}. If any of these cannot be established, the request is not permitted.",
+   "hash": "86472306208c03f1",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُحدَّد EMR البلد المضيف بالثقة في نطاق الثقة {code0} (انظر ملاحظة المصادقة في دلالات الرسائل). ولا تُفرج HIE بلد المنشأ عن المستندات إلا إذا كان رمز المرور صالحًا، ولم تنتهِ صلاحية VHL، وكانت موافقة الإفراج في بلد المنشأ سارية في سجلها، وطابقت الجهة المُستقبِلة المُتحقَّق منها {code1}، وكان الغرض هو العلاج، ووقع الطلب ضمن {code2}. وإذا تعذّر إثبات أيٍّ من ذلك، فلا يُسمح بالطلب.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La EMR del país anfitrión se identifica por la confianza en el ámbito de confianza {code0} (véase la nota sobre autenticación en la semántica de los mensajes). El HIE del país de origen entrega los documentos solo cuando el código de acceso es válido, el VHL no ha caducado, el consentimiento de entrega en origen está activo en su registro, el receptor verificado coincide con {code1}, la finalidad es el tratamiento y la solicitud está dentro de {code2}. Si no puede establecerse alguna de estas condiciones, la solicitud no se permite.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le DME du pays d'accueil est identifié par la confiance dans le domaine de confiance {code0} (voir la note sur l'authentification dans la sémantique des messages). La HIE du pays d'origine ne communique les documents que lorsque le code d'accès est valide, que le VHL n'a pas expiré, que le consentement à la communication par le pays d'origine est actif dans son registre, que le destinataire vérifié correspond à {code1}, que la finalité est le traitement et que la requête s'inscrit dans {code2}. Si l'une de ces conditions ne peut être établie, la requête n'est pas autorisée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EMR принимающей страны идентифицируется на основе доверия в домене доверия {code0} (см. примечание об аутентификации в разделе о семантике сообщения). HIE страны происхождения выдаёт документы только в том случае, если код доступа действителен, срок действия VHL не истёк, согласие на выдачу данных страной происхождения является активным в её реестре, проверенный получатель соответствует {code1}, целью является лечение, а запрос укладывается в {code2}. Если какое-либо из этих условий не может быть установлено, запрос не разрешается.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国 EMR 通过在 {code0} 信任域中的信任来识别（参见消息语义中的认证说明）。仅当通行码有效、VHL 未过期、来源方释放同意在其登记系统中处于有效状态、经验证的接收方与 {code1} 匹配、目的为治疗且请求处于 {code2} 范围内时，来源国 HIE 才释放文档。若其中任何一项无法确认，则不允许该请求。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Origin Country HIE records an audit event with Record Audit Event [ITI-20] for each request, whether documents are released or refused. VHL Volume 1 §1:XX.3 requires the VHL Sharer and the VHL Receiver to be grouped with an ATNA Secure Node or Secure Application, and ITI-YY5 §2:3.YY5.5.6 says both SHOULD log document access requests, the authentication method used, the receiver identity, the VHL folder ID and the authorization decision. In this guide the audit event recorded by the Origin Country HIE shall also cite:",
+   "hash": "6cf57b5f90fa327f",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسجّل HIE بلد المنشأ حدث تدقيق بواسطة Record Audit Event [ITI-20] لكل طلب، سواء أُفرج عن المستندات أم رُفض. ويشترط المجلد 1 من VHL §1:XX.3 أن تُجمَّع الجهة المُشارِكة في VHL والجهة المُستقبِلة في VHL مع ATNA Secure Node أو Secure Application، وينص ITI-YY5 §2:3.YY5.5.6 على أنه ينبغي (SHOULD) لكلتيهما تسجيل طلبات الوصول إلى المستندات، وطريقة المصادقة المستخدمة، وهوية الجهة المُستقبِلة، ومعرِّف مجلد VHL، وقرار التفويض. وفي هذا الدليل، يجب أن يستشهد حدث التدقيق الذي تسجّله HIE بلد المنشأ أيضًا بما يلي:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El HIE del país de origen registra un evento de auditoría con Record Audit Event [ITI-20] para cada solicitud, tanto si se entregan los documentos como si se deniegan. VHL, volumen 1, §1:XX.3 exige que el VHL Sharer y el VHL Receiver estén agrupados con un ATNA Secure Node o Secure Application, e ITI-YY5 §2:3.YY5.5.6 indica que ambos DEBERÍAN registrar las solicitudes de acceso a documentos, el método de autenticación utilizado, la identidad del receptor, el ID de la carpeta VHL y la decisión de autorización. En esta guía, el evento de auditoría registrado por el HIE del país de origen deberá citar además:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La HIE du pays d'origine enregistre un événement d'audit avec Record Audit Event [ITI-20] pour chaque requête, que les documents soient communiqués ou refusés. Le volume 1 du VHL, §1:XX.3, exige que le VHL Sharer et le VHL Receiver soient groupés avec un ATNA Secure Node ou Secure Application, et ITI-YY5 §2:3.YY5.5.6 indique que tous deux DEVRAIENT journaliser les requêtes d'accès aux documents, la méthode d'authentification utilisée, l'identité du destinataire, l'identifiant du dossier VHL et la décision d'autorisation. Dans ce guide, l'événement d'audit enregistré par la HIE du pays d'origine doit également citer :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HIE страны происхождения регистрирует событие аудита с помощью транзакции Record Audit Event [ITI-20] для каждого запроса — независимо от того, выданы документы или в их выдаче отказано. Том 1 VHL, §1:XX.3, требует, чтобы VHL Sharer и VHL Receiver были сгруппированы с ATNA Secure Node или Secure Application, а ITI-YY5, §2:3.YY5.5.6, указывает, что оба СЛЕДУЕТ (SHOULD) регистрировать запросы на доступ к документам, использованный метод аутентификации, идентификационные данные получателя, идентификатор папки VHL и решение об авторизации. В настоящем руководстве событие аудита, регистрируемое HIE страны происхождения, должно также указывать:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源国 HIE 对每个请求都使用记录审计事件 [ITI-20] 记录一条审计事件，无论文档被释放还是被拒绝。VHL 第 1 卷 §1:XX.3 要求 VHL 共享方和 VHL 接收方与 ATNA 安全节点（Secure Node）或安全应用（Secure Application）组合，ITI-YY5 §2:3.YY5.5.6 规定两者都宜（SHOULD）记录文档访问请求、所用认证方法、接收方身份、VHL 文件夹 ID 和授权决定。在本指南中，来源国 HIE 记录的审计事件还应当引用：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the purpose of use ({code0});",
+   "hash": "77274aa7813b7a7f",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "غرض الاستخدام ({code0})؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "la finalidad de uso ({code0});",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "la finalité d'utilisation ({code0}) ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "цель использования ({code0});",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "使用目的（{code0}）；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the receiver, as identified by the VHL authentication option used;",
+   "hash": "c59e3a31df08c007",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهة المُستقبِلة، كما يحددها خيار مصادقة VHL المستخدم؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "el receptor, identificado mediante la opción de autenticación de VHL utilizada;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "le destinataire, tel qu'identifié par l'option d'authentification VHL utilisée ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "получателя, идентифицированного с помощью использованного варианта аутентификации VHL;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接收方，以所用的 VHL 认证选项所识别的身份为准；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The recipient OCHIE acts as a VHL Document Responder and must conform with the capability statement for <a0>VHL Document Responder</a0>",
+   "hash": "a2ba34e50b02ebc0",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تعمل OCHIE المتلقية بوصفها VHL Document Responder ويجب أن تمتثل لبيان القدرات الخاص بـ <a0>VHL Document Responder</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El OCHIE destinatario actúa como VHL Document Responder y debe ajustarse a la declaración de capacidades de <a0>VHL Document Responder</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'OCHIE destinataire agit en tant que VHL Document Responder et doit se conformer à la déclaration de capacités du <a0>VHL Document Responder</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "OCHIE-получатель выступает в роли VHL Document Responder и должен соответствовать описанию возможностей (capability statement) для <a0>VHL Document Responder</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接收方 OCHIE 充当 VHL 文档响应方（VHL Document Responder），必须符合 <a0>VHL Document Responder</a0> 的能力声明",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The recipient OCHIE checks if the VHL request is valid and responds with the documentReference as a FHIR bundle Json.",
+   "hash": "bddaec1dda305e9a",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتحقق OCHIE المتلقية من صلاحية طلب VHL وتستجيب بـ documentReference في صورة FHIR bundle بتنسيق Json.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El OCHIE destinatario comprueba si la solicitud de VHL es válida y responde con la documentReference como bundle FHIR en Json.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'OCHIE destinataire vérifie si la requête VHL est valide et répond avec la documentReference sous la forme d'un bundle FHIR en JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "OCHIE-получатель проверяет действительность запроса VHL и отвечает, передавая ресурсы documentReference в виде пакета (bundle) FHIR в формате JSON.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接收方 OCHIE 检查 VHL 请求是否有效，并以 FHIR bundle JSON 形式返回 documentReference。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Which consent a {code0} is, and the consent text the pilgrim was shown, are carried in {code1}: a code from the <a0>IPS.HAJJ.CONSENT</a0> CodeSystem, with {code2} set to the CodeSystem version.",
+   "hash": "924f9a99b9bb0f41",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُحمَل هوية الموافقة التي يمثلها {code0}، ونص الموافقة الذي عُرض على الحاج، في {code1}: وهو رمز من CodeSystem <a0>IPS.HAJJ.CONSENT</a0>، مع ضبط {code2} على إصدار CodeSystem.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Qué consentimiento es un {code0}, y el texto de consentimiento que se mostró al peregrino, se indican en {code1}: un código del CodeSystem <a0>IPS.HAJJ.CONSENT</a0>, con {code2} establecido en la versión del CodeSystem.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le type de consentement que représente un {code0}, et le texte du consentement présenté au pèlerin, figurent dans {code1} : un code du CodeSystem <a0>IPS.HAJJ.CONSENT</a0>, avec {code2} défini sur la version du CodeSystem.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Какое именно согласие представляет собой {code0} и какой текст согласия был показан паломнику, передаётся в {code1}: код из CodeSystem <a0>IPS.HAJJ.CONSENT</a0>, где {code2} содержит версию CodeSystem.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "某个 {code0} 是哪一项同意，以及向朝觐者展示的同意文本，均承载于 {code1} 中：取自 <a0>IPS.HAJJ.CONSENT</a0> CodeSystem 的代码，并将 {code2} 设置为该 CodeSystem 的版本。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "For the pilgrimage there is no separate data sharing agreement to look up. The pilgrim's two <a0>HajjConsent</a0> resources are the policy, and each one binds the party it names:",
+   "hash": "88f01bb251c2e61b",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بالنسبة إلى الزيارة الدينية، لا توجد اتفاقية منفصلة لمشاركة البيانات يُرجَع إليها. فمورِدا <a0>HajjConsent</a0> الخاصان بالزائر هما السياسة، وكلٌّ منهما يُلزم الطرف الذي يسمّيه:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para la peregrinación no hay ningún acuerdo de intercambio de datos independiente que consultar. Los dos recursos <a0>HajjConsent</a0> del peregrino son la política, y cada uno vincula a la parte que nombra:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour le pèlerinage, il n'existe pas d'accord de partage de données distinct à consulter. Les deux ressources <a0>HajjConsent</a0> du pèlerin constituent la politique, et chacune engage la partie qu'elle nomme :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для паломничества отдельного соглашения об обмене данными, к которому следовало бы обращаться, нет. Политикой являются два ресурса <a0>HajjConsent</a0> паломника, и каждый из них обязывает указанную в нём сторону:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "朝圣没有需要另行查找的数据共享协议。朝圣者的两条 <a0>HajjConsent</a0> 资源即为策略，每一条都约束其所指名的一方：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the governing policy: the pilgrim's consents, each by its {code0} code and CodeSystem version (for example {code1} and {code2} in this guide's examples, version 2.1.0);",
+   "hash": "85a21953e73af541",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السياسة الحاكمة: موافقات الزائر، كلٌّ منها برمز {code0} الخاص بها وإصدار CodeSystem (على سبيل المثال {code1} و{code2} في أمثلة هذا الدليل، الإصدار 2.1.0)؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "la política aplicable: los consentimientos del peregrino, cada uno por su código {code0} y la versión del CodeSystem (por ejemplo, {code1} y {code2} en los ejemplos de esta guía, versión 2.1.0);",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "la politique applicable : les consentements du pèlerin, chacun par son code {code0} et la version du CodeSystem (par exemple {code1} et {code2} dans les exemples de ce guide, version 2.1.0) ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "применимую политику: согласия паломника, каждое — по его коду {code0} и версии CodeSystem (например, {code1} и {code2} в примерах этого руководства, версия 2.1.0);",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "适用的策略：朝圣者的各项同意，每项以其 {code0} 代码和 CodeSystem 版本标识（例如本指南示例中的 {code1} 和 {code2}，版本 2.1.0）；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The host-use consent ({code0}, or the fictional {code1} of this guide's examples) governs the Host Country Ministry of Health's use of the IPS after it is received: for treatment during the pilgrimage and any follow-up care, as its consent text states.",
+   "hash": "252630c4ee2487a5",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تحكم موافقة الاستخدام في البلد المضيف ({code0}، أو {code1} الخيالية في أمثلة هذا الدليل) استخدامَ وزارة الصحة في البلد المضيف لـ IPS بعد استلامه: للعلاج خلال الزيارة الدينية وأي رعاية متابعة، كما ينص نص الموافقة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El consentimiento de uso en el país anfitrión ({code0}, o el ficticio {code1} de los ejemplos de esta guía) rige el uso que el Ministerio de Salud del país anfitrión hace del IPS una vez recibido: para el tratamiento durante la peregrinación y cualquier atención de seguimiento, como indica el texto de su consentimiento.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le consentement à l'utilisation par le pays d'accueil ({code0}, ou le {code1} fictif des exemples de ce guide) régit l'utilisation de l'IPS par le ministère de la Santé du pays d'accueil après sa réception : pour le traitement pendant le pèlerinage et tout suivi des soins, comme l'indique le texte de ce consentement.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласие на использование принимающей страной ({code0} или вымышленное {code1} из примеров этого руководства) регулирует использование IPS министерством здравоохранения принимающей страны после её получения: для лечения во время паломничества и любой последующей медицинской помощи, как указано в тексте согласия.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "东道国使用同意（{code0}，或本指南示例中虚构的 {code1}）约束东道国卫生部在收到 IPS 后对其的使用：如其同意文本所述，用于朝圣期间的治疗及任何后续照护。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The origin-release consent (for example {code0}, or the fictional {code1} of this guide's examples) lets the Origin Country HIE release the IPS to the recipient named in {code2} (role {code3}, information recipient), for the purpose in {code4} ({code5}), during {code6}. The Origin Country HIE enforces this consent from its own Consent Registry (as recorded by the Record Consent transaction, [ITI-108]), not from the copy carried inside the IPS. The IPS copy is signed when the IPS is issued, so it cannot show a later withdrawal.",
+   "hash": "e616fcbd80ce4c47",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتيح موافقة الإفراج في بلد المنشأ (على سبيل المثال {code0}، أو {code1} الخيالية في أمثلة هذا الدليل) لـ HIE بلد المنشأ الإفراج عن IPS للمتلقي المسمّى في {code2} (الدور {code3}، متلقي المعلومات)، للغرض الوارد في {code4} ({code5})، خلال {code6}. وتُنفِّذ HIE بلد المنشأ هذه الموافقة انطلاقًا من سجل الموافقات (Consent Registry) الخاص بها (كما سجّلته معاملة Record Consent، [ITI-108])، لا من النسخة المحمولة داخل IPS. فنسخة IPS تُوقَّع عند إصدار IPS، ولذلك لا يمكنها إظهار سحبٍ لاحق.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El consentimiento de entrega en origen (por ejemplo, {code0}, o el ficticio {code1} de los ejemplos de esta guía) permite al HIE del país de origen entregar el IPS al destinatario nombrado en {code2} (rol {code3}, destinatario de la información), para la finalidad indicada en {code4} ({code5}), durante {code6}. El HIE del país de origen aplica este consentimiento a partir de su propio Consent Registry (tal como lo registra la transacción Record Consent, [ITI-108]), no a partir de la copia incluida en el IPS. La copia del IPS se firma cuando se emite el IPS, por lo que no puede reflejar una retirada posterior.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le consentement à la communication par le pays d'origine (par exemple {code0}, ou le {code1} fictif des exemples de ce guide) permet à la HIE du pays d'origine de communiquer l'IPS au destinataire nommé dans {code2} (rôle {code3}, destinataire de l'information), pour la finalité indiquée dans {code4} ({code5}), pendant {code6}. La HIE du pays d'origine applique ce consentement à partir de son propre Consent Registry (tel qu'enregistré par la transaction Record Consent, [ITI-108]), et non à partir de la copie contenue dans l'IPS. La copie dans l'IPS est signée lors de l'émission de l'IPS ; elle ne peut donc pas faire apparaître un retrait ultérieur.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласие на выдачу данных страной происхождения (например, {code0} или вымышленное {code1} из примеров этого руководства) позволяет HIE страны происхождения выдать IPS получателю, указанному в {code2} (роль {code3}, получатель информации), для цели, указанной в {code4} ({code5}), в течение {code6}. HIE страны происхождения применяет это согласие на основе собственного реестра согласий (в котором оно зарегистрировано транзакцией Record Consent, [ITI-108]), а не на основе копии, содержащейся в IPS. Копия в IPS подписывается при выпуске IPS и поэтому не может отражать последующий отзыв согласия.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源方释放同意（例如 {code0}，或本指南示例中虚构的 {code1}）允许来源国 HIE 将 IPS 释放给 {code2} 中指名的接收方（角色 {code3}，信息接收方），用于 {code4} 中的目的（{code5}），期限为 {code6}。来源国 HIE 依据其自身同意登记系统（Consent Registry）中的记录（由记录同意事务 [ITI-108] 记录）执行该同意，而非依据 IPS 中携带的副本。IPS 中的副本在签发 IPS 时签名，因此无法反映之后的撤回。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This guide uses no separate data sharing agreement for the pilgrimage, so the consents themselves are the policy the audit event cites. The Host Country EMR, as an ATNA Secure Node or Secure Application, should also audit what it receives.",
+   "hash": "05e4ff12fd0c4d90",
+   "sources": [
+    "input/pagecontent/transaction-retrieve-MHD-folder-request-expected-actions-semantics.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يستخدم هذا الدليل اتفاقية منفصلة لمشاركة البيانات للزيارة الدينية، ولذلك فإن الموافقات نفسها هي السياسة التي يستشهد بها حدث التدقيق. وينبغي لـ EMR البلد المضيف، بوصفه ATNA Secure Node أو Secure Application، أن يدقق أيضًا ما يستلمه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Esta guía no utiliza ningún acuerdo de intercambio de datos independiente para la peregrinación, por lo que los propios consentimientos son la política que cita el evento de auditoría. La EMR del país anfitrión, como ATNA Secure Node o Secure Application, debería auditar también lo que recibe.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce guide n'utilise pas d'accord de partage de données distinct pour le pèlerinage ; les consentements eux-mêmes constituent donc la politique que cite l'événement d'audit. Le DME du pays d'accueil, en tant qu'ATNA Secure Node ou Secure Application, devrait également auditer ce qu'il reçoit.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В настоящем руководстве для паломничества не используется отдельное соглашение об обмене данными, поэтому политикой, на которую ссылается событие аудита, являются сами согласия. EMR принимающей страны как ATNA Secure Node или Secure Application также следует регистрировать в журнале аудита получаемые данные.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本指南不为朝圣使用单独的数据共享协议，因此审计事件所引用的策略就是这些同意本身。东道国 EMR 作为 ATNA 安全节点或安全应用，也宜对其接收的内容进行审计。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}
