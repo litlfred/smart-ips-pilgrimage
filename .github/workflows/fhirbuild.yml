@@ -18,4 +18,4 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   call_build: 
-    uses: litlfred/smart-base/.github/workflows/fhirbuild.yml@9dd5c6fa6f89ed6b54e1ee0a584dc48bf9e4cbf0 # index.lock.json
+    uses: litlfred/smart-base/.github/workflows/fhirbuild.yml@328e07312e44958d4d749c99dcee8f8209e7e55a # index.lock.json
