@@ -134,7 +134,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "419d59505a971a36d7e2e0162705be1828296188",
+          "ref": "80138a086f866a7093d0a1a8600a85ceea15b5bb",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -150,8 +150,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-19",
-              "ref": "419d59505a971a36d7e2e0162705be1828296188",
-              "evidence": "litlfred 2026-11-19: re-pin to current mains to clear navbar:assets on the WHO sync (owner card in session session_01EucfRna9sCQFNgCNFic7tM, 'Re-pin to mains'; waves 2+3 go 07:48Z)"
+              "ref": "80138a086f866a7093d0a1a8600a85ceea15b5bb",
+              "evidence": "litlfred 2026-11-19: re-pin to current mains for the WHO sync (owner card in session session_01EucfRna9sCQFNgCNFic7tM, 'Re-pin to mains'); picks up cat-harness-tools#2468 for check:declared-paths"
             },
             "standing": {
               "follows": "main",
@@ -204,7 +204,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "35bad4c2cb31cb2b41e759b0abddd0961a973f3b",
+          "ref": "e5b7b181b65f3073461788d7f270c23552177763",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -217,8 +217,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-19",
-              "ref": "35bad4c2cb31cb2b41e759b0abddd0961a973f3b",
-              "evidence": "litlfred 2026-11-19: re-pin to current mains to clear navbar:assets on the WHO sync (owner card in session session_01EucfRna9sCQFNgCNFic7tM, 'Re-pin to mains'; waves 2+3 go 07:48Z)"
+              "ref": "e5b7b181b65f3073461788d7f270c23552177763",
+              "evidence": "litlfred 2026-11-19: re-pin to current mains for the WHO sync (owner card in session session_01EucfRna9sCQFNgCNFic7tM, 'Re-pin to mains'); picks up cat-harness-tools#2468 for check:declared-paths"
             },
             "standing": {
               "follows": "main",
