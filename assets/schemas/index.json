@@ -553,7 +553,8 @@
       "module": "cat-harness-tools/schemas/content/lang-text.ts",
       "instance": "cat-harness-tools",
       "name": "lang-text",
-      "graphNode": "undeclared",
+      "graphNode": "none",
+      "reason": "a function library over label text; the glossary schema it reads belongs to a layer above",
       "summary": "A glossary label or definition that may be translated.",
       "isTest": false
     },
