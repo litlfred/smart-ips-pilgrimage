@@ -2,14 +2,14 @@
   "$schema": "folio-site-build/v1",
   "instance": "smart-ips-pilgrimage",
   "platform": {
-    "commit": "6d48e106ffd75e4a49bc466068e5f1df1d5d3e2e"
+    "commit": "4026199a2a73b0dd7c83114cdd706684c558b902"
   },
   "source": {
     "repo": "litlfred/smart-ips-pilgrimage",
     "ref": "main",
-    "commit": "c339ff47d27930bc01147f5fc49f11844c8b5a1a"
+    "commit": "5a9b3caabec70005ce82ff75c148a3319c2671d1"
   },
-  "builtAt": "2026-11-22T02:11:50.069Z",
+  "builtAt": "2026-11-22T22:44:36.229Z",
   "ast": {
     "commit": "a7482ca9163a28f1ba9acc182cd59589e3cc43d7",
     "verdict": "valid",

@@ -6,7 +6,7 @@
   "source": {
     "kind": "sushi-config",
     "of": "https://github.com/litlfred/smart-ips-pilgrimage",
-    "ref": "c339ff47d27930bc01147f5fc49f11844c8b5a1a",
+    "ref": "5a9b3caabec70005ce82ff75c148a3319c2671d1",
     "path": "sushi-config.yaml",
     "readAt": "2026-11-22"
   },
