@@ -297,7 +297,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-trust-tools",
-          "ref": "5f2248800550ec53e57b7401e27146d4990a5be6",
+          "ref": "dda5f33acc8a387236970a2d63c1a6169be4d6ad",
           "overrides": {
             "smart-trust-tools": {
               "whole": true
@@ -307,7 +307,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-22",
-              "ref": "5f2248800550ec53e57b7401e27146d4990a5be6",
+              "ref": "dda5f33acc8a387236970a2d63c1a6169be4d6ad",
               "evidence": "litlfred 2026-11-21T17:18:37Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9Y9TedqBkd2sPfGqc1kFezL): \"Yes, +12 hours\" on \"Open a new merge and re-pin window?\" — non-content merge and re-pin window to 2026-11-22T05:18Z"
             },
             "standing": {
