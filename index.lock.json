@@ -44,7 +44,7 @@
     {
       "harness": "smart-trust-tools",
       "repository": "litlfred/smart-trust-tools",
-      "ref": "dda5f33acc8a387236970a2d63c1a6169be4d6ad"
+      "ref": "92fa176253c3e7b0527ca8b51624e29107bc3dcd"
     }
   ],
   "instances": [
@@ -273,7 +273,7 @@
     {
       "instance": "smart-trust-tools",
       "repository": "litlfred/smart-trust-tools",
-      "sha": "dda5f33acc8a387236970a2d63c1a6169be4d6ad",
+      "sha": "92fa176253c3e7b0527ca8b51624e29107bc3dcd",
       "upstreamRoot": "",
       "path": "smart-trust-tools",
       "via": "smart-trust-tools",
@@ -287,7 +287,7 @@
           "id": "*",
           "path": "smart-trust-tools",
           "upstreamPath": ".",
-          "treeDigest": "cfc6df29747f20cd9afc619add87eaae8ae666d003b550c82f06e636c52c74bc",
+          "treeDigest": "96e2aebc233ab4e656f7513e1e11460d29869246913b83f74624b07e267b9d84",
           "files": 1245
         }
       ],
@@ -295,7 +295,7 @@
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-22",
-        "ref": "dda5f33acc8a387236970a2d63c1a6169be4d6ad",
+        "ref": "92fa176253c3e7b0527ca8b51624e29107bc3dcd",
         "approver": "declared"
       }
     },
