@@ -22,7 +22,7 @@
     "additionalProperty": {
       "@type": "PropertyValue",
       "name": "pinnedCommit",
-      "value": "dda5f33acc8a387236970a2d63c1a6169be4d6ad"
+      "value": "92fa176253c3e7b0527ca8b51624e29107bc3dcd"
     }
   },
   "isPartOf": {
@@ -31,8 +31,8 @@
   },
   "significantLink": [
     "https://litlfred.github.io/folio-assistant/smart-trust-tools/",
-    "https://github.com/litlfred/smart-trust-tools/tree/dda5f33acc8a387236970a2d63c1a6169be4d6ad",
-    "https://github.com/litlfred/smart-trust-tools/blob/dda5f33acc8a387236970a2d63c1a6169be4d6ad/README.md",
-    "https://github.com/litlfred/smart-trust-tools/blob/dda5f33acc8a387236970a2d63c1a6169be4d6ad/AGENTS.md"
+    "https://github.com/litlfred/smart-trust-tools/tree/92fa176253c3e7b0527ca8b51624e29107bc3dcd",
+    "https://github.com/litlfred/smart-trust-tools/blob/92fa176253c3e7b0527ca8b51624e29107bc3dcd/README.md",
+    "https://github.com/litlfred/smart-trust-tools/blob/92fa176253c3e7b0527ca8b51624e29107bc3dcd/AGENTS.md"
   ]
 }
